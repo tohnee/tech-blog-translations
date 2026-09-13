@@ -1,0 +1,90 @@
+---
+title: "Generally capable agents emerge from open-ended play"
+source: https://deepmind.google/blog/generally-capable-agents-emerge-from-open-ended-play/
+site: deepmind
+date: 2021-07-27
+authors: Open-Ended Learning team
+crawled: 2026-09-13
+---
+
+In recent years, artificial intelligence agents have succeeded in a range of complex game environments. For instance, [AlphaZero](https://deepmind.com/blog/article/alphazero-shedding-new-light-grand-games-chess-shogi-and-go) beat world-champion programs in chess, shogi, and Go after starting out with knowing no more than the basic rules of how to play. Through [reinforcement learning](https://en.wikipedia.org/wiki/Reinforcement_learning) (RL), this single system learnt by playing round after round of games through a repetitive process of trial and error. But AlphaZero still trained separately on each game — unable to simply learn another game or task without repeating the RL process from scratch. The same is true for other successes of RL, such as [Atari](https://deepmind.com/blog/article/Agent57-Outperforming-the-human-Atari-benchmark), [Capture the Flag](https://deepmind.com/blog/article/capture-the-flag-science), [StarCraft II](https://deepmind.com/blog/article/AlphaStar-Grandmaster-level-in-StarCraft-II-using-multi-agent-reinforcement-learning), Dota 2, and [Hide-and-Seek](https://openai.com/blog/emergent-tool-use/). DeepMind’s mission of solving intelligence to advance science and humanity led us to explore how we could overcome this limitation to create AI agents with more general and adaptive behaviour. Instead of learning one game at a time, these agents would be able to react to completely new conditions and play a whole universe of games and tasks, including ones never seen before.
+
+Today, we published "[Open-Ended Learning Leads to Generally Capable Agents](https://arxiv.org/abs/2107.12808)," a preprint detailing our first steps to train an agent capable of playing many different games without needing human interaction data. We created a vast game environment we call XLand, which includes many multiplayer games within consistent, human-relatable 3D worlds. This environment makes it possible to formulate new learning algorithms, which dynamically control how an agent trains and the games on which it trains. The agent’s capabilities improve iteratively as a response to the challenges that arise in training, with the learning process continually refining the training tasks so the agent never stops learning. The result is an agent with the ability to succeed at a wide spectrum of tasks — from simple object-finding problems to complex games like hide and seek and capture the flag, which were not encountered during training. We find the agent exhibits general, heuristic behaviours such as experimentation, behaviours that are widely applicable to many tasks rather than specialised to an individual task. This new approach marks an important step toward creating more general agents with the flexibility to adapt rapidly within constantly changing environments.
+
+## A universe of training tasks
+
+A lack of training data — where “data” points are different tasks — has been one of the major factors limiting RL-trained agents’ behaviour being general enough to apply across games. Without being able to train agents on a vast enough set of tasks, agents trained with RL have been unable to adapt their learnt behaviours to new tasks. But by designing a simulated space to allow for [procedurally generated tasks](https://en.wikipedia.org/wiki/Procedural_generation), our team created a way to train on, and generate experience from, tasks that are created programmatically. This enables us to include billions of tasks in XLand, across varied games, worlds, and players.
+
+Our AI agents inhabit 3D first-person avatars in a multiplayer environment meant to simulate the physical world. The players sense their surroundings by observing RGB images and receive a text description of their goal, and they train on a range of games. These games are as simple as cooperative games to find objects and navigate worlds, where the goal for a player could be “be near the purple cube.” More complex games can be based on choosing from multiple rewarding options, such as “be near the purple cube or put the yellow sphere on the red floor,” and more competitive games include playing against co-players, such as symmetric hide and seek where each player has the goal, “see the opponent and make the opponent not see me.” Each game defines the rewards for the players, and each player’s ultimate objective is to maximise the rewards.
+
+Because XLand can be programmatically specified, the game space allows for data to be generated in an automated and algorithmic fashion. And because the tasks in XLand involve multiple players, the behaviour of co-players greatly influences the challenges faced by the AI agent. These complex, non-linear interactions create an ideal source of data to train on, since sometimes even small changes in the components of the environment can result in large changes in the challenges for the agents.
+
+![An infographic explaining "The XLand Universe" where a Task is defined as Game plus World plus Co-players. It showcases a "Galaxy of games" represented as a star-filled nebula, with callouts for example games like "Capture the Cube," "Match a Sphere and a Cube," and "Hide and Seek," each detailing rules and game characteristics. Below, a globe-like sphere of varied 3D grid-based "Worlds" points to specific 3D arena designs with blocks, ramps, and colored platforms.](https://lh3.googleusercontent.com/5isaSjl6ovHtYp_920guPbSnifCuPQDVHKIDetX_2s61TxlCQJyAukQsFPbzy0sFxKfGyLpcLx0dDjlH78PS3LpbFjoKAxVtA0QqUnNy-DPPapORZQ=w1440)
+
+XLand consists of a galaxy of games (seen here as points embedded in 2D, coloured and sized based on their properties), with each game able to be played in many different simulated worlds whose topology and characteristics vary smoothly. An instance of an XLand task combines a game with a world and co-players.
+
+## Training methods
+
+Central to our research is the role of deep RL in training the neural networks of our agents. The neural network architecture we use provides an attention mechanism over the agent’s internal recurrent state — helping guide the agent’s attention with estimates of subgoals unique to the game the agent is playing. We’ve found this goal-attentive agent (GOAT) learns more generally capable policies.
+
+We also explored the question, what distribution of training tasks will produce the best possible agent, especially in such a vast environment? The dynamic task generation we use allows for continual changes to the distribution of the agent’s training tasks: every task is generated to be neither too hard nor too easy, but just right for training. We then use [population based training](https://deepmind.com/blog/article/population-based-training-neural-networks) (PBT) to adjust the parameters of the dynamic task generation based on a fitness that aims to improve agents’ general capability. And finally we chain together multiple training runs so each generation of agents can bootstrap off the previous generation.
+
+This leads to a final training process with deep RL at the core updating the neural networks of agents with every step of experience:
+
+- the steps of experience come from training tasks that are dynamically generated in response to agents’ behaviour,
+- agents’ task-generating functions mutate in response to agents’ relative performance and robustness,
+- at the outermost loop, the generations of agents bootstrap from each other, provide ever richer co-players to the multiplayer environment, and redefine the measurement of progression itself.
+
+The training process starts from scratch and iteratively builds complexity, constantly changing the learning problem to keep the agent learning. The iterative nature of the combined learning system, which does not optimise a bounded performance metric but rather the iteratively defined spectrum of general capability, leads to a potentially open-ended learning process for agents, limited only by the expressivity of the environment space and agent neural network.
+
+![Diagram illustrating the iterative training process of generally capable agents across four generations, highlighting population-based training (PBT) in XLand, agent architecture with a Goal Attention Module, and performance evaluation metrics.](https://lh3.googleusercontent.com/lu3egyHeqNE0w1wgoyBBK-M2ciMC2SHqrU0bhZTMTCDrs1vdLe4anzbYmvPj1xUXu47Tf-E8Wub8m_dbIn_EkaNrseblbJFGMbPhRJ12pJceKjlH=w1440)
+
+The learning process of an agent consists of dynamics at multiple timescales.
+
+## Measuring progress
+
+To measure how agents perform within this vast universe, we create a set of evaluation tasks using games and worlds that remain separate from the data used for training. These “held-out” tasks include specifically human-designed tasks like hide and seek and capture the flag.
+
+Because of the size of XLand, understanding and characterising the performance of our agents can be a challenge. Each task involves different levels of complexity, different scales of achievable rewards, and different capabilities of the agent, so merely averaging the reward over held out tasks would hide the actual differences in complexity and rewards — and would effectively treat all tasks as equally interesting, which isn’t necessarily true of procedurally generated environments.
+
+To overcome these limitations, we take a different approach. Firstly, we normalise scores per task using the Nash equilibrium value computed using our current set of trained players. Secondly, we take into account the entire distribution of normalised scores — rather than looking at average normalised scores, we look at the different percentiles of normalised scores — as well as the percentage of tasks in which the agent scores at least one step of reward: participation. This means an agent is considered better than another agent only if it exceeds performance on all percentiles. This approach to measurement gives us a meaningful way to assess our agents’ performance and robustness.
+
+## More generally capable agents
+
+After training our agents for five generations, we saw consistent improvements in learning and performance across our held-out evaluation space. Playing roughly 700,000 unique games in 4,000 unique worlds within XLand, each agent in the final generation experienced 200 billion training steps as a result of 3.4 million unique tasks. At this time, our agents have been able to participate in every procedurally generated evaluation task except for a handful that were impossible even for a human. And the results we’re seeing clearly exhibit general, zero-shot behaviour across the task space — with the frontier of normalised score percentiles continually improving.
+
+![Charts illustrating the evaluation progress of agents over training generations. The top section shows a 3D visualization of test evaluation performance across different percentiles and learning steps up to 152G, alongside a line graph of normalized performance percentiles highlighting that the agent participates in 94% of games and achieves a median normalized performance of 110%. The bottom section displays bar charts showing 0-shot generalization across generations (1G, 38G, and 152G) on hand-authored game levels: Tool use, Ridge-Fencing, Hide and Seek, Capture the Cube, Cooperate or Compete, and Counter Yellow Sphere.](https://lh3.googleusercontent.com/AOo8I0VlRJu1s7R_8msYQDJKqcBcG-lry6XakgzCg278ex2lSjuB-fzESRO81uJmv-vH1DZa1Zepflk9S9JOrZabde7jkW7ppDTpzN_bwxy6rjw8KQ=w1440)
+
+The learning progress of the final generation of our agents, shows how our test metrics progress through time, translating to zero-shot performance on hand-authored held-out test tasks as well.
+
+Looking qualitatively at our agents, we often see general, heuristic behaviours emerge — rather than highly optimised, specific behaviours for individual tasks. Instead of agents knowing exactly the “best thing” to do in a new situation, we see evidence of agents experimenting and changing the state of the world until they’ve achieved a rewarding state. We also see agents rely on the use of other tools, including objects to occlude visibility, to create ramps, and to retrieve other objects. Because the environment is multiplayer, we can examine the progression of agent behaviours while training on held-out [social dilemmas](https://deepmind.com/blog/article/understanding-agent-cooperation), such as in a game of “[chicken](https://en.wikipedia.org/wiki/Chicken_(game))”. As training progresses, our agents appear to exhibit more cooperative behaviour when playing with a copy of themselves. Given the nature of the environment, it is difficult to pinpoint intentionality — the behaviours we see often appear to be accidental, but still we see them occur consistently.
+
+![Diagram showing Test Example 1, where an agent in XLand dynamically evaluates and changes its goal from placing a black pyramid on an orange floor to putting the black pyramid near a yellow sphere, illustrated with the game world layout, goal options, value prediction graph, and step-by-step agent observations, internal state visualizations, and third-person view.](https://lh3.googleusercontent.com/QHiWeiyNX490opQVk4ltuHV5xteKvQd0BYTSOBG0BMy2KCQly0IlokZOngRqwMPTtLFRq-eVAf-Tn6W7JnNBJt7GLiRgPFFx5HOUUPElG8wYV3B9Cw=w1440)
+
+![A diagram illustrating Test Example 2 where an agent in XLand learns to use tools to reach a purple pyramid, displaying the world layout, goal, agent's value prediction over an episode, first-person observations, internal state representations, and third-person view of the gameplay.](https://lh3.googleusercontent.com/fgDlhsMosxHKCjpJyoOvimEHZuoAo7ANbRqZoApxx5YVtlrh1yd347ZYNQb0ubot0kNHL9NdfaDWx3V1BKvFQqM8ieF_Q65XZuO5tlzJN-jyi_eW=w1440)
+
+![A diagram illustrating "Test Example 3" where an agent in XLand faces a logical puzzle, displaying the world layout, a multi-predicate goal, the agent's value prediction over an episode, first-person observations, internal state representations, and third-person views of the gameplay.](https://lh3.googleusercontent.com/uRNQN7sg8w1LqaPHzi9RbNkoOysY4o-o6TuAsrNdrk-8Ztls19sYw8DPH9kN7g7ZpP9MXdIZg4K-HKjPLC1kyH6S9_-mFqvcX8St9tUVCf3_xyiu=w1440)
+
+Above: What types of behaviour emerge? (1) Agents exhibit the ability to switch which option they go for as the tactical situation unfolds. (2) Agents show glimpses of tool use, such as creating ramps. (3) Agents learn a generic trial-and-error experimentation behaviour, stopping when they recognise the correct state has been found. Below: Multiple ways in which the same agents manage to use the objects to reach the goal purple pyramid in this hand-authored probe task.
+
+![3D animation showing a blue capsule-shaped agent navigating a multi-tiered XLand game arena with red, yellow, and purple blocks, maneuvering past obstacles to reach a purple pyramid.](https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/original_images/6227da78191c65b6b3fd8b84_Fig207.gif)
+
+Multiple ways in which the same agents manage to use the objects to reach the goal purple pyramid in this hand-authored probe task.
+
+![A 3D simulation of a blue capsule-shaped agent in an XLand arena, lifting a purple cube with a beam to navigate around obstacles and reach a purple pyramid.](https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/original_images/6227da8818c4c5fe8891d327_Fig208.gif)
+
+Multiple ways in which the same agents manage to use the objects to reach the goal purple pyramid in this hand-authored probe task.
+
+![3D simulation of a blue capsule-shaped agent in an XLand arena, lifting a purple cube with a beam to navigate around obstacles and reach a purple pyramid.](https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/original_images/6227da95b896c3762bbd77cf_Fig209.gif)
+
+Multiple ways in which the same agents manage to use the objects to reach the goal purple pyramid in this hand-authored probe task.
+
+Analysing the agent’s internal representations, we can say that by taking this approach to reinforcement learning in a vast task space, our agents are aware of the basics of their bodies and the passage of time and that they understand the high-level structure of the games they encounter. Perhaps even more interestingly, they clearly recognise the reward states of their environment. This generality and diversity of behaviour in new tasks hints toward the potential to fine-tune these agents on downstream tasks. For instance, we show in the technical paper that with just 30 minutes of focused training on a newly presented complex task, the agents can quickly adapt, whereas agents trained with RL from scratch cannot learn these tasks at all.
+
+By developing an environment like XLand and new training algorithms that support the open-ended creation of complexity, we’ve seen clear signs of zero-shot generalisation from RL agents. Whilst these agents are starting to be generally capable within this task space, we look forward to continuing our research and development to further improve their performance and create ever more adaptive agents.
+
+For more details, see the [preprint of our technical paper](https://arxiv.org/abs/2107.12808) — and [videos of the results](https://youtu.be/lTmL7jwFfdw) we’ve seen. We hope this could help other researchers likewise see a new path toward creating more adaptive, generally capable AI agents. If you’re excited by these advances, consider joining our team.
+
+**Acknowledgements**
+
+This blog post is based on joint work by the Open-Ended Learning Team (listed alphabetically by first name): Adam Stooke, Anuj Mahajan, Catarina Barros, Charlie Deck, Jakob Bauer, Jakub Sygnowski, Maja Trebacz, Max Jaderberg, Michael Mathieu, Nat McAleese, Nathalie Bradley-Schmieg, Nathaniel Wong, Nicolas Porcel, Roberta Raileanu, Steph Hughes-Fitt, Valentin Dalibard, Wojciech Marian Czarnecki.

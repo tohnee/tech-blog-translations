@@ -1,0 +1,60 @@
+---
+title: "Using AI to predict retinal disease progression"
+source: https://deepmind.google/blog/using-ai-to-predict-retinal-disease-progression/
+site: deepmind
+date: 2020-05-18
+authors: Jason Yim, Reena Chopra, Jeffrey De Fauw, Joseph Ledsam
+crawled: 2026-09-13
+---
+
+Vision loss among the elderly is a major healthcare issue: about one in three people have some vision-reducing disease by the age of 65. Age-related macular degeneration (AMD) is the most common cause of blindness in the developed world. In Europe, approximately [25% of those 60 and older](https://www.ncbi.nlm.nih.gov/pubmed/31712255) have AMD. The ‘dry’ form is relatively common among people over 65, and usually causes only mild sight loss. However, about 15% of patients with dry AMD go on to develop a more serious form of the disease – exudative AMD, or exAMD – which can result in rapid and permanent loss of sight. Fortunately, there are treatments that can slow further vision loss. Although there are no preventative therapies available at present, these are being explored in clinical trials. The period before the development of exAMD may therefore represent a critical window to target for therapeutic innovations: can we predict which patients will progress to exAMD, and help prevent sight loss before it even occurs?
+
+In our latest work, published in [Nature Medicine](https://www.nature.com/articles/s41591-020-0867-7), we [collaborated with Moorfields Eye Hospital](https://deepmind.com/blog/article/predicting-eye-disease-moorfields) and [Google Health](https://health.google/) to curate a dataset of images of eye retinas, train an artificial intelligence (AI) system that could predict the development of exAMD, and conduct a study to evaluate our model compared with expert clinicians. We demonstrate that our system is able to perform as well as, or better than, clinicians at predicting whether an eye will convert to exAMD in the next 6 months. Lastly, we explore the potential clinical applicability of our system. Our contribution highlights the potential of using AI in preventative studies for diseases such as exAMD.
+
+## The Moorfields Eye Hospital AMD dataset
+
+We used a dataset of anonymised retinal scans from Moorfields patients with exAMD in one eye, and at high-risk of developing exAMD in their other eye. This comprises 2,795 patients across seven different Moorfields sites in London, with representation across genders, age ranges, and ethnicities. These patients attend the hospital regularly to receive treatment, undergoing high-resolution three-dimensional optical coherence tomography (OCT) imaging of both eyes, at each visit. There is often a delay between when exAMD has developed and when it is diagnosed and treated. To address this, we worked with retinal experts to review all scans for each eye and specify the scan when exAMD was first evident.
+
+## Training an early warning system for AMD
+
+Our system is composed of two deep convolutional neural networks that take as input high-dimensional volumetric eye scans, where each scan consists of 58 million three-dimensional pixels (voxels). In our [previous work, now continuing in collaboration with](https://deepmind.com/blog/article/moorfields-major-milestone) Google Health, we developed a model capable of segmenting these eye scans into thirteen anatomical categories. The segmented data was combined with the raw scan and both were used as inputs to the prediction model, which was trained to estimate a patient’s risk of conversion to exAMD in their other eye within the next six months.
+
+![Flowchart showing a two-stage deep learning (DL) system where a Digital OCT scan is processed by a DL segmentation model to produce a tissue segmentation. Both the original raw scan and the segmented tissue scan are fed into prediction models (DL prediction model 1 and 2, respectively) to estimate the exAMD conversion risk within 6 months.](https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/original_images/62275872f529448055060f8b_Fig201.gif)
+
+Figure 1: AI system for predicting exAMD. Predictions from the raw and segmented retina scans are combined to calculate the risk of AMD progression within 6 months.
+
+The benefit of a two stage system is that it gives the AI different views of the eye scans. Anatomical segmentation of the images helps the system learn to model risks based on signs of known anatomical indicators such as drusen (small fatty deposits), or loss of the retinal pigment epithelium (which helps to feed and protect other layers of the retina). Providing the raw eye scans allows the model to learn to spot other subtle changes that could become potential risk factors. At the end, the system combines the information it extracts from these scans to predict when and if the eye will progress to exAMD within the next 6 months. We chose this time window to enable the system to predict at least two follow-up intervals ahead of time, assuming a maximal follow-up interval of 3 months.
+
+## Clinical expert benchmark for future prediction
+
+It’s important to establish a benchmark of expert human performance to compare how well our system performs to clinical standards. However, prediction of exAMD is not a routine task performed by clinicians, so it’s unclear whether this task is even possible. To investigate this, we conducted a study with six retinal experts - three ophthalmologists and three optometrists, each with at least ten years of experience - to predict whether an eye will convert to exAMD within the ensuing 6 months. Despite the task’s novelty, the experts performed better than chance alone - however, the task is difficult, and there was substantial variability between their assessments. Our system performed as well as, and in some cases better than, experts in predicting exAMD progression, at the same time exhibiting less variability in agreement with each expert, compared to experts with each other.
+
+> AMD is an incredibly complex disease that profoundly affects the lives of millions of people around the world. With this work, we haven’t solved AMD... but I think we’ve just added another big piece of the puzzle.
+
+Pearse Keane
+
+NIHR Clinician Scientist
+
+## Visualising disease progression
+
+It may not be enough for a system to simply provide a prediction: clinicians may also ideally seek information regarding the anatomic basis for predictions, which might be of significant use for further interpretation (for example, for designing studies or considering treatments). A benefit of our system is that it automatically segments each scan into known types of tissue. Extracting these anatomical and pathological features provides a systematic method to visualise the change in these tissues over time. The risk scores given by our system align with anatomical changes over time, and together give a richer picture of exAMD conversion.
+
+![A diagram illustrating the timeline of model risk prediction levels for one patient over 13 months, correlating longitudinal OCT eye scans and AI-segmented tissue feature maps with a line graph of increasing model risk predictions leading up to exAMD conversion and treatment.](https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/original_images/622759246f79ea77eb369e30_Fig202.svg)
+
+Figure 2: Example scans from a patient over 13 months of regular monitoring. The top row of images are raw OCT scans, the middle indicate the anatomical segmentations output by our system, and the bottom row is a top-down view of the segmentations – providing further insight into how the tissues change over time – including drusen (drus. PED), fibrovascular pigment epithelial detachment (fibro. PED), subretinal hyperreflective material (SHRM), and subretinal fluid (SRF). The bottom graph indicates the timeline of patient’s risk levels. At each monitoring point, the system provides a metric of how likely it is that the retina progresses to exAMD in the next 6 months, with the true 6 month window indicated in pink. By adjusting the threshold for this metric, the system can predict conversion with a tradeoff of sensitivity and specificity. Depending on the risk threshold chosen, the model successfully predicts that the eye will progress at least 2 visits before the eye shows definite signs of exAMD.
+
+## Foresight over hindsight
+
+We’re excited by the potential to support clinicians and researchers by developing systems that can help detect retinal diseases earlier and inform the clinical understanding of their progression. A prediction system such as this could be used to inform appropriate follow-up intervals to effectively manage high-risk patients. Our work builds upon promising [early work](https://www.ncbi.nlm.nih.gov/pubmed/28658477) to develop [predictive models](https://www.ncbi.nlm.nih.gov/pubmed/30786275) for [exAMD](https://arxiv.org/abs/1904.05478) based on [retinal photographs](https://www.nature.com/articles/s42256-020-0154-9) and OCT [scans](https://www.ncbi.nlm.nih.gov/pubmed/29971444). Since beginning our collaboration with Moorfields Eye Hospital in 2016, we’ve published two promising studies highlighting the [potential of AI](https://www.nature.com/articles/s41591-018-0107-6.epdf?author_access_token=PAbvHEuv_YYmrPVbG5HqKdRgN0jAjWel9jnR3ZoTv0P43NEH20hFuvBoJk6cvICihn8kmL6tmejFlnuPlbT_0KmJgK6N07SPh_ZLy0Nxb0-LAGIDBaH1fjJTkD9ahUEQpRlEudtlG9E1v3ca9xNQcQ%3D%3D) to transform retinal healthcare.
+
+However, we know there’s still a lot to do – this work does not yet represent a product that could be implemented in routine clinical practice. While our model can make better predictions than clinical experts, there are many other factors to consider for such systems to be impactful in a clinical setting. While the model was trained and evaluated on a population representative of the largest eye hospital in Europe, additional work would be needed to evaluate performance in the context of very different demographics. [A recent study examining](https://dl.acm.org/doi/abs/10.1145/3313831.3376718) the use of a different AI system in a clinical setting highlighted just some of the sociotechnical issues for such systems in practice. Another difficult point to contend with is that any prediction system will have a certain rate of false positives: that is, when a patient is found to have a condition, or predicted to develop one, that they don’t actually have. The tradeoff of adding an imprecise AI system to an early warning loop could be unnecessarily costly to patients who aren’t actually at risk, and would need to be considered carefully in clinical studies of how such systems might be used in practice. In this paper, we propose two system operating points to balance sensitivity (a measure of how well it correctly identifies the disease) and specificity (a measure of how low the false positive rate is). For example, at a specificity of 90%, a sensitivity of 34% is achieved, meaning that the system correctly identified progression in one third of scans that did go on to progress within 6 months. This could identify a number of patients at high risk with a precision that may be sufficient to inform studies of novel treatment strategies that might mitigate vision loss and improve patient outcomes.
+
+We would like to thank Moorfields Eye Hospital and the clinicians who helped curate the data and were involved in our benchmarking study. Please see the paper for all acknowledgements and further details on the work. In addition, we’ve open-sourced the model code for future research, available [here](https://github.com/Google-Health/imaging-research/tree/master/wet-amd-prediction), and Moorfields will be making the dataset available through the [Ryan Initiative for Macular Research.](https://rimr.doheny.org/)
+
+**Notes**
+
+Read the Nature Medicine paper [here](https://eorder.sheridan.com/3_0/app/orders/9502/article.php).
+
+Check out the github repo [here](https://github.com/Google-Health/imaging-research/tree/master/wet-amd-prediction).
+
+Figure design by Paulo Estriga and Adam Cain.

@@ -1,0 +1,10 @@
+---
+title: "Machine Learning vs. Data Mining Research"
+source: https://sebastianraschka.com/faq/docs/datamining-vs-ml.html
+crawled: 2026-09-06
+---
+
+# Machine Learning vs. Data Mining Research
+
+In a nutshell, Data Mining is about the discovery of patterns in datasets or “gaining knowledge and insights” from data. Machine Learning is closely related though. We can think of Machine Learning algorithms as one of he work horses of Data Mining; most Data Mining approaches are based on Machine Learning algorithms. Maybe it helps to think of Data Mining as a pipeline of steps and approaches, and the use of a Machine Learning algorithm is one part of this pipeline.
+Or in other words, Data Mining is not “just” Machine Learning. E.g., data visualization or summarization is also part of Data Mining. What I was trying to say is that Machine Learning is one part, one set of techniques, that is/are being used in Data Mining.

@@ -1,0 +1,373 @@
+[
+ {
+  "slug": "2017-06-21-overview",
+  "title": "An Overview of Deep Learning for Curious People",
+  "date": "2017-06-21",
+  "words": 2622,
+  "file": "posts/2017-06-21-overview.md"
+ },
+ {
+  "slug": "2017-07-08-stock-rnn-part-1",
+  "title": "Predict Stock Prices Using RNN: Part 1",
+  "date": "2017-07-08",
+  "words": 2590,
+  "file": "posts/2017-07-08-stock-rnn-part-1.md"
+ },
+ {
+  "slug": "2017-07-22-stock-rnn-part-2",
+  "title": "Predict Stock Prices Using RNN: Part 2",
+  "date": "2017-07-22",
+  "words": 1998,
+  "file": "posts/2017-07-22-stock-rnn-part-2.md"
+ },
+ {
+  "slug": "2017-08-01-interpretation",
+  "title": "How to Explain the Prediction of a Machine Learning Model?",
+  "date": "2017-08-01",
+  "words": 3718,
+  "file": "posts/2017-08-01-interpretation.md"
+ },
+ {
+  "slug": "2017-08-20-gan",
+  "title": "From GAN to WGAN",
+  "date": "2017-08-20",
+  "words": 4495,
+  "file": "posts/2017-08-20-gan.md"
+ },
+ {
+  "slug": "2017-09-28-information-bottleneck",
+  "title": "Anatomize Deep Learning with Information Theory",
+  "date": "2017-09-28",
+  "words": 1800,
+  "file": "posts/2017-09-28-information-bottleneck.md"
+ },
+ {
+  "slug": "2017-10-15-word-embedding",
+  "title": "Learning Word Embedding",
+  "date": "2017-10-15",
+  "words": 3972,
+  "file": "posts/2017-10-15-word-embedding.md"
+ },
+ {
+  "slug": "2017-10-29-object-recognition-part-1",
+  "title": "Object Detection for Dummies Part 1: Gradient Vector, HOG, and SS",
+  "date": "2017-10-29",
+  "words": 3277,
+  "file": "posts/2017-10-29-object-recognition-part-1.md"
+ },
+ {
+  "slug": "2017-12-15-object-recognition-part-2",
+  "title": "Object Detection for Dummies Part 2: CNN, DPM and Overfeat",
+  "date": "2017-12-15",
+  "words": 1485,
+  "file": "posts/2017-12-15-object-recognition-part-2.md"
+ },
+ {
+  "slug": "2017-12-31-object-recognition-part-3",
+  "title": "Object Detection for Dummies Part 3: R-CNN Family",
+  "date": "2017-12-31",
+  "words": 2866,
+  "file": "posts/2017-12-31-object-recognition-part-3.md"
+ },
+ {
+  "slug": "2018-01-23-multi-armed-bandit",
+  "title": "The Multi-Armed Bandit Problem and Its Solutions",
+  "date": "2018-01-23",
+  "words": 2181,
+  "file": "posts/2018-01-23-multi-armed-bandit.md"
+ },
+ {
+  "slug": "2018-02-19-rl-overview",
+  "title": "A (Long) Peek into Reinforcement Learning",
+  "date": "2018-02-19",
+  "words": 6650,
+  "file": "posts/2018-02-19-rl-overview.md"
+ },
+ {
+  "slug": "2018-04-08-policy-gradient",
+  "title": "Policy Gradient Algorithms",
+  "date": "2018-04-08",
+  "words": 11142,
+  "file": "posts/2018-04-08-policy-gradient.md"
+ },
+ {
+  "slug": "2018-05-05-drl-implementation",
+  "title": "Implementing Deep Reinforcement Learning Models with Tensorflow + OpenAI Gym",
+  "date": "2018-05-05",
+  "words": 2754,
+  "file": "posts/2018-05-05-drl-implementation.md"
+ },
+ {
+  "slug": "2018-06-24-attention",
+  "title": "Attention? Attention!",
+  "date": "2018-06-24",
+  "words": 4559,
+  "file": "posts/2018-06-24-attention.md"
+ },
+ {
+  "slug": "2018-08-12-vae",
+  "title": "From Autoencoder to Beta-VAE",
+  "date": "2018-08-12",
+  "words": 4634,
+  "file": "posts/2018-08-12-vae.md"
+ },
+ {
+  "slug": "2018-10-13-flow-models",
+  "title": "Flow-based Deep Generative Models",
+  "date": "2018-10-13",
+  "words": 4463,
+  "file": "posts/2018-10-13-flow-models.md"
+ },
+ {
+  "slug": "2018-11-30-meta-learning",
+  "title": "Meta-Learning: Learning to Learn Fast",
+  "date": "2018-11-30",
+  "words": 6644,
+  "file": "posts/2018-11-30-meta-learning.md"
+ },
+ {
+  "slug": "2018-12-27-object-recognition-part-4",
+  "title": "Object Detection Part 4: Fast Detection Models",
+  "date": "2018-12-27",
+  "words": 4163,
+  "file": "posts/2018-12-27-object-recognition-part-4.md"
+ },
+ {
+  "slug": "2019-01-31-lm",
+  "title": "Generalized Language Models",
+  "date": "2019-01-31",
+  "words": 7982,
+  "file": "posts/2019-01-31-lm.md"
+ },
+ {
+  "slug": "2019-03-14-overfit",
+  "title": "Are Deep Neural Networks Dramatically Overfitted?",
+  "date": "2019-03-14",
+  "words": 4607,
+  "file": "posts/2019-03-14-overfit.md"
+ },
+ {
+  "slug": "2019-05-05-domain-randomization",
+  "title": "Domain Randomization for Sim2Real Transfer",
+  "date": "2019-05-05",
+  "words": 3104,
+  "file": "posts/2019-05-05-domain-randomization.md"
+ },
+ {
+  "slug": "2019-06-23-meta-rl",
+  "title": "Meta Reinforcement Learning",
+  "date": "2019-06-23",
+  "words": 4804,
+  "file": "posts/2019-06-23-meta-rl.md"
+ },
+ {
+  "slug": "2019-09-05-evolution-strategies",
+  "title": "Evolution Strategies",
+  "date": "2019-09-05",
+  "words": 4800,
+  "file": "posts/2019-09-05-evolution-strategies.md"
+ },
+ {
+  "slug": "2019-11-10-self-supervised",
+  "title": "Self-Supervised Representation Learning",
+  "date": "2019-11-10",
+  "words": 8251,
+  "file": "posts/2019-11-10-self-supervised.md"
+ },
+ {
+  "slug": "2020-01-29-curriculum-rl",
+  "title": "Curriculum for Reinforcement Learning",
+  "date": "2020-01-29",
+  "words": 5153,
+  "file": "posts/2020-01-29-curriculum-rl.md"
+ },
+ {
+  "slug": "2020-04-07-the-transformer-family",
+  "title": "The Transformer Family",
+  "date": "2020-04-07",
+  "words": 5412,
+  "file": "posts/2020-04-07-the-transformer-family.md"
+ },
+ {
+  "slug": "2020-06-07-exploration-drl",
+  "title": "Exploration Strategies in Deep Reinforcement Learning",
+  "date": "2020-06-07",
+  "words": 7643,
+  "file": "posts/2020-06-07-exploration-drl.md"
+ },
+ {
+  "slug": "2020-08-06-nas",
+  "title": "Neural Architecture Search",
+  "date": "2020-08-06",
+  "words": 6920,
+  "file": "posts/2020-08-06-nas.md"
+ },
+ {
+  "slug": "2020-10-29-odqa",
+  "title": "How to Build an Open-Domain Question Answering System?",
+  "date": "2020-10-29",
+  "words": 7218,
+  "file": "posts/2020-10-29-odqa.md"
+ },
+ {
+  "slug": "2021-01-02-controllable-text-generation",
+  "title": "Controllable Neural Text Generation",
+  "date": "2021-01-02",
+  "words": 9049,
+  "file": "posts/2021-01-02-controllable-text-generation.md"
+ },
+ {
+  "slug": "2021-03-21-lm-toxicity",
+  "title": "Reducing Toxicity in Language Models",
+  "date": "2021-03-21",
+  "words": 4875,
+  "file": "posts/2021-03-21-lm-toxicity.md"
+ },
+ {
+  "slug": "2021-05-31-contrastive",
+  "title": "Contrastive Representation Learning",
+  "date": "2021-05-31",
+  "words": 8469,
+  "file": "posts/2021-05-31-contrastive.md"
+ },
+ {
+  "slug": "2021-07-11-diffusion-models",
+  "title": "What are Diffusion Models?",
+  "date": "2021-07-11",
+  "words": 3450,
+  "file": "posts/2021-07-11-diffusion-models.md"
+ },
+ {
+  "slug": "2021-09-25-train-large",
+  "title": "How to Train Really Large Models on Many GPUs?",
+  "date": "2021-09-24",
+  "words": 4093,
+  "file": "posts/2021-09-25-train-large.md"
+ },
+ {
+  "slug": "2021-12-05-semi-supervised",
+  "title": "Learning with not Enough Data Part 1: Semi-Supervised Learning",
+  "date": "2021-12-05",
+  "words": 5641,
+  "file": "posts/2021-12-05-semi-supervised.md"
+ },
+ {
+  "slug": "2022-02-20-active-learning",
+  "title": "Learning with not Enough Data Part 2: Active Learning",
+  "date": "2022-02-20",
+  "words": 4760,
+  "file": "posts/2022-02-20-active-learning.md"
+ },
+ {
+  "slug": "2022-04-15-data-gen",
+  "title": "Learning with not Enough Data Part 3: Data Generation",
+  "date": "2022-04-15",
+  "words": 5942,
+  "file": "posts/2022-04-15-data-gen.md"
+ },
+ {
+  "slug": "2022-06-09-vlm",
+  "title": "Generalized Visual Language Models",
+  "date": "2022-06-09",
+  "words": 5226,
+  "file": "posts/2022-06-09-vlm.md"
+ },
+ {
+  "slug": "2022-09-08-ntk",
+  "title": "Some Math behind Neural Tangent Kernel",
+  "date": "2022-09-08",
+  "words": 3563,
+  "file": "posts/2022-09-08-ntk.md"
+ },
+ {
+  "slug": "2023-01-10-inference-optimization",
+  "title": "Large Transformer Model Inference Optimization",
+  "date": "2023-01-10",
+  "words": 6484,
+  "file": "posts/2023-01-10-inference-optimization.md"
+ },
+ {
+  "slug": "2023-01-27-the-transformer-family-v2",
+  "title": "The Transformer Family Version 2.0",
+  "date": "2023-01-27",
+  "words": 9734,
+  "file": "posts/2023-01-27-the-transformer-family-v2.md"
+ },
+ {
+  "slug": "2023-03-15-prompt-engineering",
+  "title": "Prompt Engineering",
+  "date": "2023-03-15",
+  "words": 4530,
+  "file": "posts/2023-03-15-prompt-engineering.md"
+ },
+ {
+  "slug": "2023-06-23-agent",
+  "title": "LLM Powered Autonomous Agents",
+  "date": "2023-06-23",
+  "words": 6563,
+  "file": "posts/2023-06-23-agent.md"
+ },
+ {
+  "slug": "2023-10-25-adv-attack-llm",
+  "title": "Adversarial Attacks on LLMs",
+  "date": "2023-10-25",
+  "words": 7075,
+  "file": "posts/2023-10-25-adv-attack-llm.md"
+ },
+ {
+  "slug": "2024-02-05-human-data-quality",
+  "title": "Thinking about High-Quality Human Data",
+  "date": "2024-02-05",
+  "words": 4335,
+  "file": "posts/2024-02-05-human-data-quality.md"
+ },
+ {
+  "slug": "2024-04-12-diffusion-video",
+  "title": "Diffusion Models for Video Generation",
+  "date": "2024-04-12",
+  "words": 4216,
+  "file": "posts/2024-04-12-diffusion-video.md"
+ },
+ {
+  "slug": "2024-07-07-hallucination",
+  "title": "Extrinsic Hallucinations in LLMs",
+  "date": "2024-07-07",
+  "words": 6307,
+  "file": "posts/2024-07-07-hallucination.md"
+ },
+ {
+  "slug": "2024-11-28-reward-hacking",
+  "title": "Reward Hacking in Reinforcement Learning",
+  "date": "2024-11-28",
+  "words": 7875,
+  "file": "posts/2024-11-28-reward-hacking.md"
+ },
+ {
+  "slug": "2025-05-01-thinking",
+  "title": "Why We Think",
+  "date": "2025-05-01",
+  "words": 8455,
+  "file": "posts/2025-05-01-thinking.md"
+ },
+ {
+  "slug": "2026-06-24-scaling-laws",
+  "title": "Scaling Laws, Carefully",
+  "date": "2026-06-24",
+  "words": 5204,
+  "file": "posts/2026-06-24-scaling-laws.md"
+ },
+ {
+  "slug": "2026-07-04-harness",
+  "title": "Harness Engineering for Self-Improvement",
+  "date": "2026-07-04",
+  "words": 6720,
+  "file": "posts/2026-07-04-harness.md"
+ },
+ {
+  "slug": "faq",
+  "title": "FAQ",
+  "date": "",
+  "words": 319,
+  "file": "faq.md"
+ }
+]

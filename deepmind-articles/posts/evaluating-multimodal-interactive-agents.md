@@ -1,0 +1,26 @@
+---
+title: "Evaluating Multimodal Interactive Agents"
+source: https://deepmind.google/blog/evaluating-multimodal-interactive-agents/
+site: deepmind
+date: 2022-05-27
+authors: Josh Abramson, Arun Ahuja, Federico Carnevale, Petko Georgiev, Alex Goldin, Jessica Landon, Timothy Lillicrap, Alistair Muldal, Adam Santoro, Tamara von Glehn, Gregory Wayne, Nathaniel Wong, Chen Yan, Blake Richards, Alden Hung
+crawled: 2026-09-13
+---
+
+To train agents to interact well with humans, we need to be able to measure progress. But human interaction is complex and measuring progress is difficult. In this work we developed a method, called the Standardised Test Suite (STS), for evaluating agents in temporally extended, multi-modal interactions. We examined interactions that consist of human participants asking agents to perform tasks and answer questions in a 3D simulated environment.
+
+The STS methodology places agents in a set of behavioural scenarios mined from real human interaction data. Agents see a replayed scenario context, receive an instruction, and are then given control to complete the interaction offline. These agent continuations are recorded and then sent to human raters to annotate as success or failure. Agents are then ranked according to the proportion of scenarios on which they succeed.
+
+![A grid of screenshots illustrating the Standardised Test Suite (STS) evaluation with the instruction "touch the candle which is right of yellow candle with pillow." The top row shows a human successfully completing the task in a 3D virtual room. The middle row shows an agent successfully completing the same task. The bottom row shows two failure cases of an agent picking up the yellow candle instead of the pillow, and touching the cushion instead of the candle.](https://lh3.googleusercontent.com/alsQDZvudfUEM8tJiNKe6Hbh3y0ZT5nv8qzZnJ_mtddlAQOS84_MZCUUynLCM1p5TTETet4U3PlogqHK8qHnn67p2jqRUItvOou5ykmmcvFQguWJ=w1440)
+
+Figure 1: Example of an original scenario taken from two humans interacting alongside successful and unsuccessful agent continuations.
+
+Many of the behaviours that are second nature to humans in our day-to-day interactions are difficult to put into words, and impossible to formalise. Thus, the mechanism relied on for solving games (like Atari, Go, DotA, and Starcraft) with reinforcement learning won't work when we try to teach agents to have fluid and successful interactions with humans. For example, think about the difference between these two questions: "Who won this game of Go?" versus "What are you looking at?" In the first case, we can write a piece of computer code that counts the stones on the board at the end of the game and determines the winner with certainty. In the second case, we have no idea how to codify this: the answer may depend on the speakers, the size and shapes of the objects involved, whether the speaker is joking, and other aspects of the context in which the utterance is given. Humans intuitively understand the myriad of relevant factors involved in answering this seemingly mundane question.
+
+Interactive evaluation by human participants can serve as a touchstone for understanding agent performance, but this is noisy and expensive. It is difficult to control the exact instructions that humans give to agents when interacting with them for evaluation. This kind of evaluation is also in real-time, so it is too slow to rely on for swift progress. Previous works have relied on proxies to interactive evaluation. Proxies, such as losses and scripted probe tasks (e.g. “lift the x” where x is randomly selected from the environment and the success function is painstakingly hand-crafted), are useful for gaining insight into agents quickly, but don’t actually correlate that well with interactive evaluation. Our new method has advantages, mainly affording control and speed to a metric that closely aligns with our ultimate goal - to create agents that interact well with humans.
+
+![A correlation matrix (left) showing evaluation correlations where STS and Interactive Evaluation have a high correlation of 0.81. A scatter plot (right) shows Interactive Evaluation success rate (%) plotted against STS Score, demonstrating a strong positive correlation (Spearman r=0.81) across various agent models.](https://lh3.googleusercontent.com/SBeYBklNO1vvBTXTSS9E2al7T163HdqPW98XuNNi8gIn3WJ1HnWBilmEgzVDLr0rHGptDFCL_pIknhCGCisoDnDhN-dABKrm_daWbK-vDiV4WhuDxQ=w1440)
+
+Figure 2: STS evaluation compared to other evaluation metrics used for evaluating interactive agents. The STS correlates best with interactive evaluation compared to previous proxies used.
+
+The development of MNIST, ImageNet and other human-annotated datasets has been essential for progress in machine learning. These datasets have allowed researchers to train and evaluate classification models for a one-time cost of human inputs. The STS methodology aims to do the same for human-agent interaction research. This evaluation method still requires humans to annotate agent continuations; however, early experiments suggest that automation of these annotations may be possible, which would enable fast and effective automated evaluation of interactive agents. In the meantime, we hope that other researchers can use the methodology and system design to accelerate their own research in this area.

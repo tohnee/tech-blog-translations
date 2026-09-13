@@ -1,0 +1,38 @@
+---
+title: "What is the derivative of the logistic sigmoid function?"
+source: https://sebastianraschka.com/faq/docs/logistic-sigmoid-derivative.html
+crawled: 2026-09-06
+---
+
+# What is the derivative of the logistic sigmoid function?
+
+The derivative of the logistic sigmoid function,
+
+\[\sigma(x) = \frac{1}{1 + e^{-x}},\]
+
+is defined as
+
+\[\frac{d}{dx} = \frac{e^{-x}}{(1 + e^{-x})^2}.\]
+
+Let me walk through the derivation step by step below.
+\(\begin{align}
+\frac{d}{dx}\sigma(x) & = \frac{d}{dx} \frac{1}{1+e^{-x}}\\
+& = \frac{d}{dx}\big( 1+ e^{-x} \big) ^{-1} \quad[\text{apply chain rule}]\\
+& = -(1 + e^{-x})^{-2} \cdot \frac{d}{dx}(1+e^{-x}) \quad[\text{apply sum rule}] \\
+& = -(1 + e^{-x})^{-2} \cdot \bigg(\frac{d}{dx}1 + \frac{d}{dx}e^{-x}\bigg) \\
+& = -(1 + e^{-x})^{-2} \cdot \frac{d}{dx}e^{-x} \quad[\text{apply chain rule}]\\
+& = -(1 + e^{-x})^{-2} \cdot e^{-x}\frac{d}{dx} (-x)\\
+& = -(1 + e^{-x})^{-2} \cdot \big(- e^{-x} \big)\\
+& = \frac{1}{(1 + e^{-x})^{2}} \cdot e^{-x} \\
+& = \frac{e^{-x}}{(1 + e^{-x})^{2}}
+\end{align}\)
+
+We can further simplify the derivative to the expression \(\sigma(x)(1-\sigma(x))\):
+\(\begin{align}
+\frac{e^{-x}}{(1 + e^{-x})^{2}} &= \frac{e^{-x}}{1 + e^{-x}}\cdot\frac{1}{1 + e^{-x}} \\
+& = \frac{-1 + 1 + e^{-x}}{1 + e^{-x}}\cdot\frac{1}{1 + e^{-x}}\\
+& = \bigg(\frac{-1 }{1 + e^{-x}} + \frac{1 + e^{-x} }{1 + e^{-x}} \bigg)\cdot\frac{1}{1 + e^{-x}}\\
+& = \bigg(\frac{-1 }{1 + e^{-x}} + 1 \bigg)\cdot\frac{1}{1 + e^{-x}}\\
+& = \bigg(1 - \frac{1 }{1 + e^{-x}} \bigg)\cdot\frac{1}{1 + e^{-x}}\\
+& = \big(1-\sigma(x)\big) \cdot \sigma(x)
+\end{align}\)

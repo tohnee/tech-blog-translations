@@ -1,0 +1,149 @@
+{
+ "how-we-contain-claude": {
+  "title": "How we contain Claude across products",
+  "published": "2026-05-25",
+  "chars": 30294,
+  "status": "ok"
+ },
+ "april-23-postmortem": {
+  "title": "An update on recent Claude Code quality reports",
+  "published": "2026-04-23",
+  "chars": 11014,
+  "status": "ok"
+ },
+ "managed-agents": {
+  "title": "Scaling Managed Agents: Decoupling the brain from the hands",
+  "published": "2026-04-08",
+  "chars": 14103,
+  "status": "ok"
+ },
+ "claude-code-auto-mode": {
+  "title": "How we built Claude Code auto mode: a safer way to skip permissions",
+  "published": "2026-03-25",
+  "chars": 23521,
+  "status": "ok"
+ },
+ "harness-design-long-running-apps": {
+  "title": "Harness design for long-running application development",
+  "published": "2026-03-24",
+  "chars": 35818,
+  "status": "ok"
+ },
+ "infrastructure-noise": {
+  "title": "Quantifying infrastructure noise in agentic coding evals",
+  "published": "2026-02-05",
+  "chars": 12242,
+  "status": "ok"
+ },
+ "building-c-compiler": {
+  "title": "Building a C compiler with a team of parallel Claudes",
+  "published": "2026-02-05",
+  "chars": 15401,
+  "status": "ok"
+ },
+ "AI-resistant-technical-evaluations": {
+  "title": "Designing AI-resistant technical evaluations",
+  "published": "2026-01-21",
+  "chars": 18098,
+  "status": "ok"
+ },
+ "demystifying-evals-for-ai-agents": {
+  "title": "Demystifying evals for AI agents",
+  "published": "2026-01-09",
+  "chars": 42806,
+  "status": "ok"
+ },
+ "effective-harnesses-for-long-running-agents": {
+  "title": "Effective harnesses for long-running agents",
+  "published": "2025-11-26",
+  "chars": 13893,
+  "status": "ok"
+ },
+ "advanced-tool-use": {
+  "title": "Introducing advanced tool use on the Claude Developer Platform",
+  "published": "2025-11-24",
+  "chars": 25372,
+  "status": "ok"
+ },
+ "code-execution-with-mcp": {
+  "title": "Code execution with MCP: Building more efficient agents",
+  "published": "2025-11-04",
+  "chars": 14585,
+  "status": "ok"
+ },
+ "claude-code-sandboxing": {
+  "title": "Beyond permission prompts: making Claude Code more secure and autonomous",
+  "published": "2025-10-20",
+  "chars": 8482,
+  "status": "ok"
+ },
+ "equipping-agents-for-the-real-world-with-agent-skills": {
+  "title": "Equipping agents for the real world with Agent Skills",
+  "published": "2025-10-16",
+  "chars": 11371,
+  "status": "ok"
+ },
+ "effective-context-engineering-for-ai-agents": {
+  "title": "Effective context engineering for AI agents",
+  "published": "2025-09-29",
+  "chars": 22522,
+  "status": "ok"
+ },
+ "a-postmortem-of-three-recent-issues": {
+  "title": "A postmortem of three recent issues",
+  "published": "2025-09-17",
+  "chars": 15689,
+  "status": "ok"
+ },
+ "writing-tools-for-agents": {
+  "title": "Writing effective tools for agents — with agents",
+  "published": "2025-09-11",
+  "chars": 25090,
+  "status": "ok"
+ },
+ "desktop-extensions": {
+  "title": "Desktop Extensions: One-click MCP server installation for Claude Desktop",
+  "published": "2025-06-26",
+  "chars": 19828,
+  "status": "ok"
+ },
+ "multi-agent-research-system": {
+  "title": "How we built our multi-agent research system",
+  "published": "2025-06-13",
+  "chars": 27259,
+  "status": "ok"
+ },
+ "claude-code-best-practices": {
+  "status": "error: no <article> in claude-code-best-practices"
+ },
+ "claude-think-tool": {
+  "title": "The \"think\" tool: Enabling Claude to stop and think in complex tool use situations",
+  "published": "2025-03-20",
+  "chars": 16346,
+  "status": "ok"
+ },
+ "swe-bench-sonnet": {
+  "title": "Raising the bar on SWE-bench Verified with Claude 3.5 Sonnet",
+  "published": "2025-01-06",
+  "chars": 20093,
+  "status": "ok"
+ },
+ "building-effective-agents": {
+  "title": "Building effective agents",
+  "published": "2024-12-19",
+  "chars": 20852,
+  "status": "ok"
+ },
+ "contextual-retrieval": {
+  "title": "Introducing Contextual Retrieval",
+  "published": "2024-09-19",
+  "chars": 17263,
+  "status": "ok"
+ },
+ "eval-awareness-browsecomp": {
+  "title": "Eval awareness in Claude Opus 4.6’s BrowseComp performance",
+  "published": "2026-03-06",
+  "chars": 13981,
+  "status": "ok"
+ }
+}

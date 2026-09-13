@@ -1,0 +1,62 @@
+---
+title: "Challenges in Detoxifying Language Models"
+source: https://deepmind.google/blog/challenges-in-detoxifying-language-models/
+site: deepmind
+date: 2021-09-15
+authors: Johannes Welbl, Mia Glaese, Jonathan Uesato, Sumanth Dathathri, John Mellor, Lisa Anne Hendricks, Kirsty Anderson, Pushmeet Kohli, Ben Coppin, Po-Sen Huang
+crawled: 2026-09-13
+---
+
+## Undesired Behavior from Language Models
+
+Language models trained on large text corpora can generate [fluent text](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf), and show promise as [few/zero shot learners](https://arxiv.org/abs/2005.14165) and code generation tools, amongst other capabilities. However, prior research has also identified several issues with LM use that should be addressed, including [distributional biases](https://arxiv.org/abs/1911.03064), [social stereotypes](https://arxiv.org/abs/2004.09456), potentially revealing [training samples](https://arxiv.org/abs/2012.07805), and other [possible LM harms](https://dl.acm.org/doi/pdf/10.1145/3442188.3445922). One particular type of LM harm is the generation of [toxic language](https://arxiv.org/abs/2009.11462), which includes hate speech, insults, profanities and threats.
+
+In our paper, we focus on LMs and their [propensity](https://arxiv.org/abs/2009.11462) to generate toxic language. We study the effectiveness of different methods to mitigate LM toxicity, and their side-effects, and we investigate the reliability and limits of classifier-based automatic toxicity evaluation.
+
+Following the definition of toxicity developed by [Perspective API](https://perspectiveapi.com/), we here consider an utterance to be toxic if it is rude, disrespectful, or unreasonable language that is likely to make someone leave a discussion. However, we note two important caveats. First, toxicity judgements are subjective—they depend both on the raters evaluating toxicity and their cultural background, as well as the inferred context. While not the focus of this work, it is important for future work to continue to develop this above definition, and clarify how it can be fairly applied in different contexts. Second, we note that toxicity covers only one aspect of possible LM harms, excluding e.g. harms arising from distributional model bias.
+
+## Measuring and Mitigating Toxicity
+
+To enable safer language model use, we set out to measure, understand the origins of, and mitigate toxic text generation in LMs. There has been prior work which has considered various approaches towards reducing LM toxicity, either by [fine-tuning](https://arxiv.org/abs/2004.10964) [pre-trained LMs](https://arxiv.org/abs/2009.11462), by [steering model generations](https://openreview.net/forum?id=H1edEyBKDS), or through direct [test-time filtering](https://arxiv.org/abs/2104.06390). Further, prior [work](https://arxiv.org/abs/2009.11462) has introduced automatic metrics for measuring LM toxicity, both when prompted with different kinds of prompts, as well as in unconditional generation. These metrics rely on the toxicity scores of the widely used [Perspective API](https://perspectiveapi.com/) model, which is trained on online comments annotated for toxicity.
+
+In our study we first show that a combination of relatively simple baselines leads to a drastic reduction, as measured by previously introduced LM toxicity [metrics](https://arxiv.org/abs/2009.11462). Concretely, we find that a combination of i) filtering the LM training data annotated as toxic by [Perspective API](https://perspectiveapi.com/), ii) filtering generated text for toxicity based on a separate, fine-tuned BERT classifier trained to detect toxicity, and iii) [steering](https://arxiv.org/abs/1912.02164) the generation towards being less toxic, is highly effective at reducing LM toxicity, as measured by automatic toxicity metrics. When prompted with toxic (or non-toxic) prompts from the [RealToxicityPrompts](https://arxiv.org/abs/2009.11462) dataset, we see a 6-fold (or 17-fold) reduction compared with the previously reported state-of-the-art, in the aggregate Probability of Toxicity metric. We reach a value of zero in the unprompted text generation setting, suggesting that we have exhausted this metric. Given how low the toxicity levels are in absolute terms, as measured with automatic metrics, the question arises to what extent this is also reflected in human judgment, and whether improvements on these metrics are still meaningful, especially since they are derived from an imperfect automatic classification system. To gather further insights, we turn towards evaluation by humans.
+
+## Evaluation by Humans
+
+We conduct a human evaluation study where raters annotate LM-generated text for toxicity. The results of this study indicate that there is a direct and largely monotonic relation between average human and classifier-based results, and LM toxicity reduces according to human judgment.
+
+![A scatter plot comparing Average Human toxicity scores (y-axis) against Average Perspective API scores (x-axis). Different markers representing levels of "increasing intervention strength" show that as the detoxification intervention strength increases (indicated by a downward blue arrow on the legend), both average human and Perspective API toxicity scores decrease.](https://lh3.googleusercontent.com/m6FUNlOtHhVXzOe7UbXpUmKfjy4UlWmve2c3gfBPEvMJPEgQOhdcwK4AfsQCA26EUbhooP16FV3dfw90UGEaj_ihegesU6CFRZKWqnzgwIWQXEcZiaQ=w1440)
+
+We found inter-annotator agreement comparable to other studies measuring toxicity, and that annotating toxicity has aspects that are subjective and ambiguous. For example, we found that ambiguity frequently arose as a result of sarcasm, news-style text about violent behavior, and quoting toxic text (either neutrally or in order to disagree with it).
+
+In addition, we find that automatic evaluation of LM toxicity becomes less reliable once detoxification measures have been applied. While initially coupled very well, for samples with a high (automatic) toxicity score, the link between human ratings and Perspective API scores disappears once we apply and increase the strength of LM toxicity reduction interventions.
+
+![A horizontal bar chart showing that for samples with a high Perspective API score (> 0.75), increasing the detoxification intervention strength drastically reduces the average human toxicity score (light green bars) to near zero, while the average Perspective API score (dark blue bars) remains consistently high at around 0.85.](https://lh3.googleusercontent.com/zNxDsESHZJAUMPQKK_ffq-b0rMGOn3IoEMKmTc_zwQSeeCTqdAtG6NkeWe4t63TLZZpXjFIaHgVEOyo4KTqnaOOKE_nHNZq9yZwuf7brBTWICtwt1A=w1440)
+
+Further manual inspection also reveals that false positive texts mention some identity terms at disproportionate frequencies. For example, for one detoxified model, we observe that within the high automatic toxicity bucket, 30.2% of texts mention the word “gay”, reflecting previously observed biases in automatic toxicity classifiers (which the community is already [working on](https://research.google/pubs/pub46743/) improving). Together, these findings suggest that when judging LM toxicity, a reliance on automatic metrics alone could lead to potentially misleading interpretations.
+
+## Unintended Consequences of Detoxification
+
+We further study possible unintended consequences resulting from the LM toxicity reduction interventions. For detoxified language models, we see a marked increase in the language modeling loss, and this increase correlates with the strength of the detoxification intervention. However, the increase is larger on documents that have higher automatic toxicity scores, compared to documents with lower toxicity scores. At the same time, in our human evaluations we did not find notable differences in terms of grammar, comprehension, and in how well the style of prior conditioning text is preserved.
+
+Another consequence of detoxification is that it can disproportionately reduce the ability of the LM to model texts related to certain identity groups (i.e. topic coverage), and also text by people from different identity groups and with different dialects (i.e. dialect coverage). We find that there is a larger increase in the language modeling loss for text in African-American English (AAE) when compared to text in White-Aligned English.
+
+![A bar chart comparing language modeling loss gap (y-axis) against increasing detoxification intervention strength (x-axis) for White-Aligned English (light green bars) and African-American English (purple bars). As intervention strength increases, the loss gap increases for both dialects, with a consistently higher loss gap for African-American English compared to White-Aligned English.](https://lh3.googleusercontent.com/ErvL0KN9hohWf_QYVLf2_-ZjIXnxUO0umKL6qfRarcIP1iSjkBS0DJvWDl6oTy73k3_8f--NpZufMM0LBTNZAOanWZLwib-sh50lNVzlGh4rszhUTA=w1440)
+
+We see similar disparities in LM-loss degradation for text related to female actors when compared to text about male actors. For text about certain ethnic subgroups (such as Hispanic American), the degradation in performance is again relatively higher when compared to other subgroups.
+
+![Two bar charts side-by-side comparing language modeling loss gap (y-axis) against increasing detoxification intervention strength (x-axis) across demographics. The left chart shows that as intervention strength increases, the loss gap increases for both male actors (light green) and female actors (purple), with female actors consistently experiencing a higher loss gap. The right chart shows a similar increase in loss gap with stronger interventions across ethnic subgroups, with Hispanic American (orange) consistently showing the highest loss gap, followed by Asian American (red), African American (purple), and European American (light green).](https://lh3.googleusercontent.com/2pevPnkmoBp1hqlUtkUvdrPSX-zMBkwoblYUxeWaS_rCShqUGXsO0XAc7u4MwZhKNw9Na96epwXgI9EWSGr66hPDe5w3d3zWOJHzgxe5icqdlc4S=w1440)
+
+## Takeaways
+
+Our experiments on measuring and mitigating language model toxicity provide us valuable insights into potential next steps towards reducing toxicity-related language model harms.
+
+From our automated and human evaluation studies, we find that existing mitigation methods are indeed very effective at reducing automatic toxicity metrics, and this improvement is largely matched with reductions in toxicity as judged by humans. However, we might have reached an exhaustion point for the use of automatic metrics in LM toxicity evaluation: after the application of toxicity reduction measures, the majority of remaining samples with high automatic toxicity scores are not actually judged as toxic by human raters, indicating that automatic metrics become less reliable for detoxified LMs. This motivates efforts towards designing more challenging benchmarks for automatic evaluation, and to consider human judgment for future studies on LM toxicity mitigation.
+
+Further, given the ambiguity in human judgements of toxicity, and noting that judgements can vary across users and applications (e.g. language describing violence, that might otherwise be flagged as toxic, might be appropriate in a news article), future work should continue to develop and adapt the notion of toxicity for different contexts, and refine it for different LM applications. We hope the list of phenomena which we found annotator disagreement for is helpful in this regard.
+
+Finally, we also noticed unintended consequences of LM toxicity mitigation, including a deterioration in LM loss, and an unintended amplification of social biases - measured in terms of topic and dialect coverage - potentially leading to decreased LM performance for marginalized groups. Our findings suggest that alongside toxicity, it is key for future work to not rely on just a single metric, but to consider an “ensemble of metrics” which capture different issues. Future interventions, such as further reducing bias in toxicity classifiers will potentially help prevent trade-offs like the ones we observed, enabling safer language model use.
+
+**Acknowledgements**
+
+We would like to thank James Besley, Phil Blunsom, Taylan Cemgil, Sanah Choudhry, Iason Gabriel, Geoffrey Irving, Maribeth Rauh, Sebastian Ruder, and Laura Weidinger for comments and discussion, as well as Lucy Vasserman and Jeffrey Sorensen for providing support with using Perspective API, and for discussing their findings on detecting toxicity.

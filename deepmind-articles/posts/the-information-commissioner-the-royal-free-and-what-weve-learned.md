@@ -1,0 +1,33 @@
+---
+title: "The Information Commissioner, the Royal Free, and what we’ve learned"
+source: https://deepmind.google/blog/the-information-commissioner-the-royal-free-and-what-weve-learned/
+site: deepmind
+date: 2017-07-03
+authors: Mustafa Suleyman, Dominic King
+crawled: 2026-09-13
+---
+
+Today, [dozens of people in UK hospitals will die preventably](http://qualitysafety.bmj.com/content/early/2012/07/06/bmjqs-2012-001159) from conditions like sepsis and acute kidney injury (AKI) when their warning signs aren't picked up and acted on in time. To help address this, we built the [Streams](https://deepmind.com/about/health) app with clinicians at the Royal Free London NHS Foundation Trust, using mobile technology to automatically review test results for serious issues starting with AKI. If one is found, Streams sends a secure smartphone alert to the right clinician, along with information about previous conditions so they can make an immediate diagnosis.
+
+We’re proud that, within a few weeks of Streams being deployed at the Royal Free, [nurses said that it was saving them up to two hours each day](https://www.royalfree.nhs.uk/news-media/news/new-app-helping-to-improve-patient-care/), and we've already heard examples of [patients with serious conditions](https://www.standard.co.uk/news/health/new-mother-receives-pioneering-kidney-treatment-after-app-detects-lifethreatening-illness-a3476936.html) being seen more quickly thanks to the instant alerts. Because Streams is designed to be ready for more advanced technology in the future, including AI-powered clinical alerts, we hope that it will help bring even more benefits to patients and clinicians in time.
+
+The Information Commissioner (ICO) has [now concluded](https://ico.org.uk/about-the-ico/news-and-events/news-and-blogs/2017/07/royal-free-google-deepmind-trial-failed-to-comply-with-data-protection-law/) a year-long investigation that focused on the Royal Free’s clinical testing of Streams in late 2015 and 2016, which was intended to guarantee that the service could be deployed safely at the hospital. The ICO wasn’t satisfied that there was a legal basis for this use of patient data in testing (as the National Data Guardian [said too](https://www.theguardian.com/technology/2017/may/16/google-deepmind-16m-patient-record-deal-inappropriate-data-guardian-royal-free)), and raised concerns about how much patients knew about what was happening. The ICO recognised that many of these issues have already been addressed by the Royal Free, and has asked the Trust to sign a formal undertaking to ensure compliance in future.
+
+The ICO’s undertaking also recognised that the Royal Free has stayed in control of all patient data, with DeepMind confined to the role of “data processor” and acting on the Trust’s instructions throughout. No issues have been raised about the safety or security of the data.
+
+We welcome the ICO’s thoughtful resolution of this case, which we hope will guarantee the ongoing safe and legal handling of patient data for Streams.
+
+Although today’s findings are about the Royal Free, we need to reflect on our own actions too. In our determination to achieve quick impact when this work started in 2015, we underestimated the complexity of the NHS and of the rules around patient data, as well as the potential fears about a well-known tech company working in health. We were almost exclusively focused on building tools that nurses and doctors wanted, and thought of our work as technology for clinicians rather than something that needed to be accountable to and shaped by patients, the public and the NHS as a whole. We got that wrong, and we need to do better.
+
+Since then, we’ve worked hard on some major improvements to our transparency, oversight and engagement. For example:
+
+- Our initial legal agreement with the Royal Free in 2015 could have been much more detailed about the specific project underway, as well as the rules we had agreed to follow in handling patient information. We and the Royal Free replaced it in 2016 with a far more comprehensive contract (available on [this page](https://deepmind.com/about/health)), and we’ve signed similarly strong agreements with other NHS Trusts using Streams.
+- We made a mistake in not publicising our work when it first began in 2015, so we’ve proactively announced and published the contracts for our subsequent NHS partnerships.
+- In our initial rush to collaborate with nurses and doctors to create products that addressed clinical need, we didn't do enough to make patients and the public aware of our work or invite them to challenge and shape our priorities. Since then we have worked with patient experts, devised a [patient and public engagement strategy](https://deepmind.com/about/health), and held our first big open event in September 2016 with many more to come.
+- In an effort to significantly increase the oversight of our work, we invited [nine respected Independent Reviewers](https://deepmind.com/about/health) to scrutinise DeepMind Health, long before any regulatory or media criticism. This group is due to publish their findings from their first year soon, and we’re looking forward to their recommendations for how we can improve.
+
+We hope that these steps will help raise the bar for NHS IT overall, and we want to go further in future with projects like our [Verifiable Data Audit](https://deepmind.com/blog/article/trust-confidence-verifiable-data-audit).
+
+Ultimately, if we want to build technology to support a vital social institution like the NHS, then we have to make sure we serve society’s priorities and not outrun them. There’s a fine line between finding exciting new ways to improve care, and moving ahead of patients’ expectations. We know that we fell short at this when our work in health began, and we’ll keep listening and learning about how to get better at this. We also completely agree with respected voices including the [National Data Guardian](https://www.gov.uk/government/news/national-data-guardian-emphasises-need-for-a-public-conversation)and [Understanding Patient Data](https://understandingpatientdata.org.uk/) who have called for much more public conversation about the use of data to improve healthcare, and we’ll support that however we can.
+
+We're a team of people who grew up with and worked in the NHS, brought together by the privileged opportunity to apply our expertise to help patients, nurses, doctors, and the health service we love. This is an amazing opportunity for us to prove what we have always believed: that if we get the ethics, accountability and engagement right, then new technology systems can have incredible positive social impact. This is the most important challenge we can imagine.

@@ -1,0 +1,44 @@
+---
+title: "How Gemini plans such detailed vacation itineraries for you"
+source: https://blog.google/products-and-platforms/products/gemini/how-gemini-plans-trips/
+site: gemini
+date: 2026-08-06
+authors: Sarah Armstrong
+crawled: 2026-09-13
+---
+
+Planning a trip can feel like a second job. Between hunting down flight confirmations, mapping distances between destinations, and scrolling through countless restaurant reviews, the logistics quickly stack up. Gemini can take some of that work off your plate, helping you organize custom vacations with less stress. All you need to do is ask.
+
+Gemini doesn’t just browse the web — it connects directly to Google Maps, Hotels, and Flights to build highly personalized itineraries based on real-world data and your specific preferences. Here’s what happens behind the scenes when you ask it for help planning a trip, whether you’re brainstorming options or finalizing bookings.
+
+## Gathering real-time data
+
+Let’s say you’re taking a trip to Kyoto later this year. You need flights, hotels, and restaurant reservations — plus stuff to do while you’re there. Gemini first tackles this challenge by tapping into Google’s ecosystem for accurate, real-world data.
+
+Gemini gets real-time information — think locations, reviews, prices, and more — from Google Maps, Flights, and Hotels. It also pulls visual inspiration and recommendations from YouTube creators. And if you call on the Viator app while you’re in Gemini, it can even help you explore and book expertly curated travel tours, activities, and excursions.
+
+## Finding the best recommendations
+
+Gemini then pairs that Google Search data with advanced AI to give you custom travel recommendations.
+
+Gemini uses the context you’ve provided in your prompt — including basics, like your destination and travel dates, or specifics, like that you’re looking for hidden-gem brunch spots near the train station. And if you toggle on [Personal Intelligence](https://gemini.google/overview/personal-intelligence/) in Google apps — like Gmail, Photos, Search, and YouTube — Gemini can proactively factor in your interests, preferences, and constraints.
+
+With Personal Intelligence, Gemini securely connects the dots across your Google apps, past chats, and custom instructions. It can make personalized suggestions, like restaurants to try based on food pictures you’ve saved to Google Photos or travel videos you’ve searched on YouTube. It can also reference plans you’ve already booked using flight details, hotel confirmations, and restaurant reservations in your Gmail.
+
+If you ask Gemini to remember your interests and past picks, it can help you find new favorites fine-tuned to your tastes. It can even identify patterns across your Google apps to recommend your next perfect travel destination.
+
+## Building your itinerary
+
+Gemini understands how different trip requirements — like locations, travel times, existing plans, and personal preferences — intersect. So when you ask it to build an itinerary, it creates a cohesive plan that accounts for all your constraints.
+
+Gemini can create custom routes and group things to do by neighborhood. And with Personal Intelligence, it can build your itinerary around your existing plans and preferences — cross-referencing times and locations before weaving things into your schedule.
+
+[Gemini Spark](https://gemini.google/overview/agent/spark/), your 24/7 personal AI agent, can also make sense of your inbox — turning messy trip-planning email chains into a clear master plan. Ask it to monitor your Gmail, and as items related to your trip (like booked tours, flights, and hotels) pop up, it works in the background — automatically building out a Google Doc with your travel itinerary.
+
+## Finalizing the details
+
+Gemini doesn’t stop at building itineraries. It can handle the heavy lifting and help you finalize the details of your trip.
+
+Gemini Spark, for example, can help with mundane tasks, like comparing rental cars or drafting a packing list. It handles the research, saving you the tedium of juggling multiple tabs or obsessively checking the weather. When it’s done, it suggests the best choices and lets you make the final decision.
+
+Gemini Spark can also even use Chrome to navigate to your favorite airline’s site, search for flights, and start filling in your booking information — handing the task back over to you, so all you have to do is press “book.” It can also help you find and book travel accommodations and manage dining reservations. And if you give it access, it can email your finalized itinerary to your travel crew so everyone knows the plan.

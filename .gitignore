@@ -1,0 +1,20 @@
+# 系统与工具状态
+.DS_Store
+.venv/
+__pycache__/
+*.pyc
+.mimosa/
+.v2c/
+.video_agent/
+out/
+
+# 早期快照（内容已并入 sebastianraschka-articles/）
+归档.zip
+
+# 工作数据：全站源码缓存与抓取中间产物（不入库；正式归档为各 *-articles/ 下的 markdown）
+lilianweng-src/
+lilianweng-src-md/
+lilianweng-md-real/
+sujianlin-src/
+openai-articles/posts_webreader_backup/
+vllm-articles/html/

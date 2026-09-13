@@ -1,0 +1,940 @@
+[
+  {
+    "slug": "2023-06-20-vllm",
+    "title": "vLLM: Easy, Fast, and Cheap LLM Serving with PagedAttention",
+    "date": "2023-06-20",
+    "description": "What the original vLLM launch announced: PagedAttention for KV cache management, up to 24x throughput over Hugging Face Transformers, and lower-cost high-throug",
+    "url": "https://vllm.ai/blog/2023-06-20-vllm"
+  },
+  {
+    "slug": "2023-11-14-notes-vllm-vs-deepspeed",
+    "title": "Notes on vLLM v.s. DeepSpeed-FastGen",
+    "date": "2023-11-14",
+    "description": "A performance comparison of vLLM and DeepSpeed-FastGen, explaining when Dynamic SplitFuse helps, where vLLM is faster, and how memory allocation, output length,",
+    "url": "https://vllm.ai/blog/2023-11-14-notes-vllm-vs-deepspeed"
+  },
+  {
+    "slug": "2024-07-23-llama31",
+    "title": "Announcing Llama 3.1 Support in vLLM",
+    "date": "2024-07-23",
+    "description": "How vLLM supports Meta Llama 3.1 models, including 128K context, Llama 3.1 405B serving, chunked prefill, FP8 quantization, tensor and pipeline parallelism, CPU",
+    "url": "https://vllm.ai/blog/2024-07-23-llama31"
+  },
+  {
+    "slug": "2024-07-25-lfai-perf",
+    "title": "vLLM’s Open Governance and Performance Roadmap",
+    "date": "2024-07-25",
+    "description": "vLLM's open governance and performance roadmap, covering LF AI and Data incubation, public benchmarks, optimized kernels, async scheduling, API frontend overhea",
+    "url": "https://vllm.ai/blog/2024-07-25-lfai-perf"
+  },
+  {
+    "slug": "2024-09-05-perf-update",
+    "title": "vLLM v0.6.0: 2.7x Throughput Improvement and 5x Latency Reduction",
+    "date": "2024-09-05",
+    "description": "What changed in vLLM v0.6.0 to improve throughput and latency, including API server isolation, reduced CPU overhead, multi-step scheduling, async execution, and",
+    "url": "https://vllm.ai/blog/2024-09-05-perf-update"
+  },
+  {
+    "slug": "2024-10-17-spec-decode",
+    "title": "How Speculative Decoding Boosts vLLM Performance by up to 2.8x",
+    "date": "2024-10-17",
+    "description": "How speculative decoding works in vLLM, covering EAGLE, Medusa, n-gram proposals, draft and target runners, scheduler and memory-manager changes, and continuous",
+    "url": "https://vllm.ai/blog/2024-10-17-spec-decode"
+  },
+  {
+    "slug": "2024-10-23-vllm-serving-amd",
+    "title": "Serving LLMs on AMD MI300X: Best Practices",
+    "date": "2024-10-23",
+    "description": "Best practices for serving LLMs with vLLM on AMD MI300X, covering ROCm setup, Llama 3.1 70B and 405B benchmarks, chunked prefill, multi-step scheduling, prefix",
+    "url": "https://vllm.ai/blog/2024-10-23-vllm-serving-amd"
+  },
+  {
+    "slug": "2025-01-10-dev-experience",
+    "title": "Installing and Developing vLLM with Ease",
+    "date": "2025-01-10",
+    "description": "How to install and develop vLLM using stable releases, nightly wheels, uv, source builds, Python and C++/CUDA workflows, and version tracking for production dep",
+    "url": "https://vllm.ai/blog/2025-01-10-dev-experience"
+  },
+  {
+    "slug": "2025-01-10-vllm-2024-wrapped-2025-vision",
+    "title": "vLLM 2024 Retrospective and 2025 Vision",
+    "date": "2025-01-10",
+    "description": "A vLLM 2024 retrospective and 2025 roadmap covering community growth, model and hardware support, production adoption, office hours, ecosystem partnerships, and",
+    "url": "https://vllm.ai/blog/2025-01-10-vllm-2024-wrapped-2025-vision"
+  },
+  {
+    "slug": "2025-01-14-struct-decode-intro",
+    "title": "Structured Decoding in vLLM: a gentle introduction",
+    "date": "2025-01-14",
+    "description": "How structured decoding works in vLLM, covering JSON outputs, grammar-guided generation, outlines, XGrammar, TPOT improvements, constrained decoding, and agenti",
+    "url": "https://vllm.ai/blog/2025-01-14-struct-decode-intro"
+  },
+  {
+    "slug": "2025-01-21-stack-release",
+    "title": "High Performance and Easy Deployment of vLLM in K8S with vLLM production-stack",
+    "date": "2025-01-21",
+    "description": "What vLLM production-stack adds for Kubernetes serving: prefix-aware routing, LMCache-backed KV cache sharing, autoscaling, observability, fault tolerance, and",
+    "url": "https://vllm.ai/blog/2025-01-21-stack-release"
+  },
+  {
+    "slug": "2025-01-27-intro-to-llama-stack-with-vllm",
+    "title": "Introducing vLLM Inference Provider in Llama Stack",
+    "date": "2025-01-27",
+    "description": "How Llama Stack integrates vLLM as an inference provider through remote and inline providers, enabling OpenAI-compatible vLLM serving for local and Kubernetes g",
+    "url": "https://vllm.ai/blog/2025-01-27-intro-to-llama-stack-with-vllm"
+  },
+  {
+    "slug": "2025-01-27-v1-alpha-release",
+    "title": "vLLM V1: A Major Upgrade to vLLM's Core Architecture",
+    "date": "2025-01-27",
+    "description": "What changed in vLLM V1: a re-architected engine with a simpler scheduler, near-zero-overhead prefix caching, cleaner tensor parallelism, multiprocessing API se",
+    "url": "https://vllm.ai/blog/2025-01-27-v1-alpha-release"
+  },
+  {
+    "slug": "2025-02-17-distributed-inference",
+    "title": "Distributed Inference with vLLM",
+    "date": "2025-02-17",
+    "description": "A guide to distributed inference in vLLM, covering tensor parallelism, pipeline parallelism, multi-GPU and multi-node serving, KV cache challenges, speculative",
+    "url": "https://vllm.ai/blog/2025-02-17-distributed-inference"
+  },
+  {
+    "slug": "2025-02-21-aibrix-release",
+    "title": "Introducing AIBrix: A Scalable, Cost-Effective Control Plane for vLLM",
+    "date": "2025-02-21",
+    "description": "What AIBrix adds as a Kubernetes control plane for vLLM: LoRA management, LLM gateway routing, autoscaling, unified runtime, distributed inference, distributed",
+    "url": "https://vllm.ai/blog/2025-02-21-aibrix-release"
+  },
+  {
+    "slug": "2025-02-24-ptpc-fp8-rocm",
+    "title": "PTPC-FP8: Boosting vLLM Performance on AMD ROCm",
+    "date": "2025-02-24",
+    "description": "How PTPC-FP8 quantization improves vLLM performance on AMD ROCm by combining per-token activation scaling and per-channel weight scaling for near-BF16 accuracy",
+    "url": "https://vllm.ai/blog/2025-02-24-ptpc-fp8-rocm"
+  },
+  {
+    "slug": "2025-04-05-llama4",
+    "title": "Llama 4 in vLLM",
+    "date": "2025-04-05",
+    "description": "How vLLM serves Meta Llama 4 Scout and Maverick multimodal MoE models with long-context support, tensor parallel deployment, H100 and H200 guidance, FP8 variant",
+    "url": "https://vllm.ai/blog/2025-04-05-llama4"
+  },
+  {
+    "slug": "2025-04-11-transformers-backend",
+    "title": "Transformers modeling backend integration in vLLM",
+    "date": "2025-04-11",
+    "description": "How vLLM integrates the Hugging Face Transformers modeling backend to serve more model architectures efficiently, including text and vision-language models thro",
+    "url": "https://vllm.ai/blog/2025-04-11-transformers-backend"
+  },
+  {
+    "slug": "2025-04-23-openrlhf-vllm",
+    "title": "Accelerating RLHF with vLLM, Best Practice from OpenRLHF",
+    "date": "2025-04-23",
+    "description": "How OpenRLHF uses vLLM, Ray, ZeRO-3, AutoTP, Ray placement groups, and weight synchronization to accelerate PPO and RLHF sample generation for reasoning models",
+    "url": "https://vllm.ai/blog/2025-04-23-openrlhf-vllm"
+  },
+  {
+    "slug": "2025-05-12-hardware-plugin",
+    "title": "Introducing vLLM Hardware Plugin, Best Practice from Ascend NPU",
+    "date": "2025-05-12",
+    "description": "How vLLM hardware plugins decouple backend integrations from core vLLM, using Platform, Executor, Worker, ModelRunner, AttentionBackend, and Communicator hooks",
+    "url": "https://vllm.ai/blog/2025-05-12-hardware-plugin"
+  },
+  {
+    "slug": "2025-06-30-minimax-m1",
+    "title": "MiniMax-M1 Hybrid Architecture Meets vLLM: Long Context, Fast Inference",
+    "date": "2025-06-30",
+    "description": "How vLLM serves MiniMax-M1's hybrid MoE architecture for long-context inference, covering model deployment, memory management, batched serving, backend optimiza",
+    "url": "https://vllm.ai/blog/2025-06-30-minimax-m1"
+  },
+  {
+    "slug": "2025-08-05-gpt-oss",
+    "title": "vLLM Now Supports gpt-oss",
+    "date": "2025-08-05",
+    "description": "How vLLM supports gpt-oss 20B and 120B on NVIDIA Blackwell, Hopper, and AMD GPUs, with MXFP4 MoE kernels, efficient attention, hybrid KV cache allocation, and b",
+    "url": "https://vllm.ai/blog/2025-08-05-gpt-oss"
+  },
+  {
+    "slug": "2025-08-11-cuda-debugging",
+    "title": "CUDA Core Dump: An Effective Tool to Debug Memory Access Issues and Beyond",
+    "date": "2025-08-11",
+    "description": "How to debug vLLM CUDA illegal memory access errors with CUDA core dumps, environment variables, cuda-gdb, and GPU state inspection when Python stack traces or",
+    "url": "https://vllm.ai/blog/2025-08-11-cuda-debugging"
+  },
+  {
+    "slug": "2025-08-19-glm45-vllm",
+    "title": "GLM-4.5 Meets vLLM: Built for Intelligent Agents",
+    "date": "2025-08-19",
+    "description": "How to run GLM-4.5 and GLM-4.5V with vLLM for intelligent agents, including hybrid reasoning modes, FP8 and BF16 serving, multimodal support, and NVIDIA Blackwe",
+    "url": "https://vllm.ai/blog/2025-08-19-glm45-vllm"
+  },
+  {
+    "slug": "2025-08-20-torch-compile",
+    "title": "Introduction to torch.compile and How It Works with vLLM",
+    "date": "2025-08-20",
+    "description": "How torch.compile works inside vLLM, including TorchDynamo graph capture, TorchInductor code generation, custom compiler passes, graph breaks, model compilation",
+    "url": "https://vllm.ai/blog/2025-08-20-torch-compile"
+  },
+  {
+    "slug": "2025-09-05-anatomy-of-vllm",
+    "title": "Inside vLLM: Anatomy of a High-Throughput LLM Inference System",
+    "date": "2025-09-05",
+    "description": "How vLLM's inference engine works, covering PagedAttention, continuous batching, prefix caching, speculative decoding, multi-GPU serving, scheduling, and benchm",
+    "url": "https://vllm.ai/blog/2025-09-05-anatomy-of-vllm"
+  },
+  {
+    "slug": "2025-09-05-beyond-text-generation",
+    "title": "Serving Geospatial, Vision, and Beyond: Enabling Multimodal Output Processing in vLLM",
+    "date": "2025-09-05",
+    "description": "How vLLM expands beyond text generation to serve geospatial, vision, and other non-autoregressive models with pooling-model support, TerraTorch integration, raw",
+    "url": "https://vllm.ai/blog/2025-09-05-beyond-text-generation"
+  },
+  {
+    "slug": "2025-09-11-qwen3-next",
+    "title": "vLLM Now Supports Qwen3-Next: Hybrid Architecture with Extreme Efficiency",
+    "date": "2025-09-11",
+    "description": "How vLLM supports Qwen3-Next with hybrid attention, Gated DeltaNet, full attention, high-sparsity MoE, multi-token prediction, hybrid KV cache management, Trito",
+    "url": "https://vllm.ai/blog/2025-09-11-qwen3-next"
+  },
+  {
+    "slug": "2025-09-11-semantic-router",
+    "title": "vLLM Semantic Router: Next Phase in LLM inference",
+    "date": "2025-09-11",
+    "description": "How vLLM Semantic Router routes requests by intent, covering semantic classification, smart reasoning-path selection, Rust and Candle execution, and Kubernetes",
+    "url": "https://vllm.ai/blog/2025-09-11-semantic-router"
+  },
+  {
+    "slug": "2025-09-16-vllm-meetup",
+    "title": "The First vLLM Meetup in Korea",
+    "date": "2025-09-16",
+    "description": "What the first vLLM Korea meetup covered: community adoption, llm-d, TPU integration, contribution workflows, hardware plugin architecture, Rebellions NPU work,",
+    "url": "https://vllm.ai/blog/2025-09-16-vllm-meetup"
+  },
+  {
+    "slug": "2025-09-29-deepseek-v3-2",
+    "title": "DeepSeek-V3.2-Exp in vLLM: Fine-Grained Sparse Attention in Action",
+    "date": "2025-09-29",
+    "description": "How vLLM supports DeepSeek-V3.2-Exp with DeepSeek Sparse Attention, lightning indexer caches, separate prefill and decode paths, FlashMLA sparse attention, Deep",
+    "url": "https://vllm.ai/blog/2025-09-29-deepseek-v3-2"
+  },
+  {
+    "slug": "2025-10-09-blackwell-inferencemax",
+    "title": "SemiAnalysis InferenceMAX: vLLM and NVIDIA Accelerate Blackwell Inference",
+    "date": "2025-10-09",
+    "description": "How vLLM and NVIDIA optimize Blackwell inference for SemiAnalysis InferenceMAX, improving gpt-oss 120B and Llama 3.3 70B throughput with FP4 kernels, scheduling",
+    "url": "https://vllm.ai/blog/2025-10-09-blackwell-inferencemax"
+  },
+  {
+    "slug": "2025-10-16-vllm-tpu",
+    "title": "vLLM TPU: A New Unified Backend Supporting PyTorch and JAX on TPU",
+    "date": "2025-10-16",
+    "description": "How the redesigned vLLM TPU backend uses tpu-inference, JAX-to-XLA lowering, Torchax, ragged paged attention, and unified PyTorch and JAX support to improve TPU",
+    "url": "https://vllm.ai/blog/2025-10-16-vllm-tpu"
+  },
+  {
+    "slug": "2025-10-22-agent-lightning",
+    "title": "No More Retokenization Drift: Returning Token IDs via the OpenAI Compatible API Matters in Agent RL",
+    "date": "2025-10-22",
+    "description": "How vLLM's OpenAI-compatible API can return prompt and response token IDs to prevent retokenization drift in agent reinforcement learning, preserving exact samp",
+    "url": "https://vllm.ai/blog/2025-10-22-agent-lightning"
+  },
+  {
+    "slug": "2025-10-23-now_serving_nvidia_nemotron_with_vllm",
+    "title": "Now Serving NVIDIA Nemotron with vLLM",
+    "date": "2025-10-23",
+    "description": "How vLLM serves NVIDIA Nemotron Nano 2 for agentic reasoning, including hybrid Transformer-Mamba architecture, thinking budget control, open weights and data, t",
+    "url": "https://vllm.ai/blog/2025-10-23-now_serving_nvidia_nemotron_with_vllm"
+  },
+  {
+    "slug": "2025-10-26-sleep-mode",
+    "title": "Zero-Reload Model Switching with vLLM Sleep Mode",
+    "date": "2025-10-26",
+    "description": "How vLLM Sleep Mode enables fast model switching by hibernating weights to CPU RAM or discarding them while preserving process state, CUDA graphs, allocators, a",
+    "url": "https://vllm.ai/blog/2025-10-26-sleep-mode"
+  },
+  {
+    "slug": "2025-10-27-semantic-router-modular",
+    "title": "From Monolithic to Modular: Scaling Semantic Routing with Extensible LoRA",
+    "date": "2025-10-27",
+    "description": "How vLLM Semantic Router refactors its Rust classification layer with modular model support, Qwen3-Embedding, EmbeddingGemma, LoRA-based multi-task classificati",
+    "url": "https://vllm.ai/blog/2025-10-27-semantic-router-modular"
+  },
+  {
+    "slug": "2025-10-28-kimi-k2-accuracy",
+    "title": "Chasing 100% Accuracy: A Deep Dive into Debugging Kimi K2's Tool-Calling on vLLM",
+    "date": "2025-10-28",
+    "description": "How vLLM debugged Kimi K2 tool-calling accuracy, covering chat-template compatibility, add_generation_prompt handling, schema validation failures, benchmark fix",
+    "url": "https://vllm.ai/blog/2025-10-28-kimi-k2-accuracy"
+  },
+  {
+    "slug": "2025-10-31-run-multimodal-reasoning-agents-nvidia-nemotron",
+    "title": "Run Multimodal Reasoning Agents with NVIDIA Nemotron on vLLM",
+    "date": "2025-10-31",
+    "description": "How to serve NVIDIA Nemotron Nano 2 VL with vLLM for multimodal reasoning agents, including video understanding, document intelligence, Efficient Video Sampling",
+    "url": "https://vllm.ai/blog/2025-10-31-run-multimodal-reasoning-agents-nvidia-nemotron"
+  },
+  {
+    "slug": "2025-11-10-bitwise-consistent-train-inference",
+    "title": "No More Train-Inference Mismatch: Bitwise Consistent On-Policy Reinforcement Learning with vLLM and TorchTitan",
+    "date": "2025-11-10",
+    "description": "How vLLM and TorchTitan demonstrate bitwise consistent on-policy RL by matching training and inference numerics, using batch-invariant kernels to reduce train-i",
+    "url": "https://vllm.ai/blog/2025-11-10-bitwise-consistent-train-inference"
+  },
+  {
+    "slug": "2025-11-11-intel-arc-pro-b",
+    "title": "Fast and Affordable LLMs serving on Intel Arc Pro B-Series GPUs with vLLM",
+    "date": "2025-11-11",
+    "description": "How vLLM serves LLMs on Intel Arc Pro B-Series GPUs with MoE optimizations, persistent kernels, multi-GPU scaling, LoRA, speculative decoding, structured output",
+    "url": "https://vllm.ai/blog/2025-11-11-intel-arc-pro-b"
+  },
+  {
+    "slug": "2025-11-13-shm-ipc-cache",
+    "title": "Shared Memory IPC Caching: Accelerating Data Transfer in LLM Inference Systems",
+    "date": "2025-11-13",
+    "description": "How shared memory IPC caching in vLLM reduces redundant data transfers for multimodal and multi-process inference, improving prefill throughput and TTFT by shar",
+    "url": "https://vllm.ai/blog/2025-11-13-shm-ipc-cache"
+  },
+  {
+    "slug": "2025-11-19-docker-model-runner-vllm",
+    "title": "Docker Model Runner Integrates vLLM for High-Throughput Inferencing",
+    "date": "2025-11-19",
+    "description": "How Docker Model Runner integrates vLLM as an inference backend, letting developers run safetensors models with high-throughput serving, PagedAttention, streami",
+    "url": "https://vllm.ai/blog/2025-11-19-docker-model-runner-vllm"
+  },
+  {
+    "slug": "2025-11-19-signal-decision",
+    "title": "Signal-Decision Driven Architecture: Reshaping Semantic Routing at Scale",
+    "date": "2025-11-19",
+    "description": "How vLLM Semantic Router replaces fixed domain classification with signal-decision architecture, combining multi-dimensional signals, AND/OR decision logic, mod",
+    "url": "https://vllm.ai/blog/2025-11-19-signal-decision"
+  },
+  {
+    "slug": "2025-11-20-vllm-plugin-system",
+    "title": "Building Clean, Maintainable vLLM Modifications Using the Plugin System",
+    "date": "2025-11-20",
+    "description": "How the vLLM plugin system helps teams customize scheduling, KV-cache behavior, hardware integrations, and model execution without long-lived forks, monkey patc",
+    "url": "https://vllm.ai/blog/2025-11-20-vllm-plugin-system"
+  },
+  {
+    "slug": "2025-11-22-ray-symmetric-run",
+    "title": "Streamlined multi-node serving with Ray symmetric-run",
+    "date": "2025-11-22",
+    "description": "How Ray symmetric-run simplifies multi-node vLLM serving by launching the same entrypoint on every Ray cluster node, matching HPC and parallel SSH workflows for",
+    "url": "https://vllm.ai/blog/2025-11-22-ray-symmetric-run"
+  },
+  {
+    "slug": "2025-11-30-vllm-omni",
+    "title": "Announcing vLLM-Omni: Easy, Fast, and Cheap Omni-Modality Model Serving",
+    "date": "2025-11-30",
+    "description": "What vLLM-Omni adds to the vLLM ecosystem: omni-modality serving for text, image, video, and audio, diffusion and non-autoregressive generation support, disaggr",
+    "url": "https://vllm.ai/blog/2025-11-30-vllm-omni"
+  },
+  {
+    "slug": "2025-12-03-improved-cuda-debugging",
+    "title": "Tracing Hanging and Complicated GPU Kernels Down To The Source Code",
+    "date": "2025-12-03",
+    "description": "How vLLM developers debug hanging and complex CUDA kernels by triggering GPU core dumps, identifying stuck kernels, and mapping failures back to source code lin",
+    "url": "https://vllm.ai/blog/2025-12-03-improved-cuda-debugging"
+  },
+  {
+    "slug": "2025-12-09-intel-autoround-llmc",
+    "title": "Advancing Low‑Bit Quantization for LLMs: AutoRound x LLM Compressor",
+    "date": "2025-12-09",
+    "description": "How Intel AutoRound integrates with LLM Compressor to produce low-bit quantized checkpoints for vLLM, using tuning-based PTQ, W4A16 and related formats, compres",
+    "url": "https://vllm.ai/blog/2025-12-09-intel-autoround-llmc"
+  },
+  {
+    "slug": "2025-12-13-speculators-v030",
+    "title": "Diving into speculative decoding training support for vLLM with Speculators v0.3.0",
+    "date": "2025-12-13",
+    "description": "How Speculators v0.3.0 supports end-to-end Eagle3 draft model training for vLLM, including hidden-state data generation, MoE and non-MoE verifiers, offline work",
+    "url": "https://vllm.ai/blog/2025-12-13-speculators-v030"
+  },
+  {
+    "slug": "2025-12-13-vllm-router-release",
+    "title": "vLLM Router: A High-Performance and Prefill/Decode Aware Load Balancer for Large-scale Serving",
+    "date": "2025-12-13",
+    "description": "What vLLM Router provides for large-scale serving: Rust-based state-aware load balancing, KV-cache affinity, prefill/decode disaggregation orchestration, Kubern",
+    "url": "https://vllm.ai/blog/2025-12-13-vllm-router-release"
+  },
+  {
+    "slug": "2025-12-14-halugate",
+    "title": "Token-Level Truth: Real-Time Hallucination Detection for Production LLMs",
+    "date": "2025-12-14",
+    "description": "How HaluGate adds token-level hallucination detection to vLLM Semantic Router by verifying assistant claims against tool outputs and grounding context in real t",
+    "url": "https://vllm.ai/blog/2025-12-14-halugate"
+  },
+  {
+    "slug": "2025-12-15-run-nvidia-nemotron-3-nano",
+    "title": "Run Highly Efficient and Accurate AI Agents with NVIDIA Nemotron 3 Nano on vLLM",
+    "date": "2025-12-15",
+    "description": "How to serve NVIDIA Nemotron 3 Nano with vLLM for efficient agentic AI, including BF16, FP8, and NVFP4 checkpoints, 1M-token context, hybrid MoE architecture, T",
+    "url": "https://vllm.ai/blog/2025-12-15-run-nvidia-nemotron-3-nano"
+  },
+  {
+    "slug": "2025-12-15-vllm-epd",
+    "title": "Encoder Disaggregation for Scalable Multimodal Model Serving",
+    "date": "2025-12-15",
+    "description": "How vLLM EPD separates visual encoders from text prefill and decode, covering LMM serving, GPU resource scaling, multimodal interference, and pipelined executio",
+    "url": "https://vllm.ai/blog/2025-12-15-vllm-epd"
+  },
+  {
+    "slug": "2025-12-16-vllm-sr-amd",
+    "title": "AMD × vLLM Semantic Router: Building the System Intelligence Together",
+    "date": "2025-12-16",
+    "description": "How AMD and vLLM Semantic Router build GPU-accelerated Mixture-of-Models routing with signals, semantic caching, response storage, PII, jailbreak, and hallucina",
+    "url": "https://vllm.ai/blog/2025-12-16-vllm-sr-amd"
+  },
+  {
+    "slug": "2025-12-17-large-scale-serving",
+    "title": "vLLM Large Scale Serving: DeepSeek @ 2.2k tok/s/H200 with Wide-EP",
+    "date": "2025-12-17",
+    "description": "How vLLM reaches 2.2k tokens per second per H200 for DeepSeek-style MoE serving with Wide-EP, async scheduling, dual-batch overlap, disaggregated serving, CUDA",
+    "url": "https://vllm.ai/blog/2025-12-17-large-scale-serving"
+  },
+  {
+    "slug": "2025-12-19-vllm-omni-diffusion-cache-acceleration",
+    "title": "vLLM-Omni Diffusion Cache Acceleration",
+    "date": "2025-12-19",
+    "description": "How vLLM-Omni speeds up diffusion model inference with Cache-DiT and TeaCache, reusing intermediate computations across timesteps to deliver 1.5x to 2x image ge",
+    "url": "https://vllm.ai/blog/2025-12-19-vllm-omni-diffusion-cache-acceleration"
+  },
+  {
+    "slug": "2025-12-27-vllm-ai-website",
+    "title": "Announcing vllm.ai Website and Some Community Updates",
+    "date": "2025-12-27",
+    "description": "What changed on the new vllm.ai website for vLLM users: installation guidance, events pages, Slack and X community channels, vLLM Daily updates, and a clearer p",
+    "url": "https://vllm.ai/blog/2025-12-27-vllm-ai-website"
+  },
+  {
+    "slug": "2026-01-02-introducing-vllm-playground",
+    "title": "Introducing vLLM Playground: A Modern Web Interface for Managing and Interacting with vLLM Servers",
+    "date": "2026-01-02",
+    "description": "How vLLM Playground provides a web UI for starting, configuring, testing, and monitoring vLLM servers across local macOS, Linux GPU or CPU, Kubernetes, and Open",
+    "url": "https://vllm.ai/blog/2026-01-02-introducing-vllm-playground"
+  },
+  {
+    "slug": "2026-01-05-vllm-sr-iris",
+    "title": "vLLM Semantic Router v0.1 Iris: The First Major Release",
+    "date": "2026-01-05",
+    "description": "What vLLM Semantic Router v0.1 Iris introduces: signal-decision plugin architecture, model selection, safety filtering, semantic caching, hallucination detectio",
+    "url": "https://vllm.ai/blog/2026-01-05-vllm-sr-iris"
+  },
+  {
+    "slug": "2026-01-08-kv-offloading-connector",
+    "title": "Inside vLLM’s New KV Offloading Connector: Smarter Memory Transfer for Maximizing Inference Throughput",
+    "date": "2026-01-08",
+    "description": "How vLLM's asynchronous KV offloading connector stores KV cache in CPU memory to reduce recomputation, improve throughput under memory pressure, and support plu",
+    "url": "https://vllm.ai/blog/2026-01-08-kv-offloading-connector"
+  },
+  {
+    "slug": "2026-01-23-mom-on-amd-gpu",
+    "title": "Building Mixture-of-Models on AMD GPUs with vLLM-SR",
+    "date": "2026-01-23",
+    "description": "How vLLM Semantic Router builds a Mixture-of-Models system on AMD MI300X and MI355X GPUs, routing across specialized models with signals, decisions, safety chec",
+    "url": "https://vllm.ai/blog/2026-01-23-mom-on-amd-gpu"
+  },
+  {
+    "slug": "2026-01-31-streaming-realtime",
+    "title": "Streaming Requests & Realtime API in vLLM",
+    "date": "2026-01-31",
+    "description": "How vLLM supports streamable inputs and a Realtime WebSocket API for audio, video, robotics, and low-latency applications that need incremental input processing",
+    "url": "https://vllm.ai/blog/2026-01-31-streaming-realtime"
+  },
+  {
+    "slug": "2026-02-01-gpt-oss-optimizations",
+    "title": "GPT-OSS Performance Optimizations on NVIDIA Blackwell: Pushing the Pareto Frontier",
+    "date": "2026-02-01",
+    "description": "How vLLM and NVIDIA optimized GPT-OSS on Blackwell with FlashInfer, torch.compile fusion, FP8 KV cache, async scheduling, stream interval tuning, and deployment",
+    "url": "https://vllm.ai/blog/2026-02-01-gpt-oss-optimizations"
+  },
+  {
+    "slug": "2026-02-03-dsr1-gb200-part1",
+    "title": "Driving vLLM WideEP and Large-Scale Serving Toward Maturity on Blackwell (Part I)",
+    "date": "2026-02-03",
+    "description": "How vLLM improves WideEP and large-scale DeepSeek-style MoE serving on NVIDIA GB200 with NVFP4 and FP8 kernels, fusion, prefill/decode disaggregation, weight of",
+    "url": "https://vllm.ai/blog/2026-02-03-dsr1-gb200-part1"
+  },
+  {
+    "slug": "2026-02-13-gb300-deepseek",
+    "title": "DeepSeek-V3.2 on GB300: Performance Breakthrough",
+    "date": "2026-02-13",
+    "description": "What DeepSeek-V3.2 and DeepSeek-R1 benchmark results show on NVIDIA GB300 with vLLM, covering NVFP4 quantization, TP and EP deployment, throughput, and reproduc",
+    "url": "https://vllm.ai/blog/2026-02-13-gb300-deepseek"
+  },
+  {
+    "slug": "2026-02-26-multi-lora",
+    "title": "Efficiently serve dozens of fine-tuned models with vLLM on Amazon SageMaker AI and Amazon Bedrock",
+    "date": "2026-02-26",
+    "description": "How vLLM serves many fine-tuned MoE and dense models with Multi-LoRA, including fused MoE LoRA kernels, Triton compiler fixes, Split-K and CTA swizzling optimiz",
+    "url": "https://vllm.ai/blog/2026-02-26-multi-lora"
+  },
+  {
+    "slug": "2026-02-27-rocm-attention-backend",
+    "title": "Beyond Porting: How vLLM Orchestrates High-Performance Inference on AMD ROCm",
+    "date": "2026-02-27",
+    "description": "How vLLM orchestrates high-performance inference on AMD ROCm with multiple attention backends, workload-aware prefill, extend, and decode routing, AITER primiti",
+    "url": "https://vllm.ai/blog/2026-02-27-rocm-attention-backend"
+  },
+  {
+    "slug": "2026-03-04-vllm-triton-backend-deep-dive",
+    "title": "vLLM Triton Attention Backend Deep Dive",
+    "date": "2026-03-04",
+    "description": "A technical walkthrough of the vLLM Triton attention backend, covering performance-portable paged attention kernels, backend selection, autotuning, CUDA graph b",
+    "url": "https://vllm.ai/blog/2026-03-04-vllm-triton-backend-deep-dive"
+  },
+  {
+    "slug": "2026-03-10-v0.2-vllm-sr-athena-release",
+    "title": "vLLM Semantic Router v0.2 Athena: ClawOS, Model Refresh, and the System Brain",
+    "date": "2026-03-10",
+    "description": "What vLLM Semantic Router v0.2 Athena adds: refreshed multilingual and multimodal routing models, ONNX and ROCm acceleration, safety and memory signals, long-co",
+    "url": "https://vllm.ai/blog/2026-03-10-v0.2-vllm-sr-athena-release"
+  },
+  {
+    "slug": "2026-03-11-nemotron-3-super",
+    "title": "Run Highly Efficient and Accurate Multi-Agent AI with NVIDIA Nemotron 3 Super Using vLLM",
+    "date": "2026-03-11",
+    "description": "How to serve NVIDIA Nemotron 3 Super with vLLM for multi-agent AI, including BF16, FP8, and NVFP4 checkpoints, 1M-token context, Thinking Budget, MTP, supported",
+    "url": "https://vllm.ai/blog/2026-03-11-nemotron-3-super"
+  },
+  {
+    "slug": "2026-03-13-p-eagle",
+    "title": "P-EAGLE: Faster LLM inference with Parallel Speculative Decoding in vLLM",
+    "date": "2026-03-13",
+    "description": "How P-EAGLE brings parallel speculative decoding to vLLM by generating multiple draft tokens in one forward pass, with pre-trained drafter heads, config support",
+    "url": "https://vllm.ai/blog/2026-03-13-p-eagle"
+  },
+  {
+    "slug": "2026-03-24-mrv2",
+    "title": "Model Runner V2: A Modular and Faster Core for vLLM",
+    "date": "2026-03-24",
+    "description": "How Model Runner V2 reworks vLLM's execution core with modular model logic, GPU-native input preparation, stable persistent batching, async-first scheduling, an",
+    "url": "https://vllm.ai/blog/2026-03-24-mrv2"
+  },
+  {
+    "slug": "2026-03-30-extract-hidden-states",
+    "title": "Extracting hidden states from vLLM",
+    "date": "2026-03-30",
+    "description": "How vLLM extracts verifier hidden states through dummy draft models and KV Connector APIs for speculative decoding, enabling offline and online Speculators trai",
+    "url": "https://vllm.ai/blog/2026-03-30-extract-hidden-states"
+  },
+  {
+    "slug": "2026-04-02-gemma4",
+    "title": "Announcing Gemma 4 on vLLM: Byte for byte, the most capable open models",
+    "date": "2026-04-02",
+    "description": "How vLLM supports Google's Gemma 4 open models across NVIDIA, AMD, Intel, and TPU backends, with multimodal inputs, agentic workflows, long context, function ca",
+    "url": "https://vllm.ai/blog/2026-04-02-gemma4"
+  },
+  {
+    "slug": "2026-04-07-moriio-kv-connector",
+    "title": "Next-Level Inference: Why Your Single-Node vLLM Setup Needs Prefill-Decode Disaggregation",
+    "date": "2026-04-07",
+    "description": "How single-node prefill/decode disaggregation in vLLM uses AMD MORI-IO on an 8-GPU MI300X node to separate prefill and decode, transfer KV cache efficiently, st",
+    "url": "https://vllm.ai/blog/2026-04-07-moriio-kv-connector"
+  },
+  {
+    "slug": "2026-04-14-vllm-korea-meetup-2026",
+    "title": "vLLM Korea Meetup 2026 Wrap-Up",
+    "date": "2026-04-14",
+    "description": "What the vLLM Korea Meetup 2026 covered: community growth, vLLM V1 updates, production stack adoption, accelerator integration, vllm-playground, and real-world",
+    "url": "https://vllm.ai/blog/2026-04-14-vllm-korea-meetup-2026"
+  },
+  {
+    "slug": "2026-04-21-hybrid-ssm-disagg",
+    "title": "Disaggregated Serving for Hybrid SSM Models in vLLM",
+    "date": "2026-04-21",
+    "description": "How vLLM extends NIXL prefill/decode disaggregation to hybrid SSM-attention models with dual descriptor views, physical-logical block bridging, and Mamba conv-s",
+    "url": "https://vllm.ai/blog/2026-04-21-hybrid-ssm-disagg"
+  },
+  {
+    "slug": "2026-04-22-fp8-kvcache",
+    "title": "The State of FP8 KV-Cache and Attention Quantization in vLLM",
+    "date": "2026-04-22",
+    "description": "What vLLM FP8 KV-cache validation found across Hopper and Blackwell, covering attention quantization, Flash Attention 3 fixes, memory savings, decode speedups,",
+    "url": "https://vllm.ai/blog/2026-04-22-fp8-kvcache"
+  },
+  {
+    "slug": "2026-04-24-deepseek-v4",
+    "title": "DeepSeek V4 in vLLM: Efficient Long-context Attention",
+    "date": "2026-04-24",
+    "description": "A first-principles walkthrough of DeepSeek V4's long-context attention, and how we implemented it in vLLM.",
+    "url": "https://vllm.ai/blog/2026-04-24-deepseek-v4"
+  },
+  {
+    "slug": "2026-04-28-nemotron-omni",
+    "title": "Run Highly Efficient Multimodal Agentic AI with NVIDIA Nemotron 3 Nano Omni Using vLLM",
+    "date": "2026-04-28",
+    "description": "How to serve NVIDIA Nemotron 3 Nano Omni with vLLM for multimodal agentic AI, including BF16, FP8, and NVFP4 checkpoints, vision/audio/video inputs, supported G",
+    "url": "https://vllm.ai/blog/2026-04-28-nemotron-omni"
+  },
+  {
+    "slug": "2026-05-06-mooncake-store",
+    "title": "Serving Agentic Workloads at Scale with vLLM x Mooncake",
+    "date": "2026-05-06",
+    "description": "How vLLM integrates Mooncake Store as a distributed KV cache for agentic workloads, reusing shared prefixes across turns and instances to improve throughput, TT",
+    "url": "https://vllm.ai/blog/2026-05-06-mooncake-store"
+  },
+  {
+    "slug": "2026-05-11-turboquant",
+    "title": "A First Comprehensive Study of TurboQuant: Accuracy and Performance",
+    "date": "2026-05-11",
+    "description": "A vLLM study comparing TurboQuant KV-cache quantization with BF16 and FP8 across long-context and reasoning workloads, showing where 4-bit variants help, where",
+    "url": "https://vllm.ai/blog/2026-05-11-turboquant"
+  },
+  {
+    "slug": "2026-05-11-vllm-tops-artificial-analysis",
+    "title": "vLLM Tops the Artificial Analysis Leaderboard",
+    "date": "2026-05-11",
+    "description": "How vLLM achieved leading Artificial Analysis results for DeepSeek V3.2, MiniMax-M2.5, and Qwen 3.5 397B using open-source kernel fusion, speculative decoding,",
+    "url": "https://vllm.ai/blog/2026-05-11-vllm-tops-artificial-analysis"
+  },
+  {
+    "slug": "2026-05-14-elastic-expert-parallelism",
+    "title": "Elastic Expert Parallelism in vLLM",
+    "date": "2026-05-14",
+    "description": "How Elastic Expert Parallelism lets vLLM scale Mixture-of-Experts serving up or down at runtime by changing data-parallel workers, redistributing experts, and c",
+    "url": "https://vllm.ai/blog/2026-05-14-elastic-expert-parallelism"
+  },
+  {
+    "slug": "2026-05-14-verl-omni",
+    "title": "Announcing VeRL-Omni: Easy, Fast, and Stable RL Training for Diffusion and Omni-Modality Models",
+    "date": "2026-05-14",
+    "description": "How VeRL-Omni extends verl with vLLM-Omni for reinforcement learning post-training of diffusion and multimodal generative models, including efficient rollouts,",
+    "url": "https://vllm.ai/blog/2026-05-14-verl-omni"
+  },
+  {
+    "slug": "2026-05-18-pegaflow",
+    "title": "vLLM x Novita AI: PegaFlow for Production-Grade External KV Cache",
+    "date": "2026-05-18",
+    "description": "How PegaFlow integrates with vLLM as an external KV cache service, using a Rust daemon, CUDA IPC, RDMA, SSD caching, and the external KV connector to improve st",
+    "url": "https://vllm.ai/blog/2026-05-18-pegaflow"
+  },
+  {
+    "slug": "2026-05-26-eagle-3-1",
+    "title": "EAGLE 3.1: Advancing Speculative Decoding Through Collaboration Between the EAGLE Team, vLLM, and TorchSpec",
+    "date": "2026-05-26",
+    "description": "How EAGLE 3.1 improves speculative decoding robustness in vLLM with FC normalization, post-norm hidden-state feedback, TorchSpec training support, and config-dr",
+    "url": "https://vllm.ai/blog/2026-05-26-eagle-3-1"
+  },
+  {
+    "slug": "2026-05-28-laguna-xs2-dflash-llm-compressor",
+    "title": "Accelerating Laguna XS.2 Inference with vLLM, Speculators, and LLM Compressor",
+    "date": "2026-05-28",
+    "description": "How Laguna XS.2 is served and optimized in vLLM using first-class model integration, a DFlash speculator trained with Speculators, and FP8, NVFP4, INT4, and INT",
+    "url": "https://vllm.ai/blog/2026-05-28-laguna-xs2-dflash-llm-compressor"
+  },
+  {
+    "slug": "2026-05-28-native-rl-apis",
+    "title": "Native RL APIs in vLLM",
+    "date": "2026-05-28",
+    "description": "How vLLM native RL APIs standardize weight syncing and asynchronous RL serving with NCCL and CUDA IPC transfer backends, pause mode, and fixes for fragile DPEP",
+    "url": "https://vllm.ai/blog/2026-05-28-native-rl-apis"
+  },
+  {
+    "slug": "2026-05-28-speculators-v050",
+    "title": "Speculators v0.5.0: DFlash Support and Online Training",
+    "date": "2026-05-28",
+    "description": "What Speculators v0.5.0 adds for vLLM speculative decoding: DFlash block-diffusion draft models, unified online and offline training, native hidden-state extrac",
+    "url": "https://vllm.ai/blog/2026-05-28-speculators-v050"
+  },
+  {
+    "slug": "2026-05-28-vllm-sr-vision-encoder-hardening",
+    "title": "From Text to Multimodal Routing: Hardening Vision Signals in vLLM Semantic Router",
+    "date": "2026-05-28",
+    "description": "How vLLM Semantic Router hardens multimodal routing by turning visual evidence into trustworthy signals, debugging a Rust/Candle vision-encoder parity issue, an",
+    "url": "https://vllm.ai/blog/2026-05-28-vllm-sr-vision-encoder-hardening"
+  },
+  {
+    "slug": "2026-06-01-vllm-dgx-spark",
+    "title": "vLLM on the DGX Spark: Architecture, Configuration, and Local Evaluation",
+    "date": "2026-06-01",
+    "description": "How to run vLLM on NVIDIA DGX Spark and GB10 systems, including unified memory behavior, NVFP4 Nemotron-3-Super serving, Docker deployment, Prometheus metrics,",
+    "url": "https://vllm.ai/blog/2026-06-01-vllm-dgx-spark"
+  },
+  {
+    "slug": "2026-06-02-session-aware-agentic-routing",
+    "title": "Session-Aware Agentic Routing: Continuity-Aware Model Selection for Long-Horizon LLM Agents",
+    "date": "2026-06-02",
+    "description": "How Session-Aware Agentic Routing in vLLM Semantic Router preserves long-horizon agent continuity with session memory, safe model-switch boundaries, prefix-cach",
+    "url": "https://vllm.ai/blog/2026-06-02-session-aware-agentic-routing"
+  },
+  {
+    "slug": "2026-06-02-vllm-omni-autoround",
+    "title": "Accelerating vLLM-Omni Inference with AutoRound Quantization",
+    "date": "2026-06-02",
+    "description": "How AutoRound integrates with vLLM-Omni to serve W4A16 quantized multimodal, diffusion, image, and video models with smaller checkpoints, preserved quality, Int",
+    "url": "https://vllm.ai/blog/2026-06-02-vllm-omni-autoround"
+  },
+  {
+    "slug": "2026-06-03-deeplearning-ai-vllm-course",
+    "title": "Fast & Efficient LLM Inference with vLLM: A New Course with DeepLearning.AI",
+    "date": "2026-06-03",
+    "description": "What the DeepLearning.AI vLLM course teaches: optimizing, deploying, and benchmarking LLM inference with LLM Compressor quantization, GuideLLM, KV cache sizing,",
+    "url": "https://vllm.ai/blog/2026-06-03-deeplearning-ai-vllm-course"
+  },
+  {
+    "slug": "2026-06-04-nemotron-3-ultra-vllm",
+    "title": "Announcing Day-0 Support for NVIDIA Nemotron 3 Ultra on vLLM",
+    "date": "2026-06-04",
+    "description": "How to serve NVIDIA Nemotron 3 Ultra with vLLM for long-running agentic reasoning, including BF16 and NVFP4 checkpoints, supported GPU configurations, OpenAI-co",
+    "url": "https://vllm.ai/blog/2026-06-04-nemotron-3-ultra-vllm"
+  },
+  {
+    "slug": "2026-06-05-v0.3-vllm-sr-themis-release",
+    "title": "vLLM Semantic Router v0.3 Themis: From Signals to Stateful Production Routing",
+    "date": "2026-06-05",
+    "description": "What vLLM Semantic Router v0.3 Themis adds for production routing: canonical config, inspectable signal-decision-policy flows, safer operations, CLI/dashboard/K",
+    "url": "https://vllm.ai/blog/2026-06-05-v0.3-vllm-sr-themis-release"
+  },
+  {
+    "slug": "2026-06-09-announcing-vime",
+    "title": "Announcing vime: A Simple, Stable, and Efficient RL Framework for LLMs",
+    "date": "2026-06-09",
+    "description": "vime connects slime's training stack with vLLM rollouts to provide a simple, stable, and efficient RL post-training pipeline.",
+    "url": "https://vllm.ai/blog/2026-06-09-announcing-vime"
+  },
+  {
+    "slug": "2026-06-10-diffusion-gemma",
+    "title": "DiffusionGemma: The First Diffusion LLM (dLLM) Natively Supported in vLLM",
+    "date": "2026-06-10",
+    "description": "How vLLM supports DiffusionGemma, the first native diffusion language model in vLLM, using Model Runner V2 state hooks, iterative denoising, bidirectional atten",
+    "url": "https://vllm.ai/blog/2026-06-10-diffusion-gemma"
+  },
+  {
+    "slug": "2026-06-12-minimax-m3-vllm",
+    "title": "MiniMax M3 in vLLM: Day-0 Serving for 1M-Token Multimodal Reasoning",
+    "date": "2026-06-12",
+    "description": "How vLLM serves MiniMax M3 with MiniMax Sparse Attention, multimodal and reasoning parsers, MXFP8 weights, and long-context deployment recipes.",
+    "url": "https://vllm.ai/blog/2026-06-12-minimax-m3-vllm"
+  },
+  {
+    "slug": "2026-06-16-vllm-sr-fusion-api",
+    "title": "Beyond One Model: Fusion in vLLM Semantic Router",
+    "date": "2026-06-16",
+    "description": "How vLLM Semantic Router Fusion runs a panel of models, uses a judge to analyze agreement and gaps, and synthesizes one answer while preserving routing policy,",
+    "url": "https://vllm.ai/blog/2026-06-16-vllm-sr-fusion-api"
+  },
+  {
+    "slug": "2026-06-23-vllm-omni-tts",
+    "title": "Engineering TTS Inference in vLLM-Omni",
+    "date": "2026-06-23",
+    "description": "How vLLM-Omni supports and optimizes Qwen3-TTS, VoxCPM2, Higgs Audio V3, and Fish Speech S2 Pro with staged serving, batching, CUDA Graphs, and model-specific k",
+    "url": "https://vllm.ai/blog/2026-06-23-vllm-omni-tts"
+  },
+  {
+    "slug": "2026-06-29-micro-agent-frontier-models",
+    "title": "Micro-Agent: Beat Frontier Models with Collaboration inside Model API",
+    "date": "2026-06-29",
+    "description": "How vLLM Semantic Router turns vllm-sr/auto into a bounded micro-agent runtime for Confidence, Ratings, ReMoM, Fusion, Workflows, and benchmark-shaped collabora",
+    "url": "https://vllm.ai/blog/2026-06-29-micro-agent-frontier-models"
+  },
+  {
+    "slug": "2026-07-01-qwen3-omni-optimization",
+    "title": "Experience and Lessons Learned from Serving Multi-Stage Qwen3-Omni in vLLM-Omni",
+    "date": "2026-07-01",
+    "description": "How vLLM-Omni serves and optimizes Qwen3-Omni with staged Thinker-Talker-Code2Wav execution, batching, CUDA Graphs, async chunk, async output, replicas, hot-pat",
+    "url": "https://vllm.ai/blog/2026-07-01-qwen3-omni-optimization"
+  },
+  {
+    "slug": "2026-07-06-vllm-hpc-ops",
+    "title": "vLLM × HPC-Ops: High-Performance Attention and MoE Backends from Tencent Hunyuan",
+    "date": "2026-07-06",
+    "description": "How HPC-Ops integrates Hopper-optimized attention and FP8 MoE backends into vLLM for Tencent Hunyuan Hy3, improving mixed-length decode, MoE latency, TTFT, and",
+    "url": "https://vllm.ai/blog/2026-07-06-vllm-hpc-ops"
+  },
+  {
+    "slug": "2026-07-10-vime-rocm",
+    "title": "vime + ROCm: End-to-End RL Post-Training on AMD Instinct™ GPUs",
+    "date": "2026-07-10",
+    "description": "Announcing ROCm support for vime, now running end-to-end on AMD Instinct MI355X GPUs with prebuilt container.",
+    "url": "https://vllm.ai/blog/2026-07-10-vime-rocm"
+  },
+  {
+    "slug": "2026-07-13-eagle-3-amd-instinct",
+    "title": "EAGLE3 Speculative Decoding on AMD Instinct GPUs: Training and Serving with vLLM and AMD Quark",
+    "date": "2026-07-13",
+    "description": "How AMD Quark trains, quantizes, and serves EAGLE3 speculative-decoding drafts with vLLM on AMD Instinct GPUs, delivering up to 2.00x throughput gains for Kimi-",
+    "url": "https://vllm.ai/blog/2026-07-13-eagle-3-amd-instinct"
+  },
+  {
+    "slug": "2026-07-14-vllm-tilert-pd",
+    "title": "vLLM x TileRT: Specialized Decode for Latency-Critical Serving",
+    "date": "2026-07-14",
+    "description": "vLLM prefill paired with TileRT decode through vLLM V1's connector interface: a specialized, latency-optimized decode engine that coexists with native vLLM deco",
+    "url": "https://vllm.ai/blog/2026-07-14-vllm-tilert-pd"
+  },
+  {
+    "slug": "2026-07-15-inkling",
+    "title": "TML Inkling on vLLM: Day-0 Support with Optimized Performance",
+    "date": "2026-07-15",
+    "description": "vLLM brings day-0 support to TML Inkling, a 1T-parameter multimodal model, with MTP, long-context serving, parallelism, and up to 380 tokens per second per user",
+    "url": "https://vllm.ai/blog/2026-07-15-inkling"
+  },
+  {
+    "slug": "2026-07-16-keeping-vllm-production-quality",
+    "title": "Keeping vLLM Production Quality: A Look Inside CI, Benchmarking, and the Release Process",
+    "date": "2026-07-16",
+    "description": "How vLLM maintains production quality with extensive CI across diverse accelerators, nightly performance benchmark and accuracy evaluation, and a two-week relea",
+    "url": "https://vllm.ai/blog/2026-07-16-keeping-vllm-production-quality"
+  },
+  {
+    "slug": "2026-07-21-vllm-sr-new-chapter-mom",
+    "title": "Beyond a Single Model: Building Mixture-of-Models Systems with vLLM Semantic Router",
+    "date": "2026-07-21",
+    "description": "vLLM Semantic Router is expanding from intelligent routing into a system for building, evaluating, and running Mixture-of-Models.",
+    "url": "https://vllm.ai/blog/2026-07-21-vllm-sr-new-chapter-mom"
+  },
+  {
+    "slug": "2026-07-22-kimi-k3-preview",
+    "title": "A Preview of Production-Scale Kimi K3 Support on vLLM",
+    "date": "2026-07-22",
+    "description": "A preview of production-scale Kimi K3 support in vLLM, including KDA-aware prefix caching, fused kernels, optimized MXFP4 MoE, multimodal integration, and initi",
+    "url": "https://vllm.ai/blog/2026-07-22-kimi-k3-preview"
+  },
+  {
+    "slug": "2026-07-23-glm-5.2-nvfp4-b300-pd",
+    "title": "From Day 0 to Production SLAs: Serving GLM-5.2 on 24 NVIDIA B300 GPUs with vLLM",
+    "date": "2026-07-23",
+    "description": "How we took GLM-5.2-NVFP4 from 40 ms to 17 ms mean TPOT on 24 B300 GPUs with vLLM: P/D disaggregation, MTP speculative decoding, Model Runner V2, and the SLA-fi",
+    "url": "https://vllm.ai/blog/2026-07-23-glm-5.2-nvfp4-b300-pd"
+  },
+  {
+    "slug": "2026-07-23-vllm-afd-plugin",
+    "title": "Announcing vLLM AFD Plugin: Disaggregating Attention and FFN for Flexible MoE Serving",
+    "date": "2026-07-23",
+    "description": "What vLLM AFD Plugin adds to the vLLM ecosystem: Attention–FFN disaggregation for MoE serving, GPU and Ascend NPU backends, connector-based execution, and graph",
+    "url": "https://vllm.ai/blog/2026-07-23-vllm-afd-plugin"
+  },
+  {
+    "slug": "2026-07-27-k3",
+    "title": "Kimi K3 Is Here: Efficient Day-0 Support on vLLM",
+    "date": "2026-07-27",
+    "description": "vLLM delivers day-0 Kimi K3 serving with hybrid KDA prefix caching, DSpark speculative decoding, production-scale disaggregation, and optimized kernels across N",
+    "url": "https://vllm.ai/blog/2026-07-27-k3"
+  },
+  {
+    "slug": "2026-07-28-speculators-parallel-drafting",
+    "title": "Parallel All the Way Down: Beyond Single-Token Generation with Speculative Decoding",
+    "date": "2026-07-28",
+    "description": "Speculators and vLLM now support P-EAGLE, DFlash, and DSpark — three parallel drafting algorithms that move beyond sequential token generation to deliver faster",
+    "url": "https://vllm.ai/blog/2026-07-28-speculators-parallel-drafting"
+  },
+  {
+    "slug": "2026-07-29-optimizing-vllm-on-arm-cpus",
+    "title": "Optimizing vLLM on Arm CPUs",
+    "date": "2026-07-29",
+    "description": "An overview of Arm CPU enablement and inference performance optimizations in vLLM.",
+    "url": "https://vllm.ai/blog/2026-07-29-optimizing-vllm-on-arm-cpus"
+  },
+  {
+    "slug": "2026-08-06-qwen35-25k-tps",
+    "title": "vLLM Reaches 25K Total TPS/GPU on Qwen3.5",
+    "date": "2026-08-06",
+    "description": "How vLLM reaches 25K total TPS/GPU on Qwen3.5-397B-A17B-NVFP4 with GB200 NVL72 disaggregated serving, Blackwell GDN kernels, HMA cache transfer, async schedulin",
+    "url": "https://vllm.ai/blog/2026-08-06-qwen35-25k-tps"
+  },
+  {
+    "slug": "2026-08-07-decode-context-parallelism",
+    "title": "Efficient Decode Context Parallelism with vLLM for Long Context Workloads",
+    "date": "2026-08-07",
+    "description": "Decode Context Parallelism (DCP) in vLLM shards KV cache across GPUs by sequence dimension, enabling 3× higher throughput on long-context agentic workloads comp",
+    "url": "https://vllm.ai/blog/2026-08-07-decode-context-parallelism"
+  },
+  {
+    "slug": "2026-08-10-nemotron-3-5-lightning-vllm",
+    "title": "Announcing Day-0 Support for NVIDIA Nemotron 3.5 Lightning on vLLM",
+    "date": "2026-08-10",
+    "description": "How vLLM serves NVIDIA Nemotron 3.5 Lightning with OpenAI-compatible APIs, speculative decoding, and BF16/NVFP4 checkpoints across NVIDIA GPUs and edge systems.",
+    "url": "https://vllm.ai/blog/2026-08-10-nemotron-3-5-lightning-vllm"
+  },
+  {
+    "slug": "2026-08-12-qwen3.8",
+    "title": "Day 0 Support for Qwen3.8-2.4T-A95B on vLLM",
+    "date": "2026-08-12",
+    "description": "Day-0 vLLM support for Qwen3.8-2.4T-A95B: a 2.4-trillion-parameter hybrid MoE model served out of the box, with FP8/BF16 checkpoints plus NVFP4 and MXFP4 quanti",
+    "url": "https://vllm.ai/blog/2026-08-12-qwen3.8"
+  },
+  {
+    "slug": "2026-08-14-dspark-adaptive-verification",
+    "title": "Adaptive Verification in vLLM: DSpark confidence-scheduled verification",
+    "date": "2026-08-14",
+    "description": "Sizing the DSpark draft-verification budget from per-request confidence instead of verifying every drafted token, so one configuration holds the throughput/late",
+    "url": "https://vllm.ai/blog/2026-08-14-dspark-adaptive-verification"
+  },
+  {
+    "slug": "2026-08-17-distributed-layerwise-offload",
+    "title": "Distributed Layerwise Offload: Scaling Toward 200B+ DiT Models Efficiently in vLLM-Omni",
+    "date": "2026-08-17",
+    "description": "Distributed Layerwise Offload shards and streams DiT weights across devices, serving a measured 124 GB Cosmos3 model on 64 GB HBM and estimating a path toward 2",
+    "url": "https://vllm.ai/blog/2026-08-17-distributed-layerwise-offload"
+  },
+  {
+    "slug": "2026-08-20-verl-omni-v0-2-0",
+    "title": "VeRL-Omni v0.2.0: Faster Diffusion RL and Stable Omni Training",
+    "date": "2026-08-20",
+    "description": "A release focused on higher-throughput diffusion rollout, reusable omni adapters, and broader recipe coverage.",
+    "url": "https://vllm.ai/blog/2026-08-20-verl-omni-v0-2-0"
+  },
+  {
+    "slug": "2026-08-21-isoexec",
+    "title": "IsoExec: Unified Execution to Eliminate Trainer-Inference Mismatch in SkyRL",
+    "date": "2026-08-21",
+    "description": "IsoExec unifies numerical execution across SkyRL's vLLM and Megatron runtimes, reducing the average rollout-versus-training logprob difference below 1e-6 on Qwe",
+    "url": "https://vllm.ai/blog/2026-08-21-isoexec"
+  },
+  {
+    "slug": "2026-08-22-rdt-weight-transfer",
+    "title": "Large-Scale Sharded Weight Transfer with Ray Direct Transport (RDT) in vLLM",
+    "date": "2026-08-22",
+    "description": "We implement a native sharded weight transfer engine in vLLM utilizing Ray Direct Transport (RDT), achieving weight transfer for the Kimi K2 model in BF16 on 48",
+    "url": "https://vllm.ai/blog/2026-08-22-rdt-weight-transfer"
+  },
+  {
+    "slug": "2026-08-23-speculative-decoding-amd-gpus",
+    "title": "Exploring Speculative Decoding in vLLM on AMD GPUs",
+    "date": "2026-08-23",
+    "description": "A practical guide to speculative decoding in vLLM on AMD GPUs, covering draft-and-verify mechanics, MTP, EAGLE-3, DFlash, DSpark, configuration, tuning, and ben",
+    "url": "https://vllm.ai/blog/2026-08-23-speculative-decoding-amd-gpus"
+  },
+  {
+    "slug": "2026-09-01-minimax-h3-production-serving",
+    "title": "MiniMax H3 on vLLM-Omni: From System-Wide Optimization to Real-Time Serving with FastVideo’s FastH3",
+    "date": "2026-09-01",
+    "description": "How vLLM-Omni optimizes and scales the complete MiniMax H3 stack, then integrates FastVideo’s four-step FastH3 for generation faster than playback.",
+    "url": "https://vllm.ai/blog/2026-09-01-minimax-h3-production-serving"
+  },
+  {
+    "slug": "2026-09-07-vllm-tt-plugin",
+    "title": "Serving LLMs on Tenstorrent Hardware: Inside the vLLM TT Plugin",
+    "date": "2026-09-07",
+    "description": "Tenstorrent accelerators join vLLM as an out-of-tree platform plugin, driven by mesh-architecture choices: phase-based scheduling, single-process data paralleli",
+    "url": "https://vllm.ai/blog/2026-09-07-vllm-tt-plugin"
+  },
+  {
+    "slug": "2026-09-08-glm53-part1-hybrid-sparse-offloading",
+    "title": "GLM 5.3 Optimizations, Part 1: Hybrid HiSparse Offloading in vLLM",
+    "date": "2026-09-08",
+    "description": "vLLM integrates HiSparse as a pressure-driven memory tier that composes with the Hybrid Memory Allocator and KV offloading, letting GLM 5.3 requests keep decodi",
+    "url": "https://vllm.ai/blog/2026-09-08-glm53-part1-hybrid-sparse-offloading"
+  },
+  {
+    "slug": "2026-09-08-vllm-agentx",
+    "title": "vLLM x AgentX: Optimizing for Real-World Agentic Serving",
+    "date": "2026-09-08",
+    "description": "How vLLM optimizes KV cache management, parallelism, scheduling, and P/D disaggregation for agentic workloads, validated on SemiAnalysis AgentX with up to 130K",
+    "url": "https://vllm.ai/blog/2026-09-08-vllm-agentx"
+  },
+  {
+    "slug": "2026-09-10-minimax-m3-mi355x",
+    "title": "Following the Bottleneck: Optimizing MiniMax M3 on AMD Instinct MI355X",
+    "date": "2026-09-10",
+    "description": "A performance model for LLM serving: inspect local shapes, remove repeated work, verify data movement and dispatch, then follow the queue.",
+    "url": "https://vllm.ai/blog/2026-09-10-minimax-m3-mi355x"
+  },
+  {
+    "slug": "2026-09-10-tiered-kv-offloading",
+    "title": "Tiered KV Cache Offloading in vLLM",
+    "date": "2026-09-10",
+    "description": "A host-centric framework for scaling KV cache across host memory, filesystems, object stores, and remote peers — reducing recomputation and increasing serving c",
+    "url": "https://vllm.ai/blog/2026-09-10-tiered-kv-offloading"
+  }
+]

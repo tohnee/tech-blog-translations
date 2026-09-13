@@ -1,0 +1,56 @@
+---
+title: "Advanced machine learning helps Play Store users discover personalised apps"
+source: https://deepmind.google/blog/advanced-machine-learning-helps-play-store-users-discover-personalised-apps/
+site: deepmind
+date: 2019-11-18
+authors: 
+crawled: 2026-09-13
+---
+
+Over the past few years we've applied DeepMind's technology to Google products and infrastructure, with notable successes like reducing the amount of energy needed for [cooling data centers](https://deepmind.com/blog/article/safety-first-ai-autonomous-data-centre-cooling-and-industrial-control), and extending [Android battery performance](https://deepmind.com/blog/announcements/deepmind-meet-android). We're excited to share more about our work in the coming months.
+
+## Our collaboration with the Google Play Store
+
+We know users get the most out of their phone when they have apps and games they love, and that it’s exciting to discover new favourites. In collaboration with Google Play, [our team that leads on collaborations with Google](https://deepmind.com/about/deepmind-for-google) has driven significant improvements in the Play Store's discovery systems, helping to deliver a more personalised and intuitive Play Store experience for users.
+
+Every month, billions of users come to the [Google Play Store](https://play.google.com/store?utm_source=na_Med&utm_medium=hasem&utm_content=Mar0519&utm_campaign=Evergreen&pcampaignid=MKT-DR-na-us-1000189-Med-hasem-py-Evergreen-Mar0519-Text_Search_BKWS-id_100566_%7cEXA%7cONSEM_kwid_43700023142507235&gclid=CMDln_PN0-UCFVRegQodTRECMw) to download apps for their mobile devices – the Play Store supports one of the largest recommendation systems in the world. While some are looking for specific apps, like Snapchat, others are browsing the store to discover what’s new and interesting. The Google Play discovery team strives to help users discover the most relevant apps and games by providing them with helpful app recommendations. To deliver a richer, personalised experience, apps are suggested according to past user preferences. This, however, requires nuance – both for understanding what an app does, and its relevance to a particular user. For example, to an avid sci-fi gamer, similar game recommendations may be of interest, but if a user installs a travel app, recommending a translation app may be more relevant than five more travel apps. The collection and use of these user preferences is governed by [Google's privacy policies](https://policies.google.com/privacy).
+
+We started collaborating with the Play store to help develop and improve systems that determine the relevance of an app with respect to the user. In this post, we’ll explore some of the cutting-edge machine learning techniques we developed to achieve this. Today, Google Play’s recommendation system contains three main models: a candidate generator, a reranker, and a model to optimise for multiple objectives. The candidate generator is a deep retrieval model that can analyse more than a million apps and retrieve the most suitable ones. For each app, a reranker, i.e. a user preference model, predicts the user's preferences along multiple dimensions. Next these predictions are the input to a multi-objective optimisation model whose solution gives the most suitable candidates to the user.
+
+![Diagram of the Google Play recommendation pipeline. Arrows show the flow from the "App corpus" through three filtering stages—"Candidate generator" (with an arrow pointing from "Other candidate sources" into "Reranker"), "Reranker," and "Optimisation"—to deliver personalized recommendations to a Google Play Store interface displayed on a smartphone screen.](https://lh3.googleusercontent.com/hilHRIVoKtSKpHOUXVnvmDGBBM5WbR1IInHRj8VSO065FjddfN-h81zb3ED1UloWv_YQ435GDUYQiZhuxYaJMMZ2P1dOTnWwBZxHNoOgewGm4mWXog=w1440)
+
+## Applied machine learning under real-world constraints
+
+To improve how Google Play’s recommendation system learns users’ preferences, our first approach was to use an [LSTM (Long Short-Term Memory)](https://colah.github.io/posts/2015-08-Understanding-LSTMs/) model, a recurrent neural network that performs well in real-world scenarios, owing to a powerful update equation and backpropagation dynamics. Whilst the LSTM led to significant accuracy gains, it also introduced a serving delay, because LSTMs can be computationally expensive when processing long sequences. To address this, we replaced the LSTM with [a Transformer model](https://arxiv.org/abs/1706.03762), which is well-equipped for sequence-to-sequence prediction and has previously yielded strong results in natural language processing, as it’s able to capture longer dependencies between words than other commonly used models. The Transformer improved the model performance, but also increased the training cost. Our third and final solution was to implement an efficient additive attention model that works for any combination of sequence features, while incurring low computational cost.
+
+## Candidate generator unbiasing
+
+Our model (called a candidate generator) learns what apps a user is more likely to install based on previous apps they’ve installed from the Play store. However, this can introduce a recommendation bias problem. For instance, if app A is shown in the Play store 10 times more than app B, it’s more likely to be installed by the user, and thus more likely to be recommended by our model. The model therefore learns a bias that favours the apps that are shown – and thus installed – more often.
+
+To help correct for this bias, we introduced importance weighting in our model. An importance weight is based on the impression-to-install rate of each individual app in comparison with the median impression-to-install rate across the Play store. An app with a below-median install rate will have an importance weight less than one. However, even “niche” apps that are installed less frequently can have a high importance weight if their install rate is higher than the median rate. Through importance weighting, our candidate generator can downweight or upweight apps based on their install rates, which mitigates the recommendation bias problem.
+
+## Refinements in reranker recommendations
+
+Recommendation systems often provide a range of possibilities to a user, and present them in an order with the best or most relevant options at the top. But how do we ensure the most relevant apps make it to the top of the list, so the user doesn’t have to scroll for pages, or potentially miss the best option? Many recommendation systems treat the ranking problem as a binary classification problem, where the training data is labeled with either a positive or negative class, and the ranker learns to predict a probability from this binary label alone. However, this type of “pointwise” model – which only ranks one item at a time – fails to capture the context of how apps perform relative to one another. To deliver a better user experience, the ranker could predict the relative order of presented items based on the context of other candidate apps.
+
+Our solution to this, the reranker model, learns the relative importance of a pair of apps that have been shown to the user at the same time. We built our reranker model on a core insight: if a user is presented with two apps in the store, the app that the user chooses to install is more relevant to the user than the app that they didn't install. We can then assign each of the pair a positive or negative label, and the model tries to minimise the number of inversions in ranking, thus improving the relative ranking of the apps. This kind of “pairwise” model works better in practice than pointwise models because predicting relative order is closer to the nature of ranking than predicting class labels or install probabilities.
+
+## Optimising for multiple objectives
+
+Many recommendation systems must optimise for multiple objectives at the same time, such as relevance, popularity, or personal preferences. We formulated the multi-objective optimisation problem as a constrained optimisation problem: the overall objective is to maximise the expected value of a primary metric, subject to constraints in terms of expected values of secondary metrics. During online serving, the objectives may shift according to user’s needs – for example, a user that had previously been interested in housing search apps might have found a new flat, and so is now interested in home decor apps – so we worked toward a dynamic solution.
+
+Rather than solving the problem offline and bringing a fixed model online, we solved this problem on-line, per-request, based on the actual values of the objectives during serving time. We define the constraints to be relative constraints, meaning we would like to improve the secondary objective by a percentage rather than an absolute value. This way, any shifts in the secondary objectives didn’t affect our solver.
+
+The algorithm that we developed can be used to find tradeoffs between a number of metrics. Finding suitable points along the tradeoff curve, our algorithm can significantly raise secondary metrics with only minor effects on the primary metric.
+
+## Teamwork
+
+One of our key takeaways from this [collaboration](https://deepmind.com/about/deepmind-for-google) is that when implementing advanced machine learning techniques for use in the real world, we need to work within many practical constraints. Because the Play Store and DeepMind teams worked so closely together and communicated on a daily basis, we were able to take product requirements and constraints into consideration throughout the algorithm design, implementation, and final testing phases, resulting in a more successful product.
+
+Our collaborations with Google have so far reduced the electricity needed for [cooling Google’s data centres](https://deepmind.com/blog/article/safety-first-ai-autonomous-data-centre-cooling-and-industrial-control) by up to 30%, boosted the value of Google’s [wind energy](https://deepmind.com/blog/article/machine-learning-can-boost-value-wind-energy) by roughly 20%, and created on-device learning systems to optimise [Android](https://deepmind.com/blog/announcements/deepmind-meet-android) battery performance. [WaveNet](https://deepmind.com/blog/article/wavenet-launches-google-assistant) is now in the hands of Google Assistant and Google Cloud Platform users around the world, and [our research collaboration](https://deepmind.com/blog/article/how-evolutionary-selection-can-train-more-capable-self-driving-cars) with Waymo has helped improve the performance of its models, as well as the efficiency of training its neural networks.
+
+Working at Google scale presents a unique set of research challenges, and the opportunity to take our breakthroughs beyond the lab to address global, complex challenges. If you’re interested in working on applying cutting edge research to real world problems, learn more about the team that led this project [here](https://deepmind.com/about/deepmind-for-google).
+
+**Notes**
+
+In collaboration with: Dj Dvijotham, Amogh Asgekar, Will Zhou, Sanjeev Jagannatha Rao, Xueliang Lu, Carlton Chu, Arun Nair, Timothy Mann, Bruce Chia, Ruiyang Wu, Natarajan Chendrashekar, Tyler Brabham, Amy Miao, Shelly Bensal, Natalie Mackraz, Praveen Srinivasan & Harish Chandran

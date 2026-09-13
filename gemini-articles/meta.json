@@ -1,0 +1,1599 @@
+[
+ {
+  "slug": "3-8-flash-and-3-8-flash-cyber",
+  "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+  "date": "2026-09-02",
+  "authors": [
+   "Tulsee Doshi"
+  ],
+  "tags": [
+   "Gemini models"
+  ],
+  "description": "Gemini 3.8 Flash and 3.8 Flash Cyber deliver next-generation intelligence for agentic workflows and cybersecurity.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"
+ },
+ {
+  "slug": "gemini-3-1-pro",
+  "title": "Gemini 3.1 Pro: A smarter model for your most complex tasks",
+  "date": "2026-02-19",
+  "authors": [
+   "Equipe do Google Gemini"
+  ],
+  "tags": [
+   "Gemini models"
+  ],
+  "description": "3.1 Pro is designed for tasks where a simple answer isn’t enough.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/"
+ },
+ {
+  "slug": "gemini-3-deep-think",
+  "title": "Gemini 3 Deep Think: Advancing science, research and engineering",
+  "date": "2026-02-12",
+  "authors": [
+   "The Deep Think team"
+  ],
+  "tags": [
+   "Gemini models",
+   "AI",
+   "Google DeepMind",
+   "Google One"
+  ],
+  "description": "We’re releasing a major upgrade to Gemini 3 Deep Think, our specialized reasoning mode.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/"
+ },
+ {
+  "slug": "gemini-embedding-2-generally-available",
+  "title": "Gemini Embedding 2 is now generally available.",
+  "date": "2026-04-22",
+  "authors": [],
+  "tags": [],
+  "description": "We’re announcing the general availability of Gemini Embedding 2 via the Gemini API and Vertex AI.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-embedding-2-generally-available/"
+ },
+ {
+  "slug": "gemini-embedding-2",
+  "title": "Gemini Embedding 2: Our first natively multimodal embedding model",
+  "date": "2026-03-10",
+  "authors": [
+   "Min Choi"
+  ],
+  "tags": [
+   "Developer tools"
+  ],
+  "description": "An overview of Gemini Embedding 2, our first fully multimodal embedding model that maps text, images, video, audio and documents into a single space.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-embedding-2/"
+ },
+ {
+  "slug": "gemini-omni-experts-roundtable",
+  "title": "Omni experts share what excites them most about the model.",
+  "date": "2026-08-13",
+  "authors": [
+   "Lindsey Lanquist"
+  ],
+  "tags": [],
+  "description": "We interviewed some of the experts behind Gemini Omni to hear what excites them most about the model.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-experts-roundtable/"
+ },
+ {
+  "slug": "gemini-omni-flash-nano-banana-2-lite",
+  "title": "Start building with Nano Banana 2 Lite and Gemini Omni Flash",
+  "date": "2026-06-30",
+  "authors": [
+   "Alisa Fortin"
+  ],
+  "tags": [
+   "Gemini models"
+  ],
+  "description": "Scale your ideas with Nano Banana 2 Lite, our fastest, most cost-efficient Gemini Image model, and Gemini Omni Flash for high-quality video and conversational editing.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/"
+ },
+ {
+  "slug": "glanceboard-gemini-flash-nano-banana",
+  "title": "Simplify your morning with this vibe-coded schedule app.",
+  "date": "2026-07-31",
+  "authors": [],
+  "tags": [],
+  "description": "",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/glanceboard-gemini-flash-nano-banana/"
+ },
+ {
+  "slug": "next-generation-gemini-deep-research",
+  "title": "Deep Research Max: a step change for autonomous research agents",
+  "date": "2026-04-21",
+  "authors": [
+   "Lukas Haas"
+  ],
+  "tags": [
+   "Gemini models",
+   "Developer tools"
+  ],
+  "description": "Introducing Deep Research and Deep Research Max, the next generation of Google’s autonomous research agents.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/next-generation-gemini-deep-research/"
+ },
+ {
+  "slug": "what-full-stack-development-means",
+  "title": "What does “full-stack” AI actually mean?",
+  "date": "2026-08-21",
+  "authors": [
+   "Lindsey Lanquist"
+  ],
+  "tags": [],
+  "description": "A Google DeepMind engineer breaks full-stack development into five simple layers and explains how it affects everyday users.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/what-full-stack-development-means/"
+ },
+ {
+  "slug": "bringing-the-best-ai-to-university-students-in-europe-the-middle-east-and-africa-at-no-cost",
+  "title": "Bringing the best AI to university students in Europe, the Middle East, and Africa, at no cost",
+  "date": "2025-10-13",
+  "authors": [
+   "Debbie Weinstein"
+  ],
+  "tags": [
+   "Gemini"
+  ],
+  "description": "Google is bringing the best of its AI tools to university students 18+, at no cost, including Gemini 2.5 Pro, the world’s leading model for learning.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/bringing-the-best-ai-to-university-students-in-europe-the-middle-east-and-africa-at-no-cost/"
+ },
+ {
+  "slug": "deep-research-gemini-2-5-pro-experimental",
+  "title": "Deep Research is now available on Gemini 2.5 Pro Experimental.",
+  "date": "2025-04-08",
+  "authors": [
+   "Dave Citron"
+  ],
+  "tags": [],
+  "description": "",
+  "url": "https://blog.google/products-and-platforms/products/gemini/deep-research-gemini-2-5-pro-experimental/"
+ },
+ {
+  "slug": "deep-research-workspace-app-integration",
+  "title": "Gemini Deep Research can now connect to your Gmail, Docs, Drive and even Chat.",
+  "date": "2025-11-05",
+  "authors": [],
+  "tags": [],
+  "description": "Learn more about how Google Workspace apps now work with Gemini’s Deep Research tool.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/deep-research-workspace-app-integration/"
+ },
+ {
+  "slug": "find-job-with-google-ai-tools",
+  "title": "Try these 3 Google AI tools to help find your next job.",
+  "date": "2026-06-25",
+  "authors": [
+   "Lindsey Lanquist"
+  ],
+  "tags": [],
+  "description": "Use Google AI tools — like Career Dreamer, NotebookLM and Gemini Live — for resumes, cover letters, interview prep and more.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/find-job-with-google-ai-tools/"
+ },
+ {
+  "slug": "gemini-2-5-deep-think",
+  "title": "Try Deep Think in the Gemini app",
+  "date": "2025-08-01",
+  "authors": [
+   "The Deep Think team"
+  ],
+  "tags": [
+   "Gemini models",
+   "Gemini App",
+   "Google DeepMind"
+  ],
+  "description": "Deep Think utilizes extended, parallel thinking and novel reinforcement learning techniques for significantly improved problem-solving.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/gemini-2-5-deep-think/"
+ },
+ {
+  "slug": "gemini-2-5-flash-preview",
+  "title": "Developers can now start building with Gemini 2.5 Flash.",
+  "date": "2025-04-17",
+  "authors": [],
+  "tags": [],
+  "description": "Developers can start building with Gemini 2.5 Flash, our fast, cost-efficient thinking model now in preview in the Gemini API in Google AI Studio and Vertex AI.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/gemini-2-5-flash-preview/"
+ },
+ {
+  "slug": "gemini-2-5-model-family-expands",
+  "title": "We’re expanding our Gemini 2.5 family of models",
+  "date": "2025-06-17",
+  "authors": [
+   "Tulsee Doshi"
+  ],
+  "tags": [
+   "Gemini models",
+   "AI Products",
+   "Google DeepMind"
+  ],
+  "description": "Gemini 2.5 Flash and Pro are now generally available, and we’re introducing 2.5 Flash-Lite, our most cost-efficient and fastest 2.5 model yet.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/gemini-2-5-model-family-expands/"
+ },
+ {
+  "slug": "gemini-2-5-pro-latest-preview",
+  "title": "Try the latest Gemini 2.5 Pro before general availability.",
+  "date": "2025-06-05",
+  "authors": [
+   "Tulsee Doshi"
+  ],
+  "tags": [],
+  "description": "We’re introducing an upgraded preview of Gemini 2.5 Pro, our most intelligent model yet.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/gemini-2-5-pro-latest-preview/"
+ },
+ {
+  "slug": "gemini-2-5-pro-updates",
+  "title": "Build rich, interactive web apps with an updated Gemini 2.5 Pro",
+  "date": "2025-05-06",
+  "authors": [
+   "Tulsee Doshi"
+  ],
+  "tags": [
+   "Gemini models"
+  ],
+  "description": "Our updated version of Gemini 2.5 Pro has improved capabilities for coding.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/gemini-2-5-pro-updates/"
+ },
+ {
+  "slug": "gemini-3-examples-demos",
+  "title": "15 examples of what Gemini 3 can do",
+  "date": "2025-12-05",
+  "authors": [
+   "Zahra Thompson"
+  ],
+  "tags": [
+   "Gemini",
+   "Search",
+   "Developer tools"
+  ],
+  "description": "Learn how Gemini 3, Google’s latest model, can help you learn anything, build anything and plan anything.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/gemini-3-examples-demos/"
+ },
+ {
+  "slug": "gemini-3-flash-gemini-app",
+  "title": "Gemini 3 Flash comes to the Gemini app",
+  "date": "2025-12-17",
+  "authors": [
+   "Josh Woodward"
+  ],
+  "tags": [],
+  "description": "",
+  "url": "https://blog.google/products-and-platforms/products/gemini/gemini-3-flash-gemini-app/"
+ },
+ {
+  "slug": "gemini-3-flash",
+  "title": "Gemini 3 Flash: frontier intelligence built for speed",
+  "date": "2025-12-17",
+  "authors": [
+   "Tulsee Doshi"
+  ],
+  "tags": [
+   "Gemini models",
+   "AI Products",
+   "Google DeepMind"
+  ],
+  "description": "Gemini 3 Flash offers frontier intelligence built for speed at a fraction of the cost.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/gemini-3-flash/"
+ },
+ {
+  "slug": "gemini-3-gemini-app",
+  "title": "Gemini 3 brings upgraded smarts and new capabilities to the Gemini app",
+  "date": "2025-11-18",
+  "authors": [
+   "Josh Woodward"
+  ],
+  "tags": [
+   "Gemini App"
+  ],
+  "description": "Today we’re unveiling a major update for the Gemini app, and it all starts with Gemini 3.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/gemini-3-gemini-app/"
+ },
+ {
+  "slug": "gemini-audio-model-updates",
+  "title": "Improved Gemini audio models for powerful voice interactions",
+  "date": "2025-12-12",
+  "authors": [
+   "Bibo Xu"
+  ],
+  "tags": [
+   "Gemini models"
+  ],
+  "description": "An upgraded Gemini 2.5 Native Audio model across Google products and live speech translation in the Google Translate app.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/gemini-audio-model-updates/"
+ },
+ {
+  "slug": "gemini-cloud-media-entertainment",
+  "title": "4 ways media and entertainment companies are using Gemini",
+  "date": "2025-04-03",
+  "authors": [
+   "Anshul Kapoor"
+  ],
+  "tags": [
+   "Gemini",
+   "Google Cloud"
+  ],
+  "description": "When Gemini helps with tedious tasks, teams can focus on creativity.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/gemini-cloud-media-entertainment/"
+ },
+ {
+  "slug": "gemini-collaboration-features",
+  "title": "New ways to collaborate and get creative with Gemini",
+  "date": "2025-03-18",
+  "authors": [
+   "Dave Citron"
+  ],
+  "tags": [
+   "Gemini App"
+  ],
+  "description": "Check out the Gemini app’s latest features, like Canvas and Audio Overview.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/gemini-collaboration-features/"
+ },
+ {
+  "slug": "gemini-drop-august-2025",
+  "title": "Catch up on the newest features in August’s Gemini Drop.",
+  "date": "2025-08-15",
+  "authors": [],
+  "tags": [],
+  "description": "Gemini Drops is our new monthly update on how to get the most out of the Gemini app.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/gemini-drop-august-2025/"
+ },
+ {
+  "slug": "gemini-drop-december-2025",
+  "title": "Find out what’s new in the Gemini app in December's Gemini Drop.",
+  "date": "2025-12-19",
+  "authors": [],
+  "tags": [],
+  "description": "Gemini Drops is our regular monthly update on how to get the most out of the Gemini app.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/gemini-drop-december-2025/"
+ },
+ {
+  "slug": "gemini-drop-july-2025",
+  "title": "Find out the latest Gemini updates with Gemini Drops.",
+  "date": "2025-07-18",
+  "authors": [],
+  "tags": [],
+  "description": "Gemini Drops is our new monthly update on how to get the most out of the Gemini app.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/gemini-drop-july-2025/"
+ },
+ {
+  "slug": "gemini-drop-july-2026",
+  "title": "Find out what’s new in the Gemini app in July's Gemini Drop.",
+  "date": "2026-07-31",
+  "authors": [],
+  "tags": [],
+  "description": "Gemini Drops is our regular monthly update on how to get the most out of the Gemini app.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/gemini-drop-july-2026/"
+ },
+ {
+  "slug": "gemini-drop-november-2025",
+  "title": "Find out what’s new in the Gemini app in November's Gemini Drop.",
+  "date": "2025-11-21",
+  "authors": [],
+  "tags": [],
+  "description": "",
+  "url": "https://blog.google/products-and-platforms/products/gemini/gemini-drop-november-2025/"
+ },
+ {
+  "slug": "gemini-drop-october-2025",
+  "title": "Find out what’s new in the Gemini app in October's Gemini Drop.",
+  "date": "2025-10-24",
+  "authors": [],
+  "tags": [],
+  "description": "Gemini Drops is our new monthly update on how to get the most out of the Gemini app.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/gemini-drop-october-2025/"
+ },
+ {
+  "slug": "gemini-drop-september-2025",
+  "title": "Find out what’s new in the Gemini app in September’s Gemini Drop.",
+  "date": "2025-09-19",
+  "authors": [],
+  "tags": [],
+  "description": "Gemini Drops is our new monthly update on how to get the most out of the Gemini app.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/gemini-drop-september-2025/"
+ },
+ {
+  "slug": "gemini-help-avoid-jetlag",
+  "title": "Here's how Gemini can help you avoid jetlag.",
+  "date": "2026-06-26",
+  "authors": [],
+  "tags": [],
+  "description": "",
+  "url": "https://blog.google/products-and-platforms/products/gemini/gemini-help-avoid-jetlag/"
+ },
+ {
+  "slug": "gemini-image-generation-issue",
+  "title": "Gemini image generation got it wrong. We'll do better.",
+  "date": "2024-02-23",
+  "authors": [
+   "Prabhakar Raghavan"
+  ],
+  "tags": [
+   "Gemini App"
+  ],
+  "description": "An explanation of how the issues with Gemini’s image generation of people happened, and what we’re doing to fix it.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/gemini-image-generation-issue/"
+ },
+ {
+  "slug": "gemini-iphone-app",
+  "title": "The Gemini app is now available on iPhone",
+  "date": "2024-11-14",
+  "authors": [
+   "Brian Marquardt"
+  ],
+  "tags": [
+   "Gemini App"
+  ],
+  "description": "The standalone Gemini app is now available for iPhone users in the iOS App Store.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/gemini-iphone-app/"
+ },
+ {
+  "slug": "gemini-live-android-tips",
+  "title": "5 ways to use Gemini Live with camera and screen sharing",
+  "date": "2025-04-07",
+  "authors": [
+   "Isha Sheth"
+  ],
+  "tags": [
+   "Gemini App",
+   "Gemini Features"
+  ],
+  "description": "Gemini Live with video and screen sharing is now rolling out to Android mobile devices.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/gemini-live-android-tips/"
+ },
+ {
+  "slug": "gemini-live-audio-updates",
+  "title": "5 ways to have more natural conversations with Gemini",
+  "date": "2025-11-12",
+  "authors": [
+   "Angela Sun"
+  ],
+  "tags": [
+   "Gemini App"
+  ],
+  "description": "Here’s how Gemini Live can help you have a more natural conversation with new updates.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/gemini-live-audio-updates/"
+ },
+ {
+  "slug": "gemini-live-camera-how-to",
+  "title": "Here’s how to ask Gemini Live for help with anything you see.",
+  "date": "2026-07-22",
+  "authors": [
+   "Lindsey Lanquist"
+  ],
+  "tags": [],
+  "description": "",
+  "url": "https://blog.google/products-and-platforms/products/gemini/gemini-live-camera-how-to/"
+ },
+ {
+  "slug": "gemini-live-extensions-language-expansion",
+  "title": "New in Gemini: Gemini Live and connected Google apps in more languages",
+  "date": "2024-10-03",
+  "authors": [
+   "Jules Walter"
+  ],
+  "tags": [
+   "Gemini App"
+  ],
+  "description": "We are expanding Gemini Live and extensions to over 40 languages so you can chat with Gemini in your preferred language.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/gemini-live-extensions-language-expansion/"
+ },
+ {
+  "slug": "gemini-nano-banana-examples",
+  "title": "10 examples of Nano Banana, our new native image editing in the Gemini app",
+  "date": "2025-09-12",
+  "authors": [
+   "TK Breuer"
+  ],
+  "tags": [
+   "Gemini",
+   "AI Products",
+   "Google DeepMind"
+  ],
+  "description": "A new Google DeepMind image editing model, fondly known as Nano Banana, is now in the Gemini app, giving you more creative control to blend and edit photos.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/gemini-nano-banana-examples/"
+ },
+ {
+  "slug": "gemini-personalization",
+  "title": "Gemini gets personal, with tailored help from your Google apps",
+  "date": "2025-03-13",
+  "authors": [
+   "Dave Citron"
+  ],
+  "tags": [
+   "Gemini App"
+  ],
+  "description": "Gemini with personalization is a new capability that references your Search history, with your permission.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/gemini-personalization/"
+ },
+ {
+  "slug": "gemini-photo-to-video-tips",
+  "title": "3 ways to use photo-to-video in Gemini",
+  "date": "2025-09-19",
+  "authors": [
+   "Tatiana Gonzalez"
+  ],
+  "tags": [
+   "Gemini",
+   "AI Products"
+  ],
+  "description": "Here’s how I’ve been using Gemini’s photo-to-video tool as a multimedia storyteller, plus some tips for making your own videos.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/gemini-photo-to-video-tips/"
+ },
+ {
+  "slug": "gemini-preview-model-billing-update",
+  "title": "Start building with Gemini 2.5 Pro.",
+  "date": "2025-04-04",
+  "authors": [
+   "Logan Kilpatrick"
+  ],
+  "tags": [],
+  "description": "",
+  "url": "https://blog.google/products-and-platforms/products/gemini/gemini-preview-model-billing-update/"
+ },
+ {
+  "slug": "gemini-tips-for-parents",
+  "title": "5 ways Google parents are using Gemini",
+  "date": "2026-06-25",
+  "authors": [
+   "Chaim Gartenberg"
+  ],
+  "tags": [
+   "Gemini"
+  ],
+  "description": "How Gemini helps with homework, meal planning and more, so parents have time to focus on the good stuff.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/gemini-tips-for-parents/"
+ },
+ {
+  "slug": "google-arts-culture-gemini-orchestra",
+  "title": "How Gemini co-composed this contemporary classical music piece",
+  "date": "2025-01-28",
+  "authors": [
+   "Joel Meares"
+  ],
+  "tags": [
+   "Gemini",
+   "Arts & Culture"
+  ],
+  "description": "Learn how Google Gemini collaborated with German composers to create “The Twin Paradox: A Symphonic Discourse,” first performed by the Munich Symphony Orchestra in October.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/google-arts-culture-gemini-orchestra/"
+ },
+ {
+  "slug": "google-assistant-gemini-mobile",
+  "title": "The Assistant experience on mobile is upgrading to Gemini",
+  "date": "2025-03-14",
+  "authors": [
+   "Brian Marquardt"
+  ],
+  "tags": [
+   "Gemini App",
+   "Google Assistant"
+  ],
+  "description": "Over the coming months, we’ll be upgrading users on mobile devices from Google Assistant to Gemini.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/google-assistant-gemini-mobile/"
+ },
+ {
+  "slug": "google-bard-expansion-teens",
+  "title": "How we’ve created a helpful and responsible Bard experience for teens",
+  "date": "2023-11-15",
+  "authors": [
+   "Tulsee Doshi"
+  ],
+  "tags": [
+   "Gemini App"
+  ],
+  "description": "We’re responsibly expanding access to Bard to teens to help them find inspiration, learn new things and solve everyday problems.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/google-bard-expansion-teens/"
+ },
+ {
+  "slug": "google-bard-gemini-pro-image-generation",
+  "title": "Bard’s latest updates: Access Gemini Pro globally and generate images",
+  "date": "2024-02-01",
+  "authors": [
+   "Jack Krawczyk"
+  ],
+  "tags": [
+   "Gemini models",
+   "AI Products",
+   "Gemini App"
+  ],
+  "description": "We’re expanding Gemini Pro in Bard to all supported languages and bringing text-to-image generation into Bard.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/google-bard-gemini-pro-image-generation/"
+ },
+ {
+  "slug": "google-bard-new-features-update-july-2023",
+  "title": "Bard’s latest update: more features, languages and countries",
+  "date": "2023-07-13",
+  "authors": [
+   "Jack Krawczyk"
+  ],
+  "tags": [
+   "Gemini App"
+  ],
+  "description": "Today we're expanding Bard to new languages and countries, and launching new features to help you get creative and boost your productivity.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/google-bard-new-features-update-july-2023/"
+ },
+ {
+  "slug": "google-bard-new-features-update-sept-2023",
+  "title": "Bard can now connect to your Google apps and services",
+  "date": "2023-09-19",
+  "authors": [
+   "Yury Pinsky"
+  ],
+  "tags": [
+   "Gemini App",
+   "Gemini Features"
+  ],
+  "description": "Bard gets its most capable model yet, along with new and expanded features.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/google-bard-new-features-update-sept-2023/"
+ },
+ {
+  "slug": "google-gemini-new-features-july-2024",
+  "title": "Gemini’s big upgrade: Faster responses with 1.5 Flash, expanded access and more",
+  "date": "2024-07-25",
+  "authors": [
+   "Amar Subramanya"
+  ],
+  "tags": [
+   "Gemini models",
+   "Gemini App",
+   "Gemini Features"
+  ],
+  "description": "We’re bringing 1.5 Flash to Gemini, launching a new related content feature and expanding our Gemini for Teens experience.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-new-features-july-2024/"
+ },
+ {
+  "slug": "google-gemini-prompts-new-years-resolutions",
+  "title": "10 Gemini prompts to help you keep your New Year's resolutions",
+  "date": "2025-12-19",
+  "authors": [
+   "Mike Darling"
+  ],
+  "tags": [
+   "Gemini"
+  ],
+  "description": "Turn your New Year's resolutions into a reality. Here are 10 prompts you can use with Gemini to get a head start on your goals.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-prompts-new-years-resolutions/"
+ },
+ {
+  "slug": "google-gemini-update-august-2024",
+  "title": "New in Gemini: Custom Gems and improved image generation with Imagen 3",
+  "date": "2024-08-28",
+  "authors": [
+   "Dave Citron"
+  ],
+  "tags": [
+   "Gemini App"
+  ],
+  "description": "New updates for Gemini include custom Gems and improved image generation with Imagen 3.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-update-august-2024/"
+ },
+ {
+  "slug": "google-gems-tips",
+  "title": "5 tips on getting started with Gems, your custom AI experts",
+  "date": "2024-09-05",
+  "authors": [
+   "Molly McHugh-Johnson"
+  ],
+  "tags": [
+   "Gemini App"
+  ],
+  "description": "Learn how to get started with Gems, customized versions of Gemini.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/google-gems-tips/"
+ },
+ {
+  "slug": "google-one-ai-premium-students-free",
+  "title": "College students in the U.S. are now eligible for the best of Google AI — and 2 TB storage — for free",
+  "date": "2025-04-17",
+  "authors": [
+   "Josh Woodward"
+  ],
+  "tags": [
+   "Gemini App",
+   "Google One",
+   "Google Labs"
+  ],
+  "description": "Students can get the Google One AI Premium plan for free for 15 months, which includes Gemini Advanced, NotebookLM Plus and more.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/google-one-ai-premium-students-free/"
+ },
+ {
+  "slug": "guided-learning-google-gemini",
+  "title": "How Gemini's Guided Learning can help you study more effectively",
+  "date": "2025-09-23",
+  "authors": [
+   "Joel Meares"
+  ],
+  "tags": [
+   "Gemini"
+  ],
+  "description": "Guided Learning with Gemini is a new feature from Google that offers people a personalized, interactive, and effective way to learn.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/guided-learning-google-gemini/"
+ },
+ {
+  "slug": "how-to-use-google-bard",
+  "title": "10 helpful ways to use Bard",
+  "date": "2023-08-10",
+  "authors": [
+   "Jenny Blackburn"
+  ],
+  "tags": [
+   "Gemini App",
+   "AI Products"
+  ],
+  "description": "Check out 10 ways Bard can help you get things done, from brainstorming ideas to planning trip itineraries.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/how-to-use-google-bard/"
+ },
+ {
+  "slug": "how-we-built-gemini-robotics",
+  "title": "How we built the new family of Gemini Robotics models",
+  "date": "2025-04-01",
+  "authors": [
+   "Joel Meares"
+  ],
+  "tags": [
+   "Gemini",
+   "Gemini models",
+   "AI Products"
+  ],
+  "description": "Robots powered by Gemini Robotics models can learn complex actions like preparing salads and even folding an origami fox.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/how-we-built-gemini-robotics/"
+ },
+ {
+  "slug": "image-editing",
+  "title": "Upload and edit your images directly in the Gemini app",
+  "date": "2025-04-30",
+  "authors": [
+   "David Sharon"
+  ],
+  "tags": [
+   "Gemini App",
+   "Gemini Features",
+   "AI Products"
+  ],
+  "description": "We’re rolling out the ability to easily modify both your AI creations and images you upload from your phone or computer.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/image-editing/"
+ },
+ {
+  "slug": "image-generation-prompting-tips",
+  "title": "Tips for getting the best image generation and editing in the Gemini app",
+  "date": "2025-08-26",
+  "authors": [
+   "Naina Raisinghani"
+  ],
+  "tags": [
+   "Gemini App",
+   "AI Products"
+  ],
+  "description": "Here are some tips for writing more effective prompts for image generation and editing in Gemini.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/image-generation-prompting-tips/"
+ },
+ {
+  "slug": "meta-prompting-veo-gemini-tips",
+  "title": "A Googler explains how to “meta prompt” for incredible Veo videos",
+  "date": "2025-12-08",
+  "authors": [
+   "Joel Meares"
+  ],
+  "tags": [
+   "Gemini"
+  ],
+  "description": "Google DeepMind UX Engineer Anna Bortsova asks Gemini to draft detailed prompts for her videos — and the results are show-stopping.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/meta-prompting-veo-gemini-tips/"
+ },
+ {
+  "slug": "nano-banana-google-trends-2025",
+  "title": "13 of the best Nano Banana trends from 2025",
+  "date": "2025-12-29",
+  "authors": [
+   "Zahra Thompson"
+  ],
+  "tags": [
+   "Gemini"
+  ],
+  "description": "From pet figurines to isometric images, here are some of our favorite Nano Banana trends of the year.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/nano-banana-google-trends-2025/"
+ },
+ {
+  "slug": "new-gemini-app-features-march-2025",
+  "title": "New Gemini app features, available to try at no cost",
+  "date": "2025-03-13",
+  "authors": [
+   "Dave Citron"
+  ],
+  "tags": [
+   "Gemini App",
+   "Gemini models"
+  ],
+  "description": "We’re making big upgrades to the performance and availability of our most popular Gemini features.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/new-gemini-app-features-march-2025/"
+ },
+ {
+  "slug": "new-gemini-app-tools-to-help-students-in-europe-the-middle-east-and-africa",
+  "title": "New Gemini app tools to help students in Europe, the Middle East and Africa",
+  "date": "2025-09-03",
+  "authors": [
+   "Jennifer Shen"
+  ],
+  "tags": [
+   "Gemini App"
+  ],
+  "description": "Try these new tools to learn, study and understand complex topics even better.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/new-gemini-app-tools-to-help-students-in-europe-the-middle-east-and-africa/"
+ },
+ {
+  "slug": "new-gemini-app-updates-android",
+  "title": "A more powerful Android assistant with Gemini",
+  "date": "2025-01-22",
+  "authors": [
+   "Sissie Hsiao"
+  ],
+  "tags": [
+   "Gemini App"
+  ],
+  "description": "New features for the Gemini app on Android announced at Samsung Galaxy Unpacked.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/new-gemini-app-updates-android/"
+ },
+ {
+  "slug": "photo-to-video",
+  "title": "Turn your photos into videos in Gemini",
+  "date": "2025-07-10",
+  "authors": [
+   "David Sharon"
+  ],
+  "tags": [
+   "Gemini App",
+   "Google One"
+  ],
+  "description": "You can now transform your photos into eight-second videos using Veo 3.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/photo-to-video/"
+ },
+ {
+  "slug": "release-notes-podcast-gemini-multimodal",
+  "title": "Hear a podcast discussion about Gemini’s multimodal capabilities.",
+  "date": "2025-07-07",
+  "authors": [],
+  "tags": [],
+  "description": "",
+  "url": "https://blog.google/products-and-platforms/products/gemini/release-notes-podcast-gemini-multimodal/"
+ },
+ {
+  "slug": "release-notes-podcast-smokejumpers",
+  "title": "In our latest podcast, hear how the “Smoke Jumpers” team brings Gemini to billions of people.",
+  "date": "2026-01-27",
+  "authors": [],
+  "tags": [],
+  "description": "",
+  "url": "https://blog.google/products-and-platforms/products/gemini/release-notes-podcast-smokejumpers/"
+ },
+ {
+  "slug": "scheduled-actions-gemini-app",
+  "title": "Plan ahead with scheduled actions in the Gemini app.",
+  "date": "2025-06-06",
+  "authors": [
+   "Dave Citron"
+  ],
+  "tags": [],
+  "description": "",
+  "url": "https://blog.google/products-and-platforms/products/gemini/scheduled-actions-gemini-app/"
+ },
+ {
+  "slug": "sharing-gems",
+  "title": "You can now share your custom Gems in the Gemini app.",
+  "date": "2025-09-18",
+  "authors": [],
+  "tags": [],
+  "description": "You can now share your custom Gems in the Gemini app.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/sharing-gems/"
+ },
+ {
+  "slug": "storybooks",
+  "title": "Create personal illustrated storybooks in the Gemini app.",
+  "date": "2025-08-05",
+  "authors": [
+   "Joël Yawili"
+  ],
+  "tags": [],
+  "description": "Simply describe any story, and Gemini instantly generates a unique 10-page book with custom art and audio.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/storybooks/"
+ },
+ {
+  "slug": "the-global-ai-film-award-is-now-accepting-applications",
+  "title": "The Global AI Film Award is now accepting applications",
+  "date": "2025-10-01",
+  "authors": [
+   "Anthony Nakache"
+  ],
+  "tags": [
+   "Gemini",
+   "AI Products",
+   "Gemini"
+  ],
+  "description": "The Global AI Film Award is now accepting applications from creators using Google AI tools, with the winner awarded a prize of USD 1 million by the 1 Billion Followers Summit.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/the-global-ai-film-award-is-now-accepting-applications/"
+ },
+ {
+  "slug": "tips-prompting-lyria-3",
+  "title": "6 tips for prompting Lyria 3 in the Gemini app",
+  "date": "2026-02-23",
+  "authors": [
+   "Molly McHugh-Johnson"
+  ],
+  "tags": [
+   "Gemini App"
+  ],
+  "description": "Learn more about Lyria 3, Google DeepMind’s newest generative AI that can help you create your own tunes.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/tips-prompting-lyria-3/"
+ },
+ {
+  "slug": "updated-image-editing-model",
+  "title": "Image editing in Gemini just got a major upgrade",
+  "date": "2025-08-26",
+  "authors": [
+   "David Sharon"
+  ],
+  "tags": [
+   "Gemini"
+  ],
+  "description": "Transform images in amazing new ways with updated native image editing in the Gemini app.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/updated-image-editing-model/"
+ },
+ {
+  "slug": "using-wear-os-gemini-raise-to-talk",
+  "title": "6 ways I spent a busy weekend with Gemini on Pixel Watch 4",
+  "date": "2025-10-22",
+  "authors": [
+   "Jean Lee"
+  ],
+  "tags": [
+   "Gemini App",
+   "Pixel",
+   "Wear OS"
+  ],
+  "description": "Learn more about Gemini on Wear OS features like Raise to Talk and Personal Context, all accessible on Google Pixel Watch 4.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/using-wear-os-gemini-raise-to-talk/"
+ },
+ {
+  "slug": "veo-3-expansion-mobile",
+  "title": "We’re bringing Veo 3 to more countries, and to more users on the Gemini mobile app.",
+  "date": "2025-05-30",
+  "authors": [],
+  "tags": [],
+  "description": "",
+  "url": "https://blog.google/products-and-platforms/products/gemini/veo-3-expansion-mobile/"
+ },
+ {
+  "slug": "visual-reports",
+  "title": "Bring your research to life with integrated visual reports from Gemini Deep Research.",
+  "date": "2025-12-15",
+  "authors": [],
+  "tags": [],
+  "description": "",
+  "url": "https://blog.google/products-and-platforms/products/gemini/visual-reports/"
+ },
+ {
+  "slug": "gemini-3-1-flash-lite",
+  "title": "Gemini 3.1 Flash-Lite: Built for intelligence at scale",
+  "date": "2026-03-03",
+  "authors": [
+   "Equipe do Google Gemini"
+  ],
+  "tags": [
+   "Gemini models",
+   "AI"
+  ],
+  "description": "Gemini 3.1 Flash-Lite is our fastest and most cost-efficient Gemini 3 series model yet.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite/"
+ },
+ {
+  "slug": "gemini-3-1-flash-live",
+  "title": "Gemini 3.1 Flash Live: Making audio AI more natural and reliable",
+  "date": "2026-03-26",
+  "authors": [
+   "Valeria Wu"
+  ],
+  "tags": [
+   "Gemini models",
+   "AI"
+  ],
+  "description": "Gemini 3.1 Flash Live is now available across Google products.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/"
+ },
+ {
+  "slug": "gemini-3-1-flash-tts",
+  "title": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
+  "date": "2026-04-15",
+  "authors": [
+   "Vilobh Meshram"
+  ],
+  "tags": [
+   "Gemini models",
+   "AI"
+  ],
+  "description": "Gemini 3.1 Flash TTS is now available across Google products.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-tts/"
+ },
+ {
+  "slug": "gemini-3-5-transcribe",
+  "title": "Intelligent transcription with Gemini 3.5 Transcribe",
+  "date": "2026-08-26",
+  "authors": [
+   "Diego Melendo Casado"
+  ],
+  "tags": [
+   "Gemini models"
+  ],
+  "description": "Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/"
+ },
+ {
+  "slug": "gemini-3-5",
+  "title": "Gemini 3.5: frontier intelligence with action",
+  "date": "2026-05-19",
+  "authors": [
+   "Koray Kavukcuoglu"
+  ],
+  "tags": [
+   "Gemini models",
+   "AI"
+  ],
+  "description": "At Google I/O we released Gemini 3.5, our latest series of models combining frontier intelligence with action.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/"
+ },
+ {
+  "slug": "gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber",
+  "title": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+  "date": "2026-07-21",
+  "authors": [
+   "Tulsee Doshi"
+  ],
+  "tags": [
+   "Gemini models"
+  ],
+  "description": "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/"
+ },
+ {
+  "slug": "gemini-live-3-5-translate",
+  "title": "Fluid, natural voice translation with Gemini 3.5 Live Translate",
+  "date": "2026-06-09",
+  "authors": [
+   "Anuda Weerasinghe"
+  ],
+  "tags": [
+   "Gemini models",
+   "Translate"
+  ],
+  "description": "Gemini 3.5 Live Translate brings near real-time, natural speech translation to Google AI Studio, Google Translate and Google Meet.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-live-3-5-translate/"
+ },
+ {
+  "slug": "gemini-omni-3-5-videos",
+  "title": "9 demos of Gemini Omni and Gemini 3.5 in action",
+  "date": "2026-05-29",
+  "authors": [
+   "Zahra Thompson"
+  ],
+  "tags": [
+   "Gemini models",
+   "AI",
+   "Google DeepMind"
+  ],
+  "description": "Watch 9 videos showing the capabilities of Gemini Omni and Gemini 3.5, announced at Google I/O 2026.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/"
+ },
+ {
+  "slug": "gemini-omni-builders",
+  "title": "See what 5 builders are making with Gemini Omni",
+  "date": "2026-08-07",
+  "authors": [
+   "Lindsey Lanquist"
+  ],
+  "tags": [
+   "Gemini models",
+   "Google DeepMind"
+  ],
+  "description": "Gemini Omni makes creating videos as easy as having a conversation. Here’s how five people use it to edit videos and visualize ideas.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-builders/"
+ },
+ {
+  "slug": "gemini-omni",
+  "title": "Introducing Gemini Omni",
+  "date": "2026-05-19",
+  "authors": [
+   "Koray Kavukcuoglu"
+  ],
+  "tags": [
+   "Gemini models"
+  ],
+  "description": "Introducing Gemini Omni, which allows you to create anything from any input and edit naturally using conversational language.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni/"
+ },
+ {
+  "slug": "introducing-agentic-video-in-gemini",
+  "title": "Introducing agentic video understanding with Gemini",
+  "date": "2026-09-01",
+  "authors": [
+   "Rohan Doshi"
+  ],
+  "tags": [
+   "Gemini models"
+  ],
+  "description": "We’re launching agentic video understanding across our latest Gemini models for improved accuracy and lower costs and token usage.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-agentic-video-in-gemini/"
+ },
+ {
+  "slug": "introducing-computer-use-gemini-3-5-flash",
+  "title": "Introducing computer use in Gemini 3.5 Flash",
+  "date": "2026-06-24",
+  "authors": [
+   "Mateo Quiros"
+  ],
+  "tags": [
+   "Gemini models"
+  ],
+  "description": "A look at the built-in computer use tool in Gemini 3.5 Flash.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/"
+ },
+ {
+  "slug": "introducing-gemini-3-7-flash",
+  "title": "Introducing Gemini 3.7 Flash",
+  "date": "2026-08-13",
+  "authors": [
+   "Tulsee Doshi"
+  ],
+  "tags": [
+   "Gemini models"
+  ],
+  "description": "Gemini 3.7 Flash is our most intelligent workhorse model yet for coding and agents.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
+ },
+ {
+  "slug": "using-gemini-to-manage-farm",
+  "title": "How Gemini Flash agents are helping a Michigan dairy farmer",
+  "date": "2026-07-28",
+  "authors": [
+   "News from Google Team"
+  ],
+  "tags": [
+   "Gemini models"
+  ],
+  "description": "See how Paul Windemuller, a Michigan dairy farmer, is changing the way he works by using AI agents built with Gemini 3.6 Flash.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/using-gemini-to-manage-farm/"
+ },
+ {
+  "slug": "ai-navigate-bureaucracy",
+  "title": "4 ways Gemini makes administrative chores quick and easy",
+  "date": "2026-09-09",
+  "authors": [
+   "Sarah Armstrong"
+  ],
+  "tags": [
+   "Gemini"
+  ],
+  "description": "People are turning to Gemini for help with complex government tasks, like filing taxes, preparing fines, and accessing social services.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/ai-navigate-bureaucracy/"
+ },
+ {
+  "slug": "bard-gemini-advanced-app",
+  "title": "Bard becomes Gemini: Try Ultra 1.0 and a new mobile app today",
+  "date": "2024-02-08",
+  "authors": [
+   "Sissie Hsiao"
+  ],
+  "tags": [
+   "Gemini",
+   "AI Products",
+   "Google One"
+  ],
+  "description": "Bard is now known as Gemini, with a mobile app and an Advanced experience that gives you access to our most capable AI model, Ultra 1.0.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/bard-gemini-advanced-app/"
+ },
+ {
+  "slug": "coffee-shop-gemini-features",
+  "title": "3 ways this coffee shop is growing with Gemini",
+  "date": "2026-07-08",
+  "authors": [
+   "Sarah Armstrong"
+  ],
+  "tags": [
+   "Gemini"
+  ],
+  "description": "Small businesses like coffee shops can use Gemini to save time on graphic design, email marketing and sales forecasting.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/coffee-shop-gemini-features/"
+ },
+ {
+  "slug": "gemini-3",
+  "title": "A new era of intelligence with Gemini 3",
+  "date": "2025-11-18",
+  "authors": [
+   "Sundar Pichai"
+  ],
+  "tags": [
+   "Gemini models",
+   "AI Products",
+   "Google DeepMind"
+  ],
+  "description": "Today we’re releasing Gemini 3 – our most intelligent model that helps you bring any idea to life.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/gemini-3/"
+ },
+ {
+  "slug": "gemini-app-updates-io-2025",
+  "title": "Gemini gets more personal, proactive and powerful",
+  "date": "2025-05-20",
+  "authors": [
+   "Josh Woodward"
+  ],
+  "tags": [
+   "Gemini App",
+   "Gemini models",
+   "AI Products"
+  ],
+  "description": "The Gemini app is getting major new updates, from Veo 3 and Imagen 4 to Deep Research and Canvas.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/gemini-app-updates-io-2025/"
+ },
+ {
+  "slug": "gemini-live-updates-august-2025",
+  "title": "Gemini Live: A more helpful, natural and visual assistant",
+  "date": "2025-08-20",
+  "authors": [
+   "Angela Sun"
+  ],
+  "tags": [
+   "Gemini App"
+  ],
+  "description": "We're making major upgrades to Gemini Live so it’s more expressive, more visually aware and more deeply integrated with your Google apps.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/gemini-live-updates-august-2025/"
+ },
+ {
+  "slug": "gemini-nano-banana-veo-halloween-images",
+  "title": "Try these tips and prompts for spooky AI images",
+  "date": "2025-10-24",
+  "authors": [
+   "Molly McHugh-Johnson"
+  ],
+  "tags": [
+   "Gemini App",
+   "Photos",
+   "Google Labs"
+  ],
+  "description": "Learn how to use the Gemini app’s tools — like  Veo 3, Nano Banana and more — to create spooky Halloween visuals.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/gemini-nano-banana-veo-halloween-images/"
+ },
+ {
+  "slug": "gemini-nano-pixel-10-updates",
+  "title": "5 new things Gemini can do on Pixel",
+  "date": "2025-08-21",
+  "authors": [
+   "Molly McHugh-Johnson"
+  ],
+  "tags": [
+   "Gemini",
+   "Pixel"
+  ],
+  "description": "Learn more about new Gemini features and model updates that make Pixel phones even better.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/gemini-nano-pixel-10-updates/"
+ },
+ {
+  "slug": "gemini-spring-cleaning-tips",
+  "title": "8 Gemini tips for organizing your space (and life)",
+  "date": "2026-04-24",
+  "authors": [
+   "Ivy Levine"
+  ],
+  "tags": [
+   "Gemini",
+   "AI"
+  ],
+  "description": "Organize your home and digital space with Gemini. Use AI-powered tips for cleaning schedules, inbox decluttering, seasonal chores.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/gemini-spring-cleaning-tips/"
+ },
+ {
+  "slug": "google-ai-pro-students-learning",
+  "title": "Bringing the best of AI to college students for free",
+  "date": "2025-08-06",
+  "authors": [
+   "Sundar Pichai"
+  ],
+  "tags": [
+   "Gemini App",
+   "Learning & Education",
+   "A message from our CEO",
+   "Google One"
+  ],
+  "description": "We’re committing $1 billion for AI training and resources and rolling out our most advanced AI tools for learning to students for free.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/google-ai-pro-students-learning/"
+ },
+ {
+  "slug": "google-bard-try-gemini-ai",
+  "title": "Bard gets its biggest upgrade yet with Gemini",
+  "date": "2023-12-06",
+  "authors": [
+   "Sissie Hsiao"
+  ],
+  "tags": [
+   "Gemini models",
+   "Gemini App"
+  ],
+  "description": "We’re starting to bring Gemini’s advanced capabilities into Bard.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/google-bard-try-gemini-ai/"
+ },
+ {
+  "slug": "google-gemini-ai-holiday-planning-2024",
+  "title": "5 ways I'm handling the holidays with Gemini",
+  "date": "2024-11-26",
+  "authors": [
+   "Molly McHugh-Johnson"
+  ],
+  "tags": [
+   "Gemini App",
+   "Gemini Features"
+  ],
+  "description": "Learn more about how you can use Google’s Gemini app for holiday help.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-ai-holiday-planning-2024/"
+ },
+ {
+  "slug": "google-gemini-anniversary-quiz",
+  "title": "Take our pop quiz for Gemini’s first anniversary",
+  "date": "2024-12-06",
+  "authors": [
+   "News from Google Team"
+  ],
+  "tags": [
+   "Gemini models",
+   "Gemini App",
+   "Gemini Features"
+  ],
+  "description": "Google’s AI model, Gemini, was launched with Gemini 1.0 one year ago. Take this pop quiz to see how well you’ve been paying attention!",
+  "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-anniversary-quiz/"
+ },
+ {
+  "slug": "google-gemini-deep-research",
+  "title": "Try Deep Research and our new experimental model in Gemini, your AI assistant",
+  "date": "2024-12-11",
+  "authors": [
+   "Dave Citron"
+  ],
+  "tags": [
+   "Gemini App",
+   "Gemini models"
+  ],
+  "description": "Try Deep Research, a new research assistant in Gemini Advanced, and a chat optimized version of Gemini 2.0 Flash Experimental.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-deep-research/"
+ },
+ {
+  "slug": "google-gemini-home-buying-renting-tips",
+  "title": "6 ways Gemini can help you find your next home",
+  "date": "2026-04-09",
+  "authors": [
+   "Mike Darling"
+  ],
+  "tags": [
+   "Gemini"
+  ],
+  "description": "Moving soon? See how Gemini can help you analyze neighborhoods, summarize inspection reports, visualize renovations and streamline your home search.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-home-buying-renting-tips/"
+ },
+ {
+  "slug": "google-gemini-learning-features",
+  "title": "5 ways Gemini can help students study smarter",
+  "date": "2024-08-29",
+  "authors": [
+   "Adam Coimbra"
+  ],
+  "tags": [
+   "Gemini App",
+   "Learning & Education"
+  ],
+  "description": "These new Gemini features help students learn new material and study smarter.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-learning-features/"
+ },
+ {
+  "slug": "google-gemini-pixel-football-club-partnerships",
+  "title": "Get closer to the game with Gemini and Pixel",
+  "date": "2026-08-17",
+  "authors": [
+   "Eileen Mannion"
+  ],
+  "tags": [
+   "Gemini",
+   "Pixel",
+   "AI",
+   "Google in Europe"
+  ],
+  "description": "Google Gemini and Pixel partner with five global football clubs to elevate the fan matchday experience through AI and  Smartphone Technology.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/"
+ },
+ {
+  "slug": "google-gemini-update-may-2024",
+  "title": "Get more done with Gemini: Try 1.5 Pro and more intelligent features",
+  "date": "2024-05-14",
+  "authors": [
+   "Sissie Hsiao"
+  ],
+  "tags": [
+   "Gemini models",
+   "Gemini App"
+  ],
+  "description": "Gemini Advanced subscribers will get access to Gemini 1.5 Pro, a 1 million token context window and more personalized features.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-update-may-2024/"
+ },
+ {
+  "slug": "holiday-tips-prompts-ai-tools",
+  "title": "48 tips and prompts for holiday planning, travel and more",
+  "date": "2025-11-21",
+  "authors": [
+   "Molly McHugh-Johnson"
+  ],
+  "tags": [
+   "Gemini",
+   "Photos",
+   "Search",
+   "Pixel",
+   "Google Nest"
+  ],
+  "description": "Learn more about ways to use Google tools like Gemini, Google Photos, Search and more to get things done over the holidays.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/holiday-tips-prompts-ai-tools/"
+ },
+ {
+  "slug": "how-gemini-plans-trips",
+  "title": "How Gemini plans such detailed vacation itineraries for you",
+  "date": "2026-08-06",
+  "authors": [
+   "Sarah Armstrong"
+  ],
+  "tags": [
+   "Gemini"
+  ],
+  "description": "Learn how Gemini provides personalized recommendations and creates custom travel itineraries when you ask it to plan a trip.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/how-gemini-plans-trips/"
+ },
+ {
+  "slug": "how-nano-banana-got-its-name",
+  "title": "How Nano Banana got its name",
+  "date": "2026-01-15",
+  "authors": [
+   "Ari Marini"
+  ],
+  "tags": [
+   "Gemini",
+   "AI"
+  ],
+  "description": "We’re peeling back the origin story of Nano Banana, one of Google DeepMind’s most popular models.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/how-nano-banana-got-its-name/"
+ },
+ {
+  "slug": "launch-business-with-gemini",
+  "title": "5 ways to build a side hustle with Gemini",
+  "date": "2026-07-20",
+  "authors": [
+   "Sarah Armstrong"
+  ],
+  "tags": [
+   "Gemini"
+  ],
+  "description": "Launching a side business? Use Gemini to design your side hustle, conduct market research and automate logistics.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/launch-business-with-gemini/"
+ },
+ {
+  "slug": "made-by-google-gemini-ai-updates",
+  "title": "Gemini makes your mobile device a powerful AI assistant",
+  "date": "2024-08-13",
+  "authors": [
+   "Sissie Hsiao"
+  ],
+  "tags": [
+   "Gemini App",
+   "Gemini Features",
+   "Gemini models"
+  ],
+  "description": "At Made by Google, we shared how Gemini is evolving to provide AI-powered assistance that will be infinitely more helpful.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/made-by-google-gemini-ai-updates/"
+ },
+ {
+  "slug": "nano-banana-tips",
+  "title": "4 tips for using Nano Banana to create amazing images",
+  "date": "2025-10-02",
+  "authors": [
+   "Ari Marini"
+  ],
+  "tags": [
+   "Gemini",
+   "AI Products"
+  ],
+  "description": "Get the scoop on how to use Nano Banana, the Gemini app's viral new image generation and editing model from Google DeepMind.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/nano-banana-tips/"
+ },
+ {
+  "slug": "new-gemini-tools-students-august-2025",
+  "title": "New Gemini app tools to help students learn, understand and study even better",
+  "date": "2025-08-06",
+  "authors": [
+   "Jennifer Shen"
+  ],
+  "tags": [
+   "Gemini App",
+   "Learning & Education",
+   "AI Products",
+   "Google One"
+  ],
+  "description": "Try these new tools to learn, study and understand complex topics even better.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/new-gemini-tools-students-august-2025/"
+ },
+ {
+  "slug": "prompting-tips-nano-banana-pro",
+  "title": "7 tips to get the most out of Nano Banana Pro",
+  "date": "2025-11-20",
+  "authors": [
+   "Bea Alessio"
+  ],
+  "tags": [
+   "Gemini App",
+   "Gemini models"
+  ],
+  "description": "Here are some tips for writing more effective prompts for image generation and editing in Gemini using Nano Banana Pro.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/prompting-tips-nano-banana-pro/"
+ },
+ {
+  "slug": "state-fair-tips",
+  "title": "Have more fun at the state fair with these Google tools",
+  "date": "2026-08-10",
+  "authors": [
+   "Claire Herrin"
+  ],
+  "tags": [
+   "Gemini"
+  ],
+  "description": "Here are five easy ways Google tools can help you make plans, explore, and create memories at the state fair.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/state-fair-tips/"
+ },
+ {
+  "slug": "temporary-chats-privacy-controls",
+  "title": "Gemini adds Temporary Chats and new personalization features",
+  "date": "2025-08-13",
+  "authors": [
+   "Michael Siliski"
+  ],
+  "tags": [
+   "Gemini App"
+  ],
+  "description": "Today, we are updating the Gemini app so that it learns about your preferences the more you use it.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/temporary-chats-privacy-controls/"
+ },
+ {
+  "slug": "tips-how-to-use-deep-research",
+  "title": "6 tips to get the most out of Gemini Deep Research",
+  "date": "2025-03-19",
+  "authors": [
+   "Molly McHugh-Johnson"
+  ],
+  "tags": [
+   "Gemini App",
+   "Gemini Features",
+   "Gemini models"
+  ],
+  "description": "Learn more about using Google’s Deep Research, an AI assistant that helps you explore complex topics and delivers detailed reports.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/tips-how-to-use-deep-research/"
+ },
+ {
+  "slug": "video-generation",
+  "title": "Generate videos in Gemini and Whisk with Veo 2",
+  "date": "2025-04-15",
+  "authors": [
+   "Angela Sun"
+  ],
+  "tags": [
+   "Gemini App",
+   "Gemini models",
+   "Google One"
+  ],
+  "description": "You can now generate videos in Gemini, powered by Veo 2.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/video-generation/"
+ },
+ {
+  "slug": "where-to-use-nano-banana-pro",
+  "title": "Here’s where you can use Nano Banana Pro",
+  "date": "2025-12-23",
+  "authors": [
+   "Molly McHugh-Johnson"
+  ],
+  "tags": [
+   "Gemini models",
+   "Gemini"
+  ],
+  "description": "Learn more about Nano Banana Pro, Google’s state-of-the-art image generation and editing model, and where you can use it now.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/where-to-use-nano-banana-pro/"
+ }
+]

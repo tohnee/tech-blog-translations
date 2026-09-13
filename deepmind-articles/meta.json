@@ -1,0 +1,4306 @@
+[
+ {
+  "slug": "10-years-of-alphago",
+  "title": "From games to biology and beyond: 10 years of AlphaGo’s impact",
+  "date": "2026-03-10",
+  "authors": [
+   "Demis Hassabis",
+   "Demis Hassabis"
+  ],
+  "tags": [],
+  "description": "Ten years since AlphaGo, we explore how its search and learning methods are catalyzing scientific discovery and paving a path to AGI.",
+  "url": "https://deepmind.google/blog/10-years-of-alphago/"
+ },
+ {
+  "slug": "2017-deepminds-year-in-review",
+  "title": "2017: DeepMind's year in review",
+  "date": "2017-12-21",
+  "authors": [],
+  "tags": [],
+  "description": "In July, the world number one Go player Ke Jie spoke after a streak of 20 wins. It was two months after he had played AlphaGo at the Future of Go Summit in Wuzhen, China.",
+  "url": "https://deepmind.google/blog/2017-deepminds-year-in-review/"
+ },
+ {
+  "slug": "2023-a-year-of-groundbreaking-advances-in-ai-and-computing",
+  "title": "2023: A Year of Groundbreaking Advances in AI and Computing",
+  "date": "2023-12-22",
+  "authors": [],
+  "tags": [],
+  "description": "This has been a year of incredible progress in the field of Artificial Intelligence (AI) research and its practical applications.",
+  "url": "https://deepmind.google/blog/2023-a-year-of-groundbreaking-advances-in-ai-and-computing/"
+ },
+ {
+  "slug": "a-catalogue-of-genetic-mutations-to-help-pinpoint-the-cause-of-diseases",
+  "title": "A catalogue of genetic mutations to help pinpoint the cause of diseases",
+  "date": "2023-09-19",
+  "authors": [],
+  "tags": [],
+  "description": "New AI tool classifies the effects of 71 million ‘missense’ mutations \r\nUncovering the root causes of disease is one of the greatest challenges in human genetics. With millions of possible mutations …",
+  "url": "https://deepmind.google/blog/a-catalogue-of-genetic-mutations-to-help-pinpoint-the-cause-of-diseases/"
+ },
+ {
+  "slug": "a-generalist-agent",
+  "title": "A Generalist Agent",
+  "date": "2022-05-12",
+  "authors": [],
+  "tags": [],
+  "description": "Inspired by progress in large-scale language modelling, we apply a similar approach towards building a single generalist agent beyond the realm of text outputs. The agent, which we refer to as Gato, …",
+  "url": "https://deepmind.google/blog/a-generalist-agent/"
+ },
+ {
+  "slug": "a-glimpse-of-the-next-generation-of-alphafold",
+  "title": "A glimpse of the next generation of AlphaFold",
+  "date": "2023-10-31",
+  "authors": [],
+  "tags": [],
+  "description": "Progress update: Our latest AlphaFold model shows significantly improved accuracy and expands coverage beyond proteins to other biological molecules, including ligands.",
+  "url": "https://deepmind.google/blog/a-glimpse-of-the-next-generation-of-alphafold/"
+ },
+ {
+  "slug": "a-major-milestone-for-the-treatment-of-eye-disease",
+  "title": "A major milestone for the treatment of eye disease",
+  "date": "2018-08-13",
+  "authors": [],
+  "tags": [],
+  "description": "We are delighted to announce the results of the first phase of our joint research partnership with Moorfields Eye Hospital, which could potentially transform the management of sight-threatening eye d…",
+  "url": "https://deepmind.google/blog/a-major-milestone-for-the-treatment-of-eye-disease/"
+ },
+ {
+  "slug": "a-milestone-for-deepmind-health-and-streams",
+  "title": "A milestone for DeepMind Health and Streams",
+  "date": "2017-02-27",
+  "authors": [],
+  "tags": [],
+  "description": "In November we announced a groundbreaking five year partnership with the Royal Free London to deploy and expand on Streams, our secure clinical app that aims to improve care by getting the right info…",
+  "url": "https://deepmind.google/blog/a-milestone-for-deepmind-health-and-streams/"
+ },
+ {
+  "slug": "a-neural-approach-to-relational-reasoning",
+  "title": "A neural approach to relational reasoning",
+  "date": "2017-06-06",
+  "authors": [],
+  "tags": [],
+  "description": "Consider the reader who pieces together the evidence in an Agatha Christie novel to predict the culprit of the crime, a child who runs ahead of her ball to prevent it rolling into a stream or even a …",
+  "url": "https://deepmind.google/blog/a-neural-approach-to-relational-reasoning/"
+ },
+ {
+  "slug": "a-new-model-and-dataset-for-long-range-memory",
+  "title": "A new model and dataset for long-range memory",
+  "date": "2020-02-10",
+  "authors": [],
+  "tags": [],
+  "description": "Throughout our lives, we build up memories that are retained over a diverse array of timescales, from minutes to months to years to decades. When reading a book, we can recall characters who were int…",
+  "url": "https://deepmind.google/blog/a-new-model-and-dataset-for-long-range-memory/"
+ },
+ {
+  "slug": "a-return-to-paris",
+  "title": "Retour à Paris / A return to Paris",
+  "date": "2018-03-29",
+  "authors": [
+   "Demis Hassabis"
+  ],
+  "tags": [],
+  "description": "When we set up our headquarters in London in 2010, we wanted to make DeepMind the best possible place to do cutting-edge AI research. We also wanted to help the wider AI community grow - publishing p…",
+  "url": "https://deepmind.google/blog/a-return-to-paris/"
+ },
+ {
+  "slug": "accelerating-discovery-in-india-through-ai-powered-science-and-education",
+  "title": "Accelerating discovery in India through AI-powered science and education",
+  "date": "2026-02-18",
+  "authors": [
+   "Demis Hassabis",
+   "Lila Ibrahim",
+   "Pushmeet Kohli"
+  ],
+  "tags": [],
+  "description": "Google DeepMind announces new AI partnerships in India to advance scientific research, empower students with interactive Gemini-powered learning, and support national goals in agriculture and renewab…",
+  "url": "https://deepmind.google/blog/accelerating-discovery-in-india-through-ai-powered-science-and-education/"
+ },
+ {
+  "slug": "accelerating-discovery-of-liver-disease-mechanisms",
+  "title": "Accelerating discovery of liver disease mechanisms",
+  "date": "2026-05-19",
+  "authors": [],
+  "tags": [],
+  "description": "Filippo Menolascina uses Co-Scientist to identify novel drug combinations and help researchers understand why approved treatments like resmetirom only benefit certain patients.",
+  "url": "https://deepmind.google/blog/accelerating-discovery-of-liver-disease-mechanisms/"
+ },
+ {
+  "slug": "accelerating-fusion-science-through-learned-plasma-control",
+  "title": "Accelerating fusion science through learned plasma control",
+  "date": "2022-02-16",
+  "authors": [],
+  "tags": [],
+  "description": "Successfully controlling the nuclear fusion plasma in a tokamak with deep reinforcement learning",
+  "url": "https://deepmind.google/blog/accelerating-fusion-science-through-learned-plasma-control/"
+ },
+ {
+  "slug": "accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think",
+  "title": "Accelerating Mathematical and Scientific Discovery with Gemini Deep Think",
+  "date": "2026-02-11",
+  "authors": [
+   "Thang Luong",
+   "Vahab Mirrokni"
+  ],
+  "tags": [],
+  "description": "Gemini Deep Think is accelerating discovery in maths, physics, and computer science by acting as a powerful scientific companion for researchers.",
+  "url": "https://deepmind.google/blog/accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think/"
+ },
+ {
+  "slug": "accelerating-the-race-against-antibiotic-resistance",
+  "title": "Accelerating the race against antibiotic resistance",
+  "date": "2022-07-28",
+  "authors": [],
+  "tags": [],
+  "description": "Most people who have access to a modern healthcare system would not consider a disease like bubonic plague to be a threat. Such bacterial infections are usually dealt with easily through modern antib…",
+  "url": "https://deepmind.google/blog/accelerating-the-race-against-antibiotic-resistance/"
+ },
+ {
+  "slug": "acme-a-new-framework-for-distributed-reinforcement-learning",
+  "title": "Acme: A new framework for distributed reinforcement learning",
+  "date": "2020-06-01",
+  "authors": [],
+  "tags": [],
+  "description": "Acme is a framework for building readable, efficient, research-oriented RL algorithms. At its core Acme is designed to enable simple descriptions of RL agents that can be run at various scales of exe…",
+  "url": "https://deepmind.google/blog/acme-a-new-framework-for-distributed-reinforcement-learning/"
+ },
+ {
+  "slug": "active-offline-policy-selection",
+  "title": "Active offline policy selection",
+  "date": "2022-05-06",
+  "authors": [],
+  "tags": [],
+  "description": "To make RL more applicable to real-world applications like robotics, we propose using an intelligent evaluation procedure to select the policy for deployment, called active offline policy selection (…",
+  "url": "https://deepmind.google/blog/active-offline-policy-selection/"
+ },
+ {
+  "slug": "advanced-machine-learning-helps-play-store-users-discover-personalised-apps",
+  "title": "Advanced machine learning helps Play Store users discover personalised apps",
+  "date": "2019-11-18",
+  "authors": [],
+  "tags": [],
+  "description": "Over the past few years we've applied DeepMind's technology to Google products and infrastructure, with notable successes like reducing the amount of energy needed for cooling data centers, and exten…",
+  "url": "https://deepmind.google/blog/advanced-machine-learning-helps-play-store-users-discover-personalised-apps/"
+ },
+ {
+  "slug": "advanced-version-of-gemini-with-deep-think-officially-achieves-gold-medal-standard-at-the-international-mathematical-olympiad",
+  "title": "Advanced version of Gemini with Deep Think officially achieves gold-medal standard at the International Mathematical Olympiad",
+  "date": "2025-07-21",
+  "authors": [
+   "Thang Luong",
+   "Edward Lockhart"
+  ],
+  "tags": [],
+  "description": "The International Mathematical Olympiad (“IMO”) is the world’s most prestigious competition for young mathematicians, and has been held annually since 1959. Each country taking part is represented by…",
+  "url": "https://deepmind.google/blog/advanced-version-of-gemini-with-deep-think-officially-achieves-gold-medal-standard-at-the-international-mathematical-olympiad/"
+ },
+ {
+  "slug": "advances-in-robot-dexterity",
+  "title": "Our latest advances in robot dexterity",
+  "date": "2024-09-12",
+  "authors": [
+   "Robotics team"
+  ],
+  "tags": [],
+  "description": "Two new AI systems, ALOHA Unleashed and DemoStart, help robots learn to perform complex tasks that require dexterous movement",
+  "url": "https://deepmind.google/blog/advances-in-robot-dexterity/"
+ },
+ {
+  "slug": "advancing-conservation-with-ai-based-facial-recognition-of-turtles",
+  "title": "Advancing conservation with AI-based facial recognition of turtles",
+  "date": "2022-08-25",
+  "authors": [],
+  "tags": [],
+  "description": "We came across Zindi – a dedicated partner with complementary goals – who are the largest community of African data scientists and host competitions that focus on solving Africa’s most pressing probl…",
+  "url": "https://deepmind.google/blog/advancing-conservation-with-ai-based-facial-recognition-of-turtles/"
+ },
+ {
+  "slug": "advancing-discovery-of-better-drugs-and-medicine",
+  "title": "Advancing discovery of better drugs and medicine",
+  "date": "2022-07-28",
+  "authors": [],
+  "tags": [],
+  "description": "With the help of AlphaFold, researchers are designing more effective drugs like never before. Karen Akinsanya is President of R&D, Therapeutics, at Schrödinger in New York City. She shares her AlphaF…",
+  "url": "https://deepmind.google/blog/advancing-discovery-of-better-drugs-and-medicine/"
+ },
+ {
+  "slug": "advancing-geminis-security-safeguards",
+  "title": "Advancing Gemini's security safeguards",
+  "date": "2025-05-20",
+  "authors": [
+   "Security & Privacy Research team"
+  ],
+  "tags": [],
+  "description": "We’ve made Gemini 2.5 our most secure model family to date.",
+  "url": "https://deepmind.google/blog/advancing-geminis-security-safeguards/"
+ },
+ {
+  "slug": "advancing-sports-analytics-through-ai-research",
+  "title": "Advancing sports analytics through AI research",
+  "date": "2021-05-07",
+  "authors": [
+   "Karl Tuyls",
+   "Shayegan Omidshafiei",
+   "Daniel Hennes",
+   "Jerome Connor",
+   "Zhe Wang",
+   "Adrià Recasens Continente"
+  ],
+  "tags": [],
+  "description": "Creating testing environments to help progress AI research out of the lab and into the real world is immensely challenging. Given AI’s long association with games, it is perhaps no surprise that spor…",
+  "url": "https://deepmind.google/blog/advancing-sports-analytics-through-ai-research/"
+ },
+ {
+  "slug": "aeneas-transforms-how-historians-connect-the-past",
+  "title": "Aeneas transforms how historians connect the past",
+  "date": "2025-07-23",
+  "authors": [
+   "Aeneas team"
+  ],
+  "tags": [],
+  "description": "Introducing the first model for contextualizing ancient inscriptions, designed to help historians better interpret, attribute and restore fragmentary texts.",
+  "url": "https://deepmind.google/blog/aeneas-transforms-how-historians-connect-the-past/"
+ },
+ {
+  "slug": "agent57-outperforming-the-human-atari-benchmark",
+  "title": "Agent57: Outperforming the human Atari benchmark",
+  "date": "2020-03-31",
+  "authors": [
+   "Adrià Puigdomènech",
+   "Bilal Piot",
+   "Steven Kapturowski",
+   "Pablo Sprechmann",
+   "Alex Vitvitskyi",
+   "Zhaohan Daniel Guo",
+   "Charles Blundell"
+  ],
+  "tags": [],
+  "description": "The Atari57 suite of games is a long-standing benchmark to gauge agent performance across a wide range of tasks. We’ve developed Agent57, the first deep reinforcement learning agent to obtain a score…",
+  "url": "https://deepmind.google/blog/agent57-outperforming-the-human-atari-benchmark/"
+ },
+ {
+  "slug": "agents-that-imagine-and-plan",
+  "title": "Agents that imagine and plan",
+  "date": "2017-07-20",
+  "authors": [
+   "Razvan Pascanu",
+   "Theophane Weber",
+   "Peter Battaglia",
+   "David Reichert",
+   "Sébastien Racanière",
+   "Yazhe Li"
+  ],
+  "tags": [],
+  "description": "Imagining the consequences of your actions before you take them is a powerful tool of human cognition. When placing a glass on the edge of a table, for example, we will likely pause to consider how s…",
+  "url": "https://deepmind.google/blog/agents-that-imagine-and-plan/"
+ },
+ {
+  "slug": "ai-and-neuroscience-a-virtuous-circle",
+  "title": "AI and Neuroscience: A virtuous circle",
+  "date": "2017-08-02",
+  "authors": [
+   "Demis Hassabis",
+   "Christopher Summerfield",
+   "Matt Botvinick"
+  ],
+  "tags": [],
+  "description": "Recent progress in AI has been remarkable. Artificial systems now outperform expert humans at Atari video games, the ancient board game Go, and high-stakes matches of heads-up poker. They can also pr…",
+  "url": "https://deepmind.google/blog/ai-and-neuroscience-a-virtuous-circle/"
+ },
+ {
+  "slug": "ai-for-the-board-game-diplomacy",
+  "title": "AI for the board game Diplomacy",
+  "date": "2022-12-06",
+  "authors": [
+   "Yoram Bachrach",
+   "János Kramár"
+  ],
+  "tags": [],
+  "description": "Successful communication and cooperation have been crucial for helping societies advance throughout history. The closed environments of board games can serve as a sandbox for modelling and investigat…",
+  "url": "https://deepmind.google/blog/ai-for-the-board-game-diplomacy/"
+ },
+ {
+  "slug": "ai-pointer",
+  "title": "Reimagining the mouse pointer for the AI era",
+  "date": "2026-05-12",
+  "authors": [
+   "Adrien Baranes",
+   "Rob Marchant"
+  ],
+  "tags": [],
+  "description": "Google DeepMind is transforming the mouse pointer into a context-aware AI partner. Move beyond the friction of traditional prompting with intuitive AI collaboration in Chrome and beyond.",
+  "url": "https://deepmind.google/blog/ai-pointer/"
+ },
+ {
+  "slug": "ai-solves-imo-problems-at-silver-medal-level",
+  "title": "AI achieves silver-medal standard solving International Mathematical Olympiad problems",
+  "date": "2024-07-25",
+  "authors": [
+   "AlphaProof team",
+   "AlphaGeometry team"
+  ],
+  "tags": [],
+  "description": "Breakthrough models AlphaProof and AlphaGeometry 2 solve advanced reasoning problems in mathematics",
+  "url": "https://deepmind.google/blog/ai-solves-imo-problems-at-silver-medal-level/"
+ },
+ {
+  "slug": "alphadev-discovers-faster-sorting-algorithms",
+  "title": "AlphaDev discovers faster sorting algorithms",
+  "date": "2023-06-07",
+  "authors": [
+   "Daniel Mankowitz",
+   "Andrea Michi"
+  ],
+  "tags": [],
+  "description": "In our paper published today in Nature, we introduce AlphaDev, an artificial intelligence (AI) system that uses reinforcement learning to discover enhanced computer science algorithms – surpassing th…",
+  "url": "https://deepmind.google/blog/alphadev-discovers-faster-sorting-algorithms/"
+ },
+ {
+  "slug": "alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms",
+  "title": "AlphaEvolve: A Gemini-powered coding agent for designing advanced algorithms",
+  "date": "2025-05-14",
+  "authors": [
+   "AlphaEvolve team"
+  ],
+  "tags": [],
+  "description": "New AI agent evolves algorithms for math and practical applications in computing by combining the creativity of large language models with automated evaluators",
+  "url": "https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/"
+ },
+ {
+  "slug": "alphaevolve-impact",
+  "title": "AlphaEvolve: How our Gemini-powered coding agent is scaling impact across fields",
+  "date": "2026-05-07",
+  "authors": [
+   "AlphaEvolve team"
+  ],
+  "tags": [],
+  "description": "Discover how AlphaEvolve optimizes algorithms for genomics, quantum physics, global infrastructure, and more to accelerate scientific progress and solve real-world challenges.",
+  "url": "https://deepmind.google/blog/alphaevolve-impact/"
+ },
+ {
+  "slug": "alphafold-a-solution-to-a-50-year-old-grand-challenge-in-biology",
+  "title": "AlphaFold: a solution to a 50-year-old grand challenge in biology",
+  "date": "2020-11-30",
+  "authors": [],
+  "tags": [],
+  "description": "Proteins are essential to life, supporting practically all its functions. They are large complex molecules, made up of chains of amino acids, and what a protein does largely depends on its unique 3D …",
+  "url": "https://deepmind.google/blog/alphafold-a-solution-to-a-50-year-old-grand-challenge-in-biology/"
+ },
+ {
+  "slug": "alphafold-reveals-the-structure-of-the-protein-universe",
+  "title": "AlphaFold reveals the structure of the protein universe",
+  "date": "2022-07-28",
+  "authors": [
+   "Demis Hassabis"
+  ],
+  "tags": [],
+  "description": "Today, in partnership with EMBL’s European Bioinformatics Institute (EMBL-EBI), we’re now releasing predicted structures for nearly all catalogued proteins known to science, which will expand the Alp…",
+  "url": "https://deepmind.google/blog/alphafold-reveals-the-structure-of-the-protein-universe/"
+ },
+ {
+  "slug": "alphafold-transforms-biology-for-millions-around-the-world",
+  "title": "AlphaFold transforms biology for millions around the world",
+  "date": "2022-07-28",
+  "authors": [],
+  "tags": [],
+  "description": "Big data in biology leads to discoveries that can benefit humankind. That’s the core belief at  EMBL’s European Bioinformatics Institute (EMBL-EBI), and what its scientists have proven to be true eve…",
+  "url": "https://deepmind.google/blog/alphafold-transforms-biology-for-millions-around-the-world/"
+ },
+ {
+  "slug": "alphafold-unlocks-one-of-the-greatest-puzzles-in-biology",
+  "title": "AlphaFold unlocks one of the greatest puzzles in biology",
+  "date": "2022-07-28",
+  "authors": [],
+  "tags": [],
+  "description": "When Pietro Fontana joined the Wu Lab at Harvard Medical School and Boston Children’s Hospital in May 2019, he had before him what has been called one of the world’s hardest, giant jigsaw puzzles. It…",
+  "url": "https://deepmind.google/blog/alphafold-unlocks-one-of-the-greatest-puzzles-in-biology/"
+ },
+ {
+  "slug": "alphafold-using-ai-for-scientific-discovery-2020",
+  "title": "AlphaFold: Using AI for scientific discovery",
+  "date": "2020-01-15",
+  "authors": [],
+  "tags": [],
+  "description": "In our study published in Nature, we demonstrate how artificial intelligence research can drive and accelerate new scientific discoveries. We’ve built a dedicated, interdisciplinary team in hopes of …",
+  "url": "https://deepmind.google/blog/alphafold-using-ai-for-scientific-discovery-2020/"
+ },
+ {
+  "slug": "alphafold-using-ai-for-scientific-discovery",
+  "title": "AlphaFold: Using AI for scientific discovery",
+  "date": "2022-01-15",
+  "authors": [
+   "Andrew Senior",
+   "John Jumper",
+   "Demis Hassabis"
+  ],
+  "tags": [],
+  "description": "We’re excited to share DeepMind’s first significant milestone in demonstrating how artificial intelligence research can drive and accelerate new scientific discoveries. With a strongly interdisciplin…",
+  "url": "https://deepmind.google/blog/alphafold-using-ai-for-scientific-discovery/"
+ },
+ {
+  "slug": "alphagenome-ai-for-better-understanding-the-genome",
+  "title": "AlphaGenome: AI for better understanding the genome",
+  "date": "2025-06-25",
+  "authors": [
+   "Žiga Avsec",
+   "Natasha Latysheva"
+  ],
+  "tags": [],
+  "description": "Introducing a new, unifying DNA sequence model that advances regulatory variant-effect prediction and promises to shed new light on genome function — now available via API.",
+  "url": "https://deepmind.google/blog/alphagenome-ai-for-better-understanding-the-genome/"
+ },
+ {
+  "slug": "alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome",
+  "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+  "date": "2026-09-08",
+  "authors": [
+   "AlphaGenome Atlas team"
+  ],
+  "tags": [],
+  "description": "Explore AlphaGenome Atlas, a catalogue predicting the molecular effects and AVI scores for 9 billion single-nucleotide variants across the human genome.",
+  "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/"
+ },
+ {
+  "slug": "alphageometry-an-olympiad-level-ai-system-for-geometry",
+  "title": "AlphaGeometry: An Olympiad-level AI system for geometry",
+  "date": "2024-01-17",
+  "authors": [
+   "Trieu Trinh",
+   "Thang Luong"
+  ],
+  "tags": [],
+  "description": "Our AI system surpasses the state-of-the-art approach for geometry problems, advancing AI reasoning in mathematics",
+  "url": "https://deepmind.google/blog/alphageometry-an-olympiad-level-ai-system-for-geometry/"
+ },
+ {
+  "slug": "alphago-zero-starting-from-scratch",
+  "title": "AlphaGo Zero: Starting from scratch",
+  "date": "2017-10-18",
+  "authors": [
+   "David Silver",
+   "Demis Hassabis"
+  ],
+  "tags": [],
+  "description": "Artificial intelligence research has made rapid progress in a wide variety of domains from speech recognition and image classification to genomics and drug discovery. In many cases, these are special…",
+  "url": "https://deepmind.google/blog/alphago-zero-starting-from-scratch/"
+ },
+ {
+  "slug": "alphagos-next-move",
+  "title": "AlphaGo's next move",
+  "date": "2017-05-27",
+  "authors": [
+   "Demis Hassabis",
+   "David Silver"
+  ],
+  "tags": [],
+  "description": "With just three stones on the board, it was clear that this was going to be no ordinary game of Go.",
+  "url": "https://deepmind.google/blog/alphagos-next-move/"
+ },
+ {
+  "slug": "alphaproteo-generates-novel-proteins-for-biology-and-health-research",
+  "title": "AlphaProteo generates novel proteins for biology and health research",
+  "date": "2024-09-05",
+  "authors": [
+   "Protein Design team",
+   "Wet Lab team"
+  ],
+  "tags": [],
+  "description": "New AI system designs proteins that successfully bind to target molecules, with potential for advancing drug design, disease understanding and more.",
+  "url": "https://deepmind.google/blog/alphaproteo-generates-novel-proteins-for-biology-and-health-research/"
+ },
+ {
+  "slug": "alphastar-grandmaster-level-in-starcraft-ii-using-multi-agent-reinforcement-learning",
+  "title": "AlphaStar: Grandmaster level in StarCraft II using multi-agent reinforcement learning",
+  "date": "2019-10-30",
+  "authors": [
+   "AlphaStar team"
+  ],
+  "tags": [],
+  "description": "AlphaStar is the first AI to reach the top league of a widely popular esport without any game restrictions. This January, a preliminary version of AlphaStar challenged two of the world's top players …",
+  "url": "https://deepmind.google/blog/alphastar-grandmaster-level-in-starcraft-ii-using-multi-agent-reinforcement-learning/"
+ },
+ {
+  "slug": "alphastar-mastering-the-real-time-strategy-game-starcraft-ii",
+  "title": "AlphaStar: Mastering the real-time strategy game StarCraft II",
+  "date": "2019-01-24",
+  "authors": [
+   "AlphaStar team"
+  ],
+  "tags": [],
+  "description": "Games have been used for decades as an important way to test and evaluate the performance of artificial intelligence systems. As capabilities have increased, the research community has sought games w…",
+  "url": "https://deepmind.google/blog/alphastar-mastering-the-real-time-strategy-game-starcraft-ii/"
+ },
+ {
+  "slug": "alphazero-shedding-new-light-on-chess-shogi-and-go",
+  "title": "AlphaZero: Shedding new light on chess, shogi, and Go",
+  "date": "2018-12-06",
+  "authors": [
+   "David Silver",
+   "Thomas Hubert",
+   "Julian Schrittwieser",
+   "Demis Hassabis"
+  ],
+  "tags": [],
+  "description": "In late 2017 we introduced AlphaZero, a single system that taught itself from scratch how to master the games of chess, shogi (Japanese chess), and Go, beating a world-champion program in each case. …",
+  "url": "https://deepmind.google/blog/alphazero-shedding-new-light-on-chess-shogi-and-go/"
+ },
+ {
+  "slug": "an-early-warning-system-for-novel-ai-risks",
+  "title": "An early warning system for novel AI risks",
+  "date": "2023-05-25",
+  "authors": [
+   "Toby Shevlane"
+  ],
+  "tags": [],
+  "description": "AI researchers already use a range of evaluation benchmarks to identify unwanted behaviours in AI systems, such as AI systems making misleading statements, biased decisions, or repeating copyrighted …",
+  "url": "https://deepmind.google/blog/an-early-warning-system-for-novel-ai-risks/"
+ },
+ {
+  "slug": "an-empirical-analysis-of-compute-optimal-large-language-model-training",
+  "title": "An empirical analysis of compute-optimal large language model training",
+  "date": "2022-04-12",
+  "authors": [
+   "Jordan Hoffmann",
+   "Sebastian Borgeaud",
+   "Arthur Mensch",
+   "Laurent Sifre"
+  ],
+  "tags": [],
+  "description": "We ask the question: “What is the optimal model size and number of training tokens for a given compute budget?” To answer this question, we train models of various sizes and with various numbers of t…",
+  "url": "https://deepmind.google/blog/an-empirical-analysis-of-compute-optimal-large-language-model-training/"
+ },
+ {
+  "slug": "announcing-deepmind-health-research-partnership-with-moorfields-eye-hospital",
+  "title": "Announcing DeepMind Health research partnership with Moorfields Eye Hospital",
+  "date": "2016-05-07",
+  "authors": [],
+  "tags": [],
+  "description": "We founded DeepMind to make the world a better place by developing technologies that help address some of society's toughest challenges. So we’re excited to announce our first medical research projec…",
+  "url": "https://deepmind.google/blog/announcing-deepmind-health-research-partnership-with-moorfields-eye-hospital/"
+ },
+ {
+  "slug": "announcing-google-deepmind",
+  "title": "Announcing Google DeepMind",
+  "date": "2023-04-20",
+  "authors": [],
+  "tags": [],
+  "description": "DeepMind and the Brain team from Google Research will join forces to accelerate progress towards a world in which AI helps solve the biggest challenges facing humanity.",
+  "url": "https://deepmind.google/blog/announcing-google-deepmind/"
+ },
+ {
+  "slug": "announcing-our-partnership-with-the-republic-of-korea",
+  "title": "Announcing our partnership with the Republic of Korea",
+  "date": "2026-04-27",
+  "authors": [
+   "Google DeepMind team"
+  ],
+  "tags": [],
+  "description": "Google DeepMind partners with Korea's MSIT to establish an AI Campus to help accelerate scientific breakthroughs, support local talent, and advance AI safety research",
+  "url": "https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea/"
+ },
+ {
+  "slug": "announcing-the-partnership-on-ai-to-benefit-people-society",
+  "title": "Announcing the Partnership on AI to Benefit People & Society",
+  "date": "2016-09-28",
+  "authors": [
+   "Mustafa Suleyman"
+  ],
+  "tags": [],
+  "description": "We believe that AI has the potential for transformative, positive impact in the world. Fulfilling this potential is not only dependent on the quality of the algorithms being engineered and the data t…",
+  "url": "https://deepmind.google/blog/announcing-the-partnership-on-ai-to-benefit-people-society/"
+ },
+ {
+  "slug": "applying-machine-learning-to-mammography-screening-for-breast-cancer",
+  "title": "Applying machine learning to mammography screening for breast cancer",
+  "date": "2017-11-24",
+  "authors": [],
+  "tags": [],
+  "description": "We founded DeepMind Health to develop technologies that could help address some of society’s toughest challenges. So we’re very excited to announce that our latest research partnership will focus on …",
+  "url": "https://deepmind.google/blog/applying-machine-learning-to-mammography-screening-for-breast-cancer/"
+ },
+ {
+  "slug": "applying-machine-learning-to-radiotherapy-planning-for-head-neck-cancer",
+  "title": "Applying machine learning to radiotherapy planning for head & neck cancer",
+  "date": "2016-08-30",
+  "authors": [],
+  "tags": [],
+  "description": "We’re excited to announce a new research partnership with the Radiotherapy Department at University College London Hospitals NHS Foundation Trust, which provides world-leading cancer treatment.",
+  "url": "https://deepmind.google/blog/applying-machine-learning-to-radiotherapy-planning-for-head-neck-cancer/"
+ },
+ {
+  "slug": "artificial-intelligence-values-and-alignment",
+  "title": "Artificial Intelligence, Values and Alignment",
+  "date": "2020-01-13",
+  "authors": [
+   "Iason Gabriel"
+  ],
+  "tags": [],
+  "description": "This paper looks at philosophical questions that arise in the context of AI alignment. It defends three propositions. First, normative and technical aspects of the AI alignment problem are interrelat…",
+  "url": "https://deepmind.google/blog/artificial-intelligence-values-and-alignment/"
+ },
+ {
+  "slug": "benchmarking-the-next-generation-of-never-ending-learners",
+  "title": "Benchmarking the next generation of never-ending learners",
+  "date": "2022-11-22",
+  "authors": [
+   "Marc’Aurelio Ranzato",
+   "Amal Rannen-Triki"
+  ],
+  "tags": [],
+  "description": "Our new paper, NEVIS’22: A Stream of 100 Tasks Sampled From 30 Years of Computer Vision Research, proposes a playground to study the question of efficient knowledge transfer in a controlled and repro…",
+  "url": "https://deepmind.google/blog/benchmarking-the-next-generation-of-never-ending-learners/"
+ },
+ {
+  "slug": "best-practices-for-data-enrichment",
+  "title": "Best practices for data enrichment",
+  "date": "2022-11-16",
+  "authors": [
+   "Antonia Paterson",
+   "Will Hawkins"
+  ],
+  "tags": [],
+  "description": "At DeepMind, our goal is to make sure everything we do meets the highest standards of safety and ethics, in line with our Operating Principles. One of the most important places this starts with is ho…",
+  "url": "https://deepmind.google/blog/best-practices-for-data-enrichment/"
+ },
+ {
+  "slug": "breeding-healthier-and-stronger-honeybees",
+  "title": "Breeding healthier and stronger honeybees",
+  "date": "2025-11-25",
+  "authors": [],
+  "tags": [],
+  "description": "Learn how AlphaFold is helping scientists protect honeybees and speeding up breeding programs for healthier hives.",
+  "url": "https://deepmind.google/blog/breeding-healthier-and-stronger-honeybees/"
+ },
+ {
+  "slug": "bridging-deepmind-research-with-alphabet-products",
+  "title": "Bridging DeepMind research with Alphabet products",
+  "date": "2022-06-15",
+  "authors": [],
+  "tags": [],
+  "description": "Today we caught up with Gemma Jennings, a product manager on the Applied team, who led a session on vision language models at the AI Summit, one of the world’s largest AI events for business.",
+  "url": "https://deepmind.google/blog/bridging-deepmind-research-with-alphabet-products/"
+ },
+ {
+  "slug": "bringing-ai-to-the-next-generation-of-fusion-energy",
+  "title": "Bringing AI to the next generation of fusion energy",
+  "date": "2025-10-16",
+  "authors": [
+   "Fusion team"
+  ],
+  "tags": [],
+  "description": "We’re announcing our research partnership with Commonwealth Fusion Systems (CFS) to bring clean, safe, limitless fusion energy closer to reality with our advanced AI systems. This partnership builds …",
+  "url": "https://deepmind.google/blog/bringing-ai-to-the-next-generation-of-fusion-energy/"
+ },
+ {
+  "slug": "bringing-streams-to-yeovil-district-hospital-nhs-foundation-trust",
+  "title": "Bringing Streams to Yeovil District Hospital NHS Foundation Trust",
+  "date": "2017-11-05",
+  "authors": [],
+  "tags": [],
+  "description": "We’re excited to announce that we’ve agreed a five year partnership with Yeovil District Hospital NHS Foundation Trust. We’ll be providing them with Streams, our secure mobile app that helps nurses a…",
+  "url": "https://deepmind.google/blog/bringing-streams-to-yeovil-district-hospital-nhs-foundation-trust/"
+ },
+ {
+  "slug": "bringing-the-best-of-mobile-technology-to-imperial-college-healthcare-nhs-trust",
+  "title": "Bringing the best of mobile technology to Imperial College Healthcare NHS Trust",
+  "date": "2016-12-22",
+  "authors": [],
+  "tags": [],
+  "description": "We’re really excited to announce that we’ve agreed a five year partnership with Imperial College Healthcare NHS Trust, helping them make the most of the opportunity for mobile clinical applications t…",
+  "url": "https://deepmind.google/blog/bringing-the-best-of-mobile-technology-to-imperial-college-healthcare-nhs-trust/"
+ },
+ {
+  "slug": "building-a-culture-of-pioneering-responsibly",
+  "title": "Building a culture of pioneering responsibly",
+  "date": "2022-05-24",
+  "authors": [
+   "Lila Ibrahim"
+  ],
+  "tags": [],
+  "description": "When I joined DeepMind as COO, I did so in large part because I could tell that the founders and team had the same focus on positive social impact. In fact, at DeepMind, we now champion a term that p…",
+  "url": "https://deepmind.google/blog/building-a-culture-of-pioneering-responsibly/"
+ },
+ {
+  "slug": "building-architectures-that-can-handle-the-worlds-data",
+  "title": "Building architectures that can handle the world’s data",
+  "date": "2021-08-03",
+  "authors": [
+   "Drew Jaegle",
+   "João Carreira",
+   "Carl Doersch",
+   "David Ding",
+   "Catalin Ionescu"
+  ],
+  "tags": [],
+  "description": "Most architectures used by AI systems today are specialists. A 2D residual network may be a good choice for processing images, but at best it’s a loose fit for other kinds of data — such as the Lidar…",
+  "url": "https://deepmind.google/blog/building-architectures-that-can-handle-the-worlds-data/"
+ },
+ {
+  "slug": "building-interactive-agents-in-video-game-worlds",
+  "title": "Building interactive agents in video game worlds",
+  "date": "2022-11-23",
+  "authors": [],
+  "tags": [],
+  "description": "Most artificial intelligence (AI) researchers now believe that writing computer code which can capture the nuances of situated interactions is impossible. Alternatively, modern machine learning (ML) …",
+  "url": "https://deepmind.google/blog/building-interactive-agents-in-video-game-worlds/"
+ },
+ {
+  "slug": "building-safer-dialogue-agents",
+  "title": "Building safer dialogue agents",
+  "date": "2022-09-22",
+  "authors": [
+   "Sparrow team"
+  ],
+  "tags": [],
+  "description": "In our latest paper, we introduce Sparrow – a dialogue agent that’s useful and reduces the risk of unsafe and inappropriate answers. Our agent is designed to talk with a user, answer questions, and s…",
+  "url": "https://deepmind.google/blog/building-safer-dialogue-agents/"
+ },
+ {
+  "slug": "byol-explore-exploration-with-bootstrapped-prediction",
+  "title": "BYOL-Explore: Exploration with Bootstrapped Prediction",
+  "date": "2022-06-20",
+  "authors": [
+   "Zhaohan Daniel Guo",
+   "Shantanu Thakoor",
+   "Miruna Pîslar",
+   "Bernardo Avila Pires",
+   "Florent Altché",
+   "Corentin Tallec",
+   "Alaa Saade",
+   "Daniele Calandriello",
+   "Jean-Bastien Grill",
+   "Yunhao Tang",
+   "Michal Valko",
+   "Rémi Munos",
+   "Mohammad Gheshlaghi Azar",
+   "Bilal Piot"
+  ],
+  "tags": [],
+  "description": "We present BYOL-Explore, a conceptually simple yet general approach for curiosity-driven exploration in visually-complex environments. BYOL-Explore learns a world representation, the world dynamics, …",
+  "url": "https://deepmind.google/blog/byol-explore-exploration-with-bootstrapped-prediction/"
+ },
+ {
+  "slug": "capture-the-flag-the-emergence-of-complex-cooperative-agents",
+  "title": "Capture the Flag: the emergence of complex cooperative agents",
+  "date": "2019-05-30",
+  "authors": [
+   "Max Jaderberg",
+   "Wojciech Marian Czarnecki",
+   "Iain Dunning",
+   "Thore Graepel",
+   "Luke Marris"
+  ],
+  "tags": [],
+  "description": "Mastering the strategy, tactical understanding, and team play involved in multiplayer video games represents a critical challenge for AI research. In our latest paper, now published in the journal Sc…",
+  "url": "https://deepmind.google/blog/capture-the-flag-the-emergence-of-complex-cooperative-agents/"
+ },
+ {
+  "slug": "causal-bayesian-networks-a-flexible-tool-to-enable-fairer-machine-learning",
+  "title": "Causal Bayesian Networks: A flexible tool to enable fairer machine learning",
+  "date": "2019-10-03",
+  "authors": [
+   "Silvia Chiappa",
+   "William Isaac"
+  ],
+  "tags": [],
+  "description": "Decisions based on machine learning (ML) are potentially advantageous over human decisions, as they do not suffer from the same subjectivity, and can be more accurate and easier to analyse. At the sa…",
+  "url": "https://deepmind.google/blog/causal-bayesian-networks-a-flexible-tool-to-enable-fairer-machine-learning/"
+ },
+ {
+  "slug": "challenges-in-detoxifying-language-models",
+  "title": "Challenges in Detoxifying Language Models",
+  "date": "2021-09-15",
+  "authors": [
+   "Johannes Welbl",
+   "Mia Glaese",
+   "Jonathan Uesato",
+   "Sumanth Dathathri",
+   "John Mellor",
+   "Lisa Anne Hendricks",
+   "Kirsty Anderson",
+   "Pushmeet Kohli",
+   "Ben Coppin",
+   "Po-Sen Huang"
+  ],
+  "tags": [],
+  "description": "In our paper, we focus on LMs and their propensity to generate toxic language. We study the effectiveness of different methods to mitigate LM toxicity, and their side-effects, and we investigate the …",
+  "url": "https://deepmind.google/blog/challenges-in-detoxifying-language-models/"
+ },
+ {
+  "slug": "codoc-developing-reliable-ai-tools-for-healthcare",
+  "title": "Developing reliable AI tools for healthcare",
+  "date": "2023-07-17",
+  "authors": [
+   "Krishnamurthy (Dj) Dvijotham",
+   "Taylan Cemgil",
+   "CoDoC team"
+  ],
+  "tags": [],
+  "description": "We’ve published our joint paper with Google Research in Nature Medicine, which proposes CoDoC (Complementarity-driven Deferral-to-Clinical Workflow), an AI system that learns when to rely on predicti…",
+  "url": "https://deepmind.google/blog/codoc-developing-reliable-ai-tools-for-healthcare/"
+ },
+ {
+  "slug": "collaborating-with-patients-for-better-outcomes",
+  "title": "Collaborating with patients for better outcomes",
+  "date": "2017-12-19",
+  "authors": [
+   "Dominic King"
+  ],
+  "tags": [],
+  "description": "Working as a doctor in the NHS for over 10 years, I felt that I had developed good understanding of how patients and their families felt when faced with an upsetting diagnosis or important health dec…",
+  "url": "https://deepmind.google/blog/collaborating-with-patients-for-better-outcomes/"
+ },
+ {
+  "slug": "competitive-programming-with-alphacode",
+  "title": "Competitive programming with AlphaCode",
+  "date": "2022-12-08",
+  "authors": [
+   "AlphaCode team"
+  ],
+  "tags": [],
+  "description": "Solving novel problems and setting a new milestone in competitive programming.",
+  "url": "https://deepmind.google/blog/competitive-programming-with-alphacode/"
+ },
+ {
+  "slug": "computational-predictions-of-protein-structures-associated-with-covid-19",
+  "title": "Computational predictions of protein structures associated with COVID-19",
+  "date": "2020-08-04",
+  "authors": [],
+  "tags": [],
+  "description": "The scientific community has galvanised in response to the recent COVID-19 outbreak, building on decades of basic research characterising this virus family. Labs at the forefront of the outbreak resp…",
+  "url": "https://deepmind.google/blog/computational-predictions-of-protein-structures-associated-with-covid-19/"
+ },
+ {
+  "slug": "creating-interactive-agents-with-imitation-learning",
+  "title": "Creating Interactive Agents with Imitation Learning",
+  "date": "2021-12-08",
+  "authors": [
+   "Josh Abramson",
+   "Arun Ahuja",
+   "Arthur Brussee",
+   "Federico Carnevale",
+   "Mary Cassin",
+   "Felix Fischer",
+   "Petko Georgiev",
+   "Alex Goldin",
+   "Tim Harley",
+   "Felix Hill",
+   "Peter C Humphreys",
+   "Alden Hung",
+   "Jessica Landon",
+   "Timothy Lillicrap",
+   "Hamza Merzić",
+   "Alistair Muldal",
+   "Adam Santoro",
+   "Guy Scully",
+   "Tamara von Glehn",
+   "Gregory Wayne",
+   "Nathaniel Wong",
+   "Chen Yan",
+   "Rui Zhu",
+   "Mary Cassin"
+  ],
+  "tags": [],
+  "description": "We show that imitation learning of human-human interactions in a simulated world, in conjunction with self-supervised learning, is sufficient to produce a multimodal interactive agent, which we call …",
+  "url": "https://deepmind.google/blog/creating-interactive-agents-with-imitation-learning/"
+ },
+ {
+  "slug": "creating-plastic-eating-enzymes-that-could-save-us-from-pollution",
+  "title": "Creating plastic-eating enzymes that could save us from pollution",
+  "date": "2022-07-28",
+  "authors": [],
+  "tags": [],
+  "description": "The world produces about 400 million tonnes of plastic waste each year. Much of it ends up in landfills, and a significant portion is polluting the world’s oceans. Yet even when plastic is recycled, …",
+  "url": "https://deepmind.google/blog/creating-plastic-eating-enzymes-that-could-save-us-from-pollution/"
+ },
+ {
+  "slug": "data-architecture-or-losses-what-contributes-most-to-multimodal-transformer-success",
+  "title": "Data, Architecture, or Losses: What Contributes Most to Multimodal Transformer Success?",
+  "date": "2021-02-02",
+  "authors": [
+   "Aida Nematzadeh",
+   "Lisa Anne Hendricks",
+   "Jean-Baptiste Alayrac",
+   "Rosalia Schneider",
+   "John Mellor"
+  ],
+  "tags": [],
+  "description": "In this work, we examine what aspects of multimodal transformers – attention, losses, and pretraining data – are important in their success at multimodal pretraining. We find that Multimodal attentio…",
+  "url": "https://deepmind.google/blog/data-architecture-or-losses-what-contributes-most-to-multimodal-transformer-success/"
+ },
+ {
+  "slug": "decoupled-diloco",
+  "title": "Decoupled DiLoCo: A new frontier for resilient, distributed AI training",
+  "date": "2026-04-23",
+  "authors": [
+   "Arthur Douillard and the DiLoCo team"
+  ],
+  "tags": [],
+  "description": "Google’s new distributed architecture keeps AI training runs on track across distant data centers, with exceptional efficiency – even when hardware fails.",
+  "url": "https://deepmind.google/blog/decoupled-diloco/"
+ },
+ {
+  "slug": "decoupled-neural-interfaces-using-synthetic-gradients",
+  "title": "Decoupled Neural Interfaces Using Synthetic Gradients",
+  "date": "2016-08-29",
+  "authors": [
+   "Max Jaderberg"
+  ],
+  "tags": [],
+  "description": "Neural networks are the workhorse of many of the algorithms developed at DeepMind. For example, AlphaGo uses convolutional neural networks to evaluate board positions in the game of Go and DQN and De…",
+  "url": "https://deepmind.google/blog/decoupled-neural-interfaces-using-synthetic-gradients/"
+ },
+ {
+  "slug": "deep-reinforcement-learning",
+  "title": "Deep Reinforcement Learning",
+  "date": "2016-06-17",
+  "authors": [
+   "David Silver"
+  ],
+  "tags": [],
+  "description": "Humans excel at solving a wide variety of challenging problems, from low-level motor control through to high-level cognitive tasks. Our goal at DeepMind is to create artificial agents that can achiev…",
+  "url": "https://deepmind.google/blog/deep-reinforcement-learning/"
+ },
+ {
+  "slug": "deepening-our-partnership-with-the-uk-ai-security-institute",
+  "title": "Deepening our partnership with the UK AI Security Institute",
+  "date": "2025-12-11",
+  "authors": [
+   "William Isaac",
+   "Owen Larter"
+  ],
+  "tags": [],
+  "description": "Google DeepMind and the UK AI Security Institute (AISI) strengthen collaboration through a new research partnership, focusing on critical safety research areas like monitoring AI reasoning and evalua…",
+  "url": "https://deepmind.google/blog/deepening-our-partnership-with-the-uk-ai-security-institute/"
+ },
+ {
+  "slug": "deepmind-ai-reduces-google-data-centre-cooling-bill-by-40",
+  "title": "DeepMind AI Reduces Google Data Centre Cooling Bill by 40%",
+  "date": "2016-07-20",
+  "authors": [
+   "Richard Evans",
+   "Jim Gao"
+  ],
+  "tags": [],
+  "description": "Reducing energy usage has been a major focus for us over the past 10 years: we have built our own super-efficient servers at Google, invented more efficient ways to cool our data centres and invested…",
+  "url": "https://deepmind.google/blog/deepmind-ai-reduces-google-data-centre-cooling-bill-by-40/"
+ },
+ {
+  "slug": "deepmind-and-blizzard-open-starcraft-ii-as-an-ai-research-environment",
+  "title": "DeepMind and Blizzard open StarCraft II as an AI research environment",
+  "date": "2017-08-09",
+  "authors": [
+   "Oriol Vinyals",
+   "Stephen Gaffney",
+   "Timo Ewalds"
+  ],
+  "tags": [],
+  "description": "DeepMind's scientific mission is to push the boundaries of AI by developing systems that can learn to solve complex problems. To do this, we design agents and test their ability in a wide range of en…",
+  "url": "https://deepmind.google/blog/deepmind-and-blizzard-open-starcraft-ii-as-an-ai-research-environment/"
+ },
+ {
+  "slug": "deepmind-and-blizzard-to-release-starcraft-ii-as-an-ai-research-environment",
+  "title": "DeepMind and Blizzard to release StarCraft II as an AI research environment",
+  "date": "2016-11-04",
+  "authors": [
+   "Oriol Vinyals"
+  ],
+  "tags": [],
+  "description": "Today at BlizzCon 2016 in Anaheim, California, we announced our collaboration with Blizzard Entertainment to open up StarCraft II to AI and Machine Learning researchers around the world.",
+  "url": "https://deepmind.google/blog/deepmind-and-blizzard-to-release-starcraft-ii-as-an-ai-research-environment/"
+ },
+ {
+  "slug": "deepmind-health-response-to-independent-reviewers-report-2018",
+  "title": "DeepMind Health Response to Independent Reviewers' Report 2018",
+  "date": "2018-06-15",
+  "authors": [
+   "Dominic King"
+  ],
+  "tags": [],
+  "description": "When we set up DeepMind Health we believed that pioneering technology should be matched with pioneering oversight. That’s why when we launched in February 2016, we did so with an unusual and addition…",
+  "url": "https://deepmind.google/blog/deepmind-health-response-to-independent-reviewers-report-2018/"
+ },
+ {
+  "slug": "deepmind-meet-android",
+  "title": "DeepMind, meet Android",
+  "date": "2018-05-08",
+  "authors": [],
+  "tags": [],
+  "description": "We’re delighted to announce a new collaboration between DeepMind for Google and Android, the world’s most popular mobile operating system. Together, we’ve created two new features that will be availa…",
+  "url": "https://deepmind.google/blog/deepmind-meet-android/"
+ },
+ {
+  "slug": "deepmind-papers-at-iclr-2018",
+  "title": "DeepMind papers at ICLR 2018",
+  "date": "2018-04-26",
+  "authors": [],
+  "tags": [],
+  "description": "Between 30 April and 03 May, hundreds of researchers and engineers will gather in Vancouver, Canada, for the Sixth International Conference on Learning Representations.",
+  "url": "https://deepmind.google/blog/deepmind-papers-at-iclr-2018/"
+ },
+ {
+  "slug": "deepmind-papers-at-icml-2018",
+  "title": "DeepMind papers at ICML 2018",
+  "date": "2018-07-09",
+  "authors": [],
+  "tags": [],
+  "description": "The 2018 International Conference on Machine Learning will take place in Stockholm, Sweden from 10-15 July. For those attending and planning the week ahead, we are sharing a schedule of DeepMind pres…",
+  "url": "https://deepmind.google/blog/deepmind-papers-at-icml-2018/"
+ },
+ {
+  "slug": "deepmind-papers-at-nips-2017",
+  "title": "DeepMind papers at NIPS 2017",
+  "date": "2017-12-01",
+  "authors": [],
+  "tags": [],
+  "description": "Between 04-09 December, thousands of researchers and experts will gather for the Thirty-first Annual Conference on Neural Information Processing Systems (NIPS) in Long Beach, California.",
+  "url": "https://deepmind.google/blog/deepmind-papers-at-nips-2017/"
+ },
+ {
+  "slug": "deepmind-papers-nips-part-1",
+  "title": "DeepMind Papers @ NIPS (Part 1)",
+  "date": "2016-12-02",
+  "authors": [],
+  "tags": [],
+  "description": "Over the next three blogposts, we're going to share with you brief descriptions of the papers we are presenting at the NIPS 2016 Conference in Barcelona.",
+  "url": "https://deepmind.google/blog/deepmind-papers-nips-part-1/"
+ },
+ {
+  "slug": "deepmind-papers-nips-part-2",
+  "title": "DeepMind Papers @ NIPS (Part 2)",
+  "date": "2016-12-05",
+  "authors": [],
+  "tags": [],
+  "description": "The second blog post in this series, sharing brief descriptions of the papers we are presenting at NIPS 2016 Conference in Barcelona.",
+  "url": "https://deepmind.google/blog/deepmind-papers-nips-part-2/"
+ },
+ {
+  "slug": "deepmind-papers-nips-part-3",
+  "title": "DeepMind Papers @ NIPS (Part 3)",
+  "date": "2016-12-07",
+  "authors": [],
+  "tags": [],
+  "description": "DeepMind Papers @ NIPS (Part 3)",
+  "url": "https://deepmind.google/blog/deepmind-papers-nips-part-3/"
+ },
+ {
+  "slug": "deepmind-the-podcast-returns-for-season-2",
+  "title": "DeepMind: The Podcast returns for Season 2",
+  "date": "2022-01-25",
+  "authors": [
+   "Jonathan Fildes",
+   "Emma Yousif",
+   "Sophia Fernyhough",
+   "Jon Steinback"
+  ],
+  "tags": [],
+  "description": "We believe artificial intelligence (AI) is one of the most significant technologies of our age and we want to help people understand its potential and how it’s being created.",
+  "url": "https://deepmind.google/blog/deepmind-the-podcast-returns-for-season-2/"
+ },
+ {
+  "slug": "deepminds-health-team-joins-google-health",
+  "title": "DeepMind’s health team joins Google Health",
+  "date": "2019-09-18",
+  "authors": [],
+  "tags": [],
+  "description": "Over the last three years, DeepMind has built a team to tackle some of healthcare’s most complex problems—developing AI research and mobile tools that are already having a positive impact on patients…",
+  "url": "https://deepmind.google/blog/deepminds-health-team-joins-google-health/"
+ },
+ {
+  "slug": "deepminds-latest-research-at-iclr-2022",
+  "title": "DeepMind’s latest research at ICLR 2022",
+  "date": "2022-04-25",
+  "authors": [],
+  "tags": [],
+  "description": "Beyond supporting the event as sponsors and regular workshop organisers, our research teams are presenting 29 papers, including 10 collaborations this year. Here’s a brief glimpse into our upcoming o…",
+  "url": "https://deepmind.google/blog/deepminds-latest-research-at-iclr-2022/"
+ },
+ {
+  "slug": "deepminds-latest-research-at-iclr-2023",
+  "title": "DeepMind’s latest research at ICLR 2023",
+  "date": "2023-04-27",
+  "authors": [],
+  "tags": [],
+  "description": "Next week marks the start of the 11th International Conference on Learning Representations (ICLR), taking place 1-5 May in Kigali, Rwanda. This will be the first major artificial intelligence (AI) co…",
+  "url": "https://deepmind.google/blog/deepminds-latest-research-at-iclr-2023/"
+ },
+ {
+  "slug": "deepminds-latest-research-at-icml-2022",
+  "title": "DeepMind’s latest research at ICML 2022",
+  "date": "2022-07-15",
+  "authors": [],
+  "tags": [],
+  "description": "Starting this weekend, the thirty-ninth International Conference on Machine Learning (ICML 2022) is meeting from 17-23 July, 2022 at the Baltimore Convention Center in Maryland, USA, and will be runn…",
+  "url": "https://deepmind.google/blog/deepminds-latest-research-at-icml-2022/"
+ },
+ {
+  "slug": "deepminds-latest-research-at-neurips-2022",
+  "title": "DeepMind’s latest research at NeurIPS 2022",
+  "date": "2022-11-25",
+  "authors": [],
+  "tags": [],
+  "description": "NeurIPS is the world’s largest conference in artificial intelligence (AI) and machine learning (ML), and we’re proud to support the event as Diamond sponsors, helping foster the exchange of research …",
+  "url": "https://deepmind.google/blog/deepminds-latest-research-at-neurips-2022/"
+ },
+ {
+  "slug": "deepminds-work-in-2016-a-round-up",
+  "title": "DeepMind’s work in 2016: a round-up",
+  "date": "2017-01-03",
+  "authors": [
+   "Demis Hassabis",
+   "Mustafa Suleyman",
+   "Shane Legg"
+  ],
+  "tags": [],
+  "description": "In a world of fiercely complex, emergent, and hard-to-master systems - from our climate to the diseases we strive to conquer - we believe that intelligent programs will help unearth new scientific kn…",
+  "url": "https://deepmind.google/blog/deepminds-work-in-2016-a-round-up/"
+ },
+ {
+  "slug": "demis-hassabis-john-jumper-awarded-nobel-prize-in-chemistry",
+  "title": "Demis Hassabis & John Jumper awarded Nobel Prize in Chemistry",
+  "date": "2024-10-09",
+  "authors": [],
+  "tags": [],
+  "description": "Co-founder and CEO of Google DeepMind and Isomorphic Labs Sir Demis Hassabis, and Google DeepMind Senior Research Scientist Dr. John Jumper were co-awarded the 2024 Nobel Prize in Chemistry. The awar…",
+  "url": "https://deepmind.google/blog/demis-hassabis-john-jumper-awarded-nobel-prize-in-chemistry/"
+ },
+ {
+  "slug": "differentiable-neural-computers",
+  "title": "Differentiable neural computers",
+  "date": "2016-10-12",
+  "authors": [
+   "Gregory Wayne",
+   "Alexander Graves"
+  ],
+  "tags": [],
+  "description": "In a recent study in Nature, we introduce a form of memory-augmented neural network called a differentiable neural computer, and show that it can learn to use its memory to answer questions about com…",
+  "url": "https://deepmind.google/blog/differentiable-neural-computers/"
+ },
+ {
+  "slug": "discovering-new-solutions-to-century-old-problems-in-fluid-dynamics",
+  "title": "Discovering new solutions to century-old problems in fluid dynamics",
+  "date": "2025-09-18",
+  "authors": [
+   "Yongji Wang",
+   "Sam Blackwell"
+  ],
+  "tags": [],
+  "description": "Our new method could help mathematicians leverage AI techniques to tackle long-standing challenges in mathematics, physics and engineering.",
+  "url": "https://deepmind.google/blog/discovering-new-solutions-to-century-old-problems-in-fluid-dynamics/"
+ },
+ {
+  "slug": "discovering-novel-algorithms-with-alphatensor",
+  "title": "Discovering novel algorithms with AlphaTensor",
+  "date": "2022-10-05",
+  "authors": [
+   "Alhussein Fawzi",
+   "Matej Balog",
+   "Bernardino Romera-Paredes",
+   "Demis Hassabis",
+   "Pushmeet Kohli"
+  ],
+  "tags": [],
+  "description": "In our paper, published today in Nature, we introduce AlphaTensor, the first artificial intelligence (AI) system for discovering novel, efficient, and provably correct algorithms for fundamental task…",
+  "url": "https://deepmind.google/blog/discovering-novel-algorithms-with-alphatensor/"
+ },
+ {
+  "slug": "discovering-when-an-agent-is-present-in-a-system",
+  "title": "Discovering when an agent is present in a system",
+  "date": "2022-08-18",
+  "authors": [
+   "Zachary Kenton",
+   "Ramana Kumar",
+   "Sebastian Farquhar",
+   "Jonathan Richens",
+   "Matt MacDermott",
+   "Tom Everitt"
+  ],
+  "tags": [],
+  "description": "We want to build safe, aligned artificial general intelligence (AGI) systems that pursue the intended goals of its designers. Causal influence diagrams (CIDs) are a way to model decision-making situa…",
+  "url": "https://deepmind.google/blog/discovering-when-an-agent-is-present-in-a-system/"
+ },
+ {
+  "slug": "distill-communicating-the-science-of-machine-learning",
+  "title": "Distill: Communicating the science of machine learning",
+  "date": "2017-03-20",
+  "authors": [
+   "Shakir Mohamed",
+   "Helen King"
+  ],
+  "tags": [],
+  "description": "Like every field of science, the importance of clear communication in machine learning research cannot be over-emphasised: it helps to drive forward the state-of-the art by allowing the research comm…",
+  "url": "https://deepmind.google/blog/distill-communicating-the-science-of-machine-learning/"
+ },
+ {
+  "slug": "dm-control-software-and-tasks-for-continuous-control",
+  "title": "dm_control: Software and Tasks for Continuous Control",
+  "date": "2020-06-15",
+  "authors": [
+   "Yuval Tassa",
+   "Saran Tunyasuvunakool",
+   "Alistair Muldal",
+   "Yotam Doron",
+   "Siqi Liu",
+   "Steven Bohez",
+   "Josh Merel",
+   "Tom Erez",
+   "Timothy Lillicrap",
+   "Nicolas Heess"
+  ],
+  "tags": [],
+  "description": "The dm_control software package is a collection of Python libraries and task suites for reinforcement learning agents in an articulated-body simulation. A MuJoCo wrapper provides convenient bindings …",
+  "url": "https://deepmind.google/blog/dm-control-software-and-tasks-for-continuous-control/"
+ },
+ {
+  "slug": "dopamine-and-temporal-difference-learning-a-fruitful-relationship-between-neuroscience-and-ai",
+  "title": "Dopamine and temporal difference learning: A fruitful relationship between neuroscience and AI",
+  "date": "2020-01-15",
+  "authors": [
+   "Will Dabney",
+   "Zeb Kurth-Nelson"
+  ],
+  "tags": [],
+  "description": "Learning and motivation are driven by internal and external rewards. Many of our day-to-day behaviours are guided by predicting, or anticipating, whether a given action will result in a positive (tha…",
+  "url": "https://deepmind.google/blog/dopamine-and-temporal-difference-learning-a-fruitful-relationship-between-neuroscience-and-ai/"
+ },
+ {
+  "slug": "dynamic-language-understanding-adaptation-to-new-knowledge-in-parametric-and-semi-parametric-models",
+  "title": "Dynamic language understanding: adaptation to new knowledge in parametric and semi-parametric models",
+  "date": "2022-05-26",
+  "authors": [
+   "Elena Gribovskaya",
+   "Angeliki Lazaridou",
+   "Tomáš Kočiský"
+  ],
+  "tags": [],
+  "description": "To study how semi-parametric QA models and their underlying parametric language models (LMs) adapt to evolving knowledge, we construct a new large-scale dataset, StreamingQA, with human written and g…",
+  "url": "https://deepmind.google/blog/dynamic-language-understanding-adaptation-to-new-knowledge-in-parametric-and-semi-parametric-models/"
+ },
+ {
+  "slug": "emergent-bartering-behaviour-in-multi-agent-reinforcement-learning",
+  "title": "Emergent Bartering Behaviour in Multi-Agent Reinforcement Learning",
+  "date": "2022-05-16",
+  "authors": [
+   "Mike Johanson",
+   "Edward Hughes",
+   "Finbarr Timbers",
+   "Joel Leibo"
+  ],
+  "tags": [],
+  "description": "In our recent paper, we explore how populations of deep reinforcement learning (deep RL) agents can learn microeconomic behaviours, such as production, consumption, and trading of goods. We find that…",
+  "url": "https://deepmind.google/blog/emergent-bartering-behaviour-in-multi-agent-reinforcement-learning/"
+ },
+ {
+  "slug": "empowering-indias-next-generation-of-innovators-with-atl-saathi",
+  "title": "Empowering India’s next generation of innovators with ATL Saathi",
+  "date": "2026-07-14",
+  "authors": [
+   "Seshu Ajjarapu",
+   "Arka Dhar"
+  ],
+  "tags": [],
+  "description": "Atal Innovation Mission launches ATL Saathi, a Gemini powered AI assistant empowering India's educators to nurture the next generation of innovators.",
+  "url": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/"
+ },
+ {
+  "slug": "empowering-the-next-generation-for-an-ai-enabled-world",
+  "title": "Empowering the next generation for an AI-enabled world",
+  "date": "2023-11-15",
+  "authors": [],
+  "tags": [],
+  "description": "Today, Google DeepMind and the Raspberry Pi Foundation are expanding access to the Experience AI program. This comprehensive introductory course is designed for educators to teach 11-14 year old stud…",
+  "url": "https://deepmind.google/blog/empowering-the-next-generation-for-an-ai-enabled-world/"
+ },
+ {
+  "slug": "empowering-youtube-creators-with-generative-ai",
+  "title": "Empowering YouTube creators with generative AI",
+  "date": "2024-09-18",
+  "authors": [
+   "Eli Collins"
+  ],
+  "tags": [],
+  "description": "New video generation technology in YouTube Shorts will help millions of people realize their creative vision",
+  "url": "https://deepmind.google/blog/empowering-youtube-creators-with-generative-ai/"
+ },
+ {
+  "slug": "enabling-continual-learning-in-neural-networks",
+  "title": "Enabling Continual Learning in Neural Networks",
+  "date": "2017-03-13",
+  "authors": [
+   "James Kirkpatrick",
+   "Razvan Pascanu",
+   "Neil Rabinowitz",
+   "Joel Veness",
+   "Guillaume Desjardins",
+   "Andrei Rusu",
+   "Kieran Milan",
+   "John Quan",
+   "Tiago Ramalho",
+   "Agnieszka Grabska-Barwinska",
+   "Demis Hassabis",
+   "Dharshan Kumaran",
+   "Raia Hadsell",
+   "Claudia Clopath"
+  ],
+  "tags": [],
+  "description": "Computer programs that learn to perform tasks also typically forget them very quickly. We show that the learning rule can be modified so that a program can remember old tasks when learning a new one.…",
+  "url": "https://deepmind.google/blog/enabling-continual-learning-in-neural-networks/"
+ },
+ {
+  "slug": "enabling-high-accuracy-protein-structure-prediction-at-the-proteome-scale",
+  "title": "Enabling high-accuracy protein structure prediction at the proteome scale",
+  "date": "2021-07-22",
+  "authors": [
+   "Kathryn Tunyasuvunakool",
+   "Jonas Adler",
+   "Zachary Wu",
+   "Tim Green",
+   "Michal Zielinski",
+   "Augustin Žídek",
+   "Alex Bridgland",
+   "Andrew Cowie",
+   "Clemens Meyer",
+   "Agata Laydon",
+   "Sameer Velanka",
+   "Gerard Kleywegt",
+   "Alex Bateman",
+   "Richard Evans",
+   "Alexander Pritzel",
+   "Michael Figurnov",
+   "Olaf Ronneberger",
+   "Russ Bates",
+   "Simon A. A. Kohl",
+   "Anna Potapenko",
+   "Andrew J Ballard",
+   "Bernardino Romera-Paredes",
+   "Stanislav Nikolov",
+   "Rishub Jain",
+   "Ellen Clancy",
+   "David Reiman",
+   "Stig Petersen",
+   "Andrew Senior",
+   "Koray Kavukcuoglu",
+   "Ewan Birney",
+   "Pushmeet Kohli",
+   "John Jumper",
+   "Demis Hassabis"
+  ],
+  "tags": [],
+  "description": "Many novel machine learning innovations contribute to AlphaFold’s current level of accuracy. We give a high-level overview of the system below; for a technical description of the network architecture…",
+  "url": "https://deepmind.google/blog/enabling-high-accuracy-protein-structure-prediction-at-the-proteome-scale/"
+ },
+ {
+  "slug": "engineering-more-resilient-crops-for-a-warming-climate",
+  "title": "Engineering more resilient crops for a warming climate",
+  "date": "2025-12-04",
+  "authors": [],
+  "tags": [],
+  "description": "Scientists are using AlphaFold to strengthen a vital photosynthesis enzyme (GLYK), paving the way for more resilient, heat-tolerant crops that can adapt to a warming climate and help secure food prod…",
+  "url": "https://deepmind.google/blog/engineering-more-resilient-crops-for-a-warming-climate/"
+ },
+ {
+  "slug": "enhancing-patient-safety-at-taunton-and-somerset-nhs-foundation-trust",
+  "title": "Enhancing patient safety at Taunton and Somerset NHS Foundation Trust",
+  "date": "2017-06-21",
+  "authors": [],
+  "tags": [],
+  "description": "We’re delighted to announce our first partnership outside of London to help doctors and nurses break new ground in the NHS’s use of digital technology.",
+  "url": "https://deepmind.google/blog/enhancing-patient-safety-at-taunton-and-somerset-nhs-foundation-trust/"
+ },
+ {
+  "slug": "evaluating-multimodal-interactive-agents",
+  "title": "Evaluating Multimodal Interactive Agents",
+  "date": "2022-05-27",
+  "authors": [
+   "Josh Abramson",
+   "Arun Ahuja",
+   "Federico Carnevale",
+   "Petko Georgiev",
+   "Alex Goldin",
+   "Jessica Landon",
+   "Timothy Lillicrap",
+   "Alistair Muldal",
+   "Adam Santoro",
+   "Tamara von Glehn",
+   "Gregory Wayne",
+   "Nathaniel Wong",
+   "Chen Yan",
+   "Blake Richards",
+   "Alden Hung"
+  ],
+  "tags": [],
+  "description": "In this paper, we assess the merits of these existing evaluation metrics and present a novel approach to evaluation called the Standardised Test Suite (STS). The STS uses behavioural scenarios mined …",
+  "url": "https://deepmind.google/blog/evaluating-multimodal-interactive-agents/"
+ },
+ {
+  "slug": "evaluating-potential-cybersecurity-threats-of-advanced-ai",
+  "title": "Evaluating potential cybersecurity threats of advanced AI",
+  "date": "2025-04-02",
+  "authors": [
+   "Four Flynn",
+   "Mikel Rodriguez",
+   "Raluca Ada Popa"
+  ],
+  "tags": [],
+  "description": "Our framework enables cybersecurity experts to identify which defenses are necessary—and how to prioritize them",
+  "url": "https://deepmind.google/blog/evaluating-potential-cybersecurity-threats-of-advanced-ai/"
+ },
+ {
+  "slug": "evaluating-social-and-ethical-risks-from-generative-ai",
+  "title": "Evaluating social and ethical risks from generative AI",
+  "date": "2023-10-19",
+  "authors": [
+   "Laura Weidinger",
+   "William Isaac"
+  ],
+  "tags": [],
+  "description": "Introducing a context-based framework for comprehensively evaluating the social and ethical risks of AI systems",
+  "url": "https://deepmind.google/blog/evaluating-social-and-ethical-risks-from-generative-ai/"
+ },
+ {
+  "slug": "expanding-our-research-on-breast-cancer-screening-to-japan",
+  "title": "Expanding our research on breast cancer screening to Japan",
+  "date": "2018-10-04",
+  "authors": [
+   "Dominic King"
+  ],
+  "tags": [],
+  "description": "Six months ago, we joined a groundbreaking new research partnership led by the Cancer Research UK Imperial Centre at Imperial College London to explore whether AI technology could help clinicians dia…",
+  "url": "https://deepmind.google/blog/expanding-our-research-on-breast-cancer-screening-to-japan/"
+ },
+ {
+  "slug": "exploring-institutions-for-global-ai-governance",
+  "title": "Exploring institutions for global AI governance",
+  "date": "2023-07-11",
+  "authors": [
+   "Lewis Ho"
+  ],
+  "tags": [],
+  "description": "New white paper investigates models and functions of international institutions that could help manage opportunities and mitigate risks of advanced AI. Growing awareness of the global impact of advan…",
+  "url": "https://deepmind.google/blog/exploring-institutions-for-global-ai-governance/"
+ },
+ {
+  "slug": "exploring-the-beauty-of-pure-mathematics-in-novel-ways",
+  "title": "Exploring the beauty of pure mathematics in novel ways",
+  "date": "2021-12-01",
+  "authors": [],
+  "tags": [],
+  "description": "More than a century ago, Srinivasa Ramanujan shocked the mathematical world with his extraordinary ability to see remarkable patterns in numbers that no one else could see. The self-taught mathematic…",
+  "url": "https://deepmind.google/blog/exploring-the-beauty-of-pure-mathematics-in-novel-ways/"
+ },
+ {
+  "slug": "exploring-the-context-of-online-images-with-backstory",
+  "title": "Exploring the context of online images with Backstory",
+  "date": "2025-07-21",
+  "authors": [
+   "Avneesh Sud",
+   "Chris Bregler"
+  ],
+  "tags": [],
+  "description": "New experimental AI tool helps people explore the context and origin of images seen online.",
+  "url": "https://deepmind.google/blog/exploring-the-context-of-online-images-with-backstory/"
+ },
+ {
+  "slug": "exploring-the-mysteries-of-go-with-alphago-and-chinas-top-players",
+  "title": "Exploring the mysteries of Go with AlphaGo and China's top players",
+  "date": "2017-04-10",
+  "authors": [
+   "Demis Hassabis",
+   "Fan Hui"
+  ],
+  "tags": [],
+  "description": "Just over a year ago, we saw a major milestone in the field of artificial intelligence: DeepMind’s AlphaGo took on and defeated one of the world’s top Go players, the legendary Lee Sedol. Even then, …",
+  "url": "https://deepmind.google/blog/exploring-the-mysteries-of-go-with-alphago-and-chinas-top-players/"
+ },
+ {
+  "slug": "facts-benchmark-suite-systematically-evaluating-the-factuality-of-large-language-models",
+  "title": "FACTS Benchmark Suite: Systematically evaluating the factuality of large language models",
+  "date": "2025-12-09",
+  "authors": [
+   "FACTS team"
+  ],
+  "tags": [],
+  "description": "The FACTS Benchmark Suite provides a systematic evaluation of Large Language Models (LLMs) factuality across three areas: Parametric, Search, and Multimodal reasoning.",
+  "url": "https://deepmind.google/blog/facts-benchmark-suite-systematically-evaluating-the-factuality-of-large-language-models/"
+ },
+ {
+  "slug": "facts-grounding-a-new-benchmark-for-evaluating-the-factuality-of-large-language-models",
+  "title": "FACTS Grounding: A new benchmark for evaluating the factuality of large language models",
+  "date": "2024-12-17",
+  "authors": [
+   "FACTS team"
+  ],
+  "tags": [],
+  "description": "Our comprehensive benchmark and online leaderboard offer a much-needed measure of how accurately LLMs ground their responses in provided source material and avoid hallucinations",
+  "url": "https://deepmind.google/blog/facts-grounding-a-new-benchmark-for-evaluating-the-factuality-of-large-language-models/"
+ },
+ {
+  "slug": "fast-reinforcement-learning-through-the-composition-of-behaviours",
+  "title": "Fast reinforcement learning through the composition of behaviours",
+  "date": "2020-10-12",
+  "authors": [
+   "André Barreto",
+   "Shaobo Hou",
+   "Diana Borsa",
+   "David Silver",
+   "Doina Precup"
+  ],
+  "tags": [],
+  "description": "Imagine if you had to learn how to chop, peel and stir all over again every time you wanted to learn a new recipe. In many machine learning systems, agents often have to learn entirely from scratch w…",
+  "url": "https://deepmind.google/blog/fast-reinforcement-learning-through-the-composition-of-behaviours/"
+ },
+ {
+  "slug": "ferminet-quantum-physics-and-chemistry-from-first-principles",
+  "title": "FermiNet: Quantum physics and chemistry from first principles",
+  "date": "2024-08-22",
+  "authors": [
+   "David Pfau",
+   "James Spencer"
+  ],
+  "tags": [],
+  "description": "In August 2024, we published the next phase of our work in Science. Our research proposes a solution to one of the most difficult challenges in computational quantum chemistry: understanding how mole…",
+  "url": "https://deepmind.google/blog/ferminet-quantum-physics-and-chemistry-from-first-principles/"
+ },
+ {
+  "slug": "fighting-osteoporosis-before-it-starts",
+  "title": "Fighting osteoporosis before it starts",
+  "date": "2022-09-27",
+  "authors": [],
+  "tags": [],
+  "description": "Right now, medicine is too dependent on radiographic imaging techniques for diagnosing osteoporosis. It can be a debilitating disease that develops slowly over several years, weakening bones and rend…",
+  "url": "https://deepmind.google/blog/fighting-osteoporosis-before-it-starts/"
+ },
+ {
+  "slug": "finding-the-molecular-switches-behind-new-infectious-diseases",
+  "title": "Finding the molecular switches behind new infectious diseases",
+  "date": "2026-05-19",
+  "authors": [],
+  "tags": [],
+  "description": "Immunologist Clare Bryant uses Co-Scientist to identify the proteins causing disease when pathogens jump species, cutting years of experimental work down to just months.",
+  "url": "https://deepmind.google/blog/finding-the-molecular-switches-behind-new-infectious-diseases/"
+ },
+ {
+  "slug": "from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games",
+  "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
+  "date": "2026-08-21",
+  "authors": [
+   "Alexandre Moufarek",
+   "Adrian Bolton"
+  ],
+  "tags": [],
+  "description": "Google DeepMind partners with game developers to build generalist agents like SIMA 2 and unlock breakthrough gameplay experiences across persistent worlds.",
+  "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/"
+ },
+ {
+  "slug": "from-lego-competitions-to-deepminds-robotics-lab",
+  "title": "From LEGO competitions to DeepMind's robotics lab",
+  "date": "2022-05-19",
+  "authors": [],
+  "tags": [],
+  "description": "If you want to be at DeepMind, go for it. Apply, interview, and just try. You might not get it the first time but that doesn’t mean you can’t try again. I never thought DeepMind would accept me, and …",
+  "url": "https://deepmind.google/blog/from-lego-competitions-to-deepminds-robotics-lab/"
+ },
+ {
+  "slug": "from-motor-control-to-embodied-intelligence",
+  "title": "From motor control to embodied intelligence",
+  "date": "2022-08-31",
+  "authors": [
+   "Siqi Liu",
+   "Leonard Hasenclever",
+   "Steven Bohez",
+   "Guy Lever",
+   "Zhe Wang",
+   "Ali Eslami",
+   "Nicolas Heess"
+  ],
+  "tags": [],
+  "description": "Using human and animal motions to teach robots to dribble a ball, and simulated humanoid characters to carry boxes and play football",
+  "url": "https://deepmind.google/blog/from-motor-control-to-embodied-intelligence/"
+ },
+ {
+  "slug": "from-unlikely-start-up-to-major-scientific-organisation-entering-our-tenth-year-at-deepmind",
+  "title": "From unlikely start-up to major scientific organisation: Entering our tenth year at DeepMind",
+  "date": "2019-12-05",
+  "authors": [
+   "Demis Hassabis"
+  ],
+  "tags": [],
+  "description": "Since we started DeepMind nearly 10 years ago, our mission has been to unlock answers to the world’s biggest questions by understanding and recreating intelligence itself.",
+  "url": "https://deepmind.google/blog/from-unlikely-start-up-to-major-scientific-organisation-entering-our-tenth-year-at-deepmind/"
+ },
+ {
+  "slug": "funsearch-making-new-discoveries-in-mathematical-sciences-using-large-language-models",
+  "title": "FunSearch: Making new discoveries in mathematical sciences using Large Language Models",
+  "date": "2023-12-14",
+  "authors": [
+   "Alhussein Fawzi",
+   "Bernardino Romera-Paredes"
+  ],
+  "tags": [],
+  "description": "We introduce FunSearch, a method for searching for “functions” written in computer code, and find new solutions in mathematics and computer science. FunSearch works by pairing a pre-trained LLM, whos…",
+  "url": "https://deepmind.google/blog/funsearch-making-new-discoveries-in-mathematical-sciences-using-large-language-models/"
+ },
+ {
+  "slug": "game-theory-as-an-engine-for-large-scale-data-analysis",
+  "title": "Game theory as an engine for large-scale data analysis",
+  "date": "2021-05-06",
+  "authors": [
+   "Brian McWilliams",
+   "Ian Gemp",
+   "Claire Vernade"
+  ],
+  "tags": [],
+  "description": "Modern AI systems approach tasks like recognising objects in images and predicting the 3D structure of proteins as a diligent student would prepare for an exam. By training on many example problems, …",
+  "url": "https://deepmind.google/blog/game-theory-as-an-engine-for-large-scale-data-analysis/"
+ },
+ {
+  "slug": "game-theory-insights-into-asymmetric-multi-agent-games",
+  "title": "Game-theory insights into asymmetric multi-agent games",
+  "date": "2018-01-17",
+  "authors": [
+   "Karl Tuyls",
+   "Marc Lanctot",
+   "Julien Perolat"
+  ],
+  "tags": [],
+  "description": "As AI systems start to play an increasing role in the real world it is important to understand how different systems will interact with one another.",
+  "url": "https://deepmind.google/blog/game-theory-insights-into-asymmetric-multi-agent-games/"
+ },
+ {
+  "slug": "gemini-achieves-gold-medal-level-at-the-international-collegiate-programming-contest-world-finals",
+  "title": "Gemini achieves gold-medal level at the International Collegiate Programming Contest World Finals",
+  "date": "2025-09-17",
+  "authors": [
+   "Hanzhao (Maggie) Lin",
+   "Heng-Tze Cheng"
+  ],
+  "tags": [],
+  "description": "Gemini 2.5 Deep Think achieves breakthrough performance at the world’s most prestigious computer programming competition, demonstrating a profound leap in abstract problem solving.",
+  "url": "https://deepmind.google/blog/gemini-achieves-gold-medal-level-at-the-international-collegiate-programming-contest-world-finals/"
+ },
+ {
+  "slug": "gemini-robotics-15-brings-ai-agents-into-the-physical-world",
+  "title": "Gemini Robotics 1.5 brings AI agents into the physical world",
+  "date": "2025-09-25",
+  "authors": [
+   "Carolina Parada"
+  ],
+  "tags": [],
+  "description": "We’re powering an era of physical agents — enabling robots to perceive, plan, think, use tools and act to better solve complex, multi-step tasks.",
+  "url": "https://deepmind.google/blog/gemini-robotics-15-brings-ai-agents-into-the-physical-world/"
+ },
+ {
+  "slug": "gemini-robotics-brings-ai-into-the-physical-world",
+  "title": "Gemini Robotics brings AI into the physical world",
+  "date": "2025-03-12",
+  "authors": [
+   "Carolina Parada"
+  ],
+  "tags": [],
+  "description": "Introducing Gemini Robotics and Gemini Robotics-ER, AI models designed for robots to understand, act and react to the physical world.",
+  "url": "https://deepmind.google/blog/gemini-robotics-brings-ai-into-the-physical-world/"
+ },
+ {
+  "slug": "gemini-robotics-er-1-6",
+  "title": "Gemini Robotics-ER 1.6: Powering real-world robotics tasks through enhanced embodied reasoning",
+  "date": "2026-04-14",
+  "authors": [
+   "Laura Graesser",
+   "Peng Xu"
+  ],
+  "tags": [],
+  "description": "Gemini Robotics ER 1.6 upgrades spatial reasoning and multi-view understanding, unlocking new capabilities like instrument reading for autonomous robots.",
+  "url": "https://deepmind.google/blog/gemini-robotics-er-1-6/"
+ },
+ {
+  "slug": "gemini-robotics-on-device-brings-ai-to-local-robotic-devices",
+  "title": "Gemini Robotics On-Device brings AI to local robotic devices",
+  "date": "2025-06-24",
+  "authors": [
+   "Carolina Parada"
+  ],
+  "tags": [],
+  "description": "We’re introducing an efficient, on-device robotics model with general-purpose dexterity and fast task adaptation.",
+  "url": "https://deepmind.google/blog/gemini-robotics-on-device-brings-ai-to-local-robotic-devices/"
+ },
+ {
+  "slug": "gemma-scope-2-helping-the-ai-safety-community-deepen-understanding-of-complex-language-model-behavior",
+  "title": "Gemma Scope 2: helping the AI safety community deepen understanding of complex language model behavior",
+  "date": "2025-12-19",
+  "authors": [
+   "Language Model Interpretability team"
+  ],
+  "tags": [],
+  "description": "Announcing Gemma Scope 2, a comprehensive, open suite of interpretability tools for the entire Gemma 3 family to accelerate AI safety research.",
+  "url": "https://deepmind.google/blog/gemma-scope-2-helping-the-ai-safety-community-deepen-understanding-of-complex-language-model-behavior/"
+ },
+ {
+  "slug": "gemma-scope-helping-the-safety-community-shed-light-on-the-inner-workings-of-language-models",
+  "title": "Gemma Scope: helping the safety community shed light on the inner workings of language models",
+  "date": "2024-07-31",
+  "authors": [
+   "Language Model Interpretability team"
+  ],
+  "tags": [],
+  "description": "Announcing a comprehensive, open suite of sparse autoencoders for language model interpretability.",
+  "url": "https://deepmind.google/blog/gemma-scope-helping-the-safety-community-shed-light-on-the-inner-workings-of-language-models/"
+ },
+ {
+  "slug": "gencast-predicts-weather-and-the-risks-of-extreme-conditions-with-sota-accuracy",
+  "title": "GenCast predicts weather and the risks of extreme conditions with state-of-the-art accuracy",
+  "date": "2024-12-04",
+  "authors": [
+   "Ilan Price",
+   "Matthew Willson"
+  ],
+  "tags": [],
+  "description": "New AI model advances the prediction of weather uncertainties and risks, delivering faster, more accurate forecasts up to 15 days ahead",
+  "url": "https://deepmind.google/blog/gencast-predicts-weather-and-the-risks-of-extreme-conditions-with-sota-accuracy/"
+ },
+ {
+  "slug": "generally-capable-agents-emerge-from-open-ended-play",
+  "title": "Generally capable agents emerge from open-ended play",
+  "date": "2021-07-27",
+  "authors": [
+   "Open-Ended Learning team"
+  ],
+  "tags": [],
+  "description": "In recent years, artificial intelligence agents have succeeded in a range of complex game environments. For instance, AlphaZero beat world-champion programs in chess, shogi, and Go after starting out…",
+  "url": "https://deepmind.google/blog/generally-capable-agents-emerge-from-open-ended-play/"
+ },
+ {
+  "slug": "generating-audio-for-video",
+  "title": "Generating audio for video",
+  "date": "2024-06-17",
+  "authors": [
+   "Generative Media team"
+  ],
+  "tags": [],
+  "description": "Video-to-audio research uses video pixels and text prompts to generate rich soundtracks",
+  "url": "https://deepmind.google/blog/generating-audio-for-video/"
+ },
+ {
+  "slug": "genie-2-a-large-scale-foundation-world-model",
+  "title": "Genie 2: A large-scale foundation world model",
+  "date": "2024-12-04",
+  "authors": [
+   "Jack Parker-Holder",
+   "Philip Ball",
+   "Jake Bruce",
+   "Vibhavari Dasagi",
+   "Kristian Holsheimer",
+   "Christos Kaplanis",
+   "Alexandre Moufarek",
+   "Guy Scully",
+   "Jeremy Shar",
+   "Jimmy Shi",
+   "Stephen Spencer",
+   "Jessica Yung",
+   "Michael Dennis",
+   "Sultan Kenjeyev",
+   "Shangbang Long",
+   "Vlad Mnih",
+   "Harris Chan",
+   "Maxime Gazeau",
+   "Bonnie Li",
+   "Fabio Pardo",
+   "Luyu Wang",
+   "Lei Zhang",
+   "Frederic Besse",
+   "Tim Harley",
+   "Anna Mitenkova",
+   "Jane Wang",
+   "Jeff Clune",
+   "Demis Hassabis",
+   "Raia Hadsell",
+   "Adrian Bolton",
+   "Satinder Singh",
+   "Tim Rocktäschel"
+  ],
+  "tags": [],
+  "description": "Generating unlimited diverse training environments for future general agents",
+  "url": "https://deepmind.google/blog/genie-2-a-large-scale-foundation-world-model/"
+ },
+ {
+  "slug": "going-beyond-average-for-reinforcement-learning",
+  "title": "Going beyond average for reinforcement learning",
+  "date": "2017-07-24",
+  "authors": [
+   "Marc Gendron-Bellemare",
+   "Will Dabney",
+   "Rémi Munos"
+  ],
+  "tags": [],
+  "description": "Consider the commuter who toils backwards and forwards each day on a train. Most mornings, her train runs on time and she reaches her first meeting relaxed and ready. But she knows that once in awhil…",
+  "url": "https://deepmind.google/blog/going-beyond-average-for-reinforcement-learning/"
+ },
+ {
+  "slug": "google-cloud-driving-digital-transformation",
+  "title": "Google Cloud: Driving digital transformation",
+  "date": "2023-06-14",
+  "authors": [],
+  "tags": [],
+  "description": "Google Cloud empowers organizations to digitally transform themselves into smarter businesses. It offers cloud computing, data analytics, and the latest artificial intelligence (AI) and machine learn…",
+  "url": "https://deepmind.google/blog/google-cloud-driving-digital-transformation/"
+ },
+ {
+  "slug": "google-deepmind-at-iclr-2024",
+  "title": "Google DeepMind at ICLR 2024",
+  "date": "2024-05-03",
+  "authors": [],
+  "tags": [],
+  "description": "Developing next-gen AI agents, exploring new modalities, and pioneering foundational learning",
+  "url": "https://deepmind.google/blog/google-deepmind-at-iclr-2024/"
+ },
+ {
+  "slug": "google-deepmind-at-icml-2024",
+  "title": "Google DeepMind at ICML 2024",
+  "date": "2024-07-19",
+  "authors": [],
+  "tags": [],
+  "description": "Teams from across Google DeepMind will present more than 80 research papers exploring AGI, the challenges of scaling and the future of multimodal generative AI.",
+  "url": "https://deepmind.google/blog/google-deepmind-at-icml-2024/"
+ },
+ {
+  "slug": "google-deepmind-at-neurips-2023",
+  "title": "Google DeepMind at NeurIPS 2023",
+  "date": "2023-12-08",
+  "authors": [],
+  "tags": [],
+  "description": "The Neural Information Processing Systems (NeurIPS) is the largest artificial intelligence (AI) conference in the world. NeurIPS 2023 will be taking place December 10-16 in New Orleans, USA.Teams fro…",
+  "url": "https://deepmind.google/blog/google-deepmind-at-neurips-2023/"
+ },
+ {
+  "slug": "google-deepmind-at-neurips-2024",
+  "title": "Google DeepMind at NeurIPS 2024",
+  "date": "2024-12-05",
+  "authors": [],
+  "tags": [],
+  "description": "Advancing adaptive AI agents, empowering 3D scene creation, and innovating LLM training for a smarter, safer future",
+  "url": "https://deepmind.google/blog/google-deepmind-at-neurips-2024/"
+ },
+ {
+  "slug": "google-deepmind-research-at-icml-2023",
+  "title": "Google DeepMind’s latest research at ICML 2023",
+  "date": "2023-07-20",
+  "authors": [],
+  "tags": [],
+  "description": "Google DeepMind researchers are presenting more than 80 new papers at the 40th International Conference on Machine Learning (ICML 2023), taking place 23-29 July in Honolulu, Hawai'i.",
+  "url": "https://deepmind.google/blog/google-deepmind-research-at-icml-2023/"
+ },
+ {
+  "slug": "google-deepmind-supports-us-department-of-energy-on-genesis",
+  "title": "Google DeepMind supports U.S. Department of Energy on Genesis: a national mission to accelerate innovation and scientific discovery",
+  "date": "2025-12-18",
+  "authors": [
+   "Pushmeet Kohli",
+   "Tom Lue"
+  ],
+  "tags": [],
+  "description": "Google DeepMind supports U.S. Department of Energy on Genesis: a national mission to accelerate innovation and scientific discovery.",
+  "url": "https://deepmind.google/blog/google-deepmind-supports-us-department-of-energy-on-genesis/"
+ },
+ {
+  "slug": "gophercite-teaching-language-models-to-support-answers-with-verified-quotes",
+  "title": "GopherCite: Teaching language models to support answers with verified quotes",
+  "date": "2022-03-16",
+  "authors": [
+   "Jacob Menick",
+   "Maja Trebacz",
+   "Vladimir Mikulik",
+   "John Aslanides",
+   "Francis Song",
+   "Martin Chadwick",
+   "Mia Glaese",
+   "Susannah Young",
+   "Lucy Campbell-Gillingham",
+   "Geoffrey Irving",
+   "Nat McAleese"
+  ],
+  "tags": [],
+  "description": "Language models like Gopher can “hallucinate” facts that appear plausible but are actually fake. Those who are familiar with this problem know to do their own fact-checking, rather than trusting what…",
+  "url": "https://deepmind.google/blog/gophercite-teaching-language-models-to-support-answers-with-verified-quotes/"
+ },
+ {
+  "slug": "graphcast-ai-model-for-faster-and-more-accurate-global-weather-forecasting",
+  "title": "GraphCast: AI model for faster and more accurate global weather forecasting",
+  "date": "2023-11-14",
+  "authors": [
+   "Remi Lam",
+   "GraphCast team"
+  ],
+  "tags": [],
+  "description": "Our state-of-the-art model delivers 10-day weather predictions at unprecedented accuracy in under one minute",
+  "url": "https://deepmind.google/blog/graphcast-ai-model-for-faster-and-more-accurate-global-weather-forecasting/"
+ },
+ {
+  "slug": "high-fidelity-speech-synthesis-with-wavenet",
+  "title": "High-fidelity speech synthesis with WaveNet",
+  "date": "2017-11-22",
+  "authors": [
+   "Aäron van den Oord",
+   "Yazhe Li",
+   "Igor Babuschkin"
+  ],
+  "tags": [],
+  "description": "In October we announced that our state-of-the-art speech synthesis model WaveNet was being used to generate realistic-sounding voices for the Google Assistant globally in Japanese and the US English.…",
+  "url": "https://deepmind.google/blog/high-fidelity-speech-synthesis-with-wavenet/"
+ },
+ {
+  "slug": "how-ai-is-helping-advance-the-science-of-bioacoustics-to-save-endangered-species",
+  "title": "How AI is helping advance the science of bioacoustics to save endangered species",
+  "date": "2025-08-07",
+  "authors": [
+   "Perch team"
+  ],
+  "tags": [],
+  "description": "Our new Perch model helps conservationists analyze audio faster to protect endangered species, from Hawaiian honeycreepers to coral reefs.",
+  "url": "https://deepmind.google/blog/how-ai-is-helping-advance-the-science-of-bioacoustics-to-save-endangered-species/"
+ },
+ {
+  "slug": "how-can-we-build-human-values-into-ai",
+  "title": "How can we build human values into AI?",
+  "date": "2023-04-24",
+  "authors": [
+   "Iason Gabriel",
+   "Kevin McKee"
+  ],
+  "tags": [],
+  "description": "As artificial intelligence (AI) becomes more powerful and more deeply integrated into our lives, the questions of how it is used and deployed are all the more important. What values guide AI? Whose v…",
+  "url": "https://deepmind.google/blog/how-can-we-build-human-values-into-ai/"
+ },
+ {
+  "slug": "how-evolutionary-selection-can-train-more-capable-self-driving-cars",
+  "title": "How evolutionary selection can train more capable self-driving cars",
+  "date": "2019-07-25",
+  "authors": [
+   "Yu-hsin Chen"
+  ],
+  "tags": [],
+  "description": "Waymo’s self-driving vehicles employ neural networks to perform many driving tasks, from detecting objects and predicting how others will behave, to planning a car's next moves. Training an individua…",
+  "url": "https://deepmind.google/blog/how-evolutionary-selection-can-train-more-capable-self-driving-cars/"
+ },
+ {
+  "slug": "how-our-principles-helped-define-alphafolds-release",
+  "title": "How our principles helped define AlphaFold’s release",
+  "date": "2022-09-14",
+  "authors": [
+   "Koray Kavukcuoglu",
+   "Pushmeet Kohli",
+   "Lila Ibrahim",
+   "Dawn Bloxwich",
+   "Sasha Brown"
+  ],
+  "tags": [],
+  "description": "Our Operating Principles have come to define both our commitment to prioritising widespread benefit, as well as the areas of research and applications we refuse to pursue. These principles have been …",
+  "url": "https://deepmind.google/blog/how-our-principles-helped-define-alphafolds-release/"
+ },
+ {
+  "slug": "how-undesired-goals-can-arise-with-correct-rewards",
+  "title": "How undesired goals can arise with correct rewards",
+  "date": "2022-10-07",
+  "authors": [
+   "Rohin Shah",
+   "Victoria Krakovna",
+   "Vikrant Varma",
+   "Zachary Kenton"
+  ],
+  "tags": [],
+  "description": "As we build increasingly advanced artificial intelligence (AI) systems, we want to make sure they don’t pursue undesired goals. Such behaviour in an AI agent is often the result of specification gami…",
+  "url": "https://deepmind.google/blog/how-undesired-goals-can-arise-with-correct-rewards/"
+ },
+ {
+  "slug": "how-weathernext-helped-the-national-hurricane-center-better-predict-hurricane-melissas-historic-landfall-in-jamaica",
+  "title": "How WeatherNext helped the National Hurricane Center better predict Hurricane Melissa’s historic landfall in Jamaica",
+  "date": "2026-05-19",
+  "authors": [
+   "WeatherNext team"
+  ],
+  "tags": [],
+  "description": "Discover how our WeatherNext AI model helps the National Hurricane Center predict Hurricane Melissa's Category 5 landfall in Jamaica",
+  "url": "https://deepmind.google/blog/how-weathernext-helped-the-national-hurricane-center-better-predict-hurricane-melissas-historic-landfall-in-jamaica/"
+ },
+ {
+  "slug": "how-were-supporting-better-tropical-cyclone-prediction-with-ai",
+  "title": "How we're supporting better tropical cyclone prediction with AI",
+  "date": "2025-06-12",
+  "authors": [
+   "Weather Lab team"
+  ],
+  "tags": [],
+  "description": "We’re launching Weather Lab, featuring our experimental cyclone predictions, and we’re partnering with the U.S. National Hurricane Center to support their forecasts and warnings this cyclone season.",
+  "url": "https://deepmind.google/blog/how-were-supporting-better-tropical-cyclone-prediction-with-ai/"
+ },
+ {
+  "slug": "human-centred-mechanism-design-with-democratic-ai",
+  "title": "Human-centred mechanism design with Democratic AI",
+  "date": "2022-07-04",
+  "authors": [
+   "Raphael Koster",
+   "Jan Balaguer",
+   "Andrea Tacchetti",
+   "Ari Weinstein",
+   "Tina Zhu",
+   "Oliver Hauser",
+   "Duncan Williams",
+   "Lucy Campbell-Gillingham",
+   "Phoebe Thacker",
+   "Matt Botvinick",
+   "Christopher Summerfield"
+  ],
+  "tags": [],
+  "description": "In our recent paper, published in Nature Human Behaviour, we provide a proof-of-concept demonstration that deep reinforcement learning (RL) can be used to find economic policies that people will vote…",
+  "url": "https://deepmind.google/blog/human-centred-mechanism-design-with-democratic-ai/"
+ },
+ {
+  "slug": "identifying-ai-generated-images-with-synthid",
+  "title": "Identifying AI-generated images with SynthID",
+  "date": "2023-08-29",
+  "authors": [
+   "Sven Gowal",
+   "Pushmeet Kohli"
+  ],
+  "tags": [],
+  "description": "Today, in partnership with Google Cloud, we’re beta launching SynthID, a new tool for watermarking and identifying AI-generated images. It’s being released to a limited number of Vertex AI customers …",
+  "url": "https://deepmind.google/blog/identifying-ai-generated-images-with-synthid/"
+ },
+ {
+  "slug": "identifying-and-eliminating-bugs-in-learned-predictive-models",
+  "title": "Identifying and eliminating bugs in learned predictive models",
+  "date": "2019-03-28",
+  "authors": [
+   "Pushmeet Kohli",
+   "Krishnamurthy (Dj) Dvijotham",
+   "Jonathan Uesato",
+   "Sven Gowal"
+  ],
+  "tags": [],
+  "description": "Bugs and software have gone hand in hand since the beginning of computer programming. Over time, software developers have established a set of best practices for testing and debugging before deployme…",
+  "url": "https://deepmind.google/blog/identifying-and-eliminating-bugs-in-learned-predictive-models/"
+ },
+ {
+  "slug": "images-altered-to-trick-machine-vision-can-influence-humans-too",
+  "title": "Images altered to trick machine vision can influence humans too",
+  "date": "2024-01-02",
+  "authors": [
+   "Gamaleldin Elsayed",
+   "Michael Mozer"
+  ],
+  "tags": [],
+  "description": "In a series of experiments published in Nature Communications, we found evidence that human judgments are indeed systematically influenced by adversarial perturbations.",
+  "url": "https://deepmind.google/blog/images-altered-to-trick-machine-vision-can-influence-humans-too/"
+ },
+ {
+  "slug": "imagine-this-creating-new-visual-concepts-by-recombining-familiar-ones",
+  "title": "Imagine this: Creating new visual concepts by recombining familiar ones",
+  "date": "2017-07-12",
+  "authors": [
+   "Alexander Lerchner",
+   "Irina Higgins",
+   "Matt Botvinick"
+  ],
+  "tags": [],
+  "description": "Around two and a half thousand years ago a Mesopotamian trader gathered some clay, wood and reeds and changed humanity forever. Over time, their abacus would allow traders to keep track of goods and …",
+  "url": "https://deepmind.google/blog/imagine-this-creating-new-visual-concepts-by-recombining-familiar-ones/"
+ },
+ {
+  "slug": "imitating-interactive-intelligence",
+  "title": "Imitating Interactive Intelligence",
+  "date": "2020-12-11",
+  "authors": [
+   "Josh Abramson",
+   "Arun Ahuja",
+   "Arthur Brussee",
+   "Federico Carnevale",
+   "Mary Cassin",
+   "Stephen Clark",
+   "Andrew Dudzik",
+   "Petko Georgiev",
+   "Aurelia Guy",
+   "Tim Harley",
+   "Felix Hill",
+   "Alden Hung",
+   "Zachary Kenton",
+   "Jessica Landon",
+   "Timothy Lillicrap",
+   "Kory W. Mathewson",
+   "Alistair Muldal",
+   "Adam Santoro",
+   "Nikolay Savinov",
+   "Vikrant Varma",
+   "Gregory Wayne",
+   "Nathaniel Wong",
+   "Chen Yan",
+   "Rui Zhu"
+  ],
+  "tags": [],
+  "description": "We first create a simulated environment, the Playroom, in which virtual robots can engage in a variety of interesting interactions by moving around, manipulating objects, and speaking to each other. …",
+  "url": "https://deepmind.google/blog/imitating-interactive-intelligence/"
+ },
+ {
+  "slug": "improving-language-models-by-retrieving-from-trillions-of-tokens",
+  "title": "Improving language models by retrieving from trillions of tokens",
+  "date": "2021-12-08",
+  "authors": [
+   "Sebastian Borgeaud",
+   "Arthur Mensch",
+   "Jordan Hoffmann",
+   "Laurent Sifre"
+  ],
+  "tags": [],
+  "description": "We explore an alternate path for improving language models: we augment transformers with retrieval over a database of text passages including web pages, books, news and code. We call our method RETRO…",
+  "url": "https://deepmind.google/blog/improving-language-models-by-retrieving-from-trillions-of-tokens/"
+ },
+ {
+  "slug": "in-conversation-with-ai-building-better-language-models",
+  "title": "In conversation with AI: building better language models",
+  "date": "2022-09-06",
+  "authors": [
+   "Atoosa Kasirzadeh",
+   "Iason Gabriel"
+  ],
+  "tags": [],
+  "description": "Our new paper, In conversation with AI: aligning language models with human values, explores a different approach, asking what successful communication between humans and an artificial conversational…",
+  "url": "https://deepmind.google/blog/in-conversation-with-ai-building-better-language-models/"
+ },
+ {
+  "slug": "independent-reviewers-release-first-annual-report-on-deepmind-health",
+  "title": "Independent Reviewers release first annual report on DeepMind Health",
+  "date": "2017-07-05",
+  "authors": [
+   "Mustafa Suleyman",
+   "Dominic King"
+  ],
+  "tags": [],
+  "description": "Today, a panel of Independent Reviewers has published its first annual report into DeepMind Health. As I wrote in the foreword to their report (written, I add, before I’d read it): “We chose people w…",
+  "url": "https://deepmind.google/blog/independent-reviewers-release-first-annual-report-on-deepmind-health/"
+ },
+ {
+  "slug": "innovations-of-alphago",
+  "title": "Innovations of AlphaGo",
+  "date": "2017-04-10",
+  "authors": [
+   "Lucas Baker",
+   "Fan Hui"
+  ],
+  "tags": [],
+  "description": "One of the great promises of AI is its potential to help us unearth new knowledge in complex domains. We’ve already seen exciting glimpses of this, when our algorithms found ways to dramatically impr…",
+  "url": "https://deepmind.google/blog/innovations-of-alphago/"
+ },
+ {
+  "slug": "international-evaluation-of-an-ai-system-for-breast-cancer-screening",
+  "title": "International evaluation of an AI system for breast cancer screening",
+  "date": "2020-01-01",
+  "authors": [
+   "Scott Mayer McKinney",
+   "Marcin T. Sieniek",
+   "Varun Godbole",
+   "Jonathan Godwin",
+   "Natasha Antropova",
+   "Hutan Ashrafian",
+   "Trevor Back",
+   "Mary Chesus",
+   "Greg Corrado",
+   "Ara Darzi",
+   "Mozziyar Etemadi",
+   "Florencia Garcia-Vicente",
+   "Fiona Gilbert",
+   "Mark Halling-Brown",
+   "Demis Hassabis",
+   "Sunny Jansen",
+   "Alan Karthikesalingam",
+   "Christopher J Kelly",
+   "Dominic King",
+   "Joseph Ledsam",
+   "David Melnick",
+   "Hormuz Mostofi",
+   "Bernardino Romera-Paredes",
+   "Lily Peng",
+   "Joshua Jay Reicher",
+   "Richard Sidebottom",
+   "Mustafa Suleyman",
+   "Daniel Tse",
+   "Kenneth C. Young",
+   "Jeffrey De Fauw",
+   "Shravya Shetty"
+  ],
+  "tags": [],
+  "description": "Screening mammography aims to identify breast cancer before symptoms appear, enabling earlier therapy for more treatable disease. Despite the existence of screening programs worldwide, interpretation…",
+  "url": "https://deepmind.google/blog/international-evaluation-of-an-ai-system-for-breast-cancer-screening/"
+ },
+ {
+  "slug": "interpreting-deep-neural-networks-using-cognitive-psychology",
+  "title": "Interpreting Deep Neural Networks using Cognitive Psychology",
+  "date": "2017-06-27",
+  "authors": [
+   "David Barrett",
+   "Samuel Ritter"
+  ],
+  "tags": [],
+  "description": "Deep neural networks have learnt to do an amazing array of tasks - from recognising and reasoning about objects in images to playing Atari and Go at super-human levels. As these tasks and network arc…",
+  "url": "https://deepmind.google/blog/interpreting-deep-neural-networks-using-cognitive-psychology/"
+ },
+ {
+  "slug": "introducing-gemini-3-5-flash-cyber",
+  "title": "Introducing Gemini 3.5 Flash Cyber",
+  "date": "2026-07-21",
+  "authors": [
+   "Raluca Ada Popa",
+   "Four Flynn"
+  ],
+  "tags": [],
+  "description": "Google introduces Gemini 3.5 Flash Cyber to help defenders find, validate, and patch software vulnerabilities quickly and efficiently.",
+  "url": "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/"
+ },
+ {
+  "slug": "introducing-the-frontier-safety-framework",
+  "title": "Introducing the Frontier Safety Framework",
+  "date": "2024-05-17",
+  "authors": [
+   "Anca Dragan",
+   "Helen King",
+   "Allan Dafoe"
+  ],
+  "tags": [],
+  "description": "Our approach to analyzing and mitigating future risks posed by advanced AI models",
+  "url": "https://deepmind.google/blog/introducing-the-frontier-safety-framework/"
+ },
+ {
+  "slug": "intuitive-physics-learning-in-a-deep-learning-model-inspired-by-developmental-psychology",
+  "title": "Intuitive physics learning in a deep-learning model inspired by developmental psychology",
+  "date": "2022-07-11",
+  "authors": [
+   "Luis Perez",
+   "Ari Weinstein",
+   "Peter Battaglia",
+   "Matt Botvinick"
+  ],
+  "tags": [],
+  "description": "Despite significant effort, current AI systems pale in their understanding of intuitive physics, in comparison to even very young children. In the present work, we address this AI problem, specifical…",
+  "url": "https://deepmind.google/blog/intuitive-physics-learning-in-a-deep-learning-model-inspired-by-developmental-psychology/"
+ },
+ {
+  "slug": "investing-in-multi-agent-ai-safety-research",
+  "title": "Investing in multi-agent AI safety research",
+  "date": "2026-06-11",
+  "authors": [
+   "Google DeepMind",
+   "Google DeepMind",
+   "Schmidt Sciences",
+   "Schmidt Sciences",
+   "Cooperative AI Foundation",
+   "Cooperative AI Foundation",
+   "ARIA",
+   "ARIA",
+   "Google.org",
+   "Google.org"
+  ],
+  "tags": [],
+  "description": "Google DeepMind and partners are announcing a new technical research funding call of up to $10M for researchers worldwide to strengthen multi-agent safety.",
+  "url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/"
+ },
+ {
+  "slug": "is-curiosity-all-you-need-on-the-utility-of-emergent-behaviours-from-curious-exploration",
+  "title": "Is Curiosity All You Need? On the Utility of Emergent Behaviours from Curious Exploration",
+  "date": "2021-09-17",
+  "authors": [
+   "Oliver Groth",
+   "Markus Wulfmeier",
+   "Giulia Vezzani",
+   "Vibhavari Dasagi",
+   "Tim Hertweck",
+   "Roland Hafner",
+   "Nicolas Heess",
+   "Martin Riedmiller"
+  ],
+  "tags": [],
+  "description": "We argue that merely using curiosity for fast environment exploration or as a bonus reward for a specific task does not harness the full potential of this technique and misses useful skills. Instead,…",
+  "url": "https://deepmind.google/blog/is-curiosity-all-you-need-on-the-utility-of-emergent-behaviours-from-curious-exploration/"
+ },
+ {
+  "slug": "kyrgyzstan-to-kings-cross-the-star-baker-cooking-up-code",
+  "title": "Kyrgyzstan to King’s Cross: the star baker cooking up code",
+  "date": "2022-05-26",
+  "authors": [],
+  "tags": [],
+  "description": "My day can vary, it really depends on which phase of the project I'm on. Let’s say we want to add a feature to our product – my tasks could range from designing solutions and working with the team to…",
+  "url": "https://deepmind.google/blog/kyrgyzstan-to-kings-cross-the-star-baker-cooking-up-code/"
+ },
+ {
+  "slug": "language-modelling-at-scale-gopher-ethical-considerations-and-retrieval",
+  "title": "Language modelling at scale: Gopher, ethical considerations, and retrieval",
+  "date": "2021-12-08",
+  "authors": [
+   "Jack Rae",
+   "Geoffrey Irving",
+   "Laura Weidinger"
+  ],
+  "tags": [],
+  "description": "Language, and its role in demonstrating and facilitating comprehension - or intelligence - is a fundamental part of being human. It gives people the ability to communicate thoughts and concepts, expr…",
+  "url": "https://deepmind.google/blog/language-modelling-at-scale-gopher-ethical-considerations-and-retrieval/"
+ },
+ {
+  "slug": "learning-by-playing",
+  "title": "Learning by playing",
+  "date": "2018-02-28",
+  "authors": [
+   "Martin Riedmiller",
+   "Roland Hafner"
+  ],
+  "tags": [],
+  "description": "Getting children (and adults) to tidy up after themselves can be a challenge, but we face an even greater challenge trying to get our AI agents to do the same. Success depends on the mastery of sever…",
+  "url": "https://deepmind.google/blog/learning-by-playing/"
+ },
+ {
+  "slug": "learning-explanatory-rules-from-noisy-data",
+  "title": "Learning explanatory rules from noisy data",
+  "date": "2018-01-29",
+  "authors": [
+   "Richard Evans",
+   "Edward Grefenstette"
+  ],
+  "tags": [],
+  "description": "Suppose you are playing football. The ball arrives at your feet, and you decide to pass it to the unmarked striker. What seems like one simple action requires two different kinds of thought.",
+  "url": "https://deepmind.google/blog/learning-explanatory-rules-from-noisy-data/"
+ },
+ {
+  "slug": "learning-human-objectives-by-evaluating-hypothetical-behaviours",
+  "title": "Learning human objectives by evaluating hypothetical behaviours",
+  "date": "2019-12-13",
+  "authors": [
+   "Jan Leike",
+   "Siddharth Reddy"
+  ],
+  "tags": [],
+  "description": "When we train reinforcement learning (RL) agents in the real world, we don’t want them to explore unsafe states, such as driving a mobile robot into a ditch or writing an embarrassing email to one’s …",
+  "url": "https://deepmind.google/blog/learning-human-objectives-by-evaluating-hypothetical-behaviours/"
+ },
+ {
+  "slug": "learning-robust-real-time-cultural-transmission-without-human-data",
+  "title": "Learning Robust Real-Time Cultural Transmission without Human Data",
+  "date": "2022-03-03",
+  "authors": [
+   "Cultural General Intelligence team"
+  ],
+  "tags": [],
+  "description": "In this work, we use deep reinforcement learning to generate artificial agents capable of test-time cultural transmission. Once trained, our agents can infer and recall navigational knowledge demonst…",
+  "url": "https://deepmind.google/blog/learning-robust-real-time-cultural-transmission-without-human-data/"
+ },
+ {
+  "slug": "learning-through-human-feedback",
+  "title": "Learning through human feedback",
+  "date": "2017-06-12",
+  "authors": [
+   "Jan Leike",
+   "Miljan Martic",
+   "Shane Legg"
+  ],
+  "tags": [],
+  "description": "We believe that Artificial Intelligence will be one of the most important and widely beneficial scientific advances ever made, helping humanity tackle some of its greatest challenges, from climate ch…",
+  "url": "https://deepmind.google/blog/learning-through-human-feedback/"
+ },
+ {
+  "slug": "learning-to-navigate-in-cities-without-a-map",
+  "title": "Learning to navigate in cities without a map",
+  "date": "2018-03-29",
+  "authors": [
+   "Piotr Mirowski",
+   "Raia Hadsell",
+   "Andrew Zisserman"
+  ],
+  "tags": [],
+  "description": "How did you learn to navigate the neighborhood of your childhood, to go to a friend’s house, to your school or to the grocery store? Probably without a map and simply by remembering the visual appear…",
+  "url": "https://deepmind.google/blog/learning-to-navigate-in-cities-without-a-map/"
+ },
+ {
+  "slug": "learning-to-segment-actions-from-observation-and-narration",
+  "title": "Learning to Segment Actions from Observation and Narration",
+  "date": "2020-05-07",
+  "authors": [
+   "Daniel Fried",
+   "Jean-Baptiste Alayrac",
+   "Phil Blunsom",
+   "Chris Dyer",
+   "Stephen Clark",
+   "Aida Nematzadeh"
+  ],
+  "tags": [],
+  "description": "We apply a generative segmental model of task structure, guided by narration, to action segmentation in video. We focus on unsupervised and weakly-supervised settings where no action labels are known…",
+  "url": "https://deepmind.google/blog/learning-to-segment-actions-from-observation-and-narration/"
+ },
+ {
+  "slug": "learning-to-write-programs-that-generate-images",
+  "title": "Learning to write programs that generate images",
+  "date": "2018-03-27",
+  "authors": [
+   "Ali Eslami",
+   "Tejas Kulkarni",
+   "Oriol Vinyals"
+  ],
+  "tags": [],
+  "description": "Through a human’s eyes, the world is much more than just the images reflected in our corneas. For example, when we look at a building and admire the intricacies of its design, we can appreciate the c…",
+  "url": "https://deepmind.google/blog/learning-to-write-programs-that-generate-images/"
+ },
+ {
+  "slug": "looking-ahead-to-the-ai-seoul-summit",
+  "title": "Looking ahead to the AI Seoul Summit",
+  "date": "2024-05-20",
+  "authors": [
+   "Tom Lue"
+  ],
+  "tags": [],
+  "description": "How summits in Seoul, France and beyond can galvanize international cooperation on frontier AI safety",
+  "url": "https://deepmind.google/blog/looking-ahead-to-the-ai-seoul-summit/"
+ },
+ {
+  "slug": "machine-learning-can-boost-the-value-of-wind-energy",
+  "title": "Machine learning can boost the value of wind energy",
+  "date": "2019-02-26",
+  "authors": [
+   "Carl Elkin",
+   "Sims Witherspoon"
+  ],
+  "tags": [],
+  "description": "Carbon-free technologies like renewable energy help combat climate change, but many of them have not reached their full potential. Consider wind power: over the past decade, wind farms have become an…",
+  "url": "https://deepmind.google/blog/machine-learning-can-boost-the-value-of-wind-energy/"
+ },
+ {
+  "slug": "making-efficient-use-of-demonstrations-to-solve-hard-exploration-problems",
+  "title": "Making Efficient Use of Demonstrations to Solve Hard Exploration Problems",
+  "date": "2019-09-05",
+  "authors": [
+   "Caglar Gülçehre",
+   "Tom Le Paine",
+   "Bobak Shahriari",
+   "Misha Denil",
+   "Matt Hoffman",
+   "Hubert Soyer",
+   "Richard Tanburn",
+   "Steven Kapturowski",
+   "Neil Rabinowitz",
+   "Duncan Williams",
+   "Gabriel Barth-Maron",
+   "Ziyu Wang",
+   "Nando de Freitas",
+   "Worlds team"
+  ],
+  "tags": [],
+  "description": "This paper introduces R2D3, an agent that makes efficient use of demonstrations to solve hard exploration problems in partially observable environments with highly variable initial conditions. We als…",
+  "url": "https://deepmind.google/blog/making-efficient-use-of-demonstrations-to-solve-hard-exploration-problems/"
+ },
+ {
+  "slug": "mapping-modeling-and-understanding-nature-with-ai",
+  "title": "Mapping, modeling, and understanding nature with AI",
+  "date": "2025-11-05",
+  "authors": [
+   "Ecosystem Modeling team"
+  ],
+  "tags": [],
+  "description": "Discover how AI models are helping scientists better understand our biosphere, from predicting deforestation to mapping species and listening to wildlife.",
+  "url": "https://deepmind.google/blog/mapping-modeling-and-understanding-nature-with-ai/"
+ },
+ {
+  "slug": "mapping-the-misuse-of-generative-ai",
+  "title": "Mapping the misuse of generative AI",
+  "date": "2024-08-02",
+  "authors": [
+   "Nahema Marchal",
+   "Rachel Xu"
+  ],
+  "tags": [],
+  "description": "New research analyzes the misuse of multimodal generative AI today, in order to help build safer and more responsible technologies",
+  "url": "https://deepmind.google/blog/mapping-the-misuse-of-generative-ai/"
+ },
+ {
+  "slug": "mastering-stratego-the-classic-game-of-imperfect-information",
+  "title": "Mastering Stratego, the classic game of imperfect information",
+  "date": "2022-12-01",
+  "authors": [
+   "Julien Perolat",
+   "Bart De Vylder",
+   "Daniel Hennes",
+   "Eugene Tarassov",
+   "Florian Strub",
+   "Karl Tuyls"
+  ],
+  "tags": [],
+  "description": "Game-playing artificial intelligence (AI) systems have advanced to a new frontier. Stratego, the classic board game that’s more complex than chess and Go, and craftier than poker, has now been master…",
+  "url": "https://deepmind.google/blog/mastering-stratego-the-classic-game-of-imperfect-information/"
+ },
+ {
+  "slug": "maximising-the-impact-of-our-breakthroughs",
+  "title": "Maximising the impact of our breakthroughs",
+  "date": "2022-09-09",
+  "authors": [
+   "Colin Murdoch"
+  ],
+  "tags": [],
+  "description": "Colin, CBO at DeepMind, discusses collaborations with Alphabet and how we integrate ethics, accountability, and safety into everything we do.",
+  "url": "https://deepmind.google/blog/maximising-the-impact-of-our-breakthroughs/"
+ },
+ {
+  "slug": "measuring-abstract-reasoning-in-neural-networks",
+  "title": "Measuring abstract reasoning in neural networks",
+  "date": "2018-07-11",
+  "authors": [
+   "Adam Santoro",
+   "David Barrett",
+   "Ari Morcos",
+   "Timothy Lillicrap",
+   "Felix Hill"
+  ],
+  "tags": [],
+  "description": "Neural network-based models continue to achieve impressive results on longstanding machine learning problems, but establishing their capacity to reason about abstract concepts has proven difficult. B…",
+  "url": "https://deepmind.google/blog/measuring-abstract-reasoning-in-neural-networks/"
+ },
+ {
+  "slug": "measuring-perception-in-ai-models",
+  "title": "Measuring perception in AI models",
+  "date": "2022-10-12",
+  "authors": [
+   "Viorica Pătrăucean",
+   "Lucas Smaira",
+   "Ankush Gupta",
+   "Adrià Recasens Continente",
+   "Yi Yang",
+   "Mateusz Malinowski",
+   "Carl Doersch",
+   "Larisa Markeeva",
+   "Yury Sulsky",
+   "Dylan Banarse",
+   "Skanda Koppula",
+   "Tatiana Matejovicova",
+   "Antoine Miech",
+   "Alexandre Fréchette",
+   "Junlin Zhang",
+   "Hanna Klimczak-Plucińska",
+   "Stephanie Winkler",
+   "Yusuf Aytar",
+   "Raphael Koster",
+   "Simon Osindero",
+   "Dima Damen",
+   "Andrew Zisserman",
+   "João Carreira"
+  ],
+  "tags": [],
+  "description": "Perception – the process of experiencing the world through senses – is a significant part of intelligence. And building agents with human-level perceptual understanding of the world is a central but …",
+  "url": "https://deepmind.google/blog/measuring-perception-in-ai-models/"
+ },
+ {
+  "slug": "measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond",
+  "title": "Measuring the impact of learning with AI in Sierra Leone and beyond",
+  "date": "2026-06-09",
+  "authors": [
+   "Zoubin Ghahramani"
+  ],
+  "tags": [],
+  "description": "Google DeepMind shares results from a randomized controlled trial in Sierra Leone, measuring the impact of AI in education on student learning and engagement.",
+  "url": "https://deepmind.google/blog/measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond/"
+ },
+ {
+  "slug": "melting-pot-an-evaluation-suite-for-multi-agent-reinforcement-learning",
+  "title": "Melting Pot: an evaluation suite for multi-agent reinforcement learning",
+  "date": "2021-07-14",
+  "authors": [
+   "Joel Leibo",
+   "Edgar Duéñez-Guzmán",
+   "Alexander Vezhnevets",
+   "John Agapiou",
+   "Peter Sunehag",
+   "Raphael Koster",
+   "Jayd Matyas",
+   "Charlie Beattie",
+   "Igor Mordatch",
+   "Thore Graepel"
+  ],
+  "tags": [],
+  "description": "Here we introduce Melting Pot, a scalable evaluation suite for multi-agent reinforcement learning. Melting Pot assesses generalisation to novel social situations involving both familiar and unfamilia…",
+  "url": "https://deepmind.google/blog/melting-pot-an-evaluation-suite-for-multi-agent-reinforcement-learning/"
+ },
+ {
+  "slug": "millions-of-new-materials-discovered-with-deep-learning",
+  "title": "Millions of new materials discovered with deep learning",
+  "date": "2023-11-29",
+  "authors": [
+   "Amil Merchant",
+   "Ekin Dogus Cubuk"
+  ],
+  "tags": [],
+  "description": "We share the discovery of 2.2 million new crystals  –  equivalent to nearly 800 years’ worth of knowledge. We introduce Graph Networks for Materials Exploration (GNoME), our new deep learning tool th…",
+  "url": "https://deepmind.google/blog/millions-of-new-materials-discovered-with-deep-learning/"
+ },
+ {
+  "slug": "music-ai-sandbox-now-with-new-features-and-broader-access",
+  "title": "Music AI Sandbox, now with new features and broader access",
+  "date": "2025-04-24",
+  "authors": [
+   "Lyria team"
+  ],
+  "tags": [],
+  "description": "Google has long collaborated with musicians, producers, and artists in the research and development of music AI tools. Ever since launching the Magenta project, in 2016, we’ve been exploring how AI c…",
+  "url": "https://deepmind.google/blog/music-ai-sandbox-now-with-new-features-and-broader-access/"
+ },
+ {
+  "slug": "muzero-alphazero-and-alphadev-optimizing-computer-systems",
+  "title": "MuZero, AlphaZero, and AlphaDev: Optimizing computer systems",
+  "date": "2023-06-12",
+  "authors": [],
+  "tags": [],
+  "description": "How MuZero, AlphaZero, and AlphaDev are optimizing the computing ecosystem that powers our world of devices.",
+  "url": "https://deepmind.google/blog/muzero-alphazero-and-alphadev-optimizing-computer-systems/"
+ },
+ {
+  "slug": "muzero-mastering-go-chess-shogi-and-atari-without-rules",
+  "title": "MuZero: Mastering Go, chess, shogi and Atari without rules",
+  "date": "2020-12-23",
+  "authors": [
+   "Julian Schrittwieser",
+   "Ioannis Antonoglou",
+   "Thomas Hubert",
+   "Karen Simonyan",
+   "Laurent Sifre",
+   "Simon Schmitt",
+   "Arthur Guez",
+   "Edward Lockhart",
+   "Demis Hassabis",
+   "Thore Graepel",
+   "Timothy Lillicrap",
+   "David Silver"
+  ],
+  "tags": [],
+  "description": "In 2016, we introduced AlphaGo, the first artificial intelligence (AI) program to defeat humans at the ancient game of Go. Two years later, its successor - AlphaZero - learned from scratch to master …",
+  "url": "https://deepmind.google/blog/muzero-mastering-go-chess-shogi-and-atari-without-rules/"
+ },
+ {
+  "slug": "muzeros-first-step-from-research-into-the-real-world",
+  "title": "MuZero’s first step from research into the real world",
+  "date": "2022-02-11",
+  "authors": [
+   "MuZero Applied team"
+  ],
+  "tags": [],
+  "description": "Collaborating with YouTube to optimise video compression in the open source VP9 codec.",
+  "url": "https://deepmind.google/blog/muzeros-first-step-from-research-into-the-real-world/"
+ },
+ {
+  "slug": "navigating-with-grid-like-representations-in-artificial-agents",
+  "title": "Navigating with grid-like representations in artificial agents",
+  "date": "2018-05-09",
+  "authors": [
+   "Andrea Banino",
+   "Dharshan Kumaran",
+   "Caswell Barry",
+   "Benigno Uria"
+  ],
+  "tags": [],
+  "description": "Most animals, including humans, are able to flexibly navigate the world they live in – exploring new areas, returning quickly to remembered places, and taking shortcuts. Indeed, these abilities feel …",
+  "url": "https://deepmind.google/blog/navigating-with-grid-like-representations-in-artificial-agents/"
+ },
+ {
+  "slug": "neural-scene-representation-and-rendering",
+  "title": "Neural scene representation and rendering",
+  "date": "2018-06-14",
+  "authors": [
+   "Ali Eslami",
+   "Danilo Jimenez Rezende"
+  ],
+  "tags": [],
+  "description": "There is more than meets the eye when it comes to how we understand a visual scene: our brains draw on prior knowledge to reason and to make inferences that go far beyond the patterns of light that h…",
+  "url": "https://deepmind.google/blog/neural-scene-representation-and-rendering/"
+ },
+ {
+  "slug": "nowcasting-the-next-hour-of-rain",
+  "title": "Nowcasting the next hour of rain",
+  "date": "2021-09-29",
+  "authors": [
+   "Nowcasting team"
+  ],
+  "tags": [],
+  "description": "Our lives are dependent on the weather. At any moment in the UK, according to one study, one third of the country has talked about the weather in the past hour, reflecting the importance of weather i…",
+  "url": "https://deepmind.google/blog/nowcasting-the-next-hour-of-rain/"
+ },
+ {
+  "slug": "objects-that-sound",
+  "title": "Objects that Sound",
+  "date": "2018-08-06",
+  "authors": [
+   "Relja Arandjelović",
+   "Andrew Zisserman"
+  ],
+  "tags": [],
+  "description": "Visual and audio events tend to occur together: a musician plucking guitar strings and the resulting melody; a wine glass shattering and the accompanying crash; the roar of a motorcycle as it acceler…",
+  "url": "https://deepmind.google/blog/objects-that-sound/"
+ },
+ {
+  "slug": "on-the-expressivity-of-markov-reward",
+  "title": "On the Expressivity of Markov Reward",
+  "date": "2021-12-01",
+  "authors": [
+   "David Abel",
+   "Doina Precup",
+   "Anna Harutyunyan",
+   "Mark Ho",
+   "Michael Littman",
+   "Will Dabney",
+   "Satinder Baveja"
+  ],
+  "tags": [],
+  "description": "Our main results prove that while reward can express many tasks, there exist instances of each task type that no Markov reward function can capture. We then provide a set of polynomial-time algorithm…",
+  "url": "https://deepmind.google/blog/on-the-expressivity-of-markov-reward/"
+ },
+ {
+  "slug": "open-sourcing-deepmind-lab",
+  "title": "Open-sourcing DeepMind Lab",
+  "date": "2016-12-03",
+  "authors": [
+   "Charlie Beattie",
+   "Joel Leibo",
+   "Stig Petersen",
+   "Shane Legg"
+  ],
+  "tags": [],
+  "description": "DeepMind's scientific mission is to push the boundaries of AI, developing systems that can learn to solve any complex problem without needing to be taught how.",
+  "url": "https://deepmind.google/blog/open-sourcing-deepmind-lab/"
+ },
+ {
+  "slug": "open-sourcing-mujoco",
+  "title": "Open-sourcing MuJoCo",
+  "date": "2022-05-23",
+  "authors": [
+   "Yuval Tassa",
+   "Saran Tunyasuvunakool"
+  ],
+  "tags": [],
+  "description": "In October 2021, we announced that we acquired the MuJoCo physics simulator, and made it freely available for everyone to support research everywhere. We also committed to developing and maintaining …",
+  "url": "https://deepmind.google/blog/open-sourcing-mujoco/"
+ },
+ {
+  "slug": "open-sourcing-psychlab",
+  "title": "Open-sourcing Psychlab",
+  "date": "2018-01-26",
+  "authors": [
+   "Joel Leibo"
+  ],
+  "tags": [],
+  "description": "Consider the simple task of going shopping for your groceries. If you fail to pick-up an item that is on your list, what does it tell us about the functioning of your brain? It might indicate that yo…",
+  "url": "https://deepmind.google/blog/open-sourcing-psychlab/"
+ },
+ {
+  "slug": "open-sourcing-sonnet-a-new-library-for-constructing-neural-networks",
+  "title": "Open sourcing Sonnet - a new library for constructing neural networks",
+  "date": "2017-04-07",
+  "authors": [
+   "Malcolm Reynolds",
+   "Jack Rae",
+   "Andreas Fidjeland",
+   "Fabio Viola",
+   "Adrià Puigdomènech",
+   "Frederic Besse",
+   "Tim Green",
+   "Sébastien Racanière",
+   "Gabriel Barth-Maron",
+   "Diego de Las Casas"
+  ],
+  "tags": [],
+  "description": "It’s now nearly a year since DeepMind made the decision to switch the entire research organisation to using TensorFlow (TF). It’s proven to be a good choice - many of our models learn significantly f…",
+  "url": "https://deepmind.google/blog/open-sourcing-sonnet-a-new-library-for-constructing-neural-networks/"
+ },
+ {
+  "slug": "open-sourcing-trfl-a-library-of-reinforcement-learning-building-blocks",
+  "title": "Open sourcing TRFL: a library of reinforcement learning building blocks",
+  "date": "2018-10-17",
+  "authors": [
+   "Matteo Hessel",
+   "Miljan Martic",
+   "Diego de Las Casas",
+   "Gabriel Barth-Maron"
+  ],
+  "tags": [],
+  "description": "Today we are open sourcing a new library of useful building blocks for writing reinforcement learning (RL) agents in TensorFlow. Named TRFL (pronounced ‘truffle’), it represents a collection of key a…",
+  "url": "https://deepmind.google/blog/open-sourcing-trfl-a-library-of-reinforcement-learning-building-blocks/"
+ },
+ {
+  "slug": "opening-up-a-physics-simulator-for-robotics",
+  "title": "Opening up a physics simulator for robotics",
+  "date": "2021-10-18",
+  "authors": [
+   "Yuval Tassa",
+   "Saran Tunyasuvunakool",
+   "Nimrod Gileadi",
+   "Tom Erez",
+   "Andrea Huber"
+  ],
+  "tags": [],
+  "description": "When you walk, your feet make contact with the ground. When you write, your fingers make contact with the pen. Physical contacts are what makes interaction with the world possible. Yet, for such a co…",
+  "url": "https://deepmind.google/blog/opening-up-a-physics-simulator-for-robotics/"
+ },
+ {
+  "slug": "our-approach-to-bioresilience",
+  "title": "Our approach to bioresilience",
+  "date": "2026-07-16",
+  "authors": [
+   "Google DeepMind",
+   "Isomorphic Labs"
+  ],
+  "tags": [],
+  "description": "Google DeepMind and Isomorphic Labs approach to bioresilience, using AI models to support prevention, detection and response.",
+  "url": "https://deepmind.google/blog/our-approach-to-bioresilience/"
+ },
+ {
+  "slug": "our-collaborations-with-academia-to-advance-the-field-of-ai",
+  "title": "Our collaborations with academia to advance the field of AI",
+  "date": "2017-01-23",
+  "authors": [
+   "Demis Hassabis"
+  ],
+  "tags": [],
+  "description": "When I was studying in the mid-90s as an undergraduate, there was very little active engagement between the academic communities pushing the boundaries of maths and science, and the industries that m…",
+  "url": "https://deepmind.google/blog/our-collaborations-with-academia-to-advance-the-field-of-ai/"
+ },
+ {
+  "slug": "our-first-coo-lila-ibrahim-takes-deepmind-to-the-next-level",
+  "title": "Our first COO Lila Ibrahim takes DeepMind to the next level",
+  "date": "2018-04-11",
+  "authors": [
+   "Demis Hassabis"
+  ],
+  "tags": [],
+  "description": "One of the greatest pleasures of coming to work every day at DeepMind is the chance to collaborate with brilliant researchers and engineers from so many different fields and perspectives - with machi…",
+  "url": "https://deepmind.google/blog/our-first-coo-lila-ibrahim-takes-deepmind-to-the-next-level/"
+ },
+ {
+  "slug": "partnering-with-industry-leaders-to-accelerate-ai-transformation",
+  "title": "Partnering with industry leaders to accelerate AI transformation",
+  "date": "2026-04-22",
+  "authors": [
+   "David Thacker"
+  ],
+  "tags": [],
+  "description": "Google DeepMind is partnering with leading consultancies to bridge the AI adoption gap and drive agentic transformation with frontier models and expert research.",
+  "url": "https://deepmind.google/blog/partnering-with-industry-leaders-to-accelerate-ai-transformation/"
+ },
+ {
+  "slug": "perceiver-ar-general-purpose-long-context-autoregressive-generation",
+  "title": "Perceiver AR: general-purpose, long-context autoregressive generation",
+  "date": "2022-07-16",
+  "authors": [
+   "Curtis Hawthorne",
+   "Drew Jaegle",
+   "Cătălina Cangea",
+   "Sebastian Borgeaud",
+   "Charlie Nash",
+   "Mateusz Malinowski",
+   "Sander Dieleman",
+   "Oriol Vinyals",
+   "Matt Botvinick",
+   "Ian Simon",
+   "Hannah Sheahan",
+   "Neil Zeghidour",
+   "Jean-Baptiste Alayrac",
+   "João Carreira",
+   "Jesse Engel"
+  ],
+  "tags": [],
+  "description": "We develop Perceiver AR, an autoregressive, modality-agnostic architecture which uses cross-attention to map long-range inputs to a small number of latents while also maintaining end-to-end causal ma…",
+  "url": "https://deepmind.google/blog/perceiver-ar-general-purpose-long-context-autoregressive-generation/"
+ },
+ {
+  "slug": "piloting-the-worlds-first-double-blind-ai-evaluations",
+  "title": "Piloting the world's first double-blind AI evaluations",
+  "date": "2026-08-27",
+  "authors": [
+   "William Isaac",
+   "Sol Messing",
+   "Kristian Lum"
+  ],
+  "tags": [],
+  "description": "Building trust in proprietary model benchmarks using cryptographically secure environments",
+  "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/"
+ },
+ {
+  "slug": "population-based-training-of-neural-networks",
+  "title": "Population based training of neural networks",
+  "date": "2017-11-27",
+  "authors": [
+   "Max Jaderberg"
+  ],
+  "tags": [],
+  "description": "Neural networks have shown great success in everything from playing Go and Atari games to image recognition and language translation. But often overlooked is that the success of a neural network at a…",
+  "url": "https://deepmind.google/blog/population-based-training-of-neural-networks/"
+ },
+ {
+  "slug": "predicting-eye-disease-with-moorfields-eye-hospital",
+  "title": "Predicting eye disease with Moorfields Eye Hospital",
+  "date": "2018-11-05",
+  "authors": [],
+  "tags": [],
+  "description": "In August, we announced the first stage of our joint research partnership with Moorfields Eye Hospital, which showed how AI could match world-leading doctors at recommending the correct course of tre…",
+  "url": "https://deepmind.google/blog/predicting-eye-disease-with-moorfields-eye-hospital/"
+ },
+ {
+  "slug": "predicting-gene-expression-with-ai",
+  "title": "Predicting gene expression with AI",
+  "date": "2021-10-04",
+  "authors": [
+   "Žiga Avsec"
+  ],
+  "tags": [],
+  "description": "When the Human Genome Project succeeded in mapping the DNA sequence of the human genome, the international research community were excited by the opportunity to better understand the genetic instruct…",
+  "url": "https://deepmind.google/blog/predicting-gene-expression-with-ai/"
+ },
+ {
+  "slug": "predicting-the-past-with-ithaca",
+  "title": "Predicting the past with Ithaca",
+  "date": "2022-03-09",
+  "authors": [
+   "Yannis Assael",
+   "Thea Sommerschield",
+   "Brendan Shillingford",
+   "Nando de Freitas"
+  ],
+  "tags": [],
+  "description": "The birth of human writing marked the dawn of History and is crucial to our understanding of past civilisations and the world we live in today. For example, more than 2,500 years ago, the Greeks bega…",
+  "url": "https://deepmind.google/blog/predicting-the-past-with-ithaca/"
+ },
+ {
+  "slug": "prefrontal-cortex-as-a-meta-reinforcement-learning-system",
+  "title": "Prefrontal cortex as a meta-reinforcement learning system",
+  "date": "2018-05-14",
+  "authors": [
+   "Jane Wang",
+   "Zeb Kurth-Nelson",
+   "Matt Botvinick"
+  ],
+  "tags": [],
+  "description": "Recently, AI systems have mastered a range of video-games such as Atari classics Breakout and Pong. But as impressive as this performance is, AI still relies on the equivalent of thousands of hours o…",
+  "url": "https://deepmind.google/blog/prefrontal-cortex-as-a-meta-reinforcement-learning-system/"
+ },
+ {
+  "slug": "preserving-outputs-precisely-while-adaptively-rescaling-targets",
+  "title": "Preserving Outputs Precisely while Adaptively Rescaling Targets",
+  "date": "2018-09-13",
+  "authors": [
+   "Hado van Hasselt",
+   "Matteo Hessel"
+  ],
+  "tags": [],
+  "description": "Multi-task learning - allowing a single agent to learn how to solve many different tasks - is a longstanding objective for artificial intelligence research. Recently, there has been a lot of excellen…",
+  "url": "https://deepmind.google/blog/preserving-outputs-precisely-while-adaptively-rescaling-targets/"
+ },
+ {
+  "slug": "probing-image-language-transformers-for-verb-understanding",
+  "title": "Probing Image-Language Transformers for Verb Understanding",
+  "date": "2022-02-23",
+  "authors": [
+   "Lisa Anne Hendricks",
+   "Aida Nematzadeh"
+  ],
+  "tags": [],
+  "description": "Multimodal Image-Language transformers have achieved impressive results on a variety of tasks that rely on fine-tuning (e.g., visual question answering and image retrieval). We are interested in shed…",
+  "url": "https://deepmind.google/blog/probing-image-language-transformers-for-verb-understanding/"
+ },
+ {
+  "slug": "producing-flexible-behaviours-in-simulated-environments",
+  "title": "Producing flexible behaviours in simulated environments",
+  "date": "2017-07-10",
+  "authors": [
+   "Nicolas Heess",
+   "Josh Merel",
+   "Ziyu Wang"
+  ],
+  "tags": [],
+  "description": "The agility and flexibility of a monkey swinging through the trees or a football player dodging opponents and scoring a goal can be breathtaking. Mastering this kind of sophisticated motor control is…",
+  "url": "https://deepmind.google/blog/producing-flexible-behaviours-in-simulated-environments/"
+ },
+ {
+  "slug": "protecting-people-from-harmful-manipulation",
+  "title": "Protecting people from harmful manipulation",
+  "date": "2026-03-26",
+  "authors": [
+   "Helen King"
+  ],
+  "tags": [],
+  "description": "Google DeepMind releases new findings and an evaluation framework to measure AI's potential for harmful manipulation in areas like finance and health, with the goal of enhancing AI safety.",
+  "url": "https://deepmind.google/blog/protecting-people-from-harmful-manipulation/"
+ },
+ {
+  "slug": "pushing-the-frontiers-of-audio-generation",
+  "title": "Pushing the frontiers of audio generation",
+  "date": "2024-10-30",
+  "authors": [
+   "Zalán Borsos",
+   "Matt Sharifi",
+   "Marco Tagliasacchi"
+  ],
+  "tags": [],
+  "description": "Our pioneering speech generation technologies are helping people around the world interact with more natural, conversational and intuitive digital assistants and AI tools.",
+  "url": "https://deepmind.google/blog/pushing-the-frontiers-of-audio-generation/"
+ },
+ {
+  "slug": "putting-patients-at-the-heart-of-deepmind-health",
+  "title": "Putting patients at the heart of DeepMind Health",
+  "date": "2016-09-21",
+  "authors": [
+   "Mustafa Suleyman",
+   "Dominic King"
+  ],
+  "tags": [],
+  "description": "From the outset, we’ve wanted DeepMind Health to be a truly collaborative effort. Too much hospital IT has been developed from a top-down perspective, often repurposing technology built for completel…",
+  "url": "https://deepmind.google/blog/putting-patients-at-the-heart-of-deepmind-health/"
+ },
+ {
+  "slug": "putting-sign-language-ai-into-users-hands",
+  "title": "Putting sign language AI into users’ hands",
+  "date": "2026-08-12",
+  "authors": [
+   "Google DeepMind Sign Language Team"
+  ],
+  "tags": [],
+  "description": "Discover our new sign-language-to-text (SL2T) translation model, bringing ASL dictation to Gboard and Live Transcribe on Pixel 11.",
+  "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/"
+ },
+ {
+  "slug": "putting-the-power-of-alphafold-into-the-worlds-hands",
+  "title": "Putting the power of AlphaFold into the world’s hands",
+  "date": "2022-07-22",
+  "authors": [
+   "Demis Hassabis"
+  ],
+  "tags": [],
+  "description": "When we announced AlphaFold 2 last December, it was hailed as a solution to the 50-year old protein folding problem. Last week, we published the scientific paper and source code explaining how we cre…",
+  "url": "https://deepmind.google/blog/putting-the-power-of-alphafold-into-the-worlds-hands/"
+ },
+ {
+  "slug": "real-world-challenges-for-agi",
+  "title": "Real-world challenges for AGI",
+  "date": "2021-11-02",
+  "authors": [
+   "Koray Kavukcuoglu"
+  ],
+  "tags": [],
+  "description": "When people picture a world with artificial general intelligence (AGI), robots are more likely to come to mind than enabling solutions to society’s most intractable problems. But I believe the latter…",
+  "url": "https://deepmind.google/blog/real-world-challenges-for-agi/"
+ },
+ {
+  "slug": "red-teaming-language-models-with-language-models",
+  "title": "Red Teaming Language Models with Language Models",
+  "date": "2022-02-07",
+  "authors": [
+   "Ethan Perez",
+   "Saffron Huang",
+   "Francis Song",
+   "Trevor Cai",
+   "Roman Ring",
+   "John Aslanides",
+   "Amelia Glaese",
+   "Nat McAleese",
+   "Geoffrey Irving"
+  ],
+  "tags": [],
+  "description": "In our recent paper, we show that it is possible to automatically find inputs that elicit harmful text from language models by generating inputs using language models themselves. Our approach provide…",
+  "url": "https://deepmind.google/blog/red-teaming-language-models-with-language-models/"
+ },
+ {
+  "slug": "reinforcement-learning-with-unsupervised-auxiliary-tasks",
+  "title": "Reinforcement learning with unsupervised auxiliary tasks",
+  "date": "2016-11-17",
+  "authors": [
+   "Max Jaderberg",
+   "Vlad Mnih",
+   "Wojciech Marian Czarnecki"
+  ],
+  "tags": [],
+  "description": "Our primary mission at DeepMind is to push the boundaries of AI, developing programs that can learn to solve any complex problem without needing to be taught how. Our reinforcement learning agents ha…",
+  "url": "https://deepmind.google/blog/reinforcement-learning-with-unsupervised-auxiliary-tasks/"
+ },
+ {
+  "slug": "replay-in-biological-and-artificial-neural-networks",
+  "title": "Replay in biological and artificial neural networks",
+  "date": "2019-09-06",
+  "authors": [
+   "Zeb Kurth-Nelson",
+   "Will Dabney"
+  ],
+  "tags": [],
+  "description": "Our waking and sleeping lives are punctuated by fragments of recalled memories: a sudden connection in the shower between seemingly disparate thoughts, or an ill-fated choice decades ago that haunts …",
+  "url": "https://deepmind.google/blog/replay-in-biological-and-artificial-neural-networks/"
+ },
+ {
+  "slug": "researching-patient-deterioration-with-the-us-department-of-veterans-affairs",
+  "title": "Researching patient deterioration with the US Department of Veterans Affairs",
+  "date": "2018-02-22",
+  "authors": [
+   "Dominic King"
+  ],
+  "tags": [],
+  "description": "We’re excited to announce a medical research partnership with the US Department of Veterans Affairs (VA), one of the world’s leading healthcare organisations responsible for providing high-quality ca…",
+  "url": "https://deepmind.google/blog/researching-patient-deterioration-with-the-us-department-of-veterans-affairs/"
+ },
+ {
+  "slug": "restoring-ancient-text-using-deep-learning-a-case-study-on-greek-epigraphy",
+  "title": "Restoring ancient text using deep learning: a case study on Greek epigraphy",
+  "date": "2019-10-15",
+  "authors": [
+   "Yannis Assael",
+   "Thea Sommerschield",
+   "Jonathan Prag"
+  ],
+  "tags": [],
+  "description": "This work presents PYTHIA, the first ancient text restoration model that recovers missing characters from a damaged text input using deep neural networks. Its architecture is carefully designed to ha…",
+  "url": "https://deepmind.google/blog/restoring-ancient-text-using-deep-learning-a-case-study-on-greek-epigraphy/"
+ },
+ {
+  "slug": "revealing-a-key-protein-behind-heart-disease",
+  "title": "Revealing a key protein behind heart disease",
+  "date": "2025-11-25",
+  "authors": [],
+  "tags": [],
+  "description": "Discover how scientists used AlphaFold to map the protein behind heart disease and how this breakthrough could transform treatment.",
+  "url": "https://deepmind.google/blog/revealing-a-key-protein-behind-heart-disease/"
+ },
+ {
+  "slug": "rl-unplugged-benchmarks-for-offline-reinforcement-learning",
+  "title": "RL Unplugged: Benchmarks for Offline Reinforcement Learning",
+  "date": "2020-06-24",
+  "authors": [
+   "Caglar Gülçehre",
+   "Ziyu Wang",
+   "Alexander Novikov",
+   "Tom Le Paine",
+   "Sergio Gómez Colmenarejo",
+   "Konrad Żołna",
+   "Rishabh Agarwal",
+   "Josh Merel",
+   "Daniel Mankowitz",
+   "Cosmin Paduraru",
+   "Gabriel Dulac-Arnold",
+   "Jerry Li",
+   "Mohammad Norouzi",
+   "Matt Hoffman",
+   "Ofir Nachum",
+   "George Tucker",
+   "Nicolas Heess",
+   "Nando de Freitas"
+  ],
+  "tags": [],
+  "description": "We propose a benchmark called RL Unplugged to evaluate and compare offline RL methods. RL Unplugged includes data from a diverse range of domains including games (e.g., Atari benchmark) and simulated…",
+  "url": "https://deepmind.google/blog/rl-unplugged-benchmarks-for-offline-reinforcement-learning/"
+ },
+ {
+  "slug": "robocat-a-self-improving-robotic-agent",
+  "title": "RoboCat: A self-improving robotic agent",
+  "date": "2023-06-20",
+  "authors": [
+   "RoboCat team"
+  ],
+  "tags": [],
+  "description": "Robots are quickly becoming part of our everyday lives, but they’re often only programmed to perform specific tasks well. While harnessing recent advances in AI could lead to robots that could help i…",
+  "url": "https://deepmind.google/blog/robocat-a-self-improving-robotic-agent/"
+ },
+ {
+  "slug": "royal-free-london-publishes-findings-of-legal-audit-in-use-of-streams",
+  "title": "Royal Free London publishes findings of legal audit in use of Streams",
+  "date": "2018-06-13",
+  "authors": [
+   "Dominic King"
+  ],
+  "tags": [],
+  "description": "Last July, the Information Commissioner concluded an investigation into the use of the Streams app at the Royal Free London NHS Foundation Trust. As part of the investigation the Royal Free signed up…",
+  "url": "https://deepmind.google/blog/royal-free-london-publishes-findings-of-legal-audit-in-use-of-streams/"
+ },
+ {
+  "slug": "rt-2-new-model-translates-vision-and-language-into-action",
+  "title": "RT-2: New model translates vision and language into action",
+  "date": "2023-07-28",
+  "authors": [
+   "Yevgen Chebotar",
+   "Tianhe Yu"
+  ],
+  "tags": [],
+  "description": "Introducing Robotic Transformer 2 (RT-2), a novel vision-language-action (VLA) model that learns from both web and robotics data, and translates this knowledge into generalised instructions for robot…",
+  "url": "https://deepmind.google/blog/rt-2-new-model-translates-vision-and-language-into-action/"
+ },
+ {
+  "slug": "safety-first-ai-for-autonomous-data-centre-cooling-and-industrial-control",
+  "title": "Safety-first AI for autonomous data centre cooling and industrial control",
+  "date": "2018-08-17",
+  "authors": [
+   "Chris Gamble",
+   "Jim Gao"
+  ],
+  "tags": [],
+  "description": "Many of society’s most pressing problems have grown increasingly complex, so the search for solutions can feel overwhelming. At DeepMind and Google, we believe that if we can use AI as a tool to disc…",
+  "url": "https://deepmind.google/blog/safety-first-ai-for-autonomous-data-centre-cooling-and-industrial-control/"
+ },
+ {
+  "slug": "scalable-agent-architecture-for-distributed-training",
+  "title": "Scalable agent architecture for distributed training",
+  "date": "2018-02-05",
+  "authors": [
+   "Hubert Soyer",
+   "Drew Purves",
+   "Lasse Espeholt"
+  ],
+  "tags": [],
+  "description": "Deep Reinforcement Learning (DeepRL) has achieved remarkable success in a range of tasks, from continuous control problems in robotics to playing games like Go and Atari. The improvements seen in the…",
+  "url": "https://deepmind.google/blog/scalable-agent-architecture-for-distributed-training/"
+ },
+ {
+  "slug": "scaling-streams-with-google",
+  "title": "Scaling Streams with Google",
+  "date": "2018-11-13",
+  "authors": [
+   "Demis Hassabis",
+   "Mustafa Suleyman",
+   "Dominic King"
+  ],
+  "tags": [],
+  "description": "We’re excited to announce that the team behind Streams - our mobile app that supports doctors and nurses to deliver faster, better care to patients - will be joining Google.",
+  "url": "https://deepmind.google/blog/scaling-streams-with-google/"
+ },
+ {
+  "slug": "scaling-up-learning-across-many-different-robot-types",
+  "title": "Scaling up learning across many different robot types",
+  "date": "2023-10-03",
+  "authors": [
+   "Quan Vuong",
+   "Pannag Sanketi"
+  ],
+  "tags": [],
+  "description": "Robots are great specialists, but poor generalists. Typically, you have to train a model for each task, robot, and environment. Changing a single variable often requires starting from scratch. But wh…",
+  "url": "https://deepmind.google/blog/scaling-up-learning-across-many-different-robot-types/"
+ },
+ {
+  "slug": "securing-the-future-of-ai-agents",
+  "title": "Securing the future of AI agents",
+  "date": "2026-06-18",
+  "authors": [
+   "Rohin Shah",
+   "Four Flynn"
+  ],
+  "tags": [],
+  "description": "Discover our AI Control Roadmap: a defense-in-depth system to securely manage advanced, potentially misaligned AI agents.",
+  "url": "https://deepmind.google/blog/securing-the-future-of-ai-agents/"
+ },
+ {
+  "slug": "shaping-the-future-of-advanced-robotics",
+  "title": "Shaping the future of advanced robotics",
+  "date": "2024-01-04",
+  "authors": [
+   "Robotics team"
+  ],
+  "tags": [],
+  "description": "AutoRT, SARA-RT, and RT-Trajectory build on our historic Robotics Transformers work to help robots make decisions faster, and better understand and navigate their environments.",
+  "url": "https://deepmind.google/blog/shaping-the-future-of-advanced-robotics/"
+ },
+ {
+  "slug": "sharing-our-insights-from-designing-with-clinicians",
+  "title": "Sharing our insights from designing with clinicians",
+  "date": "2017-11-10",
+  "authors": [],
+  "tags": [],
+  "description": "In our design studio, we have Indi Young’s mantra on the wall as a reminder to “fall in love with the problem, not the solution”. Nowhere is this more true than in health, where there are so many rea…",
+  "url": "https://deepmind.google/blog/sharing-our-insights-from-designing-with-clinicians/"
+ },
+ {
+  "slug": "sima-generalist-ai-agent-for-3d-virtual-environments",
+  "title": "A generalist AI agent for 3D virtual environments",
+  "date": "2024-03-13",
+  "authors": [
+   "SIMA team"
+  ],
+  "tags": [],
+  "description": "Introducing SIMA, a Scalable Instructable Multiworld Agent",
+  "url": "https://deepmind.google/blog/sima-generalist-ai-agent-for-3d-virtual-environments/"
+ },
+ {
+  "slug": "simple-sensor-intentions-for-exploration",
+  "title": "Simple Sensor Intentions for Exploration",
+  "date": "2020-05-12",
+  "authors": [
+   "Tim Hertweck",
+   "Martin Riedmiller",
+   "Michael Bloesch",
+   "Jost Tobias Springenberg",
+   "Noah Siegel",
+   "Markus Wulfmeier",
+   "Roland Hafner",
+   "Nicolas Heess"
+  ],
+  "tags": [],
+  "description": "In this paper we focus on a setting in which goal tasks are defined via simple sparse rewards, and exploration is facilitated via agent-internal auxiliary tasks. We introduce the idea of simple senso…",
+  "url": "https://deepmind.google/blog/simple-sensor-intentions-for-exploration/"
+ },
+ {
+  "slug": "simulating-matter-on-the-quantum-scale-with-ai",
+  "title": "Simulating matter on the quantum scale with AI",
+  "date": "2021-12-09",
+  "authors": [
+   "James Kirkpatrick",
+   "Aron Cohen",
+   "Alex Gaunt"
+  ],
+  "tags": [],
+  "description": "Solving some of the major challenges of the 21st Century, such as producing clean electricity or developing high temperature superconductors, will require us to design new materials with specific pro…",
+  "url": "https://deepmind.google/blog/simulating-matter-on-the-quantum-scale-with-ai/"
+ },
+ {
+  "slug": "solving-the-mystery-of-how-an-ancient-bird-went-extinct",
+  "title": "Solving the mystery of how an ancient bird went extinct",
+  "date": "2022-09-22",
+  "authors": [],
+  "tags": [],
+  "description": "Could burn marks on ancient eggshells explain the disappearance of the giant flightless bird Genyornis newtoni? This ostrich-sized “thunderbird”, dubbed “the demon-duck of doom” for its huge head, di…",
+  "url": "https://deepmind.google/blog/solving-the-mystery-of-how-an-ancient-bird-went-extinct/"
+ },
+ {
+  "slug": "specification-gaming-the-flip-side-of-ai-ingenuity",
+  "title": "Specification gaming: the flip side of AI ingenuity",
+  "date": "2020-04-21",
+  "authors": [
+   "Victoria Krakovna",
+   "Jonathan Uesato",
+   "Vladimir Mikulik",
+   "Matthew Rahtz",
+   "Tom Everitt",
+   "Ramana Kumar",
+   "Zachary Kenton",
+   "Jan Leike",
+   "Shane Legg"
+  ],
+  "tags": [],
+  "description": "Specification gaming is a behaviour that satisfies the literal specification of an objective without achieving the intended outcome. We have all had experiences with specification gaming, even if not…",
+  "url": "https://deepmind.google/blog/specification-gaming-the-flip-side-of-ai-ingenuity/"
+ },
+ {
+  "slug": "specifying-ai-safety-problems-in-simple-environments",
+  "title": "Specifying AI safety problems in simple environments",
+  "date": "2017-11-28",
+  "authors": [
+   "Jan Leike",
+   "Victoria Krakovna",
+   "Laurent Orseau"
+  ],
+  "tags": [],
+  "description": "As AI systems become more general and more useful in the real world, ensuring they behave safely will become even more important. To date, the majority of technical AI safety research has focused on …",
+  "url": "https://deepmind.google/blog/specifying-ai-safety-problems-in-simple-environments/"
+ },
+ {
+  "slug": "spurious-normativity-enhances-learning-of-compliance-and-enforcement-behavior-in-artificial-agents",
+  "title": "Spurious normativity enhances learning of compliance and enforcement behavior in artificial agents",
+  "date": "2022-01-18",
+  "authors": [
+   "Raphael Koster",
+   "Dylan Hadfield-Menell",
+   "Richard Everett",
+   "Laura Weidinger",
+   "Gillian Hadfield",
+   "Joel Leibo"
+  ],
+  "tags": [],
+  "description": "In our recent paper we explore how multi-agent deep reinforcement learning can serve as a model of complex social interactions, like the formation of social norms. This new class of models could prov…",
+  "url": "https://deepmind.google/blog/spurious-normativity-enhances-learning-of-compliance-and-enforcement-behavior-in-artificial-agents/"
+ },
+ {
+  "slug": "stacking-our-way-to-more-general-robots",
+  "title": "Stacking our way to more general robots",
+  "date": "2021-10-11",
+  "authors": [
+   "Robotics team"
+  ],
+  "tags": [],
+  "description": "Picking up a stick and balancing it atop a log or stacking a pebble on a stone may seem like simple — and quite similar — actions for a person. However, most robots struggle with handling more than o…",
+  "url": "https://deepmind.google/blog/stacking-our-way-to-more-general-robots/"
+ },
+ {
+  "slug": "stop-look-and-listen-to-the-people-you-want-to-help",
+  "title": "Stop, look and listen to the people you want to help",
+  "date": "2018-03-06",
+  "authors": [
+   "Harry Evans",
+   "Yaroslav Ganin"
+  ],
+  "tags": [],
+  "description": "‘I like to take things slow. Take it slowly and get it right first time,’ one participant said, but was quickly countered by someone else around the table: ‘But I’m impatient, I want to see the benef…",
+  "url": "https://deepmind.google/blog/stop-look-and-listen-to-the-people-you-want-to-help/"
+ },
+ {
+  "slug": "stopping-malaria-in-its-tracks",
+  "title": "Stopping malaria in its tracks",
+  "date": "2022-10-13",
+  "authors": [],
+  "tags": [],
+  "description": "When biochemist Matthew Higgins established his research group in 2006, he had malaria firmly in his sights. The mosquito-borne disease is second only to tuberculosis in terms of its devastating glob…",
+  "url": "https://deepmind.google/blog/stopping-malaria-in-its-tracks/"
+ },
+ {
+  "slug": "strengthening-our-commitment-to-canadian-research",
+  "title": "Strengthening our commitment to Canadian research",
+  "date": "2017-10-06",
+  "authors": [
+   "Demis Hassabis"
+  ],
+  "tags": [],
+  "description": "Three months ago we announced the opening of DeepMind’s first ever international AI research laboratory in Edmonton, Canada. Today, we are thrilled to announce that we are strengthening our commitmen…",
+  "url": "https://deepmind.google/blog/strengthening-our-commitment-to-canadian-research/"
+ },
+ {
+  "slug": "strengthening-our-frontier-safety-framework",
+  "title": "Strengthening our Frontier Safety Framework",
+  "date": "2025-09-22",
+  "authors": [
+   "Four Flynn",
+   "Helen King",
+   "Anca Dragan"
+  ],
+  "tags": [],
+  "description": "Today, we’re publishing the third iteration of our Frontier Safety Framework (FSF) — our most comprehensive approach yet to identifying and mitigating severe risks from advanced AI models. This updat…",
+  "url": "https://deepmind.google/blog/strengthening-our-frontier-safety-framework/"
+ },
+ {
+  "slug": "strengthening-our-partnership-with-the-uk-government-to-support-prosperity-and-security-in-the-ai-era",
+  "title": "Strengthening our partnership with the UK government to support prosperity and security in the AI era",
+  "date": "2025-12-10",
+  "authors": [
+   "Demis Hassabis",
+   "Lila Ibrahim",
+   "Pushmeet Kohli",
+   "Owen Larter"
+  ],
+  "tags": [],
+  "description": "We're collaborating with the UK government to accelerate progress in science, education, national security and more.",
+  "url": "https://deepmind.google/blog/strengthening-our-partnership-with-the-uk-government-to-support-prosperity-and-security-in-the-ai-era/"
+ },
+ {
+  "slug": "strengthening-singapores-ai-future-a-new-national-partnership",
+  "title": "Strengthening Singapore’s AI Future: A New National Partnership",
+  "date": "2026-05-20",
+  "authors": [
+   "Google DeepMind"
+  ],
+  "tags": [],
+  "description": "Google DeepMind and Singapore partner to apply frontier AI to address challenges across  health, education, sustainability and more through the National Partnerships for AI initiative.",
+  "url": "https://deepmind.google/blog/strengthening-singapores-ai-future-a-new-national-partnership/"
+ },
+ {
+  "slug": "tackling-multiple-tasks-with-a-single-visual-language-model",
+  "title": "Tackling multiple tasks with a single visual language model",
+  "date": "2022-04-28",
+  "authors": [
+   "Jean-Baptiste Alayrac",
+   "Jeff Donahue",
+   "Pauline Luc",
+   "Antoine Miech"
+  ],
+  "tags": [],
+  "description": "We introduce Flamingo, a single visual language model (VLM) that sets a new state of the art in few-shot learning on a wide range of open-ended multimodal tasks.",
+  "url": "https://deepmind.google/blog/tackling-multiple-tasks-with-a-single-visual-language-model/"
+ },
+ {
+  "slug": "tacticai-ai-assistant-for-football-tactics",
+  "title": "TacticAI: an AI assistant for football tactics",
+  "date": "2024-03-19",
+  "authors": [
+   "Zhe Wang",
+   "Petar Veličković"
+  ],
+  "tags": [],
+  "description": "As part of our multi-year collaboration with Liverpool FC, we develop a full AI system that can advise coaches on corner kicks",
+  "url": "https://deepmind.google/blog/tacticai-ai-assistant-for-football-tactics/"
+ },
+ {
+  "slug": "taking-a-responsible-path-to-agi",
+  "title": "Taking a responsible path to AGI",
+  "date": "2025-04-02",
+  "authors": [
+   "Anca Dragan",
+   "Rohin Shah",
+   "Four Flynn",
+   "Shane Legg"
+  ],
+  "tags": [],
+  "description": "We’re exploring the frontiers of AGI, prioritizing technical safety, proactive risk assessment, and collaboration with the AI community.",
+  "url": "https://deepmind.google/blog/taking-a-responsible-path-to-agi/"
+ },
+ {
+  "slug": "targeting-early-onset-parkinsons-with-ai",
+  "title": "Targeting early-onset Parkinson’s with AI",
+  "date": "2022-09-21",
+  "authors": [],
+  "tags": [],
+  "description": "It was a source of hard-earned satisfaction after what had often felt like an uphill battle. David Komander and his colleagues had finally published the long-sought structure of PINK1. Mutations in t…",
+  "url": "https://deepmind.google/blog/targeting-early-onset-parkinsons-with-ai/"
+ },
+ {
+  "slug": "teaching-ai-to-see-the-world-more-like-we-do",
+  "title": "Teaching AI to see the world more like we do",
+  "date": "2025-11-11",
+  "authors": [
+   "Andrew Lampinen",
+   "Klaus Greff"
+  ],
+  "tags": [],
+  "description": "Aligning AI vision models with human knowledge, improves their robustness and ability to generalize.",
+  "url": "https://deepmind.google/blog/teaching-ai-to-see-the-world-more-like-we-do/"
+ },
+ {
+  "slug": "tf-replicator-distributed-machine-learning-for-researchers",
+  "title": "TF-Replicator: Distributed Machine Learning for Researchers",
+  "date": "2019-03-07",
+  "authors": [
+   "Dominik Grewe",
+   "Peter Buchlovsky",
+   "Chris Jones",
+   "David Budden",
+   "Tom Hennigan",
+   "Aedan Pope"
+  ],
+  "tags": [],
+  "description": "At DeepMind, the Research Platform Team builds infrastructure to empower and accelerate our AI research. Today, we are excited to share how we developed TF-Replicator, a software library that helps r…",
+  "url": "https://deepmind.google/blog/tf-replicator-distributed-machine-learning-for-researchers/"
+ },
+ {
+  "slug": "the-ethics-of-advanced-ai-assistants",
+  "title": "The ethics of advanced AI assistants",
+  "date": "2024-04-19",
+  "authors": [
+   "Iason Gabriel",
+   "Arianna Manzini"
+  ],
+  "tags": [],
+  "description": "Exploring the promise and risks of a future with more capable AI",
+  "url": "https://deepmind.google/blog/the-ethics-of-advanced-ai-assistants/"
+ },
+ {
+  "slug": "the-hippocampus-as-a-predictive-map",
+  "title": "The hippocampus as a predictive map",
+  "date": "2017-10-02",
+  "authors": [
+   "Kimberly Stachenfeld",
+   "Matt Botvinick",
+   "Samuel Gershman"
+  ],
+  "tags": [],
+  "description": "Think about how you choose a route to work, where to move house, or even which move to make in a game like Go. All of these scenarios require you to estimate the likely future reward of your decision…",
+  "url": "https://deepmind.google/blog/the-hippocampus-as-a-predictive-map/"
+ },
+ {
+  "slug": "the-information-commissioner-the-royal-free-and-what-weve-learned",
+  "title": "The Information Commissioner, the Royal Free, and what we’ve learned",
+  "date": "2017-07-03",
+  "authors": [
+   "Mustafa Suleyman",
+   "Dominic King"
+  ],
+  "tags": [],
+  "description": "Today, dozens of people in UK hospitals will die preventably from conditions like sepsis and acute kidney injury (AKI) when their warning signs aren't picked up and acted on in time. To help address …",
+  "url": "https://deepmind.google/blog/the-information-commissioner-the-royal-free-and-what-weve-learned/"
+ },
+ {
+  "slug": "the-podcast-episode-5-out-of-the-lab",
+  "title": "The Podcast: Episode 5: Out of the lab",
+  "date": "2019-08-27",
+  "authors": [],
+  "tags": [],
+  "description": "The ambition of AI research is to create systems that can help to solve problems in the real world.",
+  "url": "https://deepmind.google/blog/the-podcast-episode-5-out-of-the-lab/"
+ },
+ {
+  "slug": "towards-understanding-glasses-with-graph-neural-networks",
+  "title": "Towards understanding glasses with graph neural networks",
+  "date": "2020-04-06",
+  "authors": [
+   "Victor Bapst",
+   "Thomas Keck",
+   "Agnieszka Grabska-Barwinska",
+   "Craig Donner"
+  ],
+  "tags": [],
+  "description": "Under a microscope, a pane of window glass doesn’t look like a collection of orderly molecules, as a crystal would, but rather a jumble with no discernable structure. Glass is made by starting with a…",
+  "url": "https://deepmind.google/blog/towards-understanding-glasses-with-graph-neural-networks/"
+ },
+ {
+  "slug": "tracing-the-evolution-of-proteins-back-to-the-origin-of-life",
+  "title": "Tracing the evolution of proteins back to the origin of life",
+  "date": "2022-07-28",
+  "authors": [],
+  "tags": [],
+  "description": "Looking hundreds of millions of years into a protein’s past with AlphaFold to learn about the beginnings of life itself. Pedro Beltrao is a geneticist at ETH Zurich in Switzerland. He shares his Alph…",
+  "url": "https://deepmind.google/blog/tracing-the-evolution-of-proteins-back-to-the-origin-of-life/"
+ },
+ {
+  "slug": "traffic-prediction-with-advanced-graph-neural-networks",
+  "title": "Traffic prediction with advanced Graph Neural Networks",
+  "date": "2020-09-03",
+  "authors": [
+   "Oliver Lange",
+   "Luis Perez"
+  ],
+  "tags": [],
+  "description": "By partnering with Google, DeepMind is able to bring the benefits of AI to billions of people all over the world. From reuniting a speech-impaired user with his original voice, to helping users disco…",
+  "url": "https://deepmind.google/blog/traffic-prediction-with-advanced-graph-neural-networks/"
+ },
+ {
+  "slug": "transforming-the-future-of-music-creation",
+  "title": "Transforming the future of music creation",
+  "date": "2023-11-16",
+  "authors": [],
+  "tags": [],
+  "description": "Announcing our most advanced music generation model and two new AI experiments, designed to open a new playground for creativity",
+  "url": "https://deepmind.google/blog/transforming-the-future-of-music-creation/"
+ },
+ {
+  "slug": "trust-confidence-and-verifiable-data-audit",
+  "title": "Trust, confidence and Verifiable Data Audit",
+  "date": "2017-03-09",
+  "authors": [
+   "Mustafa Suleyman",
+   "Ben Laurie"
+  ],
+  "tags": [],
+  "description": "Data can be a powerful force for social progress, helping our most important institutions to improve how they serve their communities. As cities, hospitals, and transport systems find new ways to und…",
+  "url": "https://deepmind.google/blog/trust-confidence-and-verifiable-data-audit/"
+ },
+ {
+  "slug": "uncovering-repurposed-medicines-to-fight-liver-fibrosis",
+  "title": "Uncovering repurposed medicines to fight liver fibrosis",
+  "date": "2026-05-19",
+  "authors": [],
+  "tags": [],
+  "description": "Stanford geneticist Gary Peltz uses Co-Scientist to identify drug-repurposing candidates that could lead to new treatments for chronic liver disease and fibrosis",
+  "url": "https://deepmind.google/blog/uncovering-repurposed-medicines-to-fight-liver-fibrosis/"
+ },
+ {
+  "slug": "understanding-agent-cooperation",
+  "title": "Understanding Agent Cooperation",
+  "date": "2017-02-02",
+  "authors": [
+   "Joel Leibo",
+   "Marc Lanctot",
+   "Thore Graepel",
+   "Vinicius Zambaldi",
+   "Janusz Marecki"
+  ],
+  "tags": [],
+  "description": "We employ deep multi-agent reinforcement learning to model the emergence of cooperation. The new notion of sequential social dilemmas allows us to model how rational agents interact, and arrive at mo…",
+  "url": "https://deepmind.google/blog/understanding-agent-cooperation/"
+ },
+ {
+  "slug": "understanding-deep-learning-through-neuron-deletion",
+  "title": "Understanding deep learning through neuron deletion",
+  "date": "2018-03-21",
+  "authors": [
+   "Ari Morcos",
+   "David Barrett"
+  ],
+  "tags": [],
+  "description": "Deep neural networks are composed of many individual neurons, which combine in complex and counterintuitive ways to solve a wide range of challenging tasks. This complexity grants neural networks the…",
+  "url": "https://deepmind.google/blog/understanding-deep-learning-through-neuron-deletion/"
+ },
+ {
+  "slug": "understanding-the-faulty-proteins-linked-to-cancer-and-autism",
+  "title": "Understanding the faulty proteins linked to cancer and autism",
+  "date": "2022-09-26",
+  "authors": [],
+  "tags": [],
+  "description": "Being a structural biologist in the age of AlphaFold is like the early days of gold mining. Before this technology, everyone was doing painstaking work to find individual gold nuggets, cleaning them …",
+  "url": "https://deepmind.google/blog/understanding-the-faulty-proteins-linked-to-cancer-and-autism/"
+ },
+ {
+  "slug": "unlocking-high-accuracy-differentially-private-image-classification-through-scale",
+  "title": "Unlocking High-Accuracy Differentially Private Image Classification through Scale",
+  "date": "2022-06-17",
+  "authors": [
+   "Soham De",
+   "Leonard Berrada",
+   "Jamie Hayes",
+   "Samuel L. Smith",
+   "Borja Balle"
+  ],
+  "tags": [],
+  "description": "According to empirical evidence from prior works, utility degradation in DP-SGD becomes more severe on larger neural network models – including the ones regularly used to achieve the best performance…",
+  "url": "https://deepmind.google/blog/unlocking-high-accuracy-differentially-private-image-classification-through-scale/"
+ },
+ {
+  "slug": "unlocking-uk-house-building-with-ai-accelerated-planning",
+  "title": "Unlocking UK house-building with AI-accelerated planning",
+  "date": "2026-06-16",
+  "authors": [
+   "Owen Larter",
+   "David Thacker"
+  ],
+  "tags": [],
+  "description": "Google DeepMind is working alongside the UK government to co-develop an AI-powered prototype to help cut application decision times by 50%.",
+  "url": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/"
+ },
+ {
+  "slug": "unsupervised-deep-learning-identifies-semantic-disentanglement-in-single-inferotemporal-face-patch-neurons",
+  "title": "Unsupervised deep learning identifies semantic disentanglement in single inferotemporal face patch neurons",
+  "date": "2021-11-09",
+  "authors": [
+   "Irina Higgins",
+   "Le Chang",
+   "Victoria Langston",
+   "Demis Hassabis",
+   "Christopher Summerfield",
+   "Doris Tsao",
+   "Matt Botvinick"
+  ],
+  "tags": [],
+  "description": "Our brain has an amazing ability to process visual information. We can take one glance at a complex scene, and within milliseconds be able to parse it into objects and their attributes, like colour o…",
+  "url": "https://deepmind.google/blog/unsupervised-deep-learning-identifies-semantic-disentanglement-in-single-inferotemporal-face-patch-neurons/"
+ },
+ {
+  "slug": "unsupervised-learning-the-curious-pupil",
+  "title": "Unsupervised learning: The curious pupil",
+  "date": "2019-06-25",
+  "authors": [
+   "Alexander Graves",
+   "Kelly Clancy"
+  ],
+  "tags": [],
+  "description": "Over the last decade, machine learning has made unprecedented progress in areas as diverse as image recognition, self-driving cars and playing complex games like Go. These successes have been largely…",
+  "url": "https://deepmind.google/blog/unsupervised-learning-the-curious-pupil/"
+ },
+ {
+  "slug": "updating-the-frontier-safety-framework",
+  "title": "Updating the Frontier Safety Framework",
+  "date": "2025-02-04",
+  "authors": [],
+  "tags": [],
+  "description": "Our next iteration of the FSF sets out stronger security protocols on the path to AGI",
+  "url": "https://deepmind.google/blog/updating-the-frontier-safety-framework/"
+ },
+ {
+  "slug": "using-ai-to-fight-climate-change",
+  "title": "Using AI to fight climate change",
+  "date": "2023-07-21",
+  "authors": [],
+  "tags": [],
+  "description": "AI is a powerful technology that will transform our future, so how can we best apply it to help combat climate change and find sustainable solutions? The effects of climate change on Earth’s ecosyste…",
+  "url": "https://deepmind.google/blog/using-ai-to-fight-climate-change/"
+ },
+ {
+  "slug": "using-ai-to-give-doctors-a-48-hour-head-start-on-life-threatening-illness",
+  "title": "Using AI to give doctors a 48-hour head start on life-threatening illness",
+  "date": "2019-07-31",
+  "authors": [
+   "Mustafa Suleyman",
+   "Dominic King"
+  ],
+  "tags": [],
+  "description": "Artificial intelligence can now predict one of the leading causes of avoidable patient harm up to two days before it happens, as demonstrated by our latest research published in Nature. Working along…",
+  "url": "https://deepmind.google/blog/using-ai-to-give-doctors-a-48-hour-head-start-on-life-threatening-illness/"
+ },
+ {
+  "slug": "using-ai-to-perceive-the-universe-in-greater-depth",
+  "title": "Using AI to perceive the universe in greater depth",
+  "date": "2025-09-04",
+  "authors": [
+   "Brendan Tracey",
+   "Jonas Buchli"
+  ],
+  "tags": [],
+  "description": "Using AI to perceive the universe in greater depth",
+  "url": "https://deepmind.google/blog/using-ai-to-perceive-the-universe-in-greater-depth/"
+ },
+ {
+  "slug": "using-ai-to-plan-head-and-neck-cancer-treatments",
+  "title": "Using AI to plan head and neck cancer treatments",
+  "date": "2018-09-13",
+  "authors": [
+   "Mustafa Suleyman"
+  ],
+  "tags": [],
+  "description": "Early results from our partnership with the Radiotherapy Department at University College London Hospitals NHS Foundation Trust suggest that we are well on our way to developing an artificial intelli…",
+  "url": "https://deepmind.google/blog/using-ai-to-plan-head-and-neck-cancer-treatments/"
+ },
+ {
+  "slug": "using-ai-to-predict-retinal-disease-progression",
+  "title": "Using AI to predict retinal disease progression",
+  "date": "2020-05-18",
+  "authors": [
+   "Jason Yim",
+   "Reena Chopra",
+   "Jeffrey De Fauw",
+   "Joseph Ledsam"
+  ],
+  "tags": [],
+  "description": "Vision loss among the elderly is a major healthcare issue: about one in three people have some vision-reducing disease by the age of 65. Age-related macular degeneration (AMD) is the most common caus…",
+  "url": "https://deepmind.google/blog/using-ai-to-predict-retinal-disease-progression/"
+ },
+ {
+  "slug": "using-jax-to-accelerate-our-research",
+  "title": "Using JAX to accelerate our research",
+  "date": "2020-12-04",
+  "authors": [
+   "David Budden",
+   "Matteo Hessel"
+  ],
+  "tags": [],
+  "description": "DeepMind engineers accelerate our research by building tools, scaling up algorithms, and creating challenging virtual and physical worlds for training and testing artificial intelligence (AI) systems…",
+  "url": "https://deepmind.google/blog/using-jax-to-accelerate-our-research/"
+ },
+ {
+  "slug": "using-machine-learning-to-accelerate-ecological-research",
+  "title": "Using machine learning to accelerate ecological research",
+  "date": "2019-08-08",
+  "authors": [
+   "Stig Petersen",
+   "Meredith Palmer",
+   "Ulrich Paquet",
+   "Pushmeet Kohli"
+  ],
+  "tags": [],
+  "description": "The Serengeti is one of the last remaining sites in the world that hosts an intact community of large mammals. These animals roam over vast swaths of land, some migrating thousands of miles across mu…",
+  "url": "https://deepmind.google/blog/using-machine-learning-to-accelerate-ecological-research/"
+ },
+ {
+  "slug": "using-unity-to-help-solve-intelligence",
+  "title": "Using Unity to Help Solve Intelligence",
+  "date": "2020-11-18",
+  "authors": [
+   "Simon Carter",
+   "Manuel Sanchez",
+   "Ricardo Barreira",
+   "Seb Noury",
+   "Keith Anderson",
+   "Jay Lemmon",
+   "Jonathan Coe",
+   "Piotr Trochim",
+   "Tom Handley",
+   "Adrian Bolton"
+  ],
+  "tags": [],
+  "description": "We present our use of Unity, a widely recognised and comprehensive game engine, to create more diverse, complex, virtual simulations. We describe the concepts and components developed to simplify the…",
+  "url": "https://deepmind.google/blog/using-unity-to-help-solve-intelligence/"
+ },
+ {
+  "slug": "using-wavenet-technology-to-reunite-speech-impaired-users-with-their-original-voices",
+  "title": "Using WaveNet technology to reunite speech-impaired users with their original voices",
+  "date": "2019-12-18",
+  "authors": [
+   "Yutian Chen",
+   "Norman Casagrande",
+   "Yu Zhang",
+   "Michael Brenner"
+  ],
+  "tags": [],
+  "description": "As a teenager, Tim Shaw put everything he had into football practice: his dream was to join the NFL. After playing for Penn State in college, his ambitions were finally realised: the Carolina Panther…",
+  "url": "https://deepmind.google/blog/using-wavenet-technology-to-reunite-speech-impaired-users-with-their-original-voices/"
+ },
+ {
+  "slug": "visual-grounding-in-video-for-unsupervised-word-translation",
+  "title": "Visual Grounding in Video for Unsupervised Word Translation",
+  "date": "2020-03-11",
+  "authors": [
+   "Gunnar Sigurðsson",
+   "Jean-Baptiste Alayrac",
+   "Aida Nematzadeh",
+   "Lucas Smaira",
+   "Mateusz Malinowski",
+   "João Carreira",
+   "Phil Blunsom",
+   "Andrew Zisserman"
+  ],
+  "tags": [],
+  "description": "Our goal is to use visual grounding to improve unsupervised word mapping between languages. The key idea is to establish a common visual representation between two languages by learning embeddings fr…",
+  "url": "https://deepmind.google/blog/visual-grounding-in-video-for-unsupervised-word-translation/"
+ },
+ {
+  "slug": "watermarking-ai-generated-text-and-video-with-synthid",
+  "title": "Watermarking AI-generated text and video with SynthID",
+  "date": "2024-05-14",
+  "authors": [],
+  "tags": [],
+  "description": "Announcing our novel watermarking method for AI-generated text and video, and how we’re bringing SynthID to key Google products",
+  "url": "https://deepmind.google/blog/watermarking-ai-generated-text-and-video-with-synthid/"
+ },
+ {
+  "slug": "wavenet-a-generative-model-for-raw-audio",
+  "title": "WaveNet: A generative model for raw audio",
+  "date": "2016-09-08",
+  "authors": [
+   "Aäron van den Oord",
+   "Sander Dieleman"
+  ],
+  "tags": [],
+  "description": "This post presents WaveNet, a deep generative model of raw audio waveforms. We show that WaveNets are able to generate speech which mimics any human voice and which sounds more natural than the best …",
+  "url": "https://deepmind.google/blog/wavenet-a-generative-model-for-raw-audio/"
+ },
+ {
+  "slug": "wavenet-launches-in-the-google-assistant",
+  "title": "WaveNet launches in the Google Assistant",
+  "date": "2017-10-04",
+  "authors": [
+   "Aäron van den Oord",
+   "Tom Walters"
+  ],
+  "tags": [],
+  "description": "Just over a year ago we presented WaveNet, a new deep neural network for generating raw audio waveforms that is capable of producing better and more realistic-sounding speech than existing techniques…",
+  "url": "https://deepmind.google/blog/wavenet-launches-in-the-google-assistant/"
+ },
+ {
+  "slug": "we-are-very-excited-to-announce-the-launch-of-deepmind-health",
+  "title": "We are very excited to announce the launch of DeepMind Health",
+  "date": "2016-02-24",
+  "authors": [],
+  "tags": [],
+  "description": "We founded DeepMind to solve intelligence and use it to make the world a better place by developing technologies that help address some of society's toughest challenges. It was clear to us that we sh…",
+  "url": "https://deepmind.google/blog/we-are-very-excited-to-announce-the-launch-of-deepmind-health/"
+ },
+ {
+  "slug": "weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones",
+  "title": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
+  "date": "2026-08-06",
+  "authors": [
+   "WeatherNext team"
+  ],
+  "tags": [],
+  "description": "WeatherNext enables accurate cyclone forecasts that can give an extra day of warning. Now we are open sourcing the model.",
+  "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/"
+ },
+ {
+  "slug": "welcome-to-the-deepmind-podcast",
+  "title": "Welcome to the DeepMind podcast",
+  "date": "2019-08-16",
+  "authors": [
+   "Jonathan Fildes",
+   "Sylvia Christie"
+  ],
+  "tags": [],
+  "description": "What’s AI? What can it be used for? Is it safe? And how do I get involved? These are the kinds of questions we often get asked at public events like science festivals, talks and workshops. We love an…",
+  "url": "https://deepmind.google/blog/welcome-to-the-deepmind-podcast/"
+ },
+ {
+  "slug": "were-expanding-our-presence-in-singapore-to-advance-ai-in-the-asia-pacific-region",
+  "title": "We’re expanding our presence in Singapore to advance AI in the Asia-Pacific region",
+  "date": "2025-11-19",
+  "authors": [
+   "Lila Ibrahim"
+  ],
+  "tags": [],
+  "description": "Google DeepMind opens a new research lab in Singapore to accelerate the development of frontier AI across the Asia-Pacific region through research, talent, and strategic collaborations.",
+  "url": "https://deepmind.google/blog/were-expanding-our-presence-in-singapore-to-advance-ai-in-the-asia-pacific-region/"
+ },
+ {
+  "slug": "when-a-passion-for-bass-and-brass-help-build-better-tools",
+  "title": "When a passion for bass and brass help build better tools",
+  "date": "2022-04-28",
+  "authors": [],
+  "tags": [],
+  "description": "We caught up with Kevin Millikin, a software engineer on the DevTools team. He’s in Salt Lake City this week to present at PyCon US, the largest annual gathering for those using and developing the op…",
+  "url": "https://deepmind.google/blog/when-a-passion-for-bass-and-brass-help-build-better-tools/"
+ },
+ {
+  "slug": "why-doesnt-streams-use-ai",
+  "title": "Why doesn't Streams use AI?",
+  "date": "2017-11-29",
+  "authors": [
+   "Dominic King"
+  ],
+  "tags": [],
+  "description": "One of the questions I’m most often asked about Streams, our secure mobile healthcare app, is “why is DeepMind making something that doesn’t use artificial intelligence?”",
+  "url": "https://deepmind.google/blog/why-doesnt-streams-use-ai/"
+ },
+ {
+  "slug": "why-we-launched-deepmind-ethics-society",
+  "title": "Why we launched DeepMind Ethics & Society",
+  "date": "2017-10-03",
+  "authors": [
+   "Sean Legassick",
+   "Verity Harding"
+  ],
+  "tags": [],
+  "description": "At DeepMind, we’re proud of the role we’ve played in pushing forward the science of AI, and our track record of exciting breakthroughs and major publications. We believe AI can be of extraordinary be…",
+  "url": "https://deepmind.google/blog/why-we-launched-deepmind-ethics-society/"
+ },
+ {
+  "slug": "working-with-the-nhs-to-build-lifesaving-technology",
+  "title": "Working with the NHS to build lifesaving technology",
+  "date": "2016-11-22",
+  "authors": [
+   "Mustafa Suleyman"
+  ],
+  "tags": [],
+  "description": "We’re very proud to announce a groundbreaking five year partnership with the Royal Free London NHS Foundation Trust.",
+  "url": "https://deepmind.google/blog/working-with-the-nhs-to-build-lifesaving-technology/"
+ },
+ {
+  "slug": "youtube-enhancing-the-user-experience",
+  "title": "YouTube: Enhancing the user experience",
+  "date": "2023-06-16",
+  "authors": [],
+  "tags": [],
+  "description": "It’s all about using our technology and research to help enrich people’s lives. Like YouTube — and its mission to give everyone a voice and show them the world.",
+  "url": "https://deepmind.google/blog/youtube-enhancing-the-user-experience/"
+ },
+ {
+  "slug": "ai-co-clinician",
+  "title": "Enabling a new model for healthcare with AI co-clinician",
+  "date": "2026-04-30",
+  "authors": [
+   "Alan Karthikesalingam",
+   "Vivek Natarajan",
+   "Pushmeet Kohli"
+  ],
+  "tags": [],
+  "description": "Google DeepMind is researching the path toward an AI co-clinician that could work under physician authority to assist doctors and patients, enabling new models for AI-augmented care.",
+  "url": "https://deepmind.google/blog/ai-co-clinician/"
+ },
+ {
+  "slug": "alphaearth-foundations-helps-map-our-planet-in-unprecedented-detail",
+  "title": "AlphaEarth Foundations helps map our planet in unprecedented detail",
+  "date": "2025-07-30",
+  "authors": [
+   "AlphaEarth Foundations team"
+  ],
+  "tags": [],
+  "description": "New AI model integrates petabytes of Earth observation data to generate a unified data representation that revolutionizes global mapping and monitoring",
+  "url": "https://deepmind.google/blog/alphaearth-foundations-helps-map-our-planet-in-unprecedented-detail/"
+ },
+ {
+  "slug": "alphafold-five-years-of-impact",
+  "title": "AlphaFold: Five years of impact",
+  "date": "2025-11-25",
+  "authors": [
+   "Demis Hassabis",
+   "John Jumper",
+   "Pushmeet Kohli",
+   "Anna Koivuniemi",
+   "AlphaFold team"
+  ],
+  "tags": [],
+  "description": "Explore five years of AlphaFold’s impact on biology. Learn how this Nobel Prize-winning AI is accelerating scientific discovery globally",
+  "url": "https://deepmind.google/blog/alphafold-five-years-of-impact/"
+ },
+ {
+  "slug": "co-scientist-a-multi-agent-ai-partner-to-accelerate-research",
+  "title": "Co-Scientist: A multi-agent AI partner to accelerate research",
+  "date": "2026-05-19",
+  "authors": [
+   "Co-Scientist team"
+  ],
+  "tags": [],
+  "description": "Introducing Co-Scientist, a multi-agent AI partner built with Gemini to help researchers generate and evolve hypotheses to accelerate scientific breakthroughs.",
+  "url": "https://deepmind.google/blog/co-scientist-a-multi-agent-ai-partner-to-accelerate-research/"
+ },
+ {
+  "slug": "d4rt-teaching-ai-to-see-the-world-in-four-dimensions",
+  "title": "D4RT: Teaching AI to see the world in four dimensions",
+  "date": "2026-01-22",
+  "authors": [
+   "Guillaume Le Moing",
+   "Mehdi S. M. Sajjadi"
+  ],
+  "tags": [],
+  "description": "Meet D4RT, a unified AI model for 4D scene reconstruction and tracking.",
+  "url": "https://deepmind.google/blog/d4rt-teaching-ai-to-see-the-world-in-four-dimensions/"
+ },
+ {
+  "slug": "deepmind-expands-to-canada-with-new-research-office-in-edmonton-alberta",
+  "title": "DeepMind expands to Canada with new research office in Edmonton, Alberta",
+  "date": "2017-07-05",
+  "authors": [
+   "Demis Hassabis"
+  ],
+  "tags": [],
+  "description": "DeepMind has always been a unique hybrid of startup culture and academia, and we’ve been lucky to collaborate with many of the best researchers from around the world. Today we’re thrilled to announce…",
+  "url": "https://deepmind.google/blog/deepmind-expands-to-canada-with-new-research-office-in-edmonton-alberta/"
+ },
+ {
+  "slug": "deepmind-papers-at-icml-2017-part-one",
+  "title": "DeepMind papers at ICML 2017 (part one)",
+  "date": "2017-08-04",
+  "authors": [],
+  "tags": [],
+  "description": "The first of our three-part series, which gives brief descriptions of the papers we are presenting at the ICML 2017 Conference in Sydney, Australia.",
+  "url": "https://deepmind.google/blog/deepmind-papers-at-icml-2017-part-one/"
+ },
+ {
+  "slug": "deepmind-papers-at-icml-2017-part-three",
+  "title": "DeepMind papers at ICML 2017 (part three)",
+  "date": "2017-08-04",
+  "authors": [],
+  "tags": [],
+  "description": "The final part of our three-part series that gives an overview of the papers we are presenting at the ICML 2017 Conference in Sydney, Australia.",
+  "url": "https://deepmind.google/blog/deepmind-papers-at-icml-2017-part-three/"
+ },
+ {
+  "slug": "deepmind-papers-at-icml-2017-part-two",
+  "title": "DeepMind papers at ICML 2017 (part two)",
+  "date": "2017-08-04",
+  "authors": [],
+  "tags": [],
+  "description": "The second of our three-part series, which gives an overview of the papers we are presenting at the ICML 2017 Conference in Sydney, Australia.",
+  "url": "https://deepmind.google/blog/deepmind-papers-at-icml-2017-part-two/"
+ },
+ {
+  "slug": "fast-tracking-genetic-leads-to-reverse-cellular-aging",
+  "title": "Fast-tracking genetic leads to reverse cellular aging",
+  "date": "2026-05-19",
+  "authors": [],
+  "tags": [],
+  "description": "Biologists Omar Abudayyeh and Jonathan Gootenberg use Co-Scientist to scan thousands of papers and identify over 20 novel factors that could reverse cellular aging.",
+  "url": "https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/"
+ },
+ {
+  "slug": "gemini-robotics-2-brings-whole-body-intelligence-to-robots",
+  "title": "Gemini Robotics 2 brings whole body intelligence to robots",
+  "date": "2026-07-30",
+  "authors": [
+   "Carolina Parada"
+  ],
+  "tags": [],
+  "description": "From feet to fingertips — we are teaching robots intelligent whole-body control, fine dexterity, and teamwork to complete a broad range of complex tasks.",
+  "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/"
+ },
+ {
+  "slug": "genie-3-a-new-frontier-for-world-models",
+  "title": "Genie 3: A new frontier for world models",
+  "date": "2025-08-05",
+  "authors": [
+   "Jack Parker-Holder",
+   "Shlomi Fruchter"
+  ],
+  "tags": [],
+  "description": "Today we are announcing Genie 3, a general purpose world model that can generate an unprecedented diversity of interactive environments. Given a text prompt, Genie 3 can generate dynamic worlds that …",
+  "url": "https://deepmind.google/blog/genie-3-a-new-frontier-for-world-models/"
+ },
+ {
+  "slug": "how-alphachip-transformed-computer-chip-design",
+  "title": "How AlphaChip transformed computer chip design",
+  "date": "2024-09-26",
+  "authors": [
+   "Anna Goldie",
+   "Azalia Mirhoseini"
+  ],
+  "tags": [],
+  "description": "Our AI method has accelerated and optimized chip design, and its superhuman chip layouts are used in hardware around the world. AlphaChip was one of the first reinforcement learning approaches used t…",
+  "url": "https://deepmind.google/blog/how-alphachip-transformed-computer-chip-design/"
+ },
+ {
+  "slug": "introducing-codemender-an-ai-agent-for-code-security",
+  "title": "Introducing CodeMender: an AI agent for code security",
+  "date": "2025-10-06",
+  "authors": [
+   "Raluca Ada Popa",
+   "Four Flynn"
+  ],
+  "tags": [],
+  "description": "Using advanced AI to fix critical software vulnerabilities",
+  "url": "https://deepmind.google/blog/introducing-codemender-an-ai-agent-for-code-security/"
+ },
+ {
+  "slug": "new-generative-ai-tools-open-the-doors-of-music-creation",
+  "title": "New generative AI tools open the doors of music creation",
+  "date": "2024-10-23",
+  "authors": [
+   "GenMedia Music team"
+  ],
+  "tags": [],
+  "description": "Our latest AI music technologies are now available in MusicFX DJ, Music AI Sandbox and YouTube Shorts",
+  "url": "https://deepmind.google/blog/new-generative-ai-tools-open-the-doors-of-music-creation/"
+ },
+ {
+  "slug": "opening-new-paths-in-aging-research",
+  "title": "Opening new paths in aging research",
+  "date": "2026-05-19",
+  "authors": [],
+  "tags": [],
+  "description": "Calico Life Sciences uses Co-Scientist to identify new research ideas and test novel hypotheses about the integrated stress response and aging.",
+  "url": "https://deepmind.google/blog/opening-new-paths-in-aging-research/"
+ },
+ {
+  "slug": "sima-2-an-agent-that-plays-reasons-and-learns-with-you-in-virtual-3d-worlds",
+  "title": "SIMA 2: An Agent that Plays, Reasons, and Learns With You in Virtual 3D Worlds",
+  "date": "2025-11-13",
+  "authors": [
+   "SIMA team"
+  ],
+  "tags": [],
+  "description": "Introducing SIMA 2, the next milestone in our research creating general and helpful AI agents. By integrating the advanced capabilities of our Gemini models, SIMA is evolving from an instruction-foll…",
+  "url": "https://deepmind.google/blog/sima-2-an-agent-that-plays-reasons-and-learns-with-you-in-virtual-3d-worlds/"
+ },
+ {
+  "slug": "the-podcast-episode-1-ai-and-neuroscience-the-virtuous-circle",
+  "title": "The Podcast: Episode 1: AI and neuroscience - The virtuous circle",
+  "date": "2019-08-17",
+  "authors": [],
+  "tags": [],
+  "description": "What can the human brain teach us about AI? And what can AI teach us about our own intelligence? These questions underpin a lot of AI research.",
+  "url": "https://deepmind.google/blog/the-podcast-episode-1-ai-and-neuroscience-the-virtuous-circle/"
+ },
+ {
+  "slug": "the-podcast-episode-2-go-to-zero",
+  "title": "The Podcast: Episode 2: Go to Zero",
+  "date": "2019-08-18",
+  "authors": [],
+  "tags": [],
+  "description": "In March 2016, more than 200 million people watched AlphaGo become first computer program to defeat a professional human player at the game of Go, a milestone in AI research that was considered to be…",
+  "url": "https://deepmind.google/blog/the-podcast-episode-2-go-to-zero/"
+ },
+ {
+  "slug": "the-podcast-episode-3-life-is-like-a-game",
+  "title": "The Podcast: Episode 3: Life is like a game",
+  "date": "2019-08-19",
+  "authors": [],
+  "tags": [],
+  "description": "Video games have become a favourite tool for AI researchers to test the abilities of their systems. In this episode, Hannah sits down to play StarCraft II - a challenging video game that requires pla…",
+  "url": "https://deepmind.google/blog/the-podcast-episode-3-life-is-like-a-game/"
+ },
+ {
+  "slug": "the-podcast-episode-4-ai-robot",
+  "title": "The Podcast: Episode 4: AI, Robot",
+  "date": "2019-08-20",
+  "authors": [],
+  "tags": [],
+  "description": "Forget what sci-fi has told you about superintelligent robots that are uncannily human-like; the reality is more prosaic. Inside DeepMind’s robotics laboratory, Hannah explores what researchers call …",
+  "url": "https://deepmind.google/blog/the-podcast-episode-4-ai-robot/"
+ },
+ {
+  "slug": "the-podcast-episode-6-ai-for-everyone",
+  "title": "The Podcast: Episode 6: AI for everyone",
+  "date": "2019-09-03",
+  "authors": [],
+  "tags": [],
+  "description": "While there is a lot of excitement about AI research, there are also concerns about the way it might be implemented, used and abused.",
+  "url": "https://deepmind.google/blog/the-podcast-episode-6-ai-for-everyone/"
+ },
+ {
+  "slug": "the-podcast-episode-7-towards-the-future",
+  "title": "The Podcast: Episode 7: Towards the future",
+  "date": "2019-09-10",
+  "authors": [],
+  "tags": [],
+  "description": "AI researchers around the world are trying to create a general purpose learning system that can learn to solve a broad range of problems without being taught how.",
+  "url": "https://deepmind.google/blog/the-podcast-episode-7-towards-the-future/"
+ },
+ {
+  "slug": "the-podcast-episode-8-demis-hassabis-the-interview",
+  "title": "The Podcast: Episode 8: Demis Hassabis - The interview",
+  "date": "2019-09-17",
+  "authors": [],
+  "tags": [],
+  "description": "In this special extended episode, Hannah Fry meets Demis Hassabis, the CEO and co-founder of DeepMind.",
+  "url": "https://deepmind.google/blog/the-podcast-episode-8-demis-hassabis-the-interview/"
+ },
+ {
+  "slug": "the-race-to-cure-a-billion-people-from-a-deadly-parasitic-disease",
+  "title": "The race to cure a billion people from a deadly parasitic disease",
+  "date": "2022-07-28",
+  "authors": [],
+  "tags": [],
+  "description": "Globally, about a billion people are at risk of leishmaniasis and each year there are 50-90,000 new cases of visceral leishmaniasis, the majority in children. While medical treatments vary by region,…",
+  "url": "https://deepmind.google/blog/the-race-to-cure-a-billion-people-from-a-deadly-parasitic-disease/"
+ },
+ {
+  "slug": "uniting-biological-toolkits-for-a-new-approach-to-als",
+  "title": "Uniting biological toolkits for a new approach to ALS",
+  "date": "2026-05-19",
+  "authors": [],
+  "tags": [],
+  "description": "Discover how Co-Scientist helped researchers synthesize creative ideas and drive collaboration to turn innovative concepts into creative research pathways to target ALS.",
+  "url": "https://deepmind.google/blog/uniting-biological-toolkits-for-a-new-approach-to-als/"
+ }
+]

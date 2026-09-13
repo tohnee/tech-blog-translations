@@ -1,0 +1,42 @@
+---
+title: "MuZero’s first step from research into the real world"
+source: https://deepmind.google/blog/muzeros-first-step-from-research-into-the-real-world/
+site: deepmind
+date: 2022-02-11
+authors: MuZero Applied team
+crawled: 2026-09-13
+---
+
+Collaborating with YouTube to optimise video compression in the open source VP9 codec.
+
+In 2016, we introduced [AlphaGo](https://deepmind.com/research/case-studies/alphago-the-story-so-far), the first artificial intelligence program to defeat humans at the ancient game of Go. Its successors, [AlphaZero](https://deepmind.com/blog/article/alphazero-shedding-new-light-grand-games-chess-shogi-and-go) and then [MuZero](https://deepmind.com/blog/article/muzero-mastering-go-chess-shogi-and-atari-without-rules), each represented a significant step forward in the pursuit of general-purpose algorithms, mastering a greater number of games with even less predefined knowledge. MuZero, for example, mastered Chess, Go, Shogi, and Atari without needing to be told the rules. But so far these agents have focused on solving games. Now, in pursuit of DeepMind’s mission to solve intelligence, MuZero has taken a first step towards mastering a real-world task by optimising video on YouTube.
+
+In a [preprint published on arXiv](https://arxiv.org/abs/2202.06626), we detail our collaboration with YouTube to explore the potential for MuZero to improve video compression. [Analysts predicted](https://www.cisco.com/c/dam/m/en_us/solutions/service-provider/vni-forecast-highlights/pdf/Global_2021_Forecast_Highlights.pdf) that streaming video will have accounted for the vast majority of internet traffic in 2021. With video surging during the COVID-19 pandemic and the total amount of internet traffic expected to grow in the future, video compression is an increasingly important problem — and a natural area to apply Reinforcement Learning (RL) to improve upon the state of the art in a challenging domain. Since launching to production on a portion of YouTube’s live traffic, we’ve demonstrated an average 4% bitrate reduction across a large, diverse set of videos.
+
+Most online videos rely on a program called a codec to compress or encode the video at its source, transmit it over the internet to the viewer, and then decompress or decode it for playback. These codecs make multiple decisions for each frame in a video. Decades of hand engineering have gone into optimising these codecs, which are responsible for many of the video experiences now possible on the internet, including video on demand, video calls, video games, and virtual reality. However, because RL is particularly well-suited to sequential decision-making problems like those in codecs, we’re exploring how an RL-learned algorithm can help.
+
+Our initial focus is on the VP9 codec (specifically the open source version [libvpx](https://github.com/webmproject/libvpx)), since it’s widely used by YouTube and other streaming services. As with other codecs, service providers using VP9 need to think about bitrate — the number of ones and zeros required to send each frame of a video. Bitrate is a major determinant in how much compute and bandwidth is required to serve and store videos, affecting everything from how long a video takes to load to its resolution, buffering, and data usage.
+
+![ A conceptual diagram showing how the VP9 codec compresses video frames over time. At the top, three sequential video frames depict a car moving from left to right past a stationary tree and cloud. Below each frame, an arrow points down to a blue "VP9" processing icon, which are connected horizontally to show sequential encoding. On the far right, an arrow points to a stacked set of overlapping frames labeled "Compressed video" that overlay the movement path of the car, illustrating the caption at the bottom: "VP9 compresses frames of the video in reference to previous frames."](https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/original_images/6224b3fd1ef1ea596a41d25a_VP920compression.gif)
+
+While encoding a video, codecs use information from previous frames to reduce the number of bits needed for future frames.
+
+In VP9, bitrate is optimised most directly through the Quantisation Parameter (QP) in the rate control module. For each frame, this parameter determines the level of compression to apply. Given a target bitrate, QPs for video frames are decided sequentially to maximize overall video quality. Intuitively, higher bitrates (lower QP) should be allocated for complex scenes and lower bitrates (higher QP) should be allocated for static scenes. The QP selection algorithm reasons how the QP value of a video frame affects the bitrate allocation of the rest of the video frames and the overall video quality. RL is especially helpful in solving such a sequential decision-making problem.
+
+![A flowchart diagram illustrating how MuZero-RC integrates with the VP9 video compression codec. The top row shows three sequential video frames depicting a car moving from left to right. Below each frame, a blue VP9 encoding icon processes the video sequentially. Beneath each VP9 icon is a corresponding blue icon labeled "MuZero-RC," connected by vertical two-way arrows with one labeled "QP" pointing back up to VP9, representing the rate control decision. The final compressed output is displayed on the far right as a stack of overlapping frames labeled "Compressed video."](https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/original_images/6224b41588a4994b5c6efc29_MuZero.gif)
+
+For each frame of a video processed by VP9, MuZero-RC — replacing VP9’s default rate control mechanism — decides the level of compression to apply, achieving similar quality at lower bitrate.
+
+MuZero achieves superhuman performance across various tasks by combining the power of search with its ability to learn a model of the environment and plan accordingly. This works especially well in large, combinatorial action spaces, making it an ideal candidate solution for the problem of rate control in video compression. However, to get MuZero to work on this real-world application requires solving a whole new set of problems. For instance, the set of videos uploaded to platforms like YouTube varies in content and quality, and any agent needs to generalise across videos, including completely new videos after deployment. By comparison, board games tend to have a single known environment. Many other metrics and constraints affect the final user experience and bitrate savings, such as the PSNR (Peak Signal-to-Noise Ratio) and bitrate constraint.
+
+To address these challenges with MuZero, we create a mechanism called self-competition, which converts the complex objective of video compression into a simple WIN/LOSS signal by comparing the agent’s current performance against its historical performance. This allows us to convert a rich set of codec requirements into a simple signal that can be optimised by our agent.
+
+By learning the dynamics of video encoding and determining how best to allocate bits, our MuZero Rate-Controller (MuZero-RC) is able to reduce bitrate without quality degradation. QP selection is just one of numerous encoding decisions in the encoding process. While decades of research and engineering have resulted in efficient algorithms, we envision a single algorithm that can automatically learn to make these encoding decisions to obtain the optimal rate-distortion tradeoff.
+
+Beyond video compression, this first step in applying MuZero beyond research environments serves as an example of how our RL agents can solve real-world problems. By creating agents equipped with a range of new abilities to improve products across domains, we can help various computer systems become faster, less intensive, and more automated. Our long-term vision is to develop a single algorithm capable of optimising thousands of real-world systems across a variety of domains.
+
+Hear Jackson Broshear and David Silver discuss MuZero with Hannah Fry in Episode 5 of DeepMind: The Podcast. Listen now on your favourite podcast app by searching “DeepMind: The Podcast”.
+
+**Notes**
+
+Work done as a collaboration with contributors: Chenjie Gu, Anton Zhernov, Amol Mandhane, Maribeth Rauh, Miaosen Wang, Flora Xue, Wendy Shang, Derek Pang, Rene Claus, Ching-Han Chiang, Cheng Chen, Jingning Han, Angie Chen, Daniel J. Mankowitz, Julian Schrittwieser, Thomas Hubert, Oriol Vinyals, Jackson Broshear, Timothy Mann, Robert Tung, Steve Gaffney, Carena Church

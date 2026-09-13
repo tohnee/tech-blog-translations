@@ -1,0 +1,3067 @@
+[
+ {
+  "slug": "ai-classroom-northern-ireland",
+  "title": "How AI is giving Northern Ireland teachers time back",
+  "date": "2025-11-10",
+  "authors": [
+   "Lila Ibrahim"
+  ],
+  "tags": [
+   "Google DeepMind",
+   "AI Products",
+   "Learning & Education"
+  ],
+  "description": "A six-month long pilot program with the Northern Ireland Education Authority’s C2k initiative found that integrating Gemini and other generative AI tools saved participating teachers an average of 10 hours per week.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/ai-classroom-northern-ireland/"
+ },
+ {
+  "slug": "ai-for-math",
+  "title": "Accelerating discovery with the AI for Math Initiative",
+  "date": "2025-10-29",
+  "authors": [
+   "Pushmeet Kohli"
+  ],
+  "tags": [
+   "Google DeepMind",
+   "Google.org"
+  ],
+  "description": "The AI for Math Initiative brings together five of the world's most prestigious research institutions.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/ai-for-math/"
+ },
+ {
+  "slug": "ai-release-notes-podcast-demis-hassabis",
+  "title": "Hear Google DeepMind CEO Demis Hassabis discuss how world model capabilities are helping AI understand reality.",
+  "date": "2025-08-11",
+  "authors": [
+   "TK Breuer"
+  ],
+  "tags": [],
+  "description": "Google DeepMind CEO Demis Hassabis talks about AI’s momentum, from new models to the Game Arena benchmark.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/ai-release-notes-podcast-demis-hassabis/"
+ },
+ {
+  "slug": "ai-release-notes-science",
+  "title": "Listen to a discussion on how AI can power scientific breakthroughs.",
+  "date": "2025-09-15",
+  "authors": [],
+  "tags": [],
+  "description": "Pushmeet Kohli, who leads DeepMind’s science and strategic initiatives team, discusses AI and science.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/ai-release-notes-science/"
+ },
+ {
+  "slug": "alphagenome-atlas",
+  "title": "AlphaGenome Atlas: a high-resolution map of human DNA",
+  "date": "2026-09-08",
+  "authors": [
+   "Pushmeet Kohli"
+  ],
+  "tags": [
+   "Google DeepMind"
+  ],
+  "description": "We’re introducing AlphaGenome Atlas, a database predicting the effects of every possible single nucleotide variant in the human genome.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/"
+ },
+ {
+  "slug": "ancestra-behind-the-scenes",
+  "title": "Behind “ANCESTRA”: combining Veo with live-action filmmaking",
+  "date": "2025-06-13",
+  "authors": [
+   "Kory Mathewson"
+  ],
+  "tags": [
+   "Google DeepMind",
+   "Google Research",
+   "AI Products"
+  ],
+  "description": "We partnered with Darren Aronofsky, Eliza McNitt and a team of more than 200 to make ANCESTRA.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/ancestra-behind-the-scenes/"
+ },
+ {
+  "slug": "dear-upstairs-neighbors",
+  "title": "How animators and AI researchers made ‘Dear Upstairs Neighbors’",
+  "date": "2026-01-26",
+  "authors": [
+   "Cassidy Curtis"
+  ],
+  "tags": [
+   "Google DeepMind",
+   "AI"
+  ],
+  "description": "Today, our animated short film, “Dear Upstairs Neighbors,” previews at the Sundance Film Festival.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/dear-upstairs-neighbors/"
+ },
+ {
+  "slug": "deepmind-a24-research-partnership",
+  "title": "Google DeepMind and A24 announce first-of-its-kind research partnership",
+  "date": "2026-06-22",
+  "authors": [
+   "Eli Collins"
+  ],
+  "tags": [],
+  "description": "",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/deepmind-a24-research-partnership/"
+ },
+ {
+  "slug": "gemini-2-5-native-audio",
+  "title": "Advanced audio dialog and generation with Gemini 2.5",
+  "date": "2025-06-03",
+  "authors": [
+   "Ankur Bapna"
+  ],
+  "tags": [
+   "Google DeepMind",
+   "Gemini models"
+  ],
+  "description": "Gemini 2.5 has new capabilities in AI-powered audio dialog and generation.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-2-5-native-audio/"
+ },
+ {
+  "slug": "gemini-computer-use-model",
+  "title": "Introducing the Gemini 2.5 Computer Use model",
+  "date": "2025-10-07",
+  "authors": [
+   "Google DeepMind"
+  ],
+  "tags": [
+   "Google DeepMind",
+   "Gemini models",
+   "AI Products"
+  ],
+  "description": "Today we are releasing the Gemini 2.5 Computer Use model via the API, which outperforms leading alternatives at browser and mobile tasks.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-computer-use-model/"
+ },
+ {
+  "slug": "gemini-diffusion",
+  "title": "Gemini Diffusion is our new experimental research model.",
+  "date": "2025-05-20",
+  "authors": [],
+  "tags": [],
+  "description": "",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-diffusion/"
+ },
+ {
+  "slug": "gemini-model-thinking-updates-march-2025",
+  "title": "Gemini 2.5: Our most intelligent AI model",
+  "date": "2025-03-25",
+  "authors": [
+   "Koray Kavukcuoglu"
+  ],
+  "tags": [
+   "Google DeepMind",
+   "Gemini models"
+  ],
+  "description": "Gemini 2.5 is our most intelligent AI model, now with thinking.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-model-thinking-updates-march-2025/"
+ },
+ {
+  "slug": "gemini-model-updates-february-2025",
+  "title": "Gemini 2.0 is now available to everyone",
+  "date": "2025-02-05",
+  "authors": [
+   "Koray Kavukcuoglu"
+  ],
+  "tags": [
+   "Google DeepMind",
+   "Gemini models"
+  ],
+  "description": "We’re announcing new updates to Gemini 2.0 Flash, plus introducing Gemini 2.0 Flash-Lite and Gemini 2.0 Pro Experimental.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-model-updates-february-2025/"
+ },
+ {
+  "slug": "gemini-robotics-er-1-6",
+  "title": "Gemini Robotics ER-1.6 enhances reasoning to help robots navigate real-world tasks.",
+  "date": "2026-04-14",
+  "authors": [],
+  "tags": [],
+  "description": "An overview of Gemini Robotics-ER 1.6, an upgrade to our reasoning-first model that helps robots to understand their environment.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-robotics-er-1-6/"
+ },
+ {
+  "slug": "imagine-if",
+  "title": "Gen AI is bringing New Yorkers' imagination to life",
+  "date": "2025-11-14",
+  "authors": [
+   "Matthieu Kim Lorrain"
+  ],
+  "tags": [
+   "Google DeepMind"
+  ],
+  "description": "‘Imagine If…’ lets New Yorkers submit artistic visions of New York City and see them brought to life my local artists.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/imagine-if/"
+ },
+ {
+  "slug": "kaggle-game-arena-updates",
+  "title": "Advancing AI benchmarking with Game Arena",
+  "date": "2026-02-02",
+  "authors": [
+   "Oran Kelly"
+  ],
+  "tags": [
+   "Google DeepMind",
+   "AI"
+  ],
+  "description": "We’re expanding Game Arena with Poker and Werewolf, while Gemini 3 Pro and Flash top our chess leaderboard.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/kaggle-game-arena-updates/"
+ },
+ {
+  "slug": "perch-ai-model",
+  "title": "The AI model Perch, updated today, uses audio to help protect endangered species.",
+  "date": "2025-08-07",
+  "authors": [
+   "TK Breuer"
+  ],
+  "tags": [],
+  "description": "Our Perch AI model helps conservationists analyze bioacoustic data to protect endangered species like birds and coral reefs.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/perch-ai-model/"
+ },
+ {
+  "slug": "project-genie",
+  "title": "Project Genie: Experimenting with infinite, interactive worlds",
+  "date": "2026-01-29",
+  "authors": [
+   "Diego Rivas"
+  ],
+  "tags": [
+   "Google DeepMind",
+   "AI",
+   "Google One"
+  ],
+  "description": "Google AI Ultra subscribers in the U.S. can now try out Project Genie.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie/"
+ },
+ {
+  "slug": "reconstructing-peles-lost-goal",
+  "title": "Reconstructing Pelé’s “lost” goal",
+  "date": "2026-07-14",
+  "authors": [
+   "Anita Lucchesi"
+  ],
+  "tags": [
+   "Google DeepMind",
+   "Google in Latin America"
+  ],
+  "description": "See how Google DeepMind AI technology reconstructed Pelé’s legendary 1959 lost goal at Rua Javari in our new mini-documentary.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/reconstructing-peles-lost-goal/"
+ },
+ {
+  "slug": "release-notes-podcast-long-context",
+  "title": "Listen to a podcast deep dive on long context in Gemini models.",
+  "date": "2025-05-02",
+  "authors": [],
+  "tags": [],
+  "description": "",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/release-notes-podcast-long-context/"
+ },
+ {
+  "slug": "ross-lovegrove-design",
+  "title": "From sketches to prototype: Designing with generative AI",
+  "date": "2025-10-01",
+  "authors": [
+   "Suraj Kothawade"
+  ],
+  "tags": [
+   "Google DeepMind",
+   "AI Products"
+  ],
+  "description": "Google DeepMind collaborated with designer Ross Lovegrove and design office Modem.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/ross-lovegrove-design/"
+ },
+ {
+  "slug": "the-thinking-game",
+  "title": "Watch ‘The Thinking Game,’ a documentary about Google DeepMind, for free on YouTube.",
+  "date": "2025-11-25",
+  "authors": [],
+  "tags": [],
+  "description": "We’re bringing “The Thinking Game\" to the Google DeepMind YouTube channel.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/the-thinking-game/"
+ },
+ {
+  "slug": "weather-lab-ai-cyclone-prediction-tracking",
+  "title": "How we’re using AI to help track and predict cyclones",
+  "date": "2025-08-04",
+  "authors": [
+   "Joel Meares"
+  ],
+  "tags": [
+   "Google DeepMind",
+   "Google Research",
+   "AI Products"
+  ],
+  "description": "We’re partnering with the National Hurricane Center, supporting their forecasts and warnings this cyclone season.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/weather-lab-ai-cyclone-prediction-tracking/"
+ },
+ {
+  "slug": "weather-lab",
+  "title": "Weather Lab is an interactive website for sharing Google’s AI weather models.",
+  "date": "2025-06-12",
+  "authors": [],
+  "tags": [],
+  "description": "",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/weather-lab/"
+ },
+ {
+  "slug": "weathernext-extreme-weather-cyclone-predictions",
+  "title": "Ask a Scientist: How do researchers use AI to predict a cyclone?",
+  "date": "2026-09-01",
+  "authors": [
+   "Hannah Hunt"
+  ],
+  "tags": [
+   "Google DeepMind",
+   "Google Research"
+  ],
+  "description": "A Google DeepMind scientist explains how AI weather prediction works and how it can help warn communities earlier than ever.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/weathernext-extreme-weather-cyclone-predictions/"
+ },
+ {
+  "slug": "3-things-learned-flow-sessions",
+  "title": "3 lessons from Flow Sessions Artists on AI and creativity",
+  "date": "2025-11-17",
+  "authors": [
+   "Brianna Doyle"
+  ],
+  "tags": [
+   "Google Labs"
+  ],
+  "description": "Learn more about Google’s Flow Sessions, an artist cohort focusing on using AI in film while also using Google’s AI filmmaking tool, Flow.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/3-things-learned-flow-sessions/"
+ },
+ {
+  "slug": "8-ways-to-make-the-most-out-of-slide-decks-in-notebooklm",
+  "title": "8 ways to make the most out of Slide Decks in NotebookLM",
+  "date": "2025-12-16",
+  "authors": [
+   "Tomas Vorel"
+  ],
+  "tags": [
+   "Google Labs"
+  ],
+  "description": "Nano Banana Pro makes NotebookLM ever more powerful to synthesize information and create visual storytelling materials.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/8-ways-to-make-the-most-out-of-slide-decks-in-notebooklm/"
+ },
+ {
+  "slug": "accel-atoms-ai-futures-fund",
+  "title": "Google’s AI Futures Fund and Accel Atoms are launching a program to accelerate AI innovation in India.",
+  "date": "2025-11-25",
+  "authors": [],
+  "tags": [],
+  "description": "Google is teaming up with Accel Atoms to launch a new cohort dedicated to kick-starting the next wave of AI innovation in India.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/accel-atoms-ai-futures-fund/"
+ },
+ {
+  "slug": "ai-futures-fund",
+  "title": "Helping startups build what’s next with the AI Futures Fund",
+  "date": "2025-05-12",
+  "authors": [
+   "Jonathan Silber"
+  ],
+  "tags": [
+   "Google Labs",
+   "AI Products",
+   "Entrepreneurs"
+  ],
+  "description": "The AI Futures Fund is a new initiative from Google that invests in and works with startups.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/ai-futures-fund/"
+ },
+ {
+  "slug": "ai-startup-support-program-japan",
+  "title": "Google and KDDI are ready to back Japanese startups.",
+  "date": "2026-07-28",
+  "authors": [
+   "Jonathan Silber"
+  ],
+  "tags": [],
+  "description": "We’re launching the AI Startup Support Program to accelerate innovative AI-native Japanese startups.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/ai-startup-support-program-japan/"
+ },
+ {
+  "slug": "believe-flow-music-partnership",
+  "title": "Google Flow Music and Believe bring next-gen tools to artists",
+  "date": "2026-05-06",
+  "authors": [
+   "Seth Forsgren"
+  ],
+  "tags": [
+   "Google Labs"
+  ],
+  "description": "We're partnering with Believe to offer Google Flow Music to artists, producers and songwriters.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/believe-flow-music-partnership/"
+ },
+ {
+  "slug": "cc-ai-agent",
+  "title": "Help boost your daily productivity with CC, a new experimental AI agent from Google Labs.",
+  "date": "2025-12-16",
+  "authors": [],
+  "tags": [],
+  "description": "",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/cc-ai-agent/"
+ },
+ {
+  "slug": "create-presentations-with-nano-banana-pro-in-mixboard-and-more",
+  "title": "Create presentations with Nano Banana Pro in Mixboard and more",
+  "date": "2025-12-08",
+  "authors": [
+   "Jaclyn Konzelmann"
+  ],
+  "tags": [
+   "Google Labs"
+  ],
+  "description": "Learn more about recent updates to Google Labs’ Mixboard, like presentations, doodling and Nano Banana Pro.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/create-presentations-with-nano-banana-pro-in-mixboard-and-more/"
+ },
+ {
+  "slug": "deepmind-primordial-soup-collaboration",
+  "title": "Darren Aronofsky's Primordial Soup and Google DeepMind are partnering to explore AI’s role in storytelling.",
+  "date": "2025-05-20",
+  "authors": [],
+  "tags": [],
+  "description": "",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/deepmind-primordial-soup-collaboration/"
+ },
+ {
+  "slug": "discover-new-outfits-try-them-on-and-shop-from-doppls-new-discovery-feed",
+  "title": "Discover new outfits, try them on and shop from Doppl's new discovery feed.",
+  "date": "2025-12-08",
+  "authors": [],
+  "tags": [],
+  "description": "",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/discover-new-outfits-try-them-on-and-shop-from-doppls-new-discovery-feed/"
+ },
+ {
+  "slug": "doppl",
+  "title": "Try on looks and discover your style with Doppl",
+  "date": "2025-06-26",
+  "authors": [
+   "Sakshi Rambhia"
+  ],
+  "tags": [
+   "Google Labs"
+  ],
+  "description": "Doppl, a new Google Labs app, uses AI to create personalized outfit try-on images and videos.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/doppl/"
+ },
+ {
+  "slug": "dreambeans-expansion-september-2026",
+  "title": "Dreambeans: Daily stories, brewed just for you, now available to all accounts in the U.S.",
+  "date": "2026-09-10",
+  "authors": [],
+  "tags": [],
+  "description": "",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/dreambeans-expansion-september-2026/"
+ },
+ {
+  "slug": "flow-adds-speech-expands",
+  "title": "You can now make your images talk with Veo 3 in Flow, plus we’re expanding to more countries.",
+  "date": "2025-07-10",
+  "authors": [
+   "Kristin Yim"
+  ],
+  "tags": [],
+  "description": "Flow now brings your images to life with speech. Plus, we’re expanding Flow and the Google AI Ultra plan to 76 more countries.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/flow-adds-speech-expands/"
+ },
+ {
+  "slug": "flow-refine-videos",
+  "title": "4 ways to refine your content in Flow",
+  "date": "2025-11-25",
+  "authors": [
+   "Anika Ahluwalia"
+  ],
+  "tags": [
+   "Google Labs",
+   "AI Products"
+  ],
+  "description": "You’ll now get more creative control in Flow with new refinement and editing capabilities.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/flow-refine-videos/"
+ },
+ {
+  "slug": "flow-resident-filmmaker",
+  "title": "We’re introducing Flow Sessions and our first filmmaker in residence.",
+  "date": "2025-09-03",
+  "authors": [
+   "Brianna Doyle"
+  ],
+  "tags": [],
+  "description": "As our new resident filmmaker, Henry Daubrez will help us shape the future of Flow, our AI filmmaking tool.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/flow-resident-filmmaker/"
+ },
+ {
+  "slug": "flow-sessions-artists-lessons",
+  "title": "3 creative tips from our Flow Sessions artists",
+  "date": "2026-04-23",
+  "authors": [
+   "Brianna Doyle"
+  ],
+  "tags": [
+   "Google Labs"
+  ],
+  "description": "Learn more about Google’s Flow Sessions, an artist cohort focusing on using AI in film while also using Google’s AI filmmaking tool, Flow.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/flow-sessions-artists-lessons/"
+ },
+ {
+  "slug": "flow-updates-february-2026",
+  "title": "New ways to create and refine content in Flow",
+  "date": "2026-02-25",
+  "authors": [
+   "Anika Ahluwalia"
+  ],
+  "tags": [
+   "Google Labs"
+  ],
+  "description": "We're introducing a handful of new features and capabilities to Flow.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/flow-updates-february-2026/"
+ },
+ {
+  "slug": "flow-whisk-ai-credits-update",
+  "title": "Get more out of Flow in Google AI Ultra.",
+  "date": "2025-08-18",
+  "authors": [
+   "Niv Govindaraju"
+  ],
+  "tags": [],
+  "description": "Google AI Ultra subscribers now get double the credits to create videos in Flow and Whisk.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/flow-whisk-ai-credits-update/"
+ },
+ {
+  "slug": "gentabs-gemini-3",
+  "title": "Take the web for a fresh spin with GenTabs, built with Gemini 3",
+  "date": "2025-12-11",
+  "authors": [
+   "Manini Roy"
+  ],
+  "tags": [
+   "Google Labs",
+   "Chrome"
+  ],
+  "description": "GenTabs is part of a new Google Labs experiment that proactively creates custom web applications to help you navigate the web",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/gentabs-gemini-3/"
+ },
+ {
+  "slug": "google-flow-sessions-short-films",
+  "title": "Take a look at short films created by our latest group of artists in Google’s Flow Sessions program.",
+  "date": "2026-07-30",
+  "authors": [],
+  "tags": [],
+  "description": "We’re sharing a look at the short films created by our latest group of artists in Google’s Flow Sessions program.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/google-flow-sessions-short-films/"
+ },
+ {
+  "slug": "jules-now-available",
+  "title": "Jules, our asynchronous coding agent, is now available for everyone.",
+  "date": "2025-08-06",
+  "authors": [],
+  "tags": [],
+  "description": "",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/jules-now-available/"
+ },
+ {
+  "slug": "jules-tools-jules-api",
+  "title": "New ways to build with Jules, our AI coding agent",
+  "date": "2025-10-02",
+  "authors": [
+   "Kathy Korevec"
+  ],
+  "tags": [
+   "Google Labs",
+   "AI Products"
+  ],
+  "description": "We're giving you more control and flexibility by expanding where and how you can use Jules, Google’s AI-powered coding agent. Jules helps developers go from idea to working code faster by assisting with tasks across the software development workflow: generating code, fixing bugs, writing tests, impr",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/jules-tools-jules-api/"
+ },
+ {
+  "slug": "lyria-3-5",
+  "title": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control.",
+  "date": "2026-07-29",
+  "authors": [],
+  "tags": [],
+  "description": "",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/lyria-3-5/"
+ },
+ {
+  "slug": "mini-apps-opal-gemini-app-experiment",
+  "title": "Build interactive mini apps with Opal in the Gemini app.",
+  "date": "2025-12-17",
+  "authors": [
+   "Megan Li"
+  ],
+  "tags": [],
+  "description": "",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/mini-apps-opal-gemini-app-experiment/"
+ },
+ {
+  "slug": "mixboard-180-more-countries",
+  "title": "Mixboard is now available in over 180 more countries.",
+  "date": "2025-10-30",
+  "authors": [],
+  "tags": [],
+  "description": "",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/mixboard-180-more-countries/"
+ },
+ {
+  "slug": "mixboard",
+  "title": "Mixboard is a new way to visualize your ideas from Google Labs.",
+  "date": "2025-09-23",
+  "authors": [],
+  "tags": [],
+  "description": "Mixboard is an experimental, AI-powered visual brainstorming tool that helps you explore, expand and refine ideas.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/mixboard/"
+ },
+ {
+  "slug": "new-creative-controls-google-flow",
+  "title": "Google Flow brings new creative control features to enhance video editing.",
+  "date": "2026-08-27",
+  "authors": [],
+  "tags": [],
+  "description": "",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/new-creative-controls-google-flow/"
+ },
+ {
+  "slug": "notebook-lm-audio-video-overviews-more-languages-longer-content",
+  "title": "NotebookLM's Video Overviews are now available in 80 languages",
+  "date": "2025-08-25",
+  "authors": [
+   "Sam Dealy"
+  ],
+  "tags": [
+   "Google Labs",
+   "AI Products",
+   "NotebookLM"
+  ],
+  "description": "Learn more about updates to NotebookLM’s Audio and Video Overview tools.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/notebook-lm-audio-video-overviews-more-languages-longer-content/"
+ },
+ {
+  "slug": "notebooklm-app-quizzes-flashcards",
+  "title": "Create flashcards and quizzes in the NotebookLM app.",
+  "date": "2025-11-06",
+  "authors": [],
+  "tags": [],
+  "description": "We’re rolling out a big update to the NotebookLM app this week.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/notebooklm-app-quizzes-flashcards/"
+ },
+ {
+  "slug": "notebooklm-audio-overviews-50-languages",
+  "title": "NotebookLM Audio Overviews are now available in over 50 languages",
+  "date": "2025-04-29",
+  "authors": [
+   "Michael Chen"
+  ],
+  "tags": [
+   "Google Labs",
+   "AI Products",
+   "NotebookLM"
+  ],
+  "description": "Learn more about NotebookLM’s Audio Overviews feature and its expansion to more than 50 languages.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/notebooklm-audio-overviews-50-languages/"
+ },
+ {
+  "slug": "notebooklm-business-tips",
+  "title": "5 ways to use NotebookLM Plus for your business",
+  "date": "2025-01-24",
+  "authors": [
+   "Kelly Schaefer"
+  ],
+  "tags": [
+   "Google Labs",
+   "NotebookLM"
+  ],
+  "description": "NotebookLM Plus can be used for businesses and larger organizations. Here are five tips to get started with NotebookLM.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/notebooklm-business-tips/"
+ },
+ {
+  "slug": "notebooklm-custom-personas-engine-upgrade",
+  "title": "Chat in NotebookLM: A powerful, goal-focused AI research partner",
+  "date": "2025-10-29",
+  "authors": [
+   "Anuja Agrawal"
+  ],
+  "tags": [
+   "Google Labs",
+   "AI Products",
+   "Gemini models",
+   "NotebookLM"
+  ],
+  "description": "We’re rolling out changes to NotebookLM to make it fundamentally smarter and more powerful.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/notebooklm-custom-personas-engine-upgrade/"
+ },
+ {
+  "slug": "notebooklm-data-tables",
+  "title": "Organize your insights with Data Tables in NotebookLM.",
+  "date": "2025-12-18",
+  "authors": [],
+  "tags": [],
+  "description": "",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/notebooklm-data-tables/"
+ },
+ {
+  "slug": "notebooklm-deep-research-file-types",
+  "title": "NotebookLM adds Deep Research and support for more source types",
+  "date": "2025-11-13",
+  "authors": [
+   "Anuja Agrawal"
+  ],
+  "tags": [
+   "Google Labs",
+   "NotebookLM"
+  ],
+  "description": "NotebookLM adds \"Deep Research\" for discovering sources, support for Word and PDFs, and a preview of Sheets.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/notebooklm-deep-research-file-types/"
+ },
+ {
+  "slug": "notebooklm-discover-sources",
+  "title": "New in NotebookLM: Discover sources from around the web",
+  "date": "2025-04-02",
+  "authors": [
+   "Adam Bignell"
+  ],
+  "tags": [
+   "Google Labs",
+   "AI Products",
+   "NotebookLM"
+  ],
+  "description": "NotebookLM has launched Discover Sources, which lets you add sources from the web to your notebook.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/notebooklm-discover-sources/"
+ },
+ {
+  "slug": "notebooklm-featured-notebooks",
+  "title": "Try featured notebooks on selected topics in NotebookLM",
+  "date": "2025-07-14",
+  "authors": [
+   "Steven Johnson"
+  ],
+  "tags": [
+   "Google Labs",
+   "AI Products",
+   "NotebookLM"
+  ],
+  "description": "NotebookLM is adding featured notebooks, with works selected by partners like The Atlantic and The Economist.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/notebooklm-featured-notebooks/"
+ },
+ {
+  "slug": "notebooklm-new-features-december-2024",
+  "title": "NotebookLM gets a new look, audio interactivity and a premium version",
+  "date": "2024-12-13",
+  "authors": [
+   "Steven Johnson"
+  ],
+  "tags": [
+   "Google Labs",
+   "NotebookLM"
+  ],
+  "description": "NotebookLM is introducing new features, and a premium version called NotebookLM Plus.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/notebooklm-new-features-december-2024/"
+ },
+ {
+  "slug": "notebooklm-public-notebooks",
+  "title": "NotebookLM is adding a new way to share your own notebooks publicly.",
+  "date": "2025-06-03",
+  "authors": [
+   "Tin-Yun Ho"
+  ],
+  "tags": [],
+  "description": "",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/notebooklm-public-notebooks/"
+ },
+ {
+  "slug": "notebooklm-spotify-wrapped",
+  "title": "Listen to your first-ever 2024 Spotify Wrapped AI podcast, built with NotebookLM",
+  "date": "2024-12-04",
+  "authors": [
+   "Janakitti Ratana-Rueangsri"
+  ],
+  "tags": [
+   "Google Labs",
+   "AI Products",
+   "NotebookLM"
+  ],
+  "description": "NotebookLM is partnering with Spotify to create a personalized Wrapped AI podcast.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/notebooklm-spotify-wrapped/"
+ },
+ {
+  "slug": "notebooklm-student-features",
+  "title": "6 ways to use NotebookLM to master any subject",
+  "date": "2025-09-08",
+  "authors": [
+   "Marvin Paul"
+  ],
+  "tags": [
+   "Google Labs",
+   "AI Products",
+   "Learning & Education",
+   "NotebookLM"
+  ],
+  "description": "This semester, students can use NotebookLM to instantly generate flashcards, quizzes, professional reports and more.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/notebooklm-student-features/"
+ },
+ {
+  "slug": "notebooklm-studying-help",
+  "title": "3 ways to level up your studying with NotebookLM",
+  "date": "2025-04-03",
+  "authors": [
+   "Cheng-Wei Hu"
+  ],
+  "tags": [
+   "Google Labs",
+   "NotebookLM"
+  ],
+  "description": "Here’s how NotebookLM can help students prepare for their final exams.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/notebooklm-studying-help/"
+ },
+ {
+  "slug": "notebooklm-video-overviews-studio-upgrades",
+  "title": "What’s new in NotebookLM: Video Overviews and an upgraded Studio",
+  "date": "2025-07-29",
+  "authors": [
+   "Shan Wang"
+  ],
+  "tags": [
+   "Google Labs",
+   "NotebookLM"
+  ],
+  "description": "NotebookLM launches Video Overviews and upgrades to the Studio panel.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/notebooklm-video-overviews-studio-upgrades/"
+ },
+ {
+  "slug": "opal-agent",
+  "title": "Build dynamic agentic workflows in Opal",
+  "date": "2026-02-24",
+  "authors": [
+   "Dimitri Glazkov"
+  ],
+  "tags": [
+   "Google Labs",
+   "Developer tools"
+  ],
+  "description": "We’re launching a new agent step in Opal, available for all users today.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/opal-agent/"
+ },
+ {
+  "slug": "opal-expansion-160",
+  "title": "Opal is now available in more than 160 countries",
+  "date": "2025-11-06",
+  "authors": [
+   "Megan Li"
+  ],
+  "tags": [
+   "Google Labs"
+  ],
+  "description": "We’re bringing Opal to 160 countries.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/opal-expansion-160/"
+ },
+ {
+  "slug": "opal-expansion",
+  "title": "Expanding access to Opal, our no-code AI mini-app builder",
+  "date": "2025-10-07",
+  "authors": [
+   "Megan Li"
+  ],
+  "tags": [
+   "Google Labs",
+   "Developer tools"
+  ],
+  "description": "We’re bringing Opal to 15 new countries and making it even easier to build.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/opal-expansion/"
+ },
+ {
+  "slug": "pomelli-agentic-capabilities",
+  "title": "Pomelli adds new ways to build brand content and design websites.",
+  "date": "2026-05-19",
+  "authors": [
+   "Daniel Adonai"
+  ],
+  "tags": [],
+  "description": "Pomelli is introducing AI agents that can help you design your brand book and launch a website.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/pomelli-agentic-capabilities/"
+ },
+ {
+  "slug": "pomelli-in-europe",
+  "title": "Google brings Pomelli in English to small businesses in Europe.",
+  "date": "2026-04-21",
+  "authors": [],
+  "tags": [],
+  "description": "Small businesses across the EEA, U.K. and Switzerland can now use Pomelli in English to create custom, on-brand campaigns.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/pomelli-in-europe/"
+ },
+ {
+  "slug": "pomelli-photoshoot",
+  "title": "Create studio-quality marketing assets with Photoshoot in Pomelli",
+  "date": "2026-02-19",
+  "authors": [
+   "Daniel Adonai"
+  ],
+  "tags": [
+   "Google Labs"
+  ],
+  "description": "Introducing Pomelli Photoshoot, turn product photos into professional studio shots instantly using Nano Banana.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/pomelli-photoshoot/"
+ },
+ {
+  "slug": "pomelli",
+  "title": "Create on-brand marketing content for your business with Pomelli",
+  "date": "2025-10-28",
+  "authors": [
+   "Daniel Adonai"
+  ],
+  "tags": [
+   "Google Labs"
+  ],
+  "description": "Pomelli, our newest experiment from Google Labs and DeepMind, is here to help you create on-brand marketing content.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/pomelli/"
+ },
+ {
+  "slug": "portraits",
+  "title": "Portraits: personalized AI coaching built alongside real experts",
+  "date": "2025-06-05",
+  "authors": [
+   "Pavan Kumar"
+  ],
+  "tags": [
+   "Google Labs",
+   "AI Products"
+  ],
+  "description": "Our first Portrait features Kim Scott, bestselling author of “Radical Candor.”",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/portraits/"
+ },
+ {
+  "slug": "producerai",
+  "title": "ProducerAI: Your music creation partner, now in Google Labs",
+  "date": "2026-02-24",
+  "authors": [
+   "Elias Roman"
+  ],
+  "tags": [
+   "Google Labs"
+  ],
+  "description": "ProducerAI is joining Google Labs to help creatives grow, learn and make the music they imagine.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/producerai/"
+ },
+ {
+  "slug": "reflection-point-ai-sculpture",
+  "title": "Artists used Google’s generative AI products to inspire an interactive sculpture.",
+  "date": "2025-06-05",
+  "authors": [
+   "Jamie Barrar"
+  ],
+  "tags": [],
+  "description": "",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/reflection-point-ai-sculpture/"
+ },
+ {
+  "slug": "stitch-ai-ui-design",
+  "title": "Introducing “vibe design” with Stitch",
+  "date": "2026-03-18",
+  "authors": [
+   "Rustin Banks"
+  ],
+  "tags": [
+   "Google Labs",
+   "Developer tools"
+  ],
+  "description": "Stitch is evolving into an AI-native platform that allows anyone to create, iterate, and collaborate on high-fidelity UI.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-ai-ui-design/"
+ },
+ {
+  "slug": "stitch-design-md",
+  "title": "Stitch’s DESIGN.md format is now open-source so you can use it across platforms.",
+  "date": "2026-04-21",
+  "authors": [
+   "Cassia Xu"
+  ],
+  "tags": [],
+  "description": "We’ve open-sourced the draft specification for DESIGN.md, so it can be used across any single tool or platform.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-design-md/"
+ },
+ {
+  "slug": "stitch-gemini-3",
+  "title": "Bring your app ideas to life with Gemini 3 in Stitch.",
+  "date": "2025-12-10",
+  "authors": [
+   "Rustin Banks"
+  ],
+  "tags": [],
+  "description": "",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-gemini-3/"
+ },
+ {
+  "slug": "stitch-updates",
+  "title": "We’re introducing new ways to design in real time with Stitch.",
+  "date": "2026-05-19",
+  "authors": [
+   "Rustin Banks"
+  ],
+  "tags": [],
+  "description": "",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-updates/"
+ },
+ {
+  "slug": "video-image-generation-update-december-2024",
+  "title": "State-of-the-art video and image generation with Veo 2 and Imagen 3",
+  "date": "2024-12-16",
+  "authors": [
+   "Aäron van den Oord"
+  ],
+  "tags": [
+   "Google Labs",
+   "Google DeepMind"
+  ],
+  "description": "We’re rolling out a new, state-of-the-art video model, Veo 2, and updates to Imagen 3. Plus, check out our new experiment, Whisk.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/video-image-generation-update-december-2024/"
+ },
+ {
+  "slug": "video-overviews-nano-banana",
+  "title": "Video Overviews on NotebookLM get a major upgrade with Nano Banana",
+  "date": "2025-10-13",
+  "authors": [
+   "Eugene Lo"
+  ],
+  "tags": [
+   "Google Labs",
+   "Gemini models",
+   "AI Products",
+   "NotebookLM"
+  ],
+  "description": "NotebookLM's Video Overviews get an upgrade with visuals powered by Nano Banana and a new \"Brief\" format for quick summaries.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/video-overviews-nano-banana/"
+ },
+ {
+  "slug": "whisk",
+  "title": "Whisk: Visualize and remix ideas using images and AI",
+  "date": "2024-12-16",
+  "authors": [
+   "Thomas Iljic"
+  ],
+  "tags": [
+   "Google Labs",
+   "AI Products"
+  ],
+  "description": "Whisk is a new Google Labs experiment that lets you prompt using images for a fast and fun creative process.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/whisk/"
+ },
+ {
+  "slug": "amie-for-disease-management-in-nature",
+  "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
+  "date": "2026-06-17",
+  "authors": [
+   "Mike Schaekermann"
+  ],
+  "tags": [],
+  "description": "Research in “Nature” shows our conversational AI system matches primary care physicians in complex disease management.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/"
+ },
+ {
+  "slug": "amie-video-consultations",
+  "title": "AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.",
+  "date": "2026-08-11",
+  "authors": [
+   "Anil Palepu"
+  ],
+  "tags": [],
+  "description": "Google introduces AMIE for real-time clinical video consultations in simulated settings.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/"
+ },
+ {
+  "slug": "blue-skies",
+  "title": "Operation Blue Skies: Reducing aviation climate impact with AI",
+  "date": "2026-08-18",
+  "authors": [
+   "Paul Hodgson"
+  ],
+  "tags": [
+   "Google Research",
+   "Sustainability",
+   "UK"
+  ],
+  "description": "Google is partnering with the UK on Operation Blue Skies, an airspace-scale, AI-powered contrail avoidance trial.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/blue-skies/"
+ },
+ {
+  "slug": "contrail-avoidance-research",
+  "title": "Our new study explores how AI can reduce the climate impact of air travel.",
+  "date": "2026-03-19",
+  "authors": [],
+  "tags": [],
+  "description": "Our new study shows what happens when contrail avoidance is built directly into the tools airlines already use.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/contrail-avoidance-research/"
+ },
+ {
+  "slug": "firesat-satellites",
+  "title": "Three new satellites join the fight against wildfires.",
+  "date": "2026-07-07",
+  "authors": [
+   "Christopher Van Arsdale"
+  ],
+  "tags": [],
+  "description": "Three new FireSat satellites have launched, expanding a network that uses Google AI to help fire agencies detect early-stage wildfires.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/firesat-satellites/"
+ },
+ {
+  "slug": "google-beam-group-meetings",
+  "title": "A new experiment brings better group meetings to Google Beam",
+  "date": "2026-05-20",
+  "authors": [
+   "Mohamed Abdelgany"
+  ],
+  "tags": [
+   "Google Research",
+   "Google Workspace",
+   "AI"
+  ],
+  "description": "While video conferencing tools keep us connected, users can still struggle to feel included in the conversation. Trying to read subtle emotions in a sea of tiny boxes may leave remote participants feeling like observers rather than engaged participants. Google Beam, our true-to-life video communicat",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-beam-group-meetings/"
+ },
+ {
+  "slug": "mapping-global-methane-emissions-from-space",
+  "title": "A new deep learning model maps global methane emissions from space.",
+  "date": "2026-09-09",
+  "authors": [
+   "Vishal Batchu"
+  ],
+  "tags": [],
+  "description": "Google and NASA JPL developed an AI model to map and quantify global methane emissions from space using EMIT.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/mapping-global-methane-emissions-from-space/"
+ },
+ {
+  "slug": "5-ways-celebrate-tensorflows-5th-birthday",
+  "title": "5 ways to celebrate TensorFlow's 5th birthday",
+  "date": "2020-11-13",
+  "authors": [
+   "Josh Gordon"
+  ],
+  "tags": [
+   "Powered by TensorFlow",
+   "AI Products"
+  ],
+  "description": "We're celebrating TensorFlow's fifth birthday way five ways you can use and learn about our machine learning framework.",
+  "url": "https://blog.google/innovation-and-ai/technology/ai/5-ways-celebrate-tensorflows-5th-birthday/"
+ },
+ {
+  "slug": "ai-airlines-contrails-climate-change",
+  "title": "How AI is helping airlines mitigate the climate impact of contrails",
+  "date": "2023-08-08",
+  "authors": [
+   "Carl Elkin"
+  ],
+  "tags": [
+   "Sustainability",
+   "AI Products"
+  ],
+  "description": "We used AI to help airlines choose routes that are less likely to cause contrails, minimizing the environmental impact of flights.",
+  "url": "https://blog.google/innovation-and-ai/technology/ai/ai-airlines-contrails-climate-change/"
+ },
+ {
+  "slug": "ai-impact-summit-2026-india",
+  "title": "AI Impact Summit 2026: How we’re partnering to make AI work for everyone",
+  "date": "2026-02-18",
+  "authors": [
+   "James Manyika"
+  ],
+  "tags": [
+   "AI",
+   "Google.org",
+   "Google in Asia"
+  ],
+  "description": "An overview of Google’s new global partnerships and funding announcements at the AI Impact Summit in India.",
+  "url": "https://blog.google/innovation-and-ai/technology/ai/ai-impact-summit-2026-india/"
+ },
+ {
+  "slug": "ai-to-preserve-endangered-species",
+  "title": "How we’re helping preserve the genetic information of endangered species with AI",
+  "date": "2026-02-02",
+  "authors": [
+   "Lizzie Dorfman"
+  ],
+  "tags": [
+   "AI",
+   "Google Research"
+  ],
+  "description": "Scientists are working to sequence the genome of every known species on Earth.",
+  "url": "https://blog.google/innovation-and-ai/technology/ai/ai-to-preserve-endangered-species/"
+ },
+ {
+  "slug": "april-ai-update",
+  "title": "Google DeepMind: Bringing together two world-class AI teams",
+  "date": "2023-04-20",
+  "authors": [
+   "Sundar Pichai"
+  ],
+  "tags": [
+   "A message from our CEO",
+   "AI Products",
+   "Google Research",
+   "Google DeepMind"
+  ],
+  "description": "We announced some changes that will accelerate our progress in AI and help us develop more capable AI systems more safely and responsibly.",
+  "url": "https://blog.google/innovation-and-ai/technology/ai/april-ai-update/"
+ },
+ {
+  "slug": "ask-a-techspert-whats-a-neural-network",
+  "title": "Ask a Techspert: What’s a neural network?",
+  "date": "2021-07-07",
+  "authors": [
+   "Aryn Sanderson"
+  ],
+  "tags": [
+   "Ask a Techspert",
+   "AI Products"
+  ],
+  "description": "Neural networks can train computers to learn in a way similar to humans. Googler Maithra Raghu explains how they work.",
+  "url": "https://blog.google/innovation-and-ai/technology/ai/ask-a-techspert-whats-a-neural-network/"
+ },
+ {
+  "slug": "bard-google-ai-search-updates",
+  "title": "An important next step on our AI journey",
+  "date": "2023-02-06",
+  "authors": [
+   "Sundar Pichai"
+  ],
+  "tags": [
+   "A message from our CEO",
+   "AI Products",
+   "Gemini App",
+   "Gemini models"
+  ],
+  "description": "Introducing Bard (now Gemini), Google's conversational AI service — plus, new AI features in Search.",
+  "url": "https://blog.google/innovation-and-ai/technology/ai/bard-google-ai-search-updates/"
+ },
+ {
+  "slug": "future-vision-film-competition-xprize",
+  "title": "Google is partnering with XPRIZE and Range Media Partners on the $3.5 million Future Vision film competition.",
+  "date": "2026-05-05",
+  "authors": [],
+  "tags": [],
+  "description": "Google is partnering with XPRIZE and Range Media Partners on the $3.5 million Future Vision film competition.",
+  "url": "https://blog.google/innovation-and-ai/technology/ai/future-vision-film-competition-xprize/"
+ },
+ {
+  "slug": "how-make-ai-good-for-people",
+  "title": "How to make AI that’s good for people",
+  "date": "2018-04-07",
+  "authors": [
+   "Fei-Fei Li"
+  ],
+  "tags": [
+   "AI"
+  ],
+  "description": "If we want AI to play a positive role in tomorrow’s world, it must be guided by human concerns.",
+  "url": "https://blog.google/innovation-and-ai/technology/ai/how-make-ai-good-for-people/"
+ },
+ {
+  "slug": "io-2026-dialogues-recap",
+  "title": "Catch up on the Dialogues stage at Google I/O 2026.",
+  "date": "2026-05-22",
+  "authors": [],
+  "tags": [],
+  "description": "A recap of the 2026 I/O Dialogues, where leaders discuss the future of AI, quantum computing, robotics and creativity.",
+  "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-dialogues-recap/"
+ },
+ {
+  "slug": "io-2026-google-ai",
+  "title": "How we used Gemini to build Google I/O 2026",
+  "date": "2026-06-01",
+  "authors": [
+   "Marvin Chow"
+  ],
+  "tags": [
+   "AI",
+   "Gemini models",
+   "Google Labs",
+   "Developer tools"
+  ],
+  "description": "Learn how Googlers used AI to produce Google I/O 2026.",
+  "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/"
+ },
+ {
+  "slug": "ll-cool-j-dialogues",
+  "title": "Watch James Manyika talk AI and creativity with LL COOL J.",
+  "date": "2026-03-26",
+  "authors": [],
+  "tags": [],
+  "description": "In the latest episode of our Dialogues on Technology and Society series, LL COOL J sits down with James Manyika.",
+  "url": "https://blog.google/innovation-and-ai/technology/ai/ll-cool-j-dialogues/"
+ },
+ {
+  "slug": "machine-learning-gives-environmentalists-something-tweet-about",
+  "title": "Machine learning gives environmentalists something to tweet about",
+  "date": "2017-11-30",
+  "authors": [
+   "Derryn Webster"
+  ],
+  "tags": [
+   "Sustainability",
+   "Google in Asia",
+   "AI Products"
+  ],
+  "description": "A researcher in New Zealand used machine learning to identify different birdsongs, part of an effort to better understand the movement and numbers of threatened species.",
+  "url": "https://blog.google/innovation-and-ai/technology/ai/machine-learning-gives-environmentalists-something-tweet-about/"
+ },
+ {
+  "slug": "minimizing-carbon-footprint",
+  "title": "How we’re minimizing AI’s carbon footprint",
+  "date": "2021-04-22",
+  "authors": [
+   "David Patterson"
+  ],
+  "tags": [
+   "Sustainability",
+   "AI Products",
+   "Google Cloud",
+   "Global Network"
+  ],
+  "description": "A new analysis shows training machine learning models is surprisingly efficient. Here's what we’re doing to further minimize ML’s impact.",
+  "url": "https://blog.google/innovation-and-ai/technology/ai/minimizing-carbon-footprint/"
+ },
+ {
+  "slug": "notebooklm-google-ai",
+  "title": "Introducing NotebookLM",
+  "date": "2023-07-12",
+  "authors": [
+   "Raiza Martin"
+  ],
+  "tags": [
+   "Google Labs",
+   "AI Products",
+   "NotebookLM"
+  ],
+  "description": "We’re rolling out NotebookLM, an experimental offering from Google Labs to summarize information, complex ideas and brainstorm new connections.",
+  "url": "https://blog.google/innovation-and-ai/technology/ai/notebooklm-google-ai/"
+ },
+ {
+  "slug": "release-notes-podcast-project-genie",
+  "title": "Hear more about interactive world models in our latest podcast.",
+  "date": "2026-01-29",
+  "authors": [],
+  "tags": [],
+  "description": "",
+  "url": "https://blog.google/innovation-and-ai/technology/ai/release-notes-podcast-project-genie/"
+ },
+ {
+  "slug": "university-waterloo-labs",
+  "title": "Check out real-life AI prototypes from the Futures Lab.",
+  "date": "2026-05-29",
+  "authors": [],
+  "tags": [],
+  "description": "University of Waterloo students develop AI prototypes like sign language tutors to reshape the future of education and work.",
+  "url": "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/"
+ },
+ {
+  "slug": "veo-3-1-ingredients-to-video",
+  "title": "Veo 3.1 Ingredients to Video: More consistency, creativity and control",
+  "date": "2026-01-13",
+  "authors": [
+   "Ricky Wong"
+  ],
+  "tags": [
+   "AI"
+  ],
+  "description": "Today, we’re introducing an enhanced version of Veo 3.1 “Ingredients to Video.”",
+  "url": "https://blog.google/innovation-and-ai/technology/ai/veo-3-1-ingredients-to-video/"
+ },
+ {
+  "slug": "veo-3-1-lite",
+  "title": "Build with Veo 3.1 Lite, our most cost-effective video generation model",
+  "date": "2026-03-31",
+  "authors": [
+   "Alisa Fortin"
+  ],
+  "tags": [
+   "Developer tools",
+   "AI"
+  ],
+  "description": "Veo 3.1 Lite  is now available in paid preview through the Gemini API and for testing in Google AI Studio.",
+  "url": "https://blog.google/innovation-and-ai/technology/ai/veo-3-1-lite/"
+ },
+ {
+  "slug": "what-made-me-want-fight-fair-ai",
+  "title": "What made me want to fight for fair AI",
+  "date": "2021-10-08",
+  "authors": [
+   "Sarah Murphy Gray"
+  ],
+  "tags": [
+   "Googlers",
+   "AI Products",
+   "Google Research"
+  ],
+  "description": "Googler Sarah Murphy Gray tells us what led her to pursue a career in equitable AI and  shares what motivates her fight for fairness.",
+  "url": "https://blog.google/innovation-and-ai/technology/ai/what-made-me-want-fight-fair-ai/"
+ },
+ {
+  "slug": "what-our-quantum-computing-milestone-means",
+  "title": "What our quantum computing milestone means",
+  "date": "2019-10-23",
+  "authors": [
+   "Sundar Pichai"
+  ],
+  "tags": [
+   "AI"
+  ],
+  "description": "This moment represents a distinct milestone in our effort to harness the principles of quantum mechanics to solve computational problems.",
+  "url": "https://blog.google/innovation-and-ai/technology/ai/what-our-quantum-computing-milestone-means/"
+ },
+ {
+  "slug": "2021-year-review-google-quantum-ai",
+  "title": "2021 Year in Review: Google Quantum AI",
+  "date": "2021-12-30",
+  "authors": [
+   "Emily Mount"
+  ],
+  "tags": [
+   "Google Research",
+   "AI Products",
+   "Learning & Education",
+   "Quantum computing"
+  ],
+  "description": "The Google Quantum AI team recaps their work in 2021.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/2021-year-review-google-quantum-ai/"
+ },
+ {
+  "slug": "ai-collaboration-poland-2025",
+  "title": "At our Research@ Poland event we shared how AI is helping us solve big challenges.",
+  "date": "2025-11-19",
+  "authors": [],
+  "tags": [],
+  "description": "From AI education to disaster response, see how collaboration is at the heart of the work at Google Research.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/ai-collaboration-poland-2025/"
+ },
+ {
+  "slug": "ai-societal-impact-research",
+  "title": "Advancing AI for societal impact with Tel Aviv University",
+  "date": "2023-05-05",
+  "authors": [
+   "Deborah Cohen"
+  ],
+  "tags": [
+   "Google Research",
+   "Sustainability"
+  ],
+  "description": "Google and Tel Aviv University partner to accelerate AI research for societal impact.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/ai-societal-impact-research/"
+ },
+ {
+  "slug": "an-important-step-towards-improved-quantum-computers",
+  "title": "An important step towards improved quantum computers",
+  "date": "2023-05-11",
+  "authors": [
+   "Trond Andersen"
+  ],
+  "tags": [
+   "Google Research"
+  ],
+  "description": "Google shares an overview of the world’s first observation of non-Abelian braiding.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/an-important-step-towards-improved-quantum-computers/"
+ },
+ {
+  "slug": "announcing-the-2022-phd-fellows",
+  "title": "Announcing the 2022 PhD Fellows",
+  "date": "2022-09-01",
+  "authors": [
+   "Susie Kim"
+  ],
+  "tags": [
+   "Google Research",
+   "Student Programs"
+  ],
+  "description": "Google's PhD Fellowship Program Celebrates 13 Years and Announces the 2022 Awardees",
+  "url": "https://blog.google/innovation-and-ai/technology/research/announcing-the-2022-phd-fellows/"
+ },
+ {
+  "slug": "apply-project-starline-hp-product",
+  "title": "Apply to secure your company’s spot for the Project Starline x HP product",
+  "date": "2024-09-24",
+  "authors": [
+   "Maz Khorasani"
+  ],
+  "tags": [
+   "Google Research",
+   "AI Products"
+  ],
+  "description": "We’re sharing a first look of the upcoming Project Starline product and how companies can apply to be among the first to try it.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/apply-project-starline-hp-product/"
+ },
+ {
+  "slug": "behind-the-scenes-google-quantum-ai-lab",
+  "title": "Go inside the Google Quantum AI lab to learn about how quantum computing works",
+  "date": "2024-12-09",
+  "authors": [
+   "Anthony Megrant"
+  ],
+  "tags": [
+   "Google Research",
+   "AI Products"
+  ],
+  "description": "Get a behind-the-scenes look at Google's Quantum AI lab in Santa Barbara, CA.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/behind-the-scenes-google-quantum-ai-lab/"
+ },
+ {
+  "slug": "building-language-models-one-story-at-a-time",
+  "title": "Building language models, one story at a time",
+  "date": "2022-08-18",
+  "authors": [
+   "Allahsera Tapo, PhD"
+  ],
+  "tags": [
+   "Google Research",
+   "Next Billion Users"
+  ],
+  "description": "Helping bring Bambara online one story at a time.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/building-language-models-one-story-at-a-time/"
+ },
+ {
+  "slug": "cell2sentence-scale",
+  "title": "Our new C2S-Scale LLM helps researchers have conversations with cells.",
+  "date": "2025-04-17",
+  "authors": [],
+  "tags": [],
+  "description": "",
+  "url": "https://blog.google/innovation-and-ai/technology/research/cell2sentence-scale/"
+ },
+ {
+  "slug": "co-scientist-research-problems",
+  "title": "4 ways researchers are collaborating with Co-Scientist to solve big problems",
+  "date": "2026-06-09",
+  "authors": [
+   "Joel Meares"
+  ],
+  "tags": [
+   "Google Research"
+  ],
+  "description": "Learn how researchers are collaborating with Google's Co-Scientist to tackle complex scientific problems.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/co-scientist-research-problems/"
+ },
+ {
+  "slug": "deepsomatic-an-open-source-ai-model-is-speeding-up-genetic-analysis-for-cancer-research",
+  "title": "DeepSomatic, an open-source AI model, is speeding up genetic analysis for cancer research.",
+  "date": "2025-10-16",
+  "authors": [],
+  "tags": [],
+  "description": "An overview of DeepSomatic, a new AI tool that helps identify complex genetic variants in cancer cells.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/deepsomatic-an-open-source-ai-model-is-speeding-up-genetic-analysis-for-cancer-research/"
+ },
+ {
+  "slug": "explorecsr-final-cycle",
+  "title": "exploreCSR puts university departments on a path toward lasting change",
+  "date": "2024-12-06",
+  "authors": [
+   "Sepi Hejazi Moghadam"
+  ],
+  "tags": [
+   "Google Research",
+   "Learning & Education",
+   "Diversity and Inclusion"
+  ],
+  "description": "Today we’re announcing the 22 recipients in the 2024 cycle of the exploreCSR program.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/explorecsr-final-cycle/"
+ },
+ {
+  "slug": "first-firesat-images",
+  "title": "Check out the first images of wildfires detected by FireSat",
+  "date": "2025-07-23",
+  "authors": [
+   "Christopher Van Arsdale"
+  ],
+  "tags": [
+   "Google Research",
+   "Sustainability"
+  ],
+  "description": "Today, in partnership with the Earth Fire Alliance and Muon Space, we shared the first images of wildfires detected by FireSat, a revolutionary new satellite constellation purpose-built to detect and monitor wildfires on a global scale. This marks an important milestone in the ongoing work from Goog",
+  "url": "https://blog.google/innovation-and-ai/technology/research/first-firesat-images/"
+ },
+ {
+  "slug": "flood-prediction-ai",
+  "title": "Ask a Scientist: How can researchers use AI to predict a flood?",
+  "date": "2026-08-18",
+  "authors": [
+   "Hannah Hunt"
+  ],
+  "tags": [
+   "Google Research"
+  ],
+  "description": "A Google researcher explains how AI technology like Flood Hub and Groundsource can predict floods and help people around the world.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/flood-prediction-ai/"
+ },
+ {
+  "slug": "geospatial-reasoning",
+  "title": "We’re introducing a new way to analyze geospatial data.",
+  "date": "2025-04-08",
+  "authors": [],
+  "tags": [],
+  "description": "",
+  "url": "https://blog.google/innovation-and-ai/technology/research/geospatial-reasoning/"
+ },
+ {
+  "slug": "google-ai-research-new-images-human-brain",
+  "title": "6 incredible images of the human brain built with the help of Google's AI",
+  "date": "2024-05-09",
+  "authors": [
+   "Daniel Berger"
+  ],
+  "tags": [
+   "Google Research"
+  ],
+  "description": "Google researchers and Harvard neuroscientists have worked together to reveal incredible images of the human brain.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/google-ai-research-new-images-human-brain/"
+ },
+ {
+  "slug": "google-gesda-and-xprize-launch-new-competition-in-quantum-applications",
+  "title": "Google, GESDA and XPRIZE launch new competition in Quantum Applications",
+  "date": "2024-03-04",
+  "authors": [
+   "Brigitte Hoyer Gosselink"
+  ],
+  "tags": [
+   "Google Research",
+   "Google.org"
+  ],
+  "description": "Today, Google Quantum AI and Google.org are joining XPRIZE and the Geneva Science and Diplomacy Anticipator (GESDA) to launch XPRIZE Quantum Applications.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/google-gesda-and-xprize-launch-new-competition-in-quantum-applications/"
+ },
+ {
+  "slug": "google-gesda-xprize-quantum-applications-finalists",
+  "title": "The 7 finalists in the XPRIZE Quantum Applications competition",
+  "date": "2025-12-10",
+  "authors": [
+   "Ryan Babbush"
+  ],
+  "tags": [
+   "Google Research",
+   "Quantum computing"
+  ],
+  "description": "Google announces the 7 finalists in the XPRIZE Quantum Applications competition.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/google-gesda-xprize-quantum-applications-finalists/"
+ },
+ {
+  "slug": "google-phd-fellowship-program-2024",
+  "title": "Announcing the 2024 Google PhD Fellows",
+  "date": "2024-11-14",
+  "authors": [
+   "Leslie Yeh"
+  ],
+  "tags": [
+   "Google Research",
+   "Student Programs"
+  ],
+  "description": "Here are the newest fellows of the Google PhD Fellowship, along with reflections from nine PhD Fellowship Program alumni.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/google-phd-fellowship-program-2024/"
+ },
+ {
+  "slug": "google-project-starline-hp-partnership",
+  "title": "Bringing Project Starline out of the lab",
+  "date": "2024-05-13",
+  "authors": [
+   "Andrew Nartker"
+  ],
+  "tags": [
+   "Google Research"
+  ],
+  "description": "We’re partnering with HP to bring Starline, our breakthrough communication technology, out of the lab and into the market.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/google-project-starline-hp-partnership/"
+ },
+ {
+  "slug": "google-project-starline-usa-athletes",
+  "title": "Project Starline brings Team USA Olympians closer to home",
+  "date": "2024-08-09",
+  "authors": [
+   "Andrew Nartker"
+  ],
+  "tags": [
+   "Google Research"
+  ],
+  "description": "Project Starline helps connect Team USA Olympic Athletes to their loved ones back home to share their favorite moments.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/google-project-starline-usa-athletes/"
+ },
+ {
+  "slug": "google-project-suncatcher",
+  "title": "Meet Project Suncatcher, a research moonshot to scale machine learning compute in space.",
+  "date": "2025-11-04",
+  "authors": [],
+  "tags": [],
+  "description": "",
+  "url": "https://blog.google/innovation-and-ai/technology/research/google-project-suncatcher/"
+ },
+ {
+  "slug": "google-quantum-ai-selected-darpa-qbi",
+  "title": "Google Quantum AI has been selected for the DARPA Quantum Benchmarking Initiative.",
+  "date": "2025-09-09",
+  "authors": [
+   "Hartmut Neven"
+  ],
+  "tags": [],
+  "description": "Google Quantum AI has been selected to participate in the DARPA Quantum Benchmarking Initiative (QBI).",
+  "url": "https://blog.google/innovation-and-ai/technology/research/google-quantum-ai-selected-darpa-qbi/"
+ },
+ {
+  "slug": "google-quantum-computer-real-world-applications",
+  "title": "3 real-world problems that quantum computers could help solve",
+  "date": "2025-04-14",
+  "authors": [
+   "The Google Quantum AI Team"
+  ],
+  "tags": [
+   "Google Research",
+   "Quantum computing"
+  ],
+  "description": "For World Quantum Day, we’re sharing three real-world ways quantum computers may advance science and benefit people.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/google-quantum-computer-real-world-applications/"
+ },
+ {
+  "slug": "google-research-student-innovation-contest",
+  "title": "Google’s AI hardware, in new hands",
+  "date": "2020-08-17",
+  "authors": [
+   "Alex Olwal"
+  ],
+  "tags": [
+   "Google Research"
+  ],
+  "description": "Google Research helped sponsor UIST’s Student Innovation Contest; check out the winners.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/google-research-student-innovation-contest/"
+ },
+ {
+  "slug": "google-research-team-tackles-big-challenges-with-science",
+  "title": "Google Research: accelerating scientific breakthroughs to real-world impact",
+  "date": "2025-10-23",
+  "authors": [
+   "Yossi Matias"
+  ],
+  "tags": [
+   "Google Research"
+  ],
+  "description": "Here’s how Google Research’s approach is helping solve challenges in areas that affect so many people.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/google-research-team-tackles-big-challenges-with-science/"
+ },
+ {
+  "slug": "google-willow-quantum-chip",
+  "title": "Meet Willow, our state-of-the-art quantum chip",
+  "date": "2024-12-09",
+  "authors": [
+   "Hartmut Neven"
+  ],
+  "tags": [
+   "Google Research",
+   "Quantum computing"
+  ],
+  "description": "Our new quantum chip demonstrates error correction and performance that paves the way to a useful, large-scale quantum computer.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/google-willow-quantum-chip/"
+ },
+ {
+  "slug": "hair-raising-animation-won-googler-academy-award",
+  "title": "Hair-raising animation won this Googler an Academy Award",
+  "date": "2021-02-18",
+  "authors": [
+   "Zack Ontiveros"
+  ],
+  "tags": [
+   "Google Research"
+  ],
+  "description": "Googler John Anderson,  Principal Scientist at Google Research, wins an Academy Award for Technical Achievement for work during his time at Pixar.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/hair-raising-animation-won-googler-academy-award/"
+ },
+ {
+  "slug": "how-ai-creates-photorealistic-images-from-text",
+  "title": "How AI creates photorealistic images from text",
+  "date": "2022-06-22",
+  "authors": [
+   "Yonghui Wu"
+  ],
+  "tags": [
+   "Google Research",
+   "AI Products"
+  ],
+  "description": "Within Google Research, our scientists have been exploring text-to-image generation using a variety of AI techniques for a number of years.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/how-ai-creates-photorealistic-images-from-text/"
+ },
+ {
+  "slug": "how-were-testing-project-starline-google",
+  "title": "How we're testing Project Starline at Google",
+  "date": "2021-11-30",
+  "authors": [
+   "Andrew Nartker"
+  ],
+  "tags": [
+   "Google Research"
+  ],
+  "description": "Project Starline is helping Googlers with attentiveness, memory recall and personal connection.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/how-were-testing-project-starline-google/"
+ },
+ {
+  "slug": "indian-farmers-monsoon-prediction",
+  "title": "How AI is helping 38 million farmers with advance weather predictions",
+  "date": "2025-09-15",
+  "authors": [
+   "Olivia Graham"
+  ],
+  "tags": [
+   "Google Research",
+   "Google in Asia",
+   "AI Products",
+   "Sustainability"
+  ],
+  "description": "38 million farmers in India received accurate AI-powered forecasts of the start of the monsoon season.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/indian-farmers-monsoon-prediction/"
+ },
+ {
+  "slug": "introducing-googles-academic-research-award-winners",
+  "title": "Introducing the first Google Academic Research Award winners",
+  "date": "2024-10-03",
+  "authors": [
+   "Ashley Gardner"
+  ],
+  "tags": [
+   "Google Research",
+   "AI Products"
+  ],
+  "description": "Google launches GARA program to fund and support groundbreaking research in computing and technology, addressing global challenges.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/introducing-googles-academic-research-award-winners/"
+ },
+ {
+  "slug": "introducing-googles-new-academic-research-awards",
+  "title": "Introducing Google's new Academic Research Awards",
+  "date": "2024-06-13",
+  "authors": [
+   "Ashley Gardner"
+  ],
+  "tags": [
+   "Google Research",
+   "AI Products"
+  ],
+  "description": "Google launches GARA program to fund and support groundbreaking research in computing and technology, addressing global challenges.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/introducing-googles-new-academic-research-awards/"
+ },
+ {
+  "slug": "leslie-coney-csrmp-grad",
+  "title": "One researcher’s take on Google’s mentorship program",
+  "date": "2022-09-29",
+  "authors": [
+   "Cori Grainger"
+  ],
+  "tags": [
+   "Student Programs",
+   "Google Research",
+   "Diversity and Inclusion",
+   "Learning & Education"
+  ],
+  "description": "Find out how Google’s CS Research Mentorship Program helped University of Washington PhD student Leslie Coney advance her research career.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/leslie-coney-csrmp-grad/"
+ },
+ {
+  "slug": "liconn-connectomics",
+  "title": "Google Research and ISTA are using light microscopes to “map” the brain.",
+  "date": "2025-05-07",
+  "authors": [],
+  "tags": [],
+  "description": "",
+  "url": "https://blog.google/innovation-and-ai/technology/research/liconn-connectomics/"
+ },
+ {
+  "slug": "mahima-pushkarna-interview",
+  "title": "Mahima Pushkarna is making data easier to understand",
+  "date": "2022-06-30",
+  "authors": [
+   "Ted Klimenko"
+  ],
+  "tags": [
+   "Google Research",
+   "AI Products"
+  ],
+  "description": "Five years ago, Mahima Pushkarna, a multi-talented information designer, joined Google to pursue her aim to make data more widely accessible.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/mahima-pushkarna-interview/"
+ },
+ {
+  "slug": "makings-smart-cookie",
+  "title": "The makings of a smart cookie",
+  "date": "2017-12-04",
+  "authors": [
+   "Daniel Golovin"
+  ],
+  "tags": [
+   "Google Research",
+   "Small Business",
+   "AI Products"
+  ],
+  "description": "Now that the holidays are in full swing, you’ve probably already dipped your hand into the cookie jar. You may have a favorite time-tested holiday cookie recipe, but this year we decided to mix up our seasonal baking with two new ingredients: a local bakery in Pittsburgh and our Google AI technology",
+  "url": "https://blog.google/innovation-and-ai/technology/research/makings-smart-cookie/"
+ },
+ {
+  "slug": "mapping-creates-jobs-and-drives-global",
+  "title": "Mapping creates jobs and drives global economic growth",
+  "date": "2013-01-30",
+  "authors": [
+   "Brian McClendon"
+  ],
+  "tags": [
+   "Google Research",
+   "Maps",
+   "Google Earth"
+  ],
+  "description": "To present a clearer picture of the importance of the geo services industry, we commissioned studies from BCG and Oxera.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/mapping-creates-jobs-and-drives-global/"
+ },
+ {
+  "slug": "meet-phd-students-changing-face-computing",
+  "title": "Meet the Ph.D. students changing the face of computing",
+  "date": "2021-10-07",
+  "authors": [
+   "Chloe Tims"
+  ],
+  "tags": [
+   "Google Research",
+   "Student Programs",
+   "Diversity and Inclusion",
+   "Learning & Education"
+  ],
+  "description": "Learn more about our 2021 competitive dissertation award winners.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/meet-phd-students-changing-face-computing/"
+ },
+ {
+  "slug": "mentorship-inspires-deyrel-diaz-and-future-researchers",
+  "title": "Mentorship inspires Deyrel Diaz and future researchers",
+  "date": "2021-07-01",
+  "authors": [
+   "Cori Grainger"
+  ],
+  "tags": [
+   "Student Programs",
+   "Diversity and Inclusion",
+   "Learning & Education"
+  ],
+  "description": "Find out how Google’s CS Research Mentorship Program helped Clemson University PhD student Deyrel Diaz build a network for success.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/mentorship-inspires-deyrel-diaz-and-future-researchers/"
+ },
+ {
+  "slug": "mouse-brain-research",
+  "title": "Mouse brain research is helping us better understand human minds",
+  "date": "2024-07-08",
+  "authors": [
+   "Ari Marini"
+  ],
+  "tags": [
+   "Google Research",
+   "AI Products"
+  ],
+  "description": "Researchers on our Connectomics team have completed the largest ever AI-assisted digital reconstruction of human brain tissue. Here’s why they’re taking on the mouse brain next.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/mouse-brain-research/"
+ },
+ {
+  "slug": "neutral-atom-quantum-computers",
+  "title": "Building superconducting and neutral atom quantum computers",
+  "date": "2026-03-24",
+  "authors": [
+   "Hartmut Neven"
+  ],
+  "tags": [
+   "Google Research",
+   "Quantum computing"
+  ],
+  "description": "An overview of Google Quantum AI’s work on superconducting and neutral atom quantum computers.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/neutral-atom-quantum-computers/"
+ },
+ {
+  "slug": "new-research-shows-smartphone-growth-is",
+  "title": "New research shows smartphone growth is global",
+  "date": "2012-05-15",
+  "authors": [
+   "Dai Pham"
+  ],
+  "tags": [
+   "Google Research"
+  ],
+  "description": "Today, we're releasing new 2012 research data, and the findings are clear—smartphone adoption has gone global.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/new-research-shows-smartphone-growth-is/"
+ },
+ {
+  "slug": "now-ios-get-paid-share-your-opinion",
+  "title": "Now on iOS: Get paid to share your opinion",
+  "date": "2017-10-11",
+  "authors": [
+   "Julie Krueger"
+  ],
+  "tags": [
+   "Google Research"
+  ],
+  "description": "Google Opinion Rewards is now available on iOS. It's simple: get paid to share your opinion. If you're an iOS user, you can get it right now.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/now-ios-get-paid-share-your-opinion/"
+ },
+ {
+  "slug": "open-buildings-ai-powered-maps-for-a-changing-world",
+  "title": "Open Buildings: AI-powered maps for a changing world",
+  "date": "2024-09-19",
+  "authors": [
+   "Olivia Graham"
+  ],
+  "tags": [
+   "Google Research",
+   "Nonprofits"
+  ],
+  "description": "How we’re using AI to unlock information from low-res satellite imagery about how the world's cities are changing over time.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/open-buildings-ai-powered-maps-for-a-changing-world/"
+ },
+ {
+  "slug": "open-source-and-open-data",
+  "title": "Open source and open data",
+  "date": "2019-09-12",
+  "authors": [
+   "Hal Varian"
+  ],
+  "tags": [
+   "Google Research"
+  ],
+  "description": "At Google, we’ve long believed that open data and open source are good not only for us and our industry, but also benefit the world at large.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/open-source-and-open-data/"
+ },
+ {
+  "slug": "our-first-trust-safety-research-awards-grantees",
+  "title": "Our first Trust & Safety Research Awards grantees",
+  "date": "2024-01-09",
+  "authors": [
+   "Amanda Storey"
+  ],
+  "tags": [
+   "Google Research",
+   "Safety & Security"
+  ],
+  "description": "Google’s Trust & Safety Research Awards support academics working to create positive societal impact with technology. Meet our 2023 recipients.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/our-first-trust-safety-research-awards-grantees/"
+ },
+ {
+  "slug": "our-new-quantum-virtual-machine-will-accelerate-research-and-help-people-learn-quantum-computing",
+  "title": "Our new Quantum Virtual Machine will accelerate research and help people learn quantum computing",
+  "date": "2022-07-19",
+  "authors": [
+   "Catherine Vollgraff Heidweiller"
+  ],
+  "tags": [
+   "Google Research",
+   "Quantum computing"
+  ],
+  "description": "Google announces its new Quantum Virtual Machine",
+  "url": "https://blog.google/innovation-and-ai/technology/research/our-new-quantum-virtual-machine-will-accelerate-research-and-help-people-learn-quantum-computing/"
+ },
+ {
+  "slug": "our-unique-approach-to-research",
+  "title": "Our unique approach to research",
+  "date": "2012-07-02",
+  "authors": [
+   "Alfred Spector"
+  ],
+  "tags": [
+   "Google Research"
+  ],
+  "description": "Google started as a research project—and research has remained a core part of our culture.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/our-unique-approach-to-research/"
+ },
+ {
+  "slug": "powered-by-launchpad",
+  "title": "How local accelerators are powering global startups",
+  "date": "2019-08-12",
+  "authors": [
+   "Garrett Wood"
+  ],
+  "tags": [
+   "Google Research",
+   "Next Billion Users"
+  ],
+  "description": "See how Launchpad is helping startups solve global problems by bringing the best of Google to top accelerator partners around the world.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/powered-by-launchpad/"
+ },
+ {
+  "slug": "project-elevate-black-voices-google-research",
+  "title": "A partnership with Howard University to improve speech technology for Black voices",
+  "date": "2023-09-20",
+  "authors": [
+   "Dr. Courtney Heldreth"
+  ],
+  "tags": [
+   "Google Research"
+  ],
+  "description": "A partnership between Howard University and Google to build a high-quality African-American English speech dataset.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/project-elevate-black-voices-google-research/"
+ },
+ {
+  "slug": "project-starline-expands-testing",
+  "title": "Project Starline expands testing through an early access program",
+  "date": "2022-10-11",
+  "authors": [
+   "Andrew Nartker"
+  ],
+  "tags": [
+   "Google Research"
+  ],
+  "description": "Project Starline's early access program allows partners to test Starline and explore how it can help them navigate the future of work.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/project-starline-expands-testing/"
+ },
+ {
+  "slug": "project-starline-prototype",
+  "title": "A first look at Project Starline’s new, simpler prototype",
+  "date": "2023-05-10",
+  "authors": [
+   "Andrew Nartker"
+  ],
+  "tags": [
+   "Google Research"
+  ],
+  "description": "Our latest Project Starline prototype is smaller and easier to deploy in more offices.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/project-starline-prototype/"
+ },
+ {
+  "slug": "project-starline",
+  "title": "Project Starline: Feel like you're there, together",
+  "date": "2021-05-18",
+  "authors": [
+   "Clay Bavor"
+  ],
+  "tags": [
+   "Google Research"
+  ],
+  "description": "Introducing Project Starline, a technology project that makes you feel like you're together, even when you're apart.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/project-starline/"
+ },
+ {
+  "slug": "quantum-echoes-willow-verifiable-quantum-advantage",
+  "title": "Our Quantum Echoes algorithm is a big step toward real-world applications for quantum computing",
+  "date": "2025-10-22",
+  "authors": [
+   "Hartmut Neven"
+  ],
+  "tags": [
+   "Google Research",
+   "Quantum computing"
+  ],
+  "description": "Our latest quantum breakthrough, Quantum Echoes, offers a path toward unprecedented scientific discoveries and analysis.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/quantum-echoes-willow-verifiable-quantum-advantage/"
+ },
+ {
+  "slug": "quantum-hardware-verifiable-advantage",
+  "title": "Our quantum hardware: the engine for verifiable quantum advantage",
+  "date": "2025-10-22",
+  "authors": [
+   "Yu Chen"
+  ],
+  "tags": [
+   "Google Research",
+   "Quantum computing"
+  ],
+  "description": "Michel Devorat and Yu Chen provide an overview of the quantum hardware that made the Quantum Echoes breakthrough possible.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/quantum-hardware-verifiable-advantage/"
+ },
+ {
+  "slug": "scaling-quantum-computing-even-faster-with-atlantic-quantum",
+  "title": "We’re scaling quantum computing even faster with Atlantic Quantum.",
+  "date": "2025-10-02",
+  "authors": [
+   "Hartmut Neven"
+  ],
+  "tags": [],
+  "description": "",
+  "url": "https://blog.google/innovation-and-ai/technology/research/scaling-quantum-computing-even-faster-with-atlantic-quantum/"
+ },
+ {
+  "slug": "ten-years-google-genomics",
+  "title": "10 years of genomics research at Google",
+  "date": "2025-10-16",
+  "authors": [
+   "Katherine Chou"
+  ],
+  "tags": [
+   "Google Research",
+   "AI Products"
+  ],
+  "description": "An overview of ten years of milestones and breakthroughs in Google’s work on genomics.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/ten-years-google-genomics/"
+ },
+ {
+  "slug": "think-insights-now-includes-research",
+  "title": "Think Insights now includes research from 21 countries",
+  "date": "2012-05-15",
+  "authors": [
+   "Eileen Munnelly"
+  ],
+  "tags": [
+   "Google Research"
+  ],
+  "description": "Whether you’re a marketer in Milan or a planner in Pretoria, you can now get your hands on more Google research and tools.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/think-insights-now-includes-research/"
+ },
+ {
+  "slug": "useful-quantum-computing-applications",
+  "title": "The road to useful quantum computing applications",
+  "date": "2025-11-13",
+  "authors": [
+   "Ryan Babbush"
+  ],
+  "tags": [
+   "Google Research"
+  ],
+  "description": "An overview of our new framework to help us navigate the pathways and obstacles on the journey to real world quantum computing applications.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/useful-quantum-computing-applications/"
+ },
+ {
+  "slug": "using-new-technology-and-old-books-to-combat-disease",
+  "title": "Using new technology and old books to combat disease",
+  "date": "2022-12-12",
+  "authors": [
+   "Nikki Savickas"
+  ],
+  "tags": [
+   "Google Research"
+  ],
+  "description": "A team at Google Brain is using decades-old datasets mined by Google Books to combat insect-borne diseases.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/using-new-technology-and-old-books-to-combat-disease/"
+ },
+ {
+  "slug": "what-drives-nithya-sambasivans-fight-for-fairness",
+  "title": "What drives Nithya Sambasivan’s fight for fairness",
+  "date": "2021-03-22",
+  "authors": [
+   "MJ Pham"
+  ],
+  "tags": [
+   "The She Word",
+   "Google Research",
+   "AI Products",
+   "Next Billion Users"
+  ],
+  "description": "Meet Nithya, one of the founders of the HCI group at the Google Research India lab and an HCI researcher at PAIR.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/what-drives-nithya-sambasivans-fight-for-fairness/"
+ },
+ {
+  "slug": "what-is-google-research",
+  "title": "A golden age for research: broader scope, faster cycles, greater impact",
+  "date": "2024-10-17",
+  "authors": [
+   "Yossi Matias"
+  ],
+  "tags": [
+   "Google Research"
+  ],
+  "description": "An overview of Google Research and why research is having ever more real-world impact.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/what-is-google-research/"
+ },
+ {
+  "slug": "world-quantum-day-2023",
+  "title": "How Google is celebrating World Quantum Day",
+  "date": "2023-04-14",
+  "authors": [
+   "Kate Weber"
+  ],
+  "tags": [
+   "Google Research",
+   "Quantum computing"
+  ],
+  "description": "Google's Quantum AI Team celebrates World Quantum Day with a glimpse of its lab.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/world-quantum-day-2023/"
+ },
+ {
+  "slug": "world-quantum-day-meet-our-researchers-and-play-qubit-game",
+  "title": "World Quantum Day: Meet our researchers and play The Qubit Game",
+  "date": "2022-04-14",
+  "authors": [
+   "Abe Asfaw"
+  ],
+  "tags": [
+   "Google Research",
+   "Quantum computing"
+  ],
+  "description": "For World Quantum Day, the Google Quantum AI team is introducing people to the world of quantum computing by teaming up with Doublespeak Games to make The Qubit Game, a journey into quantum computing.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/world-quantum-day-meet-our-researchers-and-play-qubit-game/"
+ },
+ {
+  "slug": "zapbench-zebrafish-brain-mapping",
+  "title": "How we built one of the most ambitious datasets in brain activity research",
+  "date": "2025-06-09",
+  "authors": [
+   "Chaim Gartenberg"
+  ],
+  "tags": [
+   "Google Research",
+   "AI Products"
+  ],
+  "description": "Learn how Google Research’s team worked with collaborators at HHMI Janelia and Harvard University to build a dataset that tracks both the neural activity and nanoscale structure of an entire brain of single larval zebrafish.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/zapbench-zebrafish-brain-mapping/"
+ },
+ {
+  "slug": "zapbench-zebrafish-brains",
+  "title": "Our new research into zebrafish brains could help us predict brain activity.",
+  "date": "2025-04-24",
+  "authors": [],
+  "tags": [],
+  "description": "",
+  "url": "https://blog.google/innovation-and-ai/technology/research/zapbench-zebrafish-brains/"
+ },
+ {
+  "slug": "aeneas",
+  "title": "Google DeepMind’s new AI model helps historians interpret ancient texts.",
+  "date": "2025-07-23",
+  "authors": [
+   "TK Breuer"
+  ],
+  "tags": [],
+  "description": "Aeneas, a new AI model, helps historians interpret, attribute and restore ancient inscriptions.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/aeneas/"
+ },
+ {
+  "slug": "agi-safety-paper",
+  "title": "Read Google DeepMind’s new paper on responsible artificial general intelligence (AGI).",
+  "date": "2025-04-03",
+  "authors": [],
+  "tags": [],
+  "description": "",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/agi-safety-paper/"
+ },
+ {
+  "slug": "ai-planet-accelerator-apac",
+  "title": "Backing 16 green AI projects in Asia-Pacific",
+  "date": "2026-09-07",
+  "authors": [
+   "Spencer Low"
+  ],
+  "tags": [
+   "Google DeepMind",
+   "Google in Asia",
+   "Sustainability"
+  ],
+  "description": "We’re supporting 16 organizations across Asia-Pacific using frontier AI to tackle challenges in climate, agriculture, and biodiversity.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/ai-planet-accelerator-apac/"
+ },
+ {
+  "slug": "alphaqubit-quantum-error-correction",
+  "title": "AlphaQubit tackles one of quantum computing’s biggest challenges",
+  "date": "2024-11-20",
+  "authors": [
+   "Google DeepMind and Quantum AI teams"
+  ],
+  "tags": [
+   "Google DeepMind"
+  ],
+  "description": "AlphaQubit is an AI-based decoder that identifies quantum computing errors with state-of-the-art accuracy.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphaqubit-quantum-error-correction/"
+ },
+ {
+  "slug": "gemini-gold-icpc",
+  "title": "Gemini achieved gold-medal performance at the International Collegiate Programming Contest World Finals.",
+  "date": "2025-09-17",
+  "authors": [
+   "TK Breuer"
+  ],
+  "tags": [],
+  "description": "Gemini achieves gold status at the ICPC, marking a new leap in AI's abstract problem-solving.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-gold-icpc/"
+ },
+ {
+  "slug": "gemini-robotics-er-2",
+  "title": "Introducing Gemini Robotics ER 2",
+  "date": "2026-07-30",
+  "authors": [
+   "Steven Hansen"
+  ],
+  "tags": [
+   "Google DeepMind",
+   "Gemini models",
+   "Developer tools"
+  ],
+  "description": "Gemini Robotics ER 2 is a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-robotics-er-2/"
+ },
+ {
+  "slug": "gemini-universal-ai-assistant",
+  "title": "Our vision for building a universal AI assistant",
+  "date": "2025-05-20",
+  "authors": [
+   "Demis Hassabis"
+  ],
+  "tags": [
+   "Google DeepMind",
+   "Gemini models",
+   "Gemini App",
+   "AI Products"
+  ],
+  "description": "At Google I/O, we discussed how we're extending Gemini to become a world model.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-universal-ai-assistant/"
+ },
+ {
+  "slug": "google-gemini-ai-update-december-2024",
+  "title": "Introducing Gemini 2.0: our new AI model for the agentic era",
+  "date": "2024-12-11",
+  "authors": [
+   "Sundar Pichai"
+  ],
+  "tags": [
+   "Google DeepMind",
+   "Gemini models",
+   "Gemini Features"
+  ],
+  "description": "Today, we’re announcing Gemini 2.0, our most capable AI model yet.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/google-gemini-ai-update-december-2024/"
+ },
+ {
+  "slug": "google-gemini-updates-io-2025",
+  "title": "Gemini 2.5: Our most intelligent models are getting even better",
+  "date": "2025-05-20",
+  "authors": [
+   "Tulsee Doshi"
+  ],
+  "tags": [
+   "Google DeepMind",
+   "Gemini models",
+   "AI Products"
+  ],
+  "description": "At I/O 2025, we shared updates to our Gemini 2.5 model series and Deep Think, an experimental enhanced reasoning mode for 2.5 Pro.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/google-gemini-updates-io-2025/"
+ },
+ {
+  "slug": "introducing-weathernext-3",
+  "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+  "date": "2026-09-03",
+  "authors": [
+   "The WeatherNext team"
+  ],
+  "tags": [
+   "Google DeepMind"
+  ],
+  "description": "WeatherNext 3, our most advanced global weather AI model, is now in Search, Gemini, Maps, Google Maps Platform, and Cloud.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/"
+ },
+ {
+  "slug": "measuring-agi-cognitive-framework",
+  "title": "Measuring progress toward AGI: A cognitive framework",
+  "date": "2026-03-17",
+  "authors": [
+   "Ryan Burnell"
+  ],
+  "tags": [
+   "Google DeepMind"
+  ],
+  "description": "Google DeepMind proposes a cognitive framework to evaluate AGI and launches a Kaggle hackathon to build capability benchmarks",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/measuring-agi-cognitive-framework/"
+ },
+ {
+  "slug": "project-genie-expands",
+  "title": "Simulate real-world places with Project Genie and Street View",
+  "date": "2026-05-19",
+  "authors": [
+   "Diego Rivas"
+  ],
+  "tags": [
+   "Google DeepMind",
+   "Maps",
+   "Google Labs"
+  ],
+  "description": "We’re connecting Project Genie with nearly 20 years of Google Street View imagery so you can create new worlds anchored in reality.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie-expands/"
+ },
+ {
+  "slug": "running-guide-agent",
+  "title": "Running Guide agent: A step towards running unbounded",
+  "date": "2026-05-20",
+  "authors": [
+   "Robin Dua"
+  ],
+  "tags": [
+   "Google DeepMind",
+   "Accessibility",
+   "Google in Asia"
+  ],
+  "description": "Running Guide agent is an AI agent that provides real-time audio navigation and obstacle detection to help BLV athletes run independently.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/running-guide-agent/"
+ },
+ {
+  "slug": "tips-prompt-writing-project-genie",
+  "title": "Create new worlds in Project Genie with these 4 tips",
+  "date": "2026-03-03",
+  "authors": [
+   "Molly McHugh-Johnson"
+  ],
+  "tags": [
+   "Google DeepMind",
+   "AI"
+  ],
+  "description": "Learn more about Google DeepMind’s Project Genie and how to write prompts to create your own worlds.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/tips-prompt-writing-project-genie/"
+ },
+ {
+  "slug": "weathernext-2-cyclones",
+  "title": "Our WeatherNext 2 AI model demonstrated a massive leap forward in predicting cyclones.",
+  "date": "2026-08-06",
+  "authors": [],
+  "tags": [],
+  "description": "Google DeepMind’s WeatherNext 2 shows state-of-the-art accuracy in cyclone prediction.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/weathernext-2-cyclones/"
+ },
+ {
+  "slug": "weathernext-2",
+  "title": "WeatherNext 2: Our most advanced weather forecasting model",
+  "date": "2025-11-17",
+  "authors": [
+   "The WeatherNext team"
+  ],
+  "tags": [
+   "Google DeepMind",
+   "AI Products",
+   "Google Research"
+  ],
+  "description": "The new AI model delivers more efficient, more accurate and higher-resolution global weather predictions.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/weathernext-2/"
+ },
+ {
+  "slug": "dreambeans",
+  "title": "Meet Dreambeans, an app that connects you with what matters",
+  "date": "2026-06-03",
+  "authors": [
+   "Gozde Oznur"
+  ],
+  "tags": [
+   "Google Labs"
+  ],
+  "description": "Dreambeans uses Google’s latest AI capabilities to proactively curate daily stories that connect you with what matters most.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/dreambeans/"
+ },
+ {
+  "slug": "flow-updates",
+  "title": "New agents, mobile apps and Gemini Omni for Google Flow and Google Flow Music",
+  "date": "2026-05-19",
+  "authors": [
+   "Elias Roman"
+  ],
+  "tags": [
+   "Google Labs"
+  ],
+  "description": "Google Flow and Google Flow Music are creative collaborators, now with even more upgrades.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/flow-updates/"
+ },
+ {
+  "slug": "jules",
+  "title": "Build with Jules, your asynchronous coding agent",
+  "date": "2025-05-20",
+  "authors": [
+   "Kathy Korevec"
+  ],
+  "tags": [
+   "Google Labs",
+   "Developer tools"
+  ],
+  "description": "Google’s autonomous coding agent Jules is now in public beta.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/jules/"
+ },
+ {
+  "slug": "contrail-avoidance-ultra-long-haul-flights",
+  "title": "Our new contrail avoidance trial in Asia-Pacific",
+  "date": "2026-09-07",
+  "authors": [
+   "Kemal Armada"
+  ],
+  "tags": [
+   "Google Research"
+  ],
+  "description": "We’re partnering with Cathay Pacific to test our AI-powered contrail mitigation technology on ultra-long-haul flights.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/contrail-avoidance-ultra-long-haul-flights/"
+ },
+ {
+  "slug": "repliqa-quantum-computing-life-sciences",
+  "title": "Our new initiative to apply quantum science and AI to the life sciences",
+  "date": "2026-05-11",
+  "authors": [
+   "Hartmut Neven"
+  ],
+  "tags": [
+   "Quantum computing"
+  ],
+  "description": "Google's REPLIQA program funds academic institutions to apply quantum science and AI to life sciences for scientific breakthroughs.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/quantum-computing/repliqa-quantum-computing-life-sciences/"
+ },
+ {
+  "slug": "world-quantum-day-2026",
+  "title": "Answering your trending questions on World Quantum Day",
+  "date": "2026-04-14",
+  "authors": [
+   "The Google Quantum AI Team"
+  ],
+  "tags": [
+   "Quantum computing"
+  ],
+  "description": "Google celebrated World Quantum Day 2026 with a Doodle and a video about quantum computing.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/quantum-computing/world-quantum-day-2026/"
+ },
+ {
+  "slug": "full-stack-ai-explainer",
+  "title": "Ask an AI expert: What exactly is the full stack?",
+  "date": "2026-06-29",
+  "authors": [
+   "Molly McHugh-Johnson"
+  ],
+  "tags": [
+   "AI",
+   "Developer tools"
+  ],
+  "description": "A Google expert explains what it means to take a full-stack approach to AI and why it’s been the foundation of our AI work for so long.",
+  "url": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/"
+ },
+ {
+  "slug": "google-ai-updates-april-2026",
+  "title": "The latest AI news we announced in April 2026",
+  "date": "2026-05-04",
+  "authors": [
+   "Blog Team"
+  ],
+  "tags": [
+   "AI",
+   "Google Cloud",
+   "Google Workspace",
+   "Gemini models",
+   "Google Labs",
+   "Developer tools",
+   "Google.org",
+   "Fitbit",
+   "Translate"
+  ],
+  "description": "Here are Google’s latest AI updates from April 2026",
+  "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/"
+ },
+ {
+  "slug": "google-ai-updates-july-2026",
+  "title": "The latest AI news we announced in July 2026",
+  "date": "2026-08-04",
+  "authors": [
+   "News from Google Team"
+  ],
+  "tags": [
+   "AI",
+   "Gemini models",
+   "Google DeepMind",
+   "Search",
+   "Google Workspace",
+   "Google Cloud",
+   "Android"
+  ],
+  "description": "Here are Google’s latest AI updates from July 2026",
+  "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026/"
+ },
+ {
+  "slug": "google-ai-updates-june-2026",
+  "title": "The latest AI news we announced in June 2026",
+  "date": "2026-07-01",
+  "authors": [
+   "News from Google Team"
+  ],
+  "tags": [
+   "AI",
+   "Developer tools",
+   "Gemini models",
+   "Android",
+   "Pixel",
+   "Search",
+   "Google Nest",
+   "NotebookLM",
+   "Gemini App",
+   "Learning & Education",
+   "Arts & Culture",
+   "Google DeepMind",
+   "Google Research",
+   "Safety & Security",
+   "UK"
+  ],
+  "description": "Here are Google’s latest AI updates from June 2026.",
+  "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/"
+ },
+ {
+  "slug": "google-ai-updates-march-2026",
+  "title": "The latest AI news we announced in March 2026",
+  "date": "2026-04-01",
+  "authors": [
+   "Blog Team"
+  ],
+  "tags": [
+   "AI",
+   "Search",
+   "Google Workspace",
+   "Maps",
+   "Gemini App",
+   "Pixel",
+   "Translate",
+   "Health",
+   "Fitbit",
+   "Developer tools",
+   "Gemini models",
+   "Google DeepMind"
+  ],
+  "description": "Here are Google’s latest AI updates from March 2026",
+  "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-march-2026/"
+ },
+ {
+  "slug": "google-ai-updates-may-2026",
+  "title": "The latest AI news we announced in May 2026",
+  "date": "2026-06-05",
+  "authors": [
+   "Blog Team"
+  ],
+  "tags": [
+   "AI",
+   "Android",
+   "Google Health",
+   "Gemini models",
+   "Google DeepMind",
+   "Google Labs",
+   "Search",
+   "Gemini App",
+   "Fitbit",
+   "Shopping",
+   "Google Research",
+   "Google Cloud",
+   "Quantum computing"
+  ],
+  "description": "Here are Google’s latest AI updates from May 2026",
+  "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/"
+ },
+ {
+  "slug": "google-gemini-ai",
+  "title": "Introducing Gemini: our largest and most capable AI model",
+  "date": "2023-12-06",
+  "authors": [
+   "Sundar Pichai"
+  ],
+  "tags": [
+   "Gemini models",
+   "Developer tools",
+   "Google Cloud",
+   "Google Research",
+   "Google DeepMind",
+   "Pixel"
+  ],
+  "description": "Gemini is our most capable and general model, built to be multimodal and optimized for three different sizes: Ultra, Pro and Nano.",
+  "url": "https://blog.google/innovation-and-ai/technology/ai/google-gemini-ai/"
+ },
+ {
+  "slug": "google-gemini-update-sundar-pichai-2024",
+  "title": "The next chapter of our Gemini era",
+  "date": "2024-02-08",
+  "authors": [
+   "Sundar Pichai"
+  ],
+  "tags": [
+   "A message from our CEO",
+   "AI Products",
+   "Gemini Features",
+   "Google DeepMind",
+   "Gemini models"
+  ],
+  "description": "We're bringing Gemini to more Google products. Bard will now be called Gemini, and you can access our most capable AI model, Ultra 1.0, in Gemini Advanced.",
+  "url": "https://blog.google/innovation-and-ai/technology/ai/google-gemini-update-sundar-pichai-2024/"
+ },
+ {
+  "slug": "google-io-2023-keynote-sundar-pichai",
+  "title": "Google I/O 2023: Making AI more helpful for everyone",
+  "date": "2023-05-10",
+  "authors": [
+   "Sundar Pichai"
+  ],
+  "tags": [
+   "A message from our CEO"
+  ],
+  "description": "We’ve been applying AI to make our products radically more helpful for a while. With generative AI, we’re taking the next step.",
+  "url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2023-keynote-sundar-pichai/"
+ },
+ {
+  "slug": "google-io-2026-all-our-announcements",
+  "title": "100 things we announced at I/O 2026",
+  "date": "2026-05-20",
+  "authors": [
+   "News from Google Team"
+  ],
+  "tags": [
+   "AI",
+   "Gemini",
+   "Search"
+  ],
+  "description": "We've been busy! Here’s a rundown of the top announcements, launches and demos at I/O 2026.",
+  "url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/"
+ },
+ {
+  "slug": "io-2025-keynote",
+  "title": "Google I/O 2025: From research to reality",
+  "date": "2025-05-20",
+  "authors": [
+   "Sundar Pichai"
+  ],
+  "tags": [
+   "A message from our CEO",
+   "AI Products",
+   "Gemini models",
+   "Gemini App",
+   "Search",
+   "Google Labs",
+   "Google Workspace"
+  ],
+  "description": "At our annual developer conference, we announced how we’re making AI even more helpful with Gemini.",
+  "url": "https://blog.google/innovation-and-ai/technology/ai/io-2025-keynote/"
+ },
+ {
+  "slug": "io-2026-keynote-moment-videos",
+  "title": "Catch up on 12 major I/O 2026 moments",
+  "date": "2026-05-28",
+  "authors": [
+   "Zahra Thompson"
+  ],
+  "tags": [
+   "AI",
+   "Gemini App",
+   "Gemini models",
+   "Search",
+   "Shopping",
+   "Android",
+   "Google Labs"
+  ],
+  "description": "Here are 12 of the biggest Google I/O 2026 keynote moments, including news about Gemini Omni, Gemini 3.5 Flash and more.",
+  "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/"
+ },
+ {
+  "slug": "io-2026-vibe-coded-quiz",
+  "title": "Take our I/O 2026 quiz, vibe coded in Google AI Studio.",
+  "date": "2026-05-29",
+  "authors": [
+   "Zahra Thompson"
+  ],
+  "tags": [],
+  "description": "We used Google AI Studio to vibe code a quiz about our top I/O 2026 announcements.",
+  "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/"
+ },
+ {
+  "slug": "love-rendered-film",
+  "title": "Recreating a 70-year love story frame by frame",
+  "date": "2026-09-09",
+  "authors": [
+   "Michael Chang"
+  ],
+  "tags": [
+   "AI",
+   "Google DeepMind"
+  ],
+  "description": "Discover how filmmakers and Google DeepMind used AI to recreate a couple's unrecorded past in the short film \"Love, Rendered.\"",
+  "url": "https://blog.google/innovation-and-ai/technology/ai/love-rendered-film/"
+ },
+ {
+  "slug": "lyria-3-pro",
+  "title": "Lyria 3 Pro: Create longer tracks in more Google products",
+  "date": "2026-03-25",
+  "authors": [
+   "Myriam Hamed Torres"
+  ],
+  "tags": [
+   "AI",
+   "Gemini App",
+   "Developer tools",
+   "Google Labs"
+  ],
+  "description": "We are bringing Lyria 3 to the tools where professionals work and create every day.",
+  "url": "https://blog.google/innovation-and-ai/technology/ai/lyria-3-pro/"
+ },
+ {
+  "slug": "nano-banana-2",
+  "title": "Nano Banana 2: Combining Pro capabilities with lightning-fast speed",
+  "date": "2026-02-26",
+  "authors": [
+   "Naina Raisinghani"
+  ],
+  "tags": [
+   "AI",
+   "Gemini models"
+  ],
+  "description": "Our latest image generation model offers advanced world knowledge, production-ready specs, subject consistency and more, all at Flash speed.",
+  "url": "https://blog.google/innovation-and-ai/technology/ai/nano-banana-2/"
+ },
+ {
+  "slug": "ai-monk-scale-skin-tone-story",
+  "title": "A closer look at the research to help AI see more skin tones",
+  "date": "2022-05-11",
+  "authors": [
+   "Molly McHugh-Johnson"
+  ],
+  "tags": [
+   "Google Research",
+   "AI Products",
+   "Diversity and Inclusion"
+  ],
+  "description": "Meet the Googlers who’ve led this latest work, and learn more about why and how they’ve been dedicated to this AI advancement.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/ai-monk-scale-skin-tone-story/"
+ },
+ {
+  "slug": "gemini-for-science-io-2026",
+  "title": "Gemini for Science: AI experiments and tools for a new era of discovery",
+  "date": "2026-05-19",
+  "authors": [
+   "Pushmeet Kohli"
+  ],
+  "tags": [
+   "Google Research",
+   "Gemini",
+   "Google Labs",
+   "Google DeepMind"
+  ],
+  "description": "Gemini for Science is a new collection of science tools and experiments to expand the scale and precision of scientific exploration.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/gemini-for-science-io-2026/"
+ },
+ {
+  "slug": "gemini-help-communities-predict-crisis",
+  "title": "Groundsource: using AI to help communities better predict natural disasters",
+  "date": "2026-03-12",
+  "authors": [
+   "Yossi Matias"
+  ],
+  "tags": [
+   "Google Research",
+   "Sustainability"
+  ],
+  "description": "Groundsource is a new AI-powered methodology from Google Research that transforms millions of public records into actionable data.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/gemini-help-communities-predict-crisis/"
+ },
+ {
+  "slug": "google-beam-2025-moments",
+  "title": "4 highlights from Google Beam in 2025",
+  "date": "2025-12-11",
+  "authors": [
+   "Aaron Luber"
+  ],
+  "tags": [
+   "Google Research",
+   "AI Products"
+  ],
+  "description": "Google Beam, our first true-to-life 3D video communication platform, made great progress in 2025.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/google-beam-2025-moments/"
+ },
+ {
+  "slug": "google-research-scientific-discovery",
+  "title": "How we're using AI to drive scientific research with greater real-world benefit",
+  "date": "2025-05-08",
+  "authors": [
+   "Yossi Matias"
+  ],
+  "tags": [
+   "Google Research",
+   "AI Products"
+  ],
+  "description": "Google Research teams are using AI to address fundamental scientific questions and advance research across disciplines from quantum computing to genomics and neuroscience.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/google-research-scientific-discovery/"
+ },
+ {
+  "slug": "helping-communities-prepare-for-natural-disasters",
+  "title": "Towards a world where no one is surprised by a natural disaster",
+  "date": "2026-06-23",
+  "authors": [
+   "Yossi Matias"
+  ],
+  "tags": [
+   "Google Research"
+  ],
+  "description": "An overview of Google’s ongoing crisis resilience efforts and mission, shared at the AI for the Planet event.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/helping-communities-prepare-for-natural-disasters/"
+ },
+ {
+  "slug": "how-user-research-helped-create-unemployment-assistance-tools",
+  "title": "How user research helped create unemployment assistance tools",
+  "date": "2021-10-20",
+  "authors": [
+   "Molly McHugh-Johnson"
+  ],
+  "tags": [
+   "Google Research",
+   "Search"
+  ],
+  "description": "Behind the scenes of how Google’s User Experience Research team helped build new unemployment and job tools.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/how-user-research-helped-create-unemployment-assistance-tools/"
+ },
+ {
+  "slug": "male-fruit-fly-brain-map",
+  "title": "5 amazing visuals show how the male fruit fly’s brain map is advancing neuroscience",
+  "date": "2026-09-03",
+  "authors": [
+   "Michał Januszewski"
+  ],
+  "tags": [
+   "Google Research"
+  ],
+  "description": "HHMI Janelia, Google and partners mapped the brain and central nervous system of a male fruit fly, a key model organism in science.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/male-fruit-fly-brain-map/"
+ },
+ {
+  "slug": "new-updates-and-more-access-to-google-earth-ai",
+  "title": "New updates and more access to Google Earth AI",
+  "date": "2025-10-23",
+  "authors": [
+   "Yossi Matias"
+  ],
+  "tags": [
+   "Google Research",
+   "AI Products"
+  ],
+  "description": "Earth AI is helping enterprises and cities with everything from environmental monitoring to disaster response.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/new-updates-and-more-access-to-google-earth-ai/"
+ },
+ {
+  "slug": "project-starline-google-beam-update",
+  "title": "Google Beam: Our AI-first 3D video communication platform",
+  "date": "2025-05-20",
+  "authors": [
+   "Andrew Nartker"
+  ],
+  "tags": [
+   "Google Research",
+   "Gemini",
+   "Google Workspace"
+  ],
+  "description": "Project Starline is becoming Google Beam, a platform that uses AI to turn 2D video streams into realistic, immersive video calls.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/project-starline-google-beam-update/"
+ },
+ {
+  "slug": "rajavi-mishra-becoming-computer-science-researcher",
+  "title": "Rajavi Mishra on becoming a computer science researcher",
+  "date": "2022-02-10",
+  "authors": [
+   "Cori Grainger"
+  ],
+  "tags": [
+   "Google Research",
+   "Student Programs",
+   "Diversity and Inclusion",
+   "Learning & Education"
+  ],
+  "description": "Find out how Google’s CS Research Mentorship Program helped UC Berkeley senior Rajavi Mishra explore human-computer interaction.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/rajavi-mishra-becoming-computer-science-researcher/"
+ },
+ {
+  "slug": "technology-global-crisis-resilience",
+  "title": "How governments and organizations are leveraging Google’s AI breakthroughs for crisis resilience",
+  "date": "2026-07-07",
+  "authors": [
+   "Yossi Matias"
+  ],
+  "tags": [
+   "Google Research"
+  ],
+  "description": "Three ways Google collaborates with governments, international organizations and communities on global crisis resilience.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/technology-global-crisis-resilience/"
+ },
+ {
+  "slug": "understanding-the-ai-economy",
+  "title": "Understanding the AI economy",
+  "date": "2026-07-23",
+  "authors": [
+   "Zanna Iscenko"
+  ],
+  "tags": [
+   "Google Research"
+  ],
+  "description": "We’re releasing the first Activity, Task, Landscape, and Adoption Study (ATLAS) report, showing how people use Google’s AI tools.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/understanding-the-ai-economy/"
+ },
+ {
+  "slug": "world-quantum-day-doodle-superposition-thaumatrope",
+  "title": "Celebrate World Quantum Day with this mesmerizing Doodle",
+  "date": "2025-04-14",
+  "authors": [
+   "Molly McHugh-Johnson"
+  ],
+  "tags": [
+   "Google Research",
+   "Doodles"
+  ],
+  "description": "Learn more about Google’s World Quantum Day doodle, which illustrates the concept of superposition in quantum computing.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/world-quantum-day-doodle-superposition-thaumatrope/"
+ }
+]
