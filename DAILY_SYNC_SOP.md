@@ -7,7 +7,7 @@
 
 1. **幂等**：所有步骤以「文件已存在即跳过」为准，重复执行不产生副作用。
 2. **串行**：翻译逐篇进行，不并发派发子代理（本机并发配额 ≈1）。
-3. **限量**：单日新增文章翻译上限 **10 篇**；存量补译（Raschka）每日上限 **5 篇**；超出部分记入待办，次日继续。
+3. **限量**：单日新增文章翻译上限 **10 篇**；如有存量未译（按 `python3 -c` 比对 *-articles 与 *-articles-zh 文件集），每日另补译 **5 篇**；超出部分记入待办，次日继续。（2026-09-14 存量冲刺后：Raschka articles/faq 已全部译完，当前无存量。）
 4. **翻译规范**：各来源遵循对应 `TRANSLATION_GUIDE_*.md`（全文完整翻译、术语一致、公式保留 LaTeX、代码块不译）；译文文件名与英文归档一一对应。
 5. **归档格式**：英文 markdown 存 `<来源>-articles/posts/<slug>.md`，译文存 `<来源>-articles-zh/posts/<slug>.md`（sglang/claudecode 为平铺无 posts 子目录）。
 6. **网络**：本机 curl/WebFetch 对 github/raw/archive.org 经常失败；失败时改用浏览器页面上下文 fetch + node:fs 落盘，或稍后重试一次。禁止使用 webReader 抓正文（会摘要化/幻觉化）。
@@ -17,11 +17,17 @@
 
 ## 各来源操作手册
 
-### 1. OpenAI（openai-articles，69 篇已收）
+### 1. OpenAI（openai-articles，71 篇已收）
 
-- 检测：打开 `https://openai.com/news/`（旧 `openai.com/index/`）按 slug 对比 `openai-articles/meta.json`；`slugs.txt` 为已收清单。
-- 抓取：**只能用 Wayback（web.archive.org，取最新快照）或有头浏览器**（参照 `crawl_openai_wayback.py`、`crawl_openai_driver.py`），抓完转 markdown。
-- 坑：webReader 抓不到全文；部分老文需要 Wayback 回溯。
+- 检测（CDX 首抓法，2026-09-14 验证可行）：
+  ```bash
+  # 走 SOCKS 代理；取每个 URL 的首次抓取时间，≥上次同步日且未收录的才是新文
+  curl -sS --socks5-hostname 127.0.0.1:10808 --max-time 240 \
+    "https://web.archive.org/cdx/search/cdx?url=openai.com%2Findex%2F*&output=text&fl=original,timestamp&collapse=urlkey&filter=statuscode:200&filter=mimetype:text/html&limit=8000"
+  ```
+  注意：CDX 默认按时间升序 + collapse=urlkey 取首条=首次抓取；`from=` 窗口查询会混入老文重抓，不可用于判新。limit 截断时对个别候选单独查 `url=openai.com/index/<slug>`。CDX 会间歇 504/429，退避重试（间隔 ≥10s）。
+- 归档：取 Wayback 快照 `https://web.archive.org/web/<ts>id_/https://openai.com/index/<slug>/`（curl 需 `--compressed`），正文在嵌套 div（非单一 article），用"按文档序收集 h1/h2/h3/blockquote/div.max-w-none>p"的抽取器；转 markdown 后 `crawl_openai_finalize.py <slug> <url> <category>` 补 frontmatter，再清理尾部 "Keep reading" 等导航段。
+- 坑：openai.com 直连 403（Cloudflare，走代理也是挑战页）；webReader 禁用。
 
 ### 2. Google 三源（crawl_google.py）
 
@@ -51,11 +57,11 @@
 - 检测：GitHub 仓库 `lilianweng/lilianweng.github.io` 的 `_posts/` 目录（比网页源更早更新）。
 - 抓取：直接取仓库内 markdown 原文（jekyll frontmatter 保留），新文归档到 `lilianweng-articles/posts/` 后翻译。
 
-### 7. Sebastian Raschka（sebastianraschka-articles，存量 318 篇、已译 111 篇）
+### 7. Sebastian Raschka（sebastianraschka-articles，319 篇已收、已全部译完）
 
-- 检测：`https://sebastianraschka.com`（blog/articles/faq）与 `magazine.sebastianraschka.com` vs `_crawl_report.json`。
-- 抓取：`crawl_raschka.py`。
-- 存量补译：优先级 blog 新文 → magazine → llm-architecture-gallery → 旧专栏；按 `sebastianraschka-articles-zh/README.md` 勾选状态取未译篇目。
+- 检测：`https://sebastianraschka.com/sitemap.xml` 中 `/(blog|articles)/<年>/<slug>.html` 与归档文件（按年份子目录、无 .html 后缀）比对，参见 `detect_new.py`。
+- 抓取：`crawl_raschka.py`（`fetch_one(url)` 可直接复用）。
+- faq/ 是问答短文（中位 3KB），批量翻译时可 15 篇/子代理。
 
 ### 8. 苏剑林《科学空间》（sujianlin-articles，1336 篇已收，中文原文）
 

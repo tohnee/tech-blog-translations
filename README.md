@@ -3,14 +3,14 @@
 收录 10 个高质量技术博客来源的全量文章归档与完整中文翻译
 （英文存档 `9` 源 + 中文原文 `1` 源；苏剑林博客为中文站点，仅归档）。
 
-> 累计：英文/原文归档 **2735** 篇，中文译文 **1197** 篇。
+> 累计：英文/原文归档 **2737** 篇，中文译文 **1401** 篇。
 > 每日自动同步：定时任务按 [DAILY_SYNC_SOP.md](DAILY_SYNC_SOP.md) 拉取各源新文章、归档并翻译，随后更新本索引并推送 GitHub。
 
 ## 项目总览
 
 | 来源 | 原文站点 | 英文存档 | 中文翻译 | 篇数 | 索引 |
 |---|---|---|---|---|---|
-| OpenAI | openai.com/blog | [openai-articles/](openai-articles/)（69） | [openai-articles-zh/](openai-articles-zh/)（69） | 69 / 69 | [规范](TRANSLATION_GUIDE_OPENAI.md) · [目录](openai-articles-zh/README.md) |
+| OpenAI | openai.com/blog | [openai-articles/](openai-articles/)（71） | [openai-articles-zh/](openai-articles-zh/)（71） | 71 / 71 | [规范](TRANSLATION_GUIDE_OPENAI.md) · [目录](openai-articles-zh/README.md) |
 | Google DeepMind | deepmind.google/blog | [deepmind-articles/](deepmind-articles/)（347） | [deepmind-articles-zh/](deepmind-articles-zh/)（347） | 347 / 347 | [规范](TRANSLATION_GUIDE_GOOGLE.md) · [目录](deepmind-articles-zh/README.md) |
 | Gemini | blog.google（gemini 栏目） | [gemini-articles/](gemini-articles/)（123） | [gemini-articles-zh/](gemini-articles-zh/)（123） | 123 / 123 | [规范](TRANSLATION_GUIDE_GOOGLE.md) · [目录](gemini-articles-zh/README.md) |
 | Google Blog | blog.google/innovation-and-ai | [google-blog-articles/](google-blog-articles/)（231） | [google-blog-articles-zh/](google-blog-articles-zh/)（231） | 231 / 231 | [规范](TRANSLATION_GUIDE_GOOGLE.md) · [目录](google-blog-articles-zh/README.md) |
@@ -18,7 +18,7 @@
 | SGLang / LMSYS | lmsys.org/blog | [sglang-articles/](sglang-articles/)（96） | [sglang-articles-zh/](sglang-articles-zh/)（96） | 96 / 96 | [规范](TRANSLATION_GUIDE_SGLANG.md) · [目录](sglang-articles-zh/README.md) |
 | Claude Code / Anthropic | anthropic.com（工程博客） | [claudecode-articles/](claudecode-articles/)（27） | [claudecode-articles-zh/](claudecode-articles-zh/)（27） | 27 / 27 | [规范](TRANSLATION_GUIDE_CLAUDECODE.md) · [目录](claudecode-articles-zh/README.md) |
 | Lilian Weng | lilianweng.github.io | [lilianweng-articles/](lilianweng-articles/)（53） | [lilianweng-articles-zh/](lilianweng-articles-zh/)（53） | 53 / 53 | [规范](TRANSLATION_GUIDE_LILIANWENG.md) · [目录](lilianweng-articles-zh/README.md) |
-| Sebastian Raschka | sebastianraschka.com | [sebastianraschka-articles/](sebastianraschka-articles/)（319） | [sebastianraschka-articles-zh/](sebastianraschka-articles-zh/)（117） | 319 / 117 | — · [目录](sebastianraschka-articles-zh/README.md) |
+| Sebastian Raschka | sebastianraschka.com | [sebastianraschka-articles/](sebastianraschka-articles/)（319） | [sebastianraschka-articles-zh/](sebastianraschka-articles-zh/)（319） | 319 / 319 | — · [目录](sebastianraschka-articles-zh/README.md) |
 | 苏剑林《科学空间》 | kexue.fm | [sujianlin-articles/](sujianlin-articles/)（1336） | —（原文为中文） | 1336 | — · [目录](sujianlin-articles/README.md) |
 
 ## 说明
