@@ -120,7 +120,7 @@ def main() -> None:
             "name": "Sebastian Raschka", "site": "sebastianraschka.com",
             "en": "sebastianraschka-articles", "zh": "sebastianraschka-articles-zh",
             "guide": None, "readme": "sebastianraschka-articles-zh/README.md",
-            "note": "存量 318 篇（blog/专栏/FAQ/画廊/magazine），已译 111 篇，其余每日同步补齐",
+            "note": "存量含 blog/专栏/FAQ/画廊/magazine，中文译文每日同步任务持续补译",
         },
         {
             "name": "苏剑林《科学空间》", "site": "kexue.fm",

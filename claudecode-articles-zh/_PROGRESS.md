@@ -6,7 +6,12 @@ frontmatter：title 换中文，新增 title_en + translated: 2026-09-11，其�
 
 子代理不可用（两种类型均 600s 无活动），由主会话直接翻译。
 
-## 状态：✅ 全部完成（2026-09-11，25/25）
+## 状态：✅ 全部完成（2026-09-11，25/25；2026-09-14 增补 2 篇，27/27）
+
+### 2026-09-14 每日同步增补（Anthropic News，安全工程同类）
+
+26. [x] enterprise-frontier-safeguards (2026-09-01)
+27. [x] improving-alignment-security-efforts (2026-09-10)
 
 1. [x] contextual-retrieval (2024-09-19)
 2. [x] building-effective-agents (2024-12-19)

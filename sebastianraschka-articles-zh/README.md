@@ -1,6 +1,6 @@
 # Sebastian Raschka 技术文章中文翻译
 
-> 共 110 篇（博客 79 篇 + LLM 架构图解 31 篇），全文翻译，2026-09-06 完成。
+> 共 116 篇（博客 80 + LLM 架构图解 31 + 旧技术专栏 5），全文翻译；2026-09-06 完成首批 110 篇，此后每日同步补译。
 > 英文原文存档见 [sebastianraschka-articles/](../sebastianraschka-articles/)；翻译规范见 [TRANSLATION_GUIDE.md](../TRANSLATION_GUIDE.md)。
 > 每篇头部含英文原标题与原文链接；代码块、图片链接、公式原样保留。
 
@@ -126,9 +126,10 @@ Substack 专栏译文，按发布年份存放；后续更新继续追加。
 - [机器学习/AI 的 Hello World：从随机森林到 RLVR](blog/2025/hello-world-ai.md)
 - [如何从技术书中获得最大收益](blog/2025/reading-books.md)
 
-### 2026（29 篇）
+### 2026（30 篇）
 
 - [20 万订阅者](blog/2026/ahead-of-ai-reached-200000-subscribers.md)
+- [《AI Reasoning Models》课程上线](blog/2026/ai-reasoning-models-course.md)
 - [《Build a Reasoning Model (From Scratch)》正式出版](blog/2026/build-a-reasoning-model-from-scratch-is-out.md)
 - [《从零构建推理模型》现已登陆 Amazon](blog/2026/build-a-reasoning-model-from-scratch-on-amazon.md)
 - [Claude 文本水印的工作原理](blog/2026/claude-text-watermarking.md)
@@ -157,3 +158,11 @@ Substack 专栏译文，按发布年份存放；后续更新继续追加。
 - [State of AI 2026 访谈](blog/2026/state-of-ai-interview.md)
 - [使用本地编程智能体](blog/2026/using-local-coding-agents.md)
 - [VibeThinker-3B 后训练笔记](blog/2026/vibethinker-3b-post-training.md)
+
+## 旧技术专栏 articles（5 / 27 篇，持续补译中）
+
+- [特征缩放与归一化](articles/2014_about_feature_scaling.md)
+- [朴素贝叶斯与文本分类](articles/2014_naive_bayes_1.md)
+- [监督机器学习基础](articles/2014_intro_supervised_learning.md)
+- [RBF 核 PCA 与核技巧](articles/2014_kernel_pca.md)
+- [主成分分析（PCA）：三步教程](articles/2015_pca_in_3_steps.md)

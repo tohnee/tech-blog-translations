@@ -1,11 +1,11 @@
 # Claude Code 技术博客中文翻译（Anthropic Engineering Blog）
 
-Anthropic 官方工程博客中 Claude Code 与智能体编码主题的 **25 篇技术文章**全文翻译。
+Anthropic 官方工程博客中 Claude Code 与智能体编码主题的 **27 篇技术文章**全文翻译。
 
 - 英文存档：`../claudecode-articles/<slug>.md`（HTML→Markdown，含图片与链接）
 - 中文译文：本目录 `<slug>.md`（与源文件同名镜像）
 - 翻译规范：[../TRANSLATION_GUIDE_CLAUDECODE.md](../TRANSLATION_GUIDE_CLAUDECODE.md)（含全文统一术语表）
-- 翻译完成日期：2026-09-11
+- 首批 25 篇完成于 2026-09-11；2026-09-14 增补 2 篇（Anthropic News 安全工程类），每日同步任务持续更新
 
 ## 目录（按发布时间排序）
 
@@ -36,10 +36,12 @@ Anthropic 官方工程博客中 Claude Code 与智能体编码主题的 **25 篇
 | 23 | 2026-04-08 | [Managed Agents 的规模化之道：把大脑与双手解耦](managed-agents.md) | Scaling Managed Agents: Decoupling the brain from the hands |
 | 24 | 2026-04-23 | [关于近期 Claude Code 质量报告的更新](april-23-postmortem.md) | An update on recent Claude Code quality reports |
 | 25 | 2026-05-25 | [我们如何在各产品中约束 Claude](how-we-contain-claude.md) | How we contain Claude across products |
+| 26 | 2026-09-01 | [与我们的客户共同开发 Enterprise Frontier Safeguards](enterprise-frontier-safeguards.md) | Developing Enterprise Frontier Safeguards with our customers |
+| 27 | 2026-09-10 | [改进我们的对齐与安全工作](improving-alignment-security-efforts.md) | Improving our alignment and security efforts |
 
 ## 说明
 
-- **范围**：Anthropic 工程博客自 2024-09 至 2026-05 的全部 25 篇文章（sitemap 全量），内容覆盖 Claude Code 最佳实践、沙箱与自动模式、权限体系、上下文工程、工具设计与 MCP、Agent Skills、长时运行智能体执行框架、多智能体系统、评估方法（evals）、事故复盘等。其中《上下文检索》《Desktop Extensions》等少数篇目并非 Claude Code 专属，为保持全量收录一并译出。
+- **范围**：Anthropic 工程博客自 2024-09 至 2026-05 的全部 25 篇文章（sitemap 全量），内容覆盖 Claude Code 最佳实践、沙箱与自动模式、权限体系、上下文工程、工具设计与 MCP、Agent Skills、长时运行智能体执行框架、多智能体系统、评估方法（evals）、事故复盘等。其中《上下文检索》《Desktop Extensions》等少数篇目并非 Claude Code 专属，为保持全量收录一并译出。2026-09-14 起，与安全工程同类的 Anthropic News 文章（对齐与安全实践、企业防护）也纳入收录。
 - **claude-code-best-practices**：原博客 URL 现重定向至 code.claude.com/docs/en/best-practices（官方现行版本），本档按该页面存档；原 2025-04 博客版本因 Wayback Machine 在当前网络环境不可达而未采用，frontmatter 的 `note` 字段有记录。
 - **翻译原则**：全文翻译不缩写；代码块、命令、图片 URL、链接 URL 原样保留；术语全文统一（见规范文件术语表）。
 - **原文链接**：每篇译文开头的引用行均带原文 URL，可点击对照阅读。

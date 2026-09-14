@@ -11,6 +11,8 @@
 4. **翻译规范**：各来源遵循对应 `TRANSLATION_GUIDE_*.md`（全文完整翻译、术语一致、公式保留 LaTeX、代码块不译）；译文文件名与英文归档一一对应。
 5. **归档格式**：英文 markdown 存 `<来源>-articles/posts/<slug>.md`，译文存 `<来源>-articles-zh/posts/<slug>.md`（sglang/claudecode 为平铺无 posts 子目录）。
 6. **网络**：本机 curl/WebFetch 对 github/raw/archive.org 经常失败；失败时改用浏览器页面上下文 fetch + node:fs 落盘，或稍后重试一次。禁止使用 webReader 抓正文（会摘要化/幻觉化）。
+   - **SOCKS 代理**：系统代理 `127.0.0.1:10808`（scutil --proxy 可查）。curl 加 `--socks5-hostname 127.0.0.1:10808` 可访问 archive.org 等被直连阻断的站点（Wayback CDX 会 504/429 过载，改用 availability API 或稍后重试）。openai.com 直连 403（Cloudflare），走代理也会拿到挑战页，检测以 Wayback 快照为准。
+   - kexue.fm 若本网与代理出口均 SSL EOF（IP 封禁），当日跳过。
 7. **空跑**：若所有来源均无新文章且无存量待译，直接结束，不做空提交。
 
 ## 各来源操作手册

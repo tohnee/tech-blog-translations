@@ -3,7 +3,7 @@
 收录 10 个高质量技术博客来源的全量文章归档与完整中文翻译
 （英文存档 `9` 源 + 中文原文 `1` 源；苏剑林博客为中文站点，仅归档）。
 
-> 累计：英文/原文归档 **2732** 篇，中文译文 **1189** 篇。
+> 累计：英文/原文归档 **2735** 篇，中文译文 **1197** 篇。
 > 每日自动同步：定时任务按 [DAILY_SYNC_SOP.md](DAILY_SYNC_SOP.md) 拉取各源新文章、归档并翻译，随后更新本索引并推送 GitHub。
 
 ## 项目总览
@@ -16,9 +16,9 @@
 | Google Blog | blog.google/innovation-and-ai | [google-blog-articles/](google-blog-articles/)（231） | [google-blog-articles-zh/](google-blog-articles-zh/)（231） | 231 / 231 | [规范](TRANSLATION_GUIDE_GOOGLE.md) · [目录](google-blog-articles-zh/README.md) |
 | vLLM | blog.vllm.ai | [vllm-articles/](vllm-articles/)（134） | [vllm-articles-zh/](vllm-articles-zh/)（134） | 134 / 134 | [规范](TRANSLATION_GUIDE_VLLM.md) · [目录](vllm-articles-zh/README.md) |
 | SGLang / LMSYS | lmsys.org/blog | [sglang-articles/](sglang-articles/)（96） | [sglang-articles-zh/](sglang-articles-zh/)（96） | 96 / 96 | [规范](TRANSLATION_GUIDE_SGLANG.md) · [目录](sglang-articles-zh/README.md) |
-| Claude Code / Anthropic | anthropic.com（工程博客） | [claudecode-articles/](claudecode-articles/)（25） | [claudecode-articles-zh/](claudecode-articles-zh/)（25） | 25 / 25 | [规范](TRANSLATION_GUIDE_CLAUDECODE.md) · [目录](claudecode-articles-zh/README.md) |
+| Claude Code / Anthropic | anthropic.com（工程博客） | [claudecode-articles/](claudecode-articles/)（27） | [claudecode-articles-zh/](claudecode-articles-zh/)（27） | 27 / 27 | [规范](TRANSLATION_GUIDE_CLAUDECODE.md) · [目录](claudecode-articles-zh/README.md) |
 | Lilian Weng | lilianweng.github.io | [lilianweng-articles/](lilianweng-articles/)（53） | [lilianweng-articles-zh/](lilianweng-articles-zh/)（53） | 53 / 53 | [规范](TRANSLATION_GUIDE_LILIANWENG.md) · [目录](lilianweng-articles-zh/README.md) |
-| Sebastian Raschka | sebastianraschka.com | [sebastianraschka-articles/](sebastianraschka-articles/)（318） | [sebastianraschka-articles-zh/](sebastianraschka-articles-zh/)（111） | 318 / 111 | — · [目录](sebastianraschka-articles-zh/README.md) |
+| Sebastian Raschka | sebastianraschka.com | [sebastianraschka-articles/](sebastianraschka-articles/)（319） | [sebastianraschka-articles-zh/](sebastianraschka-articles-zh/)（117） | 319 / 117 | — · [目录](sebastianraschka-articles-zh/README.md) |
 | 苏剑林《科学空间》 | kexue.fm | [sujianlin-articles/](sujianlin-articles/)（1336） | —（原文为中文） | 1336 | — · [目录](sujianlin-articles/README.md) |
 
 ## 说明
@@ -27,7 +27,7 @@
 - **vLLM**：MathJax SVG 公式已还原为 LaTeX
 - **SGLang / LMSYS**：SGLang 及生态（slime 等）全部技术博文
 - **Lilian Weng**：52 篇 + FAQ，全部完成
-- **Sebastian Raschka**：存量 318 篇（blog/专栏/FAQ/画廊/magazine），已译 111 篇，其余每日同步补齐
+- **Sebastian Raschka**：存量含 blog/专栏/FAQ/画廊/magazine，中文译文每日同步任务持续补译
 - **苏剑林《科学空间》**：中文原文全量归档（1336 篇），无需翻译；细目见 INDEX.md
 
 - 三个 Google 来源（DeepMind / Gemini / Google Blog）另有合并详表索引：[google-articles-zh-README.md](google-articles-zh-README.md)
