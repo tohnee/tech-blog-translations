@@ -133,6 +133,27 @@ def detect():
         result["openai"] = [(s, f"https://openai.com/index/{s}/") for s in slugs if s and s not in have]
     except Exception as e:  # noqa: BLE001
         result["openai"] = f"ERROR: {e}"
+    # --- Claude 博客（claude.com 直连可抓）---
+    try:
+        xml = fetch("https://claude.com/sitemap.xml")
+        urls = re.findall(r"<loc>([^<]+)</loc>", xml)
+        have = {p.stem for p in (ROOT / "claude-blog-articles").rglob("*.md") if p.name != "README.md"}
+        result["claude-blog"] = [(u.rstrip("/").split("/")[-1], u) for u in urls if re.search(r"/blog/[a-z0-9\-]+/?$", u) and u.rstrip("/").split("/")[-1] not in have]
+    except Exception as e:  # noqa: BLE001
+        result["claude-blog"] = f"ERROR: {e}"
+    # --- OpenAI 开发者博客（直连常被拒，SOP 走 Wayback+SOCKS；此处先直连尝试）---
+    try:
+        have = {p.stem for p in (ROOT / "openai-dev-articles/posts").glob("*.md")}
+        newp = []
+        for base in ("https://developers.openai.com/blog/index.xml",):
+            try:
+                xml = fetch(base)
+                newp += [(m.group(1), m.group(0)) for m in re.finditer(r"https://developers\.openai\.com/blog/([a-z0-9\-]+)/?", xml) if m.group(1) not in have]
+            except Exception:  # noqa: BLE001
+                continue
+        result["openai-dev"] = dedup(newp)
+    except Exception as e:  # noqa: BLE001
+        result["openai-dev"] = f"ERROR: {e}"
     # --- 苏剑林 kexue.fm（单请求，严格限速）---
     try:
         time.sleep(3)

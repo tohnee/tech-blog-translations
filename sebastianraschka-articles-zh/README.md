@@ -1,6 +1,6 @@
 # Sebastian Raschka 技术文章中文翻译
 
-> 共 319 篇（博客 80 + LLM 架构图解 31 + magazine 1 + 旧技术专栏 27 + FAQ 180），与英文存档 319 篇一一对应、全文翻译；2026-09-06 完成首批 110 篇，2026-09-14 存量全部补齐，此后每日同步新文。
+> 共 320 篇（博客 81 + LLM 架构图解 31 + magazine 1 + 旧技术专栏 27 + FAQ 180），与英文存档一一对应、全文翻译；2026-09-06 完成首批 110 篇，2026-09-14 存量全部补齐，此后每日同步新文。
 > 英文原文存档见 [sebastianraschka-articles/](../sebastianraschka-articles/)；翻译规范见 [TRANSLATION_GUIDE.md](../TRANSLATION_GUIDE.md)。
 > 每篇头部含英文原标题与原文链接；代码块、图片链接、公式原样保留。
 
@@ -126,7 +126,7 @@ Substack 专栏译文，按发布年份存放；后续更新继续追加。
 - [机器学习/AI 的 Hello World：从随机森林到 RLVR](blog/2025/hello-world-ai.md)
 - [如何从技术书中获得最大收益](blog/2025/reading-books.md)
 
-### 2026（30 篇）
+### 2026（31 篇）
 
 - [20 万订阅者](blog/2026/ahead-of-ai-reached-200000-subscribers.md)
 - [《AI Reasoning Models》课程上线](blog/2026/ai-reasoning-models-course.md)
@@ -150,6 +150,7 @@ Substack 专栏译文，按发布年份存放；后续更新继续追加。
 - [Nemotron 3 Super 吞吐量笔记](blog/2026/nemotron-3-super-throughput.md)
 - [Nemotron 3 Ultra 潜在 MoE 笔记](blog/2026/nemotron-3-ultra-latent-moe.md)
 - [North Mini Code 编程智能体笔记](blog/2026/north-mini-code-agentic-coding.md)
+- [Pacing ≠ 放缓开发](blog/2026/pacing-development.md)
 - [六个值得关注的开放权重模型架构笔记](blog/2026/notable-open-weight-models-this-week.md)
 - [OpenAI Astra 与循环 Transformer](blog/2026/openai-astra-looped-transformers.md)
 - [推理模型新书读书会问答活动](blog/2026/reasoning-model-book-club-q-and-a.md)

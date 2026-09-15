@@ -15,7 +15,18 @@
    - kexue.fm 若本网与代理出口均 SSL EOF（IP 封禁），当日跳过。
 7. **空跑**：若所有来源均无新文章且无存量待译，直接结束，不做空提交。
 
-## 各来源操作手册
+## 各来源操作手册（12 源）
+
+### 0a. Claude 博客（claude-blog-articles，86 篇已收）
+
+- 检测：`https://claude.com/sitemap.xml` 中 `/blog/<slug>` 与 `claude-blog-articles/` 比对（claude.com 直连可抓）。
+- 抓取：`crawl_claude_fetch.py`；只收技术类文章（筛除客户故事/产品发布/企业合规/活动类，判定标准见 `claude-blog-articles-zh/README.md` 建库说明）。
+- 翻译规范：`TRANSLATION_GUIDE_CLAUDE_BLOG.md`。
+
+### 0b. OpenAI 开发者博客（openai-dev-articles，14 篇已收）
+
+- 检测：`developers.openai.com/blog` 直连常被拒——走 SOCKS 代理抓列表或 `index.xml`；仍失败则 Wayback。
+- 抓取：`crawl_devcrawl.py`；28 篇中只收技术文（清单见 `openai-dev-articles/titles.md`）。
 
 ### 1. OpenAI（openai-articles，71 篇已收）
 

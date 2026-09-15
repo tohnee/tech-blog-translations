@@ -12,7 +12,7 @@ GOOGLE_SOURCES = [
 ]
 
 
-def count_md(base: Path, exclude=("README.md", "INDEX.md", "_PROGRESS.md")) -> int:
+def count_md(base: Path, exclude=("README.md", "INDEX.md", "_PROGRESS.md", "titles.md")) -> int:
     if not base.exists():
         return 0
     return sum(1 for p in base.rglob("*.md") if p.name not in exclude)
@@ -108,6 +108,20 @@ def main() -> None:
             "guide": "TRANSLATION_GUIDE_CLAUDECODE.md",
             "readme": "claudecode-articles-zh/README.md",
             "note": "",
+        },
+        {
+            "name": "Claude 博客", "site": "claude.com/blog",
+            "en": "claude-blog-articles", "zh": "claude-blog-articles-zh",
+            "guide": "TRANSLATION_GUIDE_CLAUDE_BLOG.md",
+            "readme": "claude-blog-articles-zh/README.md",
+            "note": "官方 sitemap 技术类筛选，2026-09-14 建库 86/86",
+        },
+        {
+            "name": "OpenAI 开发者博客", "site": "developers.openai.com/blog",
+            "en": "openai-dev-articles", "zh": "openai-dev-articles-zh",
+            "guide": "TRANSLATION_GUIDE_CLAUDE_BLOG.md",
+            "readme": "openai-dev-articles-zh/README.md",
+            "note": "28 篇中筛选技术文 14/14，2026-09-14 建库",
         },
         {
             "name": "Lilian Weng", "site": "lilianweng.github.io",
