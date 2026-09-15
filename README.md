@@ -3,7 +3,7 @@
 收录 12 个高质量技术博客来源的全量文章归档与完整中文翻译
 （英文存档 `11` 源 + 中文原文 `1` 源；苏剑林博客为中文站点，仅归档）。
 
-> 累计：英文/原文归档 **2838** 篇，中文译文 **1502** 篇。
+> 累计：英文/原文归档 **2840** 篇，中文译文 **1504** 篇。
 > 每日自动同步：定时任务按 [DAILY_SYNC_SOP.md](DAILY_SYNC_SOP.md) 拉取各源新文章、归档并翻译，随后更新本索引并推送 GitHub。
 
 ## 项目总览
@@ -11,7 +11,7 @@
 | 来源 | 原文站点 | 英文存档 | 中文翻译 | 篇数 | 索引 |
 |---|---|---|---|---|---|
 | OpenAI | openai.com/blog | [openai-articles/](openai-articles/)（71） | [openai-articles-zh/](openai-articles-zh/)（71） | 71 / 71 | [规范](TRANSLATION_GUIDE_OPENAI.md) · [目录](openai-articles-zh/README.md) |
-| Google DeepMind | deepmind.google/blog | [deepmind-articles/](deepmind-articles/)（347） | [deepmind-articles-zh/](deepmind-articles-zh/)（347） | 347 / 347 | [规范](TRANSLATION_GUIDE_GOOGLE.md) · [目录](deepmind-articles-zh/README.md) |
+| Google DeepMind | deepmind.google/blog | [deepmind-articles/](deepmind-articles/)（349） | [deepmind-articles-zh/](deepmind-articles-zh/)（349） | 349 / 349 | [规范](TRANSLATION_GUIDE_GOOGLE.md) · [目录](deepmind-articles-zh/README.md) |
 | Gemini | blog.google（gemini 栏目） | [gemini-articles/](gemini-articles/)（123） | [gemini-articles-zh/](gemini-articles-zh/)（123） | 123 / 123 | [规范](TRANSLATION_GUIDE_GOOGLE.md) · [目录](gemini-articles-zh/README.md) |
 | Google Blog | blog.google/innovation-and-ai | [google-blog-articles/](google-blog-articles/)（231） | [google-blog-articles-zh/](google-blog-articles-zh/)（231） | 231 / 231 | [规范](TRANSLATION_GUIDE_GOOGLE.md) · [目录](google-blog-articles-zh/README.md) |
 | vLLM | blog.vllm.ai | [vllm-articles/](vllm-articles/)（134） | [vllm-articles-zh/](vllm-articles-zh/)（134） | 134 / 134 | [规范](TRANSLATION_GUIDE_VLLM.md) · [目录](vllm-articles-zh/README.md) |

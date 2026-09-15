@@ -6,7 +6,7 @@
 - 译文目录：本目录 `posts/`，文件名与原文 slug 一一对应
 - 三源合并总索引：[`../google-articles-zh-README.md`](../google-articles-zh-README.md)
 
-## 进度：347 / 347
+## 进度：349 / 349
 
 ## 2026 年
 
@@ -16,9 +16,11 @@
 - [x] [Putting sign language AI into users’ hands](posts/putting-sign-language-ai-into-users-hands.md) · [EN](https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/)
 - [x] [WeatherNext: AI model achieves breakthrough in forecasting cyclones](posts/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones.md) · [EN](https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/)
 - [x] [Gemini Robotics 2 brings whole body intelligence to robots](posts/gemini-robotics-2-brings-whole-body-intelligence-to-robots.md) · [EN](https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/)
+- [x] [Introducing Gemini Robotics ER 2](posts/gemini-robotics-er-2.md) · [EN](https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-robotics-er-2/)
 - [x] [Introducing Gemini 3.5 Flash Cyber](posts/introducing-gemini-3-5-flash-cyber.md) · [EN](https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/)
 - [x] [Our approach to bioresilience](posts/our-approach-to-bioresilience.md) · [EN](https://deepmind.google/blog/our-approach-to-bioresilience/)
 - [x] [Empowering India’s next generation of innovators with ATL Saathi](posts/empowering-indias-next-generation-of-innovators-with-atl-saathi.md) · [EN](https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/)
+- [x] [Google DeepMind and A24 announce first-of-its-kind research partnership](posts/deepmind-a24-research-partnership.md) · [EN](https://blog.google/innovation-and-ai/models-and-research/google-deepmind/deepmind-a24-research-partnership/)
 - [x] [Securing the future of AI agents](posts/securing-the-future-of-ai-agents.md) · [EN](https://deepmind.google/blog/securing-the-future-of-ai-agents/)
 - [x] [Unlocking UK house-building with AI-accelerated planning](posts/unlocking-uk-house-building-with-ai-accelerated-planning.md) · [EN](https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/)
 - [x] [Investing in multi-agent AI safety research](posts/investing-in-multi-agent-ai-safety-research.md) · [EN](https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/)

@@ -77,11 +77,18 @@ def detect():
         result["sglang"] = [(s, u) for s, u in dedup(links(html, "https://lmsys.org/blog/", r"https://lmsys\.org/blog/([0-9a-zA-Z\-]+)/?$")) if s not in have]
     except Exception as e:  # noqa: BLE001
         result["sglang"] = f"ERROR: {e}"
-    # --- DeepMind ---
+    # --- DeepMind（直连正常；2026-09 起文章迁移至 blog.google/google-deepmind/，两处都要查）---
     try:
-        html = fetch("https://deepmind.google/blog/")
         have = meta_slugs(ROOT / "deepmind-articles/meta.json")
-        result["deepmind"] = [(s, u) for s, u in dedup(links(html, "https://deepmind.google/blog/", r"https://deepmind\.google/blog/([0-9a-zA-Z\-]+)/?$")) if s not in have]
+        raw = []
+        html = fetch("https://deepmind.google/blog/")
+        raw += links(html, "https://deepmind.google/blog/", r"https://deepmind\.google/blog/([0-9a-zA-Z\-]+)/?$")
+        # 迁移后的交叉链接（列表页指向 blog.google）
+        for m in re.finditer(r'href="(https://blog\.google/[a-z0-9\-/]+)/?"', html):
+            u = m.group(1)
+            if "/google-deepmind/" in u:
+                raw.append((u.rstrip("/").split("/")[-1], u))
+        result["deepmind"] = [(s, u) for s, u in dedup(raw) if s not in have]
     except Exception as e:  # noqa: BLE001
         result["deepmind"] = f"ERROR: {e}"
     # --- Gemini（两个栏目）---

@@ -42,10 +42,10 @@
 
 ### 2. Google 三源（crawl_google.py）
 
-- **DeepMind** `https://deepmind.google/blog/`，已收清单 `deepmind-articles/meta.json` 与 `.urls-deepmind.txt`。
+- **DeepMind** `https://deepmind.google/blog/`，已收清单 `deepmind-articles/meta.json`。**注意：2026-09 起 DeepMind 文章迁移到 blog.google/innovation-and-ai/models-and-research/google-deepmind/<slug>/，deepmind.google 旧域 URL 返回 404**——检测需同时看列表页里的 blog.google 交叉链接（detect_new.py 已实现）；抓取用 `crawl_google.extract_bloggoogle`（blog.google 页面 DOM），meta 记 blog.google URL。
 - **Gemini** `https://blog.google/products-and-platforms/products/gemini/` 及 `innovation-and-ai/models-and-research/gemini-models/`，清单 `gemini-articles/meta.json`。
 - **Google Blog** `https://blog.google/innovation-and-ai/`，清单 `google-blog-articles/meta.json`。
-- 检测：抓各栏目列表页，按 slug 去重；新文章按 `crawl_google.py` 流程抓正文，meta.json 追加条目（slug/title/date/authors/tags/description/url）。
+- 检测：**blog.google 列表页是 JS 渲染，裸 HTML 只有栏目链接（检测是盲的）**——必须走 sitemap（`blog.google/sitemap.xml`，需 SOCKS 代理，直连 SSL 断）或 DeepMind 列表页交叉链接兜底。新文章按 `crawl_google.py` 流程抓正文，meta.json 追加条目。
 
 ### 3. vLLM（vllm-articles，134 篇已收）
 
@@ -55,7 +55,7 @@
 
 ### 4. SGLang / LMSYS（sglang-articles，96 篇已收）
 
-- 检测：`https://lmsys.org/blog/` 索引页 vs 现有 `2024-xx-xx-*.md` 文件名。
+- 检测：`https://lmsys.org/blog/` 索引页 vs 现有 `2024-xx-xx-*.md` 文件名。**已知盲区：列表页 JS 渲染（裸 HTML 无文章链接）、无 feed/sitemap（index.xml/feed.xml/sitemap.xml 均 404 或空）**——检测失败时改用浏览器渲染页面人工核对，或对比近期已知 slug 前缀（日期-开头）。
 - 抓取：LMSYS 博客为 GitHub Pages，优先从其 GitHub 源取 markdown；`blog.sglang.io` 长期不可达，不要依赖。
 
 ### 5. Claude Code / Anthropic（claudecode-articles，25 篇已收）
