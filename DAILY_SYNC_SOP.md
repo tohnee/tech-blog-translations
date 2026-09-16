@@ -15,7 +15,7 @@
    - kexue.fm 若本网与代理出口均 SSL EOF（IP 封禁），当日跳过。
 7. **空跑**：若所有来源均无新文章且无存量待译，直接结束，不做空提交。
 
-## 各来源操作手册（12 源）
+## 各来源操作手册（13 源）
 
 ### 0a. Claude 博客（claude-blog-articles，86 篇已收）
 
@@ -79,6 +79,14 @@
 - 检测：`https://kexue.fm/archives/` 归档页翻到最新，对比 `sujianlin-articles/INDEX.md`。
 - 抓取：`fetch_sujianlin.py`；**严格串行、每请求间隔 ≥3 秒**，遇到 403 Cookie 挑战或 SSL EOF 立即停止当日抓取（已被封），次日再试。
 - 仅归档不翻译；新文按分类放入对应子目录（文件名 `文章ID-标题.md`），更新 `INDEX.md` 与 `README.md`（`build_sujianlin_index.py` / `build_sujianlin_readme.py`）。
+
+### 9. SemiAnalysis（semianalysis-articles，330 篇已收，2026-09-15 建库）
+
+- 站点结构：`semianalysis.com`（WordPress 旧站）全站 301 到 **newsletter.semianalysis.com**（Substack 自定义域，直连可抓）；WP 的 `sitemap.xml` 是遗留数据，不要用它判新。`semianalysis.substack.com` 本网 SSL 不通，勿用。
+- 检测：`https://newsletter.semianalysis.com/api/v1/archive?sort=new&offset=<N>&limit=12` 翻页枚举，对比 `semianalysis-articles/src/_index.json` 里的 slug 集；新 slug 即新文。
+- 抓取：`crawl_semianalysis.py`（幂等可续传；单篇 API `/api/v1/posts/<slug>`）→ `convert_semianalysis.py` 转 markdown 并更新 `meta.json`。
+- **付费墙**：`audience: only_paid` 的文章 API 只给付费墙前的公开预览（SemiAnalysis 预览很长，中位 ~21KB），归档与译文均带 🔒/⚠️ 标注；`audience: everyone` 才是全文。判新时两类都收。
+- 翻译规范：`TRANSLATION_GUIDE_SEMIANALYSIS.md`；索引 `semianalysis-articles-zh/README.md`（`build_semianalysis_readme.py`）。
 
 ## 收尾（每次必做）
 

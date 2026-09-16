@@ -1,9 +1,9 @@
 # 优秀 AI / 技术博客文章归档与中文翻译
 
-收录 12 个高质量技术博客来源的全量文章归档与完整中文翻译
-（英文存档 `11` 源 + 中文原文 `1` 源；苏剑林博客为中文站点，仅归档）。
+收录 13 个高质量技术博客来源的全量文章归档与完整中文翻译
+（英文存档 `12` 源 + 中文原文 `1` 源；苏剑林博客为中文站点，仅归档）。
 
-> 累计：英文/原文归档 **2840** 篇，中文译文 **1504** 篇。
+> 累计：英文/原文归档 **3170** 篇，中文译文 **1609** 篇。
 > 每日自动同步：定时任务按 [DAILY_SYNC_SOP.md](DAILY_SYNC_SOP.md) 拉取各源新文章、归档并翻译，随后更新本索引并推送 GitHub。
 
 ## 项目总览
@@ -21,6 +21,7 @@
 | OpenAI 开发者博客 | developers.openai.com/blog | [openai-dev-articles/](openai-dev-articles/)（14） | [openai-dev-articles-zh/](openai-dev-articles-zh/)（14） | 14 / 14 | [规范](TRANSLATION_GUIDE_CLAUDE_BLOG.md) · [目录](openai-dev-articles-zh/README.md) |
 | Lilian Weng | lilianweng.github.io | [lilianweng-articles/](lilianweng-articles/)（53） | [lilianweng-articles-zh/](lilianweng-articles-zh/)（53） | 53 / 53 | [规范](TRANSLATION_GUIDE_LILIANWENG.md) · [目录](lilianweng-articles-zh/README.md) |
 | Sebastian Raschka | sebastianraschka.com | [sebastianraschka-articles/](sebastianraschka-articles/)（320） | [sebastianraschka-articles-zh/](sebastianraschka-articles-zh/)（320） | 320 / 320 | — · [目录](sebastianraschka-articles-zh/README.md) |
+| SemiAnalysis | semianalysis.com | [semianalysis-articles/](semianalysis-articles/)（330） | [semianalysis-articles-zh/](semianalysis-articles-zh/)（105） | 330 / 105 | [规范](TRANSLATION_GUIDE_SEMIANALYSIS.md) · [目录](semianalysis-articles-zh/README.md) |
 | 苏剑林《科学空间》 | kexue.fm | [sujianlin-articles/](sujianlin-articles/)（1336） | —（原文为中文） | 1336 | — · [目录](sujianlin-articles/README.md) |
 
 ## 说明
@@ -32,6 +33,7 @@
 - **OpenAI 开发者博客**：28 篇中筛选技术文 14/14，2026-09-14 建库
 - **Lilian Weng**：52 篇 + FAQ，全部完成
 - **Sebastian Raschka**：存量含 blog/专栏/FAQ/画廊/magazine，中文译文每日同步任务持续补译
+- **SemiAnalysis**：Substack（newsletter.semianalysis.com）全量；付费文仅含公开预览（🔒 标注），2026-09-15 建库
 - **苏剑林《科学空间》**：中文原文全量归档（1336 篇），无需翻译；细目见 INDEX.md
 
 - 三个 Google 来源（DeepMind / Gemini / Google Blog）另有合并详表索引：[google-articles-zh-README.md](google-articles-zh-README.md)

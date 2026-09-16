@@ -1,0 +1,68 @@
+---
+title: "I, Semiconductor – The Regionalization Of Semiconductors Due To Global Supply Chain Instability"
+subtitle: "Western fabs and semiconductor capital equipment spending to go bonkers"
+date: 2022-02-25
+source: https://newsletter.semianalysis.com/p/i-semiconductor-the-regionalization
+crawled: 2026-09-15
+authors: ["Dylan Patel"]
+tags: []
+audience: only_paid
+paywalled: true
+---
+
+# I, Semiconductor – The Regionalization Of Semiconductors Due To Global Supply Chain Instability
+
+**Western fabs and semiconductor capital equipment spending to go bonkers**
+
+> ⚠️ 付费订阅文章：以下正文为公开可见的预览部分，在付费墙处截断，并非全文。/ Paid post: only the publicly visible preview portion is archived; the body is truncated at the paywall.
+
+It shouldn’t be news to anyone that Russia invading Ukraine is a massive hit to worldwide geopolitical stability. There will some impact to Neon gas for KrF and ArF lithography which is used in every semiconductor process in the world. There will also be some impact to etchant chemical inputs. We have written about these issues in the past for subscribers, specifically the mitigation efforts put in place and why it’s not as big of a deal as some media outlets are making it. Today we want to write about an even more important topic. The life of a semiconductor, the supply chain, and discuss the coming tide of regionalization that is occurring due to supply chain and geopolitical instability.
+
+![](https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/b4631e08-f149-4abd-9446-38e1442262ff_1024x557.png)
+
+Even the humble pencil has an incredibly complex supply chain. The story, "I, Pencil" has been popularized by many famous economists such as Leonard Reed, Milton Friedman, and Donald J. Boudreaux and the title is a homage to them. In short, they explained how many different parts of the world are needed for the manufacture of a pencil. The supply chain of a pencil pales in comparison to that of a semiconductor.
+
+![](https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/6bbdf620-4d15-4591-b708-16eb77d1c0bc_800x531.jpeg)
+
+To start with, all semiconductors start from silicon boules. A large silicon crystal is grown in a high temperature chamber. It is then sliced and cleaned into wafers with special care to maintain the perfect crystalline structure. SK Siltron, Siltronic, Global Wafers, Sumco, and Shin Etsu dominate the production of silicon wafers. There are also some operations in the US and Europe especially with specialty technologies such as silicon on insulator by the French firm, Soitec, and silicon carbide by the American firm Wolfspeed. Despite these specialty applications, more than 90% of raw wafers come from Japan, Taiwan, Singapore, and South Korea. From the very start of the life of a semiconductor, there is a deep supply chain concentration.
+
+![](https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/b5b1cde4-8cc9-4bc2-96aa-a95a9726e4d2_908x1024.png)
+
+Lithography is often considered the single most important step within semiconductor manufacturing. While most people know how about ASML, the Dutch king of lithography, they do not realize the complete [Japanese monopoly in lithography](https://semianalysis.substack.com/p/lam-research-tokyo-electron-jsr-battle). Tokyo Electron has over 97% share in photoresist coaters and developers. Furthermore, they have 100% share on EUV photoresist coaters and developers. These are all manufactured in Japan. In addition, a trio of 3 Japanese firms, Shin Etsu, JSR and Tokyo Ohka Kogyo produce all advanced ArF and EUV photoresist. Despite lithography being seen as a European area of dominance, the reality is that ASML tools are useless without complementary Japanese tools and chemicals. This is a critical point of failure.
+
+American firms such as Applied Material, Lam Research, KLA also have their own monopoly status within certain subsegments of semiconductor equipment related to deposition, etch, and lithography. Many would argue the dominance and concentration of semiconductor tools inside the US, Netherlands, and Japan is okay because these supply chains are embedded within democratic and liberal nations.
+
+A big risk for the west is that the fabs themselves are at risk. More than 90% of DRAM and NAND is produced in Japan, South Korea, Taiwan, China, and Singapore. All chips made on nodes with theoretical densities above 100 million transistors per square millimeters are made in Taiwan and South Korea. 4/5 of the largest foundries are headquartered and doing most of their manufacturing in Taiwan, South Korea, and China. The one remaining, [GlobalFoundries](https://semianalysis.substack.com/p/globalfoundries-gfs-ipo-mubadala?utm_source=url), is headquartered in the US, but their largest manufacturing facility is in Singapore.
+
+![](https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/1986211b-059d-4881-bc01-9402f5e44286_1024x356.jpeg)
+
+In fact, [GlobalFoundries](https://semianalysis.substack.com/p/globalfoundries-gfs-ipo-mubadala?utm_source=url) largest ongoing expansion is in Singapore, and once fully expanded, Singapore will account for roughly half of their wafer throughput. About a quarter of their production will be in Germany. Calling GlobalFoundries an American foundry is a bit asinine given more than 75% of their wafer capacity will come from outside of the US. The same statement applies to Micron, an “American memory producer.” Over 80% of Micron’s wafer capacity is in Taiwan and Singapore. While both these firms employ many Americans at their headquarters and in R&D, but they are not manufacturing in the west. Infineon, one of Europe’s largest semiconductor company, is putting their cutting edge silicon carbide manufacturing in Malaysia, not Europe.
+
+![](https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/e61edb80-4d8f-4f1b-b1ab-3c15c28bff3c_936x525.png)
+
+After a chip is manufactured, it is cut up and put in a package. The supply chain issues are most worrisome in outsourced assembly and test (OSAT). More than 90% of this is done in East Asia and more than 60% of chip packaging volume is done in China. Even if chips are made in the west, they usually go to Asia for a critical step in the supply chain. Unlike the fabrication world where most tools still come from western companies, the outsourced assembly and test world has most their tools manufactured in East Asia as well. Kulicke and Soffa, Besi, ASMPacific, and SET do most if not all their tool manufacturing in China, Singapore, Malaysia, and Vietnam. Disco, the market leader in tools for grinding and cutting wafers into chips, is the only firm based in a western allied nation, Japan.
+
+When we lasso the whole picture together, there is a severe lack of supply chain resilience. The top 10 foundries, TSMC, Samsung, GlobalFoundries, UMC, SMIC, Tower Semiconductor, Powerchip, VIS, Hua Hong Semi, and DB HiTek have their largest manufacturing locations in Asia. All of them are headquartered in Asia except for Global Foundries. All 3D NAND manufacturers, Samsung, SK Hynix, Western Digital, Kioxia, Micron, and YMTC have their high-volume manufacturing in East Asia (Micron has more than 80% in East Asia.) This same statement regarding 3D NAND also applies to DRAM manufactures. The vast majority of chip dicing, assembly, and testing is done in East Asia.
+
+The semiconductor supply chain is global in terms of inputs and outputs, but the most fabs are not. The emergence of war between Russia and Ukraine combined with a weak western response has severely spooked investors with fears of a potential Chinese invasion of Taiwan. TSMC was down more than 7% at its lowest the day after Russia's invasion of Ukraine, meanwhile, GlobalFoundries, the 3rd largest foundry in the world, ended the day up more than 14%.
+
+![](https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/817227ec-1410-473f-a7d4-8c9d891a80e1_1023x528.png)
+> A bet on Intel is a hedge against geopolitical instability in the world. And government leaders are recognizing this how vital semiconductors have become to every aspect of the economy, every aspect of national security. The world has woken up. And both the chips and the COMPETES Act in the U.S. are now headed to conference process to finish and enable this $52 billion of incentive of fuel to drive the semiconductor industry. Just last week, the EU issued their Chips Act, which is moving quickly.
+
+Intel’s CEO, Pat Gelsinger has some fiery words to say on the topic, especially regarding bringing the US and Europe back to much higher market shares in semiconductor manufacturing. If (that’s a big if) Taiwan was invaded, more than likely there is some destruction at TSMC and UMC. At the very least, there will be a disruption. Western governments and Japan would presumably ban all tool exports to China and captured Taiwan. In this doomsday scenario, there would be a large amount of money being thrown at firms who manufacture semiconductors outside of China and Taiwan. Taiwan and [China](https://semianalysis.substack.com/p/fears-for-chinese-semiconductor-capital) have little to no progress in the way of semiconductor capital equipment manufacturing.
+
+A huge race to move semiconductor manufacturing away from Taiwan is possible due to the lack of access to semiconductor capital equipment. Even if the fabs were not damaged, tools begin to break down, critical chemicals such as photoresist would not be supplied, and the massive fabs in Taiwan would grind to a halt. In this theoretical Taiwan invasion scenario, firms such as Intel, Samsung, GlobalFoundries, Texas Instruments, STMicroelectronics, Micron, NXP and Infineon would need to start building a lot more capacity to satisfy all the capacity that was been taken off the market by a war. Oddly based on the market’s movement, the Wall Street isn’t fully recognizing what a potential war means for equipment vendors, only the “western” fabs such as GlobalFoundries and Intel.
+
+As semiconductor shortages continue to flare across the world and geopolitical instability rises, governments look to regionalize semiconductor supply chains. Even without a potential war, Korea has some huge incentives and national initiatives in place, and Japan has recently passed some new incentives for local semiconductor manufacturing into law. The US and EU look like they will do so soon as well. The playing field must be leveled to match incentives that Taiwan and especially China have enshrined in law. The proposed European and American semiconductor investments do not level the playing field, but they do start to chip away at China’s more than $250B in semiconductor subsidies. The proposed regionalization of fabs has massive implications for the supply chain.
+
+The first implication from regionalization is there will be a movement towards smaller fabs away from larger giga-fabs. A giga-fab is one that has a monthly production capacity more than 100,000 wafers per month. We can see this already with TSMC’s current investments in Japan, US, and China. These fabs are smaller than their giga-fabs in Taiwan and likely that means they are less efficient. Larger fabs are run more efficiently than many small fabs due to the nature of the incredibly complicated multivariate calculus that involves tool positions, cycle times, throughput per tool, variance in time between tools, the wafer highway that transports wafers across the fab, and much more. A larger fab is better able to balance these factors and therefore extract more throughput out of each tool. These multiple small fabs could have just as many tools, but their output would be lower. Regionalization has a direct impact on the capital intensity of a fab (a measure of revenue versus spending on building the fab).
+
+The second implication is that less efficient operators would be rewarded. Integrated design manufactures such as Intel, Samsung, Texas Instruments, STMicroelectronics, Infineon, and NXP are generally considered to be less efficient at getting wafers through the fab and maximizing utilization of their tools versus foundries. Capital intensity will continue to rise across the industry due to this. Intel states they will run at [a long term capital intensity of ~30% with the net capital intensity being 25%](https://semianalysis.substack.com/p/intel-is-throwing-the-kitchen-sink?utm_source=url). Texas Instruments, a Wall Street darling due to their consistently large buybacks, has stated their long term capital intensity is rising from 6% to 10%.
+
+![](https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/edf0c113-ac29-4ccd-9b91-b2fdfe03b13f_1024x529.png)
+
+Moore’s law scaling is becoming more and more difficult with each new process involving far more process steps than density gains. This is increasing the capital intensity of semiconductor manufacturing. Regionalization causes more smaller fabs, which increases the capital intensity of semiconductor manufacturing. The rewarding of less efficient players such as Intel, Samsung, and more with subsidies increases the capital intensity of semiconductor manufacturing. In short, it is a great time to be a wafer fabrication equipment producer. Behind the subscription wall, we will mention our favorite stocks that are beneficiaries of this new paradigm of semiconductor localization.
+
+[Share](https://newsletter.semianalysis.com/p/i-semiconductor-the-regionalization?utm_source=substack&utm_medium=email&utm_content=share&action=share)
+
+[Subscribe now](https://newsletter.semianalysis.com/subscribe?)

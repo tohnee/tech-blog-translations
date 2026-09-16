@@ -83,8 +83,8 @@ def detect():
         raw = []
         html = fetch("https://deepmind.google/blog/")
         raw += links(html, "https://deepmind.google/blog/", r"https://deepmind\.google/blog/([0-9a-zA-Z\-]+)/?$")
-        # 迁移后的交叉链接（列表页指向 blog.google）
-        for m in re.finditer(r'href="(https://blog\.google/[a-z0-9\-/]+)/?"', html):
+        # 迁移后的交叉链接（列表页指向 blog.google，URL 常带 ?utm 参数，不能锚定结尾引号）
+        for m in re.finditer(r'href="(https://blog\.google/[a-z0-9\-/]+)', html):
             u = m.group(1)
             if "/google-deepmind/" in u:
                 raw.append((u.rstrip("/").split("/")[-1], u))
@@ -145,7 +145,13 @@ def detect():
         xml = fetch("https://claude.com/sitemap.xml")
         urls = re.findall(r"<loc>([^<]+)</loc>", xml)
         have = {p.stem for p in (ROOT / "claude-blog-articles").rglob("*.md") if p.name != "README.md"}
-        result["claude-blog"] = [(u.rstrip("/").split("/")[-1], u) for u in urls if re.search(r"/blog/[a-z0-9\-]+/?$", u) and u.rstrip("/").split("/")[-1] not in have]
+        seen, out = set(), []
+        for u in urls:
+            m = re.search(r"/blog/([a-z0-9\-]+)/?$", u)
+            if m and m.group(1) not in have and m.group(1) not in seen:
+                seen.add(m.group(1))
+                out.append((m.group(1), u))
+        result["claude-blog"] = out  # 注意：含建库时按口径筛除的非技术文（产品/客户故事），需人工甄别
     except Exception as e:  # noqa: BLE001
         result["claude-blog"] = f"ERROR: {e}"
     # --- OpenAI 开发者博客（直连常被拒，SOP 走 Wayback+SOCKS；此处先直连尝试）---

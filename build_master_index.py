@@ -137,6 +137,13 @@ def main() -> None:
             "note": "存量含 blog/专栏/FAQ/画廊/magazine，中文译文每日同步任务持续补译",
         },
         {
+            "name": "SemiAnalysis", "site": "semianalysis.com",
+            "en": "semianalysis-articles", "zh": "semianalysis-articles-zh",
+            "guide": "TRANSLATION_GUIDE_SEMIANALYSIS.md",
+            "readme": "semianalysis-articles-zh/README.md",
+            "note": "Substack（newsletter.semianalysis.com）全量；付费文仅含公开预览（🔒 标注），2026-09-15 建库",
+        },
+        {
             "name": "苏剑林《科学空间》", "site": "kexue.fm",
             "en": "sujianlin-articles", "zh": None,
             "guide": None, "readme": "sujianlin-articles/README.md",
