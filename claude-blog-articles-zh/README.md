@@ -1,6 +1,6 @@
 # Claude 博客技术文章中文化（claude-blog-articles-zh）
 
-> 进度：**中文 86 / 86**。清单来自 claude.com 官方 sitemap，筛除客户故事/产品发布/企业合规/活动类，保留技术文章（2026-09-14 抓取）。
+> 进度：**中文 87 / 87**。清单来自 claude.com 官方 sitemap，筛除客户故事/产品发布/企业合规/活动类，保留技术文章（2026-09-14 抓取）。
 > 通用规范见仓库内对应 TRANSLATION_GUIDE_*.md。
 
 ## 已翻译
@@ -92,6 +92,7 @@
 | [Anthropic API 现已推出网页搜索](posts/web-search-api.md) | [Introducing web search on the Anthropic API](https://claude.com/blog/web-search-api/) | 2026-09-14 |
 | [什么是模型上下文协议？把 AI 连接到你的世界](posts/what-is-model-context-protocol.md) | [What is Model Context Protocol? Connect AI to your world](https://claude.com/blog/what-is-model-context-protocol/) | 2026-09-14 |
 | [面向 AI 智能体的零信任](posts/zero-trust-for-ai-agents.md) | [Zero Trust for AI agents](https://claude.com/blog/zero-trust-for-ai-agents/) | 2026-09-14 |
+| [AI 如何帮助打破 COBOL 现代化的成本壁垒](posts/how-ai-helps-break-cost-barrier-cobol-modernization.md) | [How AI helps break the cost barrier to COBOL modernization](https://claude.com/blog/how-ai-helps-break-cost-barrier-cobol-modernization/) | 2026-09-17 |
 | [工作负载身份联合（WIF）现已在 Claude Platform 正式发布](posts/workload-identity-federation.md) | [Workload Identity Federation (WIF) is now generally available on the Claude Platform.](https://claude.com/blog/workload-identity-federation/) | 2026-09-14 |
 
 ## 来源与保真说明
