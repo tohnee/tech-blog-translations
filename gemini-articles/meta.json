@@ -1595,5 +1595,18 @@
   ],
   "description": "Learn more about Nano Banana Pro, Google’s state-of-the-art image generation and editing model, and where you can use it now.",
   "url": "https://blog.google/products-and-platforms/products/gemini/where-to-use-nano-banana-pro/"
+ },
+ {
+  "slug": "gemini-3-8-live-gemini-3-8-live-extended-thinking",
+  "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+  "date": "2026-09-15",
+  "authors": [
+   "Tom Ouyang"
+  ],
+  "tags": [
+   "Gemini models"
+  ],
+  "description": "Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking are our most advanced live dialogue models yet, built for natural conversation.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/"
  }
 ]

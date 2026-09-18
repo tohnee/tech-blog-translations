@@ -3,17 +3,17 @@
 收录 13 个高质量技术博客来源的全量文章归档与完整中文翻译
 （英文存档 `12` 源 + 中文原文 `1` 源；苏剑林博客为中文站点，仅归档）。
 
-> 累计：英文/原文归档 **3171** 篇，中文译文 **1835** 篇。
+> 累计：英文/原文归档 **3175** 篇，中文译文 **1839** 篇。
 > 每日自动同步：定时任务按 [DAILY_SYNC_SOP.md](DAILY_SYNC_SOP.md) 拉取各源新文章、归档并翻译，随后更新本索引并推送 GitHub。
 
 ## 项目总览
 
 | 来源 | 原文站点 | 英文存档 | 中文翻译 | 篇数 | 索引 |
 |---|---|---|---|---|---|
-| OpenAI | openai.com/blog | [openai-articles/](openai-articles/)（71） | [openai-articles-zh/](openai-articles-zh/)（71） | 71 / 71 | [规范](TRANSLATION_GUIDE_OPENAI.md) · [目录](openai-articles-zh/README.md) |
+| OpenAI | openai.com/blog | [openai-articles/](openai-articles/)（72） | [openai-articles-zh/](openai-articles-zh/)（72） | 72 / 72 | [规范](TRANSLATION_GUIDE_OPENAI.md) · [目录](openai-articles-zh/README.md) |
 | Google DeepMind | deepmind.google/blog | [deepmind-articles/](deepmind-articles/)（349） | [deepmind-articles-zh/](deepmind-articles-zh/)（349） | 349 / 349 | [规范](TRANSLATION_GUIDE_GOOGLE.md) · [目录](deepmind-articles-zh/README.md) |
-| Gemini | blog.google（gemini 栏目） | [gemini-articles/](gemini-articles/)（123） | [gemini-articles-zh/](gemini-articles-zh/)（123） | 123 / 123 | [规范](TRANSLATION_GUIDE_GOOGLE.md) · [目录](gemini-articles-zh/README.md) |
-| Google Blog | blog.google/innovation-and-ai | [google-blog-articles/](google-blog-articles/)（231） | [google-blog-articles-zh/](google-blog-articles-zh/)（231） | 231 / 231 | [规范](TRANSLATION_GUIDE_GOOGLE.md) · [目录](google-blog-articles-zh/README.md) |
+| Gemini | blog.google（gemini 栏目） | [gemini-articles/](gemini-articles/)（124） | [gemini-articles-zh/](gemini-articles-zh/)（124） | 124 / 124 | [规范](TRANSLATION_GUIDE_GOOGLE.md) · [目录](gemini-articles-zh/README.md) |
+| Google Blog | blog.google/innovation-and-ai | [google-blog-articles/](google-blog-articles/)（233） | [google-blog-articles-zh/](google-blog-articles-zh/)（233） | 233 / 233 | [规范](TRANSLATION_GUIDE_GOOGLE.md) · [目录](google-blog-articles-zh/README.md) |
 | vLLM | blog.vllm.ai | [vllm-articles/](vllm-articles/)（134） | [vllm-articles-zh/](vllm-articles-zh/)（134） | 134 / 134 | [规范](TRANSLATION_GUIDE_VLLM.md) · [目录](vllm-articles-zh/README.md) |
 | SGLang / LMSYS | lmsys.org/blog | [sglang-articles/](sglang-articles/)（96） | [sglang-articles-zh/](sglang-articles-zh/)（96） | 96 / 96 | [规范](TRANSLATION_GUIDE_SGLANG.md) · [目录](sglang-articles-zh/README.md) |
 | Claude Code / Anthropic | anthropic.com（工程博客） | [claudecode-articles/](claudecode-articles/)（27） | [claudecode-articles-zh/](claudecode-articles-zh/)（27） | 27 / 27 | [规范](TRANSLATION_GUIDE_CLAUDECODE.md) · [目录](claudecode-articles-zh/README.md) |

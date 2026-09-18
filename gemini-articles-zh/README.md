@@ -6,10 +6,11 @@
 - 译文目录：本目录 `posts/`，文件名与原文 slug 一一对应
 - 三源合并总索引：[`../google-articles-zh-README.md`](../google-articles-zh-README.md)
 
-## 进度：123 / 123
+## 进度：124 / 124
 
 ## 2026 年
 
+- [x] [Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking](posts/gemini-3-8-live-gemini-3-8-live-extended-thinking.md) · [EN](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/)
 - [x] [4 ways Gemini makes administrative chores quick and easy](posts/ai-navigate-bureaucracy.md) · [EN](https://blog.google/products-and-platforms/products/gemini/ai-navigate-bureaucracy/)
 - [x] [Introducing Gemini 3.8 Flash and 3.8 Flash Cyber](posts/3-8-flash-and-3-8-flash-cyber.md) · [EN](https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/)
 - [x] [Introducing agentic video understanding with Gemini](posts/introducing-agentic-video-in-gemini.md) · [EN](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-agentic-video-in-gemini/)

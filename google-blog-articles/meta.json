@@ -3063,5 +3063,31 @@
   ],
   "description": "Learn more about Google’s World Quantum Day doodle, which illustrates the concept of superposition in quantum computing.",
   "url": "https://blog.google/innovation-and-ai/technology/research/world-quantum-day-doodle-superposition-thaumatrope/"
+ },
+ {
+  "slug": "wildfire-tracking-ai",
+  "title": "Ask a Scientist: How can researchers use AI to spot a wildfire?",
+  "date": "2026-09-15",
+  "authors": [
+   "Lindsey Lanquist"
+  ],
+  "tags": [
+   "Google Research"
+  ],
+  "description": "Google Research is exploring how to use AI and satellites to scan the world every 20 minutes and catch wildfires the size of a car.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/wildfire-tracking-ai/"
+ },
+ {
+  "slug": "build-real-time-voice-applications-gemini-audio",
+  "title": "Build real-time voice applications with Gemini 3.8 Live and 3.5 Transcribe",
+  "date": "2026-09-15",
+  "authors": [
+   "Alisa Fortin"
+  ],
+  "tags": [
+   "Developer tools"
+  ],
+  "description": "A look at how developers can build with our latest audio models, Gemini 3.8 Live, 3.8 Live Extended Thinking, and 3.5 Transcribe.",
+  "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-real-time-voice-applications-gemini-audio/"
  }
 ]
