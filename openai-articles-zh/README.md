@@ -77,3 +77,5 @@
 | 研究 | [语言模型为什么会产生幻觉](posts/why-language-models-hallucinate.md) | [Why language models hallucinate](https://openai.com/index/why-language-models-hallucinate/) | 2026-09-13 |
 | 研究 | [为什么 SWE-bench Verified 不再衡量前沿编程能力](posts/why-we-no-longer-evaluate-swe-bench-verified.md) | [Why SWE-bench Verified no longer measures frontier coding capabilities](https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/) | 2026-09-13 |
 | [Fyxer 如何打造出人们信赖的 AI 高管助理](posts/fyxer.md) | How Fyxer built an AI executive assistant people trust | 2026-09-03 |
+| [Cooley 如何用 ChatGPT 加速 IPO 工作](posts/cooley-gopublic.md) | How Cooley is accelerating IPO work with ChatGPT | 2026-09-17 |
+| [Endava 如何用 Codex 构建智能体式组织](posts/endava.md) | How Endava builds an agentic organization with Codex | 2026-09-17 |

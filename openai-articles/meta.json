@@ -358,5 +358,15 @@
   "slug": "fyxer",
   "url": "https://openai.com/index/fyxer/",
   "category": "research"
+ },
+ {
+  "slug": "cooley-gopublic",
+  "url": "https://openai.com/index/cooley-gopublic/",
+  "category": "research"
+ },
+ {
+  "slug": "endava",
+  "url": "https://openai.com/index/endava/",
+  "category": "research"
  }
 ]
