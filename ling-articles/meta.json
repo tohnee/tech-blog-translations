@@ -1,0 +1,27 @@
+[
+ {
+  "slug": "Ling",
+  "lang": "en",
+  "chars": 22334
+ },
+ {
+  "slug": "Ming",
+  "lang": "en",
+  "chars": 11431
+ },
+ {
+  "slug": "Ring",
+  "lang": "en",
+  "chars": 4413
+ },
+ {
+  "slug": "PromptCoT",
+  "lang": "en",
+  "chars": 15146
+ },
+ {
+  "slug": "M2-Reasoning",
+  "lang": "en",
+  "chars": 12537
+ }
+]

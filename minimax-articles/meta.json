@@ -1,0 +1,86 @@
+[
+ {
+  "slug": "forge-scalable-agent-rl-en-1779896141",
+  "title": "Forge: Scalable Agent RL Framework and Algorithm",
+  "date": "2026-02-14",
+  "chars": 19140,
+  "url": "https://www.minimax.io/blog/forge-scalable-agent-rl-en-1779896141"
+ },
+ {
+  "slug": "minimax-agent-team-long-running-1779893953",
+  "title": "MiniMax Agent Team: Built for Long-Running Tasks and Continuous Evolution",
+  "date": "2026-05-27",
+  "chars": 34469,
+  "url": "https://www.minimax.io/blog/minimax-agent-team-long-running-1779893953"
+ },
+ {
+  "slug": "minimax-h3",
+  "title": "MiniMax H3: An Open Model Breaking the Boundaries Between Tasks and Modalities",
+  "date": "2026-07-31",
+  "chars": 11555,
+  "url": "https://www.minimax.io/blog/minimax-h3"
+ },
+ {
+  "slug": "minimax-m2-en-1748600000",
+  "title": "MiniMax M2 & Agent: Ingenious in Simplicity",
+  "date": "2025-10-27",
+  "chars": 7760,
+  "url": "https://www.minimax.io/blog/minimax-m2-en-1748600000"
+ },
+ {
+  "slug": "minimax-m2-her",
+  "title": "A Deep Dive into the MiniMax-M2-her",
+  "date": "2026-01-27",
+  "chars": 15561,
+  "url": "https://www.minimax.io/blog/minimax-m2-her"
+ },
+ {
+  "slug": "minimax-m21",
+  "title": "MiniMax M2.1: Significantly Enhanced Multi-Language Programming, Built for Real-World Complex Tasks",
+  "date": "2025-12-23",
+  "chars": 10871,
+  "url": "https://www.minimax.io/blog/minimax-m21"
+ },
+ {
+  "slug": "minimax-m25",
+  "title": "MiniMax M2.5: Built for Real-World Productivity.",
+  "date": "2026-02-12",
+  "chars": 16123,
+  "url": "https://www.minimax.io/blog/minimax-m25"
+ },
+ {
+  "slug": "minimax-m27",
+  "title": "MiniMax M2.7: Early Echoes of Self-Evolution",
+  "date": "2026-03-18",
+  "chars": 15843,
+  "url": "https://www.minimax.io/blog/minimax-m27"
+ },
+ {
+  "slug": "minimax-m3",
+  "title": "MiniMax M3: Frontier Coding, 1M Context, Native Multimodality — All in One Model",
+  "date": "2026-05-31",
+  "chars": 24286,
+  "url": "https://www.minimax.io/blog/minimax-m3"
+ },
+ {
+  "slug": "minimax-maxproof-math-proof-evolution",
+  "title": "MaxProof: Scaling Mathematical Proof with Generative-Verifier RL and Evolutionary Search",
+  "date": "2026-06-09",
+  "chars": 33314,
+  "url": "https://www.minimax.io/blog/minimax-maxproof-math-proof-evolution"
+ },
+ {
+  "slug": "minimax-music-3-0-next-generation-open-weights-production-ready-versatile-music-model",
+  "title": "MiniMax Music 3.0: Next-Generation Open-Weights, Production-Ready & Versatile Music Model",
+  "date": "2026-08-13",
+  "chars": 33299,
+  "url": "https://www.minimax.io/blog/minimax-music-3-0-next-generation-open-weights-production-ready-versatile-music-model"
+ },
+ {
+  "slug": "sparse-token-forgetting",
+  "title": "Why Can't the MiniMax LLM Say 'Ma Jiaqi'? Internal Investigation of Sparse Token Forgetting",
+  "date": "2026-05-25",
+  "chars": 23544,
+  "url": "https://www.minimax.io/blog/sparse-token-forgetting"
+ }
+]

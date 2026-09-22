@@ -1,0 +1,44 @@
+[
+ {
+  "slug": "a-safe-path-to-open-weights",
+  "title": "A Safe Path to Open Weights",
+  "date": "2026-08-31",
+  "url": "https://thinkingmachines.ai/blog/a-safe-path-to-open-weights/"
+ },
+ {
+  "slug": "defeating-nondeterminism-in-llm-inference",
+  "title": "Defeating Nondeterminism in LLM Inference",
+  "date": "2026-08-31",
+  "url": "https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/"
+ },
+ {
+  "slug": "interaction-models",
+  "title": "Interaction Models: A Scalable Approach to Human-AI Collaboration",
+  "date": "2026-08-31",
+  "url": "https://thinkingmachines.ai/blog/interaction-models/"
+ },
+ {
+  "slug": "lora",
+  "title": "LoRA Without Regret",
+  "date": "2026-08-31",
+  "url": "https://thinkingmachines.ai/blog/lora/"
+ },
+ {
+  "slug": "modular-manifolds",
+  "title": "Modular Manifolds",
+  "date": "2026-08-31",
+  "url": "https://thinkingmachines.ai/blog/modular-manifolds/"
+ },
+ {
+  "slug": "on-policy-distillation",
+  "title": "On-Policy Distillation",
+  "date": "2026-08-31",
+  "url": "https://thinkingmachines.ai/blog/on-policy-distillation/"
+ },
+ {
+  "slug": "the-future-worth-building-is-human",
+  "title": "The Future Worth Building Is Human",
+  "date": "2026-08-31",
+  "url": "https://thinkingmachines.ai/blog/the-future-worth-building-is-human/"
+ }
+]

@@ -1,0 +1,42 @@
+[
+ {
+  "slug": "MiMo-Code",
+  "lang": "en",
+  "chars": 28664
+ },
+ {
+  "slug": "MiMo",
+  "lang": "en",
+  "chars": 15432
+ },
+ {
+  "slug": "MiMo-V2-Flash",
+  "lang": "en",
+  "chars": 20914
+ },
+ {
+  "slug": "MiMo-Audio",
+  "lang": "en",
+  "chars": 6851
+ },
+ {
+  "slug": "MiMo-V2.5-ASR",
+  "lang": "en",
+  "chars": 6578
+ },
+ {
+  "slug": "MiMo-Embodied",
+  "lang": "en",
+  "chars": 16384
+ },
+ {
+  "slug": "MiMo-Audio-Tokenizer",
+  "lang": "en",
+  "chars": 6622
+ },
+ {
+  "slug": "MiMo-Code-release-v0.1.14",
+  "lang": "mixed",
+  "chars": 7501
+ }
+]

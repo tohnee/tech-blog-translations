@@ -1,0 +1,114 @@
+---
+title: "inclusionAI/Ring"
+source: https://github.com/inclusionAI/Ring/blob/main/README.md
+crawled: 2026-09-22
+---
+
+# Ring
+
+<p align="center">
+    <img src="./figures/ant-bailing.png" width="100"/>
+<p>
+
+<p align="center">
+          🤗 <a href="https://huggingface.co/inclusionAI">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp🤖 <a href="https://modelscope.cn/organization/inclusionAI">ModelScope</a>
+
+## News
+* [2025-07]:🎉 Add [Ring-lite-2507](https://huggingface.co/inclusionAI/Ring-lite-2507) Model
+* [2025-06]:🎉 Add [Ring-lite](https://huggingface.co/inclusionAI/Ring-lite) Model
+* [2025-04]:🎉 Add [Ring-lite-linear-preview](hybrid_linear) Model
+
+## Introduction
+
+Ring is a reasoning MoE LLM provided and open-sourced by InclusionAI, derived from [Ling](https://github.com/inclusionAI/Ling). We introduce Ring-lite-distill-preview, which has 16.8 billion parameters with 2.75 billion activated parameters. This model demonstrates impressive reasoning performance compared to existing models in the industry.
+
+
+## Model Downloads
+
+You can download the following table to see the various parameters for your use case. If you are located in mainland China, we also provide the model on ModelScope.cn to speed up the download process.
+
+<div align="center">
+
+|      **Model**       | **#Total Params** | **#Activated Params** | **Context Length** |                                                                        **Download**                                                                        |
+| :------------------: | :---------------: | :-------------------: | :----------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|    Ring-lite-2507    |       16.8B       |         2.75B         |        128K         |     [🤗 HuggingFace](https://huggingface.co/inclusionAI/Ring-lite-2507) <br>[🤖 ModelScope](https://modelscope.cn/models/inclusionAI/Ring-lite-2507)     |
+|    Ring-lite    |       16.8B       |         2.75B         |        128K         |     [🤗 HuggingFace](https://huggingface.co/inclusionAI/Ring-lite) <br>[🤖 ModelScope](https://modelscope.cn/models/inclusionAI/Ring-lite)     |
+|    Ring-lite-distill-preview    |       16.8B       |         2.75B         |        64K         |     [🤗 HuggingFace](https://huggingface.co/inclusionAI/Ring-lite-distill-preview) <br>[🤖 ModelScope](https://modelscope.cn/models/inclusionAI/Ring-lite-distill-preview)     |
+
+
+</div>
+
+## Blog
+[https://inclusionai.github.io/blog/ring-lite-2507/](https://inclusionai.github.io/blog/ring-lite-2507/)
+
+## Quickstart
+
+### 🤗 Hugging Face Transformers
+
+Here is a code snippet to show you how to use the chat model with `transformers`:
+
+```python
+from transformers import AutoModelForCausalLM, AutoTokenizer
+
+model_name = "inclusionAI/Ring-lite"
+
+model = AutoModelForCausalLM.from_pretrained(
+    model_name,
+    torch_dtype="auto",
+    device_map="auto",
+    trust_remote_code=True,
+)
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+
+prompt = "Give me a short introduction to large language models."
+messages = [
+    {"role": "system", "content": "You are Ring, an assistant created by inclusionAI"},
+    {"role": "user", "content": prompt}
+]
+text = tokenizer.apply_chat_template(
+    messages,
+    tokenize=False,
+    add_generation_prompt=True
+)
+model_inputs = tokenizer([text], return_tensors="pt").to(model.device)
+
+generated_ids = model.generate(
+    **model_inputs,
+    max_new_tokens=8192
+)
+generated_ids = [
+    output_ids[len(input_ids):] for input_ids, output_ids in zip(model_inputs.input_ids, generated_ids)
+]
+
+response = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
+```
+
+### 🤖 ModelScope
+
+If you're in mainland China, we strongly recommend you to use our model from 🤖 <a href="https://modelscope.cn/organization/inclusionAI">ModelScope</a>.
+
+## Deployment
+Please refer to [Ling](https://github.com/inclusionAI/Ling)
+
+## Finetuning
+Please refer to [Ling](https://github.com/inclusionAI/Ling)
+
+
+## License
+
+This code repository is licensed under [the MIT License](https://github.com/inclusionAI/Ring/blob/master/LICENSE).
+
+## Citation
+
+```
+@misc{ringteam2025ringlitescalablereasoningc3postabilized,
+      title={Ring-lite: Scalable Reasoning via C3PO-Stabilized Reinforcement Learning for LLMs}, 
+      author={Ling Team},
+      year={2025},
+      eprint={2506.14731},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2506.14731}, 
+}
+```
+

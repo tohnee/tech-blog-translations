@@ -1,0 +1,8 @@
+---
+title: "F8 2019 speakers and sessions now available"
+date: 2019-04-24
+source: https://ai.facebook.com/blog/f8-2019-speakers-and-sessions-now-available
+crawled: 2026-09-22
+---
+
+April 24, 2019 Share on Facebook Share on Twitter The session list is now available for F8, Facebook’s annual conference, being held April 30 and May 1, 2019, in San Jose, California. This year, we’ll celebrate the developers, creators, entrepreneurs, and innovators building on our platform and showcase how social technologies can enable the best of what people can do together. Technical sessions will share the latest in AI, open source, AR/VR, developer programs, and new tools across our family of apps. See how we use open source tools like PyTorch , React , React Native , GraphQL , Relay , ComponentKit , and Litho to run our own apps and products. Learn how to use Docusaurus to create open source websites. Meet Wit.ai , our free NLP platform. Get a hands-on tutorial with Presto , Infer , FBT , React Hooks , and new open source tools for iOS automation. And learn more about how we use Aroma , Infer , and Sapienz for reliable code at scale. Explore the F8 schedule to plan your event. And don’t miss these other events: Hackathon: Catch the pitches of our pre-F8 hackathon finalists on Day 1. We’ll announce the winner on Day 2. Meetups: Product-specific meetups and after parties provide opportunities to connect with your global developer community and enjoy entertainment, food, and games. Demos: Meet with Facebook product experts one-on-one and immerse yourself in technology and tools across the platform. If you can’t attend F8 in person, sign up to stream the keynotes or join an international viewing party in one of these cities . Share on Facebook Share on Twitter

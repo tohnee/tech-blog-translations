@@ -1,0 +1,128 @@
+[
+ {
+  "slug": "news0725",
+  "title": "DeepSeek API Upgrade",
+  "date": "unknown",
+  "en": 6415,
+  "zh": 3528
+ },
+ {
+  "slug": "news0802",
+  "title": "DeepSeek API introduces Context Caching on Disk, cutting prices by an order of magnitude",
+  "date": "unknown",
+  "en": 4789,
+  "zh": 3528
+ },
+ {
+  "slug": "news0905",
+  "title": "DeepSeek-V2.5: A New Open-Source Model Combining General and Coding Capabilities",
+  "date": "unknown",
+  "en": 4141,
+  "zh": 3528
+ },
+ {
+  "slug": "news1120",
+  "title": "🚀 DeepSeek-R1-Lite-Preview is now live: unleashing supercharged reasoning power!",
+  "date": "unknown",
+  "en": 643,
+  "zh": 3528
+ },
+ {
+  "slug": "news1210",
+  "title": "🚀 DeepSeek V2.5: The Grand Finale 🎉",
+  "date": "unknown",
+  "en": 914,
+  "zh": 3528
+ },
+ {
+  "slug": "news1226",
+  "title": "🚀 Introducing DeepSeek-V3",
+  "date": "unknown",
+  "en": 1627,
+  "zh": 3528
+ },
+ {
+  "slug": "news250115",
+  "title": "Introducing DeepSeek App",
+  "date": "2025-01-15",
+  "en": 1121,
+  "zh": 3528
+ },
+ {
+  "slug": "news250120",
+  "title": "Your First API Call",
+  "date": "2025-01-20",
+  "en": 3528,
+  "zh": 3528
+ },
+ {
+  "slug": "news250325",
+  "title": "DeepSeek-V3-0324 Release",
+  "date": "2025-03-25",
+  "en": 512,
+  "zh": 3528
+ },
+ {
+  "slug": "news250528",
+  "title": "DeepSeek-R1-0528 Release",
+  "date": "2025-05-28",
+  "en": 509,
+  "zh": 3528
+ },
+ {
+  "slug": "news250821",
+  "title": "DeepSeek-V3.1 Release",
+  "date": "2025-08-21",
+  "en": 2071,
+  "zh": 3528
+ },
+ {
+  "slug": "news250922",
+  "title": "DeepSeek-V3.1-Terminus",
+  "date": "2025-09-22",
+  "en": 693,
+  "zh": 3528
+ },
+ {
+  "slug": "news250929",
+  "title": "Introducing DeepSeek-V3.2-Exp",
+  "date": "2025-09-29",
+  "en": 1340,
+  "zh": 3528
+ },
+ {
+  "slug": "news251201",
+  "title": "Your First API Call",
+  "date": "2025-12-01",
+  "en": 3528,
+  "zh": 3528
+ },
+ {
+  "slug": "news260424",
+  "title": "DeepSeek V4 Preview Release",
+  "date": "2026-04-24",
+  "en": 3143,
+  "zh": 3528
+ },
+ {
+  "slug": "news260813",
+  "title": "DeepSeek-V4-Pro GA Release",
+  "date": "2026-08-13",
+  "en": 960,
+  "zh": 3528
+ },
+ {
+  "slug": "news260821",
+  "title": "DeepSeek-V4-Flash-Vision-Exp Release: Multimodal API Now Live",
+  "date": "2026-08-21",
+  "en": 1729,
+  "zh": 3528
+ },
+ {
+  "slug": "news260910",
+  "title": "DeepSeek-V4.1-Flash: Smarter, Faster, More Efficient",
+  "date": "2026-09-10",
+  "en": 3143,
+  "zh": 3528
+ }
+]

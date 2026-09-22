@@ -1,0 +1,102 @@
+[
+ {
+  "slug": "hf-glm-5-3",
+  "lang": "en",
+  "chars": 14163
+ },
+ {
+  "slug": "hf-glm-5-3-flash",
+  "lang": "en",
+  "chars": 8004
+ },
+ {
+  "slug": "hf-glm-5-2",
+  "lang": "en",
+  "chars": 10908
+ },
+ {
+  "slug": "hf-glm-5-1",
+  "lang": "en",
+  "chars": 10723
+ },
+ {
+  "slug": "hf-glm-5",
+  "lang": "en",
+  "chars": 12708
+ },
+ {
+  "slug": "hf-glm-4-7",
+  "lang": "en",
+  "chars": 13582
+ },
+ {
+  "slug": "hf-glm-4-7-flash",
+  "lang": "en",
+  "chars": 8156
+ },
+ {
+  "slug": "hf-glm-4-6",
+  "lang": "en",
+  "chars": 3044
+ },
+ {
+  "slug": "hf-glm-4-5",
+  "lang": "en",
+  "chars": 9622
+ },
+ {
+  "slug": "hf-glm-4-5-air",
+  "lang": "en",
+  "chars": 2989
+ },
+ {
+  "slug": "hf-glm-4-5v",
+  "lang": "en",
+  "chars": 15299
+ },
+ {
+  "slug": "hf-glm-image",
+  "lang": "en",
+  "chars": 31223
+ },
+ {
+  "slug": "gh-glm-4",
+  "lang": "en",
+  "chars": 23799
+ },
+ {
+  "slug": "gh-chatglm3",
+  "lang": "zh",
+  "chars": 15694
+ },
+ {
+  "slug": "gh-chatglm2-6b",
+  "lang": "zh",
+  "chars": 15195
+ },
+ {
+  "slug": "gh-chatglm-6b",
+  "lang": "zh",
+  "chars": 16990
+ },
+ {
+  "slug": "gh-cogview4",
+  "lang": "en",
+  "chars": 11919
+ },
+ {
+  "slug": "gh-glm-4.1v-thinking",
+  "lang": "en",
+  "chars": 18320
+ },
+ {
+  "slug": "gh-agentbench",
+  "lang": "en",
+  "chars": 11682
+ },
+ {
+  "slug": "gh-longbench",
+  "lang": "en",
+  "chars": 7740
+ }
+]

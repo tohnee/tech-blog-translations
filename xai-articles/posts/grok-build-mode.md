@@ -1,0 +1,63 @@
+---
+title: "Introducing Build Mode"
+date: 2026-07-28
+source: https://x.ai/news/grok-build-mode
+crawled: 2026-09-22
+---
+
+[Back to news](/news)
+
+Jul 28, 2026
+
+# Introducing Build Mode
+
+BetaAvailable to SuperGrok Heavy subscribers.
+
+Create and share websites, apps, games, and interactive dashboards. Now in Early Beta for SuperGrok Heavy subscribers on grok.com, iOS, and Android.
+
+[Try Build Mode](https://grok.com/?referrer=website) [Learn more](/grok/build-mode)
+
+[](https://media.x.ai/v1/website/build-mode-7ed6a308.mp4)
+
+0:00 / 0:00
+
+Today we're introducing **Build Mode**, a new way to create with [Grok](https://grok.com/?referrer=website). Tell Grok an idea, and it builds a working version live in your chat, on the web or your phone. When it's ready, publish it to a link anyone can open. Build Mode is available today in Early Beta for **SuperGrok Heavy** subscribers on the web, iOS, and Android.
+
+## [Describe what you want](#describe-what-you-want)
+
+Grok writes the code and builds a working preview inside the conversation. From there it keeps building with you: change the layout, add a feature, restyle anything.
+
+There's nothing to install and nothing to configure, and you never have to touch the code unless you want to.
+
+### Made with Build Mode
+
+Every example below was created by Build Mode from the message shown above it.
+
+Forest driverCity simPhysicsBeat machine
+
+Build a peaceful 3D driving game: an endless forest I can drive through freely, with no missions and no timers. Make it feel calm.
+
+Make an isometric city simulation: let me zone districts, lay down roads, and grow a town with a live economy that reacts to what I build.
+
+Create a 3D physics playground: let me spawn spheres, boxes, and cylinders, drag them around, stack them into towers, and knock them over. Sliders for gravity, bounciness, and friction.
+
+Build a beat machine in my browser: a 16-step drum sequencer with classic, 808, techno, and lo-fi kits, tempo and swing controls, and genre presets. Let me beatbox into the mic and turn it into a pattern.
+
+Build a peaceful 3D driving game: an endless forest I can drive through freely, with no missions and no timers. Make it feel calm.
+
+driver.grok.me
+
+## [What people are building](#what-people-are-building)
+
+- **Websites.** Landing pages, portfolios, and business sites.
+- **Apps.** Working tools with real state and logic: planners, trackers, calculators, simulations, and internal utilities.
+- **Games.** Arcade racers, puzzles, and interactive 3D worlds.
+- **Interactive dashboards.** Leverage connectors so Grok can pull in the data that matters to your business and turn it into live charts and filterable views you can explore and share immediately.
+
+## [Share it with a link](#share-it-with-a-link)
+
+Publish to a grok.me link or a custom domain you own, then share it with your team or anyone else who needs it.
+
+## [Available today in Early Beta](#available-today-in-early-beta)
+
+During the Early Beta, Build Mode is available to **SuperGrok Heavy** subscribers. To try it, open [grok.com](https://grok.com/?referrer=website) or the Grok app on iOS and Android and choose **Build** from the mode switcher. You can also learn more on the [Build Mode page](https://x.ai/grok/build-mode).
