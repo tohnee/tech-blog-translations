@@ -15,7 +15,7 @@
    - kexue.fm 若本网与代理出口均 SSL EOF（IP 封禁），当日跳过。
 7. **空跑**：若所有来源均无新文章且无存量待译，直接结束，不做空提交。
 
-## 各来源操作手册（13 源）
+## 各来源操作手册（23 源）
 
 ### 0a. Claude 博客（claude-blog-articles，86 篇已收）
 
@@ -87,6 +87,24 @@
 - 抓取：`crawl_semianalysis.py`（幂等可续传；单篇 API `/api/v1/posts/<slug>`）→ `convert_semianalysis.py` 转 markdown 并更新 `meta.json`。
 - **付费墙**：`audience: only_paid` 的文章 API 只给付费墙前的公开预览（SemiAnalysis 预览很长，中位 ~21KB），归档与译文均带 🔒/⚠️ 标注；`audience: everyone` 才是全文。判新时两类都收。
 - 翻译规范：`TRANSLATION_GUIDE_SEMIANALYSIS.md`；索引 `semianalysis-articles-zh/README.md`（`build_semianalysis_readme.py`）。
+
+### 10. 大模型厂商十源（2026-09-22 建库，`TRANSLATION_GUIDE_AI_VENDORS.md` 统一规范）
+
+| 源 | 目录 | 检测与抓取 |
+|---|---|---|
+| Qwen | qwen-articles | GitHub `QwenLM/QwenLM.github.io` tarball（Hugo 双语：`index.md`+`index.zh.md` 官方中文，零翻译） |
+| DeepSeek | deepseek-articles | `api-docs.deepseek.com/sitemap.xml` 的 `/news/`；中文版 `/zh-cn/news/<slug>`（官方双语） |
+| Thinking Machines | thinkingmachines-articles | `thinkingmachines.ai/sitemap.xml`（直连可抓） |
+| MiniMax | minimax-articles | `minimax.io/blog`（SSR）；minimaxi.com 为 SPA 不可抓 |
+| 智谱 | zhipu-articles | HF `zai-org/<model>/raw/main/README.md` + `api.github.com/repos/THUDM/<repo>/readme`；chat.z.ai/bigmodel.cn 均为 SPA |
+| 小米 MiMo | xiaomi-articles | GitHub `XiaomiMiMo` org README + releases |
+| StepFun | stepfun-articles | GitHub `stepfun-ai` org（官网/stepfun.ai 均不可抓） |
+| Ling | ling-articles | GitHub `inclusionAI` org |
+| xAI | xai-articles | x.ai/news 直连 403，走 Wayback CDX（`filter=mimetype:text/html`） |
+| Meta AI | meta-ai-articles | ai.meta.com 断连；老模板快照在 **ai.facebook.com 域**（2021-2023 `_7g40` 容器有效），2024+ 新模板 h1 锚定文本抽取；`crawl_meta_ai.py` 可续传 |
+
+- arXiv 旗舰论文：`arxiv.org/html/<id>` 转 md 归档 `<源>-articles/papers/`；参考文献整体保留英文。
+- 索引与校验：`build_ai_vendors_readme.py`（EN/ZH 对应 + 各源 README 一键生成）。
 
 ## 收尾（每次必做）
 

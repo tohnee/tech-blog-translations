@@ -1,0 +1,8 @@
+---
+title: "New code completeness checklist and reproducibility updates"
+date: 2019-03-15
+source: http://ai.facebook.com/blog/new-code-completeness-checklist-and-reproducibility-updates
+crawled: 2026-09-22
+---
+
+Science is cumulative: Progress depends on our ability to build upon the work of others. That’s why reproducibility is important if we are going to speed up advancements in a field like AI. Papers with Code is a free community-driven resource for machine learning (ML) papers and code that joined Facebook AI in December. Today, Papers with Code is introducing the ML Code Completeness Checklist . The goal of the checklist is to enhance reproducibility and provide a much-needed collection of best practices and code repository assessments, allowing users to build upon previously published work. Available now, the ML Code Completeness Checklist is part of the official NeurIPS 2020 code submission process. This work from Papers with Code builds on the Machine Learning Reproducibility Checklist introduced last year by Facebook AI Research (FAIR) Managing Director Joelle Pineau. That checklist was required as part of the NeurIPS 2019 paper submission process and the focus of the conference’s inaugural Reproducibility Challenge . Approximately 75 percent of accepted camera-ready papers at NeurIPS 2019 included code, compared with 50 percent the year prior. There were 173 papers submitted as part of the challenge, a 92 percent increase over the number submitted for a similar challenge at ICLR 2019. Read the Papers With Code blog post for more information about this new checklist, and learn more about the NeurIPS 2020 Reproducibility Program . Share on Facebook Share on Twitter

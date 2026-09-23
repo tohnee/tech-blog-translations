@@ -1,6 +1,6 @@
 # Sebastian Raschka 技术文章中文翻译
 
-> 共 321 篇（博客 82 + LLM 架构图解 31 + magazine 1 + 旧技术专栏 27 + FAQ 180），与英文存档一一对应、全文翻译；2026-09-06 完成首批 110 篇，2026-09-14 存量全部补齐，此后每日同步新文。
+> 共 322 篇（博客 83 + LLM 架构图解 31 + magazine 1 + 旧技术专栏 27 + FAQ 180），与英文存档一一对应、全文翻译；2026-09-06 完成首批 110 篇，2026-09-14 存量全部补齐，此后每日同步新文。
 > 英文原文存档见 [sebastianraschka-articles/](../sebastianraschka-articles/)；翻译规范见 [TRANSLATION_GUIDE.md](../TRANSLATION_GUIDE.md)。
 > 每篇头部含英文原标题与原文链接；代码块、图片链接、公式原样保留。
 
@@ -126,7 +126,7 @@ Substack 专栏译文，按发布年份存放；后续更新继续追加。
 - [机器学习/AI 的 Hello World：从随机森林到 RLVR](blog/2025/hello-world-ai.md)
 - [如何从技术书中获得最大收益](blog/2025/reading-books.md)
 
-### 2026（32 篇）
+### 2026（33 篇）
 
 - [20 万订阅者](blog/2026/ahead-of-ai-reached-200000-subscribers.md)
 - [《AI Reasoning Models》课程上线](blog/2026/ai-reasoning-models-course.md)
@@ -147,7 +147,8 @@ Substack 专栏译文，按发布年份存放；后续更新继续追加。
 - [LLMs From Scratch 突破 100,000 GitHub Stars](blog/2026/llms-from-scratch-reaches-100000-github-stars.md)
 - [本地开放权重 LLM 编程执行框架实测笔记](blog/2026/local-open-weight-llms-coding-harnesses.md)
 - [MiniMax M2 技术报告笔记](blog/2026/minimax-m2-technical-report.md)
-- [Muse Glimmer 30B 架构笔记](blog/2026/muse-glimmer-30b-architecture-notes.md)
+- [Muse Glimmer 30B 架构笔记- [MiMo-V2.6 Pro 训练笔记](blog/2026/mimo-v2-6-pro-architecture-training-notes.md)
+](blog/2026/muse-glimmer-30b-architecture-notes.md)
 - [Nemotron 3 Super 吞吐量笔记](blog/2026/nemotron-3-super-throughput.md)
 - [Nemotron 3 Ultra 潜在 MoE 笔记](blog/2026/nemotron-3-ultra-latent-moe.md)
 - [North Mini Code 编程智能体笔记](blog/2026/north-mini-code-agentic-coding.md)

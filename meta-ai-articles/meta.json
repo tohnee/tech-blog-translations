@@ -1390,5 +1390,1619 @@
   "title": "How AI learns to help finish your sentences",
   "date": "2021-01-21",
   "chars": 9232
+ },
+ {
+  "slug": "heres-how-were-using-ai-to-help-detect-misinformation",
+  "title": "Here's how we're using AI to help detect misinformation",
+  "date": "2020-11-19",
+  "chars": 8625
+ },
+ {
+  "slug": "high-performance-self-supervised-image-classification-with-contrastive-clustering",
+  "title": "High-performance self-supervised image classification with contrastive clustering",
+  "date": "2020-07-20",
+  "chars": 6482
+ },
+ {
+  "slug": "hiplot-high-dimensional-interactive-plots-made-easy",
+  "title": "HiPlot: High-dimensional interactive plots made easy",
+  "date": "2019-03-15",
+  "chars": 4569
+ },
+ {
+  "slug": "horizon-the-first-open-source-reinforcement-learning-platform-for-large-scale-products-and-services",
+  "title": "Horizon: The first open source reinforcement learning platform for large-scale products and services",
+  "date": "2018-11-01",
+  "chars": 14557
+ },
+ {
+  "slug": "how-ai-is-getting-better-at-detecting-hate-speech",
+  "title": "How AI is getting better at detecting hate speech",
+  "date": "2020-11-19",
+  "chars": 9233
+ },
+ {
+  "slug": "how-ai-is-helping-address-the-climate-crisis",
+  "title": "How AI is helping address the climate crisis",
+  "date": "2022-04-18",
+  "chars": 7805
+ },
+ {
+  "slug": "how-ai-is-learning-to-see-the-bigger-picture",
+  "title": "How AI is learning to see the bigger picture",
+  "date": "2021-05-19",
+  "chars": 6020
+ },
+ {
+  "slug": "how-ai-powers-experiences-facebook-instagram-system-cards",
+  "title": "how-ai-powers-experiences-facebook-instagram-system-cards",
+  "date": "2023-06-29",
+  "chars": 7408
+ },
+ {
+  "slug": "how-detectron2-helps-make-mines-safer-and-more-efficient",
+  "title": "How Detectron2 helps make mines safer and more efficient",
+  "date": "2020-06-09",
+  "chars": 3381
+ },
+ {
+  "slug": "how-facebook-annotates-multimodal-training-data-for-ml",
+  "title": "How Facebook annotates multimodal training data for ML",
+  "date": "2019-05-31",
+  "chars": 10604
+ },
+ {
+  "slug": "how-facebook-is-using-ai-to-improve-photo-descriptions-for-people-who-are-blind-or-visually-impaired",
+  "title": "How Facebook is using AI to improve photo descriptions for people who are blind or visually impaired",
+  "date": "2021-01-19",
+  "chars": 9828
+ },
+ {
+  "slug": "how-facebook-uses-super-efficient-ai-models-to-detect-hate-speech",
+  "title": "How Facebook uses super-efficient AI models to detect hate speech",
+  "date": "2020-11-19",
+  "chars": 7329
+ },
+ {
+  "slug": "how-maps-built-with-facebook-ai-can-help-with-covid-19-vaccine-delivery",
+  "title": "How maps built with Facebook AI can help with COVID-19 vaccine delivery",
+  "date": "2021-04-15",
+  "chars": 533
+ },
+ {
+  "slug": "how-the-ai-community-can-get-serious-about-reproducibility",
+  "title": "How the AI community can get serious about reproducibility",
+  "date": "2019-03-15",
+  "chars": 7973
+ },
+ {
+  "slug": "how-to-fine-tune-llms-peft-dataset-curation",
+  "title": "how-to-fine-tune-llms-peft-dataset-curation",
+  "date": "2024-08-07",
+  "chars": 9801
+ },
+ {
+  "slug": "how-were-using-fairness-flow-to-help-build-ai-that-works-better-for-everyone",
+  "title": "How we’re using Fairness Flow to help build AI that works better for everyone",
+  "date": "2021-03-31",
+  "chars": 17883
+ },
+ {
+  "slug": "hubert-self-supervised-representation-learning-for-speech-recognition-generation-and-compression",
+  "title": "HuBERT: Self-supervised representation learning for speech recognition, generation, and compression",
+  "date": "2021-06-15",
+  "chars": 6887
+ },
+ {
+  "slug": "ibm-watsonx-ai-llama",
+  "title": "ibm-watsonx-ai-llama",
+  "date": "2024-11-13",
+  "chars": 8057
+ },
+ {
+  "slug": "imagebind-six-modalities-binding-ai",
+  "title": "ImageBind: Holistic AI learning across six modalities",
+  "date": "2023-05-09",
+  "chars": 11629
+ },
+ {
+  "slug": "implicitron-a-new-modular-extensible-framework-for-neural-implicit-representations-in-pytorch3d",
+  "title": "Implicitron: A new modular, extensible framework for neural implicit representations in PyTorch3D",
+  "date": "2022-08-11",
+  "chars": 6186
+ },
+ {
+  "slug": "improved-supernet-training-for-efficient-neural-architecture-search",
+  "title": "Improved supernet training for efficient neural architecture search",
+  "date": "2021-07-14",
+  "chars": 9926
+ },
+ {
+  "slug": "improving-ai-language-understanding-by-combining-multiple-word-representations-",
+  "title": "Improving AI language understanding by combining multiple word representations﻿",
+  "date": "2018-10-15",
+  "chars": 1490
+ },
+ {
+  "slug": "improving-fairness-and-robustness-in-speech-recognition",
+  "title": "improving-fairness-and-robustness-in-speech-recognition",
+  "date": "2023-07-13",
+  "chars": 9548
+ },
+ {
+  "slug": "improving-scene-understanding-through-panoptic-segmentation",
+  "title": "Improving scene understanding through panoptic segmentation",
+  "date": "2019-04-18",
+  "chars": 2265
+ },
+ {
+  "slug": "inarix-agricultural-supply-chain-meta-dino-v2",
+  "title": "inarix-agricultural-supply-chain-meta-dino-v2",
+  "date": "2024-12-06",
+  "chars": 4531
+ },
+ {
+  "slug": "instagram-edits-cutouts-segment-anything",
+  "title": "How Meta Segment Anything Model enables Cutouts in the Instagram Edits app",
+  "date": "2025-05-01",
+  "chars": 5085
+ },
+ {
+  "slug": "instance-conditioned-gans",
+  "title": "Building AI that can generate images of things it has never seen before",
+  "date": "2021-09-20",
+  "chars": 6858
+ },
+ {
+  "slug": "introducing-a-new-large-scale-dynamic-data-set-to-push-the-limits-of-natural-language-processing",
+  "title": "Introducing a new, large-scale dynamic dataset to push the limits of natural language processing",
+  "date": "2020-07-03",
+  "chars": 5511
+ },
+ {
+  "slug": "introducing-few-shot-neural-architecture-search",
+  "title": "Introducing few-shot neural architecture search",
+  "date": "2021-07-19",
+  "chars": 7058
+ },
+ {
+  "slug": "introducing-kilt-a-new-unified-benchmark-for-knowledge-intensive-nlp-tasks",
+  "title": "Introducing KILT, a new unified benchmark for knowledge-intensive NLP tasks",
+  "date": "2020-09-21",
+  "chars": 3957
+ },
+ {
+  "slug": "introducing-light-a-multiplayer-text-adventure-game-for-dialogue-research",
+  "title": "Introducing LIGHT: A Multiplayer Text Adventure Game for Dialogue Research",
+  "date": "2019-11-26",
+  "chars": 966
+ },
+ {
+  "slug": "introducing-many-to-many-multilingual-machine-translation",
+  "title": "The first AI model that translates 100 languages without relying on English data",
+  "date": "2020-10-19",
+  "chars": 13796
+ },
+ {
+  "slug": "introducing-mephisto-a-new-platform-for-more-open-collaborative-data-collection",
+  "title": "Introducing Mephisto: A new platform for more open, collaborative data collection",
+  "date": "2019-05-22",
+  "chars": 5145
+ },
+ {
+  "slug": "introducing-mugen-a-new-dataset-for-multimodal-research",
+  "title": "Introducing MUGEN, a new dataset for multimodal research",
+  "date": "2022-06-14",
+  "chars": 9023
+ },
+ {
+  "slug": "introducing-n-bref-a-neural-based-decompiler-framework",
+  "title": "Introducing N-Bref: a neural-based decompiler framework",
+  "date": "2021-01-27",
+  "chars": 4711
+ },
+ {
+  "slug": "introducing-opacus-a-high-speed-library-for-training-pytorch-models-with-differential-privacy",
+  "title": "Introducing Opacus: A high-speed library for training PyTorch models with differential privacy",
+  "date": "2020-08-31",
+  "chars": 8269
+ },
+ {
+  "slug": "introducing-sphere-meta-ais-web-scale-corpus-for-better-knowledge-intensive-nlp",
+  "title": "Introducing Sphere: Meta AI’s web-scale corpus for better knowledge-intensive NLP",
+  "date": "",
+  "chars": 7065
+ },
+ {
+  "slug": "introducing-the-habitat-matterport-3d-research-data-set-for-training-embodied-ai",
+  "title": "Introducing the Habitat-Matterport 3D research data set for training embodied AI",
+  "date": "2021-06-30",
+  "chars": 5310
+ },
+ {
+  "slug": "introducing-the-temporal-data-set-a-benchmark-for-recognizing-actions-in-videos",
+  "title": "Introducing the Temporal dataset, a benchmark for recognizing actions in videos",
+  "date": "2019-03-15",
+  "chars": 2852
+ },
+ {
+  "slug": "introducing-unidentified-video-objects-a-new-benchmark-for-open-world-object-segmentation",
+  "title": "Introducing Unidentified Video Objects, a new benchmark for open-world object segmentation",
+  "date": "2021-08-12",
+  "chars": 7159
+ },
+ {
+  "slug": "inverse-cooking",
+  "title": "Using AI to generate recipes from food images",
+  "date": "2019-03-15",
+  "chars": 3480
+ },
+ {
+  "slug": "josephine-miller-designer-meta-segment-anything-2",
+  "title": "josephine-miller-designer-meta-segment-anything-2",
+  "date": "2025-01-16",
+  "chars": 4245
+ },
+ {
+  "slug": "large-language-model-llama-meta-ai",
+  "title": "Introducing LLaMA: A foundational, 65-billion-parameter large language model",
+  "date": "2023-02-24",
+  "chars": 5072
+ },
+ {
+  "slug": "large-scale-forecasting-self-supervised-learning-framework-for-hyper-parameter-tuning",
+  "title": "Large-scale forecasting: Self-supervised learning framework for hyperparameter tuning",
+  "date": "2021-04-05",
+  "chars": 5056
+ },
+ {
+  "slug": "laser-multilingual-sentence-embeddings",
+  "title": "Zero-shot transfer across 93 languages: Open-sourcing enhanced LASER library",
+  "date": "2019-01-22",
+  "chars": 10377
+ },
+ {
+  "slug": "launching-the-nethack-challenge-at-neurips-2021",
+  "title": "Launching the NetHack Challenge at NeurIPS 2021",
+  "date": "2021-06-09",
+  "chars": 9869
+ },
+ {
+  "slug": "learning-from-the-women-in-ai-summit-",
+  "title": "Learning from the Women in AI Summit",
+  "date": "2019-03-15",
+  "chars": 8230
+ },
+ {
+  "slug": "learning-from-videos-to-understand-the-world",
+  "title": "Learning from videos to understand the world",
+  "date": "2021-03-12",
+  "chars": 15734
+ },
+ {
+  "slug": "litmos-llama-intuitive-corporate-learning",
+  "title": "How Litmos is using Llama to make corporate learning more intuitive",
+  "date": "2025-04-23",
+  "chars": 6375
+ },
+ {
+  "slug": "llama-2-3-meditron-yale-medicine-epfl-open-source-llm",
+  "title": "llama-2-3-meditron-yale-medicine-epfl-open-source-llm",
+  "date": "2024-04-25",
+  "chars": 6569
+ },
+ {
+  "slug": "llama-2-mathgpt-mathpresso-qanda-upstage-open-source-llm",
+  "title": "llama-2-mathgpt-mathpresso-qanda-upstage-open-source-llm",
+  "date": "2024-04-15",
+  "chars": 6958
+ },
+ {
+  "slug": "llama-2-update",
+  "title": "llama-2-update",
+  "date": "2023-07-28",
+  "chars": 2227
+ },
+ {
+  "slug": "llama-3-1-impact-grants-call-for-applications",
+  "title": "llama-3-1-impact-grants-call-for-applications",
+  "date": "2024-08-05",
+  "chars": 6220
+ },
+ {
+  "slug": "llama-3-hackathon-recap-cerebral-valley",
+  "title": "llama-3-hackathon-recap-cerebral-valley",
+  "date": "2024-05-20",
+  "chars": 3390
+ },
+ {
+  "slug": "llama-4-multimodal-intelligence",
+  "title": "The Llama 4 herd: The beginning of a new era of natively multimodal AI innovation",
+  "date": "2025-04-05",
+  "chars": 21998
+ },
+ {
+  "slug": "llama-hackathon-india",
+  "title": "llama-hackathon-india",
+  "date": "2024-11-08",
+  "chars": 6902
+ },
+ {
+  "slug": "llama-helps-biofy-fight-antibiotic-resistance",
+  "title": "How Llama helps Biofy Technologies in the fight against antibiotic resistance",
+  "date": "2025-08-07",
+  "chars": 2533
+ },
+ {
+  "slug": "llama-helps-efficiency-anz-bank",
+  "title": "How Llama helps drive engineering efficiency at a major Australian bank",
+  "date": "2025-06-18",
+  "chars": 4625
+ },
+ {
+  "slug": "llama-oracle-help-students-in-brazil",
+  "title": "How Llama and Oracle are helping Instituto PROA kickstart careers for students in Brazil",
+  "date": "2025-08-27",
+  "chars": 3260
+ },
+ {
+  "slug": "llama-startup-program",
+  "title": "Introducing the Llama Startup Program",
+  "date": "2025-05-21",
+  "chars": 3424
+ },
+ {
+  "slug": "llama-usage-doubled-may-through-july-2024",
+  "title": "llama-usage-doubled-may-through-july-2024",
+  "date": "2024-08-29",
+  "chars": 11266
+ },
+ {
+  "slug": "llama-zoom-ai-companion",
+  "title": "llama-zoom-ai-companion",
+  "date": "2024-08-09",
+  "chars": 3908
+ },
+ {
+  "slug": "llamacon-hackathon",
+  "title": "Meet the winners of our first-ever LlamaCon Hackathon",
+  "date": "2025-05-13",
+  "chars": 4905
+ },
+ {
+  "slug": "llamacon-llama-news",
+  "title": "Everything we announced at our first-ever LlamaCon",
+  "date": "2025-04-29",
+  "chars": 8749
+ },
+ {
+  "slug": "longform-qa",
+  "title": "Introducing long-form question answering",
+  "date": "2019-03-15",
+  "chars": 7751
+ },
+ {
+  "slug": "looper-meta-ai-optimization-platform-for-engineers",
+  "title": "Inside Meta's AI optimization platform for engineers across the company",
+  "date": "2022-04-21",
+  "chars": 11496
+ },
+ {
+  "slug": "lyapunov-based-safe-reinforcement-learning",
+  "title": "A Lyapunov-based approach for safe reinforcement learning algorithms",
+  "date": "2019-02-07",
+  "chars": 3654
+ },
+ {
+  "slug": "lyrise-hiring-ai-talent-meta-llama",
+  "title": "lyrise-hiring-ai-talent-meta-llama",
+  "date": "2024-08-08",
+  "chars": 8219
+ },
+ {
+  "slug": "machine-intelligence-research-new-models",
+  "title": "Advancing machine intelligence through human-centered research",
+  "date": "2025-02-07",
+  "chars": 13685
+ },
+ {
+  "slug": "mahmood-lab-human-pathology-dinov2",
+  "title": "Building foundation models for understanding human pathology using DINOv2",
+  "date": "2025-03-06",
+  "chars": 5093
+ },
+ {
+  "slug": "making-conversation-models-more-empathetic",
+  "title": "Making conversation models more empathetic",
+  "date": "2019-03-15",
+  "chars": 848
+ },
+ {
+  "slug": "making-floating-point-math-highly-efficient-for-ai-hardware",
+  "title": "Making floating point math highly efficient for AI hardware",
+  "date": "2018-11-08",
+  "chars": 19151
+ },
+ {
+  "slug": "making-transformer-networks-simpler-and-more-efficient",
+  "title": "Making Transformer networks simpler and more efficient",
+  "date": "2019-03-15",
+  "chars": 5828
+ },
+ {
+  "slug": "mapping-roads-through-deep-learning-and-weakly-supervised-training",
+  "title": "Mapping roads through deep learning and weakly supervised training",
+  "date": "2019-03-15",
+  "chars": 13867
+ },
+ {
+  "slug": "mapping-the-world-to-help-aid-workers-with-weakly-semi-supervised-learning",
+  "title": "Mapping the world to help aid workers, with weakly, semi-supervised learning",
+  "date": "2019-04-09",
+  "chars": 13233
+ },
+ {
+  "slug": "measure-fairness-and-mitigate-ai-bias",
+  "title": "Introducing two new datasets to help measure fairness and mitigate AI bias",
+  "date": "2022-05-23",
+  "chars": 9295
+ },
+ {
+  "slug": "mendel-ai-accelerating-clinical-trials-with-llama",
+  "title": "Dramatically accelerating patient-matching in clinical trials with open source",
+  "date": "2025-02-19",
+  "chars": 2972
+ },
+ {
+  "slug": "meta-ai-ecosystem-management-metrics",
+  "title": "How Meta measures the management of its AI ecosystem",
+  "date": "2023-03-24",
+  "chars": 15102
+ },
+ {
+  "slug": "meta-ai-infrastructure-overview",
+  "title": "meta-ai-infrastructure-overview",
+  "date": "2023-05-18",
+  "chars": 6575
+ },
+ {
+  "slug": "meta-ai-inside-the-lab",
+  "title": "Inside the Lab: AI breakthroughs that will power the metaverse",
+  "date": "2022-02-23",
+  "chars": 4395
+ },
+ {
+  "slug": "meta-ai-research-explores-new-public-fairness-benchmarks-for-computer-vision-models",
+  "title": "Meta AI Research explores new public fairness benchmarks for computer vision models",
+  "date": "2022-02-28",
+  "chars": 6470
+ },
+ {
+  "slug": "meta-ai-residency-profiles",
+  "title": "Q&A with 2022 Meta AI Residents: Research topics, future plans, and more",
+  "date": "2022-10-06",
+  "chars": 16284
+ },
+ {
+  "slug": "meta-ai-residency-program-mentors",
+  "title": "2022 Meta AI Program Mentors",
+  "date": "2022-10-06",
+  "chars": 6912
+ },
+ {
+  "slug": "meta-fair-research-new-releases",
+  "title": "meta-fair-research-new-releases",
+  "date": "2024-06-18",
+  "chars": 10576
+ },
+ {
+  "slug": "meta-fair-science-new-open-source-releases",
+  "title": "Sharing new breakthroughs and artifacts supporting molecular property prediction, language processing, and neuroscience",
+  "date": "2025-05-14",
+  "chars": 9682
+ },
+ {
+  "slug": "meta-fair-updates-agents-robustness-safety-architecture",
+  "title": "meta-fair-updates-agents-robustness-safety-architecture",
+  "date": "2024-12-12",
+  "chars": 16338
+ },
+ {
+  "slug": "meta-llama-3-1",
+  "title": "meta-llama-3-1",
+  "date": "2024-07-23",
+  "chars": 14069
+ },
+ {
+  "slug": "meta-llama-3-meta-ai-responsibility",
+  "title": "meta-llama-3-meta-ai-responsibility",
+  "date": "2024-04-18",
+  "chars": 19262
+ },
+ {
+  "slug": "meta-llama-3-update",
+  "title": "meta-llama-3-update",
+  "date": "2024-04-25",
+  "chars": 2476
+ },
+ {
+  "slug": "meta-llama-quantized-lightweight-models",
+  "title": "meta-llama-quantized-lightweight-models",
+  "date": "2024-10-24",
+  "chars": 9739
+ },
+ {
+  "slug": "meta-mtia-scale-ai-chips-for-billions",
+  "title": "Meta’s Race to Scale AI Chips for Billions: Four Chips in Two Years",
+  "date": "2026-03-11",
+  "chars": 16683
+ },
+ {
+  "slug": "michael-f-cohen-receives-steven-a-coons-award-",
+  "title": "Michael F. Cohen receives Steven A. Coons Award",
+  "date": "2019-05-24",
+  "chars": 7528
+ },
+ {
+  "slug": "minihack-a-new-sandbox-for-open-ended-reinforcement-learning",
+  "title": "MiniHack: A new sandbox for open-ended reinforcement learning",
+  "date": "2021-09-29",
+  "chars": 6631
+ },
+ {
+  "slug": "mlqa-evaluating-cross-lingual-extractive-question-answering",
+  "title": "MLQA: Evaluating cross-lingual extractive question answering",
+  "date": "2019-03-15",
+  "chars": 2551
+ },
+ {
+  "slug": "muavic-audio-visual-speech-translation-benchmark",
+  "title": "MuAViC: The first audio-video speech translation benchmark",
+  "date": "2023-03-08",
+  "chars": 5465
+ },
+ {
+  "slug": "multilingual-model-speech-recognition",
+  "title": "multilingual-model-speech-recognition",
+  "date": "2023-05-22",
+  "chars": 10027
+ },
+ {
+  "slug": "multiscale-vision-transformers-an-architecture-for-modeling-visual-data",
+  "title": "Multiscale Vision Transformers: A hierarchical architecture for representing image and video information",
+  "date": "2019-05-22",
+  "chars": 5617
+ },
+ {
+  "slug": "near-perfect-point-goal-navigation-from-25-billion-frames-of-experience",
+  "title": "Near-perfect point-goal navigation from 2.5 billion frames of experience",
+  "date": "2019-03-15",
+  "chars": 14914
+ },
+ {
+  "slug": "nethack-learning-environment-to-advance-deep-reinforcement-learning",
+  "title": "The NetHack Learning Environment to advance deep reinforcement learning",
+  "date": "2020-06-25",
+  "chars": 6454
+ },
+ {
+  "slug": "neural-code-search-evaluation-dataset",
+  "title": "Neural Code Search Evaluation Dataset",
+  "date": "2019-03-15",
+  "chars": 657
+ },
+ {
+  "slug": "neuralprophet-the-neural-evolution-of-facebooks-prophet",
+  "title": "NeuralProphet: The neural evolution of Meta’s Prophet",
+  "date": "2021-11-30",
+  "chars": 6961
+ },
+ {
+  "slug": "neuromnia-autism-aba-therapy-built-with-llama",
+  "title": "Innovation driven by compassion",
+  "date": "2024-10-09",
+  "chars": 4080
+ },
+ {
+  "slug": "nevergrad-an-evolutionary-optimization-platform-adds-new-key-features",
+  "title": "Nevergrad, an evolutionary optimization platform, adds new key features",
+  "date": "2019-03-15",
+  "chars": 5297
+ },
+ {
+  "slug": "nevergrad-derivative-free-optimization",
+  "title": "Nevergrad: An open source tool for derivative-free optimization",
+  "date": "2018-12-20",
+  "chars": 7759
+ },
+ {
+  "slug": "new-advances-in-natural-language-processing-to-better-connect-people",
+  "title": "New advances in natural language processing to better connect people",
+  "date": "2019-03-15",
+  "chars": 12441
+ },
+ {
+  "slug": "new-advances-in-speech-recognition-to-power-ar-experiences-and-more",
+  "title": "New advances in speech recognition to power AR experiences and more",
+  "date": "2022-05-19",
+  "chars": 7540
+ },
+ {
+  "slug": "new-ai-research-to-help-predict-covid-19-resource-needs-from-a-series-of-x-rays",
+  "title": "New AI research to help predict COVID-19 resource needs from a series of X-rays",
+  "date": "2021-01-15",
+  "chars": 7240
+ },
+ {
+  "slug": "new-captum-version-features-more-ways-to-build-ai-responsibly",
+  "title": "New Captum version features more ways to build AI responsibly",
+  "date": "2021-09-21",
+  "chars": 6759
+ },
+ {
+  "slug": "new-code-completeness-checklist-and-reproducibility-updates",
+  "title": "New code completeness checklist and reproducibility updates",
+  "date": "2019-03-15",
+  "chars": 1491
+ },
+ {
+  "slug": "new-fastmri-open-source-ai-research-tools-from-facebook-and-nyu-school-of-medicine",
+  "title": "New fastMRI open source AI research tools from Facebook and NYU School of Medicine",
+  "date": "2018-11-26",
+  "chars": 9813
+ },
+ {
+  "slug": "new-milestones-in-embodied-ai",
+  "title": "New milestones in embodied AI",
+  "date": "2019-10-29",
+  "chars": 18655
+ },
+ {
+  "slug": "new-research-helps-ai-navigate-unfamiliar-indoor-3d-spaces",
+  "title": "New research helps AI navigate unfamiliar, indoor 3D spaces",
+  "date": "2022-06-16",
+  "chars": 9787
+ },
+ {
+  "slug": "new-way-to-assess-ai-bias-in-object-recognition-systems",
+  "title": "A new way to assess AI bias in object-recognition systems",
+  "date": "2019-03-15",
+  "chars": 10113
+ },
+ {
+  "slug": "niantic-peridot-llama",
+  "title": "niantic-peridot-llama",
+  "date": "2024-05-22",
+  "chars": 6771
+ },
+ {
+  "slug": "nllb-200-high-quality-machine-translation",
+  "title": "200 languages within a single AI model: A breakthrough in high-quality machine translation",
+  "date": "2019-05-22",
+  "chars": 15546
+ },
+ {
+  "slug": "nvidia-llama",
+  "title": "nvidia-llama",
+  "date": "2024-08-14",
+  "chars": 1842
+ },
+ {
+  "slug": "nymeria-dataset-reality-labs-research-egocentric-human-motion-understanding",
+  "title": "nymeria-dataset-reality-labs-research-egocentric-human-motion-understanding",
+  "date": "2024-12-20",
+  "chars": 6407
+ },
+ {
+  "slug": "octconv-a-flexible-efficient-alternative-to-standard-convolution",
+  "title": "OctConv: A flexible, efficient alternative to standard convolution",
+  "date": "2019-03-15",
+  "chars": 2591
+ },
+ {
+  "slug": "online-and-offline-tests-to-improve-news-feed-ranking",
+  "title": "Combining online and offline tests to improve News Feed ranking",
+  "date": "2019-04-03",
+  "chars": 2966
+ },
+ {
+  "slug": "online-speech-recognition-with-wav2letteranywhere",
+  "title": "Online speech recognition with wav2letter@anywhere",
+  "date": "2019-03-15",
+  "chars": 5933
+ },
+ {
+  "slug": "onnx-expansion-speeds-ai-development-",
+  "title": "ONNX expansion speeds AI development﻿",
+  "date": "2018-05-02",
+  "chars": 8774
+ },
+ {
+  "slug": "open-catalyst-challenge-using-ai-to-discover-catalysts-for-renewable-energy-storage",
+  "title": "Open Catalyst Challenge: Using AI to discover catalysts for renewable energy storage",
+  "date": "2021-06-17",
+  "chars": 4816
+ },
+ {
+  "slug": "open-source-in-brief-hydra",
+  "title": "Hydra: A framework that simplifies the development of complex applications",
+  "date": "2019-03-15",
+  "chars": 832
+ },
+ {
+  "slug": "open-sourcing-a-new-parser-to-improve-clinical-trial-participant-recruitment",
+  "title": "Open-sourcing a new parser to improve clinical trial participant recruitment",
+  "date": "2020-06-05",
+  "chars": 5734
+ },
+ {
+  "slug": "open-sourcing-ai-habitat-a-simulation-platform-for-embodied-ai-research",
+  "title": "Open-sourcing AI Habitat, a simulation platform for embodied AI research",
+  "date": "2019-03-15",
+  "chars": 16882
+ },
+ {
+  "slug": "open-sourcing-ax-and-botorch-new-ai-tools-for-adaptive-experimentation",
+  "title": "Open-sourcing Ax and botorch: New AI tools for Adaptive Experimentation",
+  "date": "2019-05-01",
+  "chars": 16875
+ },
+ {
+  "slug": "open-sourcing-deepfocus-an-ai-powered-system-for-more-realistic-vr-images",
+  "title": "Open-sourcing DeepFocus, an AI-powered system for more realistic VR images",
+  "date": "2018-12-19",
+  "chars": 2557
+ },
+ {
+  "slug": "open-sourcing-mvfst-rl-a-research-platform-for-managing-network-congestion-with-reinforcement-learning",
+  "title": "Open-sourcing mvfst-rl, a research platform for managing network congestion with reinforcement learning",
+  "date": "2019-03-15",
+  "chars": 2956
+ },
+ {
+  "slug": "open-sourcing-new-elf-opengo-bot-and-go-research",
+  "title": "A new ELF OpenGo bot and analysis of historical Go games",
+  "date": "2019-02-13",
+  "chars": 13622
+ },
+ {
+  "slug": "open-sourcing-polygames-a-new-framework-for-training-ai-bots-through-self-play",
+  "title": "Open-sourcing Polygames, a new framework for training AI bots through self-play",
+  "date": "2019-03-15",
+  "chars": 4979
+ },
+ {
+  "slug": "open-sourcing-pytext-for-faster-nlp-development",
+  "title": "Open-sourcing PyText for faster NLP development",
+  "date": "2018-12-14",
+  "chars": 10481
+ },
+ {
+  "slug": "open-sourcing-pytorch-biggraph-for-faster-embeddings-of-extremely-large-graphs",
+  "title": "Open-sourcing PyTorch-BigGraph for faster embeddings of extremely large graphs",
+  "date": "2019-04-02",
+  "chars": 10163
+ },
+ {
+  "slug": "open-sourcing-reagent-a-platform-for-reasoning-systems",
+  "title": "Open-sourcing ReAgent, a modular, end-to-end platform for building reasoning systems",
+  "date": "2019-03-15",
+  "chars": 12550
+ },
+ {
+  "slug": "open-sourcing-submitit-a-lightweight-tool-for-slurm-cluster-computation",
+  "title": "Open-sourcing Submitit: A lightweight tool for Slurm cluster computation",
+  "date": "2020-08-25",
+  "chars": 4307
+ },
+ {
+  "slug": "openeqa-embodied-question-answering-robotics-ar-glasses",
+  "title": "openeqa-embodied-question-answering-robotics-ar-glasses",
+  "date": "2024-04-11",
+  "chars": 7015
+ },
+ {
+  "slug": "opt-175b-large-language-model-applications",
+  "title": "Applications of Meta’s OPT-175B: Protein design, quantum physics, translation, and more",
+  "date": "2022-07-26",
+  "chars": 3467
+ },
+ {
+  "slug": "orakl-oncology-dinov2-accelerating-cancer-treatment",
+  "title": "How Orakl Oncology is using DINOv2 to accelerate cancer treatment discovery",
+  "date": "2025-02-20",
+  "chars": 3352
+ },
+ {
+  "slug": "paving-the-way-for-software-20-with-kotlin",
+  "title": "Paving the way for Software 2.0 with Kotlin",
+  "date": "2020-11-17",
+  "chars": 10119
+ },
+ {
+  "slug": "phyre-a-new-ai-benchmark-for-physical-reasoning",
+  "title": "PHYRE: A new AI benchmark for physical reasoning",
+  "date": "2019-03-15",
+  "chars": 3935
+ },
+ {
+  "slug": "platform-aware-ai-to-design-neural-networks",
+  "title": "Using platform-aware AI to design compact and efficient neural networks",
+  "date": "2019-03-15",
+  "chars": 2380
+ },
+ {
+  "slug": "pluribus-first-ai-to-beat-pros-in-6-player-poker",
+  "title": "Facebook, Carnegie Mellon build first AI that beats pros in 6-player poker",
+  "date": "2019-03-15",
+  "chars": 27288
+ },
+ {
+  "slug": "poincare-maps-hyperbolic-embeddings-to-understand-how-cells-develop",
+  "title": "Poincaré maps: Hyperbolic embeddings to understand how cells develop",
+  "date": "2019-03-15",
+  "chars": 6676
+ },
+ {
+  "slug": "powered-by-ai-advancing-product-understanding-and-building-new-shopping-experiences",
+  "title": "Powered by AI: Advancing product understanding and building new shopping experiences",
+  "date": "2020-05-19",
+  "chars": 21598
+ },
+ {
+  "slug": "powered-by-ai-instagrams-explore-recommender-system",
+  "title": "Powered by AI: Instagram’s Explore recommender system",
+  "date": "2019-03-15",
+  "chars": 14686
+ },
+ {
+  "slug": "powered-by-ai-new-automated-captions",
+  "title": "Powered by AI: Automated captions",
+  "date": "2020-04-29",
+  "chars": 9253
+ },
+ {
+  "slug": "powered-by-ai-oculus-insight",
+  "title": "Powered by AI: Oculus Insight",
+  "date": "2019-03-15",
+  "chars": 12876
+ },
+ {
+  "slug": "powered-by-ai-turning-any-2d-photo-into-3d-using-convolutional-neural-nets",
+  "title": "Powered by AI: Turning any 2D photo into 3D using convolutional neural nets",
+  "date": "2019-03-15",
+  "chars": 7737
+ },
+ {
+  "slug": "ppl-bench-creating-a-standard-for-benchmarking-probabilistic-programming-languages",
+  "title": "PPL Bench: Creating a standard for benchmarking probabilistic programming languages",
+  "date": "2020-10-22",
+  "chars": 2699
+ },
+ {
+  "slug": "private-prediction-methods-a-systematic-study",
+  "title": "Private prediction methods: A systematic study",
+  "date": "2020-07-22",
+  "chars": 3568
+ },
+ {
+  "slug": "project-cairaoke",
+  "title": "Project CAIRaoke: Building the assistants of the future with breakthroughs in conversational AI",
+  "date": "2022-02-23",
+  "chars": 13035
+ },
+ {
+  "slug": "protein-folding-esmfold-metagenomics",
+  "title": "ESM Metagenomic Atlas: The first view of the ‘dark matter’ of the protein universe",
+  "date": "2022-11-01",
+  "chars": 13070
+ },
+ {
+  "slug": "pseudo-labeling-speech-recognition-using-multilingual-unlabeled-data",
+  "title": "Pseudo labeling: Speech recognition using multilingual unlabeled data",
+  "date": "2022-03-10",
+  "chars": 7002
+ },
+ {
+  "slug": "purple-llama-open-trust-safety-generative-ai",
+  "title": "purple-llama-open-trust-safety-generative-ai",
+  "date": "2023-12-07",
+  "chars": 7523
+ },
+ {
+  "slug": "pushing-state-of-the-art-in-3d-content-understanding",
+  "title": "Pushing state-of-the-art in 3D content understanding",
+  "date": "2019-03-15",
+  "chars": 17338
+ },
+ {
+  "slug": "pytorch-1-dot-2-release-and-global-summer-hackathon",
+  "title": "PyTorch 1.2 released as Global Summer Hackathon kicks off",
+  "date": "2019-10-10",
+  "chars": 4322
+ },
+ {
+  "slug": "pytorch-10-stable-release-now-available",
+  "title": "PyTorch developer ecosystem expands, 1.0 stable release now available",
+  "date": "2018-12-07",
+  "chars": 6728
+ },
+ {
+  "slug": "pytorch-13-adds-mobile-privacy-quantization-and-named-tensors",
+  "title": "PyTorch 1.3 adds mobile, privacy, quantization, and named tensors",
+  "date": "2019-03-15",
+  "chars": 13783
+ },
+ {
+  "slug": "pytorch-adds-new-dev-tools-as-it-hits-production-scale",
+  "title": "PyTorch adds new dev tools as it hits production scale",
+  "date": "2019-05-01",
+  "chars": 12745
+ },
+ {
+  "slug": "pytorch-ai-smartphones-computers",
+  "title": "How PyTorch is bringing the power of AI to computers and smartphones",
+  "date": "2022-12-02",
+  "chars": 4778
+ },
+ {
+  "slug": "pytorch-builds-the-future-of-ai-and-machine-learning-at-facebook",
+  "title": "PyTorch builds the future of AI and machine learning at Facebook",
+  "date": "2021-06-02",
+  "chars": 27157
+ },
+ {
+  "slug": "pytorch-drives-next-gen-intelligent-farming-machines",
+  "title": "PyTorch drives next-gen intelligent farming machines",
+  "date": "2020-08-06",
+  "chars": 4086
+ },
+ {
+  "slug": "pytorch-foundation",
+  "title": "Announcing the PyTorch Foundation: A new era for the cutting-edge AI framework",
+  "date": "2022-09-12",
+  "chars": 7058
+ },
+ {
+  "slug": "pytorch-utilized-in-aim-to-accelerate-drug-discovery",
+  "title": "PyTorch utilized in aim to accelerate drug discovery",
+  "date": "2020-09-30",
+  "chars": 2711
+ },
+ {
+  "slug": "pytorchvideo-a-deep-learning-library-for-video-understanding",
+  "title": "PyTorchVideo: A deep learning library for video understanding",
+  "date": "2021-05-18",
+  "chars": 5207
+ },
+ {
+  "slug": "q-and-a-with-2019-innovator-under-35-noam-brown",
+  "title": "Q&A with 2019 Innovator Under 35 Noam Brown",
+  "date": "2019-03-15",
+  "chars": 4677
+ },
+ {
+  "slug": "qa-with-abhinav-gupta-winner-of-the-jk-aggarwal-prize",
+  "title": "Q&A with Abhinav Gupta, winner of the J.K. Aggarwal Prize",
+  "date": "2021-04-13",
+  "chars": 6158
+ },
+ {
+  "slug": "qa-with-alejandro-perez-munoz-and-kun-huang-from-raise-a-new-way-to-enter-the-field-of-ai",
+  "title": "Q&A with Alejandro Perez Munoz and Kun Huang from RAISE, a new way to enter the field of AI",
+  "date": "2022-03-18",
+  "chars": 9985
+ },
+ {
+  "slug": "qa-with-david-esiobu-and-aram-h-markosyan-from-raise-meta-ais-rotational-program",
+  "title": "Q&A with David Esiobu and Aram H. Markosyan from RAISE, Meta AI’s rotational program",
+  "date": "2022-04-15",
+  "chars": 9967
+ },
+ {
+  "slug": "qa-with-facebook-ai-residents-tatiana-likhomanenko-and-siddharth-karamcheti",
+  "title": "Q&A with Facebook AI residents Tatiana Likhomanenko and Siddharth Karamcheti",
+  "date": "2019-03-15",
+  "chars": 7045
+ },
+ {
+  "slug": "qa-with-georgia-gkioxari-winner-of-the-2021-pami-young-researcher-award",
+  "title": "Q&A with Georgia Gkioxari, winner of the 2021 PAMI Young Researcher Award",
+  "date": "2021-06-23",
+  "chars": 7328
+ },
+ {
+  "slug": "qa-with-machine-translation-pioneer-the-future-of-mt-is-multilingual",
+  "title": "Q&A with machine translation pioneer: The future of MT is multilingual",
+  "date": "2021-11-10",
+  "chars": 13553
+ },
+ {
+  "slug": "qa-with-mohamed-gamal-and-fernando-hernandez-from-raise-meta-ais-rotational-program",
+  "title": "Q&A with Mohamed Gamal and Fernando Hernandez from RAISE, Meta AI’s rotational program",
+  "date": "2022-03-25",
+  "chars": 9688
+ },
+ {
+  "slug": "qnnpack-open-source-library-for-optimized-mobile-deep-learning",
+  "title": "QNNPACK: Open source library for optimized mobile deep learning",
+  "date": "2018-10-29",
+  "chars": 22695
+ },
+ {
+  "slug": "radonc-gpt-meta-llama-2-mayo-clinic",
+  "title": "radonc-gpt-meta-llama-2-mayo-clinic",
+  "date": "2024-05-08",
+  "chars": 4594
+ },
+ {
+  "slug": "raft-llama-retrieval-augmented-generation-supervised-fine-tuning-microsoft",
+  "title": "raft-llama-retrieval-augmented-generation-supervised-fine-tuning-microsoft",
+  "date": "2024-05-07",
+  "chars": 8726
+ },
+ {
+  "slug": "read-to-fight-monsters-using-rl-to-teach-agents-to-generalize-to-new-settings",
+  "title": "Read to Fight Monsters: Using RL to teach agents to generalize to new settings",
+  "date": "2019-03-15",
+  "chars": 3268
+ },
+ {
+  "slug": "rebel-a-general-game-playing-ai-bot-that-excels-at-poker-and-more",
+  "title": "ReBeL: A general game-playing AI bot that excels at poker and more",
+  "date": "2020-12-03",
+  "chars": 12624
+ },
+ {
+  "slug": "recent-advances-in-low-resource-machine-translation",
+  "title": "Recent advances in low-resource machine translation",
+  "date": "2019-03-15",
+  "chars": 15125
+ },
+ {
+  "slug": "recognizing-3d-spaces-without-spatial-labels",
+  "title": "Recognizing 3D spaces without spatial labels",
+  "date": "2021-05-14",
+  "chars": 4643
+ },
+ {
+  "slug": "reengineering-facebook-ais-deep-learning-platforms-for-interoperability",
+  "title": "Reengineering Facebook AI’s deep learning platforms for interoperability",
+  "date": "2020-12-21",
+  "chars": 9790
+ },
+ {
+  "slug": "research-in-brief-grounded-human-object-interaction-hotspots",
+  "title": "Research in Brief: Grounded Human-Object Interaction Hotspots",
+  "date": "2019-03-15",
+  "chars": 2507
+ },
+ {
+  "slug": "research-in-brief-training-ai-to-answer-questions-using-compressed-search-results",
+  "title": "Research in Brief: Training AI to Answer Questions Using Compressed Search Results",
+  "date": "2019-03-15",
+  "chars": 3600
+ },
+ {
+  "slug": "research-in-brief-unsupervised-question-answering-by-cloze-translation",
+  "title": "Research in Brief: Unsupervised Question Answering by Cloze Translation",
+  "date": "2019-03-15",
+  "chars": 3153
+ },
+ {
+  "slug": "reskin-a-versatile-replaceable-low-cost-skin-for-ai-research-on-tactile-perception",
+  "title": "ReSkin: a versatile, replaceable, low-cost skin for AI research on tactile perception",
+  "date": "2019-05-22",
+  "chars": 11125
+ },
+ {
+  "slug": "responsible-ai-progress-meta-2022",
+  "title": "Meta’s progress and learnings in AI fairness and transparency",
+  "date": "2023-01-11",
+  "chars": 17859
+ },
+ {
+  "slug": "results-of-the-first-fastmri-image-reconstruction-challenge",
+  "title": "Results of the first fastMRI image reconstruction challenge",
+  "date": "2019-03-15",
+  "chars": 5941
+ },
+ {
+  "slug": "retrieval-augmented-generation-streamlining-the-creation-of-intelligent-natural-language-processing-models",
+  "title": "Retrieval Augmented Generation: Streamlining the creation of intelligent natural language processing models",
+  "date": "2020-09-28",
+  "chars": 7855
+ },
+ {
+  "slug": "reverse-engineering-generative-model-from-a-single-deepfake-image",
+  "title": "Reverse engineering generative models from a single deepfake image",
+  "date": "2021-06-16",
+  "chars": 11379
+ },
+ {
+  "slug": "roberta-an-optimized-method-for-pretraining-self-supervised-nlp-systems",
+  "title": "RoBERTa: An optimized method for pretraining self-supervised NLP systems",
+  "date": "2019-03-15",
+  "chars": 3193
+ },
+ {
+  "slug": "robots-learning-video-simulation-artificial-visual-cortex-vc-1",
+  "title": "Robots that learn from videos of human activities and simulated interactions",
+  "date": "2023-03-31",
+  "chars": 15885
+ },
+ {
+  "slug": "rosetta-understanding-text-in-images-and-videos-with-machine-learning",
+  "title": "Rosetta: Understanding text in images and videos with machine learning",
+  "date": "2018-09-11",
+  "chars": 17233
+ },
+ {
+  "slug": "saama-data-driven-care-built-with-llama",
+  "title": "How Llama is helping Saama deliver new possibilities in personalized medicine and data-driven care",
+  "date": "2025-01-14",
+  "chars": 5408
+ },
+ {
+  "slug": "saif-check-llama-3-validation-trust",
+  "title": "saif-check-llama-3-validation-trust",
+  "date": "2024-06-20",
+  "chars": 6289
+ },
+ {
+  "slug": "sam-audio",
+  "title": "Introducing SAM Audio: The First Unified Multimodal Model for Audio Separation",
+  "date": "2025-12-16",
+  "chars": 13741
+ },
+ {
+  "slug": "sarvam-india-audio-language-model-llama",
+  "title": "Enlisting Llama in India’s first open source audio language model",
+  "date": "2025-02-05",
+  "chars": 4693
+ },
+ {
+  "slug": "scaling-how-we-build-test-advanced-ai",
+  "title": "Scaling How We Build and Test Our Most Advanced AI",
+  "date": "2026-04-08",
+  "chars": 6212
+ },
+ {
+  "slug": "scaling-neural-machine-translation-to-bigger-data-sets-with-faster-training-and-inference",
+  "title": "Scaling neural machine translation to bigger datasets with faster training and inference",
+  "date": "2018-09-07",
+  "chars": 8774
+ },
+ {
+  "slug": "scenescript-3d-scene-reconstruction-reality-labs-research",
+  "title": "scenescript-3d-scene-reconstruction-reality-labs-research",
+  "date": "2024-03-20",
+  "chars": 7457
+ },
+ {
+  "slug": "scribd-everand-llama",
+  "title": "Finding the perfect book to read next with a Llama-based assistant",
+  "date": "2024-12-20",
+  "chars": 4263
+ },
+ {
+  "slug": "seamless-communication",
+  "title": "seamless-communication",
+  "date": "2023-11-30",
+  "chars": 15750
+ },
+ {
+  "slug": "seamless-interaction-natural-conversational-dynamics",
+  "title": "Modeling natural conversational dynamics with Seamless Interaction",
+  "date": "2025-06-27",
+  "chars": 11908
+ },
+ {
+  "slug": "seamless-m4t",
+  "title": "seamless-m4t",
+  "date": "2023-08-22",
+  "chars": 13922
+ },
+ {
+  "slug": "seer-10b-better-fairer-computer-vision-through-self-supervised-learning-training-on-diverse-datasets",
+  "title": "SEER 10B: Better, fairer computer vision through self-supervised learning on diverse datasets",
+  "date": "2022-02-28",
+  "chars": 13573
+ },
+ {
+  "slug": "seer-an-important-step-toward-ai-that-works-well-for-everyone",
+  "title": "SEER: An important step toward AI that works well for everyone",
+  "date": "2021-04-26",
+  "chars": 4035
+ },
+ {
+  "slug": "seer-the-start-of-a-more-powerful-flexible-and-accessible-era-for-computer-vision",
+  "title": "SEER: The start of a more powerful, flexible, and accessible era for computer vision",
+  "date": "2021-03-04",
+  "chars": 10062
+ },
+ {
+  "slug": "segment-anything-foundation-model-image-segmentation",
+  "title": "Introducing Segment Anything: Working toward the first foundation model for image segmentation",
+  "date": "2023-04-05",
+  "chars": 13107
+ },
+ {
+  "slug": "self-supervised-learning-practical-guide",
+  "title": "The self-supervised learning cookbook",
+  "date": "2023-04-25",
+  "chars": 5284
+ },
+ {
+  "slug": "self-supervised-learning-the-dark-matter-of-intelligence",
+  "title": "Self-supervised learning: The dark matter of intelligence",
+  "date": "2021-03-04",
+  "chars": 23598
+ },
+ {
+  "slug": "self-supervision-and-building-more-robust-speech-recognition-systems",
+  "title": "Self-supervision and building more robust speech recognition systems",
+  "date": "2019-09-19",
+  "chars": 10532
+ },
+ {
+  "slug": "sevilla-fc-scout-advisor-llama-ibm-watsonx",
+  "title": "How Sevilla FC is discovering future soccer stars with Llama",
+  "date": "2025-02-28",
+  "chars": 6136
+ },
+ {
+  "slug": "shedding-light-on-fairness-in-ai-with-a-new-data-set",
+  "title": "Shedding light on fairness in AI with a new data set",
+  "date": "2021-04-08",
+  "chars": 13389
+ },
+ {
+  "slug": "significantly-faster-generation-and-training-for-ai-based-audio-systems-",
+  "title": "Significantly faster generation and training for AI-based audio systems﻿",
+  "date": "2018-10-22",
+  "chars": 2715
+ },
+ {
+  "slug": "significantly-faster-vision-transformer-training",
+  "title": "Significantly faster Vision Transformer training",
+  "date": "2022-05-05",
+  "chars": 5712
+ },
+ {
+  "slug": "simmc-a-data-set-for-developing-next-generation-shopping-assistants",
+  "title": "SIMMC: A dataset for developing next-generation shopping assistants",
+  "date": "2020-08-24",
+  "chars": 5784
+ },
+ {
+  "slug": "simplifying-3d-understanding-using-self-supervised-learning-and-transformers",
+  "title": "Simplifying 3D understanding using self-supervised learning and Transformers",
+  "date": "2021-10-07",
+  "chars": 11357
+ },
+ {
+  "slug": "slam-bringing-art-to-life-through-technology",
+  "title": "SLAM: Bringing art to life through technology",
+  "date": "2016-09-21",
+  "chars": 8463
+ },
+ {
+  "slug": "slowfast-video-recognition-through-dual-frame-rate-analysis",
+  "title": "SlowFast video recognition through dual frame-rate analysis",
+  "date": "2019-03-15",
+  "chars": 3094
+ },
+ {
+  "slug": "smart-camera-portal-advances",
+  "title": "How we’ve advanced Smart Camera for new Portal video-calling devices",
+  "date": "2019-03-15",
+  "chars": 1069
+ },
+ {
+  "slug": "smartly-improving-customer-service-llama",
+  "title": "How Smartly is improving customer service and automating technical support with generative AI",
+  "date": "2025-03-12",
+  "chars": 5227
+ },
+ {
+  "slug": "sofya-clinical-reasoning-with-llama",
+  "title": "How Sofya is taking clinical reasoning to the next level with Llama",
+  "date": "2025-03-05",
+  "chars": 3451
+ },
+ {
+  "slug": "spdl-faster-ai-model-training-with-thread-based-data-loading-reality-labs",
+  "title": "spdl-faster-ai-model-training-with-thread-based-data-loading-reality-labs",
+  "date": "2024-11-22",
+  "chars": 22253
+ },
+ {
+  "slug": "spiral-self-tuning-services-via-real-time-machine-learning",
+  "title": "Spiral: Self-tuning services via real-time machine learning",
+  "date": "2018-06-28",
+  "chars": 12334
+ },
+ {
+  "slug": "spotify-personalized-recommendations-built-with-llama",
+  "title": "How Spotify is using Llama to create personalized recommendations and enhance content discovery",
+  "date": "2024-12-18",
+  "chars": 1620
+ },
+ {
+  "slug": "state-of-the-art-open-source-chatbot",
+  "title": "A state-of-the-art open source chatbot",
+  "date": "2020-04-29",
+  "chars": 9869
+ },
+ {
+  "slug": "stochastic-gradient-push-for-distributed-deep-learning",
+  "title": "Accelerating distributed training with Stochastic Gradient Push",
+  "date": "2019-06-06",
+  "chars": 4690
+ },
+ {
+  "slug": "studying-the-brain-to-build-ai-that-processes-language-as-people-do",
+  "title": "Studying the brain to build AI that processes language as people do",
+  "date": "2019-05-22",
+  "chars": 9178
+ },
+ {
+  "slug": "supercomputer-meta-research-supercluster-2023",
+  "title": "supercomputer-meta-research-supercluster-2023",
+  "date": "2023-05-18",
+  "chars": 11258
+ },
+ {
+  "slug": "sxsw-meta-llama-open-source-innovation",
+  "title": "Meta at SXSW: How Llama and open source AI is leveling the playing field and enabling innovation",
+  "date": "2025-03-18",
+  "chars": 6774
+ },
+ {
+  "slug": "system-cards-a-new-resource-for-understanding-how-ai-systems-work",
+  "title": "System Cards, a new resource for understanding how AI systems work",
+  "date": "2022-02-23",
+  "chars": 8725
+ },
+ {
+  "slug": "tabert-a-new-model-for-understanding-queries-over-tabular-data",
+  "title": "TaBERT: A new model for understanding queries over tabular data",
+  "date": "2020-07-03",
+  "chars": 5996
+ },
+ {
+  "slug": "talk-the-walk-teaching-ai-systems-to-navigate-new-york-through-language",
+  "title": "Talk the Walk: Teaching AI systems to navigate New York through language",
+  "date": "2018-07-11",
+  "chars": 13405
+ },
+ {
+  "slug": "tavus-real-feeling-ai-videos-llama",
+  "title": "How Tavus is helping to make AI videos feel like real conversations",
+  "date": "2025-04-02",
+  "chars": 4180
+ },
+ {
+  "slug": "teaching-ai-how-to-forget-at-scale",
+  "title": "Teaching AI how to forget at scale",
+  "date": "2021-05-14",
+  "chars": 6992
+ },
+ {
+  "slug": "teaching-ai-systems-to-learn-language-from-letters",
+  "title": "Teaching AI systems to learn language from letters, not words",
+  "date": "2019-03-15",
+  "chars": 1605
+ },
+ {
+  "slug": "teaching-ai-to-be-more-collaborative-with-humans-without-learning-directly-from-them",
+  "title": "Teaching AI to be more collaborative with humans without learning directly from them",
+  "date": "2022-04-18",
+  "chars": 6396
+ },
+ {
+  "slug": "teaching-ai-to-manipulate-objects-using-visual-demos",
+  "title": "Teaching AI to manipulate objects using visual demos",
+  "date": "2021-01-25",
+  "chars": 6618
+ },
+ {
+  "slug": "teaching-ai-to-perceive-the-world-through-your-eyes",
+  "title": "Teaching AI to perceive the world through your eyes",
+  "date": "2021-10-14",
+  "chars": 16103
+ },
+ {
+  "slug": "teaching-ai-to-translate-100s-of-spoken-and-written-languages-in-real-time",
+  "title": "Teaching AI to translate 100s of spoken and written languages in real time",
+  "date": "2022-02-23",
+  "chars": 18342
+ },
+ {
+  "slug": "teaching-robots-to-perceive-understand-and-interact-through-touch",
+  "title": "Teaching robots to perceive, understand, and interact through touch",
+  "date": "2021-11-01",
+  "chars": 11356
+ },
+ {
+  "slug": "test-of-time-award",
+  "title": "Léon Bottou and Olivier Bousquet win Test of Time award",
+  "date": "2018-12-06",
+  "chars": 1120
+ },
+ {
+  "slug": "textless-nlp-generating-expressive-speech-from-raw-audio",
+  "title": "Textless NLP: Generating expressive speech from raw audio",
+  "date": "2021-09-09",
+  "chars": 16397
+ },
+ {
+  "slug": "the-2020-fastmri-challenge-opens-for-submissions-on-october-1",
+  "title": "The 2020 fastMRI challenge opens for submissions on October 1",
+  "date": "2020-09-17",
+  "chars": 4790
+ },
+ {
+  "slug": "the-evolution-of-deep-learning-and-pytorch-",
+  "title": "The evolution of deep learning and PyTorch",
+  "date": "2020-03-09",
+  "chars": 703
+ },
+ {
+  "slug": "the-first-ever-multilingual-model-to-win-wmt-beating-out-bilingual-models",
+  "title": "The first-ever multilingual model to win WMT, beating out bilingual models",
+  "date": "2021-11-10",
+  "chars": 8520
+ },
+ {
+  "slug": "the-first-high-performance-self-supervised-algorithm-that-works-for-speech-vision-and-text",
+  "title": "The first high-performance self-supervised algorithm that works for speech, vision, and text",
+  "date": "2022-01-20",
+  "chars": 7994
+ },
+ {
+  "slug": "the-flores-101-data-set-helping-build-better-translation-systems-around-the-world",
+  "title": "The FLORES-101 data set: Helping build better translation systems around the world",
+  "date": "2021-06-04",
+  "chars": 11048
+ },
+ {
+  "slug": "the-image-similarity-challenge-and-data-set-for-detecting-image-manipulation",
+  "title": "The Image Similarity Challenge and data set for detecting image manipulation",
+  "date": "2021-06-21",
+  "chars": 9640
+ },
+ {
+  "slug": "the-next-step-in-facebooks-ai-hardware-infrastructure",
+  "title": "The next step in Facebook’s AI hardware infrastructure",
+  "date": "2018-03-20",
+  "chars": 4987
+ },
+ {
+  "slug": "the-shift-to-generalized-ai-to-better-identify-violating-content",
+  "title": "The shift to generalized AI to better identify violating content",
+  "date": "2019-05-22",
+  "chars": 7184
+ },
+ {
+  "slug": "theseus-a-library-for-encoding-domain-knowledge-in-end-to-end-ai-models",
+  "title": "Introducing Theseus, a library for encoding domain knowledge in end to end AI models",
+  "date": "2022-07-20",
+  "chars": 8595
+ },
+ {
+  "slug": "timesformer-a-new-architecture-for-video-understanding",
+  "title": "TimeSformer: A new architecture for video understanding",
+  "date": "2021-03-12",
+  "chars": 8485
+ },
+ {
+  "slug": "training-ai-agents-to-solve-unfamiliar-tasks",
+  "title": "Training AI agents to solve unfamiliar tasks",
+  "date": "2018-10-01",
+  "chars": 1604
+ },
+ {
+  "slug": "training-ai-to-detect-hate-speech-in-the-real-world",
+  "title": "Training AI to detect hate speech in the real world",
+  "date": "2020-11-19",
+  "chars": 6657
+ },
+ {
+  "slug": "training-with-quantization-noise-for-extreme-model-compression",
+  "title": "Training with quantization noise for extreme model compression",
+  "date": "2020-04-23",
+  "chars": 3937
+ },
+ {
+  "slug": "tribe-v2-brain-predictive-foundation-model",
+  "title": "Introducing TRIBE v2: A Predictive Foundation Model Trained to Understand How the Human Brain Processes Complex Stimuli",
+  "date": "2026-03-26",
+  "chars": 2735
+ },
+ {
+  "slug": "under-the-hood-facebook-marketplace-powered-by-artificial-intelligence",
+  "title": "Under the hood: Facebook Marketplace powered by artificial intelligence",
+  "date": "2018-10-02",
+  "chars": 10855
+ },
+ {
+  "slug": "under-the-hood-multilingual-embeddings",
+  "title": "Under the hood: Multilingual embeddings",
+  "date": "2018-01-24",
+  "chars": 8881
+ },
+ {
+  "slug": "under-the-hood-suicide-prevention-tools-powered-by-ai",
+  "title": "Under the hood: Suicide prevention tools powered by AI",
+  "date": "2018-02-21",
+  "chars": 7865
+ },
+ {
+  "slug": "understanding-dimensional-collapse",
+  "title": "Understanding and mitigating dimensional collapse in contrastive learning methods",
+  "date": "2022-04-12",
+  "chars": 8888
+ },
+ {
+  "slug": "understanding-the-generalization-of-lottery-tickets-in-neural-networks",
+  "title": "Understanding the generalization of lottery tickets in neural networks",
+  "date": "2019-03-15",
+  "chars": 13117
+ },
+ {
+  "slug": "unsupervised-machine-translation-a-novel-approach-to-provide-fast-accurate-translations-for-more-languages",
+  "title": "Unsupervised machine translation: A novel approach to provide fast, accurate translations for more languages",
+  "date": "2018-08-31",
+  "chars": 9476
+ },
+ {
+  "slug": "untukmu-built-with-llama",
+  "title": "untukmu-built-with-llama",
+  "date": "2024-10-22",
+  "chars": 6209
+ },
+ {
+  "slug": "upenn-dino-sam-helping-medical-triage",
+  "title": "How DINO and SAM are Helping Modernize Essential Medical Triage Practices",
+  "date": "2025-12-18",
+  "chars": 6910
+ },
+ {
+  "slug": "upwork-helps-freelancers-with-llama",
+  "title": "How Upwork helps freelancers win more work with Llama",
+  "date": "2025-07-31",
+  "chars": 5327
+ },
+ {
+  "slug": "using-a-classical-rendering-technique-to-push-state-of-the-art-for-image-segmentation",
+  "title": "Using a classical rendering technique for state of the art image segmentation",
+  "date": "2020-06-12",
+  "chars": 4288
+ },
+ {
+  "slug": "using-ai-for-database-queries-on-any-unstructured-data-set",
+  "title": "Reimagining database querying on unstructured data",
+  "date": "2021-08-26",
+  "chars": 7016
+ },
+ {
+  "slug": "using-ai-to-bring-childrens-drawings-to-life",
+  "title": "Using AI to bring children’s drawings to life",
+  "date": "2021-12-16",
+  "chars": 12874
+ },
+ {
+  "slug": "using-ai-to-create-anti-reflective-coatings",
+  "title": "Using AI to create thinner, more efficient anti-reflective coatings",
+  "date": "2019-03-15",
+  "chars": 2554
+ },
+ {
+  "slug": "using-ai-to-create-real-time-depth-maps-for-occlusions-in-ar",
+  "title": "Using AI to create real-time depth maps for occlusions in AR",
+  "date": "2019-03-15",
+  "chars": 796
  }
 ]
