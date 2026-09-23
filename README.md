@@ -3,7 +3,7 @@
 收录 23 个高质量技术博客来源的全量文章归档与完整中文翻译
 （英文存档 `22` 源 + 中文原文 `1` 源；苏剑林博客为中文站点，仅归档）。
 
-> 累计：英文/原文归档 **3940** 篇，中文译文 **2577** 篇。
+> 累计：英文/原文归档 **3946** 篇，中文译文 **2610** 篇。
 > 每日自动同步：定时任务按 [DAILY_SYNC_SOP.md](DAILY_SYNC_SOP.md) 拉取各源新文章、归档并翻译，随后更新本索引并推送 GitHub。
 
 ## 项目总览
@@ -31,7 +31,7 @@
 | 阶跃星辰 StepFun | github.com/stepfun-ai | [stepfun-articles/](stepfun-articles/)（10） | [stepfun-articles-zh/](stepfun-articles-zh/)（10） | 10 / 10 | [规范](TRANSLATION_GUIDE_AI_VENDORS.md) · [目录](stepfun-articles-zh/README.md) |
 | 蚂蚁 InclusionAI（Ling） | github.com/inclusionAI | [ling-articles/](ling-articles/)（7） | [ling-articles-zh/](ling-articles-zh/)（7） | 7 / 7 | [规范](TRANSLATION_GUIDE_AI_VENDORS.md) · [目录](ling-articles-zh/README.md) |
 | xAI | x.ai/news（Wayback） | [xai-articles/](xai-articles/)（86） | [xai-articles-zh/](xai-articles-zh/)（86） | 86 / 86 | [规范](TRANSLATION_GUIDE_AI_VENDORS.md) · [目录](xai-articles-zh/README.md) |
-| Meta AI（FAIR） | ai.meta.com/blog（Wayback） | [meta-ai-articles/](meta-ai-articles/)（532） | [meta-ai-articles-zh/](meta-ai-articles-zh/)（505） | 532 / 505 | [规范](TRANSLATION_GUIDE_AI_VENDORS.md) · [目录](meta-ai-articles-zh/README.md) |
+| Meta AI（FAIR） | ai.meta.com/blog（Wayback） | [meta-ai-articles/](meta-ai-articles/)（538） | [meta-ai-articles-zh/](meta-ai-articles-zh/)（538） | 538 / 538 | [规范](TRANSLATION_GUIDE_AI_VENDORS.md) · [目录](meta-ai-articles-zh/README.md) |
 | 苏剑林《科学空间》 | kexue.fm | [sujianlin-articles/](sujianlin-articles/)（1336） | —（原文为中文） | 1336 | — · [目录](sujianlin-articles/README.md) |
 
 ## 说明

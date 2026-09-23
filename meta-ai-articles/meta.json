@@ -3004,5 +3004,179 @@
   "title": "Using AI to create real-time depth maps for occlusions in AR",
   "date": "2019-03-15",
   "chars": 796
+ },
+ {
+  "slug": "using-ai-to-detect-covid-19-misinformation-and-exploitative-content",
+  "title": "Using AI to detect COVID-19 misinformation and exploitative content",
+  "date": "2020-05-12",
+  "chars": 10697
+ },
+ {
+  "slug": "using-ai-to-find-post-quantum-cryptographys-vulnerabilities",
+  "title": "Using AI to find post-quantum cryptography’s vulnerabilities",
+  "date": "2022-07-13",
+  "chars": 7542
+ },
+ {
+  "slug": "using-ai-to-help-health-experts-address-the-covid-19-pandemic",
+  "title": "Using AI to help health experts address the COVID-19 pandemic",
+  "date": "2021-06-30",
+  "chars": 21475
+ },
+ {
+  "slug": "using-integrated-ml-to-deliver-low-latency-mobile-vr-graphics",
+  "title": "Using integrated ML to deliver low-latency mobile VR graphics",
+  "date": "2019-03-15",
+  "chars": 4228
+ },
+ {
+  "slug": "using-multi-agent-reinforcement-learning-to-improve-collaboration",
+  "title": "Using Multi-Agent Reinforcement Learning to Improve Collaboration",
+  "date": "2019-03-15",
+  "chars": 4019
+ },
+ {
+  "slug": "using-multitask-learning-to-improve-image-classification-for-histopathology",
+  "title": "Using multitask learning to improve image classification for histopathology",
+  "date": "2020-05-04",
+  "chars": 4124
+ },
+ {
+  "slug": "using-neural-networks-to-solve-advanced-mathematics-equations",
+  "title": "Using neural networks to solve advanced mathematics equations",
+  "date": "2019-03-15",
+  "chars": 9090
+ },
+ {
+  "slug": "using-radioactive-data-to-detect-if-a-data-set-was-used-for-training",
+  "title": "Using ‘radioactive data’ to detect if a dataset was used for training",
+  "date": "2019-03-15",
+  "chars": 4147
+ },
+ {
+  "slug": "using-reinforcement-learning-to-personalize-ai-accelerated-mri-scans",
+  "title": "Using reinforcement learning to personalize AI-accelerated MRI scans",
+  "date": "2020-10-05",
+  "chars": 5712
+ },
+ {
+  "slug": "usra-sam-flood-emergencies",
+  "title": "The Universities Space Research Association Applies Segment Anything Model for Responding to Flood Emergencies",
+  "date": "2025-12-18",
+  "chars": 6010
+ },
+ {
+  "slug": "v-jepa-2-world-model-benchmarks",
+  "title": "Introducing the V-JEPA 2 world model and new benchmarks for physical reasoning",
+  "date": "2025-06-11",
+  "chars": 12855
+ },
+ {
+  "slug": "v-jepa-yann-lecun-ai-model-video-joint-embedding-predictive-architecture",
+  "title": "v-jepa-yann-lecun-ai-model-video-joint-embedding-predictive-architecture",
+  "date": "2024-02-15",
+  "chars": 9955
+ },
+ {
+  "slug": "visual-sound",
+  "title": "Creating 2.5D visual sound for an immersive audio experience",
+  "date": "2019-06-11",
+  "chars": 2504
+ },
+ {
+  "slug": "vizseq-a-visual-analysis-toolkit-for-accelerating-text-generation-research",
+  "title": "VizSeq: A visual analysis toolkit for accelerating text generation research",
+  "date": "2019-03-15",
+  "chars": 2226
+ },
+ {
+  "slug": "voicebox-generative-ai-model-speech",
+  "title": "voicebox-generative-ai-model-speech",
+  "date": "2023-06-16",
+  "chars": 8125
+ },
+ {
+  "slug": "voxpopuli-the-largest-open-multilingual-speech-corpus-for-ai-translation-and-more",
+  "title": "VoxPopuli: The largest open multilingual speech corpus for AI translation and more",
+  "date": "2021-08-02",
+  "chars": 4645
+ },
+ {
+  "slug": "wav2vec-20-learning-the-structure-of-speech-from-raw-audio",
+  "title": "Wav2vec 2.0: Learning the structure of speech from raw audio",
+  "date": "2020-09-24",
+  "chars": 9730
+ },
+ {
+  "slug": "wav2vec-state-of-the-art-speech-recognition-through-self-supervision",
+  "title": "Wav2vec: State-of-the-art speech recognition through self-supervision",
+  "date": "2019-03-15",
+  "chars": 11247
+ },
+ {
+  "slug": "wav2vec-unsupervised-speech-recognition-without-supervision",
+  "title": "High-performance speech recognition with no supervision at all",
+  "date": "2021-05-21",
+  "chars": 6899
+ },
+ {
+  "slug": "what-ai-fairness-in-practice-looks-like-at-facebook",
+  "title": "What AI fairness in practice looks like at Facebook",
+  "date": "2021-03-11",
+  "chars": 5758
+ },
+ {
+  "slug": "when-to-fine-tune-llms-vs-other-techniques",
+  "title": "when-to-fine-tune-llms-vs-other-techniques",
+  "date": "2024-08-07",
+  "chars": 8537
+ },
+ {
+  "slug": "wikimatrix",
+  "title": "WikiMatrix: Bitext extraction of 135 million Wikipedia sentences in 1,620 language pairs",
+  "date": "2019-03-15",
+  "chars": 2348
+ },
+ {
+  "slug": "world-resources-institute-dino-canopy-height-maps-v2",
+  "title": "Mapping the World's Forests with Greater Precision: Introducing Canopy Height Maps v2",
+  "date": "2026-03-10",
+  "chars": 5686
+ },
+ {
+  "slug": "xls-r-self-supervised-speech-processing-for-128-languages",
+  "title": "XLS-R: Self-supervised speech processing for 128 languages",
+  "date": "2022-07-06",
+  "chars": 5993
+ },
+ {
+  "slug": "yann-lecun-advances-in-ai-research",
+  "title": "Yann LeCun on a vision to make AI systems learn and reason like animals and humans",
+  "date": "2022-02-23",
+  "chars": 15478
+ },
+ {
+  "slug": "yann-lecun-ai-model-i-jepa",
+  "title": "yann-lecun-ai-model-i-jepa",
+  "date": "2023-06-13",
+  "chars": 10677
+ },
+ {
+  "slug": "yann-lecun-video",
+  "title": "Yann LeCun on the future of deep learning hardware",
+  "date": "2019-02-18",
+  "chars": 519
+ },
+ {
+  "slug": "zero-shot-learning-using-text-to-more-accurately-identify-images",
+  "title": "Zero-shot learning: Using text to more accurately identify images",
+  "date": "2018-11-05",
+  "chars": 2214
+ },
+ {
+  "slug": "zerospeech-2019-challenge",
+  "title": "Teaching AI to learn speech the way children do",
+  "date": "2019-01-28",
+  "chars": 2293
  }
 ]

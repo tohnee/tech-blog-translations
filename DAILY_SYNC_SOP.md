@@ -88,7 +88,7 @@
 - **付费墙**：`audience: only_paid` 的文章 API 只给付费墙前的公开预览（SemiAnalysis 预览很长，中位 ~21KB），归档与译文均带 🔒/⚠️ 标注；`audience: everyone` 才是全文。判新时两类都收。
 - 翻译规范：`TRANSLATION_GUIDE_SEMIANALYSIS.md`；索引 `semianalysis-articles-zh/README.md`（`build_semianalysis_readme.py`）。
 
-### 10. 大模型厂商十源（2026-09-22 建库，`TRANSLATION_GUIDE_AI_VENDORS.md` 统一规范）
+### 10. 大模型厂商十源（2026-09-22 建库完成；Meta AI 博客 538 篇全量译毕，`TRANSLATION_GUIDE_AI_VENDORS.md` 统一规范）
 
 | 源 | 目录 | 检测与抓取 |
 |---|---|---|
