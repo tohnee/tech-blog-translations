@@ -141,7 +141,7 @@ def detect_vendors():
         have = {h.lower() for h in _have("zhipu-articles")}
         names = {m["modelId"].split("/")[-1] for m in models}
         result["zhipu"] = sorted(n for n in names if re.match(r"(?i)^GLM-[5-9]", n)
-                                 and not re.search(r"(?i)_(fp8|bf16|int8|int4|awq|gptq)$", n)
+                                 and not re.search(r"(?i)[-_](fp8|bf16|int8|int4|awq|gptq)$", n)
                                  and f"hf-{n.lower().replace('.', '-')}" not in have)
     except Exception as e:  # noqa: BLE001
         result["zhipu"] = f"ERROR: {e}"

@@ -6,7 +6,7 @@ frontmatter：title 换中文，新增 title_en + translated: 2026-09-11，其�
 
 子代理不可用（两种类型均 600s 无活动），由主会话直接翻译。
 
-## 状态：✅ 全部完成（2026-09-11，25/25；2026-09-14 增补 2 篇；2026-09-19 增补 1 篇，28/28）
+## 状态：✅ 全部完成（2026-09-11，25/25；2026-09-14 增补 2 篇；2026-09-19 增补 1 篇；2026-09-24 增补 1 篇，29/29）
 
 ### 2026-09-14 每日同步增补（Anthropic News，安全工程同类）
 
@@ -16,6 +16,10 @@ frontmatter：title 换中文，新增 title_en + translated: 2026-09-11，其�
 ### 2026-09-19 每日同步增补
 
 28. [x] accenture-embedded-evaluation (2026-09-18)
+
+### 2026-09-24 每日同步增补
+
+29. [x] claude-discovers-novel-enzyme-system (2026-09-23)
 
 1. [x] contextual-retrieval (2024-09-19)
 2. [x] building-effective-agents (2024-12-19)

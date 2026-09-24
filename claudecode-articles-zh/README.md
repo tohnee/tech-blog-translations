@@ -1,6 +1,6 @@
 # Claude Code 技术博客中文翻译（Anthropic Engineering Blog）
 
-Anthropic 官方工程博客中 Claude Code 与智能体编码主题的 **28 篇技术文章**全文翻译。
+Anthropic 官方工程博客中 Claude Code 与智能体编码主题的 **29 篇技术文章**全文翻译。
 
 - 英文存档：`../claudecode-articles/<slug>.md`（HTML→Markdown，含图片与链接）
 - 中文译文：本目录 `<slug>.md`（与源文件同名镜像）
@@ -39,6 +39,7 @@ Anthropic 官方工程博客中 Claude Code 与智能体编码主题的 **28 篇
 | 26 | 2026-09-01 | [与我们的客户共同开发 Enterprise Frontier Safeguards](enterprise-frontier-safeguards.md) | Developing Enterprise Frontier Safeguards with our customers |
 | 27 | 2026-09-10 | [改进我们的对齐与安全工作](improving-alignment-security-efforts.md) | Improving our alignment and security efforts |
 | 28 | 2026-09-18 | [与 Accenture 合作开展嵌入式评估](accenture-embedded-evaluation.md) | Partnering with Accenture on embedded evaluation |
+| 29 | 2026-09-23 | [Claude 发现具有类 CRISPR 重复序列的新型酶系统](claude-discovers-novel-enzyme-system.md) | Claude discovers a novel enzyme system with CRISPR-like repeats |
 
 ## 说明
 
