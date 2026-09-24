@@ -1,7 +1,7 @@
 # SemiAnalysis 文章中文翻译索引
 
 > 来源：[SemiAnalysis](https://semianalysis.com)（[Substack: newsletter.semianalysis.com](https://newsletter.semianalysis.com)），半导体与 AI 基础设施研究机构。
-> 归档：英文 330 篇（`semianalysis-articles/posts/`），中文翻译 330 篇（本目录 `posts/`）。
+> 归档：英文 334 篇（`semianalysis-articles/posts/`），中文翻译 334 篇（本目录 `posts/`）。
 > 翻译规范：`TRANSLATION_GUIDE_SEMIANALYSIS.md`。
 
 **付费墙说明**：标有 🔒 的文章为付费订阅文，Substack 公开 API 仅提供付费墙之前的预览正文；
@@ -9,7 +9,11 @@
 
 | 日期 | 标题（中文） | 原文标题 | 作者 | 篇幅 |
 |---|---|---|---|---|
-| 2026-09-14 | 大到带不动的大脑——端侧推理 vs 数据中心推理 🔒 | A Brain Too Big to Carry — On-Device vs Datacenter Inference | Ivan Chiam, Gianluca, Zane Fong | [译文](posts/a-brain-too-big-to-carry-on-device.md) · [EN](../../semianalysis-articles/posts/a-brain-too-big-to-carry-on-device.md) |
+| 2026-09-23 | ClusterMAX 3.0：业界标准的 GPU 云评级体系回归 🔒 | ClusterMAX 3.0: The Industry Standard GPU Cloud Rating System Returns | Jordan Nanos, Sam Harshe, Samuel Kruse | [译文](posts/clustermax-30-the-industry-standard.md) · [EN](../../semianalysis-articles/posts/clustermax-30-the-industry-standard.md) |
+| 2026-09-21 | 推理中的计算与数据搬运 🔒 | Computation and Data Movement for Inference | Tanj Bennett, Bryan Shan, Dylan Patel | [译文](posts/computation-and-data-movement-for.md) · [EN](../../semianalysis-articles/posts/computation-and-data-movement-for.md) |
+| 2026-09-18 | Engram 嵌入双关：面向高效 DRAM/SSD 卸载的协同设计 🔒 | Engrams Embedding Entendre: Codesign for Efficient DRAM/SSD Offloading | Bryan Shan, Cam Quilici, Alec Ibarra | [译文](posts/engrams-embedding-entendre-codesign.md) · [EN](../../semianalysis-articles/posts/engrams-embedding-entendre-codesign.md) |
+| 2026-09-15 | 人人都说数据中心禁建令正在扼杀美国建设潮。我们不同意 🔒 | Everyone Says Datacenter Moratoriums Are Killing the US Buildout. We disagree  | Maya Barkin, Reyk Knuhtsen, Jeremie Eliahou Ontiveros | [译文](posts/everyone-says-datacenter-moratoriums.md) · [EN](../../semianalysis-articles/posts/everyone-says-datacenter-moratoriums.md) |
+| 2026-09-14 | 大到带不动的大脑——端侧推理 vs 数据中心推理 🔒 | A Brain Too Big to Carry — On-Device vs Datacenter Inference | Ivan Chiam, Gianluca Bencomo, Zane Fong | [译文](posts/a-brain-too-big-to-carry-on-device.md) · [EN](../../semianalysis-articles/posts/a-brain-too-big-to-carry-on-device.md) |
 | 2026-09-14 | Vera Rubin NVL72 智能体推理：每美元性能提升 67 倍 🔒 | Vera Rubin NVL72 Agentic Inference: 67x better Performance per Dollar | Bryan Shan, Alec Ibarra, Cam Quilici | [译文](posts/vera-rubin-nvl72-agentic-inference.md) · [EN](../../semianalysis-articles/posts/vera-rubin-nvl72-agentic-inference.md) |
 | 2026-09-13 | 矮堆叠之王万岁：为什么 4-hi HBM 胜出 🔒 | Long Live the Short King: Why 4-hi HBM Wins | Myron Xie, Bryan Shan, Harrison Barclay | [译文](posts/long-live-the-short-king-why-4-hi.md) · [EN](../../semianalysis-articles/posts/long-live-the-short-king-why-4-hi.md) |
 | 2026-09-11 | Nvidia 的「兜底宇宙」——正面向我赢，反面谁输？ 🔒 | Nvidia’s Backstop Universe – Heads I Win, Tails Who Loses?  | Daniel Nishball, Oliver Kennon, Terence Ong | [译文](posts/nvidias-backstop-universe-heads-i.md) · [EN](../../semianalysis-articles/posts/nvidias-backstop-universe-heads-i.md) |
@@ -33,7 +37,7 @@
 | 2026-07-09 | Meta Superintelligence 的未来：一年进展更新 🔒 | The Future of Meta Superintelligence: A 1 Year Progress Update | Max Kan, Julien Martin-Prin, Jeremie Eliahou Ontiveros | [译文](posts/the-future-of-meta-superintelligence.md) · [EN](../../semianalysis-articles/posts/the-future-of-meta-superintelligence.md) |
 | 2026-07-08 | Anthropic 3Q26 利润超 10 亿美元：Anthropic IPO 财务数据抢先看 🔒 | Anthropic 3Q26 Profit Over $1B: The Anthropic IPO Financials Sneak Peak | Joey Brookhart, Crystal Huang, Dylan Patel | [译文](posts/anthropic-3q26-profit-over-1b-the.md) · [EN](../../semianalysis-articles/posts/anthropic-3q26-profit-over-1b-the.md) |
 | 2026-07-06 | Nvidia GPU 债务兜底，释放 AI 项目三位一体：资本、承购与数据中心 🔒 | Nvidia GPU Debt Backstop Unleashes the AI Project Trinity: Capital, Offtake and Datacenters | Daniel Nishball, Cheang Kang Wen, Zane Fong | [译文](posts/nvidia-gpu-debt-backstop-unleashes.md) · [EN](../../semianalysis-articles/posts/nvidia-gpu-debt-backstop-unleashes.md) |
-| 2026-07-02 | EMIB-T 路线图、定制 HBM、HBM4 封装挑战、微流道散热、光子互连等 🔒 | EMIB-T Roadmap, Custom HBM, HBM4 Packaging Challenges, Microfluidic Cooling, Photonic Interconnects, and More | Afzal Ahmad, DC, Gerald Wong | [译文](posts/ectc2026.md) · [EN](../../semianalysis-articles/posts/ectc2026.md) |
+| 2026-07-02 | EMIB-T 路线图、定制 HBM、HBM4 封装挑战、微流道散热、光子互连等 🔒 | EMIB-T Roadmap, Custom HBM, HBM4 Packaging Challenges, Microfluidic Cooling, Photonic Interconnects, and More | Afzal Ahmad, TC, Gerald Wong | [译文](posts/ectc2026.md) · [EN](../../semianalysis-articles/posts/ectc2026.md) |
 | 2026-07-02 | Meta Compute：人人都想当新兴 GPU 云 🔒 | Meta Compute: Everyone Wants To Be A Neocloud | Jeremie Eliahou Ontiveros, Max Kan, Joey Brookhart | [译文](posts/meta-compute-everyone-wants-to-be.md) · [EN](../../semianalysis-articles/posts/meta-compute-everyone-wants-to-be.md) |
 | 2026-06-30 | TokenBudgeting：我们与企业关于 token 支出的对话 🔒 | TokenBudgeting: Our Conversations with Enterprises on Token Spend  | Crystal Huang, Joey Brookhart, Dylan Patel | [译文](posts/tokenbudgeting-our-conversations.md) · [EN](../../semianalysis-articles/posts/tokenbudgeting-our-conversations.md) |
 | 2026-06-25 | 美国电网瓶颈：到 2028 年迈向 40GW+ 的表后数据中心？ 🔒 | US Grid Constraints: Towards 40GW+ of Behind-The-Meter Datacenter by 2028? | Jeremie Eliahou Ontiveros, Sebastian Orejas, Ellie Holbrook | [译文](posts/us-grid-constraints-towards-40gw.md) · [EN](../../semianalysis-articles/posts/us-grid-constraints-towards-40gw.md) |

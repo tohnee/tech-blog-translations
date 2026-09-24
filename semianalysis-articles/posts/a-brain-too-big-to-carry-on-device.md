@@ -4,7 +4,7 @@ subtitle: "Robot Models, Silicon & DRAM Efficiency, Jetson Thor vs. B300 TCO, De
 date: 2026-09-14
 source: https://newsletter.semianalysis.com/p/a-brain-too-big-to-carry-on-device
 crawled: 2026-09-15
-authors: ["Ivan Chiam", "Gianluca", "Zane Fong", "Bryan Shan", "Dylan Patel", "Reyk Knuhtsen"]
+authors: ["Ivan Chiam", "Gianluca Bencomo", "Zane Fong", "Bryan Shan", "Dylan Patel", "Reyk Knuhtsen"]
 tags: []
 audience: only_paid
 paywalled: true

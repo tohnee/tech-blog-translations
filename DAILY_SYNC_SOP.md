@@ -105,6 +105,7 @@
 
 - arXiv 旗舰论文：`arxiv.org/html/<id>` 转 md 归档 `<源>-articles/papers/`；参考文献整体保留英文。
 - 索引与校验：`build_ai_vendors_readme.py`（EN/ZH 对应 + 各源 README 一键生成）。
+- **每日检测（2026-09-23 起）**：`python3 detect_new.py` 已含全部 23 源（厂商组可 `--vendors` 单跑）。降噪口径：智谱只报 GLM-5+ 主力并排除 FP8/BF16 量化变体（slug 归一化 GLM-5.2→hf-glm-5-2）；小米/StepFun/Ling 只报近 7 日新建 repo（辅助 repo 词表排除 + 主模型名前缀）；xAI=CDX 未收录 slug；Meta AI=CDX 首抓≥近 7 日；SemiAnalysis=archive API 前 24 篇。**存量口径待定**（扩库需人工决策）：智谱 GLM-4.x 老卡、StepFun/Ling 建库未收存量 repo（Step3/Step-3.5-Flash 等）、meta-ai 老格式存量文。
 
 ## 收尾（每次必做）
 

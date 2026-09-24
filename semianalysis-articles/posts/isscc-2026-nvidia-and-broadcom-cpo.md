@@ -4,7 +4,7 @@ subtitle: "ISSCC 2026 Roundup"
 date: 2026-04-15
 source: https://newsletter.semianalysis.com/p/isscc-2026-nvidia-and-broadcom-cpo
 crawled: 2026-09-15
-authors: ["Afzal Ahmad", "Gerald Wong", "Daniel Nishball", "Clara Ee", "DC", "Dylan Patel"]
+authors: ["Afzal Ahmad", "Gerald Wong", "Daniel Nishball", "Clara Ee", "TC", "Dylan Patel"]
 tags: []
 audience: only_paid
 paywalled: true

@@ -1,10 +1,10 @@
 # xAI 文章中文索引
 
 > x.ai/news（经 Wayback Machine 存档；直连受 Cloudflare 拦截）
-> 英文归档 `xai-articles/`（86 篇），中文 `xai-articles-zh/`（86 篇）。
+> 英文归档 `xai-articles/`（87 篇），中文 `xai-articles-zh/`（87 篇）。
 > 翻译规范：`TRANSLATION_GUIDE_AI_VENDORS.md`；arXiv 论文在 `papers/` 子目录（译文同样在 `*-zh/papers/`）。
 
-| 篇数 | 86 EN → 86 ZH |
+| 篇数 | 87 EN → 87 ZH |
 |---|---|
 | ✅ 📝 | 2026-06-15 | Agent Dashboard in Grok Build | `posts/agent-dashboard.md` |
 | ✅ 📝 | 2026-05-06 | New Compute Partnership with Anthropic | `posts/anthropic-compute-partnership.md` |
@@ -72,6 +72,7 @@
 | ✅ 📝 | 2025-12-17 | grok-voice-agent-api | `posts/grok-voice-agent-api.md` |
 | ✅ 📝 | 2026-07-01 | Introducing the Voice Agent Builder | `posts/grok-voice-agent-builder.md` |
 | ✅ 📝 | 2026-04-23 | Grok Voice Think Fast 1.0 | `posts/grok-voice-think-fast-1.md` |
+| ✅ 📝 | 2026-07-29 | Grok Voice Think Fast 2.0 | `posts/grok-voice-think-fast-2.md` |
 | ✅ 📝 | 2026-09-18 | Introducing Grok Voice Transcribe 2.0 | `posts/grok-voice-transcribe-2.md` |
 | ✅ 📝 | 2026-06-15 | Use Grok in Warp | `posts/grok-warp.md` |
 | ✅ 📝 | 2025-03-14 | grok | `posts/grok.md` |

@@ -103,7 +103,7 @@
   "url": "https://newsletter.semianalysis.com/p/a-brain-too-big-to-carry-on-device",
   "authors": [
    "Ivan Chiam",
-   "Gianluca",
+   "Gianluca Bencomo",
    "Zane Fong",
    "Bryan Shan",
    "Dylan Patel",
@@ -1359,6 +1359,26 @@
   "chars": 317982
  },
  {
+  "slug": "clustermax-30-the-industry-standard",
+  "title": "ClusterMAX 3.0: The Industry Standard GPU Cloud Rating System Returns",
+  "subtitle": "In gory detail: reliability, performance, support, pricing—and, of course, security—in our most thorough analysis of GPU cloud providers globally.",
+  "date": "2026-09-23",
+  "url": "https://newsletter.semianalysis.com/p/clustermax-30-the-industry-standard",
+  "authors": [
+   "Jordan Nanos",
+   "Sam Harshe",
+   "Samuel Kruse",
+   "Pratt Bhatt",
+   "Billy Cao",
+   "Jack Carson",
+   "Dylan Patel"
+  ],
+  "tags": [],
+  "audience": "only_paid",
+  "paywalled": true,
+  "chars": 212307
+ },
+ {
   "slug": "co-packaged-optics-cpo-book-scaling",
   "title": "Co-Packaged Optics (CPO) Book – Scaling with Light for the Next Wave of Interconnect",
   "subtitle": "Scale-out and Scale-up CPO, CPO TCO and Power Budgets, DSP Transceivers vs LPO vs NPO vs CPO, TSMC COUPE, MZM vs MRM vs EAM Modulator Deep Dive, CPO Focused companies and CPO Supply Chain",
@@ -1390,6 +1410,29 @@
   "audience": "everyone",
   "paywalled": false,
   "chars": 388
+ },
+ {
+  "slug": "computation-and-data-movement-for",
+  "title": "Computation and Data Movement for Inference",
+  "subtitle": "Mapping MoE models onto inference hardware: structure, flow, and efficient serving",
+  "date": "2026-09-21",
+  "url": "https://newsletter.semianalysis.com/p/computation-and-data-movement-for",
+  "authors": [
+   "Tanj Bennett",
+   "Bryan Shan",
+   "Dylan Patel"
+  ],
+  "tags": [
+   "Datacenter",
+   "Networking",
+   "Accelerators",
+   "Tokenomics",
+   "Inference",
+   "Benchmarks"
+  ],
+  "audience": "only_paid",
+  "paywalled": true,
+  "chars": 77488
  },
  {
   "slug": "cpus-are-back-the-datacenter-cpu",
@@ -1601,7 +1644,7 @@
   "url": "https://newsletter.semianalysis.com/p/ectc2026",
   "authors": [
    "Afzal Ahmad",
-   "DC",
+   "TC",
    "Gerald Wong",
    "Dylan Patel"
   ],
@@ -1659,6 +1702,25 @@
   "chars": 12552
  },
  {
+  "slug": "engrams-embedding-entendre-codesign",
+  "title": "Engrams Embedding Entendre: Codesign for Efficient DRAM/SSD Offloading",
+  "subtitle": "New Model Architecture Implications for TAM of DRAM/NVMe, DeepSeek V4.1 Flash, AgentX, InferenceX, NVMe experiments",
+  "date": "2026-09-18",
+  "url": "https://newsletter.semianalysis.com/p/engrams-embedding-entendre-codesign",
+  "authors": [
+   "Bryan Shan",
+   "Cam Quilici",
+   "Alec Ibarra",
+   "Kimbo Chen",
+   "Myron Xie",
+   "Dylan Patel"
+  ],
+  "tags": [],
+  "audience": "only_paid",
+  "paywalled": true,
+  "chars": 15047
+ },
+ {
   "slug": "euv-requirements-halved-applied-materials",
   "title": "EUV Requirements Halved? Applied Materials' Sculpta Redefines Lithography And Patterning Market",
   "subtitle": "$4.5B EUV Annual Reduction, High-NA, Contacts, Vias, Throughput, ASP, Use cases, TSMC N2, Intel 18A, Samsung 2nm",
@@ -1673,6 +1735,23 @@
   "audience": "only_paid",
   "paywalled": true,
   "chars": 26291
+ },
+ {
+  "slug": "everyone-says-datacenter-moratoriums",
+  "title": "Everyone Says Datacenter Moratoriums Are Killing the US Buildout. We disagree ",
+  "subtitle": "300+ moratoriums mapped, 20GW sits inside a restricted local boundary, 1,525MW actually slips, 2.3GW nationwide including New York",
+  "date": "2026-09-15",
+  "url": "https://newsletter.semianalysis.com/p/everyone-says-datacenter-moratoriums",
+  "authors": [
+   "Maya Barkin",
+   "Reyk Knuhtsen",
+   "Jeremie Eliahou Ontiveros",
+   "Dylan Patel"
+  ],
+  "tags": [],
+  "audience": "only_paid",
+  "paywalled": true,
+  "chars": 27883
  },
  {
   "slug": "fab-whack-a-mole-chinese-companies",
@@ -2584,7 +2663,7 @@
    "Gerald Wong",
    "Jeff Koch",
    "Randy Chiang",
-   "DC",
+   "TC",
    "Dylan Patel"
   ],
   "tags": [],
@@ -2677,7 +2756,7 @@
    "Gerald Wong",
    "Daniel Nishball",
    "Clara Ee",
-   "DC",
+   "TC",
    "Dylan Patel"
   ],
   "tags": [],

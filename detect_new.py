@@ -1,7 +1,14 @@
 #!/usr/bin/env python3
-"""每日同步：检测 10 个来源的新文章（与已归档清单比对），输出 JSON 结果供后续归档/翻译。"""
+"""每日同步：检测 23 个来源的新文章（与已归档清单比对），输出 JSON 结果供后续归档/翻译。
+
+源分三组：
+  - 原有 12 源（detect()）：OpenAI/Google 系/vLLM/SGLang/Claude 系/Lilian Weng/Raschka/kexue.fm 等
+  - 大模型厂商十源（detect_vendors()）：Qwen/DeepSeek/ThinkingMachines/MiniMax/智谱/小米/StepFun/Ling/xAI/Meta AI
+  - SemiAnalysis（detect_vendors() 内）：Substack API
+"""
 import json
 import re
+import subprocess
 import sys
 import time
 import urllib.parse
@@ -59,6 +66,137 @@ def meta_slugs(path: Path) -> set:
     if not path.exists():
         return set()
     return {p["slug"] for p in json.loads(path.read_text())}
+
+
+def proxy_fetch(url: str, use_http1: bool = True) -> str:
+    """走本机 SOCKS 代理抓取（archive.org / 直连被断的站点）。仅允许 http/https 外部主机。"""
+    validate_url(url)
+    cmd = ["curl", "-sSL", "--compressed", "--max-time", "90", "-A", UA["User-Agent"],
+           "--socks5-hostname", "127.0.0.1:10808"]
+    if use_http1:
+        cmd.append("--http1.1")
+    cmd.append(url)
+    r = subprocess.run(cmd, capture_output=True, text=True, timeout=120)
+    if r.returncode != 0 or len(r.stdout) < 200:
+        raise RuntimeError(f"proxy fetch failed: {r.stderr[:100]}")
+    return r.stdout
+
+
+def _have(src_dir: str) -> set:
+    """已收 slug 集：meta.json slug ∪ posts/ 文件名（去 .md）。"""
+    root = ROOT / src_dir
+    have = set()
+    mp = root / "meta.json"
+    if mp.exists():
+        try:
+            have |= {m["slug"] for m in json.loads(mp.read_text()) if isinstance(m, dict) and m.get("slug")}
+        except Exception:  # noqa: BLE001
+            pass
+    pd = root / "posts"
+    if pd.exists():
+        have |= {p.stem for p in pd.glob("*.md")}
+    return have
+
+
+def detect_vendors():
+    """大模型厂商十源 + SemiAnalysis。检测入口与 SOP 第 10 节一致。"""
+    result = {}
+
+    # Qwen：GitHub QwenLM/QwenLM.github.io（Hugo 源）git tree
+    try:
+        tree = json.loads(fetch("https://api.github.com/repos/QwenLM/QwenLM.github.io/git/trees/HEAD?recursive=1", retries=2))
+        names = {t["path"].split("/")[-2] for t in tree.get("tree", [])
+                 if re.match(r"content/posts/[^/]+/index(\.zh)?\.md$", t.get("path", ""))}
+        result["qwen"] = sorted(names - _have("qwen-articles"))
+    except Exception as e:  # noqa: BLE001
+        result["qwen"] = f"ERROR: {e}"
+
+    # DeepSeek：api-docs sitemap /news/
+    try:
+        xml = fetch("https://api-docs.deepseek.com/sitemap.xml", retries=2)
+        slugs = {m.group(1) for m in re.finditer(r"<loc>https://api-docs\.deepseek\.com/news/([a-z0-9\-]+)/?</loc>", xml)}
+        result["deepseek"] = sorted(slugs - _have("deepseek-articles"))
+    except Exception as e:  # noqa: BLE001
+        result["deepseek"] = f"ERROR: {e}"
+
+    # Thinking Machines：sitemap
+    try:
+        xml = fetch("https://thinkingmachines.ai/sitemap.xml", retries=2)
+        slugs = {u.rstrip("/").split("/")[-1] for u in re.findall(r"<loc>([^<]+)</loc>", xml) if "/blog/" in u}
+        result["thinkingmachines"] = sorted(s for s in slugs - _have("thinkingmachines-articles") if s not in ("blog", "index"))
+    except Exception as e:  # noqa: BLE001
+        result["thinkingmachines"] = f"ERROR: {e}"
+
+    # MiniMax：minimax.io/blog（SSR）
+    try:
+        html = fetch("https://minimax.io/blog", retries=2)
+        slugs = {m.group(1) for m in re.finditer(r'href="(?:https://minimax\.io)?/blog/([a-z0-9\-]+)/?"', html)}
+        result["minimax"] = sorted(slugs - _have("minimax-articles"))
+    except Exception as e:  # noqa: BLE001
+        result["minimax"] = f"ERROR: {e}"
+
+    # 智谱：HF API 模型列表（slug 归一化：GLM-5.2 → hf-glm-5-2；建库口径=GLM-5+ 主力模型卡）
+    try:
+        models = json.loads(fetch("https://huggingface.co/api/models?author=zai-org&limit=200", retries=2))
+        have = {h.lower() for h in _have("zhipu-articles")}
+        names = {m["modelId"].split("/")[-1] for m in models}
+        result["zhipu"] = sorted(n for n in names if re.match(r"(?i)^GLM-[5-9]", n)
+                                 and not re.search(r"(?i)_(fp8|bf16|int8|int4|awq|gptq)$", n)
+                                 and f"hf-{n.lower().replace('.', '-')}" not in have)
+    except Exception as e:  # noqa: BLE001
+        result["zhipu"] = f"ERROR: {e}"
+
+    # 小米 / StepFun / Ling：GitHub org repos（只报近 7 日新建 repo；存量未收 repo 属建库口径，见 SOP 待定清单）
+    AUX = re.compile(r"(?i)(awesome|\.github|benchmark|bench|gebench|eval|lmms|demo|training|skills|docs|site|web|homepage|blog|examples|tutorial|comfyui|discord|resources|cookbook|scripts?|utils?$|hub$|agents?$)")
+    week_ago = time.strftime("%Y-%m-%d", time.gmtime(time.time() - 7 * 86400))
+    for key, org, main_pat in (("xiaomi", "XiaomiMiMo", r"^MiMo"), ("stepfun", "stepfun-ai", r"^Step"), ("ling", "inclusionAI", None)):
+        try:
+            repos = json.loads(fetch(f"https://api.github.com/orgs/{org}/repos?per_page=100&sort=pushed", retries=2))
+            have = _have(f"{key}-articles")
+            cand = [r["name"] for r in repos if r["name"] not in have and not AUX.search(r["name"])
+                    and r.get("created_at", "")[:10] >= week_ago
+                    and (main_pat is None or re.match(main_pat, r["name"]))]
+            result[key] = sorted(cand)
+        except Exception as e:  # noqa: BLE001
+            result[key] = f"ERROR: {e}"
+
+    # xAI：x.ai/news 直连 403 → CDX（走代理；未收录 slug 即候选，老文重抓已全在库）
+    try:
+        cdx = proxy_fetch("https://web.archive.org/cdx/search/cdx?url=x.ai%2Fnews%2F*&output=text&fl=original&collapse=urlkey&filter=statuscode:200&filter=mimetype:text/html&limit=2000")
+        slugs = {u.rstrip("/").split("/")[-1] for u in cdx.split() if u.startswith("http")}
+        result["xai"] = sorted(s for s in slugs if re.fullmatch(r"[a-z0-9][a-z0-9\-]{4,}", s) and s not in _have("xai-articles") and s not in ("news", "success", "blog", "index"))
+    except Exception as e:  # noqa: BLE001
+        result["xai"] = f"ERROR: {e}"
+
+    # Meta AI：ai.meta.com 直连断 → CDX 首抓时间法（首抓≥近 7 日且未收录才是新文；老 Facebook 博客文为存量口径待定）
+    try:
+        cdx = proxy_fetch("https://web.archive.org/cdx/search/cdx?url=ai.meta.com%2Fblog%2F*&output=text&fl=original,timestamp&collapse=urlkey&filter=statuscode:200&filter=mimetype:text/html&limit=2000")
+        week_ts = time.strftime("%Y%m%d000000", time.gmtime(time.time() - 7 * 86400))
+        have = _have("meta-ai-articles")
+        seen, cand = set(), []
+        for line in cdx.split("\n"):
+            parts = line.strip().split(" ")
+            if len(parts) != 2:
+                continue
+            url, ts = parts
+            s = url.rstrip("/").split("/")[-1]
+            if not re.fullmatch(r"[a-z0-9][a-z0-9\-]{4,}", s) or re.search(r"-\d{8,}$", s):
+                continue
+            if ts >= week_ts and s not in have and s not in seen:
+                seen.add(s)
+                cand.append(s)
+        result["meta-ai"] = sorted(cand)
+    except Exception as e:  # noqa: BLE001
+        result["meta-ai"] = f"ERROR: {e}"
+
+    # SemiAnalysis：Substack archive API（最近 24 篇足够日常增量）
+    try:
+        items = json.loads(fetch("https://newsletter.semianalysis.com/api/v1/archive?sort=new&offset=0&limit=24", retries=2))
+        result["semianalysis"] = sorted({it["slug"] for it in items} - _have("semianalysis-articles"))
+    except Exception as e:  # noqa: BLE001
+        result["semianalysis"] = f"ERROR: {e}"
+
+    return result
 
 
 def detect():
@@ -180,4 +318,13 @@ def detect():
 
 
 if __name__ == "__main__":
-    print(json.dumps(detect(), ensure_ascii=False, indent=1, default=str))
+    only_legacy = "--legacy" in sys.argv
+    only_vendors = "--vendors" in sys.argv
+    if only_legacy:
+        out = detect()
+    elif only_vendors:
+        out = detect_vendors()
+    else:
+        out = detect()
+        out.update(detect_vendors())
+    print(json.dumps(out, ensure_ascii=False, indent=1, default=str))
