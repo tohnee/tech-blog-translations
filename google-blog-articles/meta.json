@@ -3102,5 +3102,18 @@
   ],
   "description": "Global health teams use Google’s MedGemma to screen 50,000+ patients and power offline apps. See how these AI models improve care in your region.",
   "url": "https://blog.google/innovation-and-ai/technology/health/medgemma-global-healthcare/"
+ },
+ {
+  "slug": "google-project-suncatcher-facts",
+  "title": "Behind Project Suncatcher, our moonshot to put AI in space",
+  "date": "2026-09-24",
+  "authors": [
+   "Travis Beals"
+  ],
+  "tags": [
+   "Google Research"
+  ],
+  "description": "Learn about Google's Project Suncatcher, how we’re testing hardware survival for space, designing cooling systems for AI chips, and more.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/"
  }
 ]

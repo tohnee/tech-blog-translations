@@ -6,10 +6,11 @@
 - 译文目录：本目录 `posts/`，文件名与原文 slug 一一对应
 - 三源合并总索引：[`../google-articles-zh-README.md`](../google-articles-zh-README.md)
 
-## 进度：234 / 234
+## 进度：235 / 235
 
 ## 2026 年
 
+- [x] [Behind Project Suncatcher, our moonshot to put AI in space](posts/google-project-suncatcher-facts.md) · [EN](https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/)
 - [x] [MedGemma is helping global healthcare providers deliver better care](posts/medgemma-global-healthcare.md) · [EN](https://blog.google/innovation-and-ai/technology/health/medgemma-global-healthcare/)
 - [x] [Ask a Scientist: How can researchers use AI to spot a wildfire?](posts/wildfire-tracking-ai.md) · [EN](https://blog.google/innovation-and-ai/models-and-research/google-research/wildfire-tracking-ai/)
 - [x] [Build real-time voice applications with Gemini 3.8 Live and 3.5 Transcribe](posts/build-real-time-voice-applications-gemini-audio.md) · [EN](https://blog.google/innovation-and-ai/technology/developers-tools/build-real-time-voice-applications-gemini-audio/)

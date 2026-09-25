@@ -1621,5 +1621,18 @@
   ],
   "description": "Gemini 3.8 Flash-Lite TTS and Gemini 3.8 Flash TTS are our most expressive audio models yet.",
   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/"
+ },
+ {
+  "slug": "gemini-3-8-live-with-live-avatar",
+  "title": "Introducing Gemini 3.8 Live with Live Avatar",
+  "date": "2026-09-24",
+  "authors": [
+   "Shuo-yiin Chang"
+  ],
+  "tags": [
+   "Gemini models"
+  ],
+  "description": "Gemini 3.8 Live with Live Avatar brings near real-time visual presence to Gemini’s conversational AI.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/"
  }
 ]

@@ -6,10 +6,11 @@
 - 译文目录：本目录 `posts/`，文件名与原文 slug 一一对应
 - 三源合并总索引：[`../google-articles-zh-README.md`](../google-articles-zh-README.md)
 
-## 进度：125 / 125
+## 进度：126 / 126
 
 ## 2026 年
 
+- [x] [Introducing Gemini 3.8 Live with Live Avatar](posts/gemini-3-8-live-with-live-avatar.md) · [EN](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/)
 - [x] [Gemini 3.8 text-to-speech says hello](posts/gemini-3-8-text-to-speech.md) · [EN](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/)
 - [x] [Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking](posts/gemini-3-8-live-gemini-3-8-live-extended-thinking.md) · [EN](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/)
 - [x] [4 ways Gemini makes administrative chores quick and easy](posts/ai-navigate-bureaucracy.md) · [EN](https://blog.google/products-and-platforms/products/gemini/ai-navigate-bureaucracy/)
