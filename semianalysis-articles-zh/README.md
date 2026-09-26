@@ -1,7 +1,7 @@
 # SemiAnalysis 文章中文翻译索引
 
 > 来源：[SemiAnalysis](https://semianalysis.com)（[Substack: newsletter.semianalysis.com](https://newsletter.semianalysis.com)），半导体与 AI 基础设施研究机构。
-> 归档：英文 334 篇（`semianalysis-articles/posts/`），中文翻译 334 篇（本目录 `posts/`）。
+> 归档：英文 335 篇（`semianalysis-articles/posts/`），中文翻译 335 篇（本目录 `posts/`）。
 > 翻译规范：`TRANSLATION_GUIDE_SEMIANALYSIS.md`。
 
 **付费墙说明**：标有 🔒 的文章为付费订阅文，Substack 公开 API 仅提供付费墙之前的预览正文；
@@ -9,6 +9,7 @@
 
 | 日期 | 标题（中文） | 原文标题 | 作者 | 篇幅 |
 |---|---|---|---|---|
+| 2026-09-25 | 中国 AI 基础设施热潮：SemiAnalysis 中国数据中心模型发布 🔒 | The Chinese AI Infrastructure Boom: Introducing the SemiAnalysis China Datacenter Model | Everlyn, Dylan Patel, Patrick Schaabi | [译文](posts/the-chinese-ai-infrastructure-boom.md) · [EN](../../semianalysis-articles/posts/the-chinese-ai-infrastructure-boom.md) |
 | 2026-09-23 | ClusterMAX 3.0：业界标准的 GPU 云评级体系回归 🔒 | ClusterMAX 3.0: The Industry Standard GPU Cloud Rating System Returns | Jordan Nanos, Sam Harshe, Samuel Kruse | [译文](posts/clustermax-30-the-industry-standard.md) · [EN](../../semianalysis-articles/posts/clustermax-30-the-industry-standard.md) |
 | 2026-09-21 | 推理中的计算与数据搬运 🔒 | Computation and Data Movement for Inference | Tanj Bennett, Bryan Shan, Dylan Patel | [译文](posts/computation-and-data-movement-for.md) · [EN](../../semianalysis-articles/posts/computation-and-data-movement-for.md) |
 | 2026-09-18 | Engram 嵌入双关：面向高效 DRAM/SSD 卸载的协同设计 🔒 | Engrams Embedding Entendre: Codesign for Efficient DRAM/SSD Offloading | Bryan Shan, Cam Quilici, Alec Ibarra | [译文](posts/engrams-embedding-entendre-codesign.md) · [EN](../../semianalysis-articles/posts/engrams-embedding-entendre-codesign.md) |

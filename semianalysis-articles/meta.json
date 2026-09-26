@@ -4581,6 +4581,25 @@
   "chars": 12335
  },
  {
+  "slug": "the-chinese-ai-infrastructure-boom",
+  "title": "The Chinese AI Infrastructure Boom: Introducing the SemiAnalysis China Datacenter Model",
+  "subtitle": "1,000+ facilities across 60+ operators mapped, built retail-first and flipped by AI, largest hyperscaler leases 1/5 national capacity, 100MW in 12 months, Eastern Data Western Compute",
+  "date": "2026-09-25",
+  "url": "https://newsletter.semianalysis.com/p/the-chinese-ai-infrastructure-boom",
+  "authors": [
+   "Everlyn",
+   "Dylan Patel",
+   "Patrick Schaabi"
+  ],
+  "tags": [
+   "Datacenter",
+   "AI Infrastructure"
+  ],
+  "audience": "only_paid",
+  "paywalled": true,
+  "chars": 28521
+ },
+ {
   "slug": "the-coding-assistant-breakdown-more",
   "title": "The Coding Assistant Breakdown: More Tokens Please",
   "subtitle": "Hands On With GPT 5.5, Opus 4.7, DeepSeek V4, Why Benchmarks Are Bad, and Who’s Going To Win",
