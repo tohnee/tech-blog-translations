@@ -2595,6 +2595,31 @@
   "chars": 27374
  },
  {
+  "slug": "intel-panther-lake-teardown",
+  "title": "Intel Panther Lake Teardown",
+  "subtitle": "Taking a look inside Intel’s latest consumer chip and 18A process node",
+  "date": "2026-09-26",
+  "url": "https://newsletter.semianalysis.com/p/intel-panther-lake-teardown",
+  "authors": [
+   "Adith Shankar",
+   "Daniel Sanchez",
+   "Allison Elliott",
+   "Sarah Lawrence",
+   "Afzal Ahmad",
+   "Andrew Wagner",
+   "STEEL Team",
+   "Dylan Patel"
+  ],
+  "tags": [
+   "Hardware Architecture",
+   "Chip Design",
+   "Foundries"
+  ],
+  "audience": "only_paid",
+  "paywalled": true,
+  "chars": 67506
+ },
+ {
   "slug": "intel-roadmap-and-pc-tam-update-tone",
   "title": "Intel Roadmap and PC TAM Update – Tone Deaf, Out Of Touch, Living In a Fantasy World, or Disconnected From Reality?",
   "subtitle": "",
