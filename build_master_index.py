@@ -204,6 +204,12 @@ def main() -> None:
             "note": "历史博文（Wayback 存档）+Llama2/3、SAM、DINO 系列论文",
         },
         {
+            "name": "Stanford CS329A 课程", "site": "cs329a.stanford.edu",
+            "en": "cs329a-articles", "zh": "cs329a-articles-zh",
+            "guide": "TRANSLATION_GUIDE_CS329A.md", "readme": "cs329a-articles-zh/README.md",
+            "note": "自我改进 AI 智能体：课程页面+24 讲日程+34 篇指定阅读全译（含 DGM 428K 分片）",
+        },
+        {
             "name": "苏剑林《科学空间》", "site": "kexue.fm",
             "en": "sujianlin-articles", "zh": None,
             "guide": None, "readme": "sujianlin-articles/README.md",

@@ -1,9 +1,9 @@
 # 优秀 AI / 技术博客文章归档与中文翻译
 
-收录 23 个高质量技术博客来源的全量文章归档与完整中文翻译
-（英文存档 `22` 源 + 中文原文 `1` 源；苏剑林博客为中文站点，仅归档）。
+收录 24 个高质量技术博客来源的全量文章归档与完整中文翻译
+（英文存档 `23` 源 + 中文原文 `1` 源；苏剑林博客为中文站点，仅归档）。
 
-> 累计：英文/原文归档 **3960** 篇，中文译文 **2624** 篇。
+> 累计：英文/原文归档 **3996** 篇，中文译文 **2660** 篇。
 > 每日自动同步：定时任务按 [DAILY_SYNC_SOP.md](DAILY_SYNC_SOP.md) 拉取各源新文章、归档并翻译，随后更新本索引并推送 GitHub。
 
 ## 项目总览
@@ -32,6 +32,7 @@
 | 蚂蚁 InclusionAI（Ling） | github.com/inclusionAI | [ling-articles/](ling-articles/)（8） | [ling-articles-zh/](ling-articles-zh/)（8） | 8 / 8 | [规范](TRANSLATION_GUIDE_AI_VENDORS.md) · [目录](ling-articles-zh/README.md) |
 | xAI | x.ai/news（Wayback） | [xai-articles/](xai-articles/)（87） | [xai-articles-zh/](xai-articles-zh/)（87） | 87 / 87 | [规范](TRANSLATION_GUIDE_AI_VENDORS.md) · [目录](xai-articles-zh/README.md) |
 | Meta AI（FAIR） | ai.meta.com/blog（Wayback） | [meta-ai-articles/](meta-ai-articles/)（538） | [meta-ai-articles-zh/](meta-ai-articles-zh/)（538） | 538 / 538 | [规范](TRANSLATION_GUIDE_AI_VENDORS.md) · [目录](meta-ai-articles-zh/README.md) |
+| Stanford CS329A 课程 | cs329a.stanford.edu | [cs329a-articles/](cs329a-articles/)（36） | [cs329a-articles-zh/](cs329a-articles-zh/)（36） | 36 / 36 | [规范](TRANSLATION_GUIDE_CS329A.md) · [目录](cs329a-articles-zh/README.md) |
 | 苏剑林《科学空间》 | kexue.fm | [sujianlin-articles/](sujianlin-articles/)（1336） | —（原文为中文） | 1336 | — · [目录](sujianlin-articles/README.md) |
 
 ## 说明
@@ -54,6 +55,7 @@
 - **蚂蚁 InclusionAI（Ling）**：Ling/Ming/Ring 仓库+300B 等论文
 - **xAI**：Grok 全系发布文 86 篇（Wayback 存档）
 - **Meta AI（FAIR）**：历史博文（Wayback 存档）+Llama2/3、SAM、DINO 系列论文
+- **Stanford CS329A 课程**：自我改进 AI 智能体：课程页面+24 讲日程+34 篇指定阅读全译（含 DGM 428K 分片）
 - **苏剑林《科学空间》**：中文原文全量归档（1336 篇），无需翻译；细目见 INDEX.md
 
 - 三个 Google 来源（DeepMind / Gemini / Google Blog）另有合并详表索引：[google-articles-zh-README.md](google-articles-zh-README.md)

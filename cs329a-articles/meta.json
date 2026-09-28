@@ -1,0 +1,194 @@
+[
+ {
+  "slug": "memgpt",
+  "id": "2310.08560",
+  "title": "MemGPT: Towards LLMs as Operating Systems",
+  "chars": 55622
+ },
+ {
+  "slug": "lats",
+  "id": "2310.04406",
+  "title": "Language Agent Tree Search Unifies Reasoning Acting and Planning in Language Models",
+  "chars": 109790
+ },
+ {
+  "slug": "codemonkeys",
+  "id": "2501.14723",
+  "title": "CodeMonkeys: Scaling Test-Time Compute for Software Engineering",
+  "chars": 62212
+ },
+ {
+  "slug": "swirl",
+  "id": "2504.04736",
+  "title": "Synthetic Data Generation & Multi-Step RL for Reasoning & Tool Use",
+  "chars": 126750
+ },
+ {
+  "slug": "large-language-monkeys",
+  "id": "2407.21787",
+  "title": "Large Language Monkeys: Scaling Inference Compute with Repeated Sampling",
+  "chars": 83993
+ },
+ {
+  "slug": "cartridges",
+  "id": "2506.06266",
+  "title": "Cartridges: Lightweight and general-purpose long context representations via self-study",
+  "chars": 189703
+ },
+ {
+  "slug": "llm-optimizers-agent-system-interfaces",
+  "id": "2410.15625",
+  "title": "Improving Parallel Program Performance with LLM Optimizers via Agent-System Interfaces",
+  "chars": 99791
+ },
+ {
+  "slug": "alphacode",
+  "id": "2203.07814",
+  "title": "Competition-Level Code Generation with AlphaCode",
+  "chars": 265175
+ },
+ {
+  "slug": "react",
+  "id": "2210.03629",
+  "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+  "chars": 113746
+ },
+ {
+  "slug": "lets-verify-step-by-step",
+  "id": "2305.20050",
+  "title": "Let's Verify Step by Step",
+  "chars": 59161
+ },
+ {
+  "slug": "adapt",
+  "id": "2311.05772",
+  "title": "ADaPT: As-Needed Decomposition and Planning with Language Models",
+  "chars": 158755
+ },
+ {
+  "slug": "cacheblend",
+  "id": "2405.16444",
+  "title": "CacheBlend: Fast Large Language Model Serving for RAG with Cached Knowledge Fusion",
+  "chars": 83864
+ },
+ {
+  "slug": "training-verifiers-gsm8k",
+  "id": "2110.14168",
+  "title": "Training Verifiers to Solve Math Word Problems",
+  "chars": 45870
+ },
+ {
+  "slug": "gdpval",
+  "id": "2510.04374",
+  "title": "GDPval: Evaluating AI Model Performance on Real-World Economically Valuable Tasks",
+  "chars": 91956
+ },
+ {
+  "slug": "constitutional-ai",
+  "id": "2212.08073",
+  "title": "Constitutional AI: Harmlessness from AI Feedback",
+  "chars": 161516
+ },
+ {
+  "slug": "deepseekmath",
+  "id": "2402.03300",
+  "title": "DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models",
+  "chars": 103216
+ },
+ {
+  "slug": "ai-scientist",
+  "id": "2408.06292",
+  "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+  "chars": 233184
+ },
+ {
+  "slug": "darwin-godel-machine",
+  "id": "2505.22954",
+  "title": "Darwin Godel Machine: Open-Ended Evolution of Self-Improving Agents",
+  "chars": 427627
+ },
+ {
+  "slug": "wider-or-deeper",
+  "id": "2503.04412",
+  "title": "Wider or Deeper? Scaling LLM Inference-Time Compute with Adaptive Branching Tree Search",
+  "chars": 123712
+ },
+ {
+  "slug": "sprint",
+  "id": "2506.05745",
+  "title": "SPRINT: Enabling Interleaved Planning and Parallelized Execution in Reasoning Models",
+  "chars": 112546
+ },
+ {
+  "slug": "llm-monkeys-power-laws",
+  "id": "2502.17578",
+  "title": "How Do Large Language Monkeys Get Their Power (Laws)?",
+  "chars": 184289
+ },
+ {
+  "slug": "weak-verifiers-gen-verification-gap",
+  "id": "2506.18203",
+  "title": "Shrinking the Generation-Verification Gap with Weak Verifiers",
+  "chars": 185691
+ },
+ {
+  "slug": "star",
+  "id": "2203.14465",
+  "title": "STaR: Bootstrapping Reasoning With Reasoning",
+  "chars": 159459
+ },
+ {
+  "slug": "dapo",
+  "id": "2503.14476",
+  "title": "DAPO: An Open-Source LLM Reinforcement Learning System at Scale",
+  "chars": 49996
+ },
+ {
+  "slug": "measuring-long-tasks",
+  "id": "2503.14499",
+  "title": "Measuring AI Ability to Complete Long Software Tasks",
+  "chars": 166366
+ },
+ {
+  "slug": "math-shepherd",
+  "id": "2312.08935",
+  "title": "Math-Shepherd: Verify and Reinforce LLMs Step-by-step without Human Annotations",
+  "chars": 56557
+ },
+ {
+  "slug": "scaling-test-time-compute-optimally",
+  "id": "2408.03314",
+  "title": "Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters",
+  "chars": 101000
+ },
+ {
+  "slug": "search-o1",
+  "id": "2501.05366",
+  "title": "Search-o1: Agentic Search-Enhanced Large Reasoning Models",
+  "chars": 113157
+ },
+ {
+  "slug": "archon",
+  "id": "2409.15254",
+  "title": "Archon: An Architecture Search Framework for Inference-Time Techniques",
+  "chars": 166529
+ },
+ {
+  "slug": "kernelbench",
+  "id": "2502.10517",
+  "title": "KernelBench: Can LLMs Write Efficient GPU Kernels?",
+  "chars": 144959
+ },
+ {
+  "slug": "rlef",
+  "id": "2410.02089",
+  "title": "RLEF: Grounding Code LLMs in Execution Feedback with Reinforcement Learning",
+  "chars": 92793
+ },
+ {
+  "slug": "deepscholar-bench",
+  "id": "2508.20033",
+  "title": "DeepScholar-Bench: A Live Benchmark and Automated Evaluation for Generative Research Synthesis",
+  "chars": 211202
+ }
+]

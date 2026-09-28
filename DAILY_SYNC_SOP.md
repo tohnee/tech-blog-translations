@@ -15,7 +15,7 @@
    - kexue.fm 若本网与代理出口均 SSL EOF（IP 封禁），当日跳过。
 7. **空跑**：若所有来源均无新文章且无存量待译，直接结束，不做空提交。
 
-## 各来源操作手册（23 源）
+## 各来源操作手册（24 源）
 
 ### 0a. Claude 博客（claude-blog-articles，86 篇已收）
 
@@ -106,6 +106,13 @@
 - arXiv 旗舰论文：`arxiv.org/html/<id>` 转 md 归档 `<源>-articles/papers/`；参考文献整体保留英文。
 - 索引与校验：`build_ai_vendors_readme.py`（EN/ZH 对应 + 各源 README 一键生成）。
 - **每日检测（2026-09-23 起）**：`python3 detect_new.py` 已含全部 23 源（厂商组可 `--vendors` 单跑）。降噪口径：智谱只报 GLM-5+ 主力并排除 FP8/BF16 量化变体（slug 归一化 GLM-5.2→hf-glm-5-2）；小米/StepFun/Ling 只报近 7 日新建 repo（辅助 repo 词表排除 + 主模型名前缀）；xAI=CDX 未收录 slug；Meta AI=CDX 首抓≥近 7 日；SemiAnalysis=archive API 前 24 篇。**存量口径待定**（扩库需人工决策）：智谱 GLM-4.x 老卡、StepFun/Ling 建库未收存量 repo（Step3/Step-3.5-Flash 等）、meta-ai 老格式存量文。
+
+
+### 11. Stanford CS329A 课程（cs329a-articles，36 篇已收，2026-09-23 建库）
+
+- 课程站 `cs329a.stanford.edu` 直连可抓（单页站 + pastprojects.html）；讲师更新日程表时重抓 `pages/index.md`。
+- 指定阅读：日程表内 arXiv 链接（32 篇）+ 2 篇 DeepMind PDF（AlphaCode 2 / AlphaEvolve，`storage.googleapis.com` 直连可下，pypdf 抽取文本）；新阅读按 `arxiv.org/html/<id>` 归档到 `papers/`。
+- 翻译规范 `TRANSLATION_GUIDE_CS329A.md`（沿用 AI_VENDORS 的 arXiv 约定 + PDF 抽取文本约定）；索引 `cs329a-articles-zh/README.md`。
 
 ## 收尾（每次必做）
 
