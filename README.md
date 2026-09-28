@@ -3,7 +3,7 @@
 收录 24 个高质量技术博客来源的全量文章归档与完整中文翻译
 （英文存档 `23` 源 + 中文原文 `1` 源；苏剑林博客为中文站点，仅归档）。
 
-> 累计：英文/原文归档 **3996** 篇，中文译文 **2660** 篇。
+> 累计：英文/原文归档 **3997** 篇，中文译文 **2661** 篇。
 > 每日自动同步：定时任务按 [DAILY_SYNC_SOP.md](DAILY_SYNC_SOP.md) 拉取各源新文章、归档并翻译，随后更新本索引并推送 GitHub。
 
 ## 项目总览
@@ -20,7 +20,7 @@
 | Claude 博客 | claude.com/blog | [claude-blog-articles/](claude-blog-articles/)（89） | [claude-blog-articles-zh/](claude-blog-articles-zh/)（89） | 89 / 89 | [规范](TRANSLATION_GUIDE_CLAUDE_BLOG.md) · [目录](claude-blog-articles-zh/README.md) |
 | OpenAI 开发者博客 | developers.openai.com/blog | [openai-dev-articles/](openai-dev-articles/)（14） | [openai-dev-articles-zh/](openai-dev-articles-zh/)（14） | 14 / 14 | [规范](TRANSLATION_GUIDE_CLAUDE_BLOG.md) · [目录](openai-dev-articles-zh/README.md) |
 | Lilian Weng | lilianweng.github.io | [lilianweng-articles/](lilianweng-articles/)（53） | [lilianweng-articles-zh/](lilianweng-articles-zh/)（53） | 53 / 53 | [规范](TRANSLATION_GUIDE_LILIANWENG.md) · [目录](lilianweng-articles-zh/README.md) |
-| Sebastian Raschka | sebastianraschka.com | [sebastianraschka-articles/](sebastianraschka-articles/)（322） | [sebastianraschka-articles-zh/](sebastianraschka-articles-zh/)（322） | 322 / 322 | — · [目录](sebastianraschka-articles-zh/README.md) |
+| Sebastian Raschka | sebastianraschka.com | [sebastianraschka-articles/](sebastianraschka-articles/)（323） | [sebastianraschka-articles-zh/](sebastianraschka-articles-zh/)（323） | 323 / 323 | — · [目录](sebastianraschka-articles-zh/README.md) |
 | SemiAnalysis | semianalysis.com | [semianalysis-articles/](semianalysis-articles/)（336） | [semianalysis-articles-zh/](semianalysis-articles-zh/)（336） | 336 / 336 | [规范](TRANSLATION_GUIDE_SEMIANALYSIS.md) · [目录](semianalysis-articles-zh/README.md) |
 | Qwen 通义千问 | qwenlm.github.io | [qwen-articles/](qwen-articles/)（48） | [qwen-articles-zh/](qwen-articles-zh/)（48） | 48 / 48 | [规范](TRANSLATION_GUIDE_AI_VENDORS.md) · [目录](qwen-articles-zh/README.md) |
 | DeepSeek 深度求索 | api-docs.deepseek.com/news | [deepseek-articles/](deepseek-articles/)（21） | [deepseek-articles-zh/](deepseek-articles-zh/)（21） | 21 / 21 | [规范](TRANSLATION_GUIDE_AI_VENDORS.md) · [目录](deepseek-articles-zh/README.md) |

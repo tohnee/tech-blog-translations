@@ -1,6 +1,6 @@
 # Sebastian Raschka 技术文章中文翻译
 
-> 共 322 篇（博客 83 + LLM 架构图解 31 + magazine 1 + 旧技术专栏 27 + FAQ 180），与英文存档一一对应、全文翻译；2026-09-06 完成首批 110 篇，2026-09-14 存量全部补齐，此后每日同步新文。
+> 共 323 篇（博客 84 + LLM 架构图解 31 + magazine 1 + 旧技术专栏 27 + FAQ 180），与英文存档一一对应、全文翻译；2026-09-06 完成首批 110 篇，2026-09-14 存量全部补齐，此后每日同步新文。
 > 英文原文存档见 [sebastianraschka-articles/](../sebastianraschka-articles/)；翻译规范见 [TRANSLATION_GUIDE.md](../TRANSLATION_GUIDE.md)。
 > 每篇头部含英文原标题与原文链接；代码块、图片链接、公式原样保留。
 
@@ -126,7 +126,7 @@ Substack 专栏译文，按发布年份存放；后续更新继续追加。
 - [机器学习/AI 的 Hello World：从随机森林到 RLVR](blog/2025/hello-world-ai.md)
 - [如何从技术书中获得最大收益](blog/2025/reading-books.md)
 
-### 2026（33 篇）
+### 2026（34 篇）
 
 - [20 万订阅者](blog/2026/ahead-of-ai-reached-200000-subscribers.md)
 - [《AI Reasoning Models》课程上线](blog/2026/ai-reasoning-models-course.md)
@@ -135,6 +135,7 @@ Substack 专栏译文，按发布年份存放；后续更新继续追加。
 - [Claude 文本水印的工作原理](blog/2026/claude-text-watermarking.md)
 - [从零实现 DeepSeek 稀疏注意力](blog/2026/deepseek-sparse-attention-from-scratch.md)
 - [Gemma 4 架构与基准测试笔记](blog/2026/gemma-4-release-notes.md)
+- [聚焦后训练](blog/2026/focusing-on-llm-post-training.md)
 - [GLM-5.2 IndexShare 架构笔记](blog/2026/glm-5-2-indexshare.md)
 - [GLM-5.3-Flash 架构笔记](blog/2026/glm-5-3-flash-architecture-notes.md)
 - [GPT 5.6 的配置与默认选择](blog/2026/gpt-5-6-configurations.md)
