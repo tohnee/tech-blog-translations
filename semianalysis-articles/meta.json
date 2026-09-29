@@ -4438,6 +4438,25 @@
   "chars": 16989
  },
  {
+  "slug": "sparse-savings-persistent-demand-inside-glm53",
+  "title": "How GLM5.3 Sparse Attention Affects HBM Memory Usage",
+  "subtitle": "GLM-5.3, KV Cache Offloading, HiSparse, AgentX TileRT, InferenceX DeepSeek Sparse Attention, IndexShare, Single-rollout Asynchronous Optimization, Cybersecurity",
+  "date": "2026-09-28",
+  "url": "https://newsletter.semianalysis.com/p/sparse-savings-persistent-demand-inside-glm53",
+  "authors": [
+   "Kimbo Chen",
+   "Alec Ibarra",
+   "Wenyao Gao",
+   "Pratt Bhatt",
+   "Bryan Shan",
+   "Dylan Patel"
+  ],
+  "tags": [],
+  "audience": "only_paid",
+  "paywalled": true,
+  "chars": 24804
+ },
+ {
   "slug": "spie2025",
   "title": "High-NA is Here (for R&D), EUV Cost, Pattern Shaping Gaining Share, 6x12\" Mask, Metal Oxide & Dry Resist, Hyper-NA",
   "subtitle": "SPIE Advanced Litho & Patterning 2025 Round-Up",

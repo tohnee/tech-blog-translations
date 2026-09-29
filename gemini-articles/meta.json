@@ -1634,5 +1634,18 @@
   ],
   "description": "Gemini 3.8 Live with Live Avatar brings near real-time visual presence to Gemini’s conversational AI.",
   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/"
+ },
+ {
+  "slug": "gemini-3-8-flash-developers",
+  "title": "See what 4 builders are making with Gemini 3.8 Flash",
+  "date": "2026-09-28",
+  "authors": [
+   "Lindsey Lanquist"
+  ],
+  "tags": [
+   "Gemini models"
+  ],
+  "description": "See how developers use Google Gemini 3.8 Flash for rocket simulations, 3D modeling, and more. Explore these innovative community builds in Google AI Studio.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-flash-developers/"
  }
 ]
