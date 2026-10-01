@@ -1,6 +1,6 @@
 # Claude 博客技术文章中文化（claude-blog-articles-zh）
 
-> 进度：**中文 89 / 89**。清单来自 claude.com 官方 sitemap，筛除客户故事/产品发布/企业合规/活动类，保留技术文章（2026-09-14 抓取）。
+> 进度：**中文 90 / 90**。清单来自 claude.com 官方 sitemap，筛除客户故事/产品发布/企业合规/活动类，保留技术文章（2026-09-14 抓取）。
 > 通用规范见仓库内对应 TRANSLATION_GUIDE_*.md。
 
 ## 已翻译
@@ -96,6 +96,7 @@
 | [工作负载身份联合（WIF）现已在 Claude Platform 正式发布](posts/workload-identity-federation.md) | [Workload Identity Federation (WIF) is now generally available on the Claude Platform.](https://claude.com/blog/workload-identity-federation/) | 2026-09-14 |
 | [Opus 5.5 上一个任务的成本](posts/what-a-task-costs-on-opus-5-5.md) | [What a task costs on Opus 5.5](https://claude.com/blog/what-a-task-costs-on-opus-5-5/) | 2026-09-23 |
 | [编码会话更长、上下文用量更大，Claude Opus 5.5 为此而生](posts/claude-opus-5-5-built-for-coding-sessions-that-use-more-context.md) | [Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.](https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context/) | 2026-09-26 |
+| [与 NVIDIA 一起让企业更可控地使用 AI 智能体](posts/giving-companies-more-control-over-their-ai-agents-with-nvidia.md) | [Giving companies more control over their AI agents, with NVIDIA](https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia/) | 2026-10-01 |
 
 ## 来源与保真说明
 

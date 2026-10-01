@@ -520,5 +520,23 @@
   "title": "Introducing Grok Voice Think Fast 2.0",
   "date": "2026-07-29",
   "chars": 3870
+ },
+ {
+  "slug": "grok-4-7",
+  "title": "Introducing Grok 4.7",
+  "date": "2026-09-21",
+  "chars": 4291
+ },
+ {
+  "slug": "grok-bot-customer-support",
+  "title": "How SpaceXAI is using Grok Bot to scale customer support",
+  "date": "2026-09-22",
+  "chars": 8062
+ },
+ {
+  "slug": "team-bots",
+  "title": "Team Bots: AI coworkers that learn from your team",
+  "date": "2026-09-28",
+  "chars": 7444
  }
 ]

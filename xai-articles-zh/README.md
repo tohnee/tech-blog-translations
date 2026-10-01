@@ -1,10 +1,10 @@
 # xAI 文章中文索引
 
 > x.ai/news（经 Wayback Machine 存档；直连受 Cloudflare 拦截）
-> 英文归档 `xai-articles/`（87 篇），中文 `xai-articles-zh/`（87 篇）。
+> 英文归档 `xai-articles/`（90 篇），中文 `xai-articles-zh/`（90 篇）。
 > 翻译规范：`TRANSLATION_GUIDE_AI_VENDORS.md`；arXiv 论文在 `papers/` 子目录（译文同样在 `*-zh/papers/`）。
 
-| 篇数 | 87 EN → 87 ZH |
+| 篇数 | 90 EN → 90 ZH |
 |---|---|
 | ✅ 📝 | 2026-06-15 | Agent Dashboard in Grok Build | `posts/agent-dashboard.md` |
 | ✅ 📝 | 2026-05-06 | New Compute Partnership with Anthropic | `posts/anthropic-compute-partnership.md` |
@@ -28,11 +28,13 @@
 | ✅ 📝 | 2026-08-26 | Grok 4.6 on Microsoft Foundry | `posts/grok-4-6-microsoft-foundry.md` |
 | ✅ 📝 | 2026-08-21 | Grok 4.6 on Gemini Enterprise Agent Platform | `posts/grok-4-6-vertex-ai.md` |
 | ✅ 📝 | 2026-08-12 | Introducing Grok 4.6 | `posts/grok-4-6.md` |
+| ✅ 📝 | 2026-09-21 | Introducing Grok 4.7 | `posts/grok-4-7.md` |
 | ✅ 📝 | 2025-09-19 | grok-4-fast | `posts/grok-4-fast.md` |
 | ✅ 📝 | 2025-07-11 | grok-4 | `posts/grok-4.md` |
 | ✅ 📝 | 2026-06-17 | Grok on Amazon Bedrock | `posts/grok-amazon-bedrock.md` |
 | ✅ 📝 | 2026-07-16 | Automations in Grok | `posts/grok-automations.md` |
 | ✅ 📝 | 2026-08-29 | Grok Bot now works with X | `posts/grok-bot-and-x.md` |
+| ✅ 📝 | 2026-09-22 | How SpaceXAI is using Grok Bot to scale customer support | `posts/grok-bot-customer-support.md` |
 | ✅ 📝 | 2026-09-03 | Grok Bot for Enterprise | `posts/grok-bot-for-enterprise.md` |
 | ✅ 📝 | 2026-08-21 | Grok Bot is now included with more plans | `posts/grok-bot-more-plans.md` |
 | ✅ 📝 | 2026-09-04 | Setting Grok Bot loose on procurement | `posts/grok-bot-procurement.md` |
@@ -90,6 +92,7 @@
 | ✅ 📝 | 2025-03-19 | series-b | `posts/series-b.md` |
 | ✅ 📝 | 2025-03-13 | series-c | `posts/series-c.md` |
 | ✅ 📝 | 2026-01-06 | series-e | `posts/series-e.md` |
+| ✅ 📝 | 2026-09-28 | Team Bots: AI coworkers that learn from your team | `posts/team-bots.md` |
 | ✅ 📝 | 2025-12-23 | us-gov-dept-of-war | `posts/us-gov-dept-of-war.md` |
 | ✅ 📝 | 2026-07-23 | Workflows in Grok Build | `posts/workflows.md` |
 | ✅ 📝 | 2026-02-02 | xai-joins-spacex | `posts/xai-joins-spacex.md` |
