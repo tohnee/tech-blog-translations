@@ -6,10 +6,13 @@
 - 译文目录：本目录 `posts/`，文件名与原文 slug 一一对应
 - 三源合并总索引：[`../google-articles-zh-README.md`](../google-articles-zh-README.md)
 
-## 进度：235 / 235
+## 进度：238 / 238
 
 ## 2026 年
 
+- [x] [The latest AI news we announced in September 2026](posts/google-ai-updates-september-2026.md) · [EN](https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/)
+- [x] [Our Project Suncatcher prototype satellite is in orbit.](posts/project-suncatcher-prototype.md) · [EN](https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/)
+- [x] [Google's AI ranks #1 for predicting flu hospitalizations.](posts/google-science-ai-flu-forecasts.md) · [EN](https://blog.google/innovation-and-ai/models-and-research/google-research/google-science-ai-flu-forecasts/)
 - [x] [Behind Project Suncatcher, our moonshot to put AI in space](posts/google-project-suncatcher-facts.md) · [EN](https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/)
 - [x] [MedGemma is helping global healthcare providers deliver better care](posts/medgemma-global-healthcare.md) · [EN](https://blog.google/innovation-and-ai/technology/health/medgemma-global-healthcare/)
 - [x] [Ask a Scientist: How can researchers use AI to spot a wildfire?](posts/wildfire-tracking-ai.md) · [EN](https://blog.google/innovation-and-ai/models-and-research/google-research/wildfire-tracking-ai/)

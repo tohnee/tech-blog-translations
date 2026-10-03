@@ -6,10 +6,11 @@
 - 译文目录：本目录 `posts/`，文件名与原文 slug 一一对应
 - 三源合并总索引：[`../google-articles-zh-README.md`](../google-articles-zh-README.md)
 
-## 进度：349 / 349
+## 进度：350 / 350
 
 ## 2026 年
 
+- [x] [We’re introducing SynthID Bio, bringing our watermarking technology to synthetic biology.](posts/synthid-bio.md) · [EN](https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synthid-bio/)
 - [x] [AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome](posts/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome.md) · [EN](https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/)
 - [x] [Piloting the world's first double-blind AI evaluations](posts/piloting-the-worlds-first-double-blind-ai-evaluations.md) · [EN](https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/)
 - [x] [From Atari to EVE Online: Building on 15 Years of AI Research in Games](posts/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games.md) · [EN](https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/)

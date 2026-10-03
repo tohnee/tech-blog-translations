@@ -6,10 +6,12 @@
 - 译文目录：本目录 `posts/`，文件名与原文 slug 一一对应
 - 三源合并总索引：[`../google-articles-zh-README.md`](../google-articles-zh-README.md)
 
-## 进度：127 / 127
+## 进度：129 / 129
 
 ## 2026 年
 
+- [x] [Gemini 4 Argon: our next era of frontier intelligence](posts/gemini-4-argon.md) · [EN](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/)
+- [x] [Let skills in Gemini tackle your most repetitive tasks](posts/automate-tasks-with-skills.md) · [EN](https://blog.google/products-and-platforms/products/gemini/automate-tasks-with-skills/)
 - [x] [See what 4 builders are making with Gemini 3.8 Flash](posts/gemini-3-8-flash-developers.md) · [EN](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-flash-developers/)
 - [x] [Introducing Gemini 3.8 Live with Live Avatar](posts/gemini-3-8-live-with-live-avatar.md) · [EN](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/)
 - [x] [Gemini 3.8 text-to-speech says hello](posts/gemini-3-8-text-to-speech.md) · [EN](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/)

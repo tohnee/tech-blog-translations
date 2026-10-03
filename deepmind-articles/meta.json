@@ -4328,5 +4328,14 @@
   "tags": [],
   "description": "",
   "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/deepmind-a24-research-partnership/"
+ },
+ {
+  "slug": "synthid-bio",
+  "title": "We’re introducing SynthID Bio, bringing our watermarking technology to synthetic biology.",
+  "date": "2026-09-30",
+  "authors": [],
+  "tags": [],
+  "description": "Google DeepMind introduces SynthID Bio to watermark AI-designed proteins while maintaining biological function. Read the full research report here.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synthid-bio/"
  }
 ]

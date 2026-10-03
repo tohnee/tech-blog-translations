@@ -3115,5 +3115,44 @@
   ],
   "description": "Learn about Google's Project Suncatcher, how we’re testing hardware survival for space, designing cooling systems for AI chips, and more.",
   "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/"
+ },
+ {
+  "slug": "google-science-ai-flu-forecasts",
+  "title": "Google's AI ranks #1 for predicting flu hospitalizations.",
+  "date": "2026-09-30",
+  "authors": [
+   "Zahra Shamsi"
+  ],
+  "tags": [],
+  "description": "Google’s science AI model was the best at forecasting flu-related hospital admissions, the Centers for Disease Control announced.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-science-ai-flu-forecasts/"
+ },
+ {
+  "slug": "project-suncatcher-prototype",
+  "title": "Our Project Suncatcher prototype satellite is in orbit.",
+  "date": "2026-10-01",
+  "authors": [
+   "Travis Beals"
+  ],
+  "tags": [],
+  "description": "Google's prototype satellite for Project Suncatcher, built in partnership with Planet, launched into orbit aboard the Transporter-18 rideshare mission with SpaceX.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/"
+ },
+ {
+  "slug": "google-ai-updates-september-2026",
+  "title": "The latest AI news we announced in September 2026",
+  "date": "2026-10-02",
+  "authors": [
+   "Blog Team"
+  ],
+  "tags": [
+   "AI",
+   "Google DeepMind",
+   "Gemini models",
+   "Gemini App",
+   "Google Research"
+  ],
+  "description": "See the full list of September AI updates.",
+  "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/"
  }
 ]

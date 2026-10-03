@@ -1647,5 +1647,31 @@
   ],
   "description": "See how developers use Google Gemini 3.8 Flash for rocket simulations, 3D modeling, and more. Explore these innovative community builds in Google AI Studio.",
   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-flash-developers/"
+ },
+ {
+  "slug": "gemini-4-argon",
+  "title": "Gemini 4 Argon: our next era of frontier intelligence",
+  "date": "2026-09-30",
+  "authors": [
+   "Koray Kavukcuoglu"
+  ],
+  "tags": [
+   "Gemini models"
+  ],
+  "description": "Announcing Gemini 4 Argon, our frontier model for real-world coding, enterprise knowledge work, and cyber defense, rolling out soon.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+ },
+ {
+  "slug": "automate-tasks-with-skills",
+  "title": "Let skills in Gemini tackle your most repetitive tasks",
+  "date": "2026-09-30",
+  "authors": [
+   "Deven Tokuno"
+  ],
+  "tags": [
+   "Gemini"
+  ],
+  "description": "Automate repetitive tasks with new reusable skills in Google Gemini. Get the transition details.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/automate-tasks-with-skills/"
  }
 ]
