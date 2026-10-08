@@ -6,10 +6,11 @@
 - 译文目录：本目录 `posts/`，文件名与原文 slug 一一对应
 - 三源合并总索引：[`../google-articles-zh-README.md`](../google-articles-zh-README.md)
 
-## 进度：350 / 350
+## 进度：351 / 351
 
 ## 2026 年
 
+- [x] [We're making it easier to identify AI-generated content globally.](posts/synth-id-ai-content.md) · [EN](https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/)
 - [x] [We’re introducing SynthID Bio, bringing our watermarking technology to synthetic biology.](posts/synthid-bio.md) · [EN](https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synthid-bio/)
 - [x] [AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome](posts/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome.md) · [EN](https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/)
 - [x] [Piloting the world's first double-blind AI evaluations](posts/piloting-the-worlds-first-double-blind-ai-evaluations.md) · [EN](https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/)

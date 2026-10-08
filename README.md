@@ -3,17 +3,17 @@
 收录 24 个高质量技术博客来源的全量文章归档与完整中文翻译
 （英文存档 `23` 源 + 中文原文 `1` 源；苏剑林博客为中文站点，仅归档）。
 
-> 累计：英文/原文归档 **4010** 篇，中文译文 **2674** 篇。
+> 累计：英文/原文归档 **4019** 篇，中文译文 **2683** 篇。
 > 每日自动同步：定时任务按 [DAILY_SYNC_SOP.md](DAILY_SYNC_SOP.md) 拉取各源新文章、归档并翻译，随后更新本索引并推送 GitHub。
 
 ## 项目总览
 
 | 来源 | 原文站点 | 英文存档 | 中文翻译 | 篇数 | 索引 |
 |---|---|---|---|---|---|
-| OpenAI | openai.com/blog | [openai-articles/](openai-articles/)（74） | [openai-articles-zh/](openai-articles-zh/)（74） | 74 / 74 | [规范](TRANSLATION_GUIDE_OPENAI.md) · [目录](openai-articles-zh/README.md) |
-| Google DeepMind | deepmind.google/blog | [deepmind-articles/](deepmind-articles/)（350） | [deepmind-articles-zh/](deepmind-articles-zh/)（350） | 350 / 350 | [规范](TRANSLATION_GUIDE_GOOGLE.md) · [目录](deepmind-articles-zh/README.md) |
+| OpenAI | openai.com/blog | [openai-articles/](openai-articles/)（78） | [openai-articles-zh/](openai-articles-zh/)（78） | 78 / 78 | [规范](TRANSLATION_GUIDE_OPENAI.md) · [目录](openai-articles-zh/README.md) |
+| Google DeepMind | deepmind.google/blog | [deepmind-articles/](deepmind-articles/)（351） | [deepmind-articles-zh/](deepmind-articles-zh/)（351） | 351 / 351 | [规范](TRANSLATION_GUIDE_GOOGLE.md) · [目录](deepmind-articles-zh/README.md) |
 | Gemini | blog.google（gemini 栏目） | [gemini-articles/](gemini-articles/)（129） | [gemini-articles-zh/](gemini-articles-zh/)（129） | 129 / 129 | [规范](TRANSLATION_GUIDE_GOOGLE.md) · [目录](gemini-articles-zh/README.md) |
-| Google Blog | blog.google/innovation-and-ai | [google-blog-articles/](google-blog-articles/)（238） | [google-blog-articles-zh/](google-blog-articles-zh/)（238） | 238 / 238 | [规范](TRANSLATION_GUIDE_GOOGLE.md) · [目录](google-blog-articles-zh/README.md) |
+| Google Blog | blog.google/innovation-and-ai | [google-blog-articles/](google-blog-articles/)（241） | [google-blog-articles-zh/](google-blog-articles-zh/)（241） | 241 / 241 | [规范](TRANSLATION_GUIDE_GOOGLE.md) · [目录](google-blog-articles-zh/README.md) |
 | vLLM | blog.vllm.ai | [vllm-articles/](vllm-articles/)（134） | [vllm-articles-zh/](vllm-articles-zh/)（134） | 134 / 134 | [规范](TRANSLATION_GUIDE_VLLM.md) · [目录](vllm-articles-zh/README.md) |
 | SGLang / LMSYS | lmsys.org/blog | [sglang-articles/](sglang-articles/)（96） | [sglang-articles-zh/](sglang-articles-zh/)（96） | 96 / 96 | [规范](TRANSLATION_GUIDE_SGLANG.md) · [目录](sglang-articles-zh/README.md) |
 | Claude Code / Anthropic | anthropic.com（工程博客） | [claudecode-articles/](claudecode-articles/)（29） | [claudecode-articles-zh/](claudecode-articles-zh/)（29） | 29 / 29 | [规范](TRANSLATION_GUIDE_CLAUDECODE.md) · [目录](claudecode-articles-zh/README.md) |
@@ -21,7 +21,7 @@
 | OpenAI 开发者博客 | developers.openai.com/blog | [openai-dev-articles/](openai-dev-articles/)（14） | [openai-dev-articles-zh/](openai-dev-articles-zh/)（14） | 14 / 14 | [规范](TRANSLATION_GUIDE_CLAUDE_BLOG.md) · [目录](openai-dev-articles-zh/README.md) |
 | Lilian Weng | lilianweng.github.io | [lilianweng-articles/](lilianweng-articles/)（53） | [lilianweng-articles-zh/](lilianweng-articles-zh/)（53） | 53 / 53 | [规范](TRANSLATION_GUIDE_LILIANWENG.md) · [目录](lilianweng-articles-zh/README.md) |
 | Sebastian Raschka | sebastianraschka.com | [sebastianraschka-articles/](sebastianraschka-articles/)（323） | [sebastianraschka-articles-zh/](sebastianraschka-articles-zh/)（323） | 323 / 323 | — · [目录](sebastianraschka-articles-zh/README.md) |
-| SemiAnalysis | semianalysis.com | [semianalysis-articles/](semianalysis-articles/)（337） | [semianalysis-articles-zh/](semianalysis-articles-zh/)（337） | 337 / 337 | [规范](TRANSLATION_GUIDE_SEMIANALYSIS.md) · [目录](semianalysis-articles-zh/README.md) |
+| SemiAnalysis | semianalysis.com | [semianalysis-articles/](semianalysis-articles/)（338） | [semianalysis-articles-zh/](semianalysis-articles-zh/)（338） | 338 / 338 | [规范](TRANSLATION_GUIDE_SEMIANALYSIS.md) · [目录](semianalysis-articles-zh/README.md) |
 | Qwen 通义千问 | qwenlm.github.io | [qwen-articles/](qwen-articles/)（48） | [qwen-articles-zh/](qwen-articles-zh/)（48） | 48 / 48 | [规范](TRANSLATION_GUIDE_AI_VENDORS.md) · [目录](qwen-articles-zh/README.md) |
 | DeepSeek 深度求索 | api-docs.deepseek.com/news | [deepseek-articles/](deepseek-articles/)（21） | [deepseek-articles-zh/](deepseek-articles-zh/)（21） | 21 / 21 | [规范](TRANSLATION_GUIDE_AI_VENDORS.md) · [目录](deepseek-articles-zh/README.md) |
 | Thinking Machines Lab | thinkingmachines.ai/blog | [thinkingmachines-articles/](thinkingmachines-articles/)（7） | [thinkingmachines-articles-zh/](thinkingmachines-articles-zh/)（7） | 7 / 7 | [规范](TRANSLATION_GUIDE_AI_VENDORS.md) · [目录](thinkingmachines-articles-zh/README.md) |

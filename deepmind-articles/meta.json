@@ -4337,5 +4337,16 @@
   "tags": [],
   "description": "Google DeepMind introduces SynthID Bio to watermark AI-designed proteins while maintaining biological function. Read the full research report here.",
   "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synthid-bio/"
+ },
+ {
+  "slug": "synth-id-ai-content",
+  "title": "We're making it easier to identify AI-generated content globally.",
+  "date": "2026-10-07",
+  "authors": [
+   "Pushmeet Kohli"
+  ],
+  "tags": [],
+  "description": "We’re launching a standalone platform to help you easily identify whether online content was created using Google AI or tools from our industry partners.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/"
  }
 ]

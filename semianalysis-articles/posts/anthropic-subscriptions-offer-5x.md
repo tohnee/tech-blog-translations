@@ -1,0 +1,240 @@
+---
+title: "Anthropic Subscriptions Offer 5x+ More Value Than OpenAI"
+subtitle: "Limit testing every AI subscription plan from Anthropic, OpenAI, Meta, SpaceXAI, MiniMax, Moonshot, Z.ai, Cursor, and Cognition"
+date: 2026-10-05
+source: https://newsletter.semianalysis.com/p/anthropic-subscriptions-offer-5x
+crawled: 2026-09-15
+authors: ["Andrew Megalaa", "Max Kan", "Dylan Patel"]
+tags: []
+audience: only_paid
+paywalled: true
+---
+
+# Anthropic Subscriptions Offer 5x+ More Value Than OpenAI
+
+**Limit testing every AI subscription plan from Anthropic, OpenAI, Meta, SpaceXAI, MiniMax, Moonshot, Z.ai, Cursor, and Cognition**
+
+> ⚠️ 付费订阅文章：以下正文为公开可见的预览部分，在付费墙处截断，并非全文。/ Paid post: only the publicly visible preview portion is archived; the body is truncated at the paywall.
+
+Subscription plans are still the primary way consumers and small businesses pay for AI. These plans are highly subsidized—as we previously explained in [June](https://semianalysis.com/institutional/a-200-claude-plan-can-consume-8000-worth-of-tokens/)—but can still make economic sense as powerful customer acquisition and marketing tools. For example, the goodwill engendered by [OpenAI’s](https://x.com/thsottiaux/status/2102463847714247142) [generous](https://x.com/thsottiaux/status/2103637477760311522) [resets](https://x.com/thsottiaux/status/2105173168281506088) is partially responsible for the recent surge in Codex adoption and has forced Anthropic to [repeatedly](https://x.com/ClaudeDevs/status/2078511173759324328) [walk](https://x.com/ClaudeDevs/status/2089798442306711646) [back](https://x.com/ClaudeDevs/status/2093742321473065266) planned subscription nerfs to avoid getting clobbered in the court of public opinion.
+
+Furthermore, because subscription plans are so heavily subsidized, they can also have a large impact on margins and revenue per MW despite only being a small portion of total revenue. Consider the following rough numbers for Anthropic.
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/2ac5c578-4092-4afe-bdaf-cbf61f7f83b5_2048x1194.png)
+*Source: SemiAnalysis Tokenomics Model*
+
+**Despite being just 10% of overall revenue, subscriptions can take up over 40% of inference compute and lower blended revenue per MW by ~$36M.** Subscriptions are even more important for OpenAI, as they make up a larger portion of their total revenue. For specific numbers, see our [Tokenomics Model](https://semianalysis.com/tokenomics-model/).
+
+In other words, **if you want to accurately model AI lab financials, you need to understand their subscription limits.**
+
+So how do limits actually work? The way to think about subscriptions is that your monthly payment grants you some numbers of “credits”. Each (model, token type) combo consumes a different amount of credits. **Because credit cost ratios can differ dramatically from API price ratios, the “value” of the same plan changes depending on what model and workload you’re running.** Put differently, **it doesn’t make sense to say a plan is worth $X in isolation—you need to consider the full (plan, model, workload) tuple**.
+
+Here’s how the API-equivalent value of the same $200/month Claude plan changes depending on the model and workload.
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/e61e3841-450f-4662-a21f-dc0f844d05ab_2000x1126.png)
+*Source: SemiAnalysis Tokenomics Model*
+
+A single static snapshot isn’t enough either. Labs publicly change their limits all the time with promos and new model releases. They can also silently change limits whenever they want by tweaking credit costs. Ideally, you’d re-check the cost of each (plan, model, token type) daily so you can surface any changes in real-time.
+
+This is exactly what SemiAnalysis has done with our new [Subscriptions Dashboard](https://tokenomics.semianalysis.com/subscriptions) available exclusively to [Tokenomics Model](https://semianalysis.com/tokenomics-model/) subscribers. Besides every OpenAI and Anthropic subscription, we also track Meta, SpaceXAI, Cursor, Cognition, Z.ai, MiniMax, and Moonshot.
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/6e451f84-a586-40da-90c8-5e2fcd196222_2048x1077.png)
+*A screenshot of our dashboard showing a small subset of the available data. Source: SemiAnalysis Tokenomics Model*
+
+New providers, plans, and models will be added as soon as they’re released. The rest of the article will give an overview of everyone’s current limits. All token and dollar amounts below assume agentic usage unless otherwise specified.
+
+# Methodology
+
+Tokens are generally priced per MTok (million tokens) across the following types:
+
+- Input: Fresh tokens added to the LLM’s context window that aren’t cached
+- Cache write: Input tokens that are cached for multi-turn conversations. Generally slightly more expensive than regular input tokens.
+- Cache read: Tokens from previous turns that are already cached in the conversation. Generally extremely cheap compared to uncached tokens.
+- Output: Tokens generated by the model. The most expensive token type.
+
+Additionally, some models charge more for tokens above a certain context window. Those models typically compact before that expensive context window is reached, so we also keep our measurements below it.
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/fab43609-4792-498e-934f-a4455bd2b509_941x454.png)
+*Source: OpenAI*
+
+Subscription plans don’t expose this fine grained pricing. Instead, they provide a simple 0 to 100% usage meter across 5-hour and 7-day windows, and sometimes a separate meter for a model like Fable. Subscription tiers are then differentiated by usage multipliers relative only to the provider’s other plans. OpenAI for example used to advertise “Expanded Codex usage” in their $20 Plus plan, “5x more usage than Plus” in the $100 Pro plan, and “20x more usage” in the $200 Pro plan until they cut their $200 plan usage in [half](https://x.com/thsottiaux/status/2104951965184925941?s=20) and removed all relative usage from their [pricing](https://chatgpt.com/pricing/) page.
+
+![](https://substackcdn.com/image/fetch/$s_!eIgD!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd495b7d3-d488-4ffb-9f85-f52ea0d449fc_460x178.png)
+*Screenshot of Claude Code meters. Source: Claude Code CLI*
+
+## Setup
+
+We compute the subscription-rate of each (plan, model, token type) triple by running experiments that isolate one token type at a time and watching how far the model provider’s meter moves. An experiment is some number of repeated calls using a specific prompt that maximizes one token type while minimizing all the others.
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/0f26243f-cdd4-41a3-b89c-6b78dac4317b_2048x1034.png)
+*Source: SemiAnalysis Tokenomics Model*
+
+Input, cache writes, and cache reads share the same prompt template. We use a portion of *War and Peace* since some models will refuse to respond if given large blocks of gibberish. For the input token experiments, we use a random tag on every call to ensure nothing gets cached. The cache write experiments run the same way but with the prompt marked for caching, so each new tag forces a new cache entry. The cache read experiments use a fixed tag, so the first call writes the cache and every repeat reads it.
+
+For the output token experiments, we used a technical essay to force long outputs because models will refuse mechanical prompts like “repeat SemiAnalysis 100,000 times”.
+
+## Computing the Results
+
+For every call we record two things: how many tokens of each type the provider billed, and what the usage meter read. Turning those into a price takes three steps.
+
+### 1. Measure the rate of each token type
+
+Providers generally report usage on a meter that moves in fixed amounts. This could be a whole percentage point, a credit, a cent etc... A single request often does not move the meter at all, so the cost of one request cannot be measured directly.
+
+Instead, we measure in steps. As requests run, we keep a running total of the tokens used. Each time the meter rises, we store that total. The tokens used between two meter moves make up one step, which is the cost of moving the meter by one unit.
+
+We drop two partial steps. When a run starts, the meter is already part of the way to its next move, so the tokens before the first move are less than a full step and would make the rate look higher than it is. The tokens after the last move never finish a step, so we drop those as well.
+
+To get a rate, we add up how far the meter moved over the complete steps and divide by the tokens used in them. Providers charge differently for input, output, and cached tokens, so we calculate a separate rate for each.
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/07a6b9ad-a758-4e40-9894-595aaf3d0e08_2048x1143.png)
+*Source: SemiAnalysis Tokenomics Model*
+
+Caveats:
+
+- Because we see the meter only once per request, a single step can be off by up to one request. These errors don’t add up with more consecutive steps, so we track a range instead of a single number, and the range gets narrower the more steps we count. We keep adding steps until the range is within ±5%, then report the rate across all of them.
+- No request contains only one type of token. Some plans, for example, require a set of instructions on every request. We subtract that extra amount using the prices we measured for the other types.
+- Reading from the cache costs almost nothing on some plans and may not move the meter at all. If the meter does not move after 500M cache read tokens, we assume that cache reads are free.
+
+### 2. Convert rates into tokens per window and per month
+
+We read every meter a plan shows after every request. This could be a 5-hour limit, a weekly limit, and for models like Fable, its own weekly limit. So each token type gets a price on each meter. This is how much of that limit a million tokens uses. From each price we work out how many tokens fit e.g. if a million tokens use 5% of a limit, the whole limit holds 20 million.
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/51471699-71b4-4d96-96ef-5bcc29bed2b0_2048x901.png)
+*Source: SemiAnalysis Tokenomics Model*
+
+The 5-hour limit resets many times within a week, so a month is capped by the weekly limits.
+
+### 3. Pricing
+
+Lastly, we compute the API-equivalent value by converting the limit % consumed by a million tokens of each type into a dollar amount. For example, if you consume 1% of a $200 plan’s monthly limit, that’s $2.
+
+Then, we assume a workload shape, and compute how many total tokens you can get from each plan given this ratio. For the agentic workload, we use our own usage ratios in September as reported in our [Tokenomics Model](https://semianalysis.com/tokenomics-model/).
+
+Finally, we multiply by the blended price per MTok at API prices to get the API-equivalent value.
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/a979d2fd-77fa-456d-b1c8-efb9f82d174a_2048x1002.png)
+*Source: SemiAnalysis Tokenomics Model*
+
+## Catching a Provider A/B Test
+
+While refining our methodology, we ran into a very confusing situation where just 1 of 3 of the same subscription we tested for a particular provider had ~20% lower limits than the other 2. This unlucky account happened to be significantly older as well, and we were worried that the provider had some cursed setup where they changed subscription limits depending on the age of the account.
+
+Fortunately, after reaching out to the provider, we were able to confirm this was not the case and that our unlucky account was part of an “extremely tiny” A/B test they were running on limits. Additionally, they wanted to emphasize that they “didn’t just decrease limits wholesale” and were instead testing “how to better balance when people hit limits”.
+
+This conclusion is interesting for two reasons:
+
+1. It proves providers can silently change subscription limits at any time
+2. Our method is sensitive enough to detect these subtle changes!
+
+# OpenAI vs Anthropic
+
+The biggest question in AI subscription land is how Anthropic’s limits compare to OpenAI’s. Note that OpenAI just made some massive changes to their subscriptions last week, [halving](https://x.com/thsottiaux/status/2104823812042940713?s=20) the API-equivalent value for the $200 plan and introducing a new $500 tier. The following numbers describe the **current state** of OAI vs ANT. Afterwards, we will examine OpenAI’s recent changes in depth.
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/181ea48e-2e63-4f41-a742-c7af3d7eeb15_2048x1157.png)
+*Source: SemiAnalysis Tokenomics Model*
+
+Limits are quite similar across the board for GPT-6 Astra vs Fable 5.1, though remember that Fable can only be used for 50% of your limit. In other words, your $200 ANT plan would still have 50% left after consuming $2,485 worth of Fable 5.1, whereas the equivalent OAI plan would be fully exhausted after $2,897 of Astra.
+
+This extra 50% starts becoming very relevant when we compare Opus 5.5 vs GPT 6.1 Sol.
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/44bfcff4-5589-4822-a348-bc4e83cf478b_2048x1161.png)
+*Source: SemiAnalysis Tokenomics Model*
+
+At this mid-tier of models—which both companies market as the intended daily driver for most users—Anthropic is an overwhelmingly better deal, offering ~5x the API-equivalent value across the board. You could argue that this is unfair for OAI because 6.1 Sol is much cheaper per token than Opus 5.5, but the gap is still massive even if you switch to comparing the number of tokens.
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/e6b9e23d-8049-4235-8c21-9a5a2b0cd1f0_2048x1153.png)
+*Source: SemiAnalysis Tokenomics Model*
+
+Overall, we believe API-equivalent value is the single best number for capturing the “value” of a subscription plan, but there are times where raw token volumes can be more appropriate. For example, if a model is a particularly bad (or good) deal at API prices, then the API-equivalent value will of course be misleading.
+
+Token efficiency is also an extremely relevant factor, but the industry unfortunately lacks reliable data here. Many people like to cite this [chart](https://artificialanalysis.ai/#price-and-cost) from Artificial Analysis, but we do not believe the benchmark tasks in the AA Intelligence Index are at all representative of real work people do with LLMs.
+
+## OpenAI’s new $500 plan and massive limit reduction
+
+Our tracking confirmed the 50% value reduction for OpenAI’s $200 plan announced by [Tibo](https://x.com/thsottiaux/status/2104823812042940713?s=20). $200 plans purchased before the cut will keep the old higher limits until October 29th, but newly purchased plans immediately start with the lower limits.
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/2c53c9a0-1c69-4ee8-8e47-f86ae0655c0f_2048x1082.png)
+*Source: SemiAnalysis Tokenomics Model*
+
+As you can see, OpenAI specifically halved the number of tokens you get for each model tier. This caused the API-equivalent value for Sol class models to drop by over 50% because OAI also cut cached input token pricing for 6.1 Sol.
+
+The new $500 plan only offers 21% more Astra than the old $200 plan. Interestingly, the API-equivalent value for Sol class models actually decreased due to the aforementioned 6.1 Sol price cut.
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/97d35c43-9687-4fd9-b825-6c3987d0cd14_2048x1113.png)
+*Source: SemiAnalysis Tokenomics Model*
+
+Of course, 300 TPS Ultrafast was the real headline feature for the $500 plan and we are currently testing its limits. Results will be published to [Tokenomics Model](https://semianalysis.com/tokenomics-model/) subscribers as soon as they’re available. We are also actively testing the limits when using your ChatGPT subscription on third party apps like Devin.
+
+The $200/month plan also used to be significantly more subsidized than OpenAI’s other subscriptions. If we normalize each (plan, model) combo to the API-equivalent value and tokens per dollar, we can see that Pro 100 offered ~2x more per-dollar value than Plus on Astra and Pro 200 was another ~2x on top of Pro 100 across all models.
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/67342d61-8eb1-426b-8553-c8abf4ebaba7_2048x1143.png)
+*Source: SemiAnalysis Tokenomics Model*
+
+With last week’s cut, Pro 100, 200, and 500 all offer the same tokens per dollar for every model. Plus is also comparable for Sol but offers a relatively worse deal on Astra.
+
+Anthropic, on the other hand, already offered the same per-dollar value for all of their subscription tiers and currently crushes OpenAI.
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/45036f6e-d317-435c-9d28-286c80d944d4_2048x1176.png)
+*Source: SemiAnalysis Tokenomics Model*
+
+OpenAI used to be lauded by indie developers for their generous subscription limits compared to Anthropic, but this is simply no longer true today. Opus 5.5 on any Claude subscription offers far better value than anything from OpenAI.
+
+The only counter argument for OpenAI is that none of their Pro plans have a 5 hour limit, which makes it easier to consume a higher % of your total monthly limit. However, we don’t think this offsets the ~4x higher API-equivalent value offered by Opus 5.5 on Claude plans.
+
+## Do labs adjust subscription limits based on API pricing changes?
+
+We’ve seen a number of significant price cuts recently to Anthropic and OpenAI models.
+
+- [Fable 5.1](https://x.com/claudeai/status/2094848588190830982) cut cache reads by 75% vs Fable 5
+- [Opus 5.5](https://x.com/ClaudeDevs/status/2103548467729887677) cut input and output token pricing by 20% vs Opus 5 and cache reads by 60%.
+- [GPT 6.1](https://x.com/OpenAIDevs/status/2104993053002043870) Sol cut cache reads by 50% vs GPT 6 sol. This was after making [GPT 6 Sol](https://x.com/OpenAIDevs/status/2102461432684282061) 60-67% cheaper vs 5.6 Sol.
+
+One important question is whether the labs adjust token limits after these price cuts, such that the API-equivalent value of your subscription stays constant.
+
+We already showed earlier that OpenAI didn’t change Sol token limits on the $200/month plan when they released 6.1 Sol. This caused the API-equivalent value to drop ~30%.
+
+Anthropic also didn’t increase Fable token limits at all with the release of 5.1, but they did up Opus token limits with the 5.5 price cut.
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/60858e51-902d-421f-808d-34bc93b4b37a_2048x1113.png)
+*Source: SemiAnalysis Tokenomics Model*
+
+However, the ~20% token increase for Max plans and ~50% increase for the Pro plan weren’t enough to fully offset the API price cut.
+
+## Two different approaches to increasing subscription margins
+
+As we explained at the start of this article, subscription gross margins are way lower than API and meaningfully reduce revenue per MW for both OpenAI and Anthropic. Both companies are well aware of this fact but have chosen two different strategies for reducing subscriber subsidies.
+
+For a given plan, Anthropic decreases the API-equivalent value for more premium models. The drop off is small between Sonnet 5.5 and Opus 5.5, but becomes very meaningful with Fable 5.1.
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/8fc90004-5853-4cd5-87ff-465898c5ee6b_2048x1033.png)
+*Source: SemiAnalysis Tokenomics Model*
+
+Reducing the API-equivalent value as you release more powerful models at higher list prices is the more subtle way to stop subsidizing subscriptions. Assuming 100% utilization and 92% API gross margins, maxing out Opus 5.5 vs Fable 5.1 usage corresponds to -369% and 1% gross margins respectively. If we were to use a more realistic average utilization of 20%, then gross margins rise to 6% and 80% respectively.
+
+In other words, **Anthropic would likely already have software like margins on their subscription plans if everyone only used Fable**. Opus class models will continue to become cheaper to serve over time as Anthropic figures out how to make the model smaller, and new model tiers above Fable will have even lower subscription limits (assuming they’re included at all).
+
+OpenAI, on the other hand, picked the nuclear option of just immediately cutting to Fable-level limits across the board.
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/e674e5f4-cf61-425a-8db7-90395d9ade21_2048x1036.png)
+*Source: SemiAnalysis Tokenomics Model*
+
+The downside of this approach is supposed to be public backlash, but OpenAI has somehow managed to more or less avoid this entirely. It’s likely some combination of all the good DevDay PR drowning out the negative news from the day prior and grandfathering existing plans for an additional month.
+
+# Chinese subscription plans are still a good deal
+
+Despite being compute poor, the Chinese labs still offer subsidized subscription plans, but the level of subsidization varies dramatically between models.
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/c5c0445c-0292-4c32-9980-17c4d4fa175b_2048x1116.png)
+*Source: SemiAnalysis Tokenomics Model*
+
+Here’s how they compare to OpenAI and Anthropic after normalizing per dollar.
+
+![](https://substack-post-media.s3.amazonaws.com/public/images/dffbac4f-e3c2-4ffb-909d-5662634c3d19_4332x2502.png)
+*Source: SemiAnalysis Tokenomics Model*
+
+Value per dollar increases as you buy higher tier subscriptions from the Chinese labs. On average, the API-equivalent value per dollar is a little less than the ~12x you get from OpenAI.
+
+# Third party plans are worse than first party
+
+The final comparison we’ll consider is OpenAI and Anthropic models on their own first party plans vs third party wrappers like Cursor and Cognition (Devin).

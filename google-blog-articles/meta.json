@@ -3154,5 +3154,47 @@
   ],
   "description": "See the full list of September AI updates.",
   "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/"
+ },
+ {
+  "slug": "embeddinggemma-2",
+  "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+  "date": "2026-10-06",
+  "authors": [
+   "Sahil Dua"
+  ],
+  "tags": [
+   "Google DeepMind",
+   "Developer tools"
+  ],
+  "description": "Introducing EmbeddingGemma 2, an open multimodal embedding model optimized for privacy-first use cases",
+  "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/"
+ },
+ {
+  "slug": "google-earth-ai",
+  "title": "Google Earth AI: Our state-of-the-art geospatial AI models",
+  "date": "2025-07-30",
+  "authors": [
+   "Chris Phillips"
+  ],
+  "tags": [
+   "AI Products",
+   "Google Earth",
+   "Google Research"
+  ],
+  "description": "Google Earth AI is our collection of geospatial models and datasets to help tackle the planet's most critical needs.",
+  "url": "https://blog.google/innovation-and-ai/products/google-earth-ai/"
+ },
+ {
+  "slug": "blind-sweep-ultrasounds-ai",
+  "title": "Ask a Scientist: How are researchers using AI to help pregnant women access ultrasounds?",
+  "date": "2026-10-06",
+  "authors": [
+   "Lindsey Lanquist"
+  ],
+  "tags": [
+   "Google Research"
+  ],
+  "description": "Google researchers used AI and blind sweep ultrasounds to accurately detect fetal age. See how this technology expands prenatal care access.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/blind-sweep-ultrasounds-ai/"
  }
 ]

@@ -6,10 +6,12 @@
 - 译文目录：本目录 `posts/`，文件名与原文 slug 一一对应
 - 三源合并总索引：[`../google-articles-zh-README.md`](../google-articles-zh-README.md)
 
-## 进度：238 / 238
+## 进度：241 / 241
 
 ## 2026 年
 
+- [x] [EmbeddingGemma 2: an open, lightweight multimodal embedding model](posts/embeddinggemma-2.md) · [EN](https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/)
+- [x] [Ask a Scientist: How are researchers using AI to help pregnant women access ultrasounds?](posts/blind-sweep-ultrasounds-ai.md) · [EN](https://blog.google/innovation-and-ai/models-and-research/google-research/blind-sweep-ultrasounds-ai/)
 - [x] [The latest AI news we announced in September 2026](posts/google-ai-updates-september-2026.md) · [EN](https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/)
 - [x] [Our Project Suncatcher prototype satellite is in orbit.](posts/project-suncatcher-prototype.md) · [EN](https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/)
 - [x] [Google's AI ranks #1 for predicting flu hospitalizations.](posts/google-science-ai-flu-forecasts.md) · [EN](https://blog.google/innovation-and-ai/models-and-research/google-research/google-science-ai-flu-forecasts/)
@@ -146,6 +148,7 @@
 - [x] [The AI model Perch, updated today, uses audio to help protect endangered species.](posts/perch-ai-model.md) · [EN](https://blog.google/innovation-and-ai/models-and-research/google-deepmind/perch-ai-model/)
 - [x] [Jules, our asynchronous coding agent, is now available for everyone.](posts/jules-now-available.md) · [EN](https://blog.google/innovation-and-ai/models-and-research/google-labs/jules-now-available/)
 - [x] [How we’re using AI to help track and predict cyclones](posts/weather-lab-ai-cyclone-prediction-tracking.md) · [EN](https://blog.google/innovation-and-ai/models-and-research/google-deepmind/weather-lab-ai-cyclone-prediction-tracking/)
+- [x] [Google Earth AI: Our state-of-the-art geospatial AI models](posts/google-earth-ai.md) · [EN](https://blog.google/innovation-and-ai/products/google-earth-ai/)
 - [x] [What’s new in NotebookLM: Video Overviews and an upgraded Studio](posts/notebooklm-video-overviews-studio-upgrades.md) · [EN](https://blog.google/innovation-and-ai/models-and-research/google-labs/notebooklm-video-overviews-studio-upgrades/)
 - [x] [Check out the first images of wildfires detected by FireSat](posts/first-firesat-images.md) · [EN](https://blog.google/innovation-and-ai/technology/research/first-firesat-images/)
 - [x] [Google DeepMind’s new AI model helps historians interpret ancient texts.](posts/aeneas.md) · [EN](https://blog.google/innovation-and-ai/models-and-research/google-deepmind/aeneas/)

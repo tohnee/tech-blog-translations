@@ -368,5 +368,25 @@
   "slug": "endava",
   "url": "https://openai.com/index/endava/",
   "category": "research"
+ },
+ {
+  "slug": "albertsons-reimagining-retail",
+  "url": "https://openai.com/index/albertsons-reimagining-retail/",
+  "category": "research"
+ },
+ {
+  "slug": "chatham-financial",
+  "url": "https://openai.com/index/chatham-financial/",
+  "category": "research"
+ },
+ {
+  "slug": "eu-text-provenance",
+  "url": "https://openai.com/index/eu-text-provenance/",
+  "category": "research"
+ },
+ {
+  "slug": "gpt-6-for-everyone",
+  "url": "https://openai.com/index/gpt-6-for-everyone/",
+  "category": "research"
  }
 ]
