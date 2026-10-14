@@ -6,10 +6,11 @@
 - 译文目录：本目录 `posts/`，文件名与原文 slug 一一对应
 - 三源合并总索引：[`../google-articles-zh-README.md`](../google-articles-zh-README.md)
 
-## 进度：129 / 129
+## 进度：130 / 130
 
 ## 2026 年
 
+- [x] [Gemini 4 Argon: Built to solve your hardest problems](posts/introducing-gemini-4-argon.md) · [EN](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/)
 - [x] [Gemini 4 Argon: our next era of frontier intelligence](posts/gemini-4-argon.md) · [EN](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/)
 - [x] [Let skills in Gemini tackle your most repetitive tasks](posts/automate-tasks-with-skills.md) · [EN](https://blog.google/products-and-platforms/products/gemini/automate-tasks-with-skills/)
 - [x] [See what 4 builders are making with Gemini 3.8 Flash](posts/gemini-3-8-flash-developers.md) · [EN](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-flash-developers/)

@@ -1063,6 +1063,22 @@
   "chars": 16569
  },
  {
+  "slug": "beijing-will-not-pace-the-frontier",
+  "title": "Beijing Will Not Pace the Frontier: China’s Speed-First AI Safety Regime",
+  "subtitle": "",
+  "date": "2026-10-08",
+  "url": "https://newsletter.semianalysis.com/p/beijing-will-not-pace-the-frontier",
+  "authors": [
+   "Mark Chen",
+   "Doug",
+   "Dylan Patel"
+  ],
+  "tags": [],
+  "audience": "only_paid",
+  "paywalled": true,
+  "chars": 30622
+ },
+ {
   "slug": "beyond-advanced-packaging-lightmatter",
   "title": "Beyond Advanced Packaging: Lightmatter Passage Chiplets Co-Packaged On Optical Interposer",
   "subtitle": "But will products utilize this in volume?",
@@ -2624,7 +2640,8 @@
    "Afzal Ahmad",
    "Andrew Wagner",
    "STEEL Team",
-   "Dylan Patel"
+   "Dylan Patel",
+   "Hemanth Ajithkumar"
   ],
   "tags": [
    "Hardware Architecture",
@@ -4446,7 +4463,8 @@
    "Jordan Nanos",
    "Max Kan",
    "Dylan Patel",
-   "Muhammad Zuhair"
+   "Muhammad Zuhair",
+   "Hemanth Ajithkumar"
   ],
   "tags": [],
   "audience": "only_paid",

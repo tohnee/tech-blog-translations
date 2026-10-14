@@ -388,5 +388,25 @@
   "slug": "gpt-6-for-everyone",
   "url": "https://openai.com/index/gpt-6-for-everyone/",
   "category": "research"
+ },
+ {
+  "slug": "asana-browser-agent",
+  "url": "https://openai.com/index/asana-browser-agent/",
+  "category": "research"
+ },
+ {
+  "slug": "disrupting-ai-enabled-false-front-operations",
+  "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations/",
+  "category": "research"
+ },
+ {
+  "slug": "disrupting-malicious-uses-of-ai-stop-news-2024",
+  "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-stop-news-2024/",
+  "category": "research"
+ },
+ {
+  "slug": "disrupting-malicious-uses-of-ai-tech-and-tariffs",
+  "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-tech-and-tariffs/",
+  "category": "research"
  }
 ]

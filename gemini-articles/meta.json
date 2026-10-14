@@ -1673,5 +1673,19 @@
   ],
   "description": "Automate repetitive tasks with new reusable skills in Google Gemini. Get the transition details.",
   "url": "https://blog.google/products-and-platforms/products/gemini/automate-tasks-with-skills/"
+ },
+ {
+  "slug": "introducing-gemini-4-argon",
+  "title": "Gemini 4 Argon: Built to solve your hardest problems",
+  "date": "2026-10-13",
+  "authors": [
+   "Koray Kavukcuoglu"
+  ],
+  "tags": [
+   "Gemini models",
+   "AI"
+  ],
+  "description": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/"
  }
 ]

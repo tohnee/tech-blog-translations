@@ -6,10 +6,16 @@
 - 译文目录：本目录 `posts/`，文件名与原文 slug 一一对应
 - 三源合并总索引：[`../google-articles-zh-README.md`](../google-articles-zh-README.md)
 
-## 进度：241 / 241
+## 进度：246 / 247
 
 ## 2026 年
 
+- [x] [We’re powering European scientific discovery with advanced AI compute and frontier models.](posts/were-powering-european-scientific-discovery-with-advanced-ai-compute-and-frontier-models.md) · [EN](https://blog.google/innovation-and-ai/models-and-research/google-deepmind/were-powering-european-scientific-discovery-with-advanced-ai-compute-and-frontier-models/)
+- [x] [Gemini 4 Argon comes to the Gemini app.](posts/gemini-4-argon-availability.md) · [EN](https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/)
+- [x] [Developing Gemini 4 Argon responsibly and safely](posts/gemini-4-model-safety-security.md) · [EN](https://blog.google/innovation-and-ai/technology/safety-security/gemini-4-model-safety-security/)
+- [ ] [Gemini 4 Argon is now available for developers.](posts/build-with-gemini-4-argon.md) · [EN](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/)
+- [x] [Applying technology to understand and treat disease](posts/ai-health-research.md) · [EN](https://blog.google/innovation-and-ai/technology/health/ai-health-research/)
+- [x] [Study in The Lancet suggests AI could improve patient-physician relationships.](posts/amie-clinical-study-lancet.md) · [EN](https://blog.google/innovation-and-ai/technology/health/amie-clinical-study-lancet/)
 - [x] [EmbeddingGemma 2: an open, lightweight multimodal embedding model](posts/embeddinggemma-2.md) · [EN](https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/)
 - [x] [Ask a Scientist: How are researchers using AI to help pregnant women access ultrasounds?](posts/blind-sweep-ultrasounds-ai.md) · [EN](https://blog.google/innovation-and-ai/models-and-research/google-research/blind-sweep-ultrasounds-ai/)
 - [x] [The latest AI news we announced in September 2026](posts/google-ai-updates-september-2026.md) · [EN](https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/)
@@ -273,3 +279,5 @@
 - [x] [Our unique approach to research](posts/our-unique-approach-to-research.md) · [EN](https://blog.google/innovation-and-ai/technology/research/our-unique-approach-to-research/)
 - [x] [New research shows smartphone growth is global](posts/new-research-shows-smartphone-growth-is.md) · [EN](https://blog.google/innovation-and-ai/technology/research/new-research-shows-smartphone-growth-is/)
 - [x] [Think Insights now includes research from 21 countries](posts/think-insights-now-includes-research.md) · [EN](https://blog.google/innovation-and-ai/technology/research/think-insights-now-includes-research/)
+
+> 未翻译：1 篇

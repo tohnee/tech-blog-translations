@@ -3196,5 +3196,75 @@
   ],
   "description": "Google researchers used AI and blind sweep ultrasounds to accurately detect fetal age. See how this technology expands prenatal care access.",
   "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/blind-sweep-ultrasounds-ai/"
+ },
+ {
+  "slug": "amie-clinical-study-lancet",
+  "title": "Study in The Lancet suggests AI could improve patient-physician relationships.",
+  "date": "2026-10-08",
+  "authors": [
+   "Mike Schaekermann"
+  ],
+  "tags": [],
+  "description": "A peer-reviewed study in The Lancet evaluates Google's AMIE medical AI in a real-world primary care clinic.",
+  "url": "https://blog.google/innovation-and-ai/technology/health/amie-clinical-study-lancet/"
+ },
+ {
+  "slug": "ai-health-research",
+  "title": "Applying technology to understand and treat disease",
+  "date": "2026-10-12",
+  "authors": [
+   "Yossi Matias"
+  ],
+  "tags": [
+   "Health",
+   "Google DeepMind",
+   "Google.org",
+   "Google Research"
+  ],
+  "description": "Google uses AI like AlphaFold and DeepVariant to accelerate medical breakthroughs. See how these tools improve disease detection and patient care.",
+  "url": "https://blog.google/innovation-and-ai/technology/health/ai-health-research/"
+ },
+ {
+  "slug": "gemini-4-argon-availability",
+  "title": "Gemini 4 Argon comes to the Gemini app.",
+  "date": "2026-10-13",
+  "authors": [],
+  "tags": [],
+  "description": "Gemini 4 Argon brings frontier reasoning and agentic coding to the Google Gemini app. Google AI Pro and Ultra subscribers can now access Gemini 4 Argon.",
+  "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/"
+ },
+ {
+  "slug": "gemini-4-model-safety-security",
+  "title": "Developing Gemini 4 Argon responsibly and safely",
+  "date": "2026-10-13",
+  "authors": [
+   "Anca Dragan"
+  ],
+  "tags": [
+   "Safety & Security",
+   "Gemini models"
+  ],
+  "description": "Learn more about our approach to safety and security for Gemini 4 Argon.",
+  "url": "https://blog.google/innovation-and-ai/technology/safety-security/gemini-4-model-safety-security/"
+ },
+ {
+  "slug": "were-powering-european-scientific-discovery-with-advanced-ai-compute-and-frontier-models",
+  "title": "We’re powering European scientific discovery with advanced AI compute and frontier models.",
+  "date": "2026-10-14",
+  "authors": [
+   "Maureen Costello"
+  ],
+  "tags": [],
+  "description": "",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/were-powering-european-scientific-discovery-with-advanced-ai-compute-and-frontier-models/"
+ },
+ {
+  "slug": "build-with-gemini-4-argon",
+  "title": "Gemini 4 Argon is now available for developers.",
+  "date": "2026-10-13",
+  "authors": [],
+  "tags": [],
+  "description": "Build complex software and cybersecurity workflows with Google Gemini 4 Argon. Check out the Gemini API Developer Guide and read the Google Antigravity and Android Studio blogs to start building today.",
+  "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/"
  }
 ]

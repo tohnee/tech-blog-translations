@@ -4,7 +4,7 @@ subtitle: "Taking a look inside Intel’s latest consumer chip and 18A process n
 date: 2026-09-26
 source: https://newsletter.semianalysis.com/p/intel-panther-lake-teardown
 crawled: 2026-09-15
-authors: ["Adith Shankar", "Daniel Sanchez", "Allison Elliott", "Sarah Lawrence", "Afzal Ahmad", "Andrew Wagner", "STEEL Team", "Dylan Patel"]
+authors: ["Adith Shankar", "Daniel Sanchez", "Allison Elliott", "Sarah Lawrence", "Afzal Ahmad", "Andrew Wagner", "STEEL Team", "Dylan Patel", "Hemanth Ajithkumar"]
 tags: ["Hardware Architecture", "Chip Design", "Foundries"]
 audience: only_paid
 paywalled: true

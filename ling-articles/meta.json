@@ -28,5 +28,15 @@
   "slug": "Ming-Image",
   "lang": "en",
   "chars": 15079
+ },
+ {
+  "slug": "PolyOCR-Venus",
+  "lang": "en",
+  "chars": 9416
+ },
+ {
+  "slug": "BiDex-100",
+  "lang": "en",
+  "chars": 14678
  }
 ]

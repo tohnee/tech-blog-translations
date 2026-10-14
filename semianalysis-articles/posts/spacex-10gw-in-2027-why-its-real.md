@@ -4,7 +4,7 @@ subtitle: "Inference at 100B/GW/year, SpaceX's stellar pace, Microsoft's 10GW 20
 date: 2026-08-07
 source: https://newsletter.semianalysis.com/p/spacex-10gw-in-2027-why-its-real
 crawled: 2026-09-15
-authors: ["Jeremie Eliahou Ontiveros", "Reyk Knuhtsen", "Jordan Nanos", "Max Kan", "Dylan Patel", "Muhammad Zuhair"]
+authors: ["Jeremie Eliahou Ontiveros", "Reyk Knuhtsen", "Jordan Nanos", "Max Kan", "Dylan Patel", "Muhammad Zuhair", "Hemanth Ajithkumar"]
 tags: []
 audience: only_paid
 paywalled: true
