@@ -3,7 +3,7 @@
 收录 24 个高质量技术博客来源的全量文章归档与完整中文翻译
 （英文存档 `23` 源 + 中文原文 `1` 源；苏剑林博客为中文站点，仅归档）。
 
-> 累计：英文/原文归档 **4033** 篇，中文译文 **2696** 篇。
+> 累计：英文/原文归档 **4034** 篇，中文译文 **2697** 篇。
 > 每日自动同步：定时任务按 [DAILY_SYNC_SOP.md](DAILY_SYNC_SOP.md) 拉取各源新文章、归档并翻译，随后更新本索引并推送 GitHub。
 
 ## 项目总览
@@ -28,7 +28,7 @@
 | MiniMax 稀宇科技 | minimax.io/blog | [minimax-articles/](minimax-articles/)（13） | [minimax-articles-zh/](minimax-articles-zh/)（13） | 13 / 13 | [规范](TRANSLATION_GUIDE_AI_VENDORS.md) · [目录](minimax-articles-zh/README.md) |
 | 智谱 Z.ai / THUDM | z.ai（HF/GitHub） | [zhipu-articles/](zhipu-articles/)（24） | [zhipu-articles-zh/](zhipu-articles-zh/)（24） | 24 / 24 | [规范](TRANSLATION_GUIDE_AI_VENDORS.md) · [目录](zhipu-articles-zh/README.md) |
 | 小米 MiMo | github.com/XiaomiMiMo | [xiaomi-articles/](xiaomi-articles/)（11） | [xiaomi-articles-zh/](xiaomi-articles-zh/)（11） | 11 / 11 | [规范](TRANSLATION_GUIDE_AI_VENDORS.md) · [目录](xiaomi-articles-zh/README.md) |
-| 阶跃星辰 StepFun | github.com/stepfun-ai | [stepfun-articles/](stepfun-articles/)（10） | [stepfun-articles-zh/](stepfun-articles-zh/)（10） | 10 / 10 | [规范](TRANSLATION_GUIDE_AI_VENDORS.md) · [目录](stepfun-articles-zh/README.md) |
+| 阶跃星辰 StepFun | github.com/stepfun-ai | [stepfun-articles/](stepfun-articles/)（11） | [stepfun-articles-zh/](stepfun-articles-zh/)（11） | 11 / 11 | [规范](TRANSLATION_GUIDE_AI_VENDORS.md) · [目录](stepfun-articles-zh/README.md) |
 | 蚂蚁 InclusionAI（Ling） | github.com/inclusionAI | [ling-articles/](ling-articles/)（10） | [ling-articles-zh/](ling-articles-zh/)（10） | 10 / 10 | [规范](TRANSLATION_GUIDE_AI_VENDORS.md) · [目录](ling-articles-zh/README.md) |
 | xAI | x.ai/news（Wayback） | [xai-articles/](xai-articles/)（90） | [xai-articles-zh/](xai-articles-zh/)（90） | 90 / 90 | [规范](TRANSLATION_GUIDE_AI_VENDORS.md) · [目录](xai-articles-zh/README.md) |
 | Meta AI（FAIR） | ai.meta.com/blog（Wayback） | [meta-ai-articles/](meta-ai-articles/)（538） | [meta-ai-articles-zh/](meta-ai-articles-zh/)（538） | 538 / 538 | [规范](TRANSLATION_GUIDE_AI_VENDORS.md) · [目录](meta-ai-articles-zh/README.md) |
