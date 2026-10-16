@@ -969,6 +969,23 @@
   "chars": 16436
  },
  {
+  "slug": "asml-is-building-a-hybrid-bonding",
+  "title": "ASML Is Building a Hybrid Bonding Tool!",
+  "subtitle": "",
+  "date": "2026-10-15",
+  "url": "https://newsletter.semianalysis.com/p/asml-is-building-a-hybrid-bonding",
+  "authors": [
+   "Sherry Zhang",
+   "Gerald Wong",
+   "Steven Lee",
+   "Dylan Patel"
+  ],
+  "tags": [],
+  "audience": "only_paid",
+  "paywalled": true,
+  "chars": 16827
+ },
+ {
   "slug": "asmls-euv-tools-have-a-throughput",
   "title": "ASML’s EUV Tools Have A Throughput Problem, But Lyncean Has The Answer By Scaling EUV Light Source Power An Order Of Magnitude",
   "subtitle": "",

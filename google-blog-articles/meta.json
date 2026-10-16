@@ -3266,5 +3266,45 @@
   "tags": [],
   "description": "Build complex software and cybersecurity workflows with Google Gemini 4 Argon. Check out the Gemini API Developer Guide and read the Google Antigravity and Android Studio blogs to start building today.",
   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/"
+ },
+ {
+  "slug": "crisis-resilience-white-paper",
+  "title": "How we're helping the world prepare for natural disasters",
+  "date": "2026-10-15",
+  "authors": [
+   "Yossi Matias"
+  ],
+  "tags": [
+   "Google Research"
+  ],
+  "description": "Today is International ShakeOut Day, when millions practice earthquake drills. Our Android Earthquake Alerts System turns smartphones into a global network that can warn people before shaking arrives, and it's expanding to more countries and regions.When a natural disaster strikes, early warnings an",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/crisis-resilience-white-paper/"
+ },
+ {
+  "slug": "magic-state-cultivation-quantum-computing",
+  "title": "Bringing the magic: Google breaks open a bottleneck in quantum computing",
+  "date": "2026-10-15",
+  "authors": [
+   "Emma Rosenfeld"
+  ],
+  "tags": [
+   "Quantum computing",
+   "Google Research"
+  ],
+  "description": "In a paper published in Science, Google has shown that Magic State Cultivation works on Google Quantum AI hardware.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/quantum-computing/magic-state-cultivation-quantum-computing/"
+ },
+ {
+  "slug": "research-capabilities-intelligence-2026",
+  "title": "Research@ 2026: Novel capabilities and intelligence",
+  "date": "2026-10-14",
+  "authors": [
+   "Google Research"
+  ],
+  "tags": [
+   "Google Research"
+  ],
+  "description": "We’re sharing our latest milestones and some of the advanced AI capabilities and intelligence that we’re putting in the hands of experts.",
+  "url": "https://blog.google/innovation-and-ai/technology/research/research-capabilities-intelligence-2026/"
  }
 ]

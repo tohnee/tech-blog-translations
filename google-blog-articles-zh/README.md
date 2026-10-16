@@ -6,11 +6,14 @@
 - 译文目录：本目录 `posts/`，文件名与原文 slug 一一对应
 - 三源合并总索引：[`../google-articles-zh-README.md`](../google-articles-zh-README.md)
 
-## 进度：246 / 247
+## 进度：249 / 250
 
 ## 2026 年
 
+- [x] [How we're helping the world prepare for natural disasters](posts/crisis-resilience-white-paper.md) · [EN](https://blog.google/innovation-and-ai/models-and-research/google-research/crisis-resilience-white-paper/)
+- [x] [Bringing the magic: Google breaks open a bottleneck in quantum computing](posts/magic-state-cultivation-quantum-computing.md) · [EN](https://blog.google/innovation-and-ai/models-and-research/quantum-computing/magic-state-cultivation-quantum-computing/)
 - [x] [We’re powering European scientific discovery with advanced AI compute and frontier models.](posts/were-powering-european-scientific-discovery-with-advanced-ai-compute-and-frontier-models.md) · [EN](https://blog.google/innovation-and-ai/models-and-research/google-deepmind/were-powering-european-scientific-discovery-with-advanced-ai-compute-and-frontier-models/)
+- [x] [Research@ 2026: Novel capabilities and intelligence](posts/research-capabilities-intelligence-2026.md) · [EN](https://blog.google/innovation-and-ai/technology/research/research-capabilities-intelligence-2026/)
 - [x] [Gemini 4 Argon comes to the Gemini app.](posts/gemini-4-argon-availability.md) · [EN](https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/)
 - [x] [Developing Gemini 4 Argon responsibly and safely](posts/gemini-4-model-safety-security.md) · [EN](https://blog.google/innovation-and-ai/technology/safety-security/gemini-4-model-safety-security/)
 - [ ] [Gemini 4 Argon is now available for developers.](posts/build-with-gemini-4-argon.md) · [EN](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/)
