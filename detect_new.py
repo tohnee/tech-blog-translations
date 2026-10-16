@@ -189,6 +189,14 @@ def detect_vendors():
     except Exception as e:  # noqa: BLE001
         result["meta-ai"] = f"ERROR: {e}"
 
+    # Microsoft AI：microsoft.ai/news 列表页（SSR 直连可抓）
+    try:
+        html = fetch("https://microsoft.ai/news/")
+        slugs = {m.group(1) for m in re.finditer(r'href="(?:https://microsoft\.ai)?/news/([a-z0-9\-]+)/?"', html)}
+        result["microsoft"] = sorted(slugs - _have("microsoft-articles"))
+    except Exception as e:  # noqa: BLE001
+        result["microsoft"] = f"ERROR: {e}"
+
     # SemiAnalysis：Substack archive API（最近 24 篇足够日常增量）
     try:
         items = json.loads(fetch("https://newsletter.semianalysis.com/api/v1/archive?sort=new&offset=0&limit=24", retries=2))

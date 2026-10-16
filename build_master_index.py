@@ -210,6 +210,12 @@ def main() -> None:
             "note": "自我改进 AI 智能体：课程页面+24 讲日程+34 篇指定阅读全译（含 DGM 428K 分片）",
         },
         {
+            "name": "Microsoft AI", "site": "microsoft.ai/news",
+            "en": "microsoft-articles", "zh": "microsoft-articles-zh",
+            "guide": None, "readme": "microsoft-articles-zh/README.md",
+            "note": "2026-10-16 建库，microsoft.ai 直连可抓",
+        },
+        {
             "name": "苏剑林《科学空间》", "site": "kexue.fm",
             "en": "sujianlin-articles", "zh": None,
             "guide": None, "readme": "sujianlin-articles/README.md",
