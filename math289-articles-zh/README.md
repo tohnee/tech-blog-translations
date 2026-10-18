@@ -13,10 +13,17 @@ Stanford MATH 289（2026 秋）课程材料的完整中文翻译——一门面�
 课程 Week 2 指定阅读 [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)（MIT 工具课）。
 该项目有**官方中文翻译**：[missing-semester-cn.github.io](https://missing-semester-cn.github.io/)——因此不另行归档翻译，直接参考官方中文版。
 
-## 进度：3 / 3
+## 进度：5 / 5
 
 | 材料 | 译文 | 说明 |
 |---|---|---|
 | 课程主页 | [index.md](index.md) | 课程简介与组织方式 |
 | 课程大纲 | [schedule.md](schedule.md) | 10 周课程表 + 暂定大纲（Reading 列含 Thurston/Etingof 论文链接） |
 | Week 2 编程基础讲义 | [agenda2-coding-basics.md](agenda2-coding-basics.md) | PDF 文本化：终端/Python/Git/编码智能体/安全等两次 session 议程 |
+
+| WSL 指南（Windows 用户） | [wsl-guide.md](wsl-guide.md) | PDF 文本化：12 页安装配置全流程（Travor Liu） |
+| 终端基础与智能体工作流指南 | [terminal-guide.md](terminal-guide.md) | 助教 Shurui 博客：终端基础 + Overleaf/Git/Codex CLI 工作流 |
+
+## 延伸材料待补（Google Colab notebooks，4 篇）
+
+课程表还引用 4 篇 Colab notebook（ML 基础、DL 基础、LLM 架构 I/II）。10/19 抓取时 Google Drive 双通道均被阻断，待网络恢复后补归档翻译（已列入每日同步待办）。

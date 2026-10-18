@@ -3,7 +3,7 @@
 收录 26 个高质量技术博客来源的全量文章归档与完整中文翻译
 （英文存档 `25` 源 + 中文原文 `1` 源；苏剑林博客为中文站点，仅归档）。
 
-> 累计：英文/原文归档 **4044** 篇，中文译文 **2707** 篇。
+> 累计：英文/原文归档 **4046** 篇，中文译文 **2709** 篇。
 > 每日自动同步：定时任务按 [DAILY_SYNC_SOP.md](DAILY_SYNC_SOP.md) 拉取各源新文章、归档并翻译，随后更新本索引并推送 GitHub。
 
 ## 项目总览
@@ -33,7 +33,7 @@
 | xAI | x.ai/news（Wayback） | [xai-articles/](xai-articles/)（90） | [xai-articles-zh/](xai-articles-zh/)（90） | 90 / 90 | [规范](TRANSLATION_GUIDE_AI_VENDORS.md) · [目录](xai-articles-zh/README.md) |
 | Meta AI（FAIR） | ai.meta.com/blog（Wayback） | [meta-ai-articles/](meta-ai-articles/)（538） | [meta-ai-articles-zh/](meta-ai-articles-zh/)（538） | 538 / 538 | [规范](TRANSLATION_GUIDE_AI_VENDORS.md) · [目录](meta-ai-articles-zh/README.md) |
 | Stanford CS329A 课程 | cs329a.stanford.edu | [cs329a-articles/](cs329a-articles/)（36） | [cs329a-articles-zh/](cs329a-articles-zh/)（36） | 36 / 36 | [规范](TRANSLATION_GUIDE_CS329A.md) · [目录](cs329a-articles-zh/README.md) |
-| Stanford MATH 289 课程 | web.stanford.edu/class/math289 | [math289-articles/](math289-articles/)（3） | [math289-articles-zh/](math289-articles-zh/)（3） | 3 / 3 | — · [目录](math289-articles-zh/README.md) |
+| Stanford MATH 289 课程 | web.stanford.edu/class/math289 | [math289-articles/](math289-articles/)（5） | [math289-articles-zh/](math289-articles-zh/)（5） | 5 / 5 | — · [目录](math289-articles-zh/README.md) |
 | Microsoft AI | microsoft.ai/news | [microsoft-articles/](microsoft-articles/)（1） | [microsoft-articles-zh/](microsoft-articles-zh/)（1） | 1 / 1 | — · [目录](microsoft-articles-zh/README.md) |
 | 苏剑林《科学空间》 | kexue.fm | [sujianlin-articles/](sujianlin-articles/)（1336） | —（原文为中文） | 1336 | — · [目录](sujianlin-articles/README.md) |
 

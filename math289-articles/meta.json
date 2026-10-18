@@ -13,5 +13,15 @@
   "slug": "agenda2-coding-basics",
   "title": "Week 2: Coding Basics Agenda (PDF)",
   "url": "https://web.stanford.edu/class/math289/agenda2.pdf"
+ },
+ {
+  "slug": "wsl-guide",
+  "title": "WSL Guide for Windows Users",
+  "url": "https://web.stanford.edu/class/math289/wsl_guide.pdf"
+ },
+ {
+  "slug": "terminal-guide",
+  "title": "A Guide to Basic Terminal Use and Agentic Workflows for Mathematicians",
+  "url": "https://srliu.com/blog/terminal-guide/"
  }
 ]
