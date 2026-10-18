@@ -210,6 +210,12 @@ def main() -> None:
             "note": "自我改进 AI 智能体：课程页面+24 讲日程+34 篇指定阅读全译（含 DGM 428K 分片）",
         },
         {
+            "name": "Stanford MATH 289 课程", "site": "web.stanford.edu/class/math289",
+            "en": "math289-articles", "zh": "math289-articles-zh",
+            "guide": None, "readme": "math289-articles-zh/README.md",
+            "note": "变化世界中的数学实践：主页+大纲+编程基础讲义全译；Missing Semester 有官方中文版直接参考",
+        },
+        {
             "name": "Microsoft AI", "site": "microsoft.ai/news",
             "en": "microsoft-articles", "zh": "microsoft-articles-zh",
             "guide": None, "readme": "microsoft-articles-zh/README.md",
