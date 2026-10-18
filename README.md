@@ -3,7 +3,7 @@
 收录 25 个高质量技术博客来源的全量文章归档与完整中文翻译
 （英文存档 `24` 源 + 中文原文 `1` 源；苏剑林博客为中文站点，仅归档）。
 
-> 累计：英文/原文归档 **4040** 篇，中文译文 **2703** 篇。
+> 累计：英文/原文归档 **4041** 篇，中文译文 **2704** 篇。
 > 每日自动同步：定时任务按 [DAILY_SYNC_SOP.md](DAILY_SYNC_SOP.md) 拉取各源新文章、归档并翻译，随后更新本索引并推送 GitHub。
 
 ## 项目总览
@@ -23,7 +23,7 @@
 | Sebastian Raschka | sebastianraschka.com | [sebastianraschka-articles/](sebastianraschka-articles/)（323） | [sebastianraschka-articles-zh/](sebastianraschka-articles-zh/)（323） | 323 / 323 | — · [目录](sebastianraschka-articles-zh/README.md) |
 | SemiAnalysis | semianalysis.com | [semianalysis-articles/](semianalysis-articles/)（340） | [semianalysis-articles-zh/](semianalysis-articles-zh/)（340） | 340 / 340 | [规范](TRANSLATION_GUIDE_SEMIANALYSIS.md) · [目录](semianalysis-articles-zh/README.md) |
 | Qwen 通义千问 | qwenlm.github.io | [qwen-articles/](qwen-articles/)（48） | [qwen-articles-zh/](qwen-articles-zh/)（48） | 48 / 48 | [规范](TRANSLATION_GUIDE_AI_VENDORS.md) · [目录](qwen-articles-zh/README.md) |
-| DeepSeek 深度求索 | api-docs.deepseek.com/news | [deepseek-articles/](deepseek-articles/)（21） | [deepseek-articles-zh/](deepseek-articles-zh/)（21） | 21 / 21 | [规范](TRANSLATION_GUIDE_AI_VENDORS.md) · [目录](deepseek-articles-zh/README.md) |
+| DeepSeek 深度求索 | api-docs.deepseek.com/news | [deepseek-articles/](deepseek-articles/)（22） | [deepseek-articles-zh/](deepseek-articles-zh/)（22） | 22 / 22 | [规范](TRANSLATION_GUIDE_AI_VENDORS.md) · [目录](deepseek-articles-zh/README.md) |
 | Thinking Machines Lab | thinkingmachines.ai/blog | [thinkingmachines-articles/](thinkingmachines-articles/)（7） | [thinkingmachines-articles-zh/](thinkingmachines-articles-zh/)（7） | 7 / 7 | [规范](TRANSLATION_GUIDE_AI_VENDORS.md) · [目录](thinkingmachines-articles-zh/README.md) |
 | MiniMax 稀宇科技 | minimax.io/blog | [minimax-articles/](minimax-articles/)（13） | [minimax-articles-zh/](minimax-articles-zh/)（13） | 13 / 13 | [规范](TRANSLATION_GUIDE_AI_VENDORS.md) · [目录](minimax-articles-zh/README.md) |
 | 智谱 Z.ai / THUDM | z.ai（HF/GitHub） | [zhipu-articles/](zhipu-articles/)（24） | [zhipu-articles-zh/](zhipu-articles-zh/)（24） | 24 / 24 | [规范](TRANSLATION_GUIDE_AI_VENDORS.md) · [目录](zhipu-articles-zh/README.md) |

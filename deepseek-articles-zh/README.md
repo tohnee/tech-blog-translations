@@ -1,10 +1,10 @@
 # DeepSeek 深度求索 文章中文索引
 
 > api-docs.deepseek.com/news + arXiv 报告；官方双语
-> 英文归档 `deepseek-articles/`（21 篇），中文 `deepseek-articles-zh/`（21 篇）。
+> 英文归档 `deepseek-articles/`（22 篇），中文 `deepseek-articles-zh/`（22 篇）。
 > 翻译规范：`TRANSLATION_GUIDE_AI_VENDORS.md`；arXiv 论文在 `papers/` 子目录（译文同样在 `*-zh/papers/`）。
 
-| 篇数 | 21 EN → 21 ZH |
+| 篇数 | 22 EN → 22 ZH |
 |---|---|
 | ✅ 📄 | 2025-01-22 | DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning | `papers/DeepSeek-R1.md` |
 | ✅ 📄 | 2024-05-07 | DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model | `papers/DeepSeek-V2.md` |
@@ -27,3 +27,4 @@
 | ✅ 📝 | 2026-08-13 | DeepSeek-V4-Pro GA Release | `posts/news260813.md` |
 | ✅ 📝 | 2026-08-21 | DeepSeek-V4-Flash-Vision-Exp Release: Multimodal API Now Live | `posts/news260821.md` |
 | ✅ 📝 | 2026-09-10 | DeepSeek-V4.1-Flash: Smarter, Faster, More Efficient | `posts/news260910.md` |
+| ✅ 📝 | 2026-10-17 | DeepSeek-V4.1-Flash-1017: Wish-Driven Programming Made Real | `posts/news261017.md` |
