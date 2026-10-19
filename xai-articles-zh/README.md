@@ -1,10 +1,10 @@
 # xAI 文章中文索引
 
 > x.ai/news（经 Wayback Machine 存档；直连受 Cloudflare 拦截）
-> 英文归档 `xai-articles/`（90 篇），中文 `xai-articles-zh/`（90 篇）。
+> 英文归档 `xai-articles/`（92 篇），中文 `xai-articles-zh/`（92 篇）。
 > 翻译规范：`TRANSLATION_GUIDE_AI_VENDORS.md`；arXiv 论文在 `papers/` 子目录（译文同样在 `*-zh/papers/`）。
 
-| 篇数 | 90 EN → 90 ZH |
+| 篇数 | 92 EN → 92 ZH |
 |---|---|
 | ✅ 📝 | 2026-06-15 | Agent Dashboard in Grok Build | `posts/agent-dashboard.md` |
 | ✅ 📝 | 2026-05-06 | New Compute Partnership with Anthropic | `posts/anthropic-compute-partnership.md` |
@@ -71,6 +71,7 @@
 | ✅ 📝 | 2026-05-18 | Skills in web, iOS, and Android | `posts/grok-skills.md` |
 | ✅ 📝 | 2026-04-17 | Grok Speech to Text and Text to Speech APIs | `posts/grok-stt-and-tts-apis.md` |
 | ✅ 📝 | 2026-06-03 | Grok Becomes the Voice of Vapi | `posts/grok-vapi.md` |
+| ✅ 📝 | 2026-10-14 | Introducing Grok Voice 3.0 | `posts/grok-voice-3.md` |
 | ✅ 📝 | 2025-12-17 | grok-voice-agent-api | `posts/grok-voice-agent-api.md` |
 | ✅ 📝 | 2026-07-01 | Introducing the Voice Agent Builder | `posts/grok-voice-agent-builder.md` |
 | ✅ 📝 | 2026-04-23 | Grok Voice Think Fast 1.0 | `posts/grok-voice-think-fast-1.md` |
@@ -95,4 +96,5 @@
 | ✅ 📝 | 2026-09-28 | Team Bots: AI coworkers that learn from your team | `posts/team-bots.md` |
 | ✅ 📝 | 2025-12-23 | us-gov-dept-of-war | `posts/us-gov-dept-of-war.md` |
 | ✅ 📝 | 2026-07-23 | Workflows in Grok Build | `posts/workflows.md` |
+| ✅ 📝 | 2026-10-12 | Introducing The X Subscription | `posts/x-subscription.md` |
 | ✅ 📝 | 2026-02-02 | xai-joins-spacex | `posts/xai-joins-spacex.md` |
