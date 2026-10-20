@@ -1582,6 +1582,22 @@
   "chars": 48075
  },
  {
+  "slug": "datacenters-2027-the-year-of-acceleration",
+  "title": "Datacenters 2027: The Year of Acceleration, +50GW in a Single Year",
+  "subtitle": "60GW Under Construction, SemiAnalysis Leading Indicators, 1.3T of Lease Contracts Signed YTD, The Shortage Could Move to Chips",
+  "date": "2026-10-19",
+  "url": "https://newsletter.semianalysis.com/p/datacenters-2027-the-year-of-acceleration",
+  "authors": [
+   "Jeremie Eliahou Ontiveros",
+   "Reyk Knuhtsen",
+   "Dylan Patel"
+  ],
+  "tags": [],
+  "audience": "only_paid",
+  "paywalled": true,
+  "chars": 13012
+ },
+ {
   "slug": "deepseek-debates",
   "title": "DeepSeek Debates: Chinese Leadership On Cost, True Training Cost, Closed Model Margin Impacts",
   "subtitle": "H100 Pricing Soaring, Subsidized Inference Pricing, Export Controls, MLA",
