@@ -1,14 +1,15 @@
 # MiniMax 稀宇科技 文章中文索引
 
 > minimax.io 官方技术博客 + arXiv 报告
-> 英文归档 `minimax-articles/`（14 篇），中文 `minimax-articles-zh/`（14 篇）。
+> 英文归档 `minimax-articles/`（15 篇），中文 `minimax-articles-zh/`（15 篇）。
 > 翻译规范：`TRANSLATION_GUIDE_AI_VENDORS.md`；arXiv 论文在 `papers/` 子目录（译文同样在 `*-zh/papers/`）。
 
-| 篇数 | 14 EN → 14 ZH |
+| 篇数 | 15 EN → 15 ZH |
 |---|---|
 | ✅ 📄 | 2025-06-16 | MiniMax-M1: Scaling Test-Time Compute Efficiently with Lightning Attention | `papers/MiniMax-M1.md` |
 | ✅ 📝 | 2026-02-14 | Forge: Scalable Agent RL Framework and Algorithm | `posts/forge-scalable-agent-rl-en-1779896141.md` |
 | ✅ 📝 | 2026-05-27 | MiniMax Agent Team: Built for Long-Running Tasks and Continuous Evolution | `posts/minimax-agent-team-long-running-1779893953.md` |
+| ✅ 📝 | 2026-10-22 | minimax-code-mini-app-1792650729 | `posts/minimax-code-mini-app-1792650729.md` |
 | ✅ 📝 | 2026-07-31 | MiniMax H3: An Open Model Breaking the Boundaries Between Tasks and Modalities | `posts/minimax-h3.md` |
 | ✅ 📝 | 2025-10-27 | MiniMax M2 & Agent: Ingenious in Simplicity | `posts/minimax-m2-en-1748600000.md` |
 | ✅ 📝 | 2026-01-27 | A Deep Dive into the MiniMax-M2-her | `posts/minimax-m2-her.md` |

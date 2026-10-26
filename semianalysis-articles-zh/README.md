@@ -1,7 +1,7 @@
 # SemiAnalysis 文章中文翻译索引
 
 > 来源：[SemiAnalysis](https://semianalysis.com)（[Substack: newsletter.semianalysis.com](https://newsletter.semianalysis.com)），半导体与 AI 基础设施研究机构。
-> 归档：英文 341 篇（`semianalysis-articles/posts/`），中文翻译 341 篇（本目录 `posts/`）。
+> 归档：英文 343 篇（`semianalysis-articles/posts/`），中文翻译 343 篇（本目录 `posts/`）。
 > 翻译规范：`TRANSLATION_GUIDE_SEMIANALYSIS.md`。
 
 **付费墙说明**：标有 🔒 的文章为付费订阅文，Substack 公开 API 仅提供付费墙之前的预览正文；
@@ -9,6 +9,8 @@
 
 | 日期 | 标题（中文） | 原文标题 | 作者 | 篇幅 |
 |---|---|---|---|---|
+| 2026-10-23 | 亚马逊 Trainium 向训练之王发起冲击 🔒 | Amazon’s Trainium Takes a Strike at the Training King | Kimbo Chen, Dylan Patel | [译文](posts/amazons-trainium-takes-a-strike-at.md) · [EN](../../semianalysis-articles/posts/amazons-trainium-takes-a-strike-at.md) |
+| 2026-10-21 | 华为与 DeepSeek 的共生关系 🔒 | The Huawei-DeepSeek Symbiosis | Bryan Shan, Dylan Patel | [译文](posts/huawei-deepseek.md) · [EN](../../semianalysis-articles/posts/huawei-deepseek.md) |
 | 2026-10-19 | 数据中心 2027：加速之年，单年新增 +50GW 🔒 | Datacenters 2027: The Year of Acceleration, +50GW in a Single Year | Jeremie Eliahou Ontiveros, Reyk Knuhtsen, Dylan Patel | [译文](posts/datacenters-2027-the-year-of-acceleration.md) · [EN](../../semianalysis-articles/posts/datacenters-2027-the-year-of-acceleration.md) |
 | 2026-10-15 | ASML 正在打造混合键合设备！ 🔒 | ASML Is Building a Hybrid Bonding Tool! | Sherry Zhang, Gerald Wong, Steven Lee | [译文](posts/asml-is-building-a-hybrid-bonding.md) · [EN](../../semianalysis-articles/posts/asml-is-building-a-hybrid-bonding.md) |
 | 2026-10-08 | 北京不会为前沿定速：中国速度优先的 AI 安全监管体制 🔒 | Beijing Will Not Pace the Frontier: China’s Speed-First AI Safety Regime | Mark Chen, Doug, Dylan Patel | [译文](posts/beijing-will-not-pace-the-frontier.md) · [EN](../../semianalysis-articles/posts/beijing-will-not-pace-the-frontier.md) |

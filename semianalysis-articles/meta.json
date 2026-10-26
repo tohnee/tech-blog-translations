@@ -528,6 +528,21 @@
   "chars": 27737
  },
  {
+  "slug": "amazons-trainium-takes-a-strike-at",
+  "title": "Amazon’s Trainium Takes a Strike at the Training King",
+  "subtitle": "Trainium Best for Inference? But now good for Training too, Native Trainium PyTorch, High Quality CI, TorchTitan, GPU Impossible Profiler ",
+  "date": "2026-10-23",
+  "url": "https://newsletter.semianalysis.com/p/amazons-trainium-takes-a-strike-at",
+  "authors": [
+   "Kimbo Chen",
+   "Dylan Patel"
+  ],
+  "tags": [],
+  "audience": "only_paid",
+  "paywalled": true,
+  "chars": 24291
+ },
+ {
   "slug": "amd-2-0-new-sense-of-urgency-mi450x-chance-to-beat-nvidia-nvidias-new-moat",
   "title": "AMD 2.0 - New Sense of Urgency | MI450X Chance to Beat Nvidia | Nvidia's New Moat",
   "subtitle": "Rapid Improvements, Developers First Approach, Low AMD AI Software Engineer Pay, Python DSL, UALink Disaster, MI325x, MI355x, MI430X UL4, MI450X Architecture, IF64/IF128, Flexible IO, UALink, IFoE",
@@ -2381,6 +2396,21 @@
   "audience": "only_paid",
   "paywalled": true,
   "chars": 37713
+ },
+ {
+  "slug": "huawei-deepseek",
+  "title": "The Huawei-DeepSeek Symbiosis",
+  "subtitle": "Huawei Ascend 950PR Deep dive & µbenchmarks, DSv4.1 Flash Analysis, DeepSeek support for Ascend, AICPU, Tilelang Ascend",
+  "date": "2026-10-21",
+  "url": "https://newsletter.semianalysis.com/p/huawei-deepseek",
+  "authors": [
+   "Bryan Shan",
+   "Dylan Patel"
+  ],
+  "tags": [],
+  "audience": "only_paid",
+  "paywalled": true,
+  "chars": 23779
  },
  {
   "slug": "hybrid-bonding-process-flow-advanced",

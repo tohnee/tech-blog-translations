@@ -243,15 +243,15 @@ def detect():
         raw = []
         for page in ("https://blog.google/products-and-platforms/products/gemini/", "https://blog.google/innovation-and-ai/models-and-research/gemini-models/"):
             raw += links(fetch(page), page, r"https://blog\.google/products/([0-9a-zA-Z\-/]+)/?$")
-        # slug 取末段，且要求链接路径含 /products/
-        result["gemini"] = [(s.split("/")[-1], u) for s, u in dedup(raw) if s.split("/")[-1] not in have]
+        # slug 取末段，且要求链接路径为「类目/文章」两段以上（单段 = 类目落地页，排除）
+        result["gemini"] = [(s.split("/")[-1], u) for s, u in dedup(raw) if s.rstrip("/") and "/" in s.rstrip("/") and s.split("/")[-1] not in have]
     except Exception as e:  # noqa: BLE001
         result["gemini"] = f"ERROR: {e}"
     # --- Google Blog ---
     try:
         html = fetch("https://blog.google/innovation-and-ai/")
         have = meta_slugs(ROOT / "google-blog-articles/meta.json")
-        result["google-blog"] = [(s.split("/")[-1], u) for s, u in dedup(links(html, "https://blog.google/", r"https://blog\.google/products/([0-9a-zA-Z\-/]+)/?$")) if s.split("/")[-1] not in have]
+        result["google-blog"] = [(s.split("/")[-1], u) for s, u in dedup(links(html, "https://blog.google/", r"https://blog\.google/products/([0-9a-zA-Z\-/]+)/?$")) if "/" in s.rstrip("/") and s.split("/")[-1] not in have]
     except Exception as e:  # noqa: BLE001
         result["google-blog"] = f"ERROR: {e}"
     # --- Anthropic / Claude Code ---
@@ -261,11 +261,11 @@ def detect():
         result["claudecode"] = [(s, u) for s, u in dedup(links(html, "https://www.anthropic.com/news", r"https://www\.anthropic\.com/news/([0-9a-zA-Z\-]+)/?$")) if s not in have]
     except Exception as e:  # noqa: BLE001
         result["claudecode"] = f"ERROR: {e}"
-    # --- Lilian Weng（GitHub API）---
+    # --- Lilian Weng（GitHub API；2026-10 起仓库迁移为 Hugo 构建产物，posts/ 为日期-slug 目录）---
     try:
-        html = fetch("https://api.github.com/repos/lilianweng/lilianweng.github.io/contents/_posts")
-        files = {it["name"] for it in json.loads(html) if it["name"].endswith(".md")}
-        have = {p.name for p in (ROOT / "lilianweng-articles/posts").glob("*.md")}
+        html = fetch("https://api.github.com/repos/lilianweng/lilianweng.github.io/contents/posts")
+        files = {it["name"] for it in json.loads(html) if re.match(r"^\d{4}-\d{2}-\d{2}-", it["name"])}
+        have = {p.stem for p in (ROOT / "lilianweng-articles/posts").glob("*.md")}
         result["lilianweng"] = sorted(f for f in files if f not in have)
     except Exception as e:  # noqa: BLE001
         result["lilianweng"] = f"ERROR: {e}"
