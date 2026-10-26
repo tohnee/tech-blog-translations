@@ -114,6 +114,13 @@
 - 指定阅读：日程表内 arXiv 链接（32 篇）+ 2 篇 DeepMind PDF（AlphaCode 2 / AlphaEvolve，`storage.googleapis.com` 直连可下，pypdf 抽取文本）；新阅读按 `arxiv.org/html/<id>` 归档到 `papers/`。
 - 翻译规范 `TRANSLATION_GUIDE_CS329A.md`（沿用 AI_VENDORS 的 arXiv 约定 + PDF 抽取文本约定）；索引 `cs329a-articles-zh/README.md`。
 
+### 12. 知乎专栏 AI 文章（zhihu-articles，2026-10-26 接入；中文源仅归档不翻译）
+
+- 工具：**zhihu-toolkit**（KrisTHL181/zhihu-cli，pip 包名 `zhihu-toolkit`，Python 3.12+）装在 `/tmp/zhihu-venv`。⚠️ `/tmp` 重启即清，重建：`python3.12 -m venv /tmp/zhihu-venv && /tmp/zhihu-venv/bin/pip install "zhihu-toolkit[browser]"`。
+- **必须登录**：匿名下 API/SSR/curl_cffi 全部 403，RSSHub 公共实例也死。登录三选一：`zhihu auth import`（从本地 Chrome 导入，**macOS 会弹钥匙串授权 "Chrome Safe Storage"，用户点「始终允许」即可**）；`zhihu auth paste`（浏览器 DevTools 复制 cURL 粘贴）；`zhihu auth login`（扫码，二维码存 `~/.zhihu-cli/login_qrcode.png`）。
+- 抓取：`/tmp/zhihu-venv/bin/python3 crawl_zhihu.py --limit 200`——25 组 AI 关键词（大模型/LLM/智能体/RAG/DeepSeek…）搜文章 → 去重 → 逐篇转 Markdown → `zhihu-articles/posts/<id>.md`（项目规范 frontmatter：title/source/crawled/author/created）。断点续传状态在 `zhihu-articles/_state.json`；连续 5 次失败自动停（疑似风控/掉登录）。**Mimosa 拦 subprocess+变量模式，故脚本走库直调（`search_articles` + `ContentDownloader.fetch_article`），零子进程。**
+- 口径：中文源**仅归档不翻译**（同苏剑林先例）；范围=关键词搜索命中的 AI 主题专栏文章；每次 run 上限 200 篇防风控。回答/问题（问答体）暂不收，仅收专栏文章。
+
 ## 收尾（每次必做）
 
 1. 重新生成索引：`python3 build_master_index.py`（根 README + Google 三源 README）；SGLang/vLLM/OpenAI 等其余 README 有新文时手工追加条目。
