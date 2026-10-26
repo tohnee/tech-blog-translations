@@ -227,6 +227,12 @@ def main() -> None:
             "guide": None, "readme": "sujianlin-articles/README.md",
             "note": "中文原文全量归档（1336 篇），无需翻译；细目见 INDEX.md",
         },
+        {
+            "name": "知乎 AI 专栏", "site": "zhuanlan.zhihu.com",
+            "en": "zhihu-articles", "zh": None,
+            "guide": None, "readme": "zhihu-articles/README.md",
+            "note": "中文原创 AI 专栏文章，仅归档不翻译；crawl_zhihu.py 按关键词发现+下载（需 zhihu auth 登录）",
+        },
     ]
 
     rows = ["| 来源 | 原文站点 | 英文存档 | 中文翻译 | 篇数 | 索引 |",

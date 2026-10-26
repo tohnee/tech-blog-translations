@@ -1,9 +1,9 @@
 # 优秀 AI / 技术博客文章归档与中文翻译
 
-收录 26 个高质量技术博客来源的全量文章归档与完整中文翻译
-（英文存档 `25` 源 + 中文原文 `1` 源；苏剑林博客为中文站点，仅归档）。
+收录 27 个高质量技术博客来源的全量文章归档与完整中文翻译
+（英文存档 `26` 源 + 中文原文 `1` 源；苏剑林博客为中文站点，仅归档）。
 
-> 累计：英文/原文归档 **4062** 篇，中文译文 **2724** 篇。
+> 累计：英文/原文归档 **4538** 篇，中文译文 **2724** 篇。
 > 每日自动同步：定时任务按 [DAILY_SYNC_SOP.md](DAILY_SYNC_SOP.md) 拉取各源新文章、归档并翻译，随后更新本索引并推送 GitHub。
 
 ## 项目总览
@@ -36,6 +36,7 @@
 | Stanford MATH 289 课程 | web.stanford.edu/class/math289 | [math289-articles/](math289-articles/)（5） | [math289-articles-zh/](math289-articles-zh/)（5） | 5 / 5 | — · [目录](math289-articles-zh/README.md) |
 | Microsoft AI | microsoft.ai/news | [microsoft-articles/](microsoft-articles/)（2） | [microsoft-articles-zh/](microsoft-articles-zh/)（2） | 2 / 2 | — · [目录](microsoft-articles-zh/README.md) |
 | 苏剑林《科学空间》 | kexue.fm | [sujianlin-articles/](sujianlin-articles/)（1336） | —（原文为中文） | 1336 | — · [目录](sujianlin-articles/README.md) |
+| 知乎 AI 专栏 | zhuanlan.zhihu.com | [zhihu-articles/](zhihu-articles/)（476） | —（原文为中文） | 476 | — · [目录](zhihu-articles/README.md) |
 
 ## 说明
 
@@ -61,6 +62,7 @@
 - **Stanford MATH 289 课程**：变化世界中的数学实践：主页+大纲+编程基础讲义全译；Missing Semester 有官方中文版直接参考
 - **Microsoft AI**：2026-10-16 建库，microsoft.ai 直连可抓
 - **苏剑林《科学空间》**：中文原文全量归档（1336 篇），无需翻译；细目见 INDEX.md
+- **知乎 AI 专栏**：中文原创 AI 专栏文章，仅归档不翻译；crawl_zhihu.py 按关键词发现+下载（需 zhihu auth 登录）
 
 - 三个 Google 来源（DeepMind / Gemini / Google Blog）另有合并详表索引：[google-articles-zh-README.md](google-articles-zh-README.md)
 - 翻译均为全文完整翻译，术语一致性由各 `TRANSLATION_GUIDE_*.md` 规范约束；公式保留原始 LaTeX，代码块不译
