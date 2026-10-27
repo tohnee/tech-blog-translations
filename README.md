@@ -3,7 +3,7 @@
 收录 27 个高质量技术博客来源的全量文章归档与完整中文翻译
 （英文存档 `26` 源 + 中文原文 `1` 源；苏剑林博客为中文站点，仅归档）。
 
-> 累计：英文/原文归档 **5445** 篇，中文译文 **2724** 篇。
+> 累计：英文/原文归档 **5446** 篇，中文译文 **2725** 篇。
 > 每日自动同步：定时任务按 [DAILY_SYNC_SOP.md](DAILY_SYNC_SOP.md) 拉取各源新文章、归档并翻译，随后更新本索引并推送 GitHub。
 
 ## 项目总览
@@ -16,7 +16,7 @@
 | Google Blog | blog.google/innovation-and-ai | [google-blog-articles/](google-blog-articles/)（250） | [google-blog-articles-zh/](google-blog-articles-zh/)（249） | 250 / 249 | [规范](TRANSLATION_GUIDE_GOOGLE.md) · [目录](google-blog-articles-zh/README.md) |
 | vLLM | blog.vllm.ai | [vllm-articles/](vllm-articles/)（134） | [vllm-articles-zh/](vllm-articles-zh/)（134） | 134 / 134 | [规范](TRANSLATION_GUIDE_VLLM.md) · [目录](vllm-articles-zh/README.md) |
 | SGLang / LMSYS | lmsys.org/blog | [sglang-articles/](sglang-articles/)（96） | [sglang-articles-zh/](sglang-articles-zh/)（96） | 96 / 96 | [规范](TRANSLATION_GUIDE_SGLANG.md) · [目录](sglang-articles-zh/README.md) |
-| Claude Code / Anthropic | anthropic.com（工程博客） | [claudecode-articles/](claudecode-articles/)（33） | [claudecode-articles-zh/](claudecode-articles-zh/)（33） | 33 / 33 | [规范](TRANSLATION_GUIDE_CLAUDECODE.md) · [目录](claudecode-articles-zh/README.md) |
+| Claude Code / Anthropic | anthropic.com（工程博客） | [claudecode-articles/](claudecode-articles/)（34） | [claudecode-articles-zh/](claudecode-articles-zh/)（34） | 34 / 34 | [规范](TRANSLATION_GUIDE_CLAUDECODE.md) · [目录](claudecode-articles-zh/README.md) |
 | Claude 博客 | claude.com/blog | [claude-blog-articles/](claude-blog-articles/)（91） | [claude-blog-articles-zh/](claude-blog-articles-zh/)（91） | 91 / 91 | [规范](TRANSLATION_GUIDE_CLAUDE_BLOG.md) · [目录](claude-blog-articles-zh/README.md) |
 | OpenAI 开发者博客 | developers.openai.com/blog | [openai-dev-articles/](openai-dev-articles/)（14） | [openai-dev-articles-zh/](openai-dev-articles-zh/)（14） | 14 / 14 | [规范](TRANSLATION_GUIDE_CLAUDE_BLOG.md) · [目录](openai-dev-articles-zh/README.md) |
 | Lilian Weng | lilianweng.github.io | [lilianweng-articles/](lilianweng-articles/)（53） | [lilianweng-articles-zh/](lilianweng-articles-zh/)（53） | 53 / 53 | [规范](TRANSLATION_GUIDE_LILIANWENG.md) · [目录](lilianweng-articles-zh/README.md) |
