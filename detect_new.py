@@ -83,7 +83,7 @@ def proxy_fetch(url: str, use_http1: bool = True) -> str:
 
 
 def _have(src_dir: str) -> set:
-    """已收 slug 集：meta.json slug ∪ posts/ 文件名（去 .md）。"""
+    """已收 slug 集：meta.json slug ∪ posts/ 与 papers/ 文件名（去 .md）。"""
     root = ROOT / src_dir
     have = set()
     mp = root / "meta.json"
@@ -92,9 +92,10 @@ def _have(src_dir: str) -> set:
             have |= {m["slug"] for m in json.loads(mp.read_text()) if isinstance(m, dict) and m.get("slug")}
         except Exception:  # noqa: BLE001
             pass
-    pd = root / "posts"
-    if pd.exists():
-        have |= {p.stem for p in pd.glob("*.md")}
+    for sub in ("posts", "papers"):
+        pd = root / sub
+        if pd.exists():
+            have |= {p.stem for p in pd.glob("*.md")}
     return have
 
 
@@ -152,8 +153,8 @@ def detect_vendors():
     for key, org, main_pat in (("xiaomi", "XiaomiMiMo", r"^MiMo"), ("stepfun", "stepfun-ai", r"^Step"), ("ling", "inclusionAI", None)):
         try:
             repos = json.loads(fetch(f"https://api.github.com/orgs/{org}/repos?per_page=100&sort=pushed", retries=2))
-            have = _have(f"{key}-articles")
-            cand = [r["name"] for r in repos if r["name"] not in have and not AUX.search(r["name"])
+            have = {s.lower() for s in _have(f"{key}-articles")}
+            cand = [r["name"] for r in repos if r["name"].lower() not in have and not AUX.search(r["name"])
                     and r.get("created_at", "")[:10] >= week_ago
                     and (main_pat is None or re.match(main_pat, r["name"]))]
             result[key] = sorted(cand)
