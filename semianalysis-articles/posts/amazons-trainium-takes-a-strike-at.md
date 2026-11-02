@@ -3,7 +3,7 @@ title: "Amazon’s Trainium Takes a Strike at the Training King"
 subtitle: "Trainium Best for Inference? But now good for Training too, Native Trainium PyTorch, High Quality CI, TorchTitan, GPU Impossible Profiler "
 date: 2026-10-23
 source: https://newsletter.semianalysis.com/p/amazons-trainium-takes-a-strike-at
-crawled: 2026-10-26
+crawled: 2026-09-15
 authors: ["Kimbo Chen", "Dylan Patel"]
 tags: []
 audience: only_paid

@@ -4,7 +4,7 @@ subtitle: "GCP YoY rev growth >100%, DeepMind's long term failure is Google Clou
 date: 2026-08-07
 source: https://newsletter.semianalysis.com/p/gemini-is-cooked-but-gcp-is-cooking
 crawled: 2026-09-15
-authors: ["Max Kan", "Joey Brookhart", "Doug O'Laughlin", "Dylan Patel"]
+authors: ["Max Kan", "Joey Brookhart", "Dylan Patel", "Doug", "Andrew Megalaa"]
 tags: []
 audience: only_paid
 paywalled: true

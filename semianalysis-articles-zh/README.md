@@ -1,7 +1,7 @@
 # SemiAnalysis 文章中文翻译索引
 
 > 来源：[SemiAnalysis](https://semianalysis.com)（[Substack: newsletter.semianalysis.com](https://newsletter.semianalysis.com)），半导体与 AI 基础设施研究机构。
-> 归档：英文 343 篇（`semianalysis-articles/posts/`），中文翻译 343 篇（本目录 `posts/`）。
+> 归档：英文 344 篇（`semianalysis-articles/posts/`），中文翻译 344 篇（本目录 `posts/`）。
 > 翻译规范：`TRANSLATION_GUIDE_SEMIANALYSIS.md`。
 
 **付费墙说明**：标有 🔒 的文章为付费订阅文，Substack 公开 API 仅提供付费墙之前的预览正文；
@@ -9,6 +9,7 @@
 
 | 日期 | 标题（中文） | 原文标题 | 作者 | 篇幅 |
 |---|---|---|---|---|
+| 2026-11-01 | 反数据中心反弹走向两党化：下周中期选举与 2028 年建设潮 🔒 | The Datacenter Backlash Goes Bipartisan: Next Week's Midterms and the 2028 Buildout | Maya Barkin, Wayne Ma, Reyk Knuhtsen | [译文](posts/the-datacenter-backlash-goes-bipartisan.md) · [EN](../../semianalysis-articles/posts/the-datacenter-backlash-goes-bipartisan.md) |
 | 2026-10-23 | 亚马逊 Trainium 向训练之王发起冲击 🔒 | Amazon’s Trainium Takes a Strike at the Training King | Kimbo Chen, Dylan Patel | [译文](posts/amazons-trainium-takes-a-strike-at.md) · [EN](../../semianalysis-articles/posts/amazons-trainium-takes-a-strike-at.md) |
 | 2026-10-21 | 华为与 DeepSeek 的共生关系 🔒 | The Huawei-DeepSeek Symbiosis | Bryan Shan, Dylan Patel | [译文](posts/huawei-deepseek.md) · [EN](../../semianalysis-articles/posts/huawei-deepseek.md) |
 | 2026-10-19 | 数据中心 2027：加速之年，单年新增 +50GW 🔒 | Datacenters 2027: The Year of Acceleration, +50GW in a Single Year | Jeremie Eliahou Ontiveros, Reyk Knuhtsen, Dylan Patel | [译文](posts/datacenters-2027-the-year-of-acceleration.md) · [EN](../../semianalysis-articles/posts/datacenters-2027-the-year-of-acceleration.md) |
@@ -36,7 +37,7 @@
 | 2026-08-19 | Cerebras 下一代 CS-4：快，变得更快 🔒 | Cerebras's Next Generation CS-4: Fast Just Got Faster | Myron Xie, Bryan Shan, Wega Chu | [译文](posts/cerebrass-next-generation-cs-4-fast.md) · [EN](../../semianalysis-articles/posts/cerebrass-next-generation-cs-4-fast.md) |
 | 2026-08-16 | 一个建模失误浪费了美国电费缴纳者 $12B，而 PJM 还想再来一次 🔒 | $12B of US ratepayers' money wasted on a modeling mistake and PJM wants to do it again | Robert Boswall, Reyk Knuhtsen, Jeremie Eliahou Ontiveros | [译文](posts/12b-of-us-ratepayers-money-wasted.md) · [EN](../../semianalysis-articles/posts/12b-of-us-ratepayers-money-wasted.md) |
 | 2026-08-10 | 在 NVIDIA GPU 上实现超高交互性？——TileRT InferenceX 🔒 | Ultra-High Interactivity on NVIDIA GPUs? - TileRT InferenceX  | Bryan Shan, Daniel Nishball, Cam Quilici | [译文](posts/ultra-high-interactivity-on-nvidia.md) · [EN](../../semianalysis-articles/posts/ultra-high-interactivity-on-nvidia.md) |
-| 2026-08-07 | Gemini 完蛋了，但 GCP 正火力全开 🔒 | Gemini is Cooked but GCP is Cooking | Max Kan, Joey Brookhart, Doug O'Laughlin | [译文](posts/gemini-is-cooked-but-gcp-is-cooking.md) · [EN](../../semianalysis-articles/posts/gemini-is-cooked-but-gcp-is-cooking.md) |
+| 2026-08-07 | Gemini 完蛋了，但 GCP 正火力全开 🔒 | Gemini is Cooked but GCP is Cooking | Max Kan, Joey Brookhart, Dylan Patel | [译文](posts/gemini-is-cooked-but-gcp-is-cooking.md) · [EN](../../semianalysis-articles/posts/gemini-is-cooked-but-gcp-is-cooking.md) |
 | 2026-08-07 | SpaceX 2027 年 10GW——为什么是真的、将为 SpaceX 带来 $300B ARR，以及为什么微软会成为最大承购方 🔒 | SpaceX 10GW in 2027 – Why It’s Real, Will Drive $300B ARR for SpaceX, and Why Microsoft Will Be the Largest Offtaker | Jeremie Eliahou Ontiveros, Reyk Knuhtsen, Jordan Nanos | [译文](posts/spacex-10gw-in-2027-why-its-real.md) · [EN](../../semianalysis-articles/posts/spacex-10gw-in-2027-why-its-real.md) |
 | 2026-08-03 | Kimi K3：其人、其神话、其传奇 🔒 | Kimi K3, The Manos, The Mythos, The Legendos | Kimbo Chen, Shubham Choudhari, Bryan Shan | [译文](posts/kimi-k3-the-manos-the-mythos-the.md) · [EN](../../semianalysis-articles/posts/kimi-k3-the-manos-the-mythos-the.md) |
 | 2026-07-29 | LEGO 积木式数据中心的「狂野西部」 🔒 | The Wild Wild West Of LEGO Datacenters | Nicolas Bontigui, Eric (Junqi) Wen, Jeremie Eliahou Ontiveros | [译文](posts/the-wild-wild-west-of-lego-datacenters.md) · [EN](../../semianalysis-articles/posts/the-wild-wild-west-of-lego-datacenters.md) |

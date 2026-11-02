@@ -3,7 +3,7 @@ title: "The Huawei-DeepSeek Symbiosis"
 subtitle: "Huawei Ascend 950PR Deep dive & µbenchmarks, DSv4.1 Flash Analysis, DeepSeek support for Ascend, AICPU, Tilelang Ascend"
 date: 2026-10-21
 source: https://newsletter.semianalysis.com/p/huawei-deepseek
-crawled: 2026-10-26
+crawled: 2026-09-15
 authors: ["Bryan Shan", "Dylan Patel"]
 tags: []
 audience: only_paid

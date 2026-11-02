@@ -887,7 +887,8 @@
    "Evan Cloutier",
    "Max Kan",
    "Jordan Nanos",
-   "Dylan Patel"
+   "Dylan Patel",
+   "Andrew Megalaa"
   ],
   "tags": [],
   "audience": "only_paid",
@@ -1939,8 +1940,9 @@
   "authors": [
    "Max Kan",
    "Joey Brookhart",
-   "Doug O'Laughlin",
-   "Dylan Patel"
+   "Dylan Patel",
+   "Doug",
+   "Andrew Megalaa"
   ],
   "tags": [],
   "audience": "only_paid",
@@ -4773,6 +4775,24 @@
   "audience": "everyone",
   "paywalled": false,
   "chars": 8212
+ },
+ {
+  "slug": "the-datacenter-backlash-goes-bipartisan",
+  "title": "The Datacenter Backlash Goes Bipartisan: Next Week's Midterms and the 2028 Buildout",
+  "subtitle": "2027 is largely locked in. 2028 is less secure: a prolonged Texas permit freeze is now the biggest single risk to the US buildout, and both parties are running on tighter rules",
+  "date": "2026-11-01",
+  "url": "https://newsletter.semianalysis.com/p/the-datacenter-backlash-goes-bipartisan",
+  "authors": [
+   "Maya Barkin",
+   "Wayne Ma",
+   "Reyk Knuhtsen",
+   "Jeremie Eliahou Ontiveros",
+   "Dylan Patel"
+  ],
+  "tags": [],
+  "audience": "only_paid",
+  "paywalled": true,
+  "chars": 16225
  },
  {
   "slug": "the-eda-primer-from-rtl-to-silicon",
