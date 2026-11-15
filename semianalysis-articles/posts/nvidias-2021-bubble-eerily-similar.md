@@ -3,7 +3,7 @@ title: "Nvidia’s 2021 Bubble, Eerily Similar To Other Bubbles That Came Before
 date: 2021-07-06
 source: https://newsletter.semianalysis.com/p/nvidias-2021-bubble-eerily-similar
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

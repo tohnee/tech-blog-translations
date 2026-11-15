@@ -4,7 +4,7 @@ subtitle: "Was Widespread TokenMaxxing Ever Really Here?"
 date: 2026-06-30
 source: https://newsletter.semianalysis.com/p/tokenbudgeting-our-conversations
 crawled: 2026-09-15
-authors: ["Crystal Huang", "Joey Brookhart", "Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

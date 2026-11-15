@@ -4,7 +4,7 @@ subtitle: "$4.5B EUV Annual Reduction, High-NA, Contacts, Vias, Throughput, ASP,
 date: 2023-03-06
 source: https://newsletter.semianalysis.com/p/euv-requirements-halved-applied-materials
 crawled: 2026-09-15
-authors: ["Dylan Patel", "George Cozma", "Afzal Ahmad"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

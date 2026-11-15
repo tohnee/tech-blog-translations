@@ -3,7 +3,7 @@ title: "NXP Semiconductor (NXPI) CFO Sells Nearly 70% Of His Shares As Samsung A
 date: 2021-08-31
 source: https://newsletter.semianalysis.com/p/nxp-semiconductor-nxpi-cfo-sells
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

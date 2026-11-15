@@ -4,7 +4,7 @@ subtitle: "MGX GB200A NVL36, B102, B20, CoWoS-L, CoWoS-S, GB200A NVL64, ConnectX
 date: 2024-08-04
 source: https://newsletter.semianalysis.com/p/nvidias-blackwell-reworked-shipment
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Wega Chu", "Daniel Nishball", "Myron Xie", "Chaolien Tseng"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

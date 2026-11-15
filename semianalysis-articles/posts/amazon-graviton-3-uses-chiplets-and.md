@@ -3,7 +3,7 @@ title: "Amazon Graviton 3 Uses Chiplets & Advanced Packaging To Commoditize High
 date: 2021-12-02
 source: https://newsletter.semianalysis.com/p/amazon-graviton-3-uses-chiplets-and
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

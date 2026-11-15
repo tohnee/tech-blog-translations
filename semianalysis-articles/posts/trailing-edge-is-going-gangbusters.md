@@ -3,7 +3,7 @@ title: "Trailing Edge is Going Gangbusters ($KLIC)"
 date: 2021-04-29
 source: https://newsletter.semianalysis.com/p/trailing-edge-is-going-gangbusters
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

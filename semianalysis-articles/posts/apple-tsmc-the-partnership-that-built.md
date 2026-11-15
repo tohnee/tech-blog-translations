@@ -4,7 +4,7 @@ subtitle: "Wafer Demand Model, Node Economics, and the shifting power dynamics a
 date: 2026-01-08
 source: https://newsletter.semianalysis.com/p/apple-tsmc-the-partnership-that-built
 crawled: 2026-09-15
-authors: ["Sravan Kundojjala", "Gerald Wong", "Dylan Patel", "Jeff Koch"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

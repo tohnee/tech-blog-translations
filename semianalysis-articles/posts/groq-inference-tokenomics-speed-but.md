@@ -4,7 +4,7 @@ subtitle: "Faster than Nvidia? Dissecting the economics"
 date: 2024-02-21
 source: https://newsletter.semianalysis.com/p/groq-inference-tokenomics-speed-but
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Daniel Nishball"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

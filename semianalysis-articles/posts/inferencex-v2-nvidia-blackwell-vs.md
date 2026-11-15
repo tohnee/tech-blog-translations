@@ -4,7 +4,7 @@ subtitle: "GB300 NVL72, MI355X, B200, H100, Disaggregated Serving, Wide Expert P
 date: 2026-02-16
 source: https://newsletter.semianalysis.com/p/inferencex-v2-nvidia-blackwell-vs
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Cam Quilici", "Bryan Shan", "Alec Ibarra", "Kimbo Chen", "Daniel Nishball", "Cheang Kang Wen"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

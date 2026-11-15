@@ -4,7 +4,7 @@ subtitle: "Tangible bi-partisan solutions for solving a national security crisis
 date: 2022-06-13
 source: https://newsletter.semianalysis.com/p/why-america-will-lose-semiconductors
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

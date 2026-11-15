@@ -4,7 +4,7 @@ subtitle: "Why the Grid Can't Keep Up, and Why that Drives Behind-The-Meter 50%+
 date: 2026-06-25
 source: https://newsletter.semianalysis.com/p/us-grid-constraints-towards-40gw
 crawled: 2026-09-15
-authors: ["Jeremie Eliahou Ontiveros", "Sebastian Orejas", "Ellie Holbrook", "Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

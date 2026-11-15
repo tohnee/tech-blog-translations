@@ -3,7 +3,7 @@ title: "The Datacenter Backlash Goes Bipartisan: Next Week's Midterms and the 20
 subtitle: "2027 is largely locked in. 2028 is less secure: a prolonged Texas permit freeze is now the biggest single risk to the US buildout, and both parties are running on tighter rules"
 date: 2026-11-01
 source: https://newsletter.semianalysis.com/p/the-datacenter-backlash-goes-bipartisan
-crawled: 2026-11-02
+crawled: 2026-09-15
 authors: ["Maya Barkin", "Wayne Ma", "Reyk Knuhtsen", "Jeremie Eliahou Ontiveros", "Dylan Patel"]
 tags: []
 audience: only_paid

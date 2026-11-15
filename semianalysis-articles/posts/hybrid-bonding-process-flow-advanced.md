@@ -4,7 +4,7 @@ subtitle: "BESI, EV Group, AMAT, TEL, ASMPT, SET, Shibaura, SUSS Microtec"
 date: 2024-02-09
 source: https://newsletter.semianalysis.com/p/hybrid-bonding-process-flow-advanced
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Myron Xie", "Jeff Koch"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

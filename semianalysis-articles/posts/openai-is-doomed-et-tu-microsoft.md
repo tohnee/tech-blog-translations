@@ -4,7 +4,7 @@ subtitle: "Meta, Google, Anthropic, DeepSeek, Inflection Phi Wizard, Distributio
 date: 2024-05-07
 source: https://newsletter.semianalysis.com/p/openai-is-doomed-et-tu-microsoft
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Daniel Nishball"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

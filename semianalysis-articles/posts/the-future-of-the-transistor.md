@@ -4,7 +4,7 @@ subtitle: "Planar to FinFET to Nanosheet to Complementary FET to 2D"
 date: 2023-02-21
 source: https://newsletter.semianalysis.com/p/the-future-of-the-transistor
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Afzal Ahmad"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

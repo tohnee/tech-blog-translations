@@ -4,7 +4,7 @@ subtitle: "Can TileRT software on NVIDIA GPU compete with Cerebras, Groq LPU, Sa
 date: 2026-08-10
 source: https://newsletter.semianalysis.com/p/ultra-high-interactivity-on-nvidia
 crawled: 2026-09-15
-authors: ["Bryan Shan", "Daniel Nishball", "Cam Quilici", "Kimbo Chen", "Alec Ibarra", "Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

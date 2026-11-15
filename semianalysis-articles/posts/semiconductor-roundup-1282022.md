@@ -4,7 +4,7 @@ subtitle: "STM, KLAC, MKSI, Ampere Computing, Apple, Tesla, Silicon Motion, MACO
 date: 2022-01-28
 source: https://newsletter.semianalysis.com/p/semiconductor-roundup-1282022
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

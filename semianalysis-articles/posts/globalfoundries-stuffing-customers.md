@@ -4,7 +4,7 @@ subtitle: "We are bearish on GlobalFoundries."
 date: 2022-08-12
 source: https://newsletter.semianalysis.com/p/globalfoundries-stuffing-customers
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

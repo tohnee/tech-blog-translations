@@ -4,7 +4,7 @@ subtitle: "SMIC N+3 Node Deep Dive vs TSMC N6, TechInsights Private Equity Sale,
 date: 2026-06-14
 source: https://newsletter.semianalysis.com/p/steel-smic-n3-teardown
 crawled: 2026-09-15
-authors: ["STEEL Team", "Afzal Ahmad", "Andrew Wagner", "Gerald Wong", "Wayne Ma", "Dylan Patel", "Daniel Sanchez", "Adith Shankar", "Allison Elliott", "Sarah Lawrence"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

@@ -4,7 +4,7 @@ subtitle: "Anthropic’s Opportunity is Theirs to Lose"
 date: 2026-07-08
 source: https://newsletter.semianalysis.com/p/anthropic-3q26-profit-over-1b-the
 crawled: 2026-09-15
-authors: ["Joey Brookhart", "Crystal Huang", "Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

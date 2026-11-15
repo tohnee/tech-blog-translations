@@ -4,7 +4,7 @@ subtitle: "2024 Revenue, EPS, H20, L20, and L2 Full Specifications"
 date: 2023-11-09
 source: https://newsletter.semianalysis.com/p/nvidias-new-china-ai-chips-circumvent
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Daniel Nishball", "Myron Xie"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

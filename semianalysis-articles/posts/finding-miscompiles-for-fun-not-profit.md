@@ -4,7 +4,7 @@ subtitle: "Or: You don’t need access to Claude Mythos to spend $10,000 in an a
 date: 2026-05-28
 source: https://newsletter.semianalysis.com/p/finding-miscompiles-for-fun-not-profit
 crawled: 2026-09-15
-authors: ["Justin Lebar"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

@@ -4,7 +4,7 @@ subtitle: "Compute Resources That Make Everyone Look GPU-Poor"
 date: 2023-08-28
 source: https://newsletter.semianalysis.com/p/google-gemini-eats-the-world-gemini
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Daniel Nishball"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

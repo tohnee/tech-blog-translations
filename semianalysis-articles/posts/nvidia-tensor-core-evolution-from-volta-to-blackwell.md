@@ -4,7 +4,7 @@ subtitle: "Amdahl’s Law, Strong Scaling, Asynchronous Execution, Blackwell, Ho
 date: 2025-06-23
 source: https://newsletter.semianalysis.com/p/nvidia-tensor-core-evolution-from-volta-to-blackwell
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Kimbo Chen"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

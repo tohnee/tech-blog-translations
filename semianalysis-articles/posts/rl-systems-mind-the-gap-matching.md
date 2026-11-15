@@ -4,7 +4,7 @@ subtitle: "RL Training Infrastructure, GRPO, PipelineRL, Async RL, Policy Stalen
 date: 2026-06-16
 source: https://newsletter.semianalysis.com/p/rl-systems-mind-the-gap-matching
 crawled: 2026-09-15
-authors: ["Kimbo Chen", "Cheang Kang Wen", "Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

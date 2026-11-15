@@ -3,7 +3,7 @@ title: "Samsung Foundry 3nm Gate All Around Process Node, 3GAE, Delayed To As La
 date: 2021-06-29
 source: https://newsletter.semianalysis.com/p/samsung-foundry-3nm-gate-all-around
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

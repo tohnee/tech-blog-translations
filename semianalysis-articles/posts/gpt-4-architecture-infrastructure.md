@@ -4,7 +4,7 @@ subtitle: "Demystifying GPT-4: The engineering tradeoffs that led OpenAI to thei
 date: 2023-07-10
 source: https://newsletter.semianalysis.com/p/gpt-4-architecture-infrastructure
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Gerald Wong"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

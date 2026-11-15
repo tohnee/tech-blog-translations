@@ -4,7 +4,7 @@ subtitle: "Inference & Training - Next Gen Hardware for Nvidia, AMD, Intel, Goog
 date: 2024-01-11
 source: https://newsletter.semianalysis.com/p/neural-network-quantization-and-number
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

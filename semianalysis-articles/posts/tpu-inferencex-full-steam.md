@@ -4,7 +4,7 @@ subtitle: "InferenceX, Up to 50% Better Performance per Dollar, Rapid Externaliz
 date: 2026-09-07
 source: https://newsletter.semianalysis.com/p/tpu-inferencex-full-steam
 crawled: 2026-09-15
-authors: ["Alec Ibarra", "Cam Quilici", "Bryan Shan", "Wenyao Gao", "Daniel Nishball", "Zane Fong", "Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

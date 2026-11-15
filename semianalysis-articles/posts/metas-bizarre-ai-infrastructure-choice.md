@@ -4,7 +4,7 @@ subtitle: "Meta is paying more for the same performance at higher power."
 date: 2023-05-06
 source: https://newsletter.semianalysis.com/p/metas-bizarre-ai-infrastructure-choice
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Gerald Wong"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

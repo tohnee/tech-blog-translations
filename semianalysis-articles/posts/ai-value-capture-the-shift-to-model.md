@@ -4,7 +4,7 @@ subtitle: "Vera Rubin VR NVL72: V for Value - Rubin delivers a step jump in perf
 date: 2026-05-01
 source: https://newsletter.semianalysis.com/p/ai-value-capture-the-shift-to-model
 crawled: 2026-09-15
-authors: ["Daniel Nishball", "Dylan Patel", "Cheang Kang Wen", "Crystal Huang", "Max Kan", "Ray Wang", "Myron Xie", "Zane Fong", "Clara Ee"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

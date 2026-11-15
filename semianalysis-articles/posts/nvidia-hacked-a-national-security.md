@@ -3,7 +3,7 @@ title: "Nvidia Hacked - A National Security Disaster"
 date: 2022-03-02
 source: https://newsletter.semianalysis.com/p/nvidia-hacked-a-national-security
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

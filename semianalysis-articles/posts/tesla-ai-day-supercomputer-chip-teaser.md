@@ -3,7 +3,7 @@ title: "Tesla AI Day Supercomputer Chip Teaser | Is This The First Deployment Of
 date: 2021-08-04
 source: https://newsletter.semianalysis.com/p/tesla-ai-day-supercomputer-chip-teaser
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

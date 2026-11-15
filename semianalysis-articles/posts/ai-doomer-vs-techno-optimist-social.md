@@ -4,7 +4,7 @@ subtitle: "China Demographics, Character AI, Meta, Influencers, Incels, and Insu
 date: 2023-10-05
 source: https://newsletter.semianalysis.com/p/ai-doomer-vs-techno-optimist-social
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Aleksandar Kostovic"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

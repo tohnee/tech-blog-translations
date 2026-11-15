@@ -4,7 +4,7 @@ subtitle: "Semiconductor Capital Equipment For EUV Masks, GaN Power and RF, Adva
 date: 2022-02-20
 source: https://newsletter.semianalysis.com/p/the-transformation-of-veeco
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

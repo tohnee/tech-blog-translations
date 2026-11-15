@@ -4,7 +4,7 @@ subtitle: "RL and Agent Usage, Context Memory Storage, DRAM Pricing Impacts, CPU
 date: 2026-02-09
 source: https://newsletter.semianalysis.com/p/cpus-are-back-the-datacenter-cpu
 crawled: 2026-09-15
-authors: ["Gerald Wong", "Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

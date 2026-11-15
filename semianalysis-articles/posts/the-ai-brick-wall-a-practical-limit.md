@@ -3,7 +3,7 @@ title: "The AI Brick Wall – A Practical Limit For Scaling Dense Transformer Mo
 date: 2023-01-24
 source: https://newsletter.semianalysis.com/p/the-ai-brick-wall-a-practical-limit
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

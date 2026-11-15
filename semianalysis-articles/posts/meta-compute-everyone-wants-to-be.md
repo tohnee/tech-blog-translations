@@ -4,7 +4,7 @@ subtitle: "Zuck Takes Plan B? SpaceX 2.0, Bedrock 2.0, MSL Isn't Giving Up, Scal
 date: 2026-07-02
 source: https://newsletter.semianalysis.com/p/meta-compute-everyone-wants-to-be
 crawled: 2026-09-15
-authors: ["Jeremie Eliahou Ontiveros", "Max Kan", "Joey Brookhart", "Crystal Huang", "Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

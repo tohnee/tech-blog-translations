@@ -4,7 +4,7 @@ subtitle: "Micron, Nvidia, and K&S Join Forces For The Most Negative News Day Of
 date: 2022-11-17
 source: https://newsletter.semianalysis.com/p/q3-earnings-ends-with-a-bang-nvda
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

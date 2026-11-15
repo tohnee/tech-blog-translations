@@ -3,7 +3,7 @@ title: "Tesla Dojo - Unique Packaging and Chip Design Allow An Order Magnitude A
 date: 2021-08-20
 source: https://newsletter.semianalysis.com/p/tesla-dojo-unique-packaging-and-chip
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

@@ -3,7 +3,7 @@ title: "How Nvidia’s CUDA Monopoly In Machine Learning Is Breaking - OpenAI Tr
 date: 2023-01-16
 source: https://newsletter.semianalysis.com/p/nvidiaopenaitritonpytorch
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

@@ -4,8 +4,8 @@ subtitle: "H20 Shipments, Blackwell B30A, Bottlenecks to Chinese Chip Production
 date: 2025-09-08
 source: https://newsletter.semianalysis.com/p/huawei-ascend-production-ramp
 crawled: 2026-09-15
-authors: ["Dylan Patel", "AJ", "Myron Xie"]
-tags: ["Supply Chain", "Accelerators", "AI Infrastructure", "Semiconductors", "Export Controls", "Foundries"]
+authors: []
+tags: []
 audience: only_paid
 paywalled: true
 ---

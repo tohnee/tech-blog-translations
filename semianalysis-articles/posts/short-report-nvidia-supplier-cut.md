@@ -3,7 +3,7 @@ title: "Short Report: Nvidia Supplier Cut Out Of Next Generation Hopper GPUs - N
 date: 2022-03-23
 source: https://newsletter.semianalysis.com/p/short-report-nvidia-supplier-cut
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

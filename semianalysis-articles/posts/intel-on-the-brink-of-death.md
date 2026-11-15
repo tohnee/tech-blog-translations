@@ -4,8 +4,8 @@ subtitle: "Board Short Circuits, Cultural Rot, x86 Has No Moat, Sell PC Business
 date: 2024-12-09
 source: https://newsletter.semianalysis.com/p/intel-on-the-brink-of-death
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Doug", "Myron Xie", "Jeremie Eliahou Ontiveros", "Sravan Kundojjala"]
-tags: ["Chip Design", "Semiconductors", "Foundries"]
+authors: []
+tags: []
 audience: only_paid
 paywalled: true
 ---

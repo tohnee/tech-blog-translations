@@ -3,7 +3,7 @@ title: "Intel Grossly Exaggerates Foundry “Wins” With Qualcomm And Amazon, T
 date: 2021-07-29
 source: https://newsletter.semianalysis.com/p/intel-grossly-exaggerates-foundry
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

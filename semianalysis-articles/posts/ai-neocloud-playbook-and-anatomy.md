@@ -4,8 +4,8 @@ subtitle: "H100 Rental Price Cuts, AI Neocloud Giants and Emerging Neoclouds, H1
 date: 2024-10-03
 source: https://newsletter.semianalysis.com/p/ai-neocloud-playbook-and-anatomy
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Daniel Nishball"]
-tags: ["Hardware Architecture", "AI Infrastructure", "Neoclouds"]
+authors: []
+tags: []
 audience: only_paid
 paywalled: true
 ---

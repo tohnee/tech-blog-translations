@@ -4,7 +4,7 @@ subtitle: "Transceiver to GPU Ratio, DSP Growth, Revealing The Real Boogeyman"
 date: 2024-03-25
 source: https://newsletter.semianalysis.com/p/nvidias-optical-boogeyman-nvl72-infiniband
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Daniel Nishball"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

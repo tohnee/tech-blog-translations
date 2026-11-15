@@ -3,7 +3,7 @@ title: "Apple M2 Die Shot and Architecture Analysis – Big Cost Increase And A1
 date: 2022-06-10
 source: https://newsletter.semianalysis.com/p/apple-m2-die-shot-and-architecture
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

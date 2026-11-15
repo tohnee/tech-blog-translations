@@ -4,7 +4,7 @@ subtitle: "Roadmap, Supply, Anti-competitive: AMD, Broadcom, Google, Amazon, and
 date: 2023-10-10
 source: https://newsletter.semianalysis.com/p/nvidias-plans-to-crush-competition
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Myron Xie"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

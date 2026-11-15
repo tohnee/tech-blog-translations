@@ -4,8 +4,8 @@ subtitle: "Joules per Token, TCO Per Million Tokens, MFU, Tokens Per US Annual H
 date: 2025-08-20
 source: https://newsletter.semianalysis.com/p/h100-vs-gb200-nvl72-training-benchmarks
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Daniel Nishball"]
-tags: ["Hardware Architecture", "Accelerators", "LLMs", "Chip Design", "AI Infrastructure"]
+authors: []
+tags: []
 audience: only_paid
 paywalled: true
 ---

@@ -4,7 +4,7 @@ subtitle: "OpenAI and AWS Partnerships, Tokenomics Explainer, Architecture Deep 
 date: 2026-05-13
 source: https://newsletter.semianalysis.com/p/cerebras-faster-tokens-please
 crawled: 2026-09-15
-authors: ["Myron Xie", "Jordan Nanos", "Max Kan", "Cam Quilici", "Tanj Bennett", "Ivan Chiam", "Louis Lu", "Zane Fong", "Gerald Wong", "Reyk Knuhtsen", "Nicolas Bontigui", "Wega Chu", "Dylan Patel", "Konrad Wang", "Oliver Shawa"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

@@ -3,7 +3,7 @@ title: "A Chip Off The Old Block? New RISC-V Startup Garners Many Senior CPU Arc
 date: 2021-08-28
 source: https://newsletter.semianalysis.com/p/a-chip-off-the-old-block-new-risc
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

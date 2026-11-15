@@ -4,8 +4,8 @@ subtitle: "Next Generation Nvidia Systems, Ground Up Inference Optimizations fro
 date: 2025-03-19
 source: https://newsletter.semianalysis.com/p/nvidia-gtc-2025-built-for-reasoning-vera-rubin-kyber-cpo-dynamo-inference-jensen-math-feynman
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Myron Xie", "Daniel Nishball", "Ivan Chiam", "Patrick Zhou", "Doug", "Wega Chu"]
-tags: ["Hardware Architecture", "Networking", "Accelerators"]
+authors: []
+tags: []
 audience: only_paid
 paywalled: true
 ---

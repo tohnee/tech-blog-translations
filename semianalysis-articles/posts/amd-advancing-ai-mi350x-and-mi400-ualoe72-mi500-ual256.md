@@ -4,7 +4,7 @@ subtitle: "Software Improvement, Marketing RDFs, AMD Fostering Neocloud, MI355 i
 date: 2025-06-13
 source: https://newsletter.semianalysis.com/p/amd-advancing-ai-mi350x-and-mi400-ualoe72-mi500-ual256
 crawled: 2026-09-15
-authors: ["Kimbo Chen", "Dylan Patel", "Daniel Nishball", "Wega Chu", "Ivan Chiam", "Gerald Wong", "Patrick Zhou"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

@@ -3,7 +3,7 @@ title: "The Dark Side Of The Semiconductor Design Renaissance – Fixed Costs So
 date: 2022-07-24
 source: https://newsletter.semianalysis.com/p/the-dark-side-of-the-semiconductor
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

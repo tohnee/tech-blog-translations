@@ -4,7 +4,7 @@ subtitle: "Nitro, Graviton, EFA, Inferentia, Trainium, Nvidia Cloud, Microsoft A
 date: 2023-03-20
 source: https://newsletter.semianalysis.com/p/amazons-cloud-crisis-how-aws-will
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

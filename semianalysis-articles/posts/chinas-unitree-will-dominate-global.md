@@ -4,7 +4,7 @@ subtitle: "The Fastest Iteration Cycle In Next-Gen Robotics Should See Unprecede
 date: 2026-06-08
 source: https://newsletter.semianalysis.com/p/chinas-unitree-will-dominate-global
 crawled: 2026-09-15
-authors: ["Reyk Knuhtsen", "Niko Ciminelli", "Jacob Rintamaki", "Robert Ghilduta", "Joe Ryu", "Jeremie Eliahou Ontiveros", "Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

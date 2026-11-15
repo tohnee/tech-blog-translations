@@ -4,7 +4,7 @@ subtitle: "MI300X, MI325X, H100, H200, B200, MI355X, VLLM, SGLang, TRT-LLM, ROCm
 date: 2025-05-23
 source: https://newsletter.semianalysis.com/p/amd-vs-nvidia-inference-benchmark-who-wins-performance-cost-per-million-tokens
 crawled: 2026-09-15
-authors: ["Kimbo Chen", "Dylan Patel", "Daniel Nishball", "Ivan Chiam"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

@@ -3,7 +3,7 @@ title: "Kulicke & Soffa Industries, $KLIC, Continued Outperformance Of Wire Bond
 date: 2021-09-27
 source: https://newsletter.semianalysis.com/p/kulicke-and-soffa-industries-klic-771
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

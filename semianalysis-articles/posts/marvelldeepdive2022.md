@@ -4,7 +4,7 @@ subtitle: "Transforming into the leader in infrastructure silicon & EPS estimate
 date: 2022-12-11
 source: https://newsletter.semianalysis.com/p/marvelldeepdive2022
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

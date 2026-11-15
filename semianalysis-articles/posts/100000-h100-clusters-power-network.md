@@ -4,7 +4,7 @@ subtitle: "Frontier Model Scaling Challenges and Requirements, Fault Recovery th
 date: 2024-06-17
 source: https://newsletter.semianalysis.com/p/100000-h100-clusters-power-network
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Daniel Nishball"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

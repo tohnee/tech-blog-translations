@@ -4,7 +4,7 @@ subtitle: "Over 7T AI debt by 2029, There can be no Neoclouds without the Trinit
 date: 2026-07-06
 source: https://newsletter.semianalysis.com/p/nvidia-gpu-debt-backstop-unleashes
 crawled: 2026-09-15
-authors: ["Daniel Nishball", "Cheang Kang Wen", "Zane Fong", "Reyk Knuhtsen", "Sebastian Orejas", "Jordan Nanos", "Terence Ong", "Dylan Patel", "Hemanth Ajithkumar"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

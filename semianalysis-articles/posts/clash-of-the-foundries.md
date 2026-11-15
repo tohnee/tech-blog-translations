@@ -4,8 +4,8 @@ subtitle: "Fab Cost, SRAM Scaling, WFE Implications, Backside Power Details, TSM
 date: 2024-10-01
 source: https://newsletter.semianalysis.com/p/clash-of-the-foundries
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Jeff Koch"]
-tags: ["Chip Design", "Semiconductors", "Foundries"]
+authors: []
+tags: []
 audience: only_paid
 paywalled: true
 ---

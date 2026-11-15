@@ -4,7 +4,7 @@ subtitle: "When to run on-device, in Apple datacenters, or in the cloud with Ope
 date: 2024-05-27
 source: https://newsletter.semianalysis.com/p/apples-ai-strategy-apple-datacenters
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Myron Xie"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

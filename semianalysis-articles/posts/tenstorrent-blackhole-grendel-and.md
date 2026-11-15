@@ -3,7 +3,7 @@ title: "Tenstorrent Blackhole, Grendel, And Buda - A Scale Out Architecture For 
 date: 2022-04-12
 source: https://newsletter.semianalysis.com/p/tenstorrent-blackhole-grendel-and
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

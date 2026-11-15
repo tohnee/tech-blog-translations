@@ -3,7 +3,7 @@ title: "MediaTek Officially Enters The Flagship Mobile Race With The First TSMC 
 date: 2021-07-28
 source: https://newsletter.semianalysis.com/p/mediatek-officially-enters-the-flagship
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

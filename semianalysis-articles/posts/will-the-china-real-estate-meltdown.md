@@ -3,7 +3,7 @@ title: "Will The China Real Estate Meltdown End The Semiconductor Shortage? "
 date: 2021-09-13
 source: https://newsletter.semianalysis.com/p/will-the-china-real-estate-meltdown
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

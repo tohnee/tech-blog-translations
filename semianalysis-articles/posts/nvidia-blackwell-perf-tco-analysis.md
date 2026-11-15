@@ -4,7 +4,7 @@ subtitle: "GPT-4 Profitability, Cost, Inference Simulator, Parallelism Explained
 date: 2024-04-10
 source: https://newsletter.semianalysis.com/p/nvidia-blackwell-perf-tco-analysis
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Daniel Nishball"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

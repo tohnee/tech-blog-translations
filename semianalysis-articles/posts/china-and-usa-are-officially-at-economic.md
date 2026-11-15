@@ -4,7 +4,7 @@ subtitle: "New regulations will impact global trade by hundreds of billions of d
 date: 2022-10-08
 source: https://newsletter.semianalysis.com/p/china-and-usa-are-officially-at-economic
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

@@ -4,7 +4,7 @@ subtitle: "NVIDIA GB200 NVL72, AMD MI355X, Throughput Token per GPU, Latency Tok
 date: 2025-10-09
 source: https://newsletter.semianalysis.com/p/inferencemax-open-source-inference
 crawled: 2026-09-15
-authors: ["Kimbo Chen", "Dylan Patel", "Daniel Nishball", "Cam Quilici", "Cheang Kang Wen"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

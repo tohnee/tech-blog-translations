@@ -4,7 +4,7 @@ subtitle: "Power prices misconception, PJM's poor market design, Capacity prices
 date: 2026-03-03
 source: https://newsletter.semianalysis.com/p/are-ai-datacenters-increasing-electric
 crawled: 2026-09-15
-authors: ["Aishwarya Mahesh", "Jeremie Eliahou Ontiveros", "Ajey Pandey", "Dylan Patel", "Reyk Knuhtsen"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

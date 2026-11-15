@@ -4,7 +4,7 @@ subtitle: "Don't Believe The Vibecoded Estimates, Go Through Every Individual Fi
 date: 2026-06-18
 source: https://newsletter.semianalysis.com/p/stop-saying-half-of-2026-us-datacenter
 crawled: 2026-09-15
-authors: ["Reyk Knuhtsen", "Maya Barkin", "Jeremie Eliahou Ontiveros", "Ellie Holbrook", "Nicolas Bontigui", "Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

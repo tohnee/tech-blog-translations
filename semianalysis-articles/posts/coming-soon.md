@@ -3,7 +3,7 @@ title: "Bridging the gap between business and the worlds most important industry
 date: 2021-04-05
 source: https://newsletter.semianalysis.com/p/coming-soon
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

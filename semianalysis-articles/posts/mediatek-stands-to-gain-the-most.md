@@ -3,7 +3,7 @@ title: "Mediatek Stands to Gain the Most from the New Cold War"
 date: 2020-05-22
 source: https://newsletter.semianalysis.com/p/mediatek-stands-to-gain-the-most
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

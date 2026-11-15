@@ -4,8 +4,8 @@ subtitle: "Trn2, Trn2-Ultra, Performance, Software, NeuronLinkv3, EFAv3, TCO, 3D
 date: 2024-12-03
 source: https://newsletter.semianalysis.com/p/amazons-ai-self-sufficiency-trainium2-architecture-networking
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Daniel Nishball", "Reyk Knuhtsen"]
-tags: ["Hardware Architecture", "Hyperscaler", "Accelerators"]
+authors: []
+tags: []
 audience: only_paid
 paywalled: true
 ---

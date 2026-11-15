@@ -4,7 +4,7 @@ subtitle: "41% Of Revenue At High Risk"
 date: 2023-03-23
 source: https://newsletter.semianalysis.com/p/caught-in-the-crossfire-short-target
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Afzal Ahmad"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

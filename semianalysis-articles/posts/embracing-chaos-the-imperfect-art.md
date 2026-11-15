@@ -4,7 +4,7 @@ subtitle: "5 Longs, Intel EUV Delayed Again, And More "
 date: 2023-02-27
 source: https://newsletter.semianalysis.com/p/embracing-chaos-the-imperfect-art
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Afzal Ahmad"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

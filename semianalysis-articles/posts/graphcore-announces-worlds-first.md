@@ -4,7 +4,7 @@ subtitle: "Bow, Good Computer, and Wafer on Wafer Hybrid Bonding Analysis "
 date: 2022-03-03
 source: https://newsletter.semianalysis.com/p/graphcore-announces-worlds-first
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

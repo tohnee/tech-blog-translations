@@ -4,7 +4,7 @@ subtitle: ">$1B Billion Dollar Revenue Impact Lam Research ‘25 Revenue from Cr
 date: 2023-07-16
 source: https://newsletter.semianalysis.com/p/nand-flash-monopoly-broken-tokyo
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Myron Xie", "Gerald Wong"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

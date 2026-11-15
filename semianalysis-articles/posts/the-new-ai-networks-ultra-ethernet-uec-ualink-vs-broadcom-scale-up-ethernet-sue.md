@@ -4,7 +4,7 @@ subtitle: "LibFabric, Packet Spraying, Rail Optimized, Congestion Control, ECN, 
 date: 2025-06-11
 source: https://newsletter.semianalysis.com/p/the-new-ai-networks-ultra-ethernet-uec-ualink-vs-broadcom-scale-up-ethernet-sue
 crawled: 2026-09-15
-authors: ["Tanj Bennett", "Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

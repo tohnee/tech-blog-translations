@@ -4,7 +4,7 @@ subtitle: "Competitive Analysis Considerations, Sapphire Rapids Stealthy Redesig
 date: 2023-05-03
 source: https://newsletter.semianalysis.com/p/intel-emerald-rapids-backtracks-on
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Gerald Wong", "George Cozma", "Locuza", "Afzal Ahmad"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

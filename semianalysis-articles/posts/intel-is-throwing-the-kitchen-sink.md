@@ -4,7 +4,7 @@ subtitle: "Deep Dive On Tower Semiconductor Fabs And IP, Intel Culture Shift, Fu
 date: 2022-02-18
 source: https://newsletter.semianalysis.com/p/intel-is-throwing-the-kitchen-sink
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

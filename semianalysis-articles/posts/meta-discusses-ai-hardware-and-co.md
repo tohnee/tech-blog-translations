@@ -4,7 +4,7 @@ subtitle: "Nvidia Is Playing A Different Ball Game"
 date: 2022-09-15
 source: https://newsletter.semianalysis.com/p/meta-discusses-ai-hardware-and-co
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

@@ -4,7 +4,7 @@ subtitle: "Poaching Aggressively"
 date: 2024-06-03
 source: https://newsletter.semianalysis.com/p/openai-chip-team-is-now-serious
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

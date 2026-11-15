@@ -4,7 +4,7 @@ subtitle: "A critical look at ASML's long term projections and assumptions"
 date: 2022-11-22
 source: https://newsletter.semianalysis.com/p/asml-and-the-semiconductor-market
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

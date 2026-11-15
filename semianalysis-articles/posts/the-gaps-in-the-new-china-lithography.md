@@ -3,7 +3,7 @@ title: "The Gaps In The New China Lithography Restrictions – ASML, SMEE, Nikon
 date: 2023-01-29
 source: https://newsletter.semianalysis.com/p/the-gaps-in-the-new-china-lithography
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

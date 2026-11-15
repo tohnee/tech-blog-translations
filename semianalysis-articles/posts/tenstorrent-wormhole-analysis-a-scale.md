@@ -3,7 +3,7 @@ title: "Tenstorrent Wormhole Analysis - A Scale Out Architecture for Machine Lea
 date: 2021-06-25
 source: https://newsletter.semianalysis.com/p/tenstorrent-wormhole-analysis-a-scale
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

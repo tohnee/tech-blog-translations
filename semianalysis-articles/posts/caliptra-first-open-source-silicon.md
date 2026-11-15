@@ -4,7 +4,7 @@ subtitle: "Every chip from Microsoft, Google, AMD, and Nvidia"
 date: 2022-10-25
 source: https://newsletter.semianalysis.com/p/caliptra-first-open-source-silicon
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

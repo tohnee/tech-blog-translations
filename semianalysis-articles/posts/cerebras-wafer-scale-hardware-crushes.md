@@ -3,7 +3,7 @@ title: "Cerebras Wafer Scale Hardware Crushes High Performance Computing Workloa
 date: 2021-06-30
 source: https://newsletter.semianalysis.com/p/cerebras-wafer-scale-hardware-crushes
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

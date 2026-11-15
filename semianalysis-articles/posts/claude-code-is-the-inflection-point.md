@@ -4,7 +4,7 @@ subtitle: "What It Is, How We Use It, Industry Repercussions, Microsoft's Dilemm
 date: 2026-02-05
 source: https://newsletter.semianalysis.com/p/claude-code-is-the-inflection-point
 crawled: 2026-09-15
-authors: ["Doug O'Laughlin", "Jeremie Eliahou Ontiveros", "Jordan Nanos", "Dylan Patel", "Daniel Nishball"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

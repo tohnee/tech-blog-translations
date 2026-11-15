@@ -3,7 +3,7 @@ title: "Lam Research Is Outsourcing More Than 1/3 Of Their Manufacturing To Mala
 date: 2022-07-18
 source: https://newsletter.semianalysis.com/p/lam-research-is-outsourcing-more
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

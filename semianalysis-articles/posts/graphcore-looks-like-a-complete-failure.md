@@ -3,7 +3,7 @@ title: "Graphcore Looks Like A Complete Failure In Machine Learning Training Per
 date: 2021-07-01
 source: https://newsletter.semianalysis.com/p/graphcore-looks-like-a-complete-failure
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

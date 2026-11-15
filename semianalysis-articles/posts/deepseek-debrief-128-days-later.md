@@ -4,8 +4,8 @@ subtitle: "Traffic and User Zombification, GPU Rich Western Neoclouds, Token Eco
 date: 2025-07-03
 source: https://newsletter.semianalysis.com/p/deepseek-debrief-128-days-later
 crawled: 2026-09-15
-authors: ["Wei Zhou", "AJ", "Dylan Patel"]
-tags: ["LLMs", "Tokenomics", "Inference"]
+authors: []
+tags: []
 audience: only_paid
 paywalled: true
 ---

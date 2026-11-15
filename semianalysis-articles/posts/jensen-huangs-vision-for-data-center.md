@@ -3,7 +3,7 @@ title: "Jensen Huang’s Vision For Data Center Dominance Will Destroy The Arm E
 date: 2020-08-21
 source: https://newsletter.semianalysis.com/p/jensen-huangs-vision-for-data-center
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

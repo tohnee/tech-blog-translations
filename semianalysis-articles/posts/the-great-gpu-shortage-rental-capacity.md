@@ -4,7 +4,7 @@ subtitle: "H100 Rental Prices up 40%, GPU Rental Pricing Dashboard Launch, Compu
 date: 2026-04-02
 source: https://newsletter.semianalysis.com/p/the-great-gpu-shortage-rental-capacity
 crawled: 2026-09-15
-authors: ["Daniel Nishball", "Jordan Nanos", "Cheang Kang Wen", "Nigel Chiang", "Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

@@ -3,7 +3,7 @@ title: "Micron Sells 3D X-Point Lehi, Utah Fab to Texas Instruments For $1.5B"
 date: 2021-06-30
 source: https://newsletter.semianalysis.com/p/micron-sells-3d-x-point-lehi-utah
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

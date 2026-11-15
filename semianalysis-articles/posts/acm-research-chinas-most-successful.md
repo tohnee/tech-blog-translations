@@ -4,7 +4,7 @@ subtitle: "Intel Buying Chinese Developed and Manufactured Tool Despite Alternat
 date: 2022-07-18
 source: https://newsletter.semianalysis.com/p/acm-research-chinas-most-successful
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

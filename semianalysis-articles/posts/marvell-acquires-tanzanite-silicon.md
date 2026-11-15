@@ -3,7 +3,7 @@ title: "Marvell Acquires Tanzanite Silicon To Enable Composable Server Architect
 date: 2022-05-13
 source: https://newsletter.semianalysis.com/p/marvell-acquires-tanzanite-silicon
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

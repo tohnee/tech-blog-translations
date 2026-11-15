@@ -4,7 +4,7 @@ subtitle: "Quarterly Ramp for Nvidia, Broadcom, Google, AMD, AMD Embedded (Xilin
 date: 2023-07-05
 source: https://newsletter.semianalysis.com/p/ai-capacity-constraints-cowos-and
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Myron Xie", "Gerald Wong"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

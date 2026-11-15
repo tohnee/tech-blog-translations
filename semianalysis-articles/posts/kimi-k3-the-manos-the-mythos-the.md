@@ -4,7 +4,7 @@ subtitle: "Kimi K3’s architecture: compressed memory, attention across depth, 
 date: 2026-08-03
 source: https://newsletter.semianalysis.com/p/kimi-k3-the-manos-the-mythos-the
 crawled: 2026-09-15
-authors: ["Kimbo Chen", "Shubham Choudhari", "Bryan Shan", "Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

@@ -3,7 +3,7 @@ title: "Separating Reality from Hype - Quantum Computing Explained"
 date: 2023-01-18
 source: https://newsletter.semianalysis.com/p/separating-reality-from-hype-quantum
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

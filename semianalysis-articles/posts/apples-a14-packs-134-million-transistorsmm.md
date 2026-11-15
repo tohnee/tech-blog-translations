@@ -3,7 +3,7 @@ title: "Apple’s A14 Packs 134 Million Transistors/mm², but Falls Short of TSM
 date: 2020-10-27
 source: https://newsletter.semianalysis.com/p/apples-a14-packs-134-million-transistorsmm
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

@@ -4,7 +4,7 @@ subtitle: "Video encoding ASICs are critical to ad-tech, cloud gaming, video con
 date: 2022-08-04
 source: https://newsletter.semianalysis.com/p/meet-netint-the-startup-selling-to
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

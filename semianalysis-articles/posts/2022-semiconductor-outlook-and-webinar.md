@@ -3,7 +3,7 @@ title: "2022 Semiconductor Outlook (and Webinar) - Transistor Radio Podcast Laun
 date: 2022-01-03
 source: https://newsletter.semianalysis.com/p/2022-semiconductor-outlook-and-webinar
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

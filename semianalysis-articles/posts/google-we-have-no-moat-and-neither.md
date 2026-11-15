@@ -4,7 +4,7 @@ subtitle: "Leaked Internal Google Document Claims Open Source AI Will Outcompete
 date: 2023-05-04
 source: https://newsletter.semianalysis.com/p/google-we-have-no-moat-and-neither
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Afzal Ahmad"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

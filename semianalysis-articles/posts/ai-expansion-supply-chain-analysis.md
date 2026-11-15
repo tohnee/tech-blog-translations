@@ -4,7 +4,7 @@ subtitle: "28 Upstream Suppliers Analyzed For Generative AI Torque"
 date: 2023-07-26
 source: https://newsletter.semianalysis.com/p/ai-expansion-supply-chain-analysis
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Myron Xie", "Gerald Wong"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

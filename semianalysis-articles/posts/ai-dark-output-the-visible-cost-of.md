@@ -4,7 +4,7 @@ subtitle: "Why AI's increasing output is going to be one of the hardest economic
 date: 2026-05-29
 source: https://newsletter.semianalysis.com/p/ai-dark-output-the-visible-cost-of
 crawled: 2026-09-15
-authors: ["Malcolm Spittler", "Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

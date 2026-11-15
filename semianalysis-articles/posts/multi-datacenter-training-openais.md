@@ -4,7 +4,7 @@ subtitle: "Gigawatt Clusters, Telecom Networking, Long Haul Fiber, Hierarchical 
 date: 2024-09-04
 source: https://newsletter.semianalysis.com/p/multi-datacenter-training-openais
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Daniel Nishball", "Jeremie Eliahou Ontiveros"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

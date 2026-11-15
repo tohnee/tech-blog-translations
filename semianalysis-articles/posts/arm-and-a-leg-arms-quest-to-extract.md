@@ -4,7 +4,7 @@ subtitle: "Cheap If They Can Charge Qualcomm-like Royalties?"
 date: 2023-09-14
 source: https://newsletter.semianalysis.com/p/arm-and-a-leg-arms-quest-to-extract
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Myron Xie", "Afzal Ahmad", "Daniel Nishball"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

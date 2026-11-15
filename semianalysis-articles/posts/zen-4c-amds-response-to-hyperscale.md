@@ -4,7 +4,7 @@ subtitle: "Bergamo Volumes, ASP, Performance, Hyperscale Order Shift, Die Shot, 
 date: 2023-06-05
 source: https://newsletter.semianalysis.com/p/zen-4c-amds-response-to-hyperscale
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Gerald Wong"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

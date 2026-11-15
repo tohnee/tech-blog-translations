@@ -4,7 +4,7 @@ subtitle: "A top tier RL environment startup spawns out of thin air, the most ag
 date: 2026-07-09
 source: https://newsletter.semianalysis.com/p/the-future-of-meta-superintelligence
 crawled: 2026-09-15
-authors: ["Max Kan", "Julien Martin-Prin", "Jeremie Eliahou Ontiveros", "Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

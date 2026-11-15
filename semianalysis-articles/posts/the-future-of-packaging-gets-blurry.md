@@ -4,7 +4,7 @@ subtitle: "Advanced Packaging Part 4"
 date: 2022-11-01
 source: https://newsletter.semianalysis.com/p/the-future-of-packaging-gets-blurry
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

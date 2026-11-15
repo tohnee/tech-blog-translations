@@ -4,8 +4,8 @@ subtitle: "Huawei Fab Network, WFE Vendors Cry Wolf, Framework for Future Contro
 date: 2024-10-28
 source: https://newsletter.semianalysis.com/p/fab-whack-a-mole-chinese-companies
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Sravan Kundojjala"]
-tags: ["Export Controls", "AI Policy", "Foundries"]
+authors: []
+tags: []
 audience: only_paid
 paywalled: true
 ---

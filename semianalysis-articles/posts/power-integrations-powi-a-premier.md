@@ -3,7 +3,7 @@ title: "Power Integrations, $POWI, A Premier ESG Play Semiconductor Exposure To 
 date: 2021-08-03
 source: https://newsletter.semianalysis.com/p/power-integrations-powi-a-premier
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

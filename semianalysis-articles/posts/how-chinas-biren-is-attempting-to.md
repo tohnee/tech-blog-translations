@@ -4,7 +4,7 @@ subtitle: "The regulations are like swiss cheese, but these holes will be patche
 date: 2022-10-24
 source: https://newsletter.semianalysis.com/p/how-chinas-biren-is-attempting-to
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

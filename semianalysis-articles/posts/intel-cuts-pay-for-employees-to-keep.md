@@ -3,7 +3,7 @@ title: "Intel Cuts Pay For Employees To Keep Their Quarterly Dividend"
 date: 2023-02-01
 source: https://newsletter.semianalysis.com/p/intel-cuts-pay-for-employees-to-keep
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

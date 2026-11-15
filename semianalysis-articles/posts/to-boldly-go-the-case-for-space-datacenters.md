@@ -4,7 +4,7 @@ subtitle: "Space DC Total Cost of Ownership Explained. Unpacking constraints fro
 date: 2026-06-03
 source: https://newsletter.semianalysis.com/p/to-boldly-go-the-case-for-space-datacenters
 crawled: 2026-09-15
-authors: ["Daniel Nishball", "Pranav Myana", "Ellie Holbrook", "Harley Blackard", "Zane Fong", "Cheang Kang Wen", "Sravan Kundojjala", "Tanj Bennett", "Myron Xie", "Terence Ong", "Hemanth Ajithkumar"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

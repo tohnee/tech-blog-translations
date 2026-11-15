@@ -4,7 +4,7 @@ subtitle: "OpenAI’s self-designed ASIC compared with Rubin, Jalapeño’s TCO,
 date: 2026-08-25
 source: https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia
 crawled: 2026-09-15
-authors: ["Bryan Shan", "Myron Xie", "Jordan Nanos", "Wega Chu", "Clara Ee", "Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

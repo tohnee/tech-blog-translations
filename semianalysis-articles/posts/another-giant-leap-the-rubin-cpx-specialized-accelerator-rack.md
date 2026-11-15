@@ -4,8 +4,8 @@ subtitle: "New Prefill Specialized GPU, Rack Architecture, BOM, Disaggregated PD
 date: 2025-09-10
 source: https://newsletter.semianalysis.com/p/another-giant-leap-the-rubin-cpx-specialized-accelerator-rack
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Daniel Nishball", "Kimbo Chen", "Wega Chu", "Ivan Chiam", "Cheang Kang Wen"]
-tags: ["Hardware Architecture", "Accelerators"]
+authors: []
+tags: []
 audience: only_paid
 paywalled: true
 ---

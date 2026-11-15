@@ -3,7 +3,7 @@ title: "Is Ampere Computing’s Cloud Native Marketing Fluff? – Siryn Ampere O
 date: 2022-06-01
 source: https://newsletter.semianalysis.com/p/is-ampere-computings-cloud-native
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

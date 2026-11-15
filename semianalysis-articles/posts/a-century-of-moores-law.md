@@ -4,7 +4,7 @@ subtitle: "Nova metrology and inspection"
 date: 2023-02-04
 source: https://newsletter.semianalysis.com/p/a-century-of-moores-law
 crawled: 2026-09-15
-authors: ["Douglas Herz"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

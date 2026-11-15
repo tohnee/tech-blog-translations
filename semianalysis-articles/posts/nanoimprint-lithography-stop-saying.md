@@ -4,7 +4,7 @@ subtitle: "NIL basics, why it won’t replace EUV, details of Canon’s tool, po
 date: 2025-10-26
 source: https://newsletter.semianalysis.com/p/nanoimprint-lithography-stop-saying
 crawled: 2026-09-15
-authors: ["Jeff Koch", "Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

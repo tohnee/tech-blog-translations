@@ -4,7 +4,7 @@ subtitle: "IEDM 2025 Round-Up"
 date: 2026-01-13
 source: https://newsletter.semianalysis.com/p/interconnects-beyond-copper-1000
 crawled: 2026-09-15
-authors: ["Gerald Wong", "Jeff Koch", "Randy Chiang", "TC", "Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

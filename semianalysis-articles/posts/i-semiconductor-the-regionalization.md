@@ -4,7 +4,7 @@ subtitle: "Western fabs and semiconductor capital equipment spending to go bonke
 date: 2022-02-25
 source: https://newsletter.semianalysis.com/p/i-semiconductor-the-regionalization
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

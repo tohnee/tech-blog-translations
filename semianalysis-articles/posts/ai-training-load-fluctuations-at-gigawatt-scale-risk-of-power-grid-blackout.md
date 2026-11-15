@@ -4,8 +4,8 @@ subtitle: "108GW Large Load Queue, Tesla Megapacks, Supercapacitors, Gigawatt-sc
 date: 2025-06-25
 source: https://newsletter.semianalysis.com/p/ai-training-load-fluctuations-at-gigawatt-scale-risk-of-power-grid-blackout
 crawled: 2026-09-15
-authors: ["Jeremie Eliahou Ontiveros", "Dylan Patel", "Ajey Pandey"]
-tags: ["Datacenter"]
+authors: []
+tags: []
 audience: only_paid
 paywalled: true
 ---

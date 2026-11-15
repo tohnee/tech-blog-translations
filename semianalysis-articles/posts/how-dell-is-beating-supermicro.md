@@ -4,7 +4,7 @@ subtitle: "Enterprises, Sovereign AI, CoreWeave, Tesla, x.AI, AI Neocloud econom
 date: 2024-05-30
 source: https://newsletter.semianalysis.com/p/how-dell-is-beating-supermicro
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Daniel Nishball", "Caleb Goh"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

@@ -3,7 +3,7 @@ title: "Aehr Multi-Wafer Level Burn-in Test for Silicon Carbide and Silicon Phot
 date: 2021-09-29
 source: https://newsletter.semianalysis.com/p/aehr-multi-wafer-level-burn-in-test
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

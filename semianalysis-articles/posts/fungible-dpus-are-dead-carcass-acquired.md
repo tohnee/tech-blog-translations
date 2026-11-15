@@ -4,7 +4,7 @@ subtitle: "When the first mover’s advantage doesn’t help you succeed"
 date: 2022-12-12
 source: https://newsletter.semianalysis.com/p/fungible-dpus-are-dead-carcass-acquired
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

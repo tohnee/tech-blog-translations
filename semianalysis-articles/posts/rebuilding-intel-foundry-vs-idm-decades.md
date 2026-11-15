@@ -4,7 +4,7 @@ subtitle: "Foundry Cost, Hot Lots, Steppings, Tool Utilization, Test & More: Pat
 date: 2023-06-22
 source: https://newsletter.semianalysis.com/p/rebuilding-intel-foundry-vs-idm-decades
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Myron Xie"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

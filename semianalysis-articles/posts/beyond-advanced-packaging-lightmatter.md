@@ -4,7 +4,7 @@ subtitle: "But will products utilize this in volume?"
 date: 2022-08-22
 source: https://newsletter.semianalysis.com/p/beyond-advanced-packaging-lightmatter
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

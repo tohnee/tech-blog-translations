@@ -4,7 +4,7 @@ subtitle: "From Electric Vehicles to Renewable Energy: Aehr Test Systems Tools A
 date: 2023-04-03
 source: https://newsletter.semianalysis.com/p/silicon-carbide-game-changer-aehrs
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

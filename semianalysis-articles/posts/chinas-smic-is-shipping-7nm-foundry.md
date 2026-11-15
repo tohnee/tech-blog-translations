@@ -4,7 +4,7 @@ subtitle: "The Most Advanced Foundry In The World After TSMC And Samsung"
 date: 2022-07-20
 source: https://newsletter.semianalysis.com/p/chinas-smic-is-shipping-7nm-foundry
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

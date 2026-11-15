@@ -4,7 +4,7 @@ subtitle: "1,000+ facilities across 60+ operators mapped, built retail-first and
 date: 2026-09-25
 source: https://newsletter.semianalysis.com/p/the-chinese-ai-infrastructure-boom
 crawled: 2026-09-15
-authors: ["Everlyn", "Dylan Patel", "Patrick Schaabi"]
+authors: ["Everlyn Tan", "Dylan Patel", "Patrick Schaabi"]
 tags: ["Datacenter", "AI Infrastructure"]
 audience: only_paid
 paywalled: true

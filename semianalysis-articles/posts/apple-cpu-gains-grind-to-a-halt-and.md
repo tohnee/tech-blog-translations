@@ -3,7 +3,7 @@ title: "Apple CPU Gains Grind To A Halt And The Future Looks Dim As The Impact F
 date: 2021-09-14
 source: https://newsletter.semianalysis.com/p/apple-cpu-gains-grind-to-a-halt-and
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

@@ -4,7 +4,7 @@ subtitle: "TSMC N3 Wafer Shortages, Memory Constraints, Datacenter Bottlenecks, 
 date: 2026-03-12
 source: https://newsletter.semianalysis.com/p/the-great-ai-silicon-shortage
 crawled: 2026-09-15
-authors: ["Ivan Chiam", "Myron Xie", "Ray Wang", "Sravan Kundojjala", "Gerald Wong", "Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

@@ -4,7 +4,7 @@ subtitle: "Ad Engine, Crawl, Index, and Query Processing disrupted by LLMs"
 date: 2023-02-13
 source: https://newsletter.semianalysis.com/p/peeling-the-onions-layers-large-language
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Afzal Ahmad"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

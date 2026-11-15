@@ -4,7 +4,7 @@ subtitle: "Malaysia's Stranded Capacity, Western Hyperscale Strength, AI Acceler
 date: 2025-01-15
 source: https://newsletter.semianalysis.com/p/2025-ai-diffusion-export-controls-microsoft-regulatory-capture-oracle-tears
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Daniel Nishball", "Myron Xie", "AJ", "Jeremie Eliahou Ontiveros", "Reyk Knuhtsen", "Ivan Chiam"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

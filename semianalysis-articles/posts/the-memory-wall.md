@@ -4,7 +4,7 @@ subtitle: "Winners & Losers in the 3D DRAM Revolution"
 date: 2024-09-03
 source: https://newsletter.semianalysis.com/p/the-memory-wall
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Jeff Koch", "Tanj", "Wega Chu", "Afzal Ahmad"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

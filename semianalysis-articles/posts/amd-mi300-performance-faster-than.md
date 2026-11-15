@@ -4,7 +4,7 @@ subtitle: "MI400 Broadcom + AMD Anti-Nvidia Alliance Coming With UEC and Open XG
 date: 2023-12-06
 source: https://newsletter.semianalysis.com/p/amd-mi300-performance-faster-than
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Daniel Nishball"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

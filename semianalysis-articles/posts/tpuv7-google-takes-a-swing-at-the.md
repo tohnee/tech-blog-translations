@@ -4,7 +4,7 @@ subtitle: "Potential End of the CUDA Moat?, Anthropic’s 1GW+ TPU Purchase, The
 date: 2025-11-28
 source: https://newsletter.semianalysis.com/p/tpuv7-google-takes-a-swing-at-the
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Myron Xie", "Daniel Nishball", "Wei Zhou", "Jeremie Eliahou Ontiveros", "Ivan Chiam", "Cheang Kang Wen", "Clara Ee", "Wega Chu", "Kimbo Chen", "AJ", "Michael Chen"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

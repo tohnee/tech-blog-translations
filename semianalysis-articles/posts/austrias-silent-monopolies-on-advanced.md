@@ -4,7 +4,7 @@ subtitle: "All advanced logic, DRAM, NAND, and CMOS image sensor fabrication is 
 date: 2022-08-24
 source: https://newsletter.semianalysis.com/p/austrias-silent-monopolies-on-advanced
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

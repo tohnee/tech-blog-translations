@@ -3,7 +3,7 @@ title: "Lam Research, Tokyo Electron, JSR Battle It Out In The $5B+ EUV Photores
 date: 2021-11-18
 source: https://newsletter.semianalysis.com/p/lam-research-tokyo-electron-jsr-battle
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

@@ -4,7 +4,7 @@ subtitle: "Licensing Details Revealed"
 date: 2022-10-09
 source: https://newsletter.semianalysis.com/p/is-arm-desperate-qualcomm-claps-back
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

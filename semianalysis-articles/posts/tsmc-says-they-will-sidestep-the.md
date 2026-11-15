@@ -4,7 +4,7 @@ subtitle: "Soaring wafer pricing, capital intensity, Capex breakdown, revenue es
 date: 2023-01-12
 source: https://newsletter.semianalysis.com/p/tsmc-says-they-will-sidestep-the
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

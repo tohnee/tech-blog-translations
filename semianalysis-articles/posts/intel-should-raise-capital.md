@@ -4,7 +4,7 @@ subtitle: "Intel's woes are behind them. The heavy spending is ahead of them. Wh
 date: 2026-06-11
 source: https://newsletter.semianalysis.com/p/intel-should-raise-capital
 crawled: 2026-09-15
-authors: ["Doug", "Sravan Kundojjala", "Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

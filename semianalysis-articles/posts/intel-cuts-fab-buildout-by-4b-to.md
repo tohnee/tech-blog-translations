@@ -4,7 +4,7 @@ subtitle: "First Net Loss In Over 30 Years, Cutting Fab Buildouts, But “Commit
 date: 2022-07-29
 source: https://newsletter.semianalysis.com/p/intel-cuts-fab-buildout-by-4b-to
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

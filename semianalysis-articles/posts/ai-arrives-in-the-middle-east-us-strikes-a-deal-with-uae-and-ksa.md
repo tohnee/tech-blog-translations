@@ -4,8 +4,8 @@ subtitle: "5 GW Datacenter, HUMAIN, G42, Diversion and Misuse Risks, Security Re
 date: 2025-05-16
 source: https://newsletter.semianalysis.com/p/ai-arrives-in-the-middle-east-us-strikes-a-deal-with-uae-and-ksa
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Jeremie Eliahou Ontiveros", "AJ", "Ivan Chiam", "Wega Chu"]
-tags: ["Datacenter", "AI Infrastructure", "AI Policy"]
+authors: []
+tags: []
 audience: only_paid
 paywalled: true
 ---

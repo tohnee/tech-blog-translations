@@ -4,7 +4,7 @@ subtitle: "Worker Automation, RL as a Service, Anthropic's next big bet, GDPval 
 date: 2026-01-06
 source: https://newsletter.semianalysis.com/p/rl-environments-and-rl-for-science
 crawled: 2026-09-15
-authors: ["AJ", "Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

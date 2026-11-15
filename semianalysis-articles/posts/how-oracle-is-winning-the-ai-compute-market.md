@@ -4,8 +4,8 @@ subtitle: "Stargate, OpenAI, ByteDance, Unique Datacenter Strategy, Investment G
 date: 2025-06-30
 source: https://newsletter.semianalysis.com/p/how-oracle-is-winning-the-ai-compute-market
 crawled: 2026-09-15
-authors: ["Jeremie Eliahou Ontiveros", "Dylan Patel", "Daniel Nishball"]
-tags: ["Datacenter", "Networking", "Hyperscaler"]
+authors: []
+tags: []
 audience: only_paid
 paywalled: true
 ---

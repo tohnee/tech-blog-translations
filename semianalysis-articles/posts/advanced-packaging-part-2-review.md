@@ -3,7 +3,7 @@ title: "Advanced Packaging Part 2 - Review Of Options/Use From Intel, TSMC, Sams
 date: 2022-01-06
 source: https://newsletter.semianalysis.com/p/advanced-packaging-part-2-review
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

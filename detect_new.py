@@ -190,10 +190,10 @@ def detect_vendors():
     except Exception as e:  # noqa: BLE001
         result["meta-ai"] = f"ERROR: {e}"
 
-    # Microsoft AI：microsoft.ai/news 列表页（SSR 直连可抓）
+    # Microsoft AI：2026-11 起 /news/ 301→/blog/，两前缀都匹配（SSR 直连可抓）
     try:
-        html = fetch("https://microsoft.ai/news/")
-        slugs = {m.group(1) for m in re.finditer(r'href="(?:https://microsoft\.ai)?/news/([a-z0-9\-]+)/?"', html)}
+        html = fetch("https://microsoft.ai/blog/")
+        slugs = {m.group(1) for m in re.finditer(r'href="(?:https://microsoft\.ai)?/(?:news|blog)/([a-z0-9\-]+)/?"', html)}
         result["microsoft"] = sorted(slugs - _have("microsoft-articles"))
     except Exception as e:  # noqa: BLE001
         result["microsoft"] = f"ERROR: {e}"

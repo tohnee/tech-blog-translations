@@ -4,8 +4,8 @@ subtitle: "HBM4, Custom Base Die, Shoreline Expansion, Process Flow, China Domes
 date: 2025-08-12
 source: https://newsletter.semianalysis.com/p/scaling-the-memory-wall-the-rise-and-roadmap-of-hbm
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Myron Xie", "Tanj Bennett", "Ivan Chiam", "Jeff Koch"]
-tags: ["HBM", "Supply Chain", "Semiconductors"]
+authors: []
+tags: []
 audience: only_paid
 paywalled: true
 ---

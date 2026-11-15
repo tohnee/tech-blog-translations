@@ -4,7 +4,7 @@ subtitle: "Arm denies allegations of changing its business model"
 date: 2022-11-16
 source: https://newsletter.semianalysis.com/p/arms-nuclear-option-qualcomm-must
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

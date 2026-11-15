@@ -4,8 +4,8 @@ subtitle: "L2A, L2L, Immersion, Two-Phase, Google vs Meta vs Microsoft vs Amazon
 date: 2025-02-13
 source: https://newsletter.semianalysis.com/p/datacenter-anatomy-part-2-cooling-systems
 crawled: 2026-09-15
-authors: ["Jeremie Eliahou Ontiveros", "Dylan Patel", "Daniel Nishball", "Reyk Knuhtsen"]
-tags: ["Datacenter", "Hardware Architecture"]
+authors: []
+tags: []
 audience: only_paid
 paywalled: true
 ---

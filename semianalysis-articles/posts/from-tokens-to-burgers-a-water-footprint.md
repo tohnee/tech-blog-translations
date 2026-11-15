@@ -4,8 +4,8 @@ subtitle: "A different perspective on the datacenter water debate, forget tokens
 date: 2026-01-15
 source: https://newsletter.semianalysis.com/p/from-tokens-to-burgers-a-water-footprint
 crawled: 2026-09-15
-authors: ["Nicolas Bontigui", "Dylan Patel"]
-tags: ["Datacenter"]
+authors: []
+tags: []
 audience: only_paid
 paywalled: true
 ---

@@ -4,7 +4,7 @@ subtitle: "Double the Performance, Double the Power, Double the Fun"
 date: 2026-08-19
 source: https://newsletter.semianalysis.com/p/cerebrass-next-generation-cs-4-fast
 crawled: 2026-09-15
-authors: ["Myron Xie", "Bryan Shan", "Wega Chu", "Jordan Nanos", "Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

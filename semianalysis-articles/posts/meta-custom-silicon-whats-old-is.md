@@ -4,7 +4,7 @@ subtitle: "Semi-Custom Silicon For AI and Video, Roadmap, Co-Design Partners"
 date: 2023-05-19
 source: https://newsletter.semianalysis.com/p/meta-custom-silicon-whats-old-is
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Gerald Wong"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

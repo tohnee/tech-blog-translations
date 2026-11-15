@@ -3,7 +3,7 @@ title: "Intel Roadmap and PC TAM Update – Tone Deaf, Out Of Touch, Living In a
 date: 2023-01-13
 source: https://newsletter.semianalysis.com/p/intel-roadmap-and-pc-tam-update-tone
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

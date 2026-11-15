@@ -4,7 +4,7 @@ subtitle: "Day 0 Inference Performance, InferenceX, 100x performance improvement
 date: 2026-06-09
 source: https://newsletter.semianalysis.com/p/deepseekv4-16t-day-0-to-day-43-performance
 crawled: 2026-09-15
-authors: ["Bryan Shan", "Cam Quilici", "Kimbo Chen", "Alec Ibarra", "Dylan Patel", "Daniel Nishball", "Cheang Kang Wen"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

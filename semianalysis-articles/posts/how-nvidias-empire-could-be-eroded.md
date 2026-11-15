@@ -3,7 +3,7 @@ title: "How Nvidia’s Empire Could Be Eroded - Intel Network And Edge Has The P
 date: 2022-04-06
 source: https://newsletter.semianalysis.com/p/how-nvidias-empire-could-be-eroded
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

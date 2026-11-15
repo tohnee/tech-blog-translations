@@ -4,7 +4,7 @@ subtitle: "Overview of incentive program, 3 major proposals feasibility"
 date: 2022-12-29
 source: https://newsletter.semianalysis.com/p/indias-semiconductor-scam-indian
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

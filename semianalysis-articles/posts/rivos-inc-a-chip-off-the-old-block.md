@@ -3,7 +3,7 @@ title: "Rivos Inc | A Chip Off The Old Block? New RISC-V Startup Garners Many Se
 date: 2021-08-30
 source: https://newsletter.semianalysis.com/p/rivos-inc-a-chip-off-the-old-block
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

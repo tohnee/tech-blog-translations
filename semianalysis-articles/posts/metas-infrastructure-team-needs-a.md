@@ -4,7 +4,7 @@ subtitle: "Meta Infrastructure has become bloated, with middle managers expendin
 date: 2026-07-22
 source: https://newsletter.semianalysis.com/p/metas-infrastructure-team-needs-a
 crawled: 2026-09-15
-authors: ["Wayne Ma", "Myron Xie", "Julien Martin-Prin", "Daniel Nishball", "Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

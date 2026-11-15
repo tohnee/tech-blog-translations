@@ -4,7 +4,7 @@ subtitle: "EDA Market size, Share, Business Models, Drivers, Changing Customer B
 date: 2026-05-21
 source: https://newsletter.semianalysis.com/p/eda-market-primer
 crawled: 2026-09-15
-authors: ["Sravan Kundojjala", "Dylan Patel", "Gerald Wong"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

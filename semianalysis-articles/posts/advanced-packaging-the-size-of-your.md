@@ -3,7 +3,7 @@ title: "Advanced Packaging The Size Of Your Monitor | Applied Materials, $AMAT, 
 date: 2021-09-13
 source: https://newsletter.semianalysis.com/p/advanced-packaging-the-size-of-your
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

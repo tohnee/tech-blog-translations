@@ -4,7 +4,7 @@ subtitle: "Nvidia's first cost disadvantage versus AMD in a decade"
 date: 2022-09-23
 source: https://newsletter.semianalysis.com/p/ada-lovelace-gpus-shows-how-desperate
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

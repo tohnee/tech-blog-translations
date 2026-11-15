@@ -4,8 +4,8 @@ subtitle: "Quadrupeds Superior Scalability, Unitree's Incredible Production, Thi
 date: 2025-10-20
 source: https://newsletter.semianalysis.com/p/quadruped-state-of-the-market-unitree
 crawled: 2026-09-15
-authors: ["Reyk Knuhtsen", "Dylan Patel", "Niko Ciminelli", "Joe Ryu", "Jeremie Eliahou Ontiveros", "Robert Ghilduta"]
-tags: ["Robotics"]
+authors: []
+tags: []
 audience: only_paid
 paywalled: true
 ---

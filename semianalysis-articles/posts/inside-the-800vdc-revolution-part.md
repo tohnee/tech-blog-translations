@@ -4,7 +4,7 @@ subtitle: "Four-Phase 800VDC Transition, Power Rack Economics, SST, Equipment Co
 date: 2026-05-26
 source: https://newsletter.semianalysis.com/p/inside-the-800vdc-revolution-part
 crawled: 2026-09-15
-authors: ["Nicolas Bontigui", "Jeremie Eliahou Ontiveros", "Konrad Wang", "Aran Industries", "Derek Yin", "Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

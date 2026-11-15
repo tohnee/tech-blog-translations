@@ -4,7 +4,7 @@ subtitle: "Unique and differentiated company culture for an exceptional semicap 
 date: 2022-07-19
 source: https://newsletter.semianalysis.com/p/disco-corporation-the-world-leader
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

@@ -4,8 +4,8 @@ subtitle: "Training Performance, User Experience, Usability, Nvidia, AMD, GEMM, 
 date: 2024-12-22
 source: https://newsletter.semianalysis.com/p/mi300x-vs-h100-vs-h200-benchmark-part-1-training
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Daniel Nishball", "Reyk Knuhtsen"]
-tags: ["Accelerators", "LLMs", "Benchmarks"]
+authors: []
+tags: []
 audience: only_paid
 paywalled: true
 ---

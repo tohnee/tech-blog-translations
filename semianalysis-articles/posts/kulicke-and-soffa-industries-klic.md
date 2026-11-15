@@ -3,7 +3,7 @@ title: "Kulicke & Soffa Industries, $KLIC, Crushes Earnings But Continues To San
 date: 2021-08-05
 source: https://newsletter.semianalysis.com/p/kulicke-and-soffa-industries-klic
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

@@ -4,8 +4,8 @@ subtitle: "90%+ Coverage by Rental GPU Value, GPU Cloud Evaluation Guidelines, G
 date: 2025-03-26
 source: https://newsletter.semianalysis.com/p/the-gpu-cloud-clustermax-rating-system-how-to-rent-gpus
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Kimbo Chen", "Daniel Nishball", "Ivan Chiam", "Reyk Knuhtsen"]
-tags: ["Hyperscaler", "Neoclouds", "Benchmarks"]
+authors: []
+tags: []
 audience: only_paid
 paywalled: true
 ---

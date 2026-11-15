@@ -3,7 +3,7 @@ title: "Advanced Packaging Part 1 – Pad Limited Designs, Breakdown Of Economic
 date: 2021-12-15
 source: https://newsletter.semianalysis.com/p/advanced-packaging-part-1-pad-limited
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

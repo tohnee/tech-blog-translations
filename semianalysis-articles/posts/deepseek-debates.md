@@ -4,8 +4,8 @@ subtitle: "H100 Pricing Soaring, Subsidized Inference Pricing, Export Controls, 
 date: 2025-01-31
 source: https://newsletter.semianalysis.com/p/deepseek-debates
 crawled: 2026-09-15
-authors: ["Dylan Patel", "AJ", "Doug", "Reyk Knuhtsen"]
-tags: ["Accelerators", "LLMs", "Export Controls"]
+authors: []
+tags: []
 audience: only_paid
 paywalled: true
 ---

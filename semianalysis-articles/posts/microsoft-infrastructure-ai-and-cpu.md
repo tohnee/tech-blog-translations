@@ -4,7 +4,7 @@ subtitle: "Specifications, Volumes, GPT-4 performance, Next Generation Timing / 
 date: 2023-11-15
 source: https://newsletter.semianalysis.com/p/microsoft-infrastructure-ai-and-cpu
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Myron Xie"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

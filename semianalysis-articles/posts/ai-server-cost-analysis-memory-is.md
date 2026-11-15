@@ -4,7 +4,7 @@ subtitle: "Micron $MU looks very weak in AI"
 date: 2023-05-29
 source: https://newsletter.semianalysis.com/p/ai-server-cost-analysis-memory-is
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Gerald Wong"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

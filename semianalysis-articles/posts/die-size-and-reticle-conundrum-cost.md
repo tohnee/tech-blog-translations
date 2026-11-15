@@ -4,7 +4,7 @@ subtitle: "Smaller Chiplets Isn't Always Better"
 date: 2022-06-19
 source: https://newsletter.semianalysis.com/p/die-size-and-reticle-conundrum-cost
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

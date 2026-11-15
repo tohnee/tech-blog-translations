@@ -4,7 +4,7 @@ subtitle: "Korea hosts a Squid Games, National AI Tournament, the best non-Chine
 date: 2026-09-01
 source: https://newsletter.semianalysis.com/p/koreas-trillion-dollar-sovereign
 crawled: 2026-09-15
-authors: ["Max Kan", "Ray Wang", "Myron Xie", "Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

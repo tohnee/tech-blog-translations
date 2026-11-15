@@ -4,7 +4,7 @@ subtitle: "American Grid design needs an overhaul, Why it is good to be full of 
 date: 2026-08-16
 source: https://newsletter.semianalysis.com/p/12b-of-us-ratepayers-money-wasted
 crawled: 2026-09-15
-authors: ["Robert Boswall", "Reyk Knuhtsen", "Jeremie Eliahou Ontiveros", "Oliver Kennon", "Dylan Patel", "Dashboard American"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

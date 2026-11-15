@@ -4,7 +4,7 @@ subtitle: "Kokusai Electric IPO, 2024 to 2026 WFE Share, Memory Pricing, Atomic 
 date: 2023-10-15
 source: https://newsletter.semianalysis.com/p/going-vertical-gate-all-around-3d
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Myron Xie", "Wega Chu"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

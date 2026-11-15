@@ -3,7 +3,7 @@ title: "The History And Timeline Of Flash Memory"
 date: 2022-08-05
 source: https://newsletter.semianalysis.com/p/the-history-and-timeline-of-flash
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

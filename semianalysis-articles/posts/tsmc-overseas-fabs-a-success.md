@@ -4,7 +4,7 @@ subtitle: "Why Morris Chang Said U.S. Fabs Will Fail, Wafer Cost and Economics o
 date: 2025-12-01
 source: https://newsletter.semianalysis.com/p/tsmc-overseas-fabs-a-success
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Steven Lee", "Jeff Koch"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

@@ -4,7 +4,7 @@ subtitle: "$3 Million USD dataset open sourced, 1 Mil+ Context Length, Multiturn
 date: 2026-08-24
 source: https://newsletter.semianalysis.com/p/agentx-inferencexv3-does-cuda-moat
 crawled: 2026-09-15
-authors: ["Cam Quilici", "Bryan Shan", "Alec Ibarra", "Daniel Nishball", "Zane Fong", "Kimbo Chen", "Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

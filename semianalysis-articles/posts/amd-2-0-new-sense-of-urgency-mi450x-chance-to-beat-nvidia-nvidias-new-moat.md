@@ -4,8 +4,8 @@ subtitle: "Rapid Improvements, Developers First Approach, Low AMD AI Software En
 date: 2025-04-23
 source: https://newsletter.semianalysis.com/p/amd-2-0-new-sense-of-urgency-mi450x-chance-to-beat-nvidia-nvidias-new-moat
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Kimbo Chen", "Daniel Nishball", "Wega Chu", "Ivan Chiam"]
-tags: ["Hardware Architecture", "Accelerators", "Semiconductors"]
+authors: []
+tags: []
 audience: only_paid
 paywalled: true
 ---

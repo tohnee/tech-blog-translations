@@ -4,7 +4,7 @@ subtitle: "Prices are doubling again, Supercycle is bigger, and could last longe
 date: 2026-02-06
 source: https://newsletter.semianalysis.com/p/memory-mania-how-a-once-in-four-decades
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Ray Wang", "Myron Xie", "Doug", "Jeff Koch"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

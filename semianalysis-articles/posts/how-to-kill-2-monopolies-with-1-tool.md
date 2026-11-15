@@ -4,7 +4,7 @@ subtitle: "Substrate X-Ray Lithography, a New American Foundry, $10k Logic Wafer
 date: 2025-10-29
 source: https://newsletter.semianalysis.com/p/how-to-kill-2-monopolies-with-1-tool
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Jeff Koch", "Gerald Wong", "Andrew Wagner"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

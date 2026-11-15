@@ -3,7 +3,7 @@ title: "ASML’s EUV Tools Have A Throughput Problem, But Lyncean Has The Answer
 date: 2021-10-13
 source: https://newsletter.semianalysis.com/p/asmls-euv-tools-have-a-throughput
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

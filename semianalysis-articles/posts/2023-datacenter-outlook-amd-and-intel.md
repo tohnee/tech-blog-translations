@@ -4,7 +4,7 @@ subtitle: "AMD 35% revenue share?"
 date: 2022-10-17
 source: https://newsletter.semianalysis.com/p/2023-datacenter-outlook-amd-and-intel
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

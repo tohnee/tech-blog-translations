@@ -4,7 +4,7 @@ subtitle: "iPhone 14, Jio, Samsung, and Meta Updates "
 date: 2022-09-08
 source: https://newsletter.semianalysis.com/p/is-mmwave-adoption-stagnating-qualcomms
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

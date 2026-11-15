@@ -4,7 +4,7 @@ subtitle: "Laying the Groundwork of the Current Chip Design Paradigm"
 date: 2026-05-12
 source: https://newsletter.semianalysis.com/p/the-eda-primer-from-rtl-to-silicon
 crawled: 2026-09-15
-authors: ["Gerald Wong", "Dylan Patel", "Sravan Kundojjala"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

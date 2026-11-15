@@ -4,7 +4,7 @@ subtitle: "Up to 105% Equity Rebate Discounts for OpenAI, Agentic Kernel Generat
 date: 2026-07-25
 source: https://newsletter.semianalysis.com/p/can-amd-break-the-cuda-moat-amd-advancing
 crawled: 2026-09-15
-authors: ["Bryan Shan", "Daniel Nishball", "Myron Xie", "Wega Chu", "Ivan Chiam", "Cam Quilici", "Cheang Kang Wen", "Kimbo Chen", "Gerald Wong", "Zane Fong", "Jordan Nanos", "Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

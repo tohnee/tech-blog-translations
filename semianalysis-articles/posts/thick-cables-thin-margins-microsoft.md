@@ -4,7 +4,7 @@ subtitle: "Future Demand Booming But Active Electrical Cables Are Not The Salvat
 date: 2023-02-15
 source: https://newsletter.semianalysis.com/p/thick-cables-thin-margins-microsoft
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Afzal Ahmad"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

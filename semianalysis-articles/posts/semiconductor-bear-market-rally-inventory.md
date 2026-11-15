@@ -3,7 +3,7 @@ title: "Semiconductor Bear Market Rally? – Inventory Analysis Of 71 Companies 
 date: 2023-01-27
 source: https://newsletter.semianalysis.com/p/semiconductor-bear-market-rally-inventory
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

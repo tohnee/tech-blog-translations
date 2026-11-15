@@ -4,7 +4,7 @@ subtitle: "Everyone Says They're Modular, Do The Vendor Claims Hold Up? Zuck's T
 date: 2026-07-29
 source: https://newsletter.semianalysis.com/p/the-wild-wild-west-of-lego-datacenters
 crawled: 2026-09-15
-authors: ["Nicolas Bontigui", "Eric (Junqi) Wen", "Jeremie Eliahou Ontiveros", "Nigel Chiang", "Reyk Knuhtsen", "Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

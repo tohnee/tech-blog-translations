@@ -4,7 +4,7 @@ subtitle: "95% Coverage By Volume, 84 Providers Rated, 209 Providers Tracked, 14
 date: 2025-11-06
 source: https://newsletter.semianalysis.com/p/clustermax-20-the-industry-standard
 crawled: 2026-09-15
-authors: ["Jordan Nanos", "Daniel Nishball", "Michelle Shen", "Cheang Kang Wen", "Wei Zhou", "Jeremie Eliahou Ontiveros", "Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

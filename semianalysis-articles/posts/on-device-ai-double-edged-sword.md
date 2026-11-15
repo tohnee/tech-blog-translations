@@ -4,7 +4,7 @@ subtitle: "Scaling limits, model size constraints, why server based AI wins, and
 date: 2023-05-13
 source: https://newsletter.semianalysis.com/p/on-device-ai-double-edged-sword
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Sophia Wisdom"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

@@ -3,7 +3,7 @@ title: "Apple A15 Die Shot and Annotation - IP Block Area Analysis"
 date: 2021-10-01
 source: https://newsletter.semianalysis.com/p/apple-a15-die-shot-and-annotation
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

@@ -4,8 +4,8 @@ subtitle: "China's Dominance Playbook, General Purpose Robotics Is The Holy Grai
 date: 2025-03-11
 source: https://newsletter.semianalysis.com/p/america-is-missing-the-new-labor-economy-robotics-part-1
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Reyk Knuhtsen", "Jeremie Eliahou Ontiveros", "Joe Ryu", "Robert Ghilduta", "Niko Ciminelli"]
-tags: ["Robotics", "AI Policy"]
+authors: []
+tags: []
 audience: everyone
 paywalled: false
 ---

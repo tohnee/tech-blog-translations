@@ -4,8 +4,8 @@ subtitle: "AI Datacenter Titanomachy, 'The Tent', AI Data and Talent Wars, Zuck 
 date: 2025-07-11
 source: https://newsletter.semianalysis.com/p/meta-superintelligence-leadership-compute-talent-and-data
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Jeremie Eliahou Ontiveros", "Wei Zhou", "AJ", "Maya Barkin"]
-tags: ["Datacenter", "Hyperscaler"]
+authors: []
+tags: []
 audience: only_paid
 paywalled: true
 ---

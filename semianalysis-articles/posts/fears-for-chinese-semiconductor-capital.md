@@ -3,7 +3,7 @@ title: "Fears for Chinese Semiconductor Capital Equipment and Chemical Supply Ch
 date: 2021-08-03
 source: https://newsletter.semianalysis.com/p/fears-for-chinese-semiconductor-capital
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

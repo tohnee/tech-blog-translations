@@ -3,7 +3,7 @@ title: "2022 NAND – Process Technology Comparison, China's YMTC Shipping Dense
 date: 2022-08-12
 source: https://newsletter.semianalysis.com/p/2022-nand-process-technology-comparison
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

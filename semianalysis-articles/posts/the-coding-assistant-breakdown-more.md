@@ -4,7 +4,7 @@ subtitle: "Hands On With GPT 5.5, Opus 4.7, DeepSeek V4, Why Benchmarks Are Bad,
 date: 2026-04-24
 source: https://newsletter.semianalysis.com/p/the-coding-assistant-breakdown-more
 crawled: 2026-09-15
-authors: ["Max Kan", "Jordan Nanos", "Samuel Kruse", "Crystal Huang", "Sam Harshe", "Dylan Patel", "Doug"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

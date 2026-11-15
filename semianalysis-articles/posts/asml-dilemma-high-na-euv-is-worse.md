@@ -4,7 +4,7 @@ subtitle: "Cost model for low- & high-NA EUV, Feature Fidelity, Technical Challe
 date: 2023-12-11
 source: https://newsletter.semianalysis.com/p/asml-dilemma-high-na-euv-is-worse
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Jeff Koch", "Lithos Graphein"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

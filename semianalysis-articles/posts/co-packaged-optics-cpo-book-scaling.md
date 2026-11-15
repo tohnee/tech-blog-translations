@@ -4,7 +4,7 @@ subtitle: "Scale-out and Scale-up CPO, CPO TCO and Power Budgets, DSP Transceive
 date: 2026-01-01
 source: https://newsletter.semianalysis.com/p/co-packaged-optics-cpo-book-scaling
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Daniel Nishball", "Myron Xie", "Ivan Chiam", "Clara Ee", "Patrick Zhou"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

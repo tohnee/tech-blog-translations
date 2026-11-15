@@ -3,7 +3,7 @@ title: "Qualcomm MWC 2021 - Network Infrastructure And Edge 5G Get Supercharged 
 date: 2021-06-29
 source: https://newsletter.semianalysis.com/p/qualcomm-mwc-2021-network-infrastructure
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

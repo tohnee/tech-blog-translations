@@ -4,7 +4,7 @@ subtitle: "Mixtral Inference Costs on H100, MI300X, H200, A100, Speculative Deco
 date: 2023-12-18
 source: https://newsletter.semianalysis.com/p/inference-race-to-the-bottom-make
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Daniel Nishball"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

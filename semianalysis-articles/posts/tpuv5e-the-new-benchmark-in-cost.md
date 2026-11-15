@@ -4,7 +4,7 @@ subtitle: "Latency, Performance, Fine-tuning, Scaling, and Networking"
 date: 2023-09-01
 source: https://newsletter.semianalysis.com/p/tpuv5e-the-new-benchmark-in-cost
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Aleksandar Kostovic"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

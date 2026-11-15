@@ -4,7 +4,7 @@ subtitle: "Huawei, SMIC, 7nm, H800, Domestic AI Capabilities, ASML, MediaTek, Qu
 date: 2023-09-12
 source: https://newsletter.semianalysis.com/p/china-ai-and-semiconductors-rise
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Afzal Ahmad", "Myron Xie"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

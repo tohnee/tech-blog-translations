@@ -4,7 +4,7 @@ subtitle: "On Site Turbines, Mississippi Expansion, Solaris Energy, Can xAI affo
 date: 2025-09-16
 source: https://newsletter.semianalysis.com/p/xais-colossus-2-first-gigawatt-datacenter
 crawled: 2026-09-15
-authors: ["Jeremie Eliahou Ontiveros", "Dylan Patel", "Wei Zhou", "AJ", "Maya Barkin"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

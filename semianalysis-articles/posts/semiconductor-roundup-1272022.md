@@ -4,7 +4,7 @@ subtitle: "Intel, Teradyne, Lam Research, Wolfspeed, Texas Instruments, UMC, Xil
 date: 2022-01-27
 source: https://newsletter.semianalysis.com/p/semiconductor-roundup-1272022
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

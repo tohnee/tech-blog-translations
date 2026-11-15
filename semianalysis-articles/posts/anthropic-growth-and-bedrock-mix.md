@@ -4,8 +4,8 @@ subtitle: "Amazon’s Bedrock Mix and Anthropic Deal Terms Combine to Show Great
 date: 2026-05-27
 source: https://newsletter.semianalysis.com/p/anthropic-growth-and-bedrock-mix
 crawled: 2026-09-15
-authors: ["Jeremie Eliahou Ontiveros", "Joey Brookhart", "Crystal Huang", "Dylan Patel"]
-tags: ["Datacenter", "Tokenomics"]
+authors: []
+tags: []
 audience: only_paid
 paywalled: true
 ---

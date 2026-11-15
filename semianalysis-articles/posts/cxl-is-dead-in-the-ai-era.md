@@ -4,7 +4,7 @@ subtitle: "AI Accelerator Beachfront Considerations, Memory Pooling Negatives, C
 date: 2024-03-16
 source: https://newsletter.semianalysis.com/p/cxl-is-dead-in-the-ai-era
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Jeremie Eliahou Ontiveros"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

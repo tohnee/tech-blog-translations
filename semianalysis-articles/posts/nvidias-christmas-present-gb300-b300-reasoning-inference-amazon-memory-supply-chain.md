@@ -4,7 +4,7 @@ subtitle: "Blackwell Delays, Microsoft Orders, GB300 BOM, Nvidia Gross Margin, C
 date: 2024-12-25
 source: https://newsletter.semianalysis.com/p/nvidias-christmas-present-gb300-b300-reasoning-inference-amazon-memory-supply-chain
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Myron Xie", "Daniel Nishball"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

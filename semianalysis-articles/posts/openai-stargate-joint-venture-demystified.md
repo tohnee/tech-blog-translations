@@ -4,7 +4,7 @@ subtitle: "Money Rules Everything Around Me, The Real Numbers Behind Stargate, L
 date: 2025-01-23
 source: https://newsletter.semianalysis.com/p/openai-stargate-joint-venture-demystified
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Reyk Knuhtsen", "Christopher Seifel", "Jeremie Eliahou Ontiveros"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

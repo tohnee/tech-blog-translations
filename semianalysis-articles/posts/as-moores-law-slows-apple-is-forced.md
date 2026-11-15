@@ -4,7 +4,7 @@ subtitle: "Terrifying Implications For The Semiconductor Industry"
 date: 2022-03-14
 source: https://newsletter.semianalysis.com/p/as-moores-law-slows-apple-is-forced
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

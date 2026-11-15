@@ -3,7 +3,7 @@ title: "The Tesla Dojo Chip Is Impressive, But There Are Some Major Technical Is
 date: 2021-08-25
 source: https://newsletter.semianalysis.com/p/the-tesla-dojo-chip-is-impressive
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

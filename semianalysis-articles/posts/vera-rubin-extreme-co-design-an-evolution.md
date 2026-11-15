@@ -4,7 +4,7 @@ subtitle: "Vera, Rubin, NVLink 6 Switch, ConnectX-9, BlueField-4, Spectrum-6, Se
 date: 2026-02-25
 source: https://newsletter.semianalysis.com/p/vera-rubin-extreme-co-design-an-evolution
 crawled: 2026-09-15
-authors: ["Wega Chu", "Dylan Patel", "Daniel Nishball", "Clara Ee", "Gerald Wong", "Myron Xie", "Cheang Kang Wen", "Ray Wang", "Nicolas Bontigui", "Ivan Chiam", "Michael Chen"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

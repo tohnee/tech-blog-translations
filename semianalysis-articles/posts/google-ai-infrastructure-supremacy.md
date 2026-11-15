@@ -4,7 +4,7 @@ subtitle: "From DLRM to LLM, internal workloads win, but how does Google fare in
 date: 2023-04-12
 source: https://newsletter.semianalysis.com/p/google-ai-infrastructure-supremacy
 crawled: 2026-09-15
-authors: ["Dylan Patel", "George Cozma", "Gerald Wong"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

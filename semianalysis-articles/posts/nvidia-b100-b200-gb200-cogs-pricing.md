@@ -4,7 +4,7 @@ subtitle: "The B Stands For Jensen's Benevolence"
 date: 2024-03-18
 source: https://newsletter.semianalysis.com/p/nvidia-b100-b200-gb200-cogs-pricing
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Myron Xie", "Chaolien Tseng"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

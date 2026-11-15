@@ -4,7 +4,7 @@ subtitle: "ASML’s long-term model is highly questionable"
 date: 2022-11-30
 source: https://newsletter.semianalysis.com/p/lithography-intensity-and-long-term
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Afzal Ahmad"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

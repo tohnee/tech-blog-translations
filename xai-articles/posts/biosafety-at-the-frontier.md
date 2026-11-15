@@ -2,12 +2,10 @@
 title: "Biosecurity at the frontier"
 date: 2026-09-01
 source: https://x.ai/news/biosafety-at-the-frontier
-crawled: 2026-09-22
+crawled: 2026-11-16
 ---
 
-[Back to news](/news)
-
-Sep 1, 2026
+[Back to news](/news)Sep 1, 2026
 
 # Biosecurity at the frontier
 
@@ -15,8 +13,8 @@ Sep 1, 2026
 
 Today, [LatchBio](https://latch.bio/) published an independent analysis of Grok 4.6 on their biological capability and biological red-teaming benchmark suites. These evaluations measure a wide range of characteristics and capabilities of tested models, including:
 
-- Whether a model can distinguish between legitimate biological research and requests that conceal a biosecurity hazard
-- Whether a model is useful in a biosecurity and biomonitoring role, by being able to detect and characterize emerging pathogens and patterns of transmission
+* Whether a model can distinguish between legitimate biological research and requests that conceal a biosecurity hazard
+* Whether a model is useful in a biosecurity and biomonitoring role, by being able to detect and characterize emerging pathogens and patterns of transmission
 
 On LatchBio's BioSecBench-Refusal suite, Grok 4.6 was the strongest model tested at refusing disguised and hazardous tasks while still completing routine biological work. It was the only system to score above 50% on both measures.
 
@@ -26,8 +24,8 @@ Biology and biological research present domains where the opportunities and risk
 
 LatchBio's two benchmarks most relevant to the above capabilities measure whether an agent can distinguish concealed hazards from ordinary science, and whether it can carry out the pathogen surveillance workflows public-health work depends on. They are:
 
-- **BioSecBench-Refusal**, which pairs routine biological tasks, adapted from published literature, with 46 red-team tasks that look like ordinary research and hide the hazard in attached scientific data, mislabeled files, or other intentionally obfuscated tasks. This evaluation is calibrated around understanding the intent of a task: an agent that only reacts to words like "pathogen" or "toxin" will block the routine set and miss the red-team set, while one that inspects the data can tell the two apart.
-- **BioSecBench-Surveillance**, which tests whether an agent can carry out pathogen genomic surveillance workflows of the kind used in public-health monitoring. Those tasks require chaining file inspection, tool use, and scientific judgment on messy sequencing data.
+* **BioSecBench-Refusal**, which pairs routine biological tasks, adapted from published literature, with 46 red-team tasks that look like ordinary research and hide the hazard in attached scientific data, mislabeled files, or other intentionally obfuscated tasks. This evaluation is calibrated around understanding the intent of a task: an agent that only reacts to words like "pathogen" or "toxin" will block the routine set and miss the red-team set, while one that inspects the data can tell the two apart.
+* **BioSecBench-Surveillance**, which tests whether an agent can carry out pathogen genomic surveillance workflows of the kind used in public-health monitoring. Those tasks require chaining file inspection, tool use, and scientific judgment on messy sequencing data.
 
 ## [Results and key findings](#results-and-key-findings)
 
@@ -59,8 +57,8 @@ Similarly, there is a risk inherent in overrefusals and miscalibrated safeguards
 
 Grok is already used in scientific work, including general biological research and biosecurity monitoring, and we are optimistic about the ability of highly capable models to rapidly accelerate scientific discovery and shorten the path from the lab to practical use. We are committed to continuing to serve frontier intelligence securely and safely to the engineers, researchers, enterprises, and institutions advancing the life sciences.
 
-LatchBio's full methods and per-model scores are presented at [benchmarks.bio](https://benchmarks.bio). LatchBio's complementary blog, the Grok 4.6 model card, and SpaceXAI's Frontier Artificial Intelligence Framework are linked below.
+LatchBio's full methods and per-model scores are presented at [benchmarks.bio](https://benchmarks.bio). LatchBio's complementary blog, the Grok 4.6 model card, and SpaceXSI's Frontier Artificial Intelligence Framework are linked below.
 
-- [LatchBio blog](https://blog.latch.bio/p/analyzing-grok46-safeguards)
-- [Grok 4.6 model card](https://media.x.ai/v1/website/card-4p6-4cd2dc57.pdf)
-- [Frontier Artificial Intelligence Framework](https://media.x.ai/v1/website/xai-frontier-artificial-intelligence-framework-30-june-2026-99c40684.pdf)
+* [LatchBio blog](https://blog.latch.bio/p/analyzing-grok46-safeguards)
+* [Grok 4.6 model card](https://media.x.ai/v1/website/card-4p6-4cd2dc57.pdf)
+* [Frontier Artificial Intelligence Framework](https://media.x.ai/v1/website/xai-frontier-artificial-intelligence-framework-30-june-2026-f1f0c916.pdf)

@@ -4,7 +4,7 @@ subtitle: "Hyperscalers have different hardware software advantages"
 date: 2022-10-05
 source: https://newsletter.semianalysis.com/p/amazon-web-services-infrastructure
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

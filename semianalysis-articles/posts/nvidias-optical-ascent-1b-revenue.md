@@ -4,7 +4,7 @@ subtitle: "1 Supplier Is A Winner Take All, Revealing The AI Head-Fakes"
 date: 2023-08-23
 source: https://newsletter.semianalysis.com/p/nvidias-optical-ascent-1b-revenue
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Daniel Nishball"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

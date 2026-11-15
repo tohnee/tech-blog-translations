@@ -4,7 +4,7 @@ subtitle: "China’s CXMT Sanctions Violation, Samsung 1000-layer Vertical NAND 
 date: 2024-01-03
 source: https://newsletter.semianalysis.com/p/intel-genai-for-yield-tsmc-cfet-and
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Jeff Koch", "Myron Xie", "Daniel Nishball", "Anand Chamarthy"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

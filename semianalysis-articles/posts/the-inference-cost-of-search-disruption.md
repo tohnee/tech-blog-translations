@@ -4,7 +4,7 @@ subtitle: "$30B Of Google Profit Evaporating Overnight, Performance Improvement 
 date: 2023-02-09
 source: https://newsletter.semianalysis.com/p/the-inference-cost-of-search-disruption
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Afzal Ahmad"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

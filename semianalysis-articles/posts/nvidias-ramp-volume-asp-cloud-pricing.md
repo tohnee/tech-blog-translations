@@ -4,7 +4,7 @@ subtitle: "Unraveling the Mixed Signals in the Supply Chain from AI Head-Fakes"
 date: 2023-08-20
 source: https://newsletter.semianalysis.com/p/nvidias-ramp-volume-asp-cloud-pricing
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Myron Xie", "Daniel Nishball"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

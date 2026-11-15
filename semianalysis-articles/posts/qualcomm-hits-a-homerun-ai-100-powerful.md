@@ -3,7 +3,7 @@ title: "Qualcomm Hits a Homerun AI 100 - Powerful AI Inference Acceleration For 
 date: 2021-06-17
 source: https://newsletter.semianalysis.com/p/qualcomm-hits-a-homerun-ai-100-powerful
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

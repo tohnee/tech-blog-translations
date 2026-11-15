@@ -4,7 +4,7 @@ subtitle: "Astera Labs Leo has a feature and time-to-market advantage."
 date: 2022-08-30
 source: https://newsletter.semianalysis.com/p/astera-labs-is-first-to-cxl-memory
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

@@ -3,7 +3,7 @@ title: "Intel Betting The Farm – Shrinking Business, Margins Down For Few Year
 date: 2021-10-22
 source: https://newsletter.semianalysis.com/p/intel-betting-the-farm-shrinking
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

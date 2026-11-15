@@ -4,7 +4,7 @@ subtitle: "Gigawatt Dreams and Matroyshka Brains Limited By Datacenters Not Chip
 date: 2024-03-13
 source: https://newsletter.semianalysis.com/p/ai-datacenter-energy-dilemma-race
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Daniel Nishball", "Jeremie Eliahou Ontiveros"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

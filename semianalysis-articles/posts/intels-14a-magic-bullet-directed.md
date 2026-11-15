@@ -4,7 +4,7 @@ subtitle: "How High-NA EUV can be economically viable at the 1.4nm process node"
 date: 2024-04-18
 source: https://newsletter.semianalysis.com/p/intels-14a-magic-bullet-directed
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Jeff Koch"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

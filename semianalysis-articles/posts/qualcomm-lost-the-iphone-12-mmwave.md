@@ -3,7 +3,7 @@ title: "Qualcomm Lost the iPhone 12 mmWave Antenna Module Contract to a Chinese 
 date: 2020-10-25
 source: https://newsletter.semianalysis.com/p/qualcomm-lost-the-iphone-12-mmwave
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

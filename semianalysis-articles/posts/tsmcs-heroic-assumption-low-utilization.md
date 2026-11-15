@@ -4,7 +4,7 @@ subtitle: "Can these heroic assumptions be supported? Tremendous risk."
 date: 2023-04-20
 source: https://newsletter.semianalysis.com/p/tsmcs-heroic-assumption-low-utilization
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Gerald Wong"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

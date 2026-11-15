@@ -4,7 +4,7 @@ subtitle: "Bottoms Up Model, Units, ASP, Revenue, By Hyperscaler Analysis, EPS &
 date: 2024-03-17
 source: https://newsletter.semianalysis.com/p/astera-labs-ipo-the-next-connectivity
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Jeremie Eliahou Ontiveros"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

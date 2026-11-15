@@ -4,8 +4,8 @@ subtitle: "UPS, Generators, Transformers, Switchgear, Power Distribution Equipme
 date: 2025-04-10
 source: https://newsletter.semianalysis.com/p/tariff-armageddon-gpu-loopholes
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Jeremie Eliahou Ontiveros", "Patrick Zhou", "Jeff Koch", "Sravan Kundojjala", "Reyk Knuhtsen", "Christopher Seifel", "Wega Chu", "Maya Barkin"]
-tags: ["Supply Chain", "Export Controls", "AI Policy"]
+authors: []
+tags: []
 audience: only_paid
 paywalled: true
 ---

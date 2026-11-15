@@ -4,7 +4,7 @@ subtitle: "Overcoming Eroom's Law: Enabling Moore's Law in Healthcare With Poten
 date: 2023-09-27
 source: https://newsletter.semianalysis.com/p/nvidia-buys-illumina-the-ai-foundry
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Daniel Nishball", "William March", "Deeran Patel, MD"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

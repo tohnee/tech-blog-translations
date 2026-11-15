@@ -3,7 +3,7 @@ title: "Google New Custom Silicon Replaces 10 Million Intel CPUs | Google Argos 
 date: 2021-06-02
 source: https://newsletter.semianalysis.com/p/google-new-custom-silicon-replaces
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

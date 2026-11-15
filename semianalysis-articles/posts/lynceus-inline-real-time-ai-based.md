@@ -4,7 +4,7 @@ subtitle: "Lowers inspection and metrology spend with higher yields, demonstrate
 date: 2022-07-28
 source: https://newsletter.semianalysis.com/p/lynceus-inline-real-time-ai-based
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

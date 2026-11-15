@@ -3,7 +3,7 @@ title: "Turning The Titanic – How Intel Is Using Software Acquisitions And Inc
 date: 2022-05-18
 source: https://newsletter.semianalysis.com/p/turning-the-titanic-how-intel-is
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

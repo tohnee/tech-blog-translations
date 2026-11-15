@@ -3,7 +3,7 @@ title: "Advanced Packaging Part 3 – Intel’s Curious Bet on Thermocompression
 date: 2022-01-19
 source: https://newsletter.semianalysis.com/p/advanced-packaging-part-3-intels
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

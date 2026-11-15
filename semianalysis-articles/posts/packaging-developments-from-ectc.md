@@ -4,7 +4,7 @@ subtitle: "TSMC CoWoS-R+, TSMC 4th Generation SoIC, Intel Collective Die To Wafe
 date: 2022-06-08
 source: https://newsletter.semianalysis.com/p/packaging-developments-from-ectc
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

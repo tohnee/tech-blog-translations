@@ -2,12 +2,10 @@
 title: "Designing Grok Bot for a world of persistent agents"
 date: 2026-09-03
 source: https://x.ai/news/designing-grok-bot
-crawled: 2026-09-22
+crawled: 2026-11-16
 ---
 
-[Back to news](/news)
-
-Sep 3, 2026
+[Back to news](/news)Sep 3, 2026
 
 # Designing Grok Bot for a world of persistent agents
 
@@ -19,7 +17,7 @@ When we started designing Grok Bot, one of the central questions was how the int
 
 We wanted to design for an agent that persists beyond any one session and can carry responsibility on its own. That meant reconsidering some of the basic objects and signals of the interface, including what belongs in the sidebar, how an agent shows progress, and when its work should become visible.
 
-![](/_next/static/media/wallpaper-light-noon.27_hyf9uycov-.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)![](/_next/static/media/wallpaper-dark-night.2tq8j5y-604e-.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/wallpaper-light-noon.27_hyf9uycov-.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)![](/_next/static/media/wallpaper-dark-night.2tq8j5y-604e-.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
 Search
 
@@ -81,7 +79,7 @@ Sourced 3. Skipped one already in your ATS.
 
 Plugins
 
-![](/_next/static/media/user-peng.3rw63gdxpcheg.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/user-peng.3rw63gdxpcheg.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
 Peng Zheng
 
@@ -103,7 +101,7 @@ Yes, it came up twice. Marcus said the roadmap review is now expected in the fir
 
 Message Kenny
 
-![](/_next/static/media/wallpaper-gray.13vta0mrxymev.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)![](/_next/static/media/wallpaper-dark-night.2tq8j5y-604e-.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)![](/_next/static/media/dock-icons.0cwlcw-73qj01.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/wallpaper-gray.13vta0mrxymev.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)![](/_next/static/media/wallpaper-dark-night.2tq8j5y-604e-.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)![](/_next/static/media/dock-icons.0cwlcw-73qj01.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
 Kenny’s screen
 
@@ -193,127 +191,127 @@ Once a Bot was something you maintain over time rather than a session you start,
 
 A roster only works if it can be scanned quickly. As the roster grows, we did not want people to have to read every name each time they opened the product. They should be able to recognize a Bot from its avatar almost peripherally.
 
-![](/_next/static/media/initials-1.0yig-qj1joruk.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/initials-1.0yig-qj1joruk.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/initials-2.1txviuzdipoiw.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/initials-2.1txviuzdipoiw.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/initials-3.38z4vaotfsn1v.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/initials-3.38z4vaotfsn1v.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/initials-4.01qrbimmhtavw.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/initials-4.01qrbimmhtavw.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/initials-5.3jwzv-u8m85v8.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/initials-5.3jwzv-u8m85v8.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/initials-6.19sekhuc8jakl.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/initials-6.19sekhuc8jakl.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/emoji-1.3h5blj8bz5-jf.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/emoji-1.3h5blj8bz5-jf.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/emoji-2.39jbp_6rdd-5c.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/emoji-2.39jbp_6rdd-5c.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/emoji-3.28sgvmrs9mln9.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/emoji-3.28sgvmrs9mln9.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/emoji-4.2avjpk08w6cek.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/emoji-4.2avjpk08w6cek.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/emoji-5.01zc07ny7g1nn.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/emoji-5.01zc07ny7g1nn.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/emoji-6.09640mz61fg7f.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/emoji-6.09640mz61fg7f.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/agentb-1.3r4tz4_d9u_-z.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/agentb-1.3r4tz4_d9u_-z.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/agentb-2.3fmjch4q22wof.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/agentb-2.3fmjch4q22wof.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/agentb-3.3riz-3zy_f268.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/agentb-3.3riz-3zy_f268.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/agentb-4.2--kd8w9v-eaw.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/agentb-4.2--kd8w9v-eaw.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/agentb-5.0d3thxc1-7umo.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/agentb-5.0d3thxc1-7umo.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/agentb-6.2hz5ggcwjuefo.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/agentb-6.2hz5ggcwjuefo.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/base-1.13x8p2khem12n.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/base-1.13x8p2khem12n.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/base-2.0_m9l5xohcj95.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/base-2.0_m9l5xohcj95.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/base-3.35r25_i92f7lp.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/base-3.35r25_i92f7lp.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/base-4.1p9fcypmuoe49.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/base-4.1p9fcypmuoe49.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/base-5.1fhzuvuy00j0n.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/base-5.1fhzuvuy00j0n.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/base-6.3t9tmxu30heol.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/base-6.3t9tmxu30heol.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/new3d-1.1zc81r05mlxf2.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/new3d-1.1zc81r05mlxf2.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/new3d-2.27lpziqdwd0j0.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/new3d-2.27lpziqdwd0j0.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/new3d-3.1u9ugv0y8018y.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/new3d-3.1u9ugv0y8018y.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/new3d-4.0o6i10hvi0pyz.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/new3d-4.0o6i10hvi0pyz.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/new3d-5.0dfi-x29-s1jo.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/new3d-5.0dfi-x29-s1jo.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/new3d-6.30xsvxdcjr7_i.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/new3d-6.30xsvxdcjr7_i.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/blob-1.179mb5k-55q0s.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/blob-1.179mb5k-55q0s.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/blob-2.0f9k73iqne5ic.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/blob-2.0f9k73iqne5ic.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/blob-3.3ccg438vd4bnj.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/blob-3.3ccg438vd4bnj.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/blob-4.26votlluxpf3p.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/blob-4.26votlluxpf3p.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/blob-5.3td20ca0sy08_.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/blob-5.3td20ca0sy08_.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/blob-6.24umj72ldwxsm.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/blob-6.24umj72ldwxsm.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/line-1.2vlri0g4yob5c.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/line-1.2vlri0g4yob5c.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/line-2.0k59bd-g6w77s.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/line-2.0k59bd-g6w77s.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/line-3.00_foixq2-eza.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/line-3.00_foixq2-eza.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/line-4.3na4nl1j5at_t.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/line-4.3na4nl1j5at_t.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/line-5.3rjal0p5m-286.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/line-5.3rjal0p5m-286.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/line-6.2ehf_3xbvejl2.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/line-6.2ehf_3xbvejl2.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/s32-1.2utembwuppxxx.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/s32-1.2utembwuppxxx.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/s32-2.3iy5no1sbn35f.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/s32-2.3iy5no1sbn35f.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/s32-3.0e7acsgpg5bqv.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/s32-3.0e7acsgpg5bqv.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/s32-4.21x56bl2zkenr.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/s32-4.21x56bl2zkenr.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/s32-5.10zlplp724o1m.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/s32-5.10zlplp724o1m.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/s32-6.26kxeg4kxjnex.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/s32-6.26kxeg4kxjnex.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/mix-1.11lta7nrjb9pn.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/mix-1.11lta7nrjb9pn.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/mix-2.1tpo6-fp8vgup.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/mix-2.1tpo6-fp8vgup.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/mix-3.32f6whniadrub.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/mix-3.32f6whniadrub.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/mix-4.1pily-uyp88-h.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/mix-4.1pily-uyp88-h.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/mix-5.2sq51vj2aq2dn.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/mix-5.2sq51vj2aq2dn.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/mix-6.1e2kj0mwyz2mi.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/mix-6.1e2kj0mwyz2mi.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/agenta-1.1iuswpcl3hq8o.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/agenta-1.1iuswpcl3hq8o.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/agenta-2.346vsyk23d7i_.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/agenta-2.346vsyk23d7i_.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/agenta-3.20lqy9orb-_2u.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/agenta-3.20lqy9orb-_2u.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/agenta-4.44r1bdv8r6u-c.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/agenta-4.44r1bdv8r6u-c.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/agenta-5.3at_es63n-ehm.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/agenta-5.3at_es63n-ehm.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/agenta-6.3m1estnwuqiu3.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/agenta-6.3m1estnwuqiu3.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-Bot avatar visual style explorations by Kenny Kuh and Peng Zheng
+Bot avatar visual style explorations
 
 At the same time, we wanted to keep the avatars consistent enough to read as one system. We studied character systems across illustration, animation, games, and interface design, exploring everything from initials and emojis to pixel art, watercolor, claymorphism, Noritake-style line art, silhouettes, and identicons.
 
@@ -331,7 +329,7 @@ At rest, the Bot is calm and slightly curious. When work arrives, it acknowledge
 
 IdleWorkingWaitingBlockedThinkingDone
 
-Avatar motion system by Benji Taylor
+Avatar motion system
 
 ### [How much do I need to know](#how-much-do-i-need-to-know)
 
@@ -339,27 +337,27 @@ A related design question was how much of the Bot’s execution to show. One app
 
 Searching the web
 
-- Environment ready 387ms
-- Edited math.ts +14 −10
-- Ran focused tests npm test
-- Ran type-check npm run
-- Thought briefly
-- Searched code “toFixed”
-- Read AGENTS.md
-- Edited math.test.ts +6 −2
-- Ran full suite 212 passed
-- Committed fix: clamp NaN
+* Environment ready 387ms
+* Edited math.ts +14 −10
+* Ran focused tests npm test
+* Ran type-check npm run
+* Thought briefly
+* Searched code “toFixed”
+* Read AGENTS.md
+* Edited math.test.ts +6 −2
+* Ran full suite 212 passed
+* Committed fix: clamp NaN
 
-- Environment ready 387ms
-- Edited math.ts +14 −10
-- Ran focused tests npm test
-- Ran type-check npm run
-- Thought briefly
-- Searched code “toFixed”
-- Read AGENTS.md
-- Edited math.test.ts +6 −2
-- Ran full suite 212 passed
-- Committed fix: clamp NaN
+* Environment ready 387ms
+* Edited math.ts +14 −10
+* Ran focused tests npm test
+* Ran type-check npm run
+* Thought briefly
+* Searched code “toFixed”
+* Read AGENTS.md
+* Edited math.test.ts +6 −2
+* Ran full suite 212 passed
+* Committed fix: clamp NaN
 
 We also tried showing a short written description of the Bot’s current action, but once people could see one step, they wanted to see the rest. User research showed us that they were asking for that detail mainly for reassurance that the Bot was still working and on the right track.
 
@@ -371,36 +369,36 @@ Each Bot has its own computer, which it can use to browse the web, work with fil
 
 We explored four arrangements:
 
-- **Floating window:** kept the computer easy to reach but covered the conversation.
-- **Side by side:** made the work continuously visible and encouraged users to watch it.
-- **Modal:** made checking in easy but treated the Bot’s workspace as a temporary interruption.
-- **Full screen:** gave the computer plenty of room but displaced the conversation entirely.
+* **Floating window:** kept the computer easy to reach but covered the conversation.
+* **Side by side:** made the work continuously visible and encouraged users to watch it.
+* **Modal:** made checking in easy but treated the Bot’s workspace as a temporary interruption.
+* **Full screen:** gave the computer plenty of room but displaced the conversation entirely.
 
-![](/_next/static/media/wallpaper-gray.13vta0mrxymev.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/wallpaper-gray.13vta0mrxymev.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/wallpaper-gray.13vta0mrxymev.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/wallpaper-gray.13vta0mrxymev.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/wallpaper-gray.13vta0mrxymev.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/wallpaper-gray.13vta0mrxymev.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/wallpaper-gray.13vta0mrxymev.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/wallpaper-gray.13vta0mrxymev.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
 The more prominent we made the computer, the more the product encouraged users to supervise it. We decided it should remain the Bot’s workspace, with the interface providing different levels of access as the user needed them.
 
 The final design has three levels, which allow the user to enter the Bot’s workspace without being drawn into operating it:
 
-- **Status:** the title-bar icon turns purple while the computer is active.
-- **Preview:** opening it reveals a pinned side panel where the user can follow the work without leaving the conversation.
-- **Takeover:** when the Bot needs help, the user can open the computer full screen, take control, and then hand it back.
+* **Status:** the title-bar icon turns purple while the computer is active.
+* **Preview:** opening it reveals a pinned side panel where the user can follow the work without leaving the conversation.
+* **Takeover:** when the Bot needs help, the user can open the computer full screen, take control, and then hand it back.
 
-![](/_next/static/media/wallpaper-gray.13vta0mrxymev.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/wallpaper-gray.13vta0mrxymev.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-![](/_next/static/media/wallpaper-gray.13vta0mrxymev.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![](/_next/static/media/wallpaper-gray.13vta0mrxymev.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
 We also designed wallpapers that shift throughout the day, becoming lighter in the morning and darker at night. The detail gives the Bot’s computer its own sense of time and makes it feel separate from the user’s desktop.
 
-![light day](/_next/static/media/wall-strip-1.3gno9o6tamsil.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)![light noon](/_next/static/media/wall-strip-2.06luvae_idfx_.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)![light night](/_next/static/media/wall-strip-3.170lw02z5ufzv.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)![dark day](/_next/static/media/wall-strip-4.31folbdvqalze.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)![dark noon](/_next/static/media/wall-strip-5.099mty7qqe_zp.png?dpl=702d66810f68a9b3358a1630ef110604e47b5f2e)
+![light day](/_next/static/media/wall-strip-1.3gno9o6tamsil.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)![light noon](/_next/static/media/wall-strip-2.06luvae_idfx_.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)![light night](/_next/static/media/wall-strip-3.170lw02z5ufzv.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)![dark day](/_next/static/media/wall-strip-4.31folbdvqalze.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)![dark noon](/_next/static/media/wall-strip-5.099mty7qqe_zp.png?dpl=cce67e653c7727cb68a5145c5338afdb9fb3cfc5)
 
-Dynamic wallpaper by Kenny Kuh and Luke Barker.
+Dynamic wallpaper
 
 It is closer to working with a coworker than operating a remote machine. You can tell that they are working, glance at their screen when you need context, and sit down when something requires your help.
 
@@ -429,7 +427,7 @@ Peng
 
 Send emailDiscard
 
-Inline chat widgets by Peng Zheng
+Inline chat widgets
 
 The same principle applies to actions. When a Bot creates a Routine, changes a setting, or messages another Bot, the event can appear directly in the transcript. The user can open it when there is more to inspect.
 

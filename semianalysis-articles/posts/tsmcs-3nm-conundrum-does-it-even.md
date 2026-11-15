@@ -4,7 +4,7 @@ subtitle: "Shrinking finally costs more, Moore's Law is now dead in economic ter
 date: 2022-12-21
 source: https://newsletter.semianalysis.com/p/tsmcs-3nm-conundrum-does-it-even
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Afzal Ahmad"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

@@ -2,12 +2,10 @@
 title: "Composer 2.5"
 date: 2026-06-01
 source: https://x.ai/news/composer-2-5
-crawled: 2026-09-22
+crawled: 2026-11-16
 ---
 
-[Back to news](/news)
-
-Jun 1, 2026
+[Back to news](/news)Jun 1, 2026
 
 # Composer 2.5
 
@@ -15,7 +13,7 @@ Composer 2.5 is now available in Grok Build. Try it from the /models menu.
 
 `$ curl -fsSL https://x.ai/cli/install.sh | bash`
 
-Available to SuperGrok and X Premium+
+Available to try for Free
 
 ---
 

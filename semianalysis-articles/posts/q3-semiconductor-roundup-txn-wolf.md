@@ -4,7 +4,7 @@ subtitle: "Earnings Reviews And Previews"
 date: 2022-10-27
 source: https://newsletter.semianalysis.com/p/q3-semiconductor-roundup-txn-wolf
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

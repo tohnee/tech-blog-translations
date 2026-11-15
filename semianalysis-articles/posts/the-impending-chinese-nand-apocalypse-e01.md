@@ -3,7 +3,7 @@ title: "The Impending Chinese NAND Apocalypse – YMTC 128 Layer NAND Is The Fir
 date: 2021-09-28
 source: https://newsletter.semianalysis.com/p/the-impending-chinese-nand-apocalypse-e01
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

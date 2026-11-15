@@ -4,7 +4,7 @@ subtitle: "Includes Tracking Sheet With 106 Active Projects In Supply Chain"
 date: 2022-06-26
 source: https://newsletter.semianalysis.com/p/can-you-trust-semiconductor-capital
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

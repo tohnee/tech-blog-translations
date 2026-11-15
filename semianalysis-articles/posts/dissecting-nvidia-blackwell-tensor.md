@@ -4,7 +4,7 @@ subtitle: "Microbenchmarking, tcgen05, 2SM MMA, UMMA, TMA, LDGSTS, UBLKCP, Speed
 date: 2026-03-31
 source: https://newsletter.semianalysis.com/p/dissecting-nvidia-blackwell-tensor
 crawled: 2026-09-15
-authors: ["Kimbo Chen", "Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

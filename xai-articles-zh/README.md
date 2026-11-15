@@ -1,16 +1,17 @@
 # xAI 文章中文索引
 
 > x.ai/news（经 Wayback Machine 存档；直连受 Cloudflare 拦截）
-> 英文归档 `xai-articles/`（92 篇），中文 `xai-articles-zh/`（92 篇）。
+> 英文归档 `xai-articles/`（93 篇），中文 `xai-articles-zh/`（93 篇）。
 > 翻译规范：`TRANSLATION_GUIDE_AI_VENDORS.md`；arXiv 论文在 `papers/` 子目录（译文同样在 `*-zh/papers/`）。
 
-| 篇数 | 92 EN → 92 ZH |
+| 篇数 | 93 EN → 93 ZH |
 |---|---|
 | ✅ 📝 | 2026-06-15 | Agent Dashboard in Grok Build | `posts/agent-dashboard.md` |
 | ✅ 📝 | 2026-05-06 | New Compute Partnership with Anthropic | `posts/anthropic-compute-partnership.md` |
 | ✅ 📝 | 2025-03-30 | api | `posts/api.md` |
 | ✅ 📝 | 2026-09-01 | Biosecurity at the frontier | `posts/biosafety-at-the-frontier.md` |
 | ✅ 📝 | 2026-06-01 | Composer 2.5 | `posts/composer-2-5.md` |
+| ✅ 📝 | 2026-11-02 | Giving every team a data scientist with Grok Bot | `posts/data-bot.md` |
 | ✅ 📝 | 2026-09-03 | Designing Grok Bot for a world of persistent agents | `posts/designing-grok-bot.md` |
 | ✅ 📝 | 2025-12-11 | el-salvador-partnership | `posts/el-salvador-partnership.md` |
 | ✅ 📝 | 2025-07-14 | government | `posts/government.md` |

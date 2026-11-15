@@ -4,8 +4,8 @@ subtitle: "China Abundance of Power, 100% Optics, 0% Copper, Power Inefficiency,
 date: 2025-04-16
 source: https://newsletter.semianalysis.com/p/huawei-ai-cloudmatrix-384-chinas-answer-to-nvidia-gb200-nvl72
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Daniel Nishball", "Myron Xie", "Patrick Zhou", "Ivan Chiam", "AJ", "Christopher Seifel", "Doug"]
-tags: ["Hardware Architecture", "Accelerators", "Export Controls"]
+authors: []
+tags: []
 audience: only_paid
 paywalled: true
 ---

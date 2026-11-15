@@ -21,7 +21,7 @@ SRC_DIR = (ROOT / "semianalysis-articles" / "src").resolve()
 SRC_DIR.mkdir(parents=True, exist_ok=True)
 
 ALLOWED_HOSTS = {"newsletter.semianalysis.com"}
-LIST_URL = "https://newsletter.semianalysis.com/api/v1/archive?sort=new&offset={o}&limit=12"
+LIST_URL = "https://newsletter.semianalysis.com/api/v1/archive?sort=new&limit=24"
 POST_URL = "https://newsletter.semianalysis.com/api/v1/posts/{s}"
 
 
@@ -79,17 +79,15 @@ def main() -> None:
         posts = json.load(open(index_path))
         print(f"index cached: {len(posts)} posts")
     else:
-        posts, offset, seen = [], 0, set()
-        while True:
-            batch = fetch_json(LIST_URL.format(o=offset))
-            if not batch:
-                break
-            for p in batch:
-                if p["id"] not in seen:
-                    seen.add(p["id"])
-                    posts.append(p)
-            offset += len(batch)
-            time.sleep(0.3)
+        # 2026-11 起 archive API 移除 offset 分页，响应为 {"posts": [...]}；单页 50 条足够增量与建库
+        posts, seen = [], set()
+        batch = fetch_json(LIST_URL)
+        if isinstance(batch, dict):
+            batch = batch.get("posts") or []
+        for p in batch or []:
+            if p["id"] not in seen:
+                seen.add(p["id"])
+                posts.append(p)
         index_path.write_text(json.dumps(posts, ensure_ascii=False))
         print(f"indexed {len(posts)} posts")
 

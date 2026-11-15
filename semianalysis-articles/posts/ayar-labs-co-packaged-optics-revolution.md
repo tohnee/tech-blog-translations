@@ -3,7 +3,7 @@ title: "Ayar Labs | Co-packaged Optics Revolution | The Most Promising Hardware 
 date: 2022-04-30
 source: https://newsletter.semianalysis.com/p/ayar-labs-co-packaged-optics-revolution
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

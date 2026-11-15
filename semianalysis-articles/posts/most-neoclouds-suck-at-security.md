@@ -4,7 +4,7 @@ subtitle: "OpenAI vs HuggingFace, Container Escapes, Kernel Bypass, Network Poli
 date: 2026-08-30
 source: https://newsletter.semianalysis.com/p/most-neoclouds-suck-at-security
 crawled: 2026-09-15
-authors: ["Jordan Nanos", "Sam Harshe", "Pratt Bhatt", "Billy Cao", "Jack Carson", "Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

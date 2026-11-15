@@ -3,7 +3,7 @@ title: "TSMC Throws Down a $40B-$44B Gauntlet, Far Surpassing Intel And Samsung"
 date: 2022-01-13
 source: https://newsletter.semianalysis.com/p/tsmc-throws-down-a-40b-44b-gauntlet
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

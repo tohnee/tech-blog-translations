@@ -4,7 +4,7 @@ subtitle: "RISC-V Is The Standard For non-user-facing functions."
 date: 2022-09-16
 source: https://newsletter.semianalysis.com/p/sifive-powers-google-tpu-nasa-tenstorrent
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

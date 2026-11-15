@@ -4,7 +4,7 @@ subtitle: "China's Countermove: How Beijing is Dodging New Semiconductor Restric
 date: 2023-10-24
 source: https://newsletter.semianalysis.com/p/wafer-wars-deciphering-latest-restrictions
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Myron Xie", "Daniel Nishball", "Wega Chu"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

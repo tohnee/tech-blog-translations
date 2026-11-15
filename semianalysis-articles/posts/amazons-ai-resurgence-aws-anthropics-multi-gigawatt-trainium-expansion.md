@@ -4,7 +4,7 @@ subtitle: "Anthropic multi-gigawatt clusters, Trainium ramp, best TCO per memory
 date: 2025-09-03
 source: https://newsletter.semianalysis.com/p/amazons-ai-resurgence-aws-anthropics-multi-gigawatt-trainium-expansion
 crawled: 2026-09-15
-authors: ["Jeremie Eliahou Ontiveros", "Dylan Patel", "AJ", "Myron Xie"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

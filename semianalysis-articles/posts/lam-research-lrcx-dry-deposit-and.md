@@ -3,7 +3,7 @@ title: "LAM Research (LRCX) Dry Deposit and Resist Could Become a Multi-Billion 
 date: 2020-05-22
 source: https://newsletter.semianalysis.com/p/lam-research-lrcx-dry-deposit-and
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

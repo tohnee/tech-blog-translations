@@ -3,7 +3,7 @@ title: "Samsung Electronics Cultural Issues Are Causing Disasters In Samsung Fou
 date: 2022-04-17
 source: https://newsletter.semianalysis.com/p/samsung-electronics-cultural-issues
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

@@ -4,7 +4,7 @@ subtitle: "Hyperscale customization, NVLink Backplane, NVL36, NVL72, NVL576, PCI
 date: 2024-07-17
 source: https://newsletter.semianalysis.com/p/gb200-hardware-architecture-and-component
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Wega Chu", "Chaolien Tseng", "Myron Xie", "Jeremie Eliahou Ontiveros", "Daniel Nishball"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

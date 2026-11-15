@@ -3,7 +3,7 @@ title: "China Has Built The World’s Most Expensive Silicon Carbide Fab, But Nu
 date: 2021-10-01
 source: https://newsletter.semianalysis.com/p/china-has-built-the-worlds-most-expensive
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

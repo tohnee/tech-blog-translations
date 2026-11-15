@@ -3,7 +3,7 @@ title: "CXL Enables Microsoft Azure To Cut Server Capital Expenditures By Hundre
 date: 2022-07-07
 source: https://newsletter.semianalysis.com/p/cxl-enables-microsoft-azure-to-cut
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

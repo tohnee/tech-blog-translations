@@ -4,7 +4,7 @@ subtitle: "Bring Your Own Generation, Sayonara Electric Grid, Turbines vs. Recip
 date: 2025-12-30
 source: https://newsletter.semianalysis.com/p/how-ai-labs-are-solving-the-power
 crawled: 2026-09-15
-authors: ["Ajey Pandey", "Jeremie Eliahou Ontiveros", "Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

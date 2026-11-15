@@ -4,7 +4,7 @@ subtitle: "Chiplets, Advanced Packaging, and Disingenuous Performance Claims"
 date: 2023-05-18
 source: https://newsletter.semianalysis.com/p/sound-the-siryn-ampereone-192-core
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Gerald Wong", "George Cozma"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

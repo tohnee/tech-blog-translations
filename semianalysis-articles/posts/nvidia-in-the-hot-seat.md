@@ -4,7 +4,7 @@ subtitle: "Intel Habana, Graphcore, Google TPU, and Nvidia A100 Compared In AI T
 date: 2022-06-29
 source: https://newsletter.semianalysis.com/p/nvidia-in-the-hot-seat
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

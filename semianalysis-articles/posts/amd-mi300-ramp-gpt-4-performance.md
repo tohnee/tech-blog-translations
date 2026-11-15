@@ -4,7 +4,7 @@ subtitle: "Order Volumes From Microsoft, Meta, Oracle, Google, Supermicro/Quanta
 date: 2023-11-01
 source: https://newsletter.semianalysis.com/p/amd-mi300-ramp-gpt-4-performance
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Myron Xie"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

@@ -4,7 +4,7 @@ subtitle: "Calculating Cluster TCO, The Real Impact of Downtime, The Grand Unify
 date: 2026-04-20
 source: https://newsletter.semianalysis.com/p/how-much-do-gpu-clusters-really-cost
 crawled: 2026-09-15
-authors: ["Jordan Nanos", "Bryan Shan", "Cheang Kang Wen", "Daniel Nishball", "Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

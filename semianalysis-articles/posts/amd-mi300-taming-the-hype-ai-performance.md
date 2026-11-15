@@ -4,7 +4,7 @@ subtitle: "Amazing engineering, but what of the path to market?"
 date: 2023-06-12
 source: https://newsletter.semianalysis.com/p/amd-mi300-taming-the-hype-ai-performance
 crawled: 2026-09-15
-authors: ["Dylan Patel", "George Cozma", "Gerald Wong"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

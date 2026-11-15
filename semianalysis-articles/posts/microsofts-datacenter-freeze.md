@@ -4,8 +4,8 @@ subtitle: "OpenAI Shift, Oracle & Stargate Acceleration, Hyperscale Capex Implic
 date: 2025-04-28
 source: https://newsletter.semianalysis.com/p/microsofts-datacenter-freeze
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Jeremie Eliahou Ontiveros", "Maya Barkin"]
-tags: ["Hyperscalar", "Datacenter", "AI Infrastructure"]
+authors: []
+tags: []
 audience: only_paid
 paywalled: true
 ---

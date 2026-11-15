@@ -4,7 +4,7 @@ subtitle: "Groq LP30, LPX Rack, Attention FFN Disaggregation, Oberon & Kyber Upd
 date: 2026-03-24
 source: https://newsletter.semianalysis.com/p/nvidia-the-inference-kingdom-expands
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Myron Xie", "Daniel Nishball", "Gerald Wong", "Kimbo Chen", "Clara Ee", "Wega Chu", "Michael Chen", "Ivan Chiam", "Jordan Nanos"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

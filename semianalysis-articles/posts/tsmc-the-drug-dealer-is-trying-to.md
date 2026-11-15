@@ -3,7 +3,7 @@ title: "TSMC Wants To Make Intel Dependent On External Manufacturing - Wafer Sup
 date: 2021-12-22
 source: https://newsletter.semianalysis.com/p/tsmc-the-drug-dealer-is-trying-to
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

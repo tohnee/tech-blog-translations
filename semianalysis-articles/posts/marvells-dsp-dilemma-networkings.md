@@ -4,7 +4,7 @@ subtitle: "Will Marvell's Strongest Moat Be Breached? $MRVL $AVGO $NVDA $ANET $M
 date: 2023-03-08
 source: https://newsletter.semianalysis.com/p/marvells-dsp-dilemma-networkings
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

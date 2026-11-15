@@ -4,7 +4,7 @@ subtitle: "Samsung swims against the tide as the industry cuts capital expenditu
 date: 2022-12-08
 source: https://newsletter.semianalysis.com/p/samsung-backstabs-the-dram-cartel
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Afzal Ahmad"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

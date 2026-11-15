@@ -3,7 +3,7 @@ title: "The Semiconductor Heist Of The Century | Arm China Has Gone Completely R
 date: 2021-08-27
 source: https://newsletter.semianalysis.com/p/the-semiconductor-heist-of-the-century
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

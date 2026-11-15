@@ -4,7 +4,7 @@ subtitle: "Rubin LUT Based Tensor Core, Feynman, Rack Scale, Perf Per MegaWatt, 
 date: 2026-07-23
 source: https://newsletter.semianalysis.com/p/vera-rubin-nvl72-vs-gb200-nvl72-inference
 crawled: 2026-09-15
-authors: ["Alec Ibarra", "Bryan Shan", "Daniel Nishball", "Zane Fong", "Cam Quilici", "Kimbo Chen", "Jordan Nanos", "Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

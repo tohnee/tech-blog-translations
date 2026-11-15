@@ -4,7 +4,7 @@ subtitle: "Foundry Cost Wall, Whale Customers, Datacenter Share, The Money Probl
 date: 2024-04-02
 source: https://newsletter.semianalysis.com/p/is-intel-back-foundry-and-product
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Myron Xie", "Daniel Nishball", "Jeremie Eliahou Ontiveros", "Jeff Koch"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

@@ -3,7 +3,7 @@ title: "Meteor Lake Die Shot and Architecture Analysis – Why Is Intel 4 Only A
 date: 2022-05-26
 source: https://newsletter.semianalysis.com/p/meteor-lake-die-shot-and-architecture
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

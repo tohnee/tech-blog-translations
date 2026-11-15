@@ -4,7 +4,7 @@ subtitle: "Infrastructure Bottlenecks and Changes, Distillation, Data is a Moat,
 date: 2025-06-08
 source: https://newsletter.semianalysis.com/p/scaling-reinforcement-learning-environments-reward-hacking-agents-scaling-data
 crawled: 2026-09-15
-authors: ["Dylan Patel", "AJ"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

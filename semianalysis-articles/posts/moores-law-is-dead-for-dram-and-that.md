@@ -3,7 +3,7 @@ title: "Moore’s Law is Dead for DRAM and that is Great for SemiCap"
 date: 2020-05-22
 source: https://newsletter.semianalysis.com/p/moores-law-is-dead-for-dram-and-that
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

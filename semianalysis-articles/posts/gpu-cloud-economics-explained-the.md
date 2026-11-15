@@ -4,7 +4,7 @@ subtitle: "CPU vs GPU Cloud Differences, TCO Model, PUE, Hyperscalers Disadvanta
 date: 2023-12-04
 source: https://newsletter.semianalysis.com/p/gpu-cloud-economics-explained-the
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Daniel Nishball"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

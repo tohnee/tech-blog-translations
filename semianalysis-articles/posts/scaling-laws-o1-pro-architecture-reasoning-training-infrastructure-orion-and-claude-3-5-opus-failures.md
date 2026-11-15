@@ -4,8 +4,8 @@ subtitle: "AI Lab Synthetic Data Infrastructure, Inference Tokenomics of Test Ti
 date: 2024-12-11
 source: https://newsletter.semianalysis.com/p/scaling-laws-o1-pro-architecture-reasoning-training-infrastructure-orion-and-claude-3-5-opus-failures
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Daniel Nishball", "AJ", "Reyk Knuhtsen"]
-tags: ["LLMs", "AI Infrastructure"]
+authors: []
+tags: []
 audience: only_paid
 paywalled: true
 ---

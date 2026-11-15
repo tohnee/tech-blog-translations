@@ -4,8 +4,8 @@ subtitle: "How ChatGPT will monetize free users, Router is the Release, AIs will
 date: 2025-08-13
 source: https://newsletter.semianalysis.com/p/gpt-5-ad-monetization-and-the-superapp
 crawled: 2026-09-15
-authors: ["Doug", "Dylan Patel", "Wei Zhou", "AJ"]
-tags: ["LLMs"]
+authors: []
+tags: []
 audience: only_paid
 paywalled: true
 ---

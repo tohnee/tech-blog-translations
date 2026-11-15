@@ -4,7 +4,7 @@ subtitle: "Competing teams and technologies, but can the pivot challenge Broadco
 date: 2023-05-28
 source: https://newsletter.semianalysis.com/p/nvidias-infiniband-problem-qmx-ai
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

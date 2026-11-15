@@ -4,7 +4,7 @@ subtitle: "'The Big Pause', AI Tokens Factory Economics Stack, OpenAI, Neocloud 
 date: 2025-11-12
 source: https://newsletter.semianalysis.com/p/microsofts-ai-strategy-deconstructed
 crawled: 2026-09-15
-authors: ["Jeremie Eliahou Ontiveros", "Dylan Patel", "Myron Xie", "Wei Zhou", "Jordan Nanos", "Clara Ee", "Daniel Nishball", "AJ"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

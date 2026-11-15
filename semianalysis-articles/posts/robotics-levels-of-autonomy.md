@@ -4,8 +4,8 @@ subtitle: "Single-Purpose Robots Automating Hundreds Of Jobs, Pick And Place Wit
 date: 2025-07-30
 source: https://newsletter.semianalysis.com/p/robotics-levels-of-autonomy
 crawled: 2026-09-15
-authors: ["Reyk Knuhtsen", "Dylan Patel", "Niko Ciminelli", "Joe Ryu", "Jeremie Eliahou Ontiveros", "Robert Ghilduta"]
-tags: ["Robotics"]
+authors: []
+tags: []
 audience: only_paid
 paywalled: true
 ---

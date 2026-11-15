@@ -4,8 +4,8 @@ subtitle: "Meta Datacenter Scrapped, Vertiv, Schneider Electric, Eaton, Legrand,
 date: 2024-10-14
 source: https://newsletter.semianalysis.com/p/datacenter-anatomy-part-1-electrical
 crawled: 2026-09-15
-authors: ["Jeremie Eliahou Ontiveros", "Dylan Patel", "Daniel Nishball"]
-tags: ["Datacenter", "Hardware Architecture", "AI Infrastructure"]
+authors: []
+tags: []
 audience: only_paid
 paywalled: true
 ---

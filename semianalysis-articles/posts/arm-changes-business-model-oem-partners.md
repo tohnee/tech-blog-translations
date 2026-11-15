@@ -4,7 +4,7 @@ subtitle: "No More External GPU, NPU, or ISP’s Allowed In Arm-Based SOCs"
 date: 2022-10-28
 source: https://newsletter.semianalysis.com/p/arm-changes-business-model-oem-partners
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

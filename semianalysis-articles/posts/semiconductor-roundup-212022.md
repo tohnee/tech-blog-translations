@@ -4,7 +4,7 @@ subtitle: "AMD, NXP, Google, KLIC, Cirrus Logic, Entegris, SK Hynix, Lasertec, R
 date: 2022-02-02
 source: https://newsletter.semianalysis.com/p/semiconductor-roundup-212022
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

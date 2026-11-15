@@ -4,7 +4,7 @@ subtitle: "Future CXL Products From 20 Firms Reviewed"
 date: 2022-08-17
 source: https://newsletter.semianalysis.com/p/cxl-deep-dive-future-of-composable
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

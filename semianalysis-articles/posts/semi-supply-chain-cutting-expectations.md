@@ -3,7 +3,7 @@ title: "Semi Supply Chain Cutting Expectations as Phone Sales Plummet"
 date: 2021-05-11
 source: https://newsletter.semianalysis.com/p/semi-supply-chain-cutting-expectations
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

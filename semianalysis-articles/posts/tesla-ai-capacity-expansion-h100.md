@@ -4,7 +4,7 @@ subtitle: "Tesla has aspirations of being a top 5 AI company in capacity and a c
 date: 2023-06-27
 source: https://newsletter.semianalysis.com/p/tesla-ai-capacity-expansion-h100
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Aleksandar Kostovic"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

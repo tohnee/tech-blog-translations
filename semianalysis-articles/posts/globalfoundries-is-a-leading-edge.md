@@ -3,7 +3,7 @@ title: "GlobalFoundries Is A Leading-Edge Foundry Despite Claims Otherwise"
 date: 2021-06-21
 source: https://newsletter.semianalysis.com/p/globalfoundries-is-a-leading-edge
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

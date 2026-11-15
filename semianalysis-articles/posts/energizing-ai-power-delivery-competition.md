@@ -4,7 +4,7 @@ subtitle: "Nvidia H100, Google TPUv5, AMD MI300, Intel Gaudi3/PVC, Cerebras WSE2
 date: 2023-08-01
 source: https://newsletter.semianalysis.com/p/energizing-ai-power-delivery-competition
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Myron Xie", "Gerald Wong", "George Cozma"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

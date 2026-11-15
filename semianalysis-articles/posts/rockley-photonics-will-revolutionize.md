@@ -3,7 +3,7 @@ title: "Rockley Photonics Will Revolutionize Healthcare By Measuring Biomarkers 
 date: 2021-06-22
 source: https://newsletter.semianalysis.com/p/rockley-photonics-will-revolutionize
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

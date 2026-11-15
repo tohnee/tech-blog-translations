@@ -4,7 +4,7 @@ subtitle: "CXMT IPO, SK Hynix, Micron, Samsung Competition, Process Node Deficit
 date: 2026-06-23
 source: https://newsletter.semianalysis.com/p/chinas-cxmt-is-set-to-challenge-dram
 crawled: 2026-09-15
-authors: ["Ray Wang", "Myron Xie", "Dylan Patel", "Junsung Kim", "Sravan Kundojjala", "Louis Lu"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

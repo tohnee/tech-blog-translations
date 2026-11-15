@@ -3,7 +3,7 @@ title: "Nvidia Ada Lovelace Leaked Specifications, Die Sizes, Architecture, Cost
 date: 2022-04-16
 source: https://newsletter.semianalysis.com/p/nvidia-ada-lovelace-leaked-specifications
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

@@ -3,7 +3,7 @@ title: "No, The iPhone 13 Does Not Have Satellite Internet | Band n53 & Globalst
 date: 2021-09-02
 source: https://newsletter.semianalysis.com/p/no-the-iphone-13-does-not-have-satellite
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

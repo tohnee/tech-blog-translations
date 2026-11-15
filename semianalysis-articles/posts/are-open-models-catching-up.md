@@ -4,7 +4,7 @@ subtitle: "Comparing open vs. closed models across the eras of frontier models, 
 date: 2026-08-21
 source: https://newsletter.semianalysis.com/p/are-open-models-catching-up
 crawled: 2026-09-15
-authors: ["Evan Cloutier", "Max Kan", "Jordan Nanos", "Dylan Patel", "Andrew Megalaa"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

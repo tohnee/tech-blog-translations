@@ -4,7 +4,7 @@ subtitle: "Claude 3, Claude 4, Trainium2, Marvell, Alchip, Bedrock, Google Infra
 date: 2023-10-02
 source: https://newsletter.semianalysis.com/p/amazon-anthropic-poison-pill-or-empire
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

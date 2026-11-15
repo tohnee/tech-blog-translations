@@ -4,7 +4,7 @@ subtitle: "Custom Optical Switches Reduce Broadcom's Networking Dominance"
 date: 2023-03-17
 source: https://newsletter.semianalysis.com/p/google-apollo-the-3-billion-game
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

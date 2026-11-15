@@ -4,7 +4,7 @@ subtitle: "Step-Function Software & System Improvements, “Amazon Basics” GB2
 date: 2025-12-04
 source: https://newsletter.semianalysis.com/p/aws-trainium3-deep-dive-a-potential
 crawled: 2026-09-15
-authors: ["Dylan Patel", "Daniel Nishball", "Wega Chu", "Myron Xie", "Ivan Chiam", "Clara Ee", "Cheang Kang Wen", "Wei Zhou", "Jeremie Eliahou Ontiveros", "Tanj Bennett"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

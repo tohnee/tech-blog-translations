@@ -3,7 +3,7 @@ title: "Is Intel Shipping Tools Out Of US Fabs So They Can Abuse CHIPS Act Subsi
 date: 2022-01-30
 source: https://newsletter.semianalysis.com/p/is-intel-shipping-tools-out-of-us
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

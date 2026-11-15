@@ -4,7 +4,7 @@ subtitle: "Cerebras Is Now Cost Competitive For Training GPT-like Large Language
 date: 2022-12-01
 source: https://newsletter.semianalysis.com/p/gpt-model-training-competition-heats
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

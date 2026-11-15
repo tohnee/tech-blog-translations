@@ -4,7 +4,7 @@ subtitle: "2023 iPhone Modem, WiFi 7 and Filter Socket Competition With Broadcom
 date: 2022-06-27
 source: https://newsletter.semianalysis.com/p/qualcomm-rffe-update-8b-by-2025-2023
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: only_paid
 paywalled: true

@@ -3,7 +3,7 @@ title: "GlobalFoundries $GFS IPO – Mubadala Lost Over $22.4B, Now They Are Hop
 date: 2021-10-06
 source: https://newsletter.semianalysis.com/p/globalfoundries-gfs-ipo-mubadala
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false

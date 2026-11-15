@@ -3,7 +3,7 @@ title: "Intel’s Trojan Horse into the Foundry Business | Co-packaged Silicon P
 date: 2021-06-11
 source: https://newsletter.semianalysis.com/p/intels-trojan-horse-into-the-foundry
 crawled: 2026-09-15
-authors: ["Dylan Patel"]
+authors: []
 tags: []
 audience: everyone
 paywalled: false
