@@ -13,12 +13,22 @@
   D. 正文强词命中 ≥3 且 infra 密度 ≥12/千字 → 收
 分类：标题强词 > 正文强词 > 弱词，按子类得分取最大。
 """
+import json
 import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 POSTS = ROOT / "zhihu-articles" / "posts"
 INDEX = ROOT / "zhihu-articles" / "INFRA_INDEX.md"
+STATE = ROOT / "zhihu-articles" / "_state.json"
+INFRA_KWS = {
+    "推理优化", "推理加速", "推理引擎", "vLLM", "SGLang", "TensorRT", "量化", "KV Cache",
+    "PagedAttention", "投机解码", "分布式训练", "模型并行", "张量并行", "流水线并行",
+    "DeepSpeed", "Megatron", "FSDP", "GPU 集群", "显存优化", "CUDA", "Triton", "编译器",
+    "算子", "FlashAttention", "MoE", "RDMA", "InfiniBand", "算力", "H100", "NPU",
+    "昇腾", "模型部署", "推理服务", "端侧推理", "llama.cpp", "MLOps", "调度",
+    "Kubernetes", "向量数据库", "AI 芯片",
+}
 
 CATS = {
     "推理服务与优化": [
@@ -90,7 +100,7 @@ def read_doc(p: Path):
     return meta.get("title", ""), body, meta
 
 
-def classify(title: str, body: str):
+def classify(title: str, body: str, kw: str = ""):
     t = title.lower()
     b = body[:15000].lower()
     t_strong = [w for w in STRONG if w in t]
@@ -113,6 +123,8 @@ def classify(title: str, body: str):
     elif len(b_strong) >= 4:
         ok = True
     elif len(b_strong) >= 2 and density >= 10:
+        ok = True
+    elif kw in INFRA_KWS and body_terms >= 6:
         ok = True
     else:
         ok = False
@@ -152,10 +164,15 @@ def clear_tags() -> None:
 
 def main() -> None:
     clear_tags()
+    kw_map = {}
+    if STATE.exists():
+        st = json.loads(STATE.read_text())
+        for aid, v in st.get("discovered", {}).items():
+            kw_map[aid] = v.get("kw", "")
     rows = []
     for p in sorted(POSTS.glob("*.md")):
         title, body, meta = read_doc(p)
-        res = classify(title, body)
+        res = classify(title, body, kw_map.get(p.stem, ""))
         if not res:
             continue
         cat, terms = res

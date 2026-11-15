@@ -3,7 +3,7 @@
 收录 30 个高质量技术博客来源的全量文章归档与完整中文翻译
 （英文存档 `29` 源 + 中文原文 `1` 源；苏剑林博客为中文站点，仅归档）。
 
-> 累计：英文/原文归档 **5501** 篇，中文译文 **2775** 篇。
+> 累计：英文/原文归档 **7902** 篇，中文译文 **2775** 篇。
 > 每日自动同步：定时任务按 [DAILY_SYNC_SOP.md](DAILY_SYNC_SOP.md) 拉取各源新文章、归档并翻译，随后更新本索引并推送 GitHub。
 
 ## 项目总览
@@ -36,7 +36,7 @@
 | Stanford MATH 289 课程 | web.stanford.edu/class/math289 | [math289-articles/](math289-articles/)（5） | [math289-articles-zh/](math289-articles-zh/)（5） | 5 / 5 | — · [目录](math289-articles-zh/README.md) |
 | Microsoft AI | microsoft.ai/news | [microsoft-articles/](microsoft-articles/)（4） | [microsoft-articles-zh/](microsoft-articles-zh/)（4） | 4 / 4 | — · [目录](microsoft-articles-zh/README.md) |
 | 苏剑林《科学空间》 | kexue.fm | [sujianlin-articles/](sujianlin-articles/)（1336） | —（原文为中文） | 1336 | — · [目录](sujianlin-articles/README.md) |
-| 知乎 AI 专栏 | zhuanlan.zhihu.com | [zhihu-articles/](zhihu-articles/)（1383） | —（原文为中文） | 1383 | — · [目录](zhihu-articles/README.md) |
+| 知乎 AI 专栏 | zhuanlan.zhihu.com | [zhihu-articles/](zhihu-articles/)（3784） | —（原文为中文） | 3784 | — · [目录](zhihu-articles/README.md) |
 | Harvard CS2680 现代 AI 系统 | cs2680.seas.harvard.edu | [cs2680-articles/](cs2680-articles/)（24） | [cs2680-articles-zh/](cs2680-articles-zh/)（24） | 24 / 24 | — · [目录](cs2680-articles-zh/README.md) |
 | SOSP 2026 录用论文 | sigops.org | [sosp2026-articles/](sosp2026-articles/)（1） | [sosp2026-articles-zh/](sosp2026-articles-zh/)（1） | 1 / 1 | — · [目录](sosp2026-articles-zh/README.md) |
 | Hao AI Lab @ UCSD | haoailab.com | [haoailab-articles/](haoailab-articles/)（10） | [haoailab-articles-zh/](haoailab-articles-zh/)（10） | 10 / 10 | — · [目录](haoailab-articles-zh/README.md) |
