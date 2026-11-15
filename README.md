@@ -1,9 +1,9 @@
 # 优秀 AI / 技术博客文章归档与中文翻译
 
-收录 27 个高质量技术博客来源的全量文章归档与完整中文翻译
-（英文存档 `26` 源 + 中文原文 `1` 源；苏剑林博客为中文站点，仅归档）。
+收录 30 个高质量技术博客来源的全量文章归档与完整中文翻译
+（英文存档 `29` 源 + 中文原文 `1` 源；苏剑林博客为中文站点，仅归档）。
 
-> 累计：英文/原文归档 **5466** 篇，中文译文 **2740** 篇。
+> 累计：英文/原文归档 **5501** 篇，中文译文 **2775** 篇。
 > 每日自动同步：定时任务按 [DAILY_SYNC_SOP.md](DAILY_SYNC_SOP.md) 拉取各源新文章、归档并翻译，随后更新本索引并推送 GitHub。
 
 ## 项目总览
@@ -37,6 +37,9 @@
 | Microsoft AI | microsoft.ai/news | [microsoft-articles/](microsoft-articles/)（4） | [microsoft-articles-zh/](microsoft-articles-zh/)（4） | 4 / 4 | — · [目录](microsoft-articles-zh/README.md) |
 | 苏剑林《科学空间》 | kexue.fm | [sujianlin-articles/](sujianlin-articles/)（1336） | —（原文为中文） | 1336 | — · [目录](sujianlin-articles/README.md) |
 | 知乎 AI 专栏 | zhuanlan.zhihu.com | [zhihu-articles/](zhihu-articles/)（1383） | —（原文为中文） | 1383 | — · [目录](zhihu-articles/README.md) |
+| Harvard CS2680 现代 AI 系统 | cs2680.seas.harvard.edu | [cs2680-articles/](cs2680-articles/)（24） | [cs2680-articles-zh/](cs2680-articles-zh/)（24） | 24 / 24 | — · [目录](cs2680-articles-zh/README.md) |
+| SOSP 2026 录用论文 | sigops.org | [sosp2026-articles/](sosp2026-articles/)（1） | [sosp2026-articles-zh/](sosp2026-articles-zh/)（1） | 1 / 1 | — · [目录](sosp2026-articles-zh/README.md) |
+| Hao AI Lab @ UCSD | haoailab.com | [haoailab-articles/](haoailab-articles/)（10） | [haoailab-articles-zh/](haoailab-articles-zh/)（10） | 10 / 10 | — · [目录](haoailab-articles-zh/README.md) |
 
 ## 说明
 
@@ -63,6 +66,9 @@
 - **Microsoft AI**：2026-10-16 建库，microsoft.ai 直连可抓
 - **苏剑林《科学空间》**：中文原文全量归档（1336 篇），无需翻译；细目见 INDEX.md
 - **知乎 AI 专栏**：中文原创 AI 专栏文章，仅归档不翻译；crawl_zhihu.py 按关键词发现+下载（需 zhihu auth 登录）
+- **Harvard CS2680 现代 AI 系统**：2026-11-16 建库：课程主页/政策/作业×5/期末项目/论文讨论 + 14 份讲义 PDF（570 页文本化）全译
+- **SOSP 2026 录用论文**：2026-11-16 建库：SOSP 2026 官方录用名单（论文标题保留英文）
+- **Hao AI Lab @ UCSD**：2026-11-16 建库：FastVideo/FastH3/ORA/UniServe 等博客全量归档+翻译
 
 - 三个 Google 来源（DeepMind / Gemini / Google Blog）另有合并详表索引：[google-articles-zh-README.md](google-articles-zh-README.md)
 - 翻译均为全文完整翻译，术语一致性由各 `TRANSLATION_GUIDE_*.md` 规范约束；公式保留原始 LaTeX，代码块不译

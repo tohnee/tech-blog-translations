@@ -198,9 +198,22 @@ def detect_vendors():
     except Exception as e:  # noqa: BLE001
         result["microsoft"] = f"ERROR: {e}"
 
+    # Hao AI Lab（UCSD）博客：Hugo 压缩输出，href 可能无引号
+    try:
+        html = fetch("https://haoailab.com/blogs/")
+        slugs = set()
+        for m in re.finditer(r'href=(?:"|\')?https://haoailab\.com/blogs/([a-z0-9\-]+)/?', html):
+            if m.group(1) != "index":
+                slugs.add(m.group(1))
+        result["haoailab"] = sorted(slugs - _have("haoailab-articles"))
+    except Exception as e:  # noqa: BLE001
+        result["haoailab"] = f"ERROR: {e}"
+
     # SemiAnalysis：Substack archive API（最近 24 篇足够日常增量）
     try:
-        items = json.loads(fetch("https://newsletter.semianalysis.com/api/v1/archive?sort=new&offset=0&limit=24", retries=2))
+        # 2026-11 API 改版：offset 移除、limit 上限 24、响应包 {"posts":[...]}
+        data = json.loads(fetch("https://newsletter.semianalysis.com/api/v1/archive?sort=new&limit=24", retries=2))
+        items = data.get("posts", []) if isinstance(data, dict) else data
         result["semianalysis"] = sorted({it["slug"] for it in items} - _have("semianalysis-articles"))
     except Exception as e:  # noqa: BLE001
         result["semianalysis"] = f"ERROR: {e}"

@@ -1,0 +1,490 @@
+---
+title: "FastVideo UniServe: Production serving for FastH3 on NVIDIA Blackwell GPUs at 1.8x lower latency and 1.45x higher throughput"
+date: 2026-09-29
+source: https://haoailab.com/blogs/uniserve-fasth3/
+crawled: 2026-11-16
+---
+
+# FastVideo UniServe: Production serving for FastH3 on NVIDIA Blackwell GPUs at 1.8x lower latency and 1.45x higher throughput
+
+> 原文：[FastVideo UniServe: Production serving for FastH3 on NVIDIA Blackwell GPUs at 1.8x lower latency and 1.45x higher throughput](https://haoailab.com/blogs/uniserve-fasth3/) · Hao AI Lab @ UCSD
+
+# FastVideo UniServe: Production serving for FastH3 on NVIDIA Blackwell GPUs at 1.8x lower latency and 1.45x higher throughput
+
+September 29, 2026 · 25 min · FastVideo Team
+
+Table of Contents
+
+* [Results at a glance](#results-at-a-glance)
+* [Background: the FastH3 workload](#background-the-fasth3-workload)
+* [Architecture](#architecture)
+* [Precompute schedule-dependent values](#precompute-schedule-dependent-values)
+  + [Precompute AdaLN modulation](#precompute-adaln-modulation)
+  + [Run the text refiner once](#run-the-text-refiner-once)
+* [Head-sharded projections for Ulysses](#head-sharded-projections-for-ulysses)
+* [Kernel fusion in the DiT](#kernel-fusion-in-the-dit)
+  + [Fused attention preprocessing](#fused-attention-preprocessing)
+  + [Fused output combination](#fused-output-combination)
+  + [Fused modulation, normalization and residuals](#fused-modulation-normalization-and-residuals)
+* [A batched, streaming decode path](#a-batched-streaming-decode-path)
+  + [Batch spatial tiles, distribute temporal units](#batch-spatial-tiles-distribute-temporal-units)
+  + [Fuse the VAE decoder and replay it as a CUDA graph](#fuse-the-vae-decoder-and-replay-it-as-a-cuda-graph)
+  + [Encode while the GPU is still decoding](#encode-while-the-gpu-is-still-decoding)
+* [Where the time goes](#where-the-time-goes)
+* [NVFP4](#nvfp4)
+* [Serving with NVIDIA Dynamo](#serving-with-nvidia-dynamo)
+* [Deploy UniServe](#deploy-uniserve)
+* [Benchmark methodology and full results](#benchmark-methodology-and-full-results)
+  + [Baselines](#baselines)
+  + [Setup](#setup)
+  + [Latency](#latency)
+  + [Throughput](#throughput)
+  + [NVFP4 against BF16](#nvfp4-against-bf16)
+* [Meet the Team](#meet-the-team)
+* [Acknowledgments](#acknowledgments)
+
+[![](https://img.shields.io/github/stars/hao-ai-lab/UniServe?style=social)](https://github.com/hao-ai-lab/UniServe)
+
+**TL;DR**
+
+**FastVideo [UniServe](https://github.com/hao-ai-lab/UniServe) is a serving engine for FastH3 8-Step text-to-video-with-audio generation (more models to come!), built for production serving with our partners [Nuva Lab](https://nuvalab.ai/) and [Reactor](https://www.reactor.inc/):**
+
+* **Production Ready on Day 0.** UniServe is serving production API traffic on [Reactor](https://www.reactor.inc/) and [Nuva Lab](https://nuvalab.ai/)!
+* **Faster than real time.** On eight NVIDIA GB200 GPUs, a 5-second 1344×768 clip with audio from a 1K-token prompt arrives as a finished MP4 in 3.1 s and a 10-second clip in 6.2 s (5.3 s with NVFP4).
+* **Throughput.** About 11,000 videos a day on eight NVIDIA GB200 GPUs and 3,400 on eight RTX PRO 6000 GPUs for a mix of 5- to 15-second clips: 6.4 and 21.2 GPU-seconds per second of generated video.
+* **Fastest open-source serving.** 1.2–1.8× lower median latency for a 10-second clip with a 1K-token prompt, and 15–45% higher throughput under load, than FastVideo, vLLM-Omni and SGLang.
+* **Hardware.** Verified on NVIDIA GB200, RTX PRO 6000 Blackwell and H200. An NVFP4 PTQ checkpoint runs on Blackwell GPUs for lower latency and higher throughput with minimal quality drop.
+
+![UniServe latency against FastVideo, vLLM-Omni and SGLang for a 10-second clip with a 1K-token prompt](img/results-at-a-glance.svg)
+
+Figure 1. Median end-to-end latency of a 10-second clip with a 1K-token prompt, one request at a time, on each hardware configuration. vLLM-Omni has no eight-GB200 result because a replica cannot span two nodes.
+
+FastH3 turns a text prompt into a video with a synchronized soundtrack in eight denoising steps. Each request passes through heterogeneous components: a text encoder and refiner, a long-sequence multimodal diffusion transformer (DiT), video and audio VAE decoders, and CPU-side video encoding and muxing. They differ in whether they run on the GPU or the CPU, in how they parallelize and in arithmetic intensity, so a faster attention kernel speeds up only one part of a request.
+
+UniServe therefore optimizes the whole request path. It cuts the communication and memory traffic around sparse attention in the DiT, batches and fuses the VAE decoder, and encodes video on the CPU while the GPUs are still decoding.
+
+## Results at a glance[#](#results-at-a-glance)
+
+Unless noted otherwise, all systems run the FastH3 8-Step V2 checkpoint with BF16 text encoding and denoising and FP16 video-decoder projection weights. Latency is measured end to end: from request submission until the client receives the last byte of an MP4 containing both video and audio.
+
+**Latency.** For a 10-second clip with a 1K-token prompt, one request at a time, UniServe’s median latency is about 1.3× lower than the baselines’ on four GB200 GPUs, 1.3–1.8× lower on eight GB200 GPUs across two nodes and 1.2–1.4× lower on eight RTX PRO 6000 GPUs. On eight GB200 GPUs the median request finishes faster than real time at every clip length and prompt size: a 5-second clip with a 1K-token prompt in 3.1 s, a 10-second clip with a 1K-token prompt in 6.2 s and a 15-second clip with a 10K-token prompt in 14.1 s.
+
+![End-to-end latency against clip length on eight GB200 GPUs](img/realtime-gb200-8.svg)
+
+Figure 2. Median end-to-end latency per clip length on eight GB200 GPUs across two nodes, one request at a time.
+
+**Throughput.** Under load, UniServe’s best throughput is 24–33% above the baselines’ on four GB200 GPUs, 15–22% above on eight GB200 GPUs and 21–45% above on eight RTX PRO 6000 GPUs. For a synthetic workload that mixes 5-, 10- and 15-second clips, that is about 6,100 videos a day on four GB200 GPUs, 11,000 on eight and 3,400 on eight RTX PRO 6000 GPUs in BF16, or 5.8, 6.4 and 21.2 GPU-seconds per second of generated video.
+
+![Throughput per GPU against latency under load](img/pareto.svg)
+
+Figure 3. Each point is one concurrency level: 1, 2, 4 and 8 concurrent requests, and 16 on eight GPUs. With two replicas, one request at a time leaves one replica idle, hence the jump from the first point to the second.
+
+**NVFP4.** FastVideo’s NVFP4 checkpoint lowers UniServe’s median latency by a further 10–15% and raises its throughput by 15–19%; [NVFP4](#nvfp4) explains what it quantizes and what it changes. The [methodology and full results](#benchmark-methodology-and-full-results) describe the workload and configurations and list every measured point.
+
+## Background: the FastH3 workload[#](#background-the-fasth3-workload)
+
+Each request runs a Qwen3-VL-based text encoder, a two-layer text refiner, eight forward passes of a 50-layer DiT, and separate video and audio VAE decoders. The DiT attends over a joint sequence of text, video and audio tokens.
+
+Video sparse attention (VSA) works on 64-token tiles. Text and audio queries attend to every key. Video queries attend to all text and audio keys and to the highest-scoring 20% of video key tiles (rounded up), plus a coarse branch over mean-pooled tiles whose output a learned gate adds to the fine output. UniServe implements this pattern in full.
+
+At 1344 × 768 and 24 fps, a 10-second clip with a 1K-token prompt is about 74K tokens (video, audio and text). A 15-second clip with a 10K-token prompt is about 119K. At these lengths, every extra full-sequence intermediate tensor costs substantial memory traffic.
+
+## Architecture[#](#architecture)
+
+UniServe separates the control plane, the numerical code and the execution resources. A Rust server and engine handle the HTTP API, admission control, component placement and batch scheduling. Python GPU workers run the model and own every execution resource: request buffers, CUDA streams, transfers and CUDA graphs.
+
+![UniServe architecture on four GB200 GPUs](img/architecture.svg)
+
+Figure 4. The measured four-GPU deployment runs text encoding, denoising and media decoding on the same four GPUs. Four CPU worker processes (host ranks) encode video units to H.264, and a separate host process encodes the audio and muxes the MP4.
+
+The example deployment for four GB200 GPUs runs the text encoder with four-way tensor parallelism (TP4) and the DiT with four-way Ulysses sequence parallelism (SP4). The video and audio decoders distribute temporal units (the groups of latent frames the VAE decodes together) across the same four GPUs. Placing each component separately matters because the text encoder, the long-sequence DiT and the tiled VAE decoder parallelize along different axes: raising the DiT’s sequence-parallel degree speeds up only part of the request path.
+
+Each request’s conditioning occupies a preallocated request slot, and its latents are double-buffered in two banks of pages: a denoising step reads the current latent from one bank and writes the next latent into the other, and the runtime commits the result when the batch completes. CUDA graphs are captured at startup for each shape bucket and address request slots and latent pages through device-side index tensors, so every request in the same bucket replays the same graphs on its own data.
+
+The diffusion runner allocates its workspace once, for the largest supported shape, and smaller shapes run on views of that allocation. Constants and step graphs stay resident in worker-owned memory pools, so serving a request neither allocates a new workspace nor captures a new graph. The runner orders the calls that share scratch memory; the worker owns collectives and resource lifetimes.
+
+## Precompute schedule-dependent values[#](#precompute-schedule-dependent-values)
+
+### Precompute AdaLN modulation[#](#precompute-adaln-modulation)
+
+Each DiT block projects the timestep embedding into per-modality shift, scale and gate vectors (AdaLN modulation). These depend only on the weights and the timestep, not on the prompt or the latent. Since the checkpoint fixes its eight timesteps, UniServe computes every modulation vector at load time and keeps only the results.
+
+Across 50 layers, eight steps and separate video and audio timesteps, the BF16 table is about 148 MiB. The projection weights it replaces occupy about **24 GiB** in the checkpoint. UniServe streams those weights through the precomputation at load time and frees them afterwards.
+
+### Run the text refiner once[#](#run-the-text-refiner-once)
+
+The two-layer text refiner depends only on the encoded prompt, not on the timestep. UniServe runs it once per request and reuses its output across all eight DiT forwards.
+
+## Head-sharded projections for Ulysses[#](#head-sharded-projections-for-ulysses)
+
+Standard Ulysses sequence parallelism starts with each GPU holding a shard of the sequence. In FastVideo’s Ulysses path, each GPU applies the full, replicated Q, K, V and gate projections to its local tokens; an all-to-all then switches from sequence sharding to head sharding, so attention sees the full sequence for the local heads. A second all-to-all switches back to sequence sharding before the output projection.
+
+UniServe changes the first half of this data flow. It shards the Q/K/V/gate weights by attention head, all-gathers the hidden states, which are narrower than the projected Q/K/V/gate tensors, and runs one merged projection for its 14 of the 56 heads over the full sequence. Local rows are projected immediately. Remote rows arrive through chunked asynchronous all-gathers, and each chunk enters the projection and attention preprocessing as soon as it lands while later chunks are still in flight.
+
+![Projection and communication data flow on one GPU of four](img/projection-dataflow-v2.svg)
+
+Figure 5. One GPU of four. Both paths compute the full token × head product; they differ in which tensor crosses the input collective, which projection weights each GPU stores, and how the transfer overlaps the projection.
+
+For a padded sequence length $S$, hidden size $H=5376$ and attention width $A=56 \times 128=7168$, each GPU receives the following number of BF16 elements in the input collective:
+
+$$
+\begin{aligned}
+\text{Projected Q/K/V/gate exchange} &: \frac{3}{4}\frac{S}{4}(4A),\\
+\text{Hidden-state gather} &: \frac{3S}{4}H.
+\end{aligned}
+$$
+
+With SP4, the hidden-state all-gather moves **75% of the data** of the projected all-to-all, the ratio H/A. The output all-to-all is unchanged.
+
+Head sharding also reduces weight memory. The 200 Q/K/V/gate matrices occupy about **14.4 GiB per GPU** when replicated and **3.6 GiB per GPU** when sharded four ways. The total projection FLOPs are unchanged: the work is repartitioned from local tokens × all heads to all tokens × local heads.
+
+## Kernel fusion in the DiT[#](#kernel-fusion-in-the-dit)
+
+### Fused attention preprocessing[#](#fused-attention-preprocessing)
+
+An unfused path runs Q/K RMSNorm, RoPE, gathering the valid rows, filling the padding, tile pooling and layout transposes as separate operations, and each materialized full-sequence tensor adds another round trip through memory.
+
+UniServe’s preprocessing kernel performs the learned Q/K RMSNorm, partial RoPE, tile pooling over valid tokens, tile packing and gate copying in a single pass per projected chunk. It writes the fine-attention inputs and the FP32 pooled statistics directly into the buffers the attention kernels read. Padding is handled inside this kernel, so it never becomes an input to later computation. Top-k tile selection and the fine and coarse attention kernels remain separate.
+
+The kernel runs once per chunk rather than once per transformer block, so preprocessing overlaps communication: the all-gathers run on a separate communication stream, and while the compute stream projects and prepares one chunk, later chunks are still in flight. The wider fusion also avoids the intermediate full-sequence tensors that an unfused RMSNorm / RoPE / pack / pool / transpose path would materialize.
+
+![Unfused attention preprocessing against UniServe's fused per-chunk kernel](img/fusion-preprocessing.svg)
+
+Figure 6. Attention preprocessing on one GPU. The unfused path is a conceptual baseline with one kernel per operation. UniServe’s kernel reads each projected chunk once and writes every input that tile selection, fine attention, the coarse branch and the output combination read.
+
+### Fused output combination[#](#fused-output-combination)
+
+The fine sparse-attention output and the gated coarse output combine as:
+
+$$
+O\_i = O\_i^{\mathrm{fine}} + G\_i \odot O\_{\mathrm{tile}(i)}^{\mathrm{compressed}}.
+$$
+
+UniServe’s combination kernel evaluates this expression and writes each row directly into its position in the send buffer of the output all-to-all. This fuses the combination with the layout conversion, avoiding a separately materialized combined tensor followed by a permute-and-copy. The all-to-all then restores the sequence sharding that the output projection and residual path consume.
+
+This all-to-all is chunked and asynchronous as well. The combination kernel fills the send buffer one row interval at a time, and each interval’s all-to-all starts on the communication stream as soon as its rows are written. The output projection, gated residual and MLP then consume completed intervals while later intervals are still in flight.
+
+![Output combination written into the all-to-all send buffer and exchanged by row interval](img/fusion-output-exchange.svg)
+
+Figure 7. Output combination and exchange on one GPU. UniServe composes each row interval directly into the send-buffer slots of its destination GPUs and starts that interval’s all-to-all at once; the output projection and MLP of an interval start when its exchange lands. The timeline shows order, not duration.
+
+### Fused modulation, normalization and residuals[#](#fused-modulation-normalization-and-residuals)
+
+Each block applies AdaLN modulation around RMSNorm and a gated residual update. Schematically, the attention input is `RMSNorm(x) * (1 + scale_attn) + shift_attn`. After attention, the residual becomes `r = x + gate_attn * attention_output`, and the MLP input is the modulated RMSNorm of `r`.
+
+UniServe fuses these steps. The pre-attention kernel looks up each token’s modulation row, selected by its modality and the current timestep, while it normalizes, and saves the residual input in the same pass as chunks arrive. The post-attention kernel produces both the gated residual and the modulated, normalized MLP input. A fused gate/up projection with SwiGLU feeds the down projection, followed by the MLP’s gated residual update. In the BF16 path, finished chunks flow into the next stage without first concatenating the whole shard.
+
+![AdaLN modulation, normalization and residual kernels of one DiT block](img/fusion-modulation.svg)
+
+Figure 8. AdaLN modulation, normalization and residuals in one DiT block. UniServe reads each token’s precomputed modulation row inside the normalization kernels and writes the residual and the next stage’s input in the same pass.
+
+## A batched, streaming decode path[#](#a-batched-streaming-decode-path)
+
+### Batch spatial tiles, distribute temporal units[#](#batch-spatial-tiles-distribute-temporal-units)
+
+The video VAE decoder reconstructs each temporal unit from overlapping spatial tiles. At 1344 × 768 the tile grid is 4 × 7: 28 tiles with a 256-pixel minimum tile size and a 64-pixel overlap. A straightforward implementation loops over the tiles and calls the decoder once per tile. Parallelizing the DiT leaves this loop untouched: in the naive baseline’s trace, all video decoder kernels still run on GPU 0.
+
+UniServe concatenates a unit’s 28 tiles along the batch dimension and decodes them in one call, then restores the grid and blends the overlaps. Tiles stay independent samples in the batch. The worker distributes temporal units across the four GPUs.
+
+![Spatial batching and temporal placement](img/media-placement.svg)
+
+Figure 9. For four temporal units, UniServe issues four batch-28 decoder calls. FastVideo distributes temporal units across GPUs but loops over their spatial tiles. SGLang and vLLM-Omni distribute each unit’s spatial tiles across GPUs.
+
+For the 10-second sample’s 14 temporal units, the traces show **14 decoder calls in UniServe**, versus **392 per-tile calls** in FastVideo and SGLang. Each batched call amortizes the host-side launch work over a whole unit.
+
+### Fuse the VAE decoder and replay it as a CUDA graph[#](#fuse-the-vae-decoder-and-replay-it-as-a-cuda-graph)
+
+Batching combines with kernel fusion inside the VAE decoder. UniServe’s video decoder transformer fuses Q/K normalization with RoPE, fuses the scaled attention residual with the following RMSNorm, and defers each MLP residual addition into the next layer’s normalization; the last layer folds its pending addition into the output LayerNorm. The normalization reads the FP32 residual sum, so FP16 projection weights do not round the residual stream to FP16. SwiGLU and the final unpatchify step, which turns tokens back into pixels, have their own fused kernels.
+
+The worker captures the batched decode as a CUDA graph and replays it for each temporal unit. Capturing the whole batched decode removes the host round-trips of launching thousands of small kernels per request.
+
+The video decode spans about **1.1 s on the GPUs in UniServe and 4.8 s in FastVideo**. UniServe keeps the GPU busy for almost that entire span; FastVideo spends much of its 4.8 s waiting on the host.
+
+### Encode while the GPU is still decoding[#](#encode-while-the-gpu-is-still-decoding)
+
+A video request is not finished when its pixels are reconstructed. UniServe copies each decoded RGB unit to host memory and schedules its encoding independently of the remaining GPU decoding. On the same host, the encoder reads the published host buffer directly instead of making another copy. Four CPU encoder processes encode units with libx264 while the GPUs continue decoding. The audio decoder produces PCM, which the host encodes to AAC. The muxer appends the already encoded video packets with adjusted timestamps and adds the audio track, without decoding or re-encoding any video.
+
+The trace shows the overlap: encoding starts while later units are still decoding, and the complete MP4 arrives about **100 ms** after the last video kernel.
+
+vLLM-Omni offers a similar option, `preencode_mp4`, which encodes each decoded chunk on the worker while later chunks decode; the vLLM-Omni benchmark results below use it. FastVideo and SGLang encode the MP4 after decoding finishes.
+
+## Where the time goes[#](#where-the-time-goes)
+
+The following traces use the same 10 s/1K prompt and seed on four GB200 GPUs, one request at a time, after warmup.
+
+![Five-system complete-request timeline](img/request-timeline-10s-1k.svg)
+
+Figure 10. All panels share one time axis, starting at request submission. The dashed line marks receipt of the complete MP4. GPU bars span the first to the last correlated kernel across the four GPUs, including idle gaps. Host output bars can overlap GPU work and include any format conversion inside those functions.
+
+| 10 s/1K request, seconds | Text encoder (GPU) | Refiner + denoising (GPU) | Decode (GPU) | End-to-end, profiled | End-to-end, unprofiled |
+| --- | --- | --- | --- | --- | --- |
+| UniServe | 0.020 | 10.052 | 1.107 | 11.414 | 11.341 |
+| FastVideo | 0.113 | 11.723 | 4.953 | 17.735 | 16.496 |
+| SGLang | 0.161 | 11.111 | 5.318 | 17.215 | 16.089 |
+| vLLM-Omni | 0.119 | 12.580 | 3.940 | 17.018 | 16.116 |
+| Naive | 0.112 | 15.752 | 25.346 | 42.622 | 34.315 |
+
+*Decode covers video decoding, audio decoding and the final reconstruction steps; it excludes the GPU frame conversion performed by the output encoder. The unprofiled column is a warmed request before tracing starts.*
+
+## NVFP4[#](#nvfp4)
+
+The optimizations above change where and when the same computation runs. Precision is a separate choice, set per component when the server starts. The default preset, `quality`, runs the DiT and text encoder in BF16 and the video-decoder projections in FP16; the BF16 results in this post use it. `balanced` stores the video decoder’s projections in NVFP4. `performance` also runs the DiT MLP in FP8, and `maximum` runs it in NVFP4 with an FP8 text encoder; attention stays in BF16 in every preset.
+
+To go faster still, we also publish an NVFP4[1](#fn:1) post-training-quantized (PTQ) checkpoint, `FastVideo/FastVideo-FastH3-8-Step-V2-NVFP4`, which UniServe serves natively.
+
+The checkpoint quantizes 150 DiT MLP projections (gate, up and down in each of the 50 layers) and 252 video-VAE decoder projections (Q/K/V, attention output and the three MLP projections in each of 36 layers). The text encoder and the DiT’s attention projections stay in BF16. UniServe loads the packed weights as they are stored, two E2M1 values per byte plus the block scales, and quantizes activations on the fly against each module’s calibrated global scale from the checkpoint, so every chunk of rows uses the same scale no matter how the sequence is split. The packed values and block scales go directly into a block-scaled FP4 GEMM that produces BF16 outputs.
+
+On a 10 s/1K request, DiT time on GPU 0 falls from 10.2 s with BF16 to 8.5 s, and video decoder time from 1.2 s to 0.8 s. End to end, NVFP4 lowers UniServe’s median latency by about 10–15% and raises its throughput by 15–19% across the three hardware configurations; see [NVFP4 against BF16](#nvfp4-against-bf16).
+
+The clips compare UniServe’s BF16 (left) and NVFP4 (right) outputs for the same benchmark requests, 10 seconds with 1K-token prompts, from the eight-RTX PRO 6000 latency runs.
+
+[![](img/videos/market-poster.jpg)](https://github.com/hao-ai-lab/hao-ai-lab.github.io/releases/download/website-demo-media-v2/uniserve-fasth3--img--videos--market-side-by-side.mp4)
+
+Market: BF16 (left) and NVFP4 (right).
+
+[![](img/videos/percussion-poster.jpg)](https://github.com/hao-ai-lab/hao-ai-lab.github.io/releases/download/website-demo-media-v2/uniserve-fasth3--img--videos--percussion-side-by-side.mp4)
+
+Percussion performance: BF16 (left) and NVFP4 (right).
+
+[![](img/videos/river-poster.jpg)](https://github.com/hao-ai-lab/hao-ai-lab.github.io/releases/download/website-demo-media-v2/uniserve-fasth3--img--videos--river-side-by-side.mp4)
+
+River: BF16 (left) and NVFP4 (right).
+
+[![](img/videos/ceramics-poster.jpg)](https://github.com/hao-ai-lab/hao-ai-lab.github.io/releases/download/website-demo-media-v2/uniserve-fasth3--img--videos--ceramics-side-by-side.mp4)
+
+Ceramics studio: BF16 (left) and NVFP4 (right).
+
+## Serving with NVIDIA Dynamo[#](#serving-with-nvidia-dynamo)
+
+UniServe also runs as an experimental backend for [NVIDIA Dynamo](https://github.com/ai-dynamo/dynamo). Dynamo’s frontend serves the OpenAI-style `/v1/videos` endpoint and handles service discovery and request routing.
+
+`uniserve-dynamo-worker` embeds UniServe’s scheduler in a Dynamo worker and serves FastH3 through Dynamo’s `/v1/videos` endpoint. The [Dynamo quickstart](https://github.com/hao-ai-lab/UniServe/blob/3cca4caafd7a8b3cdf841b625509b0c1c8edf6c1/docs/fast_h3/dynamo.md) shows how to run it on four GB200 GPUs.
+
+## Deploy UniServe[#](#deploy-uniserve)
+
+Install UniServe as in its [README](https://github.com/hao-ai-lab/uniserve#install), then choose a model and GPUs to get the deployment file and the commands that serve it. The [serving guide](https://github.com/hao-ai-lab/uniserve/blob/main/docs/minimax_h3/minimax_h3.md) covers every other option.
+
+Model
+
+GPU
+
+GPUs
+
+Optimize for
+
+Checkpoint
+
+Precision
+
+Longest clip
+
+Longest prompt
+
+Reference sizing
+
+Deployment file 
+
+Shipped with UniServe; pass it to `--workers`.CopyDownload
+
+## Benchmark methodology and full results[#](#benchmark-methodology-and-full-results)
+
+This section describes how we measured and lists every result behind the charts.
+
+### Baselines[#](#baselines)
+
+We compare UniServe against two kinds of baselines.
+
+**Naive.** To show what UniServe’s optimizations contribute, we build a naive baseline from the pinned FastVideo implementation. It already includes the standard optimizations: Ulysses SP4 denoising, TP4 text encoding, resident weights, the native VSA kernel, one text-refiner pass per request and FP16 VAE decoder projections. FastVideo’s optional fusions, `torch.compile`, AdaLN precomputation and parallel VAE decoding are disabled.
+
+**Tuned.** FastVideo, vLLM-Omni and SGLang each run a fast configuration of the same checkpoint: native SM100a VSA on GB200, resident GPU weights, and the same libx264 encode settings. [Setup](#setup) lists the per-system settings. Elsewhere in this post, “the baselines” means these three tuned systems.
+
+### Setup[#](#setup)
+
+**Hardware.** (1) 4 × GB200 GPUs in one node; (2) 8 × GB200 GPUs across two nodes connected by multi-node NVLink (MNNVL); (3) 8 × RTX PRO 6000 Blackwell Server Edition GPUs in one node.
+
+**Systems and checkpoints.** Every system serves the BF16 checkpoint `FastVideo/FastVideo-FastH3-8-Step-V2` while only UniServe also serves the NVFP4 checkpoint `FastVideo/FastVideo-FastH3-8-Step-V2-NVFP4`. All systems run the full eight-step schedule, the checkpoint’s sparse attention, and the full video and audio decoders. Compilation, fused kernels, parallelism and overlapping media processing are in scope.
+
+| System | Checkpoint | 4 x GB200 | 8 x GB200, two nodes | 8 x RTX PRO 6000 |
+| --- | --- | --- | --- | --- |
+| UniServe | BF16, NVFP4 | Supported | Supported | Supported |
+| FastVideo | BF16 | Supported | Supported | Supported |
+| vLLM-Omni | BF16 | Supported, native SM100a VSA | Throughput layout only, native SM100a VSA† | Supported, Triton VSA |
+| SGLang | BF16 | Supported, native SM100a VSA | Supported, native SM100a VSA | Supported, Triton VSA |
+| FastVideo, vLLM-Omni, SGLang | NVFP4 | N/A | N/A | N/A |
+
+*Supported configurations. On GB200, vLLM-Omni and SGLang use the native SM100a VSA kernel. † vLLM-Omni cannot run one replica across two hosts, so it has no eight-GB200 latency result. NVFP4 is UniServe-only: the other systems do not load this checkpoint natively.*
+
+**Layouts.** We tuned the layouts once and fixed them for every system:
+
+| Hardware | Latency layout | Throughput layout |
+| --- | --- | --- |
+| 4 x GB200 | `r1s4`, text encoder TP4 | `r1s4`, text encoder TP4 |
+| 8 x GB200, two nodes | `r1s8`, text encoder TP8 | `r2s4`, one replica per node, text encoder TP4 |
+| 8 x RTX PRO 6000 | `r1s8`, text encoder TP8 | `r2s4`, text encoder TP4 |
+
+*Layouts.* `r` *is the number of replicas and* `s` *the DiT’s sequence-parallel degree; the text encoder is tensor-parallel across each replica’s GPUs.*
+
+**Baseline configuration.** Within a layout, every system keeps DiT weights resident on the GPU, with no offloading to host memory and no tensor-parallel sharding. Every system also runs the text encoder tensor-parallel across its replica, keeps the video VAE decoder projections in FP16, does not load components that text-to-video does not use, and encodes H.264 with libx264 `ultrafast`. The settings that differ:
+
+| Setting | UniServe | FastVideo | vLLM-Omni | SGLang |
+| --- | --- | --- | --- | --- |
+| AdaLN modulation for the fixed schedule | Precomputed at load | Precomputed at load | Precomputed at load | Precomputed on first use |
+| Compilation | CUDA graphs for four-GPU replicas on GB200; eager for eight-GPU replicas and on RTX PRO 6000 | DiT: regional `torch.compile` on GB200 (it requires the SM100a kernel); VAE decoder compiled on all hardware | Regional `torch.compile` | None: eager, because SGLang’s VSA-H3 validation refuses `torch.compile` and breakable CUDA graphs |
+| MP4 encoding | Host workers, overlapped with decoding | After decoding | On the worker, overlapped with decoding (`preencode_mp4`) | After decoding |
+
+*Per-system settings that differ within each layout.*
+
+**Workload.** Six scene families, each with a 1K-token and a 10K-token prompt, at 5-, 10- and 15-second clip lengths. Prompts, seeds and execution order are the same for every system.
+
+**Metrics.** Latency is 72 requests at concurrency 1 (six scenes × two prompt lengths × three durations × two seeds). We report p50 / p90 / p95 over all 72 and the median of the 12 requests of each shape. Throughput is 32 requests per concurrency level (C = 1, 2, 4, 8, and 16 on eight GPUs), counted as valid MP4s per second from the first submission to the last response.
+
+### Latency[#](#latency)
+
+![Median latency per shape on every hardware configuration](img/latency-per-shape.svg)
+
+Figure 11. Median end-to-end latency of each shape, one request at a time. The two panels of a row share their y-axis. The folded tables below list every value.
+
+**Four GB200 GPUs.** **Across the 72-request workload, UniServe BF16 has a median end-to-end latency of 14.24 s, compared with 17.80 s for SGLang, 18.17 s for FastVideo and 18.83 s for vLLM-Omni.** Across the six shapes, SGLang’s median is 1.18 to 1.30 times UniServe’s, FastVideo’s 1.23 to 1.33 times and vLLM-Omni’s 1.28 to 1.37 times.
+
+End-to-end latency on four GB200 GPUs
+
+| System | Precision | p50 (s) | p90 (s) | p95 (s) | Valid / attempted |
+| --- | --- | --- | --- | --- | --- |
+| UniServe | BF16 | **14.24** | **27.30** | **27.32** | 72 / 72 |
+| FastVideo | BF16 | 18.17 | 33.62 | 33.77 | 72 / 72 |
+| vLLM-Omni | BF16 | 18.83 | 34.89 | 34.94 | 72 / 72 |
+| SGLang | BF16 | 17.80 | 32.59 | 32.76 | 72 / 72 |
+| UniServe | NVFP4 | **12.15** | **24.16** | **24.27** | 72 / 72 |
+
+| System | Precision | 5 s / 1K | 5 s / 10K | 10 s / 1K | 10 s / 10K | 15 s / 1K | 15 s / 10K |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| UniServe | BF16 | **5.62** | **8.80** | **11.73** | **16.75** | **20.27** | **27.31** |
+| FastVideo | BF16 | 7.47 | 10.87 | 15.65 | 20.65 | 26.35 | 33.70 |
+| vLLM-Omni | BF16 | 7.69 | 11.34 | 15.93 | 21.47 | 26.84 | 34.90 |
+| SGLang | BF16 | 7.07 | 10.35 | 15.23 | 20.43 | 25.44 | 32.59 |
+| UniServe | NVFP4 | **4.49** | **7.48** | **9.67** | **14.46** | **17.32** | **24.18** |
+
+*End-to-end latency on four GB200 GPUs (*`r1s4`*): quantiles over all 72 requests (top) and median per shape in seconds, 12 requests each (bottom).*
+
+**Eight GB200 GPUs across two nodes.** With one eight-GPU replica spanning both nodes, **UniServe BF16 has a median latency of 7.51 s, 47% below its four-GPU median, compared with 9.79 s for SGLang and 13.02 s for FastVideo**. SGLang’s per-shape medians are 1.24 to 1.35 times UniServe’s and FastVideo’s 1.52 to 1.88 times.
+
+End-to-end latency on eight GB200 GPUs across two nodes
+
+| System | Precision | p50 (s) | p90 (s) | p95 (s) | Valid / attempted |
+| --- | --- | --- | --- | --- | --- |
+| UniServe | BF16 | **7.51** | **14.09** | **14.12** | 72 / 72 |
+| FastVideo | BF16 | 13.02 | 23.58 | 24.39 | 72 / 72 |
+| vLLM-Omni | BF16 | N/A |  |  |  |
+| SGLang | BF16 | 9.79 | 17.46 | 17.59 | 72 / 72 |
+| UniServe | NVFP4 | **6.56** | **12.53** | **12.60** | 72 / 72 |
+
+| System | Precision | 5 s / 1K | 5 s / 10K | 10 s / 1K | 10 s / 10K | 15 s / 1K | 15 s / 10K |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| UniServe | BF16 | **3.13** | **4.74** | **6.25** | **8.76** | **10.55** | **14.11** |
+| FastVideo | BF16 | 5.37 | 7.19 | 11.38 | 13.54 | 19.86 | 23.97 |
+| SGLang | BF16 | 4.22 | 6.02 | 8.38 | 10.99 | 13.88 | 17.51 |
+| UniServe | NVFP4 | **3.05** | **4.15** | **5.35** | **7.62** | **9.13** | **12.54** |
+
+*End-to-end latency on eight GB200 GPUs across two nodes (*`r1s8`*).*
+
+**Eight RTX PRO 6000 GPUs.** **UniServe BF16 has a median latency of 35.57 s, compared with 43.38 s for SGLang, 49.76 s for FastVideo and 51.35 s for vLLM-Omni.** The margin grows with duration and prompt length. SGLang’s median is 0.96 times UniServe’s for 5-second videos with 1K-token prompts, where SGLang is 0.85 s faster, and 1.30 times for 15-second videos with 10K-token prompts; FastVideo’s ratio ranges from 1.15 to 1.45 and vLLM-Omni’s from 1.12 to 1.55. No system uses an SM100a kernel on this hardware: UniServe runs FlashInfer’s SM120 block-sparse attention kernel, and the others run their Triton VSA kernels.
+
+End-to-end latency on eight RTX PRO 6000 GPUs
+
+| System | Precision | p50 (s) | p90 (s) | p95 (s) | Valid / attempted |
+| --- | --- | --- | --- | --- | --- |
+| UniServe | BF16 | **35.57** | **58.72** | **58.75** | 72 / 72 |
+| FastVideo | BF16 | 49.76 | 85.03 | 85.18 | 72 / 72 |
+| vLLM-Omni | BF16 | 51.35 | 91.13 | 91.24 | 72 / 72 |
+| SGLang | BF16 | 43.38 | 76.49 | 76.53 | 72 / 72 |
+| UniServe | NVFP4 | **32.15** | **53.54** | **53.54** | 72 / 72 |
+
+| System | Precision | 5 s / 1K | 5 s / 10K | 10 s / 1K | 10 s / 10K | 15 s / 1K | 15 s / 10K |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| UniServe | BF16 | 19.12 | **24.51** | **31.39** | **39.80** | **47.52** | **58.72** |
+| FastVideo | BF16 | 21.97 | 31.31 | 42.53 | 55.87 | 67.95 | 85.12 |
+| vLLM-Omni | BF16 | 21.44 | 33.28 | 43.45 | 59.16 | 70.21 | 91.15 |
+| SGLang | BF16 | **18.27** | 27.10 | 37.09 | 49.71 | 60.36 | 76.50 |
+| UniServe | NVFP4 | **17.39** | **22.54** | **28.15** | **36.15** | **42.61** | **53.54** |
+
+*End-to-end latency on eight RTX PRO 6000 GPUs (*`r1s8`*).*
+
+### Throughput[#](#throughput)
+
+![Throughput at each concurrency on every hardware configuration](img/throughput-concurrency.svg)
+
+Figure 12. Valid videos per second at each concurrency. On four GB200 GPUs, FastVideo’s and vLLM-Omni’s lines overlap. The folded tables below list every value with its p50 and p95 latency.
+
+On four GB200 GPUs with one replica, every system’s throughput is essentially flat across concurrency: higher concurrency adds queueing latency without adding throughput. **At each system’s best concurrency, UniServe BF16’s throughput is 24.0% above SGLang’s, 32.6% above vLLM-Omni’s and 32.7% above FastVideo’s.** With two replicas on eight GPUs, C=1 leaves one replica idle and both are busy from C=2. **On two GB200 nodes, UniServe BF16 reaches 0.1283 videos/s, 14.9% above SGLang’s best (0.1117 videos/s at C=8), 20.3% above FastVideo’s (0.1067 videos/s at C=4) and 22.0% above vLLM-Omni’s (0.1052 videos/s at C=8).** On the RTX PRO 6000, **UniServe BF16 reaches 0.0389 videos/s, 20.8% above SGLang’s best (0.0322 videos/s at C=4), 39.9% above FastVideo’s (0.0278 videos/s at C=4) and 45.4% above vLLM-Omni’s (0.0267 videos/s at C=4)**. Each cell below gives throughput in valid videos per second, followed by p50 / p95 end-to-end latency in seconds, for one 32-request run.
+
+Throughput and latency under load on four GB200 GPUs
+
+| System | Precision | C=1 | C=2 | C=4 | C=8 |
+| --- | --- | --- | --- | --- | --- |
+| UniServe | BF16 | **0.0702 (11.6 / 26.6)** | **0.0708 (30.4 / 45.6)** | **0.0705 (54.0 / 74.8)** | **0.0707 (104.8 / 140.5)** |
+| FastVideo | BF16 | 0.0531 (16.1 / 34.0) | 0.0532 (37.4 / 55.1) | 0.0534 (74.2 / 90.9) | 0.0531 (141.0 / 173.7) |
+| vLLM-Omni | BF16 | 0.0533 (15.8 / 34.2) | 0.0534 (39.6 / 55.3) | 0.0534 (74.2 / 97.9) | 0.0532 (143.5 / 170.9) |
+| SGLang | BF16 | 0.0567 (15.0 / 31.8) | 0.0571 (36.8 / 52.0) | 0.0571 (69.5 / 89.6) | 0.0571 (133.7 / 160.3) |
+| UniServe | NVFP4 | **0.0819 (9.5 / 23.7)** | **0.0824 (24.4 / 40.0)** | **0.0824 (46.9 / 64.0)** | **0.0823 (90.3 / 120.9)** |
+
+*Throughput and latency under load on four GB200 GPUs (*`r1s4`*).*
+
+Throughput and latency under load on eight GB200 GPUs across two nodes
+
+| System | Precision | C=1 | C=2 | C=4 | C=8 | C=16 |
+| --- | --- | --- | --- | --- | --- | --- |
+| UniServe | BF16 | **0.0692 (11.7 / 27.3)** | **0.1223 (12.4 / 34.0)** | **0.1251 (29.4 / 49.0)** | **0.1283 (53.1 / 78.6)** | **0.1186 (118.4 / 151.7)** |
+| FastVideo | BF16 | 0.0506 (20.6 / 33.8) | 0.1039 (15.7 / 33.7) | 0.1067 (36.2 / 54.3) | 0.1042 (68.7 / 101.7) | 0.0958 (114.3 / 182.2) |
+| vLLM-Omni | BF16 | 0.0529 (16.0 / 34.6) | 0.1021 (15.9 / 34.3) | 0.1043 (37.0 / 55.3) | 0.1052 (70.9 / 111.7) | 0.1023 (136.8 / 167.0) |
+| SGLang | BF16 | 0.0564 (15.3 / 32.6) | 0.1079 (15.2 / 32.7) | 0.1111 (34.7 / 51.4) | 0.1117 (63.0 / 93.7) | 0.1002 (106.5 / 173.5) |
+| UniServe | NVFP4 | **0.0804 (9.7 / 24.3)** | **0.1420 (9.7 / 34.6)** | **0.1437 (25.2 / 42.2)** | **0.1467 (46.3 / 68.5)** | **0.1480 (92.3 / 119.7)** |
+
+*Throughput and latency under load on eight GB200 GPUs across two nodes (*`r2s4`*).*
+
+Throughput and latency under load on eight RTX PRO 6000 GPUs
+
+| System | Precision | C=1 | C=2 | C=4 | C=8 | C=16 |
+| --- | --- | --- | --- | --- | --- | --- |
+| UniServe | BF16 | **0.0207 (39.7 / 86.2)** | **0.0389 (39.7 / 88.2)** | **0.0389 (97.8 / 131.3)** | **0.0362 (186.0 / 274.9)** | **0.0359 (379.2 / 499.2)** |
+| FastVideo | BF16 | 0.0138 (61.9 / 129.2) | 0.0271 (58.7 / 129.2) | 0.0278 (140.3 / 210.8) | 0.0269 (266.7 / 415.7) | 0.0270 (413.2 / 706.0) |
+| vLLM-Omni | BF16 | 0.0135 (58.9 / 139.5) | 0.0260 (59.0 / 139.5) | 0.0267 (144.9 / 225.4) | 0.0263 (273.8 / 419.9) | 0.0260 (475.8 / 794.6) |
+| SGLang | BF16 | 0.0163 (50.0 / 114.3) | 0.0313 (49.9 / 114.6) | 0.0322 (120.7 / 185.1) | 0.0317 (227.6 / 345.4) | 0.0289 (368.1 / 616.3) |
+| UniServe | NVFP4 | **0.0244 (32.6 / 74.8)** | **0.0442 (33.7 / 75.0)** | **0.0461 (80.5 / 110.8)** | **0.0412 (170.2 / 264.7)** | **0.0434 (320.5 / 399.2)** |
+
+*Throughput and latency under load on eight RTX PRO 6000 GPUs (*`r2s4`*).*
+
+### NVFP4 against BF16[#](#nvfp4-against-bf16)
+
+| Hardware | BF16 p50 (s) | NVFP4 p50 (s) | Latency change | BF16 best (videos/s) | NVFP4 best (videos/s) | Throughput change |
+| --- | --- | --- | --- | --- | --- | --- |
+| 4 x GB200 | 14.24 | 12.15 | −14.7% | 0.0708 | 0.0824 | +16.4% |
+| 8 x GB200 | 7.51 | 6.56 | −12.6% | 0.1283 | 0.1480 | +15.4% |
+| 8 x RTX PRO 6000 | 35.57 | 32.15 | −9.6% | 0.0389 | 0.0461 | +18.6% |
+
+*UniServe BF16 and NVFP4 in the same layouts. NVFP4 is a separate precision tier; see [NVFP4](#nvfp4).*
+
+## Meet the Team[#](#meet-the-team)
+
+**Yi Sun**
+
+  
+**Will Lin**
+
+  
+**Hao Zhang**
+
+## Acknowledgments[#](#acknowledgments)
+
+FastVideo FastH3 builds on [MiniMax H3](https://huggingface.co/MiniMaxAI/MiniMax-H3). We thank the MiniMax team for releasing its weights and code.
+
+We thank [Nuva Lab](https://nuvalab.ai/) and [Reactor](https://www.reactor.inc/) for their collaboration, feedback and insights during UniServe’s development, and Nuva Lab for access to the production hardware used in our benchmarks.
+
+We thank Guan Luo, Qi Wang, Ryan McCormick, Harry Kim, and the rest of the [NVIDIA Dynamo](https://github.com/ai-dynamo/dynamo) team for their support in integrating Dynamo with UniServe, bringing UniServe closer to a production-grade serving engine.
+
+We also thank [NVIDIA FastGen](https://github.com/NVlabs/FastGen) (Julius Berner, Chao Liu, Arash Vahdat), and NVIDIA Enterprise Products (Pengcheng Li, Cliff Woolley) team for collaborating on [FastH3](/blogs/fasth3-preview/).
+
+Finally, we are extremely grateful to the [vLLM project](https://vllm.ai/), [NVIDIA](https://www.nvidia.com/en-us/) and [MBZUAI](https://mbzuai.ac.ae/) for their continued sponsorship and support of FastVideo.
+
+---
+
+1. NVFP4 is the 4-bit floating-point format with native tensor-core support on Blackwell GPUs. It stores E2M1 values with one FP8 (E4M3) scale per 16-element block and one FP32 scale per tensor. [↩︎](#fnref:1)

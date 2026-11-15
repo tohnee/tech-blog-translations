@@ -121,6 +121,24 @@
 - 抓取：`/tmp/zhihu-venv/bin/python3 crawl_zhihu.py --limit 200`——25 组 AI 关键词（大模型/LLM/智能体/RAG/DeepSeek…）搜文章 → 去重 → 逐篇转 Markdown → `zhihu-articles/posts/<id>.md`（项目规范 frontmatter：title/source/crawled/author/created）。断点续传状态在 `zhihu-articles/_state.json`；连续 5 次失败自动停（疑似风控/掉登录）。**Mimosa 拦 subprocess+变量模式，故脚本走库直调（`search_articles` + `ContentDownloader.fetch_article`），零子进程。**
 - 口径：中文源**仅归档不翻译**（同苏剑林先例）；范围=关键词搜索命中的 AI 主题专栏文章；每次 run 上限 200 篇防风控。回答/问题（问答体）暂不收，仅收专栏文章。
 
+### 13. Harvard CS2680「Modern AI Systems: Agents and System Optimizations」（cs2680-articles，2026-11-16 建库）
+
+- 课程站 `cs2680.seas.harvard.edu` 直连可抓（静态 HTML + slides/*.pdf）。
+- 已收：主页/policy/project/discussion + assignments×5（`pages/`）；14 份讲义 PDF（`slides/*.pdf` + pypdf 抽取的 `.md`）。3 份 `*_protected.pdf` 加密未收。
+- 学期更新时手动重抓：页面直接 curl；新讲义 `slides/<n>_*.pdf` → 下载 + pypdf 文本化 → 翻译。**不自动追踪**（同 MATH 289/CS329A 例外，SOP 第 11 节惯例）。
+- 翻译规范：术语见 `cs2680-articles-zh/pages/index.md`（智能体/LLM 服务/投机解码/KV 缓存等）。
+
+### 14. SOSP 2026 录用名单（sosp2026-articles，2026-11-16 建库）
+
+- `sigops.org/s/conferences/sosp/2026/accepted.html` 直连可抓；单页名单（62 篇论文，标题/作者保留英文，页面说明翻译）。
+- 一次性归档；SOSP 2027 名单发布后新建 `sosp2027-articles/` 按同法收录。不自动追踪。
+
+### 15. Hao AI Lab @ UCSD（haoailab-articles，2026-11-16 建库）
+
+- `haoailab.com/blogs/` 直连可抓。⚠️ Hugo 压缩输出：`href=` 后无引号，正则须 `href=(?:"|\')?https://haoailab\.com/blogs/([a-z0-9\-]+)`；排除 `index`。
+- 已收 10 篇（FastH3 本地/RTX/v2.1、FastVideo OmniRef、Jev、ORA、Pika H3、UniServe、可验证 LLM 基础设施等）。`detect_new.py` 已含 `haoailab` 源（每日自动检测）。
+- 术语：FastH3/FastVideo/Pika/QAD/NVFP4/DiT/RTX/DGX Spark 保留英文；扩散模型/视频生成/解码器/量化/蒸馏中文。
+
 ## 收尾（每次必做）
 
 1. 重新生成索引：`python3 build_master_index.py`（根 README + Google 三源 README）；SGLang/vLLM/OpenAI 等其余 README 有新文时手工追加条目。

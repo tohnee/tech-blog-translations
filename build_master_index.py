@@ -233,6 +233,24 @@ def main() -> None:
             "guide": None, "readme": "zhihu-articles/README.md",
             "note": "中文原创 AI 专栏文章，仅归档不翻译；crawl_zhihu.py 按关键词发现+下载（需 zhihu auth 登录）",
         },
+        {
+            "name": "Harvard CS2680 现代 AI 系统", "site": "cs2680.seas.harvard.edu",
+            "en": "cs2680-articles", "zh": "cs2680-articles-zh",
+            "guide": None, "readme": "cs2680-articles-zh/README.md",
+            "note": "2026-11-16 建库：课程主页/政策/作业×5/期末项目/论文讨论 + 14 份讲义 PDF（570 页文本化）全译",
+        },
+        {
+            "name": "SOSP 2026 录用论文", "site": "sigops.org",
+            "en": "sosp2026-articles", "zh": "sosp2026-articles-zh",
+            "guide": None, "readme": "sosp2026-articles-zh/README.md",
+            "note": "2026-11-16 建库：SOSP 2026 官方录用名单（论文标题保留英文）",
+        },
+        {
+            "name": "Hao AI Lab @ UCSD", "site": "haoailab.com",
+            "en": "haoailab-articles", "zh": "haoailab-articles-zh",
+            "guide": None, "readme": "haoailab-articles-zh/README.md",
+            "note": "2026-11-16 建库：FastVideo/FastH3/ORA/UniServe 等博客全量归档+翻译",
+        },
     ]
 
     rows = ["| 来源 | 原文站点 | 英文存档 | 中文翻译 | 篇数 | 索引 |",
