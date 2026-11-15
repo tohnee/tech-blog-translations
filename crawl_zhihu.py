@@ -40,6 +40,18 @@ KEYWORDS = [
     "提示词工程", "上下文工程", "MCP", "智能体编排", "具身智能",
 ]
 
+# LLM infra / AI infra 专项关键词（第二轮发现，去重后并入同一清单）
+INFRA_KEYWORDS = [
+    "推理优化", "推理加速", "推理引擎", "vLLM", "SGLang",
+    "TensorRT", "量化", "KV Cache", "PagedAttention", "投机解码",
+    "分布式训练", "模型并行", "张量并行", "流水线并行", "DeepSpeed",
+    "Megatron", "FSDP", "GPU 集群", "显存优化", "CUDA",
+    "Triton", "编译器", "算子", "FlashAttention", "MoE",
+    "RDMA", "InfiniBand", "算力", "H100", "NPU",
+    "昇腾", "模型部署", "推理服务", "端侧推理", "llama.cpp",
+    "MLOps", "调度", "Kubernetes", "存储", "向量数据库",
+]
+
 # 知乎文章 URL 白名单：仅允许 zhuanlan.zhihu.com/p/<数字> 或 zhihu.com/p/<数字>
 URL_RE = re.compile(r"^https://(?:zhuanlan\.)?zhihu\.com/p/(\d+)/?$")
 
@@ -69,7 +81,7 @@ def sleep_jitter(lo: float = 3.0, hi: float = 6.0) -> None:
 def discover(st: dict, per_kw: int) -> int:
     """搜索全部关键词，返回新增条数。"""
     new = 0
-    for kw in KEYWORDS:
+    for kw in KEYWORDS + INFRA_KEYWORDS:
         print(f"[discover] {kw}", flush=True)
         try:
             items = search_articles(kw, limit=20, max_items=per_kw) or []
