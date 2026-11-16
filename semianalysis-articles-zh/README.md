@@ -1,7 +1,7 @@
 # SemiAnalysis 文章中文翻译索引
 
 > 来源：[SemiAnalysis](https://semianalysis.com)（[Substack: newsletter.semianalysis.com](https://newsletter.semianalysis.com)），半导体与 AI 基础设施研究机构。
-> 归档：英文 349 篇（`semianalysis-articles/posts/`），中文翻译 344 篇（本目录 `posts/`）。
+> 归档：英文 349 篇（`semianalysis-articles/posts/`），中文翻译 349 篇（本目录 `posts/`）。
 > 翻译规范：`TRANSLATION_GUIDE_SEMIANALYSIS.md`。
 
 **付费墙说明**：标有 🔒 的文章为付费订阅文，Substack 公开 API 仅提供付费墙之前的预览正文；
@@ -9,11 +9,11 @@
 
 | 日期 | 标题（中文） | 原文标题 | 作者 | 篇幅 |
 |---|---|---|---|---|
-| 2026-11-12 | Nvidia and the World Without Jensen 🔒 | Nvidia and the World Without Jensen | Dylan Patel, Doug, Wayne Ma | [EN](../../semianalysis-articles/posts/nvidia-and-the-world-without-jensen.md)（未译） |
-| 2026-11-07 | We Visited China’s Stargate in Inner Mongolia  🔒 | We Visited China’s Stargate in Inner Mongolia  | Everlyn Tan, Jeremie Eliahou Ontiveros, Xiaopeng Laoban | [EN](../../semianalysis-articles/posts/we-visited-chinas-stargate-in-inner.md)（未译） |
-| 2026-11-05 | The Iron(wood) Throne: Google's TPU Stakes Its Claim on Inference 🔒 | The Iron(wood) Throne: Google's TPU Stakes Its Claim on Inference | Bryan Shan, Alec Ibarra, Cam Quilici | [EN](../../semianalysis-articles/posts/tpu-strikes-the-king.md)（未译） |
-| 2026-11-03 | Elon Is Doing It Again: SpaceX Will Be The World’s Biggest AI Cloud 🔒 | Elon Is Doing It Again: SpaceX Will Be The World’s Biggest AI Cloud | Reyk Knuhtsen, Jeremie Eliahou Ontiveros, Dylan Patel | [EN](../../semianalysis-articles/posts/elon-is-doing-it-again-spacex-will.md)（未译） |
-| 2026-11-02 | GDPx: Measuring Frontier Model Capabilities Across the Most Valuable Domains  🔒 | GDPx: Measuring Frontier Model Capabilities Across the Most Valuable Domains  | Max Kan, Andrew Megalaa, Dylan Patel | [EN](../../semianalysis-articles/posts/gdpx-measuring-frontier-model-capabilities.md)（未译） |
+| 2026-11-12 | Nvidia 与没有黄仁勋的世界 🔒 | Nvidia and the World Without Jensen | Dylan Patel, Doug, Wayne Ma | [译文](posts/nvidia-and-the-world-without-jensen.md) · [EN](../../semianalysis-articles/posts/nvidia-and-the-world-without-jensen.md) |
+| 2026-11-07 | 我们探访了中国内蒙古的 Stargate 🔒 | We Visited China’s Stargate in Inner Mongolia  | Everlyn Tan, Jeremie Eliahou Ontiveros, Xiaopeng Laoban | [译文](posts/we-visited-chinas-stargate-in-inner.md) · [EN](../../semianalysis-articles/posts/we-visited-chinas-stargate-in-inner.md) |
+| 2026-11-05 | 铁（木）王座：Google 的 TPU 在推理领域宣示主权 🔒 | The Iron(wood) Throne: Google's TPU Stakes Its Claim on Inference | Bryan Shan, Alec Ibarra, Cam Quilici | [译文](posts/tpu-strikes-the-king.md) · [EN](../../semianalysis-articles/posts/tpu-strikes-the-king.md) |
+| 2026-11-03 | Elon 又来了：SpaceX 将成为全球最大的 AI 云 🔒 | Elon Is Doing It Again: SpaceX Will Be The World’s Biggest AI Cloud | Reyk Knuhtsen, Jeremie Eliahou Ontiveros, Dylan Patel | [译文](posts/elon-is-doing-it-again-spacex-will.md) · [EN](../../semianalysis-articles/posts/elon-is-doing-it-again-spacex-will.md) |
+| 2026-11-02 | GDPx：跨最有价值领域测量前沿模型能力 🔒 | GDPx: Measuring Frontier Model Capabilities Across the Most Valuable Domains  | Max Kan, Andrew Megalaa, Dylan Patel | [译文](posts/gdpx-measuring-frontier-model-capabilities.md) · [EN](../../semianalysis-articles/posts/gdpx-measuring-frontier-model-capabilities.md) |
 | 2026-11-01 | 反数据中心反弹走向两党化：下周中期选举与 2028 年建设潮 🔒 | The Datacenter Backlash Goes Bipartisan: Next Week's Midterms and the 2028 Buildout | Maya Barkin, Wayne Ma, Reyk Knuhtsen | [译文](posts/the-datacenter-backlash-goes-bipartisan.md) · [EN](../../semianalysis-articles/posts/the-datacenter-backlash-goes-bipartisan.md) |
 | 2026-10-23 | 亚马逊 Trainium 向训练之王发起冲击 🔒 | Amazon’s Trainium Takes a Strike at the Training King | Kimbo Chen, Dylan Patel | [译文](posts/amazons-trainium-takes-a-strike-at.md) · [EN](../../semianalysis-articles/posts/amazons-trainium-takes-a-strike-at.md) |
 | 2026-10-21 | 华为与 DeepSeek 的共生关系 🔒 | The Huawei-DeepSeek Symbiosis | Bryan Shan, Dylan Patel | [译文](posts/huawei-deepseek.md) · [EN](../../semianalysis-articles/posts/huawei-deepseek.md) |

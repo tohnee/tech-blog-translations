@@ -3,7 +3,7 @@
 收录 30 个高质量技术博客来源的全量文章归档与完整中文翻译
 （英文存档 `29` 源 + 中文原文 `1` 源；苏剑林博客为中文站点，仅归档）。
 
-> 累计：英文/原文归档 **7902** 篇，中文译文 **2775** 篇。
+> 累计：英文/原文归档 **7906** 篇，中文译文 **2780** 篇。
 > 每日自动同步：定时任务按 [DAILY_SYNC_SOP.md](DAILY_SYNC_SOP.md) 拉取各源新文章、归档并翻译，随后更新本索引并推送 GitHub。
 
 ## 项目总览
@@ -21,7 +21,7 @@
 | OpenAI 开发者博客 | developers.openai.com/blog | [openai-dev-articles/](openai-dev-articles/)（14） | [openai-dev-articles-zh/](openai-dev-articles-zh/)（14） | 14 / 14 | [规范](TRANSLATION_GUIDE_CLAUDE_BLOG.md) · [目录](openai-dev-articles-zh/README.md) |
 | Lilian Weng | lilianweng.github.io | [lilianweng-articles/](lilianweng-articles/)（53） | [lilianweng-articles-zh/](lilianweng-articles-zh/)（53） | 53 / 53 | [规范](TRANSLATION_GUIDE_LILIANWENG.md) · [目录](lilianweng-articles-zh/README.md) |
 | Sebastian Raschka | sebastianraschka.com | [sebastianraschka-articles/](sebastianraschka-articles/)（326） | [sebastianraschka-articles-zh/](sebastianraschka-articles-zh/)（326） | 326 / 326 | — · [目录](sebastianraschka-articles-zh/README.md) |
-| SemiAnalysis | semianalysis.com | [semianalysis-articles/](semianalysis-articles/)（349） | [semianalysis-articles-zh/](semianalysis-articles-zh/)（344） | 349 / 344 | [规范](TRANSLATION_GUIDE_SEMIANALYSIS.md) · [目录](semianalysis-articles-zh/README.md) |
+| SemiAnalysis | semianalysis.com | [semianalysis-articles/](semianalysis-articles/)（349） | [semianalysis-articles-zh/](semianalysis-articles-zh/)（349） | 349 / 349 | [规范](TRANSLATION_GUIDE_SEMIANALYSIS.md) · [目录](semianalysis-articles-zh/README.md) |
 | Qwen 通义千问 | qwenlm.github.io | [qwen-articles/](qwen-articles/)（48） | [qwen-articles-zh/](qwen-articles-zh/)（48） | 48 / 48 | [规范](TRANSLATION_GUIDE_AI_VENDORS.md) · [目录](qwen-articles-zh/README.md) |
 | DeepSeek 深度求索 | api-docs.deepseek.com/news | [deepseek-articles/](deepseek-articles/)（23） | [deepseek-articles-zh/](deepseek-articles-zh/)（23） | 23 / 23 | [规范](TRANSLATION_GUIDE_AI_VENDORS.md) · [目录](deepseek-articles-zh/README.md) |
 | Thinking Machines Lab | thinkingmachines.ai/blog | [thinkingmachines-articles/](thinkingmachines-articles/)（8） | [thinkingmachines-articles-zh/](thinkingmachines-articles-zh/)（8） | 8 / 8 | [规范](TRANSLATION_GUIDE_AI_VENDORS.md) · [目录](thinkingmachines-articles-zh/README.md) |
@@ -30,7 +30,7 @@
 | 小米 MiMo | github.com/XiaomiMiMo | [xiaomi-articles/](xiaomi-articles/)（11） | [xiaomi-articles-zh/](xiaomi-articles-zh/)（11） | 11 / 11 | [规范](TRANSLATION_GUIDE_AI_VENDORS.md) · [目录](xiaomi-articles-zh/README.md) |
 | 阶跃星辰 StepFun | github.com/stepfun-ai | [stepfun-articles/](stepfun-articles/)（11） | [stepfun-articles-zh/](stepfun-articles-zh/)（11） | 11 / 11 | [规范](TRANSLATION_GUIDE_AI_VENDORS.md) · [目录](stepfun-articles-zh/README.md) |
 | 蚂蚁 InclusionAI（Ling） | github.com/inclusionAI | [ling-articles/](ling-articles/)（17） | [ling-articles-zh/](ling-articles-zh/)（16） | 17 / 16 | [规范](TRANSLATION_GUIDE_AI_VENDORS.md) · [目录](ling-articles-zh/README.md) |
-| xAI | x.ai/news（Wayback） | [xai-articles/](xai-articles/)（93） | [xai-articles-zh/](xai-articles-zh/)（93） | 93 / 93 | [规范](TRANSLATION_GUIDE_AI_VENDORS.md) · [目录](xai-articles-zh/README.md) |
+| xAI | x.ai/news（Wayback） | [xai-articles/](xai-articles/)（97） | [xai-articles-zh/](xai-articles-zh/)（93） | 97 / 93 | [规范](TRANSLATION_GUIDE_AI_VENDORS.md) · [目录](xai-articles-zh/README.md) |
 | Meta AI（FAIR） | ai.meta.com/blog（Wayback） | [meta-ai-articles/](meta-ai-articles/)（538） | [meta-ai-articles-zh/](meta-ai-articles-zh/)（538） | 538 / 538 | [规范](TRANSLATION_GUIDE_AI_VENDORS.md) · [目录](meta-ai-articles-zh/README.md) |
 | Stanford CS329A 课程 | cs329a.stanford.edu | [cs329a-articles/](cs329a-articles/)（36） | [cs329a-articles-zh/](cs329a-articles-zh/)（36） | 36 / 36 | [规范](TRANSLATION_GUIDE_CS329A.md) · [目录](cs329a-articles-zh/README.md) |
 | Stanford MATH 289 课程 | web.stanford.edu/class/math289 | [math289-articles/](math289-articles/)（5） | [math289-articles-zh/](math289-articles-zh/)（5） | 5 / 5 | — · [目录](math289-articles-zh/README.md) |
