@@ -1,11 +1,10 @@
 # xAI 文章中文索引
 
 > x.ai/news（经 Wayback Machine 存档；直连受 Cloudflare 拦截）
-> 英文归档 `xai-articles/`（97 篇），中文 `xai-articles-zh/`（93 篇）。
+> 英文归档 `xai-articles/`（97 篇），中文 `xai-articles-zh/`（97 篇）。
 > 翻译规范：`TRANSLATION_GUIDE_AI_VENDORS.md`；arXiv 论文在 `papers/` 子目录（译文同样在 `*-zh/papers/`）。
 
-> ⚠️ 未翻译：4 篇
-| 篇数 | 97 EN → 93 ZH |
+| 篇数 | 97 EN → 97 ZH |
 |---|---|
 | ✅ 📝 | 2026-06-15 | Agent Dashboard in Grok Build | `posts/agent-dashboard.md` |
 | ✅ 📝 | 2026-05-06 | New Compute Partnership with Anthropic | `posts/anthropic-compute-partnership.md` |
@@ -35,13 +34,13 @@
 | ✅ 📝 | 2025-07-11 | grok-4 | `posts/grok-4.md` |
 | ✅ 📝 | 2026-06-17 | Grok on Amazon Bedrock | `posts/grok-amazon-bedrock.md` |
 | ✅ 📝 | 2026-07-16 | Automations in Grok | `posts/grok-automations.md` |
-| ❌ 📝 | 2026-11-02 | Introducing Grok Bot 1.0 | `posts/grok-bot-1-0.md` |
+| ✅ 📝 | 2026-11-02 | Introducing Grok Bot 1.0 | `posts/grok-bot-1-0.md` |
 | ✅ 📝 | 2026-08-29 | Grok Bot now works with X | `posts/grok-bot-and-x.md` |
 | ✅ 📝 | 2026-09-22 | How SpaceXAI is using Grok Bot to scale customer support | `posts/grok-bot-customer-support.md` |
 | ✅ 📝 | 2026-09-03 | Grok Bot for Enterprise | `posts/grok-bot-for-enterprise.md` |
 | ✅ 📝 | 2026-08-21 | Grok Bot is now included with more plans | `posts/grok-bot-more-plans.md` |
 | ✅ 📝 | 2026-09-04 | Setting Grok Bot loose on procurement | `posts/grok-bot-procurement.md` |
-| ❌ 📝 | 2026-10-27 | Your next sales teammate should be a Grok Bot | `posts/grok-bot-sales.md` |
+| ✅ 📝 | 2026-10-27 | Your next sales teammate should be a Grok Bot | `posts/grok-bot-sales.md` |
 | ✅ 📝 | 2026-05-29 | Grok Build 0.1 on API | `posts/grok-build-0-1.md` |
 | ✅ 📝 | 2026-05-14 | Introducing Grok BuildEarly Beta | `posts/grok-build-cli.md` |
 | ✅ 📝 | 2026-08-19 | Grok Build on web and mobile | `posts/grok-build-for-everyone.md` |
@@ -83,7 +82,7 @@
 | ✅ 📝 | 2026-09-18 | Introducing Grok Voice Transcribe 2.0 | `posts/grok-voice-transcribe-2.md` |
 | ✅ 📝 | 2026-06-15 | Use Grok in Warp | `posts/grok-warp.md` |
 | ✅ 📝 | 2025-03-14 | grok | `posts/grok.md` |
-| ❌ 📝 | 2026-10-20 | Using Grok Bot to detect and respond to incidents | `posts/incident-sweep.md` |
+| ✅ 📝 | 2026-10-20 | Using Grok Bot to detect and respond to incidents | `posts/incident-sweep.md` |
 | ✅ 📝 | 2026-07-20 | Grok for Excel | `posts/introducing-excel-addin.md` |
 | ✅ 📝 | 2026-06-22 | Introducing /goal | `posts/introducing-goal.md` |
 | ✅ 📝 | 2026-07-24 | Grok in Google Workspace | `posts/introducing-google-workspace-addon.md` |
@@ -94,7 +93,7 @@
 | ✅ 📝 | 2025-03-29 | model-card | `posts/model-card.md` |
 | ✅ 📝 | 2026-07-06 | 21 New Flagship Grok Voices | `posts/new-flagship-voices.md` |
 | ✅ 📝 | 2025-09-26 | onegov | `posts/onegov.md` |
-| ❌ 📝 | 2026-10-22 | Introducing the SpaceX Super Intelligence Partner Network | `posts/partnernetworkannouncement.md` |
+| ✅ 📝 | 2026-10-22 | Introducing the SpaceX Super Intelligence Partner Network | `posts/partnernetworkannouncement.md` |
 | ✅ 📝 | 2025-03-19 | Code editor & SDK | `posts/prompt-ide.md` |
 | ✅ 📝 | 2025-03-19 | series-b | `posts/series-b.md` |
 | ✅ 📝 | 2025-03-13 | series-c | `posts/series-c.md` |
