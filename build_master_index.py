@@ -251,6 +251,12 @@ def main() -> None:
             "guide": None, "readme": "haoailab-articles-zh/README.md",
             "note": "2026-11-16 建库：FastVideo/FastH3/ORA/UniServe 等博客全量归档+翻译",
         },
+        {
+            "name": "AI Engineer Code Summit 演讲", "site": "youtube.com/@aiengineer",
+            "en": "aiecs-articles", "zh": "aiecs-articles-zh",
+            "guide": None, "readme": "aiecs-articles-zh/README.md",
+            "note": "2026-11-17 建库：大会演讲字幕转写+全译（yt-dlp 代理拉字幕/音频，自动字幕修正 ASR 错词）",
+        },
     ]
 
     rows = ["| 来源 | 原文站点 | 英文存档 | 中文翻译 | 篇数 | 索引 |",

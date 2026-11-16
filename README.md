@@ -1,9 +1,9 @@
 # 优秀 AI / 技术博客文章归档与中文翻译
 
-收录 30 个高质量技术博客来源的全量文章归档与完整中文翻译
-（英文存档 `29` 源 + 中文原文 `1` 源；苏剑林博客为中文站点，仅归档）。
+收录 31 个高质量技术博客来源的全量文章归档与完整中文翻译
+（英文存档 `30` 源 + 中文原文 `1` 源；苏剑林博客为中文站点，仅归档）。
 
-> 累计：英文/原文归档 **7906** 篇，中文译文 **2780** 篇。
+> 累计：英文/原文归档 **7907** 篇，中文译文 **2781** 篇。
 > 每日自动同步：定时任务按 [DAILY_SYNC_SOP.md](DAILY_SYNC_SOP.md) 拉取各源新文章、归档并翻译，随后更新本索引并推送 GitHub。
 
 ## 项目总览
@@ -40,6 +40,7 @@
 | Harvard CS2680 现代 AI 系统 | cs2680.seas.harvard.edu | [cs2680-articles/](cs2680-articles/)（24） | [cs2680-articles-zh/](cs2680-articles-zh/)（24） | 24 / 24 | — · [目录](cs2680-articles-zh/README.md) |
 | SOSP 2026 录用论文 | sigops.org | [sosp2026-articles/](sosp2026-articles/)（1） | [sosp2026-articles-zh/](sosp2026-articles-zh/)（1） | 1 / 1 | — · [目录](sosp2026-articles-zh/README.md) |
 | Hao AI Lab @ UCSD | haoailab.com | [haoailab-articles/](haoailab-articles/)（10） | [haoailab-articles-zh/](haoailab-articles-zh/)（10） | 10 / 10 | — · [目录](haoailab-articles-zh/README.md) |
+| AI Engineer Code Summit 演讲 | youtube.com/@aiengineer | [aiecs-articles/](aiecs-articles/)（1） | [aiecs-articles-zh/](aiecs-articles-zh/)（1） | 1 / 1 | — · [目录](aiecs-articles-zh/README.md) |
 
 ## 说明
 
@@ -69,6 +70,7 @@
 - **Harvard CS2680 现代 AI 系统**：2026-11-16 建库：课程主页/政策/作业×5/期末项目/论文讨论 + 14 份讲义 PDF（570 页文本化）全译
 - **SOSP 2026 录用论文**：2026-11-16 建库：SOSP 2026 官方录用名单（论文标题保留英文）
 - **Hao AI Lab @ UCSD**：2026-11-16 建库：FastVideo/FastH3/ORA/UniServe 等博客全量归档+翻译
+- **AI Engineer Code Summit 演讲**：2026-11-17 建库：大会演讲字幕转写+全译（yt-dlp 代理拉字幕/音频，自动字幕修正 ASR 错词）
 
 - 三个 Google 来源（DeepMind / Gemini / Google Blog）另有合并详表索引：[google-articles-zh-README.md](google-articles-zh-README.md)
 - 翻译均为全文完整翻译，术语一致性由各 `TRANSLATION_GUIDE_*.md` 规范约束；公式保留原始 LaTeX，代码块不译
