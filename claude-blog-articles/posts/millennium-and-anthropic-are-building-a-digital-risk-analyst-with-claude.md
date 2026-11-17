@@ -1,0 +1,66 @@
+---
+title: "Millennium and Anthropic are building a digital risk analyst with Claude"
+date: 2026-08-06
+source: https://claude.com/resources/articles/millennium-and-anthropic-are-building-a-digital-risk-analyst-with-claude
+crawled: 2026-11-17
+---
+
+# Millennium and Anthropic are building a digital risk analyst with Claude
+
+* Category[Enterprise](/resources/enterprise-announcements)
+* ProductClaude Enterprise
+* DateAugust 6, 2026
+* Reading time4 min
+* ShareCopy link
+
+Anthropic is working with Millennium, one of the world's largest alternative investment management firms, to co-develop a digital risk analyst: an AI teammate to work alongside and under the supervision of the firm's risk managers to surface new risk insights and form opinions on risk exposure across asset classes.
+
+Claude and [Claude Code](https://claude.com/product/claude-code) are already used broadly across Millennium today - from trading desks and engineering to core business functions. Millennium’s digital risk analyst extends their use of Claude by helping risk managers expedite and enrich analysis of risk positions.
+
+## Evaluating financial risk with Claude
+
+Investment firms have spent decades using technology to improve risk measurement, moving from traditional assessments to more complex real-time scenario analysis. Millennium’s digital risk analyst is designed to tackle critical workflows, powered by Millennium’s proprietary data and Claude’s frontier intelligence.
+
+The digital risk analyst retains and recalls information over time, applying new reasoning capabilities to help explain daily risk changes. These findings are then validated and enriched by Millennium’s human risk managers.
+
+“At Millennium, we believe AI can help set a new bar for what our people can achieve,” said Vlad Torgovnik, Chief Information Officer, at Millennium. “Our work with Anthropic is a great example of this and shows how AI is driving innovation in core parts of our business while keeping human judgment at the center of decision making. We are excited to continue our work with an industry leader finding new ways AI can add value to our business.”
+
+## How Millennium employees use Claude
+
+Millennium was an early adopter of Claude and Claude Code. Employees use Claude Code to write software, build products, and improve workflows, including across many of Millennium's 340+ investment teams.
+
+The digital risk analyst provides secure, auditable analysis by logging its reasoning, testing its actions in sandboxed environments, and requiring human experts to evaluate and approve its decisions. Millennium's risk experts are building it with Anthropic's research and applied AI teams working alongside them in Millennium’s AI lab.
+
+Millennium is using its internal AI lab to continue pushing the frontier, pressure testing Anthropic's latest Claude models against ambitious use cases, and putting Claude to work innovating in a fast-paced environment.
+
+"Financial services requires AI that people can trust in complex, demanding environments,” said Belinda Neal, Managing Director, Financial Services, at Anthropic. “Millennium has been an early adopter of Claude and Claude Code, and our work with its risk teams will show how AI can inform the analysis that risk managers at Millennium make every day.”
+
+"Claude can reason through risk positions, explain daily changes, and carry what it learned into the next question,” said Peter Nolan, Head of Asset and Wealth Management, at Anthropic. “Millennium’s risk managers will use frontier intelligence to deliver automated recommendations with the goal of saving valuable time.”
+
+Learn more about [Claude for financial services](https://claude.com/solutions/financial-services?utm_source=google&utm_medium=pse_fins&utm_campaign=lgn_cl4w_us_fins&utm_content=&utm_term=claude%20financial%20services&utm_term=claude%20financial%20services&utm_campaign=B2B_ADIR_US_CL4W_SEA_FINS-k_LG_FINS&utm_source=adwords&utm_medium=ppc), or [contact our team](https://claude.com/contact-sales) to talk about what Claude can do inside your firm.
+
+## Related articles
+
+Explore more product news and best practices for teams building with Claude.
+
+[ArticleNov 12, 2026
+
+### J. Crew brings its signature approach to styling to life with Claude
+
+J.Crew's new Style Advisor uses Claude to offer a more personalized way to shop online, with complete looks instead of individual products.
+
+Claude Code](/resources/articles/j-crew-style-advisor-with-claude)[ArticleNov 9, 2026
+
+### JPMorganChase expands Claude Code to more employees across the firm
+
+Claude Code](/resources/articles/jpmorganchase-expands-claude-code)[ArticleOct 28, 2026
+
+### IDC brings Quanta into Claude and adopts Claude across the company
+
+IDC integrated Claude as part of its Quanta platform, and it has rolled Claude out across its own business
+
+Claude CoworkClaude Code1 more: Claude EnterpriseClaude Enterprise](/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company)[ArticleOct 21, 2026
+
+### HCLTech joins the Claude Partner Network as a Global Premier partner
+
+HCLTech will bring Claude into the solutions it provides for banks, hospitals, telecom companies, and manufacturers.](/resources/articles/hcltech-joins-claude-partner-network)
