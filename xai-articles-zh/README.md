@@ -1,10 +1,10 @@
 # xAI 文章中文索引
 
 > x.ai/news（经 Wayback Machine 存档；直连受 Cloudflare 拦截）
-> 英文归档 `xai-articles/`（97 篇），中文 `xai-articles-zh/`（97 篇）。
+> 英文归档 `xai-articles/`（98 篇），中文 `xai-articles-zh/`（98 篇）。
 > 翻译规范：`TRANSLATION_GUIDE_AI_VENDORS.md`；arXiv 论文在 `papers/` 子目录（译文同样在 `*-zh/papers/`）。
 
-| 篇数 | 97 EN → 97 ZH |
+| 篇数 | 98 EN → 98 ZH |
 |---|---|
 | ✅ 📝 | 2026-06-15 | Agent Dashboard in Grok Build | `posts/agent-dashboard.md` |
 | ✅ 📝 | 2026-05-06 | New Compute Partnership with Anthropic | `posts/anthropic-compute-partnership.md` |
@@ -35,6 +35,7 @@
 | ✅ 📝 | 2026-06-17 | Grok on Amazon Bedrock | `posts/grok-amazon-bedrock.md` |
 | ✅ 📝 | 2026-07-16 | Automations in Grok | `posts/grok-automations.md` |
 | ✅ 📝 | 2026-11-02 | Introducing Grok Bot 1.0 | `posts/grok-bot-1-0.md` |
+| ✅ 📝 | 2026-11-16 | Building an accounting team with Grok Bot | `posts/grok-bot-accounting.md` |
 | ✅ 📝 | 2026-08-29 | Grok Bot now works with X | `posts/grok-bot-and-x.md` |
 | ✅ 📝 | 2026-09-22 | How SpaceXAI is using Grok Bot to scale customer support | `posts/grok-bot-customer-support.md` |
 | ✅ 📝 | 2026-09-03 | Grok Bot for Enterprise | `posts/grok-bot-for-enterprise.md` |
